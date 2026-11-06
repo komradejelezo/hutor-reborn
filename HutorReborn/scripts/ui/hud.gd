@@ -1,4 +1,8 @@
 extends CanvasLayer
+@export var location_title: String = "Окраина Хутора"
+@export var location_subtitle: String = "Вечереет. Лес становится тише."
+@export var chapter_label: String = "I  ·  ВОЗВРАЩЕНИЕ"
+@export var pause_caption: String = "Окраина Хутора · этап 1"
 signal dismiss_requested
 signal resume_requested
 signal quit_requested
@@ -44,12 +48,12 @@ func _ready() -> void:
     left.add_theme_constant_override("separation", 3)
     root.add_child(left)
     left.add_child(label("Х У Т О Р   /   В О З Р О Ж Д Е Н И Е", 10, Color("acaa81")))
-    left.add_child(label("Окраина Хутора", 26, Color("e1d5af"), true))
-    left.add_child(label("Вечереет. Лес становится тише.", 11, Color("a5b1a2")))
+    left.add_child(label(location_title, 26, Color("e1d5af"), true))
+    left.add_child(label(location_subtitle, 11, Color("a5b1a2")))
     var right := VBoxContainer.new()
     right.position = Vector2(750, 26)
     root.add_child(right)
-    right.add_child(label("I  ·  ВОЗВРАЩЕНИЕ", 11, Color("c3b789")))
+    right.add_child(label(chapter_label, 11, Color("c3b789")))
     right.add_child(label("Ганс · путник", 12))
     var footer := label("W A S D / ↑ ↓ ← →   идти       E   осмотреть       Esc   пауза", 11)
     footer.position = Vector2(30, 507)
@@ -87,7 +91,7 @@ func _ready() -> void:
     menu.add_theme_constant_override("separation", 15)
     pause_panel.add_child(menu)
     menu.add_child(label("Тихая передышка", 22, Color("e5c989"), true))
-    menu.add_child(label("Окраина Хутора · этап 1", 12))
+    menu.add_child(label(pause_caption, 12))
     for text in ["Продолжить", "Выйти из игры"]:
         var button := Button.new()
         button.text = text

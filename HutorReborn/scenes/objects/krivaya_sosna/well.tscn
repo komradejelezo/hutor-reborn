@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/well.png" id="1_rh1fb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rrkxc"]
+size = Vector2(57, 40)
+
+[node name="Well" type="Node2D" unique_id=664876511]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=437473061]
+texture_filter = 1
+texture = ExtResource("1_rh1fb")
+centered = false
+offset = Vector2(-36, -77)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=354033843]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=1435391208]
+position = Vector2(0, -23)
+shape = SubResource("RectangleShape2D_rrkxc")

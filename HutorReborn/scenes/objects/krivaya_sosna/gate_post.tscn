@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/gate_post.png" id="1_4syvk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_51y6n"]
+size = Vector2(20, 15)
+
+[node name="GatePost" type="Node2D" unique_id=377051660]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=1363340966]
+texture_filter = 1
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("1_4syvk")
+centered = false
+offset = Vector2(-20, -85)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1203733859]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=1181719251]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_51y6n")

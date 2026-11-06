@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/fence_v.png" id="1_ikn8o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ie03w"]
+size = Vector2(12, 80)
+
+[node name="FenceV" type="Node2D" unique_id=2084695898]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=323817653]
+texture_filter = 1
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_ikn8o")
+centered = false
+offset = Vector2(-56, -353)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1110366018]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=139910103]
+position = Vector2(0, -40)
+shape = SubResource("RectangleShape2D_ie03w")

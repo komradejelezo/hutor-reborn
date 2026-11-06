@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" path="res://shaders/vegetation.gdshader" id="1_dyeij"]
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/flowers.png" id="2_kxvt1"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k6tq0"]
+shader = ExtResource("1_dyeij")
+shader_parameter/strength = 1.0
+shader_parameter/speed = 0.7
+
+[node name="Flowers" type="Node2D" unique_id=2077095002]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=775355657 groups=["wind_plants"]]
+texture_filter = 1
+material = SubResource("ShaderMaterial_k6tq0")
+scale = Vector2(0.65, 0.65)
+texture = ExtResource("2_kxvt1")
+centered = false
+offset = Vector2(-23.5, -49)

@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/bench.png" id="1_ejsjk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7d0rt"]
+size = Vector2(63, 15)
+
+[node name="Bench" type="Node2D" unique_id=375308991]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=888625465]
+texture_filter = 1
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_ejsjk")
+centered = false
+offset = Vector2(-45.5, -38)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=602478983]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=332848992]
+position = Vector2(0, -7)
+shape = SubResource("RectangleShape2D_7d0rt")

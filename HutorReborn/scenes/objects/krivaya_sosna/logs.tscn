@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/logs.png" id="1_x1623"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uxlvj"]
+size = Vector2(44, 23)
+
+[node name="Logs" type="Node2D" unique_id=1431060883]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=905332511]
+texture_filter = 1
+texture = ExtResource("1_x1623")
+centered = false
+offset = Vector2(-32.5, -54)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1949685592]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=846523602]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_uxlvj")

@@ -1,0 +1,1136 @@
+[
+  {
+    "file": "Npc/Жена лесоруба.png",
+    "archive": "1.zip",
+    "bytes": 2025842,
+    "sha256": "a243c9c5228f0919f9dab835ce08095b05dfd3278585d5844cbffeb08c8a8328",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 0,
+    "project_path": "assets/npc/stage2/Npc/Жена лесоруба.png"
+  },
+  {
+    "file": "Npc/Жена трактирщика.png",
+    "archive": "1.zip",
+    "bytes": 1872987,
+    "sha256": "0c32a7eaeb773e659e769a858503b38a64a99a614a8a7e9ac0b31aae2092e924",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 1,
+    "project_path": "assets/npc/stage2/Npc/Жена трактирщика.png"
+  },
+  {
+    "file": "Npc/Лесоруб.png",
+    "archive": "1.zip",
+    "bytes": 2070069,
+    "sha256": "dd156ad4e55bbf2f2e6a6c2fe7311f8a27a71bb136509616d11492c2b222f8c6",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 2,
+    "project_path": "assets/npc/stage2/Npc/Лесоруб.png"
+  },
+  {
+    "file": "Npc/Мальчик.png",
+    "archive": "1.zip",
+    "bytes": 1860438,
+    "sha256": "3beaee229cc6a0555b19a77ad52e4a5ecf651e28e180d3e4c0b3477687cf5def",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 3,
+    "project_path": "assets/npc/stage2/Npc/Мальчик.png"
+  },
+  {
+    "file": "Npc/Путник.png",
+    "archive": "1.zip",
+    "bytes": 2396374,
+    "sha256": "2349e106bddf6a742fb513cd00a8e43da7e458fd0a6e9b761de51eb96e992243",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 4,
+    "project_path": "assets/npc/stage2/Npc/Путник.png"
+  },
+  {
+    "file": "Npc/Старик.png",
+    "archive": "1.zip",
+    "bytes": 2006224,
+    "sha256": "2f1aa43a6da0d068e202597f2494b46aa5f8449fb3dbc80db15d1b415373aca9",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 5,
+    "project_path": "assets/npc/stage2/Npc/Старик.png"
+  },
+  {
+    "file": "Npc/Трактирщик.png",
+    "archive": "1.zip",
+    "bytes": 1760222,
+    "sha256": "2caf66fba25059302b5cfd5e0efeb55b22ce8bfe175fa0cdd3edb752b328ec1e",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 6,
+    "project_path": "assets/npc/stage2/Npc/Трактирщик.png"
+  },
+  {
+    "file": "Сын дровосека/Sprite-0001.png",
+    "archive": "2.zip",
+    "bytes": 258725,
+    "sha256": "45cb3d366fd4dc7d9ba1195b9244418a5b69a29b8af194d8b742c8844a10a6e0",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 7,
+    "project_path": "assets/npc/stage2/Сын дровосека/Sprite-0001.png"
+  },
+  {
+    "file": "Сын дровосека/Sprite-0002.png",
+    "archive": "2.zip",
+    "bytes": 236533,
+    "sha256": "eb687f86ab7f3c7498def8580aa25690fb1fd6d212f04d8653548507d91c2f15",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 8,
+    "project_path": "assets/npc/stage2/Сын дровосека/Sprite-0002.png"
+  },
+  {
+    "file": "Сын дровосека/Sprite-0007.png",
+    "archive": "2.zip",
+    "bytes": 278537,
+    "sha256": "2c873d10160fb1ee06833ffe90ec636e4ec95dcf4697d7611d757cd2f521b555",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 9,
+    "project_path": "assets/npc/stage2/Сын дровосека/Sprite-0007.png"
+  },
+  {
+    "file": "Сын дровосека/Sprite-0010.png",
+    "archive": "2.zip",
+    "bytes": 633595,
+    "sha256": "a0eccf15430b31b02e4350896aae3c71f775879c1f0bbf308ee934769e558853",
+    "size": [
+      4758,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 10,
+    "project_path": "assets/npc/stage2/Сын дровосека/Sprite-0010.png"
+  },
+  {
+    "file": "Сын дровосека/Sprite-0014.png",
+    "archive": "2.zip",
+    "bytes": 518390,
+    "sha256": "0b3d5160bc47fcc3954f02cd1c7c15b8c69802f8950bada5973a54ed3ad8c46f",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 11,
+    "project_path": "assets/npc/stage2/Сын дровосека/Sprite-0014.png"
+  },
+  {
+    "file": "Трактирщик/Sprite-0007.png",
+    "archive": "2.zip",
+    "bytes": 1572568,
+    "sha256": "40da308127cf1282b4aea088e8fdc2883d2e2e6d5d2001bb76287f154d510434",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 12,
+    "project_path": "assets/npc/stage2/Трактирщик/Sprite-0007.png"
+  },
+  {
+    "file": "Трактирщик/Sprite-0008.png",
+    "archive": "2.zip",
+    "bytes": 1420271,
+    "sha256": "2be88a85cfc73699af375daf0ef182f400ef2084285517c5221b9f11275179b4",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 13,
+    "project_path": "assets/npc/stage2/Трактирщик/Sprite-0008.png"
+  },
+  {
+    "file": "Шаги/idle.png",
+    "archive": "2.zip",
+    "bytes": 566739,
+    "sha256": "dd80f1f2bc19720e0dfd60f6e875ee14a878dc6ac0ca7891990d394ba363552a",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 14,
+    "project_path": "assets/characters/hans/source/idle.png"
+  },
+  {
+    "file": "Шаги/вверх.png",
+    "archive": "2.zip",
+    "bytes": 971954,
+    "sha256": "fd76ecdfa0e838a817c1190d0c4fe128714ded13d113420b07fa4471ebb7ed3f",
+    "size": [
+      4758,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 15,
+    "project_path": "assets/characters/hans/source/вверх.png"
+  },
+  {
+    "file": "Шаги/вниз.png",
+    "archive": "2.zip",
+    "bytes": 1381749,
+    "sha256": "2e488e5675b79bc6fbbdbb2981ca3ceb5cf4c0a96f2d7fe6f81d3b7472568982",
+    "size": [
+      4758,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 16,
+    "project_path": "assets/characters/hans/source/вниз.png"
+  },
+  {
+    "file": "Шаги/ходьба.png",
+    "archive": "2.zip",
+    "bytes": 3332776,
+    "sha256": "635c758bfba107a67fa541e4e10564f8ac406dbb282d170fa0c0b442092fbf5c",
+    "size": [
+      6344,
+      1291
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 17,
+    "project_path": "assets/characters/hans/source/ходьба.png"
+  },
+  {
+    "file": "Марта/Sprite-0002.png",
+    "archive": "2.zip",
+    "bytes": 1055195,
+    "sha256": "091ebfbe3d193e6b077e4ab97ebdb12dfc0a64bd1f31b9952402ebd7b51943a5",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 18,
+    "project_path": "assets/npc/stage2/Марта/Sprite-0002.png"
+  },
+  {
+    "file": "Марта/Sprite-0005.png",
+    "archive": "2.zip",
+    "bytes": 762972,
+    "sha256": "ce6414868d971fb22e89fcabe95060db1a5282d44cd8a32f0ee5c3d7b3a0ef8f",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 19,
+    "project_path": "assets/npc/stage2/Марта/Sprite-0005.png"
+  },
+  {
+    "file": "Марта/Sprite-0006.png",
+    "archive": "2.zip",
+    "bytes": 1438657,
+    "sha256": "0757d6128d943f3dcb041e2f67a4c59a89cf1bbc90e1d9843ccef4bd85de9e75",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 20,
+    "project_path": "assets/npc/stage2/Марта/Sprite-0006.png"
+  },
+  {
+    "file": "Марта/Sprite-0014.png",
+    "archive": "2.zip",
+    "bytes": 309236,
+    "sha256": "2b4b7ea9ccfe5c3110b1cf165c262f69766ce2efca9a85f6e7a9a58d6a5a0cb8",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 21,
+    "project_path": "assets/npc/stage2/Марта/Sprite-0014.png"
+  },
+  {
+    "file": "Марта/Sprite-0015.png",
+    "archive": "2.zip",
+    "bytes": 349211,
+    "sha256": "c8d76326c1c12334a41a7b58c376c3ec0f8bf272ded9d3b30b3e23f8cac0f24b",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 22,
+    "project_path": "assets/npc/stage2/Марта/Sprite-0015.png"
+  },
+  {
+    "file": "Марта/Sprite-0016.png",
+    "archive": "2.zip",
+    "bytes": 379013,
+    "sha256": "7f429ae220fafab1c82696e2407bc2ca57615b366295a649fb0cc04462a86024",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 23,
+    "project_path": "assets/npc/stage2/Марта/Sprite-0016.png"
+  },
+  {
+    "file": "Страрик/Sprite-0004.png",
+    "archive": "2.zip",
+    "bytes": 335519,
+    "sha256": "4601e57c350c1a9190a8e6fb8065ae7a01c616be3ac1a1b934556e4ddfc1580b",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 24,
+    "project_path": "assets/npc/stage2/Страрик/Sprite-0004.png"
+  },
+  {
+    "file": "Страрик/Sprite-0005.png",
+    "archive": "2.zip",
+    "bytes": 544024,
+    "sha256": "345694efe5c756d9fef2e856a41716fb3a62b748d9e6746ce52c7e072db441e8",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 25,
+    "project_path": "assets/npc/stage2/Страрик/Sprite-0005.png"
+  },
+  {
+    "file": "Страрик/Sprite-0007.png",
+    "archive": "2.zip",
+    "bytes": 804636,
+    "sha256": "0c5e53fa2c51c5e9a15a5f26337f29dc3eef5e6ecb8a4aeeb7f1542704a90c9f",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 26,
+    "project_path": "assets/npc/stage2/Страрик/Sprite-0007.png"
+  },
+  {
+    "file": "Страрик/Sprite-001.png",
+    "archive": "2.zip",
+    "bytes": 213792,
+    "sha256": "f5460881e006b45ae29666bbb49256ddea1fffeb4876b649ad51889340078850",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 27,
+    "project_path": "assets/npc/stage2/Страрик/Sprite-001.png"
+  },
+  {
+    "file": "Страрик/Sprite-0012.png",
+    "archive": "2.zip",
+    "bytes": 355937,
+    "sha256": "292ef84da269bc18648dd40e64a936e4652c626aaf59108f667b1b99c70a0196",
+    "size": [
+      793,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 28,
+    "project_path": "assets/npc/stage2/Страрик/Sprite-0012.png"
+  },
+  {
+    "file": "Страрик/Sprite-0013.png",
+    "archive": "2.zip",
+    "bytes": 579745,
+    "sha256": "d87d2709c31259dff8063ec2e2a2e4823e0a86a7f8dabe2613f85795b42f0543",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 29,
+    "project_path": "assets/npc/stage2/Страрик/Sprite-0013.png"
+  },
+  {
+    "file": "Ганс/Sprite-0001.png",
+    "archive": "3.zip",
+    "bytes": 1249574,
+    "sha256": "4442ce0b69edfa63241a3f1c4daf195c5ce351d47e832f2e05e13af3b5214e69",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 30,
+    "project_path": "assets/npc/stage2/Ганс/Sprite-0001.png"
+  },
+  {
+    "file": "Ганс/Sprite-0004.png",
+    "archive": "3.zip",
+    "bytes": 699146,
+    "sha256": "a819d990814491273d7d6135534563e28f46639d5769eefcb963e485f996682b",
+    "size": [
+      3965,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 31,
+    "project_path": "assets/npc/stage2/Ганс/Sprite-0004.png"
+  },
+  {
+    "file": "Ганс/Sprite-0008.png",
+    "archive": "3.zip",
+    "bytes": 339660,
+    "sha256": "8f024118b118a1f054a4bf8bd0f9e00b009f17c48812a738fb13d20ef15a680c",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 32,
+    "project_path": "assets/npc/stage2/Ганс/Sprite-0008.png"
+  },
+  {
+    "file": "Ганс/Sprite-0009.png",
+    "archive": "3.zip",
+    "bytes": 887807,
+    "sha256": "38653058cf459aff2fd6053ae8ae9ea90e2a6b89f8d05b09c03797efb588463e",
+    "size": [
+      3965,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 33,
+    "project_path": "assets/npc/stage2/Ганс/Sprite-0009.png"
+  },
+  {
+    "file": "Ганс/Sprite-0010.png",
+    "archive": "3.zip",
+    "bytes": 187205,
+    "sha256": "5dfbfc7a8c8b984b7700e3f856f45295c860ebd702d9532de43ba188043fc1b9",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 34,
+    "project_path": "assets/npc/stage2/Ганс/Sprite-0010.png"
+  },
+  {
+    "file": "Дровосек/Sprite-0005.png",
+    "archive": "3.zip",
+    "bytes": 1498796,
+    "sha256": "5bf164d4ea4ed1f42e7e7167a9ff78dffb87fb4ec400116189daccc7d3689834",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 35,
+    "project_path": "assets/npc/stage2/Дровосек/Sprite-0005.png"
+  },
+  {
+    "file": "Дровосек/Sprite-0006.png",
+    "archive": "3.zip",
+    "bytes": 827529,
+    "sha256": "8c22bcf693e440ca838d2474e90f49162b279766e818345ecfeb025406c6c489",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 36,
+    "project_path": "assets/npc/stage2/Дровосек/Sprite-0006.png"
+  },
+  {
+    "file": "Дровосек/Sprite-00101.png",
+    "archive": "3.zip",
+    "bytes": 995499,
+    "sha256": "ac6f3db04efa5856eba654e3fe122f9499a662aaa5256213b2f13313149b9ca4",
+    "size": [
+      4758,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 37,
+    "project_path": "assets/npc/stage2/Дровосек/Sprite-00101.png"
+  },
+  {
+    "file": "Дровосек/Sprite-0011.png",
+    "archive": "3.zip",
+    "bytes": 281303,
+    "sha256": "d592f33e7085e29a74ed9d348e113be2cb95a80e9f3336be7276827b74dc200c",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 38,
+    "project_path": "assets/npc/stage2/Дровосек/Sprite-0011.png"
+  },
+  {
+    "file": "Дровосек/Sprite-ар0.png",
+    "archive": "3.zip",
+    "bytes": 1490442,
+    "sha256": "8f9d468d84e44f094449545a424891757ec08c3e959c7d992649151a5aa84396",
+    "size": [
+      4758,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 39,
+    "project_path": "assets/npc/stage2/Дровосек/Sprite-ар0.png"
+  },
+  {
+    "file": "Жена дровосека/Sprite-0001.png",
+    "archive": "3.zip",
+    "bytes": 491621,
+    "sha256": "bd96074b6c6c9806133b7b84ad2e96efdc6bedebc27f5351f6de6833d52ab89c",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 40,
+    "project_path": "assets/npc/stage2/Жена дровосека/Sprite-0001.png"
+  },
+  {
+    "file": "Жена дровосека/Sprite-0002.png",
+    "archive": "3.zip",
+    "bytes": 570818,
+    "sha256": "102be5cff026f8f1c64a5b5a5d94d64609091c956da92370ed36a238835fa51a",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 41,
+    "project_path": "assets/npc/stage2/Жена дровосека/Sprite-0002.png"
+  },
+  {
+    "file": "Жена дровосека/Sprite-0003.png",
+    "archive": "3.zip",
+    "bytes": 574522,
+    "sha256": "13611d4d0cb7610f106e01b87a331428df93b95041e225f87a1020663b07e826",
+    "size": [
+      1586,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 42,
+    "project_path": "assets/npc/stage2/Жена дровосека/Sprite-0003.png"
+  },
+  {
+    "file": "Жена дровосека/Sprite-0004.png",
+    "archive": "3.zip",
+    "bytes": 1035300,
+    "sha256": "baa35ab7759b8e64abb9e7d25ffbc48e5a9ad91db085fa1f30da5b75029886cd",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 43,
+    "project_path": "assets/npc/stage2/Жена дровосека/Sprite-0004.png"
+  },
+  {
+    "file": "Жена дровосека/Sprite-0010.png",
+    "archive": "3.zip",
+    "bytes": 1770258,
+    "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+    "size": [
+      7137,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 44,
+    "project_path": "assets/npc/stage2/Жена дровосека/Sprite-0010.png"
+  },
+  {
+    "file": "Жена дровосека/Sprite-0013.png",
+    "archive": "3.zip",
+    "bytes": 910805,
+    "sha256": "58c6f24a2f747daa6525f7f401025910e9ced1610a7ee1328e4f9def512e2782",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 45,
+    "project_path": "assets/npc/stage2/Жена дровосека/Sprite-0013.png"
+  },
+  {
+    "file": "Жена трактирщика/Sprite-0009.png",
+    "archive": "3.zip",
+    "bytes": 389322,
+    "sha256": "72d6d672abae0a6e6c10a4c2da13ab90eb27416ec528def7c8b0109959b19ea4",
+    "size": [
+      2379,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 46,
+    "project_path": "assets/npc/stage2/Жена трактирщика/Sprite-0009.png"
+  },
+  {
+    "file": "Жена трактирщика/Sprite-0010.png",
+    "archive": "3.zip",
+    "bytes": 528107,
+    "sha256": "6f3e4755bb426519a43a2986f87293f9659d575257adba06f5a1f72f6a811412",
+    "size": [
+      3172,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 47,
+    "project_path": "assets/npc/stage2/Жена трактирщика/Sprite-0010.png"
+  },
+  {
+    "file": "заборы вертикаль 1.png",
+    "archive": "4.zip",
+    "bytes": 2193240,
+    "sha256": "05750c175213f6b7386219f3f9c31d4c7806dbdeeb4f59bd1fb5b17c590a919e",
+    "size": [
+      1181,
+      1331
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 48,
+    "project_path": "assets/environment/krivaya_sosna/source/заборы вертикаль 1.png"
+  },
+  {
+    "file": "заборы вертикаль 2.png",
+    "archive": "4.zip",
+    "bytes": 2300170,
+    "sha256": "72de29fb05a993e852dd8ee70b0170dbedb808f5f41f006919c7d946183c9149",
+    "size": [
+      1183,
+      1329
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 49,
+    "project_path": "assets/environment/krivaya_sosna/source/заборы вертикаль 2.png"
+  },
+  {
+    "file": "заборы горизонт.png",
+    "archive": "4.zip",
+    "bytes": 3068342,
+    "sha256": "67f9c145d44d41a0b8e605d3f166607f75c5fed87444affece99ac4a07c70675",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "id": 50,
+    "project_path": "assets/environment/krivaya_sosna/source/заборы горизонт.png"
+  },
+  {
+    "file": "карта.png",
+    "archive": "4.zip",
+    "bytes": 3851627,
+    "sha256": "86d4c80383a24ca291a15774ea0fe3c8fc121ee19d6279f4f500e6714f995c0b",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 51,
+    "project_path": "assets/environment/krivaya_sosna/source/карта.png"
+  },
+  {
+    "file": "кривая сосна.png",
+    "archive": "4.zip",
+    "bytes": 2291899,
+    "sha256": "3893ba632cde82ebe90e8bfd469ad40541e524b4c48724cbe49a5ca2b61ec0e7",
+    "size": [
+      1373,
+      1146
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 52,
+    "project_path": "assets/environment/krivaya_sosna/source/кривая сосна.png"
+  },
+  {
+    "file": "огород 1.png",
+    "archive": "4.zip",
+    "bytes": 2696062,
+    "sha256": "052d94ee857548ddf0178d0c9c72fee8286de3e3c6565a5cf39fd5e555a1bed1",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 53,
+    "project_path": "assets/environment/krivaya_sosna/source/огород 1.png"
+  },
+  {
+    "file": "огород 2.png",
+    "archive": "4.zip",
+    "bytes": 3103965,
+    "sha256": "f17c7f3a29232b324ee5aa4dd9c71978e9866bb0db4c0ac557cfe03651f93a9e",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 54,
+    "project_path": "assets/environment/krivaya_sosna/source/огород 2.png"
+  },
+  {
+    "file": "пристройки.png",
+    "archive": "4.zip",
+    "bytes": 2517746,
+    "sha256": "77dc40ac7c6604b59978d497ec87618ce3a69f45d839073db8b95691f88742ab",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 55,
+    "project_path": "assets/environment/krivaya_sosna/source/пристройки.png"
+  },
+  {
+    "file": "Тайл природа.png",
+    "archive": "5.zip",
+    "bytes": 1671219,
+    "sha256": "f6d4aecca9159270a03ad71c7009e0fab4d0d47ee62710e8a2c6cc7d661d9651",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 56,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл природа.png"
+  },
+  {
+    "file": "Тайлы болото.png",
+    "archive": "5.zip",
+    "bytes": 1872101,
+    "sha256": "14d9f127372dca058a2c466b9f0627329c0a8e5bc6b1f4d1b415f0b6685b8978",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 57,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы болото.png"
+  },
+  {
+    "file": "Тайлы дворовые животные.png",
+    "archive": "5.zip",
+    "bytes": 2124715,
+    "sha256": "118953d0e48dcc51197b3cd7c5f6725eca3f804441d72ff36bc779720fefdb45",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 58,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы дворовые животные.png"
+  },
+  {
+    "file": "Пустой дом.png",
+    "archive": "5.zip",
+    "bytes": 1879859,
+    "sha256": "1c986fd3d1bfb5176fef6938b9eb62c65bbc91deafb8a86fc00e39d93bc54e2d",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 59,
+    "project_path": "assets/environment/krivaya_sosna/source/Пустой дом.png"
+  },
+  {
+    "file": "Тайл декор.png",
+    "archive": "5.zip",
+    "bytes": 2038777,
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 60,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл декор.png"
+  },
+  {
+    "file": "Тайл дома.png",
+    "archive": "5.zip",
+    "bytes": 2218134,
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 61,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл дома.png"
+  },
+  {
+    "file": "Тайл дороги 2.png",
+    "archive": "5.zip",
+    "bytes": 2196604,
+    "sha256": "9056cbf00142596d6ecb572bcffcb6f7484202444454e98ff6365b7475f04d5b",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 62,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл дороги 2.png"
+  },
+  {
+    "file": "Тайл дороги.png",
+    "archive": "5.zip",
+    "bytes": 1936209,
+    "sha256": "87cd369efe2ccd7f97c3cd51b4c22aa5f89629f44eb9e1ba4b0f6ac962eeb82e",
+    "size": [
+      1402,
+      1122
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 63,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл дороги.png"
+  },
+  {
+    "file": "Тайл земля, база.png",
+    "archive": "5.zip",
+    "bytes": 1715875,
+    "sha256": "7e292faa000527bde9948878f99ff1ab7bc14cc34ba7a932b1d4d054cbc0768e",
+    "size": [
+      1402,
+      1122
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 64,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл земля, база.png"
+  },
+  {
+    "file": "Тайл избы.png",
+    "archive": "5.zip",
+    "bytes": 2252746,
+    "sha256": "bff26804b36ef8175a4778a8d87d8fde1d5cfb30d25b2895c1f5501d1ea99444",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 65,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайл избы.png"
+  },
+  {
+    "file": "Тайлы животные и трава.png",
+    "archive": "6.zip",
+    "bytes": 2007804,
+    "sha256": "d9e95a4597206ecc4dadf19fe977c776bf088bfb8b55efaa80a47458cf92c50a",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 66,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы животные и трава.png"
+  },
+  {
+    "file": "Тайлы лесозаготовка.png",
+    "archive": "6.zip",
+    "bytes": 2000151,
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 67,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png"
+  },
+  {
+    "file": "Тайлы падальщики 1.png",
+    "archive": "6.zip",
+    "bytes": 1942985,
+    "sha256": "d913c34cf94a6faf34af3d070d286e295ddb6c0f8782af10fc3ff79eebddfbd4",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 68,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы падальщики 1.png"
+  },
+  {
+    "file": "Тайлы падальщики 2.png",
+    "archive": "6.zip",
+    "bytes": 1985693,
+    "sha256": "3e1d8a06cb7ca536511a9a2e09ee2550a38ad0cb7499fbfc8598da77d70b1237",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 69,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы падальщики 2.png"
+  },
+  {
+    "file": "Тайлы поваленные деревья.png",
+    "archive": "6.zip",
+    "bytes": 1914582,
+    "sha256": "f55e8d6ad1c6b93c970c7793b1e0918181e8c72cd7b0a7336ac7776949008605",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 70,
+    "project_path": "assets/environment/krivaya_sosna/source/Тайлы поваленные деревья.png"
+  },
+  {
+    "file": "трактир.png",
+    "archive": "6.zip",
+    "bytes": 2760371,
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha": null,
+    "id": 71,
+    "project_path": "assets/environment/krivaya_sosna/source/трактир.png"
+  }
+]

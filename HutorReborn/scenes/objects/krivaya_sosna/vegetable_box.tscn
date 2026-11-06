@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/vegetable_box.png" id="1_gp684"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y8bgv"]
+size = Vector2(27, 18)
+
+[node name="VegetableBox" type="Node2D" unique_id=434212239]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=1524936389]
+texture_filter = 1
+scale = Vector2(0.65, 0.65)
+texture = ExtResource("1_gp684")
+centered = false
+offset = Vector2(-26, -49)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1036349502]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=1269391864]
+position = Vector2(0, -9)
+shape = SubResource("RectangleShape2D_y8bgv")

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/cart.png" id="1_trmw5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l53vv"]
+size = Vector2(65, 38)
+
+[node name="Cart" type="Node2D" unique_id=1913591739]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=533772113]
+texture_filter = 1
+texture = ExtResource("1_trmw5")
+centered = false
+offset = Vector2(-44.5, -80)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=2137898547]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=353602320]
+position = Vector2(0, -20)
+shape = SubResource("RectangleShape2D_l53vv")

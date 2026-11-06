@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/gate_leaf.png" id="1_815tc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ed1wp"]
+size = Vector2(85, 11)
+
+[node name="GateLeaf" type="Node2D" unique_id=940821904]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=394689546]
+texture_filter = 1
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_815tc")
+centered = false
+offset = Vector2(-247, -178)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1051701936]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=300638503]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_ed1wp")

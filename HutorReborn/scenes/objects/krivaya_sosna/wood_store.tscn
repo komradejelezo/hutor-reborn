@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/wood_store.png" id="1_gfygp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yfpw4"]
+size = Vector2(85, 26)
+
+[node name="WoodStore" type="Node2D" unique_id=458176964]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=1262982421]
+texture_filter = 1
+texture = ExtResource("1_gfygp")
+centered = false
+offset = Vector2(-58, -85)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1341195987]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=589864581]
+position = Vector2(0, -13)
+shape = SubResource("RectangleShape2D_yfpw4")
