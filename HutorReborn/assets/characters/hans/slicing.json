@@ -1,0 +1,464 @@
+{
+  "canvas": [
+    960,
+    1344
+  ],
+  "pivot": [
+    480,
+    1280
+  ],
+  "cell_width": 793,
+  "walk_scale": 0.041666666666666664,
+  "side_idle_scale": 0.047619047619047616,
+  "sources": [
+    {
+      "file": "вниз.png",
+      "sha256": "2e488e5675b79bc6fbbdbb2981ca3ceb5cf4c0a96f2d7fe6f81d3b7472568982",
+      "size": [
+        4758,
+        1285
+      ],
+      "clip": "walk_down",
+      "count": 6,
+      "foot": [
+        416,
+        1252
+      ]
+    },
+    {
+      "file": "вверх.png",
+      "sha256": "fd76ecdfa0e838a817c1190d0c4fe128714ded13d113420b07fa4471ebb7ed3f",
+      "size": [
+        4758,
+        1285
+      ],
+      "clip": "walk_up",
+      "count": 6,
+      "foot": [
+        420,
+        1252
+      ]
+    },
+    {
+      "file": "ходьба.png",
+      "sha256": "635c758bfba107a67fa541e4e10564f8ac406dbb282d170fa0c0b442092fbf5c",
+      "size": [
+        6344,
+        1291
+      ],
+      "clip": "walk_right",
+      "count": 8,
+      "foot": [
+        440,
+        1252
+      ]
+    },
+    {
+      "file": "idle.png",
+      "sha256": "dd80f1f2bc19720e0dfd60f6e875ee14a878dc6ac0ca7891990d394ba363552a",
+      "size": [
+        2379,
+        1285
+      ],
+      "clip": "idle_right",
+      "count": 3,
+      "foot": [
+        397,
+        1270
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "file": "assets/characters/hans/frames/walk_down_00.png",
+      "source": "вниз.png",
+      "index": 0,
+      "source_box": [
+        0,
+        0,
+        793,
+        1285
+      ],
+      "paste_offset": [
+        64,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "d01ac6bb9050d8cad594704ed87bf7958bbdbb377f49fe3ccdfbcf766ced81cd"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_down_01.png",
+      "source": "вниз.png",
+      "index": 1,
+      "source_box": [
+        793,
+        0,
+        1586,
+        1285
+      ],
+      "paste_offset": [
+        64,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "02a61b125173a6de6e20db847d81492d06559dc8b40159527ccf840befcd975b"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_down_02.png",
+      "source": "вниз.png",
+      "index": 2,
+      "source_box": [
+        1586,
+        0,
+        2379,
+        1285
+      ],
+      "paste_offset": [
+        64,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "e41c7f819372960708c062e929b241fbc06034302a14984d5993c3fc0598e660"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_down_03.png",
+      "source": "вниз.png",
+      "index": 3,
+      "source_box": [
+        2379,
+        0,
+        3172,
+        1285
+      ],
+      "paste_offset": [
+        64,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "5de8af800370ae25da921a43e75d9c2f7173b743403ca8c957c4fe71ecf6cab5"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_down_04.png",
+      "source": "вниз.png",
+      "index": 4,
+      "source_box": [
+        3172,
+        0,
+        3965,
+        1285
+      ],
+      "paste_offset": [
+        64,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "bf8317ec4daead1544e202733b48d5a01b1eaaaacacb2874ceb47dde418f860f"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_down_05.png",
+      "source": "вниз.png",
+      "index": 5,
+      "source_box": [
+        3965,
+        0,
+        4758,
+        1285
+      ],
+      "paste_offset": [
+        64,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "630ba4d6955abe038484b83e68060fe8893ce2ac0f3a874f30524cd03fb35bed"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_up_00.png",
+      "source": "вверх.png",
+      "index": 0,
+      "source_box": [
+        0,
+        0,
+        793,
+        1285
+      ],
+      "paste_offset": [
+        60,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "347d878b47b206be810009d944e599ae0ac5d272354514cf6496446684105fd7"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_up_01.png",
+      "source": "вверх.png",
+      "index": 1,
+      "source_box": [
+        793,
+        0,
+        1586,
+        1285
+      ],
+      "paste_offset": [
+        60,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "61d478ffe78bbcaedc4353f6c01c7c8be6b86a6424322e1279d43e53c7b8c1f9"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_up_02.png",
+      "source": "вверх.png",
+      "index": 2,
+      "source_box": [
+        1586,
+        0,
+        2379,
+        1285
+      ],
+      "paste_offset": [
+        60,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "4624d993a066a55ea41bf6b7a8ce30d27b208b09d46fecc95b0bbad6b3d2ef0f"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_up_03.png",
+      "source": "вверх.png",
+      "index": 3,
+      "source_box": [
+        2379,
+        0,
+        3172,
+        1285
+      ],
+      "paste_offset": [
+        60,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "de79d7b5d0364e4db46f257f44984c4d5f87cd835ff29f1812bc3933e6f8c6d8"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_up_04.png",
+      "source": "вверх.png",
+      "index": 4,
+      "source_box": [
+        3172,
+        0,
+        3965,
+        1285
+      ],
+      "paste_offset": [
+        60,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "795ae3a97e1dc0c49f6d3ed47b9dad0d9c2b46545bcaa58cad9f0b5d3160b928"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_up_05.png",
+      "source": "вверх.png",
+      "index": 5,
+      "source_box": [
+        3965,
+        0,
+        4758,
+        1285
+      ],
+      "paste_offset": [
+        60,
+        28
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "02bcb5c3ec4277e3abea5b917cec1d0210cbb9fe1dbd833f5ccafa7c6130410f"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_00.png",
+      "source": "ходьба.png",
+      "index": 0,
+      "source_box": [
+        0,
+        0,
+        772,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 13066,
+      "sha256": "81474c60da88f3fbdb1539035a0737502925980b86810c63a346d92550ad7140"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_01.png",
+      "source": "ходьба.png",
+      "index": 1,
+      "source_box": [
+        793,
+        0,
+        1565,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 13018,
+      "sha256": "14c492e11589364baa48fa2f1bc2fe026703212fa0f10922098460308f4aac14"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_02.png",
+      "source": "ходьба.png",
+      "index": 2,
+      "source_box": [
+        1586,
+        0,
+        2379,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 9327,
+      "sha256": "83ef7e3ef3685cf24a5c719e9d032433186679bfb5c567ce9f35bd7016f14f07"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_03.png",
+      "source": "ходьба.png",
+      "index": 3,
+      "source_box": [
+        2379,
+        0,
+        3172,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 6909,
+      "sha256": "42f84e356927e4fb355a2c35b3e363175d0d7fde1c7da7c9bb0feced2697028d"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_04.png",
+      "source": "ходьба.png",
+      "index": 4,
+      "source_box": [
+        3172,
+        0,
+        3965,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 13148,
+      "sha256": "05b327259a1afc5ce088601c4ed2f78973fa61540ed9925708ba058ec21b5d78"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_05.png",
+      "source": "ходьба.png",
+      "index": 5,
+      "source_box": [
+        3965,
+        0,
+        4758,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 15907,
+      "sha256": "7b2d564b2de5f4cd0d2b4feb0e338bad162aac605a835038271747892a6a1bde"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_06.png",
+      "source": "ходьба.png",
+      "index": 6,
+      "source_box": [
+        4758,
+        0,
+        5551,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 9327,
+      "sha256": "83ef7e3ef3685cf24a5c719e9d032433186679bfb5c567ce9f35bd7016f14f07"
+    },
+    {
+      "file": "assets/characters/hans/frames/walk_right_07.png",
+      "source": "ходьба.png",
+      "index": 7,
+      "source_box": [
+        5551,
+        0,
+        6344,
+        1291
+      ],
+      "paste_offset": [
+        40,
+        28
+      ],
+      "guide_pixels_removed": 6909,
+      "sha256": "42f84e356927e4fb355a2c35b3e363175d0d7fde1c7da7c9bb0feced2697028d"
+    },
+    {
+      "file": "assets/characters/hans/frames/idle_right_00.png",
+      "source": "idle.png",
+      "index": 0,
+      "source_box": [
+        0,
+        0,
+        793,
+        1285
+      ],
+      "paste_offset": [
+        83,
+        10
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "35c3ab38f89498febc4c26289a75346d0fb10300944c2f1138ff8bbf024ee5e2"
+    },
+    {
+      "file": "assets/characters/hans/frames/idle_right_01.png",
+      "source": "idle.png",
+      "index": 1,
+      "source_box": [
+        793,
+        0,
+        1586,
+        1285
+      ],
+      "paste_offset": [
+        83,
+        10
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "5f0d48b75b5589c837775609713d8a6747ceb9bb3336861f1791fde6e716b3cc"
+    },
+    {
+      "file": "assets/characters/hans/frames/idle_right_02.png",
+      "source": "idle.png",
+      "index": 2,
+      "source_box": [
+        1586,
+        0,
+        2379,
+        1285
+      ],
+      "paste_offset": [
+        83,
+        10
+      ],
+      "guide_pixels_removed": 0,
+      "sha256": "973b44e063a9b067857fbf36cbd09b638cd0cbc229f330f1c14adaf6d914f1e1"
+    }
+  ]
+}

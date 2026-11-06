@@ -1,0 +1,140 @@
+=== pixels.log ===
+PASS: 27 source/frame checks — source RGBA pixels preserved, no crop bleed, aligned feet.
+
+
+=== animation-tests-final.log ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: supplied frame count: walk_up
+PASS: native frame canvas: walk_up 0
+PASS: native frame canvas: walk_up 1
+PASS: native frame canvas: walk_up 2
+PASS: native frame canvas: walk_up 3
+PASS: native frame canvas: walk_up 4
+PASS: native frame canvas: walk_up 5
+PASS: supplied frame count: walk_down
+PASS: native frame canvas: walk_down 0
+PASS: native frame canvas: walk_down 1
+PASS: native frame canvas: walk_down 2
+PASS: native frame canvas: walk_down 3
+PASS: native frame canvas: walk_down 4
+PASS: native frame canvas: walk_down 5
+PASS: supplied frame count: walk_right
+PASS: native frame canvas: walk_right 0
+PASS: native frame canvas: walk_right 1
+PASS: native frame canvas: walk_right 2
+PASS: native frame canvas: walk_right 3
+PASS: native frame canvas: walk_right 4
+PASS: native frame canvas: walk_right 5
+PASS: native frame canvas: walk_right 6
+PASS: native frame canvas: walk_right 7
+PASS: supplied frame count: walk_left
+PASS: native frame canvas: walk_left 0
+PASS: native frame canvas: walk_left 1
+PASS: native frame canvas: walk_left 2
+PASS: native frame canvas: walk_left 3
+PASS: native frame canvas: walk_left 4
+PASS: native frame canvas: walk_left 5
+PASS: native frame canvas: walk_left 6
+PASS: native frame canvas: walk_left 7
+PASS: supplied frame count: idle_up
+PASS: native frame canvas: idle_up 0
+PASS: supplied frame count: idle_down
+PASS: native frame canvas: idle_down 0
+PASS: supplied frame count: idle_right
+PASS: native frame canvas: idle_right 0
+PASS: native frame canvas: idle_right 1
+PASS: native frame canvas: idle_right 2
+PASS: supplied frame count: idle_left
+PASS: native frame canvas: idle_left 0
+PASS: native frame canvas: idle_left 1
+PASS: native frame canvas: idle_left 2
+PASS: left reuses original right textures: walk_
+PASS: left reuses original right textures: idle_
+PASS: up idle uses a static original frame
+PASS: down idle uses a static original frame
+PASS: explicit nearest filtering
+PASS: native foot pivot maps to the body origin
+PASS: walking direction: left
+PASS: walking mirror: left
+PASS: uniform walking scale: left
+PASS: walking visits every supplied frame: left
+PASS: idle keeps facing: left
+PASS: idle mirror: left
+PASS: uniform idle scale: left
+PASS: idle visits all three original frames: left
+PASS: walking direction: right
+PASS: walking mirror: right
+PASS: uniform walking scale: right
+PASS: walking visits every supplied frame: right
+PASS: idle keeps facing: right
+PASS: idle mirror: right
+PASS: uniform idle scale: right
+PASS: idle visits all three original frames: right
+PASS: walking direction: up
+PASS: walking mirror: up
+PASS: uniform walking scale: up
+PASS: walking visits every supplied frame: up
+PASS: idle keeps facing: up
+PASS: idle mirror: up
+PASS: uniform idle scale: up
+PASS: walking direction: down
+PASS: walking mirror: down
+PASS: uniform walking scale: down
+PASS: walking visits every supplied frame: down
+PASS: idle keeps facing: down
+PASS: idle mirror: down
+PASS: uniform idle scale: down
+PASS: movement speed and collision layers preserved
+PASS: original collision shape and anchor preserved
+RESULT: 82 passed, 0 failed
+
+
+=== regression-tests-final.log ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: three editable TileMapLayer nodes
+PASS: 1536 × 1152 terrain populated
+PASS: world and player collision layers
+PASS: four idle and four walking animations
+PASS: original walking frames: up
+PASS: original walking frames: down
+PASS: original walking frames: left
+PASS: original walking frames: right
+PASS: forward movement
+PASS: upward walking animation
+PASS: last facing direction retained at rest
+PASS: normalized diagonal movement
+PASS: house collision blocks passage at the doorway
+PASS: door interaction reachable outside collision
+PASS: E opens description and locks walking
+PASS: second E closes without immediately reopening
+PASS: reachable interaction: Старый колодец
+PASS: reachable interaction: Хозяйственный сарай
+PASS: reachable interaction: Тлеющий костёр
+PASS: reachable interaction: Дорога к хутору
+PASS: fence blocks crossing
+PASS: map boundary collision
+PASS: smooth camera and map limits
+PASS: camera viewport stays in bounds at (10.0, 10.0)
+PASS: camera viewport stays in bounds at (1526.0, 10.0)
+PASS: camera viewport stays in bounds at (10.0, 1142.0)
+PASS: camera viewport stays in bounds at (1526.0, 1142.0)
+PASS: solid collision: shed
+PASS: solid collision: well
+PASS: solid collision: pine_0
+PASS: solid collision: birch_0
+PASS: solid collision: rock
+PASS: solid collision: stump
+PASS: solid collision: barrel
+PASS: solid collision: logs
+PASS: solid collision: sign
+PASS: solid collision: lantern
+PASS: solid collision: fence_v
+PASS: five interaction components
+PASS: smoke, embers and atmospheric motes
+PASS: atmosphere toggle disables fog
+PASS: atmosphere toggle restores fog
+PASS: Esc pauses simulation
+PASS: Esc resumes simulation
+RESULT: 44 passed, 0 failed
