@@ -1,0 +1,7735 @@
+[
+  {
+    "name": "Garden100",
+    "parent": "Ground Objects",
+    "uid": "1577208462",
+    "ref": "3_bc5qu",
+    "kind": "garden",
+    "position": [
+      1040.0,
+      1615.0
+    ]
+  },
+  {
+    "name": "Garden104",
+    "parent": "Ground Objects",
+    "uid": "357682735",
+    "ref": "3_bc5qu",
+    "kind": "garden",
+    "position": [
+      1950.0,
+      1605.0
+    ]
+  },
+  {
+    "name": "Garden108",
+    "parent": "Ground Objects",
+    "uid": "909029489",
+    "ref": "3_bc5qu",
+    "kind": "garden",
+    "position": [
+      1125.0,
+      845.0
+    ]
+  },
+  {
+    "name": "Garden112",
+    "parent": "Ground Objects",
+    "uid": "1797021969",
+    "ref": "3_bc5qu",
+    "kind": "garden",
+    "position": [
+      1905.0,
+      845.0
+    ]
+  },
+  {
+    "name": "ElderHouse",
+    "parent": "Actors/Structures",
+    "uid": "534457160",
+    "ref": "4_lprqw",
+    "kind": "elder_house",
+    "position": [
+      912.0,
+      708.0
+    ]
+  },
+  {
+    "name": "WarmWindow5",
+    "parent": "Actors/Structures/ElderHouse",
+    "uid": "1420826554",
+    "ref": "7_skb30",
+    "kind": "warm_window",
+    "position": [
+      -43.0,
+      -74.0
+    ]
+  },
+  {
+    "name": "MillerHouse",
+    "parent": "Actors/Structures",
+    "uid": "288474656",
+    "ref": "11_nii1a",
+    "kind": "miller_house",
+    "position": [
+      1689.0,
+      708.0
+    ]
+  },
+  {
+    "name": "WarmWindow6",
+    "parent": "Actors/Structures/MillerHouse",
+    "uid": "1166404219",
+    "ref": "7_skb30",
+    "kind": "warm_window",
+    "position": [
+      -54.0,
+      -71.0
+    ]
+  },
+  {
+    "name": "CommonHouse",
+    "parent": "Actors/Structures",
+    "uid": "21049635",
+    "ref": "12_1el0c",
+    "kind": "common_house",
+    "position": [
+      1287.0,
+      1162.0
+    ]
+  },
+  {
+    "name": "WarmWindow8",
+    "parent": "Actors/Structures/CommonHouse",
+    "uid": "20273564",
+    "ref": "7_skb30",
+    "kind": "warm_window",
+    "position": [
+      -81.0,
+      -85.0
+    ]
+  },
+  {
+    "name": "WarmWindow9",
+    "parent": "Actors/Structures/CommonHouse",
+    "uid": "999837643",
+    "ref": "7_skb30",
+    "kind": "warm_window",
+    "position": [
+      44.0,
+      -85.0
+    ]
+  },
+  {
+    "name": "CarpenterHouse",
+    "parent": "Actors/Structures",
+    "uid": "848059464",
+    "ref": "13_jus10",
+    "kind": "carpenter_house",
+    "position": [
+      834.0,
+      1587.0
+    ]
+  },
+  {
+    "name": "WarmWindow7",
+    "parent": "Actors/Structures/CarpenterHouse",
+    "uid": "1271187269",
+    "ref": "7_skb30",
+    "kind": "warm_window",
+    "position": [
+      -51.0,
+      -68.0
+    ]
+  },
+  {
+    "name": "HerbalistHouse",
+    "parent": "Actors/Structures",
+    "uid": "220283374",
+    "ref": "14_3aur0",
+    "kind": "herbalist_house",
+    "position": [
+      1739.0,
+      1587.0
+    ]
+  },
+  {
+    "name": "WarmWindow10",
+    "parent": "Actors/Structures/HerbalistHouse",
+    "uid": "1966109668",
+    "ref": "7_skb30",
+    "kind": "warm_window",
+    "position": [
+      26.0,
+      -57.0
+    ]
+  },
+  {
+    "name": "CrookedPine",
+    "parent": "Actors/Nature",
+    "uid": "1492930246",
+    "ref": "15_rx7gh",
+    "kind": "crooked_pine",
+    "position": [
+      485.0,
+      885.0
+    ]
+  },
+  {
+    "name": "Shrub117",
+    "parent": "Actors/Nature",
+    "uid": "1544735500",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      1866.0,
+      1537.0
+    ]
+  },
+  {
+    "name": "MixedTree212",
+    "parent": "Actors/Nature",
+    "uid": "1221771324",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      232.0,
+      111.0
+    ]
+  },
+  {
+    "name": "Pine0213",
+    "parent": "Actors/Nature",
+    "uid": "1149127650",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      286.0,
+      120.0
+    ]
+  },
+  {
+    "name": "Pine0214",
+    "parent": "Actors/Nature",
+    "uid": "74814501",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      351.0,
+      130.0
+    ]
+  },
+  {
+    "name": "Pine0215",
+    "parent": "Actors/Nature",
+    "uid": "622686525",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      584.0,
+      133.0
+    ]
+  },
+  {
+    "name": "Pine2216",
+    "parent": "Actors/Nature",
+    "uid": "1775209967",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      637.0,
+      128.0
+    ]
+  },
+  {
+    "name": "Pine3217",
+    "parent": "Actors/Nature",
+    "uid": "346597874",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      689.0,
+      146.0
+    ]
+  },
+  {
+    "name": "Pine0218",
+    "parent": "Actors/Nature",
+    "uid": "1180322502",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      801.0,
+      124.0
+    ]
+  },
+  {
+    "name": "Pine2219",
+    "parent": "Actors/Nature",
+    "uid": "1055733219",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      905.0,
+      148.0
+    ]
+  },
+  {
+    "name": "Pine3220",
+    "parent": "Actors/Nature",
+    "uid": "1288173531",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      984.0,
+      142.0
+    ]
+  },
+  {
+    "name": "Pine3221",
+    "parent": "Actors/Nature",
+    "uid": "1033325818",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1117.0,
+      127.0
+    ]
+  },
+  {
+    "name": "Pine1222",
+    "parent": "Actors/Nature",
+    "uid": "43441275",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1546.0,
+      133.0
+    ]
+  },
+  {
+    "name": "MixedTree223",
+    "parent": "Actors/Nature",
+    "uid": "762450772",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1620.0,
+      145.0
+    ]
+  },
+  {
+    "name": "Pine1224",
+    "parent": "Actors/Nature",
+    "uid": "1753190643",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1685.0,
+      121.0
+    ]
+  },
+  {
+    "name": "Pine0225",
+    "parent": "Actors/Nature",
+    "uid": "570848173",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1760.0,
+      133.0
+    ]
+  },
+  {
+    "name": "MixedTree226",
+    "parent": "Actors/Nature",
+    "uid": "895545744",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1828.0,
+      149.0
+    ]
+  },
+  {
+    "name": "Pine2227",
+    "parent": "Actors/Nature",
+    "uid": "1156117330",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1904.0,
+      124.0
+    ]
+  },
+  {
+    "name": "Pine3228",
+    "parent": "Actors/Nature",
+    "uid": "2134317908",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1978.0,
+      146.0
+    ]
+  },
+  {
+    "name": "Pine1229",
+    "parent": "Actors/Nature",
+    "uid": "425491465",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2046.0,
+      116.0
+    ]
+  },
+  {
+    "name": "Pine2230",
+    "parent": "Actors/Nature",
+    "uid": "824125885",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2184.0,
+      129.0
+    ]
+  },
+  {
+    "name": "Pine0231",
+    "parent": "Actors/Nature",
+    "uid": "981531486",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2340.0,
+      132.0
+    ]
+  },
+  {
+    "name": "Pine1232",
+    "parent": "Actors/Nature",
+    "uid": "1750420385",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2372.0,
+      120.0
+    ]
+  },
+  {
+    "name": "Pine0233",
+    "parent": "Actors/Nature",
+    "uid": "62951571",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2467.0,
+      144.0
+    ]
+  },
+  {
+    "name": "Pine0234",
+    "parent": "Actors/Nature",
+    "uid": "2021148588",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      74.0,
+      225.0
+    ]
+  },
+  {
+    "name": "Pine0235",
+    "parent": "Actors/Nature",
+    "uid": "1589561143",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      163.0,
+      201.0
+    ]
+  },
+  {
+    "name": "Pine3236",
+    "parent": "Actors/Nature",
+    "uid": "2112252885",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      200.0,
+      215.0
+    ]
+  },
+  {
+    "name": "MixedTree237",
+    "parent": "Actors/Nature",
+    "uid": "1858915549",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      295.0,
+      194.0
+    ]
+  },
+  {
+    "name": "Pine2238",
+    "parent": "Actors/Nature",
+    "uid": "742033004",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      373.0,
+      203.0
+    ]
+  },
+  {
+    "name": "Pine2239",
+    "parent": "Actors/Nature",
+    "uid": "1744040811",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      425.0,
+      195.0
+    ]
+  },
+  {
+    "name": "Pine1240",
+    "parent": "Actors/Nature",
+    "uid": "849660938",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      514.0,
+      193.0
+    ]
+  },
+  {
+    "name": "Pine2241",
+    "parent": "Actors/Nature",
+    "uid": "1551115198",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      574.0,
+      209.0
+    ]
+  },
+  {
+    "name": "Pine2242",
+    "parent": "Actors/Nature",
+    "uid": "152497733",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      765.0,
+      197.0
+    ]
+  },
+  {
+    "name": "Pine3243",
+    "parent": "Actors/Nature",
+    "uid": "2041029113",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      857.0,
+      197.0
+    ]
+  },
+  {
+    "name": "Pine3244",
+    "parent": "Actors/Nature",
+    "uid": "1624995034",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      916.0,
+      224.0
+    ]
+  },
+  {
+    "name": "Pine3245",
+    "parent": "Actors/Nature",
+    "uid": "1335910069",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      983.0,
+      187.0
+    ]
+  },
+  {
+    "name": "Pine0246",
+    "parent": "Actors/Nature",
+    "uid": "638191503",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1081.0,
+      187.0
+    ]
+  },
+  {
+    "name": "MixedTree247",
+    "parent": "Actors/Nature",
+    "uid": "356190447",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1182.0,
+      215.0
+    ]
+  },
+  {
+    "name": "Pine2248",
+    "parent": "Actors/Nature",
+    "uid": "248338377",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1533.0,
+      221.0
+    ]
+  },
+  {
+    "name": "Pine1249",
+    "parent": "Actors/Nature",
+    "uid": "1091949308",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1607.0,
+      198.0
+    ]
+  },
+  {
+    "name": "Pine0250",
+    "parent": "Actors/Nature",
+    "uid": "798584628",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1711.0,
+      225.0
+    ]
+  },
+  {
+    "name": "Pine3251",
+    "parent": "Actors/Nature",
+    "uid": "1086014043",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1846.0,
+      224.0
+    ]
+  },
+  {
+    "name": "Pine3252",
+    "parent": "Actors/Nature",
+    "uid": "303723590",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1880.0,
+      212.0
+    ]
+  },
+  {
+    "name": "Pine3253",
+    "parent": "Actors/Nature",
+    "uid": "704952749",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1963.0,
+      208.0
+    ]
+  },
+  {
+    "name": "Pine0254",
+    "parent": "Actors/Nature",
+    "uid": "462421458",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2057.0,
+      205.0
+    ]
+  },
+  {
+    "name": "Pine0255",
+    "parent": "Actors/Nature",
+    "uid": "1982098997",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2166.0,
+      193.0
+    ]
+  },
+  {
+    "name": "Pine1256",
+    "parent": "Actors/Nature",
+    "uid": "1846560138",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2244.0,
+      214.0
+    ]
+  },
+  {
+    "name": "Pine3257",
+    "parent": "Actors/Nature",
+    "uid": "1041762228",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2310.0,
+      207.0
+    ]
+  },
+  {
+    "name": "Pine1258",
+    "parent": "Actors/Nature",
+    "uid": "1206898832",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2482.0,
+      210.0
+    ]
+  },
+  {
+    "name": "Pine2259",
+    "parent": "Actors/Nature",
+    "uid": "898309604",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2539.0,
+      187.0
+    ]
+  },
+  {
+    "name": "Pine2260",
+    "parent": "Actors/Nature",
+    "uid": "599004339",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      73.0,
+      261.0
+    ]
+  },
+  {
+    "name": "Pine2261",
+    "parent": "Actors/Nature",
+    "uid": "936946474",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      151.0,
+      276.0
+    ]
+  },
+  {
+    "name": "Pine2262",
+    "parent": "Actors/Nature",
+    "uid": "1479437955",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      228.0,
+      287.0
+    ]
+  },
+  {
+    "name": "Pine2263",
+    "parent": "Actors/Nature",
+    "uid": "972171538",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      301.0,
+      270.0
+    ]
+  },
+  {
+    "name": "Pine1264",
+    "parent": "Actors/Nature",
+    "uid": "1033877159",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      378.0,
+      296.0
+    ]
+  },
+  {
+    "name": "Pine2265",
+    "parent": "Actors/Nature",
+    "uid": "1280791",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      424.0,
+      300.0
+    ]
+  },
+  {
+    "name": "Pine2266",
+    "parent": "Actors/Nature",
+    "uid": "1715226526",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      493.0,
+      289.0
+    ]
+  },
+  {
+    "name": "Pine0267",
+    "parent": "Actors/Nature",
+    "uid": "521442294",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      568.0,
+      265.0
+    ]
+  },
+  {
+    "name": "Pine1268",
+    "parent": "Actors/Nature",
+    "uid": "1693398387",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      662.0,
+      297.0
+    ]
+  },
+  {
+    "name": "Pine1269",
+    "parent": "Actors/Nature",
+    "uid": "1516364981",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      730.0,
+      271.0
+    ]
+  },
+  {
+    "name": "Pine1270",
+    "parent": "Actors/Nature",
+    "uid": "472204810",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      775.0,
+      276.0
+    ]
+  },
+  {
+    "name": "Pine2271",
+    "parent": "Actors/Nature",
+    "uid": "1993398050",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      863.0,
+      272.0
+    ]
+  },
+  {
+    "name": "Pine0272",
+    "parent": "Actors/Nature",
+    "uid": "1534620016",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      941.0,
+      297.0
+    ]
+  },
+  {
+    "name": "Pine0273",
+    "parent": "Actors/Nature",
+    "uid": "1239947661",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1004.0,
+      285.0
+    ]
+  },
+  {
+    "name": "Pine1274",
+    "parent": "Actors/Nature",
+    "uid": "1456275900",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1048.0,
+      263.0
+    ]
+  },
+  {
+    "name": "Pine0275",
+    "parent": "Actors/Nature",
+    "uid": "1324766163",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1118.0,
+      285.0
+    ]
+  },
+  {
+    "name": "Pine2276",
+    "parent": "Actors/Nature",
+    "uid": "2048617280",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1603.0,
+      261.0
+    ]
+  },
+  {
+    "name": "Pine1277",
+    "parent": "Actors/Nature",
+    "uid": "1801697055",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1711.0,
+      268.0
+    ]
+  },
+  {
+    "name": "MixedTree278",
+    "parent": "Actors/Nature",
+    "uid": "1091104567",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1831.0,
+      284.0
+    ]
+  },
+  {
+    "name": "MixedTree279",
+    "parent": "Actors/Nature",
+    "uid": "640603228",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1975.0,
+      280.0
+    ]
+  },
+  {
+    "name": "Pine0280",
+    "parent": "Actors/Nature",
+    "uid": "521584179",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2122.0,
+      296.0
+    ]
+  },
+  {
+    "name": "Pine1281",
+    "parent": "Actors/Nature",
+    "uid": "562300736",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2184.0,
+      284.0
+    ]
+  },
+  {
+    "name": "Pine1282",
+    "parent": "Actors/Nature",
+    "uid": "1725682041",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2307.0,
+      265.0
+    ]
+  },
+  {
+    "name": "MixedTree283",
+    "parent": "Actors/Nature",
+    "uid": "289009692",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2396.0,
+      275.0
+    ]
+  },
+  {
+    "name": "Pine3284",
+    "parent": "Actors/Nature",
+    "uid": "818987488",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2474.0,
+      272.0
+    ]
+  },
+  {
+    "name": "Pine1285",
+    "parent": "Actors/Nature",
+    "uid": "1012707988",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2528.0,
+      290.0
+    ]
+  },
+  {
+    "name": "Pine1286",
+    "parent": "Actors/Nature",
+    "uid": "910892415",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      93.0,
+      351.0
+    ]
+  },
+  {
+    "name": "Pine1287",
+    "parent": "Actors/Nature",
+    "uid": "1172264121",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      167.0,
+      343.0
+    ]
+  },
+  {
+    "name": "Pine0288",
+    "parent": "Actors/Nature",
+    "uid": "719085226",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      288.0,
+      342.0
+    ]
+  },
+  {
+    "name": "Pine1289",
+    "parent": "Actors/Nature",
+    "uid": "1367842682",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      419.0,
+      339.0
+    ]
+  },
+  {
+    "name": "Pine3290",
+    "parent": "Actors/Nature",
+    "uid": "146340737",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      513.0,
+      349.0
+    ]
+  },
+  {
+    "name": "Pine2291",
+    "parent": "Actors/Nature",
+    "uid": "1955017666",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      575.0,
+      372.0
+    ]
+  },
+  {
+    "name": "Pine3292",
+    "parent": "Actors/Nature",
+    "uid": "466578104",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      706.0,
+      373.0
+    ]
+  },
+  {
+    "name": "MixedTree293",
+    "parent": "Actors/Nature",
+    "uid": "582204494",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      764.0,
+      362.0
+    ]
+  },
+  {
+    "name": "Pine1294",
+    "parent": "Actors/Nature",
+    "uid": "47105937",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      849.0,
+      344.0
+    ]
+  },
+  {
+    "name": "Pine1295",
+    "parent": "Actors/Nature",
+    "uid": "83751565",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      933.0,
+      371.0
+    ]
+  },
+  {
+    "name": "Pine2296",
+    "parent": "Actors/Nature",
+    "uid": "149370954",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1002.0,
+      360.0
+    ]
+  },
+  {
+    "name": "Pine2297",
+    "parent": "Actors/Nature",
+    "uid": "780864580",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1055.0,
+      361.0
+    ]
+  },
+  {
+    "name": "Pine2298",
+    "parent": "Actors/Nature",
+    "uid": "2040716553",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1137.0,
+      371.0
+    ]
+  },
+  {
+    "name": "Pine2299",
+    "parent": "Actors/Nature",
+    "uid": "45994552",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1178.0,
+      345.0
+    ]
+  },
+  {
+    "name": "Pine1300",
+    "parent": "Actors/Nature",
+    "uid": "1234929627",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1554.0,
+      346.0
+    ]
+  },
+  {
+    "name": "Pine3301",
+    "parent": "Actors/Nature",
+    "uid": "856751378",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1703.0,
+      343.0
+    ]
+  },
+  {
+    "name": "MixedTree302",
+    "parent": "Actors/Nature",
+    "uid": "1097933480",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1739.0,
+      342.0
+    ]
+  },
+  {
+    "name": "Pine2303",
+    "parent": "Actors/Nature",
+    "uid": "2104128924",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1814.0,
+      335.0
+    ]
+  },
+  {
+    "name": "MixedTree304",
+    "parent": "Actors/Nature",
+    "uid": "1029927480",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1909.0,
+      356.0
+    ]
+  },
+  {
+    "name": "Pine1305",
+    "parent": "Actors/Nature",
+    "uid": "1665817556",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2024.0,
+      339.0
+    ]
+  },
+  {
+    "name": "Pine2306",
+    "parent": "Actors/Nature",
+    "uid": "1623157460",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2103.0,
+      374.0
+    ]
+  },
+  {
+    "name": "Pine2307",
+    "parent": "Actors/Nature",
+    "uid": "1336408180",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2180.0,
+      357.0
+    ]
+  },
+  {
+    "name": "MixedTree308",
+    "parent": "Actors/Nature",
+    "uid": "1198978694",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2261.0,
+      370.0
+    ]
+  },
+  {
+    "name": "Pine0309",
+    "parent": "Actors/Nature",
+    "uid": "121495407",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2300.0,
+      349.0
+    ]
+  },
+  {
+    "name": "MixedTree310",
+    "parent": "Actors/Nature",
+    "uid": "1772359826",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2396.0,
+      373.0
+    ]
+  },
+  {
+    "name": "Pine1311",
+    "parent": "Actors/Nature",
+    "uid": "1692905092",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2448.0,
+      374.0
+    ]
+  },
+  {
+    "name": "Pine1312",
+    "parent": "Actors/Nature",
+    "uid": "240459174",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2549.0,
+      352.0
+    ]
+  },
+  {
+    "name": "Pine1313",
+    "parent": "Actors/Nature",
+    "uid": "256056569",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      68.0,
+      441.0
+    ]
+  },
+  {
+    "name": "MixedTree314",
+    "parent": "Actors/Nature",
+    "uid": "1148882456",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      199.0,
+      426.0
+    ]
+  },
+  {
+    "name": "Pine2315",
+    "parent": "Actors/Nature",
+    "uid": "1348881861",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      371.0,
+      427.0
+    ]
+  },
+  {
+    "name": "Pine1316",
+    "parent": "Actors/Nature",
+    "uid": "763685014",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      423.0,
+      419.0
+    ]
+  },
+  {
+    "name": "MixedTree317",
+    "parent": "Actors/Nature",
+    "uid": "1059161167",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      517.0,
+      432.0
+    ]
+  },
+  {
+    "name": "Pine2318",
+    "parent": "Actors/Nature",
+    "uid": "2020113380",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      566.0,
+      411.0
+    ]
+  },
+  {
+    "name": "Pine1319",
+    "parent": "Actors/Nature",
+    "uid": "1550831787",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      788.0,
+      443.0
+    ]
+  },
+  {
+    "name": "MixedTree320",
+    "parent": "Actors/Nature",
+    "uid": "2007949910",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      832.0,
+      448.0
+    ]
+  },
+  {
+    "name": "MixedTree321",
+    "parent": "Actors/Nature",
+    "uid": "1011167109",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      923.0,
+      441.0
+    ]
+  },
+  {
+    "name": "Pine2322",
+    "parent": "Actors/Nature",
+    "uid": "292469356",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1005.0,
+      420.0
+    ]
+  },
+  {
+    "name": "Pine3323",
+    "parent": "Actors/Nature",
+    "uid": "1888517691",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1044.0,
+      443.0
+    ]
+  },
+  {
+    "name": "MixedTree324",
+    "parent": "Actors/Nature",
+    "uid": "2100308901",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1140.0,
+      431.0
+    ]
+  },
+  {
+    "name": "Pine3325",
+    "parent": "Actors/Nature",
+    "uid": "204844119",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1193.0,
+      426.0
+    ]
+  },
+  {
+    "name": "Pine0326",
+    "parent": "Actors/Nature",
+    "uid": "581701457",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1253.0,
+      447.0
+    ]
+  },
+  {
+    "name": "Pine2327",
+    "parent": "Actors/Nature",
+    "uid": "2143105708",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1502.0,
+      428.0
+    ]
+  },
+  {
+    "name": "Pine3328",
+    "parent": "Actors/Nature",
+    "uid": "826409017",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1572.0,
+      412.0
+    ]
+  },
+  {
+    "name": "Pine1329",
+    "parent": "Actors/Nature",
+    "uid": "105534415",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1600.0,
+      414.0
+    ]
+  },
+  {
+    "name": "Pine1330",
+    "parent": "Actors/Nature",
+    "uid": "24864726",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1824.0,
+      414.0
+    ]
+  },
+  {
+    "name": "Pine1331",
+    "parent": "Actors/Nature",
+    "uid": "1262458517",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2047.0,
+      429.0
+    ]
+  },
+  {
+    "name": "Pine0332",
+    "parent": "Actors/Nature",
+    "uid": "189379515",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2096.0,
+      419.0
+    ]
+  },
+  {
+    "name": "Pine3333",
+    "parent": "Actors/Nature",
+    "uid": "192698907",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2200.0,
+      415.0
+    ]
+  },
+  {
+    "name": "MixedTree334",
+    "parent": "Actors/Nature",
+    "uid": "1392321664",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2261.0,
+      431.0
+    ]
+  },
+  {
+    "name": "Pine1335",
+    "parent": "Actors/Nature",
+    "uid": "1890379058",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2298.0,
+      412.0
+    ]
+  },
+  {
+    "name": "Pine1336",
+    "parent": "Actors/Nature",
+    "uid": "1889737665",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2407.0,
+      437.0
+    ]
+  },
+  {
+    "name": "MixedTree337",
+    "parent": "Actors/Nature",
+    "uid": "1116648142",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2450.0,
+      428.0
+    ]
+  },
+  {
+    "name": "MixedTree338",
+    "parent": "Actors/Nature",
+    "uid": "1337016441",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2548.0,
+      444.0
+    ]
+  },
+  {
+    "name": "Pine0339",
+    "parent": "Actors/Nature",
+    "uid": "1583615221",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      95.0,
+      516.0
+    ]
+  },
+  {
+    "name": "Pine1340",
+    "parent": "Actors/Nature",
+    "uid": "1586014238",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      151.0,
+      523.0
+    ]
+  },
+  {
+    "name": "Pine0341",
+    "parent": "Actors/Nature",
+    "uid": "322138263",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      235.0,
+      521.0
+    ]
+  },
+  {
+    "name": "Pine1342",
+    "parent": "Actors/Nature",
+    "uid": "1915783250",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      276.0,
+      519.0
+    ]
+  },
+  {
+    "name": "Pine1343",
+    "parent": "Actors/Nature",
+    "uid": "1852528251",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2240.0,
+      499.0
+    ]
+  },
+  {
+    "name": "Pine0344",
+    "parent": "Actors/Nature",
+    "uid": "1866372907",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2299.0,
+      515.0
+    ]
+  },
+  {
+    "name": "Pine0345",
+    "parent": "Actors/Nature",
+    "uid": "1277708807",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2547.0,
+      518.0
+    ]
+  },
+  {
+    "name": "Pine2346",
+    "parent": "Actors/Nature",
+    "uid": "656532830",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      95.0,
+      574.0
+    ]
+  },
+  {
+    "name": "MixedTree347",
+    "parent": "Actors/Nature",
+    "uid": "2077206946",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      214.0,
+      589.0
+    ]
+  },
+  {
+    "name": "Pine2348",
+    "parent": "Actors/Nature",
+    "uid": "1888640130",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      292.0,
+      577.0
+    ]
+  },
+  {
+    "name": "Pine1349",
+    "parent": "Actors/Nature",
+    "uid": "1996495892",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2328.0,
+      560.0
+    ]
+  },
+  {
+    "name": "Pine2350",
+    "parent": "Actors/Nature",
+    "uid": "1714398218",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2399.0,
+      583.0
+    ]
+  },
+  {
+    "name": "Pine2351",
+    "parent": "Actors/Nature",
+    "uid": "1622646292",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2445.0,
+      561.0
+    ]
+  },
+  {
+    "name": "Pine2352",
+    "parent": "Actors/Nature",
+    "uid": "454625118",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2539.0,
+      597.0
+    ]
+  },
+  {
+    "name": "Pine1353",
+    "parent": "Actors/Nature",
+    "uid": "601615699",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      60.0,
+      665.0
+    ]
+  },
+  {
+    "name": "Pine3354",
+    "parent": "Actors/Nature",
+    "uid": "1988218631",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      146.0,
+      639.0
+    ]
+  },
+  {
+    "name": "MixedTree355",
+    "parent": "Actors/Nature",
+    "uid": "462988175",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      227.0,
+      637.0
+    ]
+  },
+  {
+    "name": "Pine0356",
+    "parent": "Actors/Nature",
+    "uid": "1783517023",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      305.0,
+      645.0
+    ]
+  },
+  {
+    "name": "Pine1357",
+    "parent": "Actors/Nature",
+    "uid": "2115560403",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2254.0,
+      660.0
+    ]
+  },
+  {
+    "name": "Pine3358",
+    "parent": "Actors/Nature",
+    "uid": "1913063614",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2298.0,
+      648.0
+    ]
+  },
+  {
+    "name": "MixedTree359",
+    "parent": "Actors/Nature",
+    "uid": "2035380281",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2382.0,
+      663.0
+    ]
+  },
+  {
+    "name": "Pine1360",
+    "parent": "Actors/Nature",
+    "uid": "967220063",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2542.0,
+      661.0
+    ]
+  },
+  {
+    "name": "MixedTree361",
+    "parent": "Actors/Nature",
+    "uid": "1811965553",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      95.0,
+      741.0
+    ]
+  },
+  {
+    "name": "MixedTree362",
+    "parent": "Actors/Nature",
+    "uid": "956219117",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      230.0,
+      730.0
+    ]
+  },
+  {
+    "name": "Pine1363",
+    "parent": "Actors/Nature",
+    "uid": "24588100",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      284.0,
+      722.0
+    ]
+  },
+  {
+    "name": "Pine1364",
+    "parent": "Actors/Nature",
+    "uid": "1450230687",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2301.0,
+      711.0
+    ]
+  },
+  {
+    "name": "Pine2365",
+    "parent": "Actors/Nature",
+    "uid": "1446008247",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2382.0,
+      741.0
+    ]
+  },
+  {
+    "name": "Pine3366",
+    "parent": "Actors/Nature",
+    "uid": "617490046",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2468.0,
+      740.0
+    ]
+  },
+  {
+    "name": "Pine2367",
+    "parent": "Actors/Nature",
+    "uid": "1024730019",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2533.0,
+      721.0
+    ]
+  },
+  {
+    "name": "Pine2368",
+    "parent": "Actors/Nature",
+    "uid": "1696323540",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      102.0,
+      809.0
+    ]
+  },
+  {
+    "name": "Pine3369",
+    "parent": "Actors/Nature",
+    "uid": "1869647385",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      163.0,
+      786.0
+    ]
+  },
+  {
+    "name": "Pine1370",
+    "parent": "Actors/Nature",
+    "uid": "1366586753",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      227.0,
+      822.0
+    ]
+  },
+  {
+    "name": "Pine0371",
+    "parent": "Actors/Nature",
+    "uid": "707373992",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      286.0,
+      812.0
+    ]
+  },
+  {
+    "name": "MixedTree372",
+    "parent": "Actors/Nature",
+    "uid": "1354927129",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2254.0,
+      790.0
+    ]
+  },
+  {
+    "name": "Pine1373",
+    "parent": "Actors/Nature",
+    "uid": "1069672803",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2318.0,
+      809.0
+    ]
+  },
+  {
+    "name": "Pine1374",
+    "parent": "Actors/Nature",
+    "uid": "1484017955",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2378.0,
+      811.0
+    ]
+  },
+  {
+    "name": "Pine0375",
+    "parent": "Actors/Nature",
+    "uid": "103413855",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2481.0,
+      786.0
+    ]
+  },
+  {
+    "name": "Pine1376",
+    "parent": "Actors/Nature",
+    "uid": "1962047012",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2544.0,
+      785.0
+    ]
+  },
+  {
+    "name": "Pine3377",
+    "parent": "Actors/Nature",
+    "uid": "1134978126",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      79.0,
+      869.0
+    ]
+  },
+  {
+    "name": "Pine1378",
+    "parent": "Actors/Nature",
+    "uid": "1859210067",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      138.0,
+      871.0
+    ]
+  },
+  {
+    "name": "MixedTree379",
+    "parent": "Actors/Nature",
+    "uid": "1599266239",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      227.0,
+      894.0
+    ]
+  },
+  {
+    "name": "MixedTree380",
+    "parent": "Actors/Nature",
+    "uid": "780351185",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      277.0,
+      861.0
+    ]
+  },
+  {
+    "name": "MixedTree381",
+    "parent": "Actors/Nature",
+    "uid": "325745748",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2233.0,
+      863.0
+    ]
+  },
+  {
+    "name": "Pine0382",
+    "parent": "Actors/Nature",
+    "uid": "1908768902",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2405.0,
+      865.0
+    ]
+  },
+  {
+    "name": "Pine2383",
+    "parent": "Actors/Nature",
+    "uid": "341914741",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2464.0,
+      860.0
+    ]
+  },
+  {
+    "name": "Pine1384",
+    "parent": "Actors/Nature",
+    "uid": "1832194444",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      79.0,
+      973.0
+    ]
+  },
+  {
+    "name": "MixedTree385",
+    "parent": "Actors/Nature",
+    "uid": "1094899033",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      129.0,
+      949.0
+    ]
+  },
+  {
+    "name": "Pine1386",
+    "parent": "Actors/Nature",
+    "uid": "1915506284",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      200.0,
+      955.0
+    ]
+  },
+  {
+    "name": "Pine0387",
+    "parent": "Actors/Nature",
+    "uid": "1216671371",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      299.0,
+      968.0
+    ]
+  },
+  {
+    "name": "Pine0388",
+    "parent": "Actors/Nature",
+    "uid": "454816171",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2228.0,
+      950.0
+    ]
+  },
+  {
+    "name": "MixedTree389",
+    "parent": "Actors/Nature",
+    "uid": "125203830",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2310.0,
+      956.0
+    ]
+  },
+  {
+    "name": "Pine3390",
+    "parent": "Actors/Nature",
+    "uid": "1311600910",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2369.0,
+      966.0
+    ]
+  },
+  {
+    "name": "Pine1391",
+    "parent": "Actors/Nature",
+    "uid": "1978490921",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2480.0,
+      956.0
+    ]
+  },
+  {
+    "name": "Pine3392",
+    "parent": "Actors/Nature",
+    "uid": "303976967",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2521.0,
+      949.0
+    ]
+  },
+  {
+    "name": "MixedTree393",
+    "parent": "Actors/Nature",
+    "uid": "751539365",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      86.0,
+      1023.0
+    ]
+  },
+  {
+    "name": "Pine1394",
+    "parent": "Actors/Nature",
+    "uid": "1014742128",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      135.0,
+      1046.0
+    ]
+  },
+  {
+    "name": "Pine1395",
+    "parent": "Actors/Nature",
+    "uid": "198795715",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      198.0,
+      1021.0
+    ]
+  },
+  {
+    "name": "Pine0396",
+    "parent": "Actors/Nature",
+    "uid": "1683894092",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      292.0,
+      1028.0
+    ]
+  },
+  {
+    "name": "Pine0397",
+    "parent": "Actors/Nature",
+    "uid": "1828742016",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2270.0,
+      1034.0
+    ]
+  },
+  {
+    "name": "MixedTree398",
+    "parent": "Actors/Nature",
+    "uid": "1338087266",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2319.0,
+      1024.0
+    ]
+  },
+  {
+    "name": "MixedTree399",
+    "parent": "Actors/Nature",
+    "uid": "1242735619",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2394.0,
+      1042.0
+    ]
+  },
+  {
+    "name": "Pine3400",
+    "parent": "Actors/Nature",
+    "uid": "902547137",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2466.0,
+      1042.0
+    ]
+  },
+  {
+    "name": "Pine3401",
+    "parent": "Actors/Nature",
+    "uid": "688256177",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2548.0,
+      1030.0
+    ]
+  },
+  {
+    "name": "Pine2402",
+    "parent": "Actors/Nature",
+    "uid": "1811028389",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      91.0,
+      1110.0
+    ]
+  },
+  {
+    "name": "Pine2403",
+    "parent": "Actors/Nature",
+    "uid": "216996069",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      130.0,
+      1106.0
+    ]
+  },
+  {
+    "name": "MixedTree404",
+    "parent": "Actors/Nature",
+    "uid": "785343139",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      220.0,
+      1088.0
+    ]
+  },
+  {
+    "name": "Pine3405",
+    "parent": "Actors/Nature",
+    "uid": "943530183",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      307.0,
+      1118.0
+    ]
+  },
+  {
+    "name": "Pine1406",
+    "parent": "Actors/Nature",
+    "uid": "490250317",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2512.0,
+      1103.0
+    ]
+  },
+  {
+    "name": "Pine1407",
+    "parent": "Actors/Nature",
+    "uid": "1535843740",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      82.0,
+      1173.0
+    ]
+  },
+  {
+    "name": "Pine0408",
+    "parent": "Actors/Nature",
+    "uid": "318091301",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      273.0,
+      1181.0
+    ]
+  },
+  {
+    "name": "Pine0409",
+    "parent": "Actors/Nature",
+    "uid": "1907992221",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      75.0,
+      1249.0
+    ]
+  },
+  {
+    "name": "Pine1410",
+    "parent": "Actors/Nature",
+    "uid": "1307376647",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      154.0,
+      1269.0
+    ]
+  },
+  {
+    "name": "Pine3411",
+    "parent": "Actors/Nature",
+    "uid": "1195392408",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      280.0,
+      1253.0
+    ]
+  },
+  {
+    "name": "Pine3412",
+    "parent": "Actors/Nature",
+    "uid": "472859089",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      73.0,
+      1342.0
+    ]
+  },
+  {
+    "name": "Pine2413",
+    "parent": "Actors/Nature",
+    "uid": "598972319",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2312.0,
+      1321.0
+    ]
+  },
+  {
+    "name": "Pine3414",
+    "parent": "Actors/Nature",
+    "uid": "1191436632",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2235.0,
+      1385.0
+    ]
+  },
+  {
+    "name": "MixedTree415",
+    "parent": "Actors/Nature",
+    "uid": "1167874246",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2479.0,
+      1398.0
+    ]
+  },
+  {
+    "name": "Pine2416",
+    "parent": "Actors/Nature",
+    "uid": "2058572287",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2510.0,
+      1385.0
+    ]
+  },
+  {
+    "name": "Pine3417",
+    "parent": "Actors/Nature",
+    "uid": "1594753468",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2240.0,
+      1467.0
+    ]
+  },
+  {
+    "name": "Pine2418",
+    "parent": "Actors/Nature",
+    "uid": "1631596632",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2334.0,
+      1465.0
+    ]
+  },
+  {
+    "name": "MixedTree419",
+    "parent": "Actors/Nature",
+    "uid": "2093706793",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2384.0,
+      1493.0
+    ]
+  },
+  {
+    "name": "MixedTree420",
+    "parent": "Actors/Nature",
+    "uid": "1076276432",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2470.0,
+      1494.0
+    ]
+  },
+  {
+    "name": "Pine2421",
+    "parent": "Actors/Nature",
+    "uid": "1345109077",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2528.0,
+      1467.0
+    ]
+  },
+  {
+    "name": "Pine3422",
+    "parent": "Actors/Nature",
+    "uid": "1171096545",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      303.0,
+      1567.0
+    ]
+  },
+  {
+    "name": "Pine0423",
+    "parent": "Actors/Nature",
+    "uid": "906810317",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2246.0,
+      1551.0
+    ]
+  },
+  {
+    "name": "Pine2424",
+    "parent": "Actors/Nature",
+    "uid": "273518498",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2308.0,
+      1552.0
+    ]
+  },
+  {
+    "name": "Pine2425",
+    "parent": "Actors/Nature",
+    "uid": "1853640025",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2445.0,
+      1560.0
+    ]
+  },
+  {
+    "name": "MixedTree426",
+    "parent": "Actors/Nature",
+    "uid": "2058517367",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2534.0,
+      1545.0
+    ]
+  },
+  {
+    "name": "Pine0427",
+    "parent": "Actors/Nature",
+    "uid": "273529914",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2270.0,
+      1645.0
+    ]
+  },
+  {
+    "name": "Pine3428",
+    "parent": "Actors/Nature",
+    "uid": "337029528",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2340.0,
+      1629.0
+    ]
+  },
+  {
+    "name": "Pine1429",
+    "parent": "Actors/Nature",
+    "uid": "843505609",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2406.0,
+      1619.0
+    ]
+  },
+  {
+    "name": "Pine0430",
+    "parent": "Actors/Nature",
+    "uid": "1544690624",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2509.0,
+      1623.0
+    ]
+  },
+  {
+    "name": "Pine1431",
+    "parent": "Actors/Nature",
+    "uid": "1836206734",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      96.0,
+      1704.0
+    ]
+  },
+  {
+    "name": "Pine2432",
+    "parent": "Actors/Nature",
+    "uid": "696826767",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      142.0,
+      1686.0
+    ]
+  },
+  {
+    "name": "Pine0433",
+    "parent": "Actors/Nature",
+    "uid": "1879449844",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      214.0,
+      1685.0
+    ]
+  },
+  {
+    "name": "Pine0434",
+    "parent": "Actors/Nature",
+    "uid": "2055713306",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2252.0,
+      1717.0
+    ]
+  },
+  {
+    "name": "Pine2435",
+    "parent": "Actors/Nature",
+    "uid": "275195981",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2333.0,
+      1713.0
+    ]
+  },
+  {
+    "name": "Pine1436",
+    "parent": "Actors/Nature",
+    "uid": "139121437",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2400.0,
+      1701.0
+    ]
+  },
+  {
+    "name": "Pine3437",
+    "parent": "Actors/Nature",
+    "uid": "1680423726",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2444.0,
+      1695.0
+    ]
+  },
+  {
+    "name": "Pine0438",
+    "parent": "Actors/Nature",
+    "uid": "335382925",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2517.0,
+      1694.0
+    ]
+  },
+  {
+    "name": "MixedTree439",
+    "parent": "Actors/Nature",
+    "uid": "2058435472",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      61.0,
+      1768.0
+    ]
+  },
+  {
+    "name": "Pine2440",
+    "parent": "Actors/Nature",
+    "uid": "497822837",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      156.0,
+      1773.0
+    ]
+  },
+  {
+    "name": "Pine0441",
+    "parent": "Actors/Nature",
+    "uid": "640950678",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      301.0,
+      1778.0
+    ]
+  },
+  {
+    "name": "Pine3442",
+    "parent": "Actors/Nature",
+    "uid": "132748900",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2247.0,
+      1798.0
+    ]
+  },
+  {
+    "name": "Pine2443",
+    "parent": "Actors/Nature",
+    "uid": "1069305950",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2538.0,
+      1796.0
+    ]
+  },
+  {
+    "name": "MixedTree444",
+    "parent": "Actors/Nature",
+    "uid": "2083460777",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      101.0,
+      1841.0
+    ]
+  },
+  {
+    "name": "MixedTree445",
+    "parent": "Actors/Nature",
+    "uid": "1879165943",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      308.0,
+      1855.0
+    ]
+  },
+  {
+    "name": "MixedTree446",
+    "parent": "Actors/Nature",
+    "uid": "1693326066",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2470.0,
+      1855.0
+    ]
+  },
+  {
+    "name": "Pine0447",
+    "parent": "Actors/Nature",
+    "uid": "1903195287",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2540.0,
+      1870.0
+    ]
+  },
+  {
+    "name": "Pine0448",
+    "parent": "Actors/Nature",
+    "uid": "2035135444",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      72.0,
+      1915.0
+    ]
+  },
+  {
+    "name": "Pine1449",
+    "parent": "Actors/Nature",
+    "uid": "1582045827",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      142.0,
+      1949.0
+    ]
+  },
+  {
+    "name": "Pine0450",
+    "parent": "Actors/Nature",
+    "uid": "340775636",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      237.0,
+      1915.0
+    ]
+  },
+  {
+    "name": "MixedTree451",
+    "parent": "Actors/Nature",
+    "uid": "983381340",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      269.0,
+      1931.0
+    ]
+  },
+  {
+    "name": "Pine2452",
+    "parent": "Actors/Nature",
+    "uid": "1944584046",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      351.0,
+      1934.0
+    ]
+  },
+  {
+    "name": "MixedTree453",
+    "parent": "Actors/Nature",
+    "uid": "1280473885",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      438.0,
+      1924.0
+    ]
+  },
+  {
+    "name": "Pine1454",
+    "parent": "Actors/Nature",
+    "uid": "1018898320",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      501.0,
+      1937.0
+    ]
+  },
+  {
+    "name": "MixedTree455",
+    "parent": "Actors/Nature",
+    "uid": "297977126",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      646.0,
+      1933.0
+    ]
+  },
+  {
+    "name": "Pine0456",
+    "parent": "Actors/Nature",
+    "uid": "494982848",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      765.0,
+      1941.0
+    ]
+  },
+  {
+    "name": "Pine0457",
+    "parent": "Actors/Nature",
+    "uid": "906223935",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      868.0,
+      1926.0
+    ]
+  },
+  {
+    "name": "Pine2458",
+    "parent": "Actors/Nature",
+    "uid": "787123764",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      904.0,
+      1923.0
+    ]
+  },
+  {
+    "name": "Pine0459",
+    "parent": "Actors/Nature",
+    "uid": "1527644013",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1008.0,
+      1923.0
+    ]
+  },
+  {
+    "name": "Pine3460",
+    "parent": "Actors/Nature",
+    "uid": "1578650615",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1078.0,
+      1919.0
+    ]
+  },
+  {
+    "name": "Pine3461",
+    "parent": "Actors/Nature",
+    "uid": "1719159430",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      1118.0,
+      1921.0
+    ]
+  },
+  {
+    "name": "MixedTree462",
+    "parent": "Actors/Nature",
+    "uid": "1335402689",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      2525.0,
+      1913.0
+    ]
+  },
+  {
+    "name": "Pine3463",
+    "parent": "Actors/Nature",
+    "uid": "1695316888",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      150.0,
+      2000.0
+    ]
+  },
+  {
+    "name": "MixedTree464",
+    "parent": "Actors/Nature",
+    "uid": "1572663545",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      202.0,
+      1993.0
+    ]
+  },
+  {
+    "name": "Pine1465",
+    "parent": "Actors/Nature",
+    "uid": "1279715721",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      353.0,
+      2008.0
+    ]
+  },
+  {
+    "name": "Pine0466",
+    "parent": "Actors/Nature",
+    "uid": "189646600",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      449.0,
+      2011.0
+    ]
+  },
+  {
+    "name": "Pine0467",
+    "parent": "Actors/Nature",
+    "uid": "2104439073",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      572.0,
+      2020.0
+    ]
+  },
+  {
+    "name": "Pine2468",
+    "parent": "Actors/Nature",
+    "uid": "1479669205",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      662.0,
+      1989.0
+    ]
+  },
+  {
+    "name": "Pine3469",
+    "parent": "Actors/Nature",
+    "uid": "441194905",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      782.0,
+      2009.0
+    ]
+  },
+  {
+    "name": "Pine1470",
+    "parent": "Actors/Nature",
+    "uid": "1811894084",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      871.0,
+      2005.0
+    ]
+  },
+  {
+    "name": "Pine3471",
+    "parent": "Actors/Nature",
+    "uid": "1168387039",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      915.0,
+      2002.0
+    ]
+  },
+  {
+    "name": "Pine0472",
+    "parent": "Actors/Nature",
+    "uid": "1220685016",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      972.0,
+      2021.0
+    ]
+  },
+  {
+    "name": "Pine1473",
+    "parent": "Actors/Nature",
+    "uid": "1598523344",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      2471.0,
+      2017.0
+    ]
+  },
+  {
+    "name": "Pine0474",
+    "parent": "Actors/Nature",
+    "uid": "1602944734",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      137.0,
+      2072.0
+    ]
+  },
+  {
+    "name": "Pine2475",
+    "parent": "Actors/Nature",
+    "uid": "597582152",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      221.0,
+      2080.0
+    ]
+  },
+  {
+    "name": "Pine2476",
+    "parent": "Actors/Nature",
+    "uid": "376344685",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      280.0,
+      2061.0
+    ]
+  },
+  {
+    "name": "Pine1477",
+    "parent": "Actors/Nature",
+    "uid": "135380058",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      348.0,
+      2082.0
+    ]
+  },
+  {
+    "name": "Pine3478",
+    "parent": "Actors/Nature",
+    "uid": "1961631214",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      555.0,
+      2088.0
+    ]
+  },
+  {
+    "name": "Pine3479",
+    "parent": "Actors/Nature",
+    "uid": "1406030818",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      618.0,
+      2087.0
+    ]
+  },
+  {
+    "name": "MixedTree480",
+    "parent": "Actors/Nature",
+    "uid": "1403590736",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      727.0,
+      2064.0
+    ]
+  },
+  {
+    "name": "Pine2481",
+    "parent": "Actors/Nature",
+    "uid": "1000777194",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      794.0,
+      2085.0
+    ]
+  },
+  {
+    "name": "Pine1482",
+    "parent": "Actors/Nature",
+    "uid": "1170340735",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      993.0,
+      2095.0
+    ]
+  },
+  {
+    "name": "Pine0483",
+    "parent": "Actors/Nature",
+    "uid": "196818566",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1043.0,
+      2061.0
+    ]
+  },
+  {
+    "name": "MixedTree484",
+    "parent": "Actors/Nature",
+    "uid": "971506041",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1112.0,
+      2066.0
+    ]
+  },
+  {
+    "name": "Pine0485",
+    "parent": "Actors/Nature",
+    "uid": "965999898",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1406.0,
+      2096.0
+    ]
+  },
+  {
+    "name": "MixedTree486",
+    "parent": "Actors/Nature",
+    "uid": "1163472317",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1495.0,
+      2076.0
+    ]
+  },
+  {
+    "name": "Pine2487",
+    "parent": "Actors/Nature",
+    "uid": "975444905",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1612.0,
+      2093.0
+    ]
+  },
+  {
+    "name": "Pine0488",
+    "parent": "Actors/Nature",
+    "uid": "788521767",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      1700.0,
+      2073.0
+    ]
+  },
+  {
+    "name": "Pine1489",
+    "parent": "Actors/Nature",
+    "uid": "1641659431",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1772.0,
+      2083.0
+    ]
+  },
+  {
+    "name": "Pine2490",
+    "parent": "Actors/Nature",
+    "uid": "1450896278",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      1848.0,
+      2096.0
+    ]
+  },
+  {
+    "name": "MixedTree491",
+    "parent": "Actors/Nature",
+    "uid": "2085590168",
+    "ref": "17_rv2kl",
+    "kind": "mixed_tree",
+    "position": [
+      1906.0,
+      2097.0
+    ]
+  },
+  {
+    "name": "Pine1492",
+    "parent": "Actors/Nature",
+    "uid": "79968211",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1984.0,
+      2072.0
+    ]
+  },
+  {
+    "name": "Pine3493",
+    "parent": "Actors/Nature",
+    "uid": "966751005",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2056.0,
+      2092.0
+    ]
+  },
+  {
+    "name": "Pine0494",
+    "parent": "Actors/Nature",
+    "uid": "721319926",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2131.0,
+      2061.0
+    ]
+  },
+  {
+    "name": "Pine2495",
+    "parent": "Actors/Nature",
+    "uid": "1333281608",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2161.0,
+      2098.0
+    ]
+  },
+  {
+    "name": "Pine0496",
+    "parent": "Actors/Nature",
+    "uid": "1976856724",
+    "ref": "18_icrcv",
+    "kind": "pine_0",
+    "position": [
+      2261.0,
+      2078.0
+    ]
+  },
+  {
+    "name": "Pine3497",
+    "parent": "Actors/Nature",
+    "uid": "1332071455",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2313.0,
+      2095.0
+    ]
+  },
+  {
+    "name": "Pine3498",
+    "parent": "Actors/Nature",
+    "uid": "1641393318",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2387.0,
+      2063.0
+    ]
+  },
+  {
+    "name": "Pine3499",
+    "parent": "Actors/Nature",
+    "uid": "1539453087",
+    "ref": "20_nr883",
+    "kind": "pine_3",
+    "position": [
+      2472.0,
+      2098.0
+    ]
+  },
+  {
+    "name": "Pine1500",
+    "parent": "Actors/Nature",
+    "uid": "2066499360",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      396.0,
+      1183.0
+    ]
+  },
+  {
+    "name": "Pine2501",
+    "parent": "Actors/Nature",
+    "uid": "1065869707",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2073.0,
+      1023.0
+    ]
+  },
+  {
+    "name": "Pine2502",
+    "parent": "Actors/Nature",
+    "uid": "2114265727",
+    "ref": "19_bvquq",
+    "kind": "pine_2",
+    "position": [
+      2063.0,
+      1461.0
+    ]
+  },
+  {
+    "name": "Pine1503",
+    "parent": "Actors/Nature",
+    "uid": "302340444",
+    "ref": "21_ks7cr",
+    "kind": "pine_1",
+    "position": [
+      1948.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "Grass504",
+    "parent": "Actors/Nature",
+    "uid": "1309487205",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      152.15904,
+      1809.0145
+    ]
+  },
+  {
+    "name": "Grass505",
+    "parent": "Actors/Nature",
+    "uid": "1634734235",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      618.0222,
+      741.6373
+    ]
+  },
+  {
+    "name": "Flowers506",
+    "parent": "Actors/Nature",
+    "uid": "2077095002",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1189.8666,
+      763.3972
+    ]
+  },
+  {
+    "name": "Grass507",
+    "parent": "Actors/Nature",
+    "uid": "1559200573",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1791.2257,
+      492.3078
+    ]
+  },
+  {
+    "name": "Flowers508",
+    "parent": "Actors/Nature",
+    "uid": "1157104821",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1870.4948,
+      502.57886
+    ]
+  },
+  {
+    "name": "Flowers509",
+    "parent": "Actors/Nature",
+    "uid": "924941796",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      162.12622,
+      1220.6282
+    ]
+  },
+  {
+    "name": "Grass510",
+    "parent": "Actors/Nature",
+    "uid": "400690587",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2381.1865,
+      1253.3386
+    ]
+  },
+  {
+    "name": "Flowers511",
+    "parent": "Actors/Nature",
+    "uid": "2139220838",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1155.1563,
+      502.3214
+    ]
+  },
+  {
+    "name": "Grass512",
+    "parent": "Actors/Nature",
+    "uid": "1712352041",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      186.3031,
+      452.4982
+    ]
+  },
+  {
+    "name": "Grass513",
+    "parent": "Actors/Nature",
+    "uid": "216460578",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2448.95,
+      326.3655
+    ]
+  },
+  {
+    "name": "Grass514",
+    "parent": "Actors/Nature",
+    "uid": "1078055259",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1220.5974,
+      363.45764
+    ]
+  },
+  {
+    "name": "Grass515",
+    "parent": "Actors/Nature",
+    "uid": "911413762",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      154.95253,
+      1300.4645
+    ]
+  },
+  {
+    "name": "Grass516",
+    "parent": "Actors/Nature",
+    "uid": "921846476",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      855.3721,
+      1299.8186
+    ]
+  },
+  {
+    "name": "Grass517",
+    "parent": "Actors/Nature",
+    "uid": "950770464",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      726.6337,
+      1920.3584
+    ]
+  },
+  {
+    "name": "Grass518",
+    "parent": "Actors/Nature",
+    "uid": "1257960375",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1007.9951,
+      1207.6683
+    ]
+  },
+  {
+    "name": "Grass519",
+    "parent": "Actors/Nature",
+    "uid": "419963537",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2239.14,
+      988.8175
+    ]
+  },
+  {
+    "name": "Grass520",
+    "parent": "Actors/Nature",
+    "uid": "1052566110",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      978.7106,
+      1083.0508
+    ]
+  },
+  {
+    "name": "Grass521",
+    "parent": "Actors/Nature",
+    "uid": "397584559",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      681.8325,
+      618.8513
+    ]
+  },
+  {
+    "name": "Grass522",
+    "parent": "Actors/Nature",
+    "uid": "402986671",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1417.1249,
+      1975.2574
+    ]
+  },
+  {
+    "name": "Flowers523",
+    "parent": "Actors/Nature",
+    "uid": "880910192",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2083.4253,
+      1338.6667
+    ]
+  },
+  {
+    "name": "Grass524",
+    "parent": "Actors/Nature",
+    "uid": "1678666475",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2501.462,
+      2046.8442
+    ]
+  },
+  {
+    "name": "Grass525",
+    "parent": "Actors/Nature",
+    "uid": "769991016",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      860.9487,
+      1209.618
+    ]
+  },
+  {
+    "name": "Flowers526",
+    "parent": "Actors/Nature",
+    "uid": "1599993870",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      110.694336,
+      1251.6069
+    ]
+  },
+  {
+    "name": "Grass527",
+    "parent": "Actors/Nature",
+    "uid": "1611926316",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      107.8883,
+      432.68903
+    ]
+  },
+  {
+    "name": "Grass528",
+    "parent": "Actors/Nature",
+    "uid": "1748581088",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2129.9185,
+      1327.0625
+    ]
+  },
+  {
+    "name": "Flowers529",
+    "parent": "Actors/Nature",
+    "uid": "1402838305",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      106.28657,
+      1263.6042
+    ]
+  },
+  {
+    "name": "Grass530",
+    "parent": "Actors/Nature",
+    "uid": "1784322362",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1947.0723,
+      953.35254
+    ]
+  },
+  {
+    "name": "Grass531",
+    "parent": "Actors/Nature",
+    "uid": "1963729687",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2045.1608,
+      1117.6553
+    ]
+  },
+  {
+    "name": "Grass532",
+    "parent": "Actors/Nature",
+    "uid": "1324954914",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2120.2117,
+      1627.1533
+    ]
+  },
+  {
+    "name": "Grass533",
+    "parent": "Actors/Nature",
+    "uid": "160277093",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1992.838,
+      411.37006
+    ]
+  },
+  {
+    "name": "Grass534",
+    "parent": "Actors/Nature",
+    "uid": "525460870",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1000.9871,
+      741.5324
+    ]
+  },
+  {
+    "name": "Grass535",
+    "parent": "Actors/Nature",
+    "uid": "381147809",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1968.83,
+      657.1749
+    ]
+  },
+  {
+    "name": "Grass536",
+    "parent": "Actors/Nature",
+    "uid": "180033906",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      577.022,
+      606.23346
+    ]
+  },
+  {
+    "name": "Grass537",
+    "parent": "Actors/Nature",
+    "uid": "430690917",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      378.61142,
+      642.2825
+    ]
+  },
+  {
+    "name": "Grass538",
+    "parent": "Actors/Nature",
+    "uid": "885108827",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      867.127,
+      1285.3319
+    ]
+  },
+  {
+    "name": "Grass539",
+    "parent": "Actors/Nature",
+    "uid": "1767416420",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      604.3922,
+      1973.9344
+    ]
+  },
+  {
+    "name": "Flowers540",
+    "parent": "Actors/Nature",
+    "uid": "1286399393",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      455.59097,
+      1164.0895
+    ]
+  },
+  {
+    "name": "Flowers541",
+    "parent": "Actors/Nature",
+    "uid": "1413267264",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1737.2334,
+      1054.7612
+    ]
+  },
+  {
+    "name": "Grass542",
+    "parent": "Actors/Nature",
+    "uid": "1701783896",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      870.9449,
+      1881.3276
+    ]
+  },
+  {
+    "name": "Flowers543",
+    "parent": "Actors/Nature",
+    "uid": "1337890295",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2220.726,
+      1997.1465
+    ]
+  },
+  {
+    "name": "Grass544",
+    "parent": "Actors/Nature",
+    "uid": "1759474708",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      698.2951,
+      748.4702
+    ]
+  },
+  {
+    "name": "Grass545",
+    "parent": "Actors/Nature",
+    "uid": "1488111660",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1676.0322,
+      1067.1381
+    ]
+  },
+  {
+    "name": "Grass546",
+    "parent": "Actors/Nature",
+    "uid": "1934557110",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1440.2764,
+      1999.126
+    ]
+  },
+  {
+    "name": "Grass547",
+    "parent": "Actors/Nature",
+    "uid": "290537597",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      840.57513,
+      1869.353
+    ]
+  },
+  {
+    "name": "Grass548",
+    "parent": "Actors/Nature",
+    "uid": "1931660876",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      703.68036,
+      1354.2552
+    ]
+  },
+  {
+    "name": "Grass549",
+    "parent": "Actors/Nature",
+    "uid": "686471210",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1586.6404,
+      1679.4222
+    ]
+  },
+  {
+    "name": "Grass550",
+    "parent": "Actors/Nature",
+    "uid": "1920036873",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1066.8179,
+      686.87744
+    ]
+  },
+  {
+    "name": "Flowers551",
+    "parent": "Actors/Nature",
+    "uid": "744373650",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      604.7428,
+      540.7218
+    ]
+  },
+  {
+    "name": "Grass552",
+    "parent": "Actors/Nature",
+    "uid": "157547835",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2267.224,
+      554.197
+    ]
+  },
+  {
+    "name": "Flowers553",
+    "parent": "Actors/Nature",
+    "uid": "508854601",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1156.616,
+      1218.6194
+    ]
+  },
+  {
+    "name": "Grass554",
+    "parent": "Actors/Nature",
+    "uid": "1780141621",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      888.9069,
+      476.8028
+    ]
+  },
+  {
+    "name": "Grass555",
+    "parent": "Actors/Nature",
+    "uid": "289996578",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      497.69394,
+      959.30707
+    ]
+  },
+  {
+    "name": "Grass556",
+    "parent": "Actors/Nature",
+    "uid": "308412626",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1021.57495,
+      1881.0531
+    ]
+  },
+  {
+    "name": "Grass557",
+    "parent": "Actors/Nature",
+    "uid": "1472393546",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2230.5276,
+      1500.8724
+    ]
+  },
+  {
+    "name": "Flowers558",
+    "parent": "Actors/Nature",
+    "uid": "732665340",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      185.09021,
+      694.35785
+    ]
+  },
+  {
+    "name": "Grass559",
+    "parent": "Actors/Nature",
+    "uid": "21206794",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2212.0508,
+      2006.0502
+    ]
+  },
+  {
+    "name": "Grass560",
+    "parent": "Actors/Nature",
+    "uid": "4445838",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2303.814,
+      762.1843
+    ]
+  },
+  {
+    "name": "Grass561",
+    "parent": "Actors/Nature",
+    "uid": "1732317573",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2436.0752,
+      1933.0286
+    ]
+  },
+  {
+    "name": "Flowers562",
+    "parent": "Actors/Nature",
+    "uid": "859111961",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1887.3125,
+      932.9546
+    ]
+  },
+  {
+    "name": "Grass563",
+    "parent": "Actors/Nature",
+    "uid": "379290489",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      536.6003,
+      713.3246
+    ]
+  },
+  {
+    "name": "Flowers564",
+    "parent": "Actors/Nature",
+    "uid": "321172824",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2395.1672,
+      1989.4207
+    ]
+  },
+  {
+    "name": "Grass565",
+    "parent": "Actors/Nature",
+    "uid": "305706479",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      549.5923,
+      749.43884
+    ]
+  },
+  {
+    "name": "Grass566",
+    "parent": "Actors/Nature",
+    "uid": "830509125",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2334.0217,
+      1763.3121
+    ]
+  },
+  {
+    "name": "Grass567",
+    "parent": "Actors/Nature",
+    "uid": "1311655239",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      557.6059,
+      765.03705
+    ]
+  },
+  {
+    "name": "Grass568",
+    "parent": "Actors/Nature",
+    "uid": "2142987966",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2145.6213,
+      970.18396
+    ]
+  },
+  {
+    "name": "Grass569",
+    "parent": "Actors/Nature",
+    "uid": "848710555",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1788.9445,
+      1761.382
+    ]
+  },
+  {
+    "name": "Flowers570",
+    "parent": "Actors/Nature",
+    "uid": "482578549",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      782.26807,
+      1378.4246
+    ]
+  },
+  {
+    "name": "Grass571",
+    "parent": "Actors/Nature",
+    "uid": "683618054",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      382.5149,
+      969.97473
+    ]
+  },
+  {
+    "name": "Grass572",
+    "parent": "Actors/Nature",
+    "uid": "1453464783",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1192.7772,
+      2102.1306
+    ]
+  },
+  {
+    "name": "Grass573",
+    "parent": "Actors/Nature",
+    "uid": "696800454",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      404.80276,
+      1772.7106
+    ]
+  },
+  {
+    "name": "Grass574",
+    "parent": "Actors/Nature",
+    "uid": "139069463",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      758.4508,
+      498.49756
+    ]
+  },
+  {
+    "name": "Grass575",
+    "parent": "Actors/Nature",
+    "uid": "929852619",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1778.8876,
+      1647.4056
+    ]
+  },
+  {
+    "name": "Grass576",
+    "parent": "Actors/Nature",
+    "uid": "1668494465",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2154.8955,
+      1870.8718
+    ]
+  },
+  {
+    "name": "Grass577",
+    "parent": "Actors/Nature",
+    "uid": "2023845713",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      452.10333,
+      1597.1891
+    ]
+  },
+  {
+    "name": "Flowers578",
+    "parent": "Actors/Nature",
+    "uid": "1790352882",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      440.4518,
+      1195.1086
+    ]
+  },
+  {
+    "name": "Grass579",
+    "parent": "Actors/Nature",
+    "uid": "1410106894",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1954.7771,
+      2099.0962
+    ]
+  },
+  {
+    "name": "Grass580",
+    "parent": "Actors/Nature",
+    "uid": "237313039",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1768.1334,
+      516.6176
+    ]
+  },
+  {
+    "name": "Grass581",
+    "parent": "Actors/Nature",
+    "uid": "461015478",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2116.1484,
+      1079.8611
+    ]
+  },
+  {
+    "name": "Grass582",
+    "parent": "Actors/Nature",
+    "uid": "689389479",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2284.35,
+      1407.2607
+    ]
+  },
+  {
+    "name": "Grass583",
+    "parent": "Actors/Nature",
+    "uid": "2050052847",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2398.5046,
+      1295.5461
+    ]
+  },
+  {
+    "name": "Grass584",
+    "parent": "Actors/Nature",
+    "uid": "584800398",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1955.2158,
+      484.05487
+    ]
+  },
+  {
+    "name": "Grass585",
+    "parent": "Actors/Nature",
+    "uid": "1364802443",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      885.84875,
+      544.42334
+    ]
+  },
+  {
+    "name": "Grass586",
+    "parent": "Actors/Nature",
+    "uid": "443954461",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      592.278,
+      829.0877
+    ]
+  },
+  {
+    "name": "Grass587",
+    "parent": "Actors/Nature",
+    "uid": "224151012",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1094.5378,
+      1266.468
+    ]
+  },
+  {
+    "name": "Flowers588",
+    "parent": "Actors/Nature",
+    "uid": "2109646675",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2381.759,
+      1393.1805
+    ]
+  },
+  {
+    "name": "Grass589",
+    "parent": "Actors/Nature",
+    "uid": "886612179",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2063.7847,
+      1853.5977
+    ]
+  },
+  {
+    "name": "Grass590",
+    "parent": "Actors/Nature",
+    "uid": "794461977",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      390.25723,
+      996.6424
+    ]
+  },
+  {
+    "name": "Flowers591",
+    "parent": "Actors/Nature",
+    "uid": "838277524",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1847.796,
+      1846.2625
+    ]
+  },
+  {
+    "name": "Grass592",
+    "parent": "Actors/Nature",
+    "uid": "1716990224",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2395.8691,
+      1731.4052
+    ]
+  },
+  {
+    "name": "Grass593",
+    "parent": "Actors/Nature",
+    "uid": "1394606435",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1864.1078,
+      1476.1823
+    ]
+  },
+  {
+    "name": "Grass594",
+    "parent": "Actors/Nature",
+    "uid": "1270520523",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1176.3385,
+      2075.3257
+    ]
+  },
+  {
+    "name": "Grass595",
+    "parent": "Actors/Nature",
+    "uid": "25753326",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2232.566,
+      1096.21
+    ]
+  },
+  {
+    "name": "Grass596",
+    "parent": "Actors/Nature",
+    "uid": "229195053",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      244.75954,
+      757.5831
+    ]
+  },
+  {
+    "name": "Grass597",
+    "parent": "Actors/Nature",
+    "uid": "1529341394",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2160.9495,
+      599.443
+    ]
+  },
+  {
+    "name": "Flowers598",
+    "parent": "Actors/Nature",
+    "uid": "522309966",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1895.1692,
+      633.15186
+    ]
+  },
+  {
+    "name": "Grass599",
+    "parent": "Actors/Nature",
+    "uid": "987114698",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      456.41864,
+      1444.0698
+    ]
+  },
+  {
+    "name": "Grass600",
+    "parent": "Actors/Nature",
+    "uid": "549483104",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1117.8274,
+      780.9385
+    ]
+  },
+  {
+    "name": "Grass601",
+    "parent": "Actors/Nature",
+    "uid": "563978803",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2282.8848,
+      1432.1563
+    ]
+  },
+  {
+    "name": "Flowers602",
+    "parent": "Actors/Nature",
+    "uid": "856720114",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      643.9463,
+      353.19144
+    ]
+  },
+  {
+    "name": "Grass603",
+    "parent": "Actors/Nature",
+    "uid": "1636292743",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1705.6483,
+      1126.0099
+    ]
+  },
+  {
+    "name": "Grass604",
+    "parent": "Actors/Nature",
+    "uid": "576777379",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2429.9155,
+      2041.9178
+    ]
+  },
+  {
+    "name": "Grass605",
+    "parent": "Actors/Nature",
+    "uid": "230004975",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      690.45825,
+      758.9479
+    ]
+  },
+  {
+    "name": "Grass606",
+    "parent": "Actors/Nature",
+    "uid": "1464776362",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2163.3965,
+      1739.7551
+    ]
+  },
+  {
+    "name": "Flowers607",
+    "parent": "Actors/Nature",
+    "uid": "1479176120",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      530.5805,
+      631.6343
+    ]
+  },
+  {
+    "name": "Grass608",
+    "parent": "Actors/Nature",
+    "uid": "1130647829",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2242.1091,
+      748.23096
+    ]
+  },
+  {
+    "name": "Grass609",
+    "parent": "Actors/Nature",
+    "uid": "1132213146",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1645.8322,
+      766.9835
+    ]
+  },
+  {
+    "name": "Grass610",
+    "parent": "Actors/Nature",
+    "uid": "1358882064",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      599.6961,
+      859.25336
+    ]
+  },
+  {
+    "name": "Grass611",
+    "parent": "Actors/Nature",
+    "uid": "1969469488",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1134.1553,
+      1857.868
+    ]
+  },
+  {
+    "name": "Grass612",
+    "parent": "Actors/Nature",
+    "uid": "850482602",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      840.8389,
+      1375.6908
+    ]
+  },
+  {
+    "name": "Grass613",
+    "parent": "Actors/Nature",
+    "uid": "1269264643",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2164.7075,
+      808.3855
+    ]
+  },
+  {
+    "name": "Grass614",
+    "parent": "Actors/Nature",
+    "uid": "1357095983",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1879.2996,
+      1199.3223
+    ]
+  },
+  {
+    "name": "Grass615",
+    "parent": "Actors/Nature",
+    "uid": "583868137",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2280.7827,
+      1078.7234
+    ]
+  },
+  {
+    "name": "Grass616",
+    "parent": "Actors/Nature",
+    "uid": "275404845",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      455.341,
+      1487.4327
+    ]
+  },
+  {
+    "name": "Grass617",
+    "parent": "Actors/Nature",
+    "uid": "59554513",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      270.77997,
+      1793.0035
+    ]
+  },
+  {
+    "name": "Flowers618",
+    "parent": "Actors/Nature",
+    "uid": "26037831",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1807.9573,
+      856.5519
+    ]
+  },
+  {
+    "name": "Grass619",
+    "parent": "Actors/Nature",
+    "uid": "224926981",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2009.1632,
+      528.7715
+    ]
+  },
+  {
+    "name": "Grass620",
+    "parent": "Actors/Nature",
+    "uid": "1002547462",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1420.5299,
+      1044.8663
+    ]
+  },
+  {
+    "name": "Grass621",
+    "parent": "Actors/Nature",
+    "uid": "759822173",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2363.6897,
+      1814.5524
+    ]
+  },
+  {
+    "name": "Grass622",
+    "parent": "Actors/Nature",
+    "uid": "1505130621",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      111.269356,
+      2013.3174
+    ]
+  },
+  {
+    "name": "Flowers623",
+    "parent": "Actors/Nature",
+    "uid": "1898367860",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1444.2358,
+      1201.4388
+    ]
+  },
+  {
+    "name": "Grass624",
+    "parent": "Actors/Nature",
+    "uid": "1000179282",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      469.8964,
+      1860.3093
+    ]
+  },
+  {
+    "name": "Grass625",
+    "parent": "Actors/Nature",
+    "uid": "858023896",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2112.5464,
+      592.4204
+    ]
+  },
+  {
+    "name": "Grass626",
+    "parent": "Actors/Nature",
+    "uid": "1992262505",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1209.8708,
+      1976.241
+    ]
+  },
+  {
+    "name": "Grass627",
+    "parent": "Actors/Nature",
+    "uid": "106861463",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      586.59546,
+      798.5178
+    ]
+  },
+  {
+    "name": "Grass628",
+    "parent": "Actors/Nature",
+    "uid": "1309325509",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      267.86288,
+      1576.7761
+    ]
+  },
+  {
+    "name": "Grass629",
+    "parent": "Actors/Nature",
+    "uid": "1312258401",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      781.39386,
+      1369.8606
+    ]
+  },
+  {
+    "name": "Flowers630",
+    "parent": "Actors/Nature",
+    "uid": "2117452496",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      571.9634,
+      1852.747
+    ]
+  },
+  {
+    "name": "Grass631",
+    "parent": "Actors/Nature",
+    "uid": "136217218",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      751.0895,
+      1890.4366
+    ]
+  },
+  {
+    "name": "Flowers632",
+    "parent": "Actors/Nature",
+    "uid": "946477645",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1882.4045,
+      477.82953
+    ]
+  },
+  {
+    "name": "Grass633",
+    "parent": "Actors/Nature",
+    "uid": "1143789345",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      944.4085,
+      1253.0928
+    ]
+  },
+  {
+    "name": "Grass634",
+    "parent": "Actors/Nature",
+    "uid": "622922428",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      450.42902,
+      1758.3333
+    ]
+  },
+  {
+    "name": "Grass635",
+    "parent": "Actors/Nature",
+    "uid": "2121903171",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1734.0164,
+      539.8616
+    ]
+  },
+  {
+    "name": "Flowers636",
+    "parent": "Actors/Nature",
+    "uid": "762758624",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      126.25743,
+      1645.6605
+    ]
+  },
+  {
+    "name": "Grass637",
+    "parent": "Actors/Nature",
+    "uid": "1867335461",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2348.8215,
+      480.44373
+    ]
+  },
+  {
+    "name": "Flowers638",
+    "parent": "Actors/Nature",
+    "uid": "317379953",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      143.53732,
+      1298.974
+    ]
+  },
+  {
+    "name": "Flowers639",
+    "parent": "Actors/Nature",
+    "uid": "1229339632",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1460.8962,
+      2105.9063
+    ]
+  },
+  {
+    "name": "Flowers640",
+    "parent": "Actors/Nature",
+    "uid": "44546146",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2425.9688,
+      2064.7173
+    ]
+  },
+  {
+    "name": "Grass641",
+    "parent": "Actors/Nature",
+    "uid": "892912718",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      211.29018,
+      1622.5488
+    ]
+  },
+  {
+    "name": "Grass642",
+    "parent": "Actors/Nature",
+    "uid": "93034474",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      463.23593,
+      1849.1768
+    ]
+  },
+  {
+    "name": "Grass643",
+    "parent": "Actors/Nature",
+    "uid": "2009821439",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2056.309,
+      1116.6255
+    ]
+  },
+  {
+    "name": "Grass644",
+    "parent": "Actors/Nature",
+    "uid": "1772464148",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1788.561,
+      1651.5455
+    ]
+  },
+  {
+    "name": "Grass645",
+    "parent": "Actors/Nature",
+    "uid": "639284963",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2416.3396,
+      479.9903
+    ]
+  },
+  {
+    "name": "Flowers646",
+    "parent": "Actors/Nature",
+    "uid": "1368858035",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      138.52957,
+      1354.0173
+    ]
+  },
+  {
+    "name": "Flowers647",
+    "parent": "Actors/Nature",
+    "uid": "812386385",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      251.2619,
+      325.10577
+    ]
+  },
+  {
+    "name": "Grass648",
+    "parent": "Actors/Nature",
+    "uid": "1082399240",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2081.5308,
+      1180.9204
+    ]
+  },
+  {
+    "name": "Flowers649",
+    "parent": "Actors/Nature",
+    "uid": "1551932594",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1646.9557,
+      2013.3374
+    ]
+  },
+  {
+    "name": "Flowers650",
+    "parent": "Actors/Nature",
+    "uid": "2080773923",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2434.0674,
+      603.8286
+    ]
+  },
+  {
+    "name": "Grass651",
+    "parent": "Actors/Nature",
+    "uid": "1540372153",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1284.6398,
+      671.2189
+    ]
+  },
+  {
+    "name": "Grass652",
+    "parent": "Actors/Nature",
+    "uid": "349343038",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1583.0255,
+      1596.911
+    ]
+  },
+  {
+    "name": "Grass653",
+    "parent": "Actors/Nature",
+    "uid": "591554124",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2267.3462,
+      456.8864
+    ]
+  },
+  {
+    "name": "Flowers654",
+    "parent": "Actors/Nature",
+    "uid": "180453675",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      164.57037,
+      1105.6333
+    ]
+  },
+  {
+    "name": "Grass655",
+    "parent": "Actors/Nature",
+    "uid": "217568762",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1159.779,
+      609.3045
+    ]
+  },
+  {
+    "name": "Grass656",
+    "parent": "Actors/Nature",
+    "uid": "419318910",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1800.6371,
+      1071.1582
+    ]
+  },
+  {
+    "name": "Flowers657",
+    "parent": "Actors/Nature",
+    "uid": "1258790422",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1593.146,
+      1565.0781
+    ]
+  },
+  {
+    "name": "Grass658",
+    "parent": "Actors/Nature",
+    "uid": "1226775267",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2228.755,
+      1313.478
+    ]
+  },
+  {
+    "name": "Grass659",
+    "parent": "Actors/Nature",
+    "uid": "980420873",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      258.1394,
+      1777.8129
+    ]
+  },
+  {
+    "name": "Flowers660",
+    "parent": "Actors/Nature",
+    "uid": "1274459027",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2071.897,
+      1679.8562
+    ]
+  },
+  {
+    "name": "Flowers661",
+    "parent": "Actors/Nature",
+    "uid": "848119729",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      268.84406,
+      1658.5502
+    ]
+  },
+  {
+    "name": "Flowers662",
+    "parent": "Actors/Nature",
+    "uid": "1376937075",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1625.795,
+      812.4818
+    ]
+  },
+  {
+    "name": "Grass663",
+    "parent": "Actors/Nature",
+    "uid": "1848696844",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      784.0516,
+      385.89227
+    ]
+  },
+  {
+    "name": "Grass664",
+    "parent": "Actors/Nature",
+    "uid": "549432773",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1952.408,
+      666.2949
+    ]
+  },
+  {
+    "name": "Grass665",
+    "parent": "Actors/Nature",
+    "uid": "1309777743",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      932.5099,
+      1013.8189
+    ]
+  },
+  {
+    "name": "Flowers666",
+    "parent": "Actors/Nature",
+    "uid": "91517895",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1464.2373,
+      376.52524
+    ]
+  },
+  {
+    "name": "Grass667",
+    "parent": "Actors/Nature",
+    "uid": "398311867",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      395.20236,
+      1643.3464
+    ]
+  },
+  {
+    "name": "Grass668",
+    "parent": "Actors/Nature",
+    "uid": "910684407",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1921.5199,
+      1203.9839
+    ]
+  },
+  {
+    "name": "Grass669",
+    "parent": "Actors/Nature",
+    "uid": "1930980184",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1966.3304,
+      342.61008
+    ]
+  },
+  {
+    "name": "Grass670",
+    "parent": "Actors/Nature",
+    "uid": "1514779245",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1164.2902,
+      1604.1603
+    ]
+  },
+  {
+    "name": "Flowers671",
+    "parent": "Actors/Nature",
+    "uid": "1787638299",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1776.1713,
+      1413.9425
+    ]
+  },
+  {
+    "name": "Grass672",
+    "parent": "Actors/Nature",
+    "uid": "1902429554",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      294.04248,
+      916.8274
+    ]
+  },
+  {
+    "name": "Grass673",
+    "parent": "Actors/Nature",
+    "uid": "441736713",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      751.802,
+      832.9699
+    ]
+  },
+  {
+    "name": "Flowers674",
+    "parent": "Actors/Nature",
+    "uid": "1607617277",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1223.3967,
+      1697.9191
+    ]
+  },
+  {
+    "name": "Grass675",
+    "parent": "Actors/Nature",
+    "uid": "853945285",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2025.6036,
+      666.9845
+    ]
+  },
+  {
+    "name": "Grass676",
+    "parent": "Actors/Nature",
+    "uid": "655812616",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      410.4836,
+      1462.0576
+    ]
+  },
+  {
+    "name": "Grass677",
+    "parent": "Actors/Nature",
+    "uid": "1427817886",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      730.27545,
+      481.05933
+    ]
+  },
+  {
+    "name": "Grass678",
+    "parent": "Actors/Nature",
+    "uid": "654565263",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2405.453,
+      1451.6736
+    ]
+  },
+  {
+    "name": "Grass679",
+    "parent": "Actors/Nature",
+    "uid": "2038220436",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2091.8645,
+      1707.9799
+    ]
+  },
+  {
+    "name": "Grass680",
+    "parent": "Actors/Nature",
+    "uid": "2096780038",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2271.8232,
+      1337.821
+    ]
+  },
+  {
+    "name": "Grass681",
+    "parent": "Actors/Nature",
+    "uid": "37714069",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      664.96136,
+      481.51093
+    ]
+  },
+  {
+    "name": "Grass682",
+    "parent": "Actors/Nature",
+    "uid": "168805625",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2480.0933,
+      1712.1592
+    ]
+  },
+  {
+    "name": "Flowers683",
+    "parent": "Actors/Nature",
+    "uid": "1916847846",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      2410.992,
+      1344.7238
+    ]
+  },
+  {
+    "name": "Grass684",
+    "parent": "Actors/Nature",
+    "uid": "1438645706",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      475.36856,
+      588.7204
+    ]
+  },
+  {
+    "name": "Grass685",
+    "parent": "Actors/Nature",
+    "uid": "382628801",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2306.633,
+      1072.4609
+    ]
+  },
+  {
+    "name": "Flowers686",
+    "parent": "Actors/Nature",
+    "uid": "1258172791",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      278.44,
+      409.12772
+    ]
+  },
+  {
+    "name": "Grass687",
+    "parent": "Actors/Nature",
+    "uid": "777880306",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      925.7348,
+      1073.8066
+    ]
+  },
+  {
+    "name": "Grass688",
+    "parent": "Actors/Nature",
+    "uid": "1630594523",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1013.1613,
+      1036.1334
+    ]
+  },
+  {
+    "name": "Grass689",
+    "parent": "Actors/Nature",
+    "uid": "971619568",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      251.6607,
+      1626.8789
+    ]
+  },
+  {
+    "name": "Grass690",
+    "parent": "Actors/Nature",
+    "uid": "2017249072",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1690.0936,
+      1088.7007
+    ]
+  },
+  {
+    "name": "Grass691",
+    "parent": "Actors/Nature",
+    "uid": "1125001229",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      2108.3066,
+      1071.4578
+    ]
+  },
+  {
+    "name": "Grass692",
+    "parent": "Actors/Nature",
+    "uid": "215620601",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      165.22073,
+      1350.5708
+    ]
+  },
+  {
+    "name": "Grass693",
+    "parent": "Actors/Nature",
+    "uid": "1190665095",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      1754.0449,
+      368.1147
+    ]
+  },
+  {
+    "name": "Flowers694",
+    "parent": "Actors/Nature",
+    "uid": "1704977752",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      1577.9215,
+      1864.2339
+    ]
+  },
+  {
+    "name": "Grass695",
+    "parent": "Actors/Nature",
+    "uid": "400409771",
+    "ref": "22_p3uyi",
+    "kind": "grass",
+    "position": [
+      388.63895,
+      1001.9829
+    ]
+  },
+  {
+    "name": "Flowers696",
+    "parent": "Actors/Nature",
+    "uid": "1151122346",
+    "ref": "23_pfstj",
+    "kind": "flowers",
+    "position": [
+      392.42606,
+      1523.959
+    ]
+  },
+  {
+    "name": "Shrub697",
+    "parent": "Actors/Nature",
+    "uid": "1687652720",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      452.0,
+      1014.0
+    ]
+  },
+  {
+    "name": "Shrub698",
+    "parent": "Actors/Nature",
+    "uid": "2138693586",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      549.0,
+      1186.0
+    ]
+  },
+  {
+    "name": "Shrub699",
+    "parent": "Actors/Nature",
+    "uid": "1706241193",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      1124.0,
+      951.0
+    ]
+  },
+  {
+    "name": "Shrub700",
+    "parent": "Actors/Nature",
+    "uid": "1668400812",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      1957.0,
+      978.0
+    ]
+  },
+  {
+    "name": "Shrub701",
+    "parent": "Actors/Nature",
+    "uid": "508819218",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      2013.0,
+      1337.0
+    ]
+  },
+  {
+    "name": "Shrub702",
+    "parent": "Actors/Nature",
+    "uid": "2097314910",
+    "ref": "16_jilop",
+    "kind": "shrub",
+    "position": [
+      537.0,
+      1758.0
+    ]
+  },
+  {
+    "name": "VillageWell",
+    "parent": "Actors/Props",
+    "uid": "664876511",
+    "ref": "24_1tku5",
+    "kind": "well",
+    "position": [
+      1287.0,
+      1558.0
+    ]
+  },
+  {
+    "name": "FenceH13",
+    "parent": "Actors/Props",
+    "uid": "1488122740",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      698.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH14",
+    "parent": "Actors/Props",
+    "uid": "1528060219",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      698.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH15",
+    "parent": "Actors/Props",
+    "uid": "1974160909",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      794.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH16",
+    "parent": "Actors/Props",
+    "uid": "1775882060",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      794.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH17",
+    "parent": "Actors/Props",
+    "uid": "1255482396",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      890.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH18",
+    "parent": "Actors/Props",
+    "uid": "361600946",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      986.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH19",
+    "parent": "Actors/Props",
+    "uid": "1590931203",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1082.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH20",
+    "parent": "Actors/Props",
+    "uid": "1790720012",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1082.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH21",
+    "parent": "Actors/Props",
+    "uid": "384226076",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1178.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH22",
+    "parent": "Actors/Props",
+    "uid": "2087920442",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1178.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceV23",
+    "parent": "Actors/Props",
+    "uid": "2084695898",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      650.0,
+      655.0
+    ]
+  },
+  {
+    "name": "FenceV24",
+    "parent": "Actors/Props",
+    "uid": "95601344",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1220.0,
+      655.0
+    ]
+  },
+  {
+    "name": "FenceV25",
+    "parent": "Actors/Props",
+    "uid": "1501666768",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      650.0,
+      735.0
+    ]
+  },
+  {
+    "name": "FenceV26",
+    "parent": "Actors/Props",
+    "uid": "997606040",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1220.0,
+      735.0
+    ]
+  },
+  {
+    "name": "FenceV27",
+    "parent": "Actors/Props",
+    "uid": "1019920099",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      650.0,
+      815.0
+    ]
+  },
+  {
+    "name": "FenceV28",
+    "parent": "Actors/Props",
+    "uid": "1082983374",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1220.0,
+      815.0
+    ]
+  },
+  {
+    "name": "FenceV29",
+    "parent": "Actors/Props",
+    "uid": "696641113",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      650.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceV30",
+    "parent": "Actors/Props",
+    "uid": "97844356",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1220.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH31",
+    "parent": "Actors/Props",
+    "uid": "963396176",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1518.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH32",
+    "parent": "Actors/Props",
+    "uid": "2090253401",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1518.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH33",
+    "parent": "Actors/Props",
+    "uid": "939275153",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1614.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH34",
+    "parent": "Actors/Props",
+    "uid": "137702702",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1614.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH35",
+    "parent": "Actors/Props",
+    "uid": "1741732918",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1710.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH36",
+    "parent": "Actors/Props",
+    "uid": "2004952119",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1806.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH37",
+    "parent": "Actors/Props",
+    "uid": "1420035652",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1806.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH38",
+    "parent": "Actors/Props",
+    "uid": "498561421",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1902.0,
+      575.0
+    ]
+  },
+  {
+    "name": "FenceH39",
+    "parent": "Actors/Props",
+    "uid": "404572358",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1902.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceV40",
+    "parent": "Actors/Props",
+    "uid": "847888552",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1470.0,
+      655.0
+    ]
+  },
+  {
+    "name": "FenceV41",
+    "parent": "Actors/Props",
+    "uid": "1867713883",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1995.0,
+      655.0
+    ]
+  },
+  {
+    "name": "FenceV42",
+    "parent": "Actors/Props",
+    "uid": "906806250",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1470.0,
+      735.0
+    ]
+  },
+  {
+    "name": "FenceV43",
+    "parent": "Actors/Props",
+    "uid": "860277982",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1995.0,
+      735.0
+    ]
+  },
+  {
+    "name": "FenceV44",
+    "parent": "Actors/Props",
+    "uid": "251323154",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1470.0,
+      815.0
+    ]
+  },
+  {
+    "name": "FenceV45",
+    "parent": "Actors/Props",
+    "uid": "824121682",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1995.0,
+      815.0
+    ]
+  },
+  {
+    "name": "FenceV46",
+    "parent": "Actors/Props",
+    "uid": "169718811",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1470.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceV47",
+    "parent": "Actors/Props",
+    "uid": "1567900213",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1995.0,
+      895.0
+    ]
+  },
+  {
+    "name": "FenceH48",
+    "parent": "Actors/Props",
+    "uid": "19659838",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1088.0,
+      1020.0
+    ]
+  },
+  {
+    "name": "FenceH49",
+    "parent": "Actors/Props",
+    "uid": "825681439",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1088.0,
+      1312.0
+    ]
+  },
+  {
+    "name": "FenceH50",
+    "parent": "Actors/Props",
+    "uid": "1229692019",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1184.0,
+      1020.0
+    ]
+  },
+  {
+    "name": "FenceH51",
+    "parent": "Actors/Props",
+    "uid": "1021138805",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1184.0,
+      1312.0
+    ]
+  },
+  {
+    "name": "FenceH52",
+    "parent": "Actors/Props",
+    "uid": "704320491",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1280.0,
+      1020.0
+    ]
+  },
+  {
+    "name": "FenceH53",
+    "parent": "Actors/Props",
+    "uid": "1727615270",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1376.0,
+      1020.0
+    ]
+  },
+  {
+    "name": "FenceH54",
+    "parent": "Actors/Props",
+    "uid": "1720815085",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1376.0,
+      1312.0
+    ]
+  },
+  {
+    "name": "FenceH55",
+    "parent": "Actors/Props",
+    "uid": "916319163",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1472.0,
+      1020.0
+    ]
+  },
+  {
+    "name": "FenceH56",
+    "parent": "Actors/Props",
+    "uid": "496447694",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1472.0,
+      1312.0
+    ]
+  },
+  {
+    "name": "FenceV57",
+    "parent": "Actors/Props",
+    "uid": "21591070",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1040.0,
+      1100.0
+    ]
+  },
+  {
+    "name": "FenceV58",
+    "parent": "Actors/Props",
+    "uid": "605089380",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1535.0,
+      1100.0
+    ]
+  },
+  {
+    "name": "FenceV59",
+    "parent": "Actors/Props",
+    "uid": "1971565968",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1040.0,
+      1180.0
+    ]
+  },
+  {
+    "name": "FenceV60",
+    "parent": "Actors/Props",
+    "uid": "1368145287",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1535.0,
+      1180.0
+    ]
+  },
+  {
+    "name": "FenceV61",
+    "parent": "Actors/Props",
+    "uid": "439593189",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1040.0,
+      1260.0
+    ]
+  },
+  {
+    "name": "FenceV62",
+    "parent": "Actors/Props",
+    "uid": "1830288306",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1535.0,
+      1260.0
+    ]
+  },
+  {
+    "name": "FenceV63",
+    "parent": "Actors/Props",
+    "uid": "219651275",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1040.0,
+      1312.0
+    ]
+  },
+  {
+    "name": "FenceV64",
+    "parent": "Actors/Props",
+    "uid": "2005595856",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1535.0,
+      1312.0
+    ]
+  },
+  {
+    "name": "FenceH65",
+    "parent": "Actors/Props",
+    "uid": "512482357",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      628.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH66",
+    "parent": "Actors/Props",
+    "uid": "1251678411",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      628.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH67",
+    "parent": "Actors/Props",
+    "uid": "1643110083",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      724.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH68",
+    "parent": "Actors/Props",
+    "uid": "650687656",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      724.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH69",
+    "parent": "Actors/Props",
+    "uid": "76859783",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      820.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH70",
+    "parent": "Actors/Props",
+    "uid": "2063421552",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      916.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH71",
+    "parent": "Actors/Props",
+    "uid": "501101117",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1012.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH72",
+    "parent": "Actors/Props",
+    "uid": "405926194",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1012.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH73",
+    "parent": "Actors/Props",
+    "uid": "554548519",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1108.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH74",
+    "parent": "Actors/Props",
+    "uid": "1948159900",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1108.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceV75",
+    "parent": "Actors/Props",
+    "uid": "1660892604",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      580.0,
+      1530.0
+    ]
+  },
+  {
+    "name": "FenceV76",
+    "parent": "Actors/Props",
+    "uid": "685782400",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1115.0,
+      1530.0
+    ]
+  },
+  {
+    "name": "FenceV77",
+    "parent": "Actors/Props",
+    "uid": "1976108319",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      580.0,
+      1610.0
+    ]
+  },
+  {
+    "name": "FenceV78",
+    "parent": "Actors/Props",
+    "uid": "1691831172",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1115.0,
+      1610.0
+    ]
+  },
+  {
+    "name": "FenceV79",
+    "parent": "Actors/Props",
+    "uid": "1508020621",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      580.0,
+      1690.0
+    ]
+  },
+  {
+    "name": "FenceV80",
+    "parent": "Actors/Props",
+    "uid": "1277231151",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1115.0,
+      1690.0
+    ]
+  },
+  {
+    "name": "FenceV81",
+    "parent": "Actors/Props",
+    "uid": "2003779127",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      580.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceV82",
+    "parent": "Actors/Props",
+    "uid": "1360684629",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1115.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH83",
+    "parent": "Actors/Props",
+    "uid": "1256547588",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1538.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH84",
+    "parent": "Actors/Props",
+    "uid": "829020139",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1538.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH85",
+    "parent": "Actors/Props",
+    "uid": "1221982927",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1634.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH86",
+    "parent": "Actors/Props",
+    "uid": "271328071",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1634.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH87",
+    "parent": "Actors/Props",
+    "uid": "1334711989",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1730.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH88",
+    "parent": "Actors/Props",
+    "uid": "796220052",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1826.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH89",
+    "parent": "Actors/Props",
+    "uid": "810306557",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1826.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH90",
+    "parent": "Actors/Props",
+    "uid": "1929487152",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1922.0,
+      1450.0
+    ]
+  },
+  {
+    "name": "FenceH91",
+    "parent": "Actors/Props",
+    "uid": "803369346",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1922.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceV92",
+    "parent": "Actors/Props",
+    "uid": "1734770950",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1490.0,
+      1530.0
+    ]
+  },
+  {
+    "name": "FenceV93",
+    "parent": "Actors/Props",
+    "uid": "61480794",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2010.0,
+      1530.0
+    ]
+  },
+  {
+    "name": "FenceV94",
+    "parent": "Actors/Props",
+    "uid": "844683739",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1490.0,
+      1610.0
+    ]
+  },
+  {
+    "name": "FenceV95",
+    "parent": "Actors/Props",
+    "uid": "1156148867",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2010.0,
+      1610.0
+    ]
+  },
+  {
+    "name": "FenceV96",
+    "parent": "Actors/Props",
+    "uid": "292387308",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1490.0,
+      1690.0
+    ]
+  },
+  {
+    "name": "FenceV97",
+    "parent": "Actors/Props",
+    "uid": "2127149814",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2010.0,
+      1690.0
+    ]
+  },
+  {
+    "name": "FenceV98",
+    "parent": "Actors/Props",
+    "uid": "1029434160",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1490.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceV99",
+    "parent": "Actors/Props",
+    "uid": "262079428",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2010.0,
+      1740.0
+    ]
+  },
+  {
+    "name": "FenceH101",
+    "parent": "Actors/Props",
+    "uid": "1347055970",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1040.0,
+      1503.0
+    ]
+  },
+  {
+    "name": "FenceH102",
+    "parent": "Actors/Props",
+    "uid": "2113122805",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1040.0,
+      1623.0
+    ]
+  },
+  {
+    "name": "FenceV103",
+    "parent": "Actors/Props",
+    "uid": "2051440341",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      975.0,
+      1591.0
+    ]
+  },
+  {
+    "name": "FenceH105",
+    "parent": "Actors/Props",
+    "uid": "818925050",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1950.0,
+      1493.0
+    ]
+  },
+  {
+    "name": "FenceH106",
+    "parent": "Actors/Props",
+    "uid": "1758903130",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1950.0,
+      1613.0
+    ]
+  },
+  {
+    "name": "FenceV107",
+    "parent": "Actors/Props",
+    "uid": "532895110",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1885.0,
+      1581.0
+    ]
+  },
+  {
+    "name": "FenceH109",
+    "parent": "Actors/Props",
+    "uid": "1526276114",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1125.0,
+      733.0
+    ]
+  },
+  {
+    "name": "FenceH110",
+    "parent": "Actors/Props",
+    "uid": "2023908052",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1125.0,
+      853.0
+    ]
+  },
+  {
+    "name": "FenceV111",
+    "parent": "Actors/Props",
+    "uid": "514322194",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1060.0,
+      821.0
+    ]
+  },
+  {
+    "name": "FenceH113",
+    "parent": "Actors/Props",
+    "uid": "1758379790",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1905.0,
+      733.0
+    ]
+  },
+  {
+    "name": "FenceH114",
+    "parent": "Actors/Props",
+    "uid": "371569813",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1905.0,
+      853.0
+    ]
+  },
+  {
+    "name": "FenceV115",
+    "parent": "Actors/Props",
+    "uid": "1065702381",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      1840.0,
+      821.0
+    ]
+  },
+  {
+    "name": "Scarecrow116",
+    "parent": "Actors/Props",
+    "uid": "96253549",
+    "ref": "27_mot4e",
+    "kind": "scarecrow",
+    "position": [
+      1852.0,
+      1405.0
+    ]
+  },
+  {
+    "name": "FenceH118",
+    "parent": "Actors/Props",
+    "uid": "1491433282",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      402.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken119",
+    "parent": "Actors/Props",
+    "uid": "1344696802",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      402.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH120",
+    "parent": "Actors/Props",
+    "uid": "1988321239",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      498.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken121",
+    "parent": "Actors/Props",
+    "uid": "1145401626",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      498.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH122",
+    "parent": "Actors/Props",
+    "uid": "451113684",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      594.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken123",
+    "parent": "Actors/Props",
+    "uid": "1521213591",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      594.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH124",
+    "parent": "Actors/Props",
+    "uid": "1745943855",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      690.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken125",
+    "parent": "Actors/Props",
+    "uid": "284221682",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      690.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH126",
+    "parent": "Actors/Props",
+    "uid": "1696833471",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      786.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken127",
+    "parent": "Actors/Props",
+    "uid": "1373143013",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      786.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH128",
+    "parent": "Actors/Props",
+    "uid": "216737919",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      882.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken129",
+    "parent": "Actors/Props",
+    "uid": "1184539816",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      882.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH130",
+    "parent": "Actors/Props",
+    "uid": "255731915",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      978.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken131",
+    "parent": "Actors/Props",
+    "uid": "1067565700",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      978.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH132",
+    "parent": "Actors/Props",
+    "uid": "53071485",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1074.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken133",
+    "parent": "Actors/Props",
+    "uid": "508305938",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1074.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH134",
+    "parent": "Actors/Props",
+    "uid": "717677468",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1170.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken135",
+    "parent": "Actors/Props",
+    "uid": "1105818413",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1170.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceBroken136",
+    "parent": "Actors/Props",
+    "uid": "2010646304",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1266.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH137",
+    "parent": "Actors/Props",
+    "uid": "1021905177",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1458.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceH138",
+    "parent": "Actors/Props",
+    "uid": "1904136914",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1554.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken139",
+    "parent": "Actors/Props",
+    "uid": "1531012064",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1554.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH140",
+    "parent": "Actors/Props",
+    "uid": "1114049691",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1650.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken141",
+    "parent": "Actors/Props",
+    "uid": "1797738743",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1650.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH142",
+    "parent": "Actors/Props",
+    "uid": "347820875",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1746.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken143",
+    "parent": "Actors/Props",
+    "uid": "225560856",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1746.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH144",
+    "parent": "Actors/Props",
+    "uid": "254455556",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1842.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken145",
+    "parent": "Actors/Props",
+    "uid": "231468144",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1842.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH146",
+    "parent": "Actors/Props",
+    "uid": "2049328278",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      1938.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken147",
+    "parent": "Actors/Props",
+    "uid": "648045996",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      1938.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH148",
+    "parent": "Actors/Props",
+    "uid": "623676905",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      2034.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken149",
+    "parent": "Actors/Props",
+    "uid": "404319684",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      2034.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceH150",
+    "parent": "Actors/Props",
+    "uid": "1019342765",
+    "ref": "25_dli7v",
+    "kind": "fence_h",
+    "position": [
+      2130.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceBroken151",
+    "parent": "Actors/Props",
+    "uid": "1300561630",
+    "ref": "28_da2qf",
+    "kind": "fence_broken",
+    "position": [
+      2130.0,
+      453.0
+    ]
+  },
+  {
+    "name": "FenceV152",
+    "parent": "Actors/Props",
+    "uid": "865336687",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      533.0
+    ]
+  },
+  {
+    "name": "FenceV153",
+    "parent": "Actors/Props",
+    "uid": "825813543",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      533.0
+    ]
+  },
+  {
+    "name": "FenceV154",
+    "parent": "Actors/Props",
+    "uid": "277094847",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      613.0
+    ]
+  },
+  {
+    "name": "FenceV155",
+    "parent": "Actors/Props",
+    "uid": "1397566470",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      613.0
+    ]
+  },
+  {
+    "name": "FenceV156",
+    "parent": "Actors/Props",
+    "uid": "384900380",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      693.0
+    ]
+  },
+  {
+    "name": "FenceV157",
+    "parent": "Actors/Props",
+    "uid": "608731506",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      693.0
+    ]
+  },
+  {
+    "name": "FenceV158",
+    "parent": "Actors/Props",
+    "uid": "2066199740",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      773.0
+    ]
+  },
+  {
+    "name": "FenceV159",
+    "parent": "Actors/Props",
+    "uid": "1671391289",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      773.0
+    ]
+  },
+  {
+    "name": "FenceV160",
+    "parent": "Actors/Props",
+    "uid": "2063017955",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      853.0
+    ]
+  },
+  {
+    "name": "FenceV161",
+    "parent": "Actors/Props",
+    "uid": "1299104638",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      853.0
+    ]
+  },
+  {
+    "name": "FenceV162",
+    "parent": "Actors/Props",
+    "uid": "2049969641",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      933.0
+    ]
+  },
+  {
+    "name": "FenceV163",
+    "parent": "Actors/Props",
+    "uid": "1096785410",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      933.0
+    ]
+  },
+  {
+    "name": "FenceV164",
+    "parent": "Actors/Props",
+    "uid": "539958768",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1013.0
+    ]
+  },
+  {
+    "name": "FenceV165",
+    "parent": "Actors/Props",
+    "uid": "1324202276",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1013.0
+    ]
+  },
+  {
+    "name": "FenceV166",
+    "parent": "Actors/Props",
+    "uid": "1041195456",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1093.0
+    ]
+  },
+  {
+    "name": "FenceV167",
+    "parent": "Actors/Props",
+    "uid": "1713264862",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1093.0
+    ]
+  },
+  {
+    "name": "FenceV168",
+    "parent": "Actors/Props",
+    "uid": "931588844",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1173.0
+    ]
+  },
+  {
+    "name": "FenceV169",
+    "parent": "Actors/Props",
+    "uid": "643986874",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1173.0
+    ]
+  },
+  {
+    "name": "FenceV170",
+    "parent": "Actors/Props",
+    "uid": "1015283384",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1253.0
+    ]
+  },
+  {
+    "name": "FenceV171",
+    "parent": "Actors/Props",
+    "uid": "1077390702",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1333.0
+    ]
+  },
+  {
+    "name": "FenceV172",
+    "parent": "Actors/Props",
+    "uid": "1006927580",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1413.0
+    ]
+  },
+  {
+    "name": "FenceV173",
+    "parent": "Actors/Props",
+    "uid": "1858854266",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1493.0
+    ]
+  },
+  {
+    "name": "FenceV174",
+    "parent": "Actors/Props",
+    "uid": "1541921426",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1573.0
+    ]
+  },
+  {
+    "name": "FenceV175",
+    "parent": "Actors/Props",
+    "uid": "459414705",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1573.0
+    ]
+  },
+  {
+    "name": "FenceV176",
+    "parent": "Actors/Props",
+    "uid": "2012580987",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1653.0
+    ]
+  },
+  {
+    "name": "FenceV177",
+    "parent": "Actors/Props",
+    "uid": "297001534",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1653.0
+    ]
+  },
+  {
+    "name": "FenceV178",
+    "parent": "Actors/Props",
+    "uid": "2071128515",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1733.0
+    ]
+  },
+  {
+    "name": "FenceV179",
+    "parent": "Actors/Props",
+    "uid": "1921776920",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1733.0
+    ]
+  },
+  {
+    "name": "FenceV180",
+    "parent": "Actors/Props",
+    "uid": "1644082873",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      336.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "FenceV181",
+    "parent": "Actors/Props",
+    "uid": "1764514013",
+    "ref": "26_dwl72",
+    "kind": "fence_v",
+    "position": [
+      2191.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "GatePostLeft",
+    "parent": "Actors/Props",
+    "uid": "377051660",
+    "ref": "29_gv1fg",
+    "kind": "gate_post",
+    "position": [
+      1215.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "GatePostRight",
+    "parent": "Actors/Props",
+    "uid": "456703236",
+    "ref": "29_gv1fg",
+    "kind": "gate_post",
+    "position": [
+      1359.0,
+      1813.0
+    ]
+  },
+  {
+    "name": "GateLeaf184",
+    "parent": "Actors/Props",
+    "uid": "940821904",
+    "ref": "30_2ojow",
+    "kind": "gate_leaf",
+    "position": [
+      1162.0,
+      1811.0
+    ]
+  },
+  {
+    "name": "GateLeaf185",
+    "parent": "Actors/Props",
+    "uid": "1464116695",
+    "ref": "30_2ojow",
+    "kind": "gate_leaf",
+    "position": [
+      1411.0,
+      1811.0
+    ]
+  },
+  {
+    "name": "HangingLantern187",
+    "parent": "Actors/Props",
+    "uid": "127583079",
+    "ref": "31_36thd",
+    "kind": "hanging_lantern",
+    "position": [
+      708.0,
+      796.0
+    ]
+  },
+  {
+    "name": "HangingLantern188",
+    "parent": "Actors/Props",
+    "uid": "17116431",
+    "ref": "31_36thd",
+    "kind": "hanging_lantern",
+    "position": [
+      1873.0,
+      791.0
+    ]
+  },
+  {
+    "name": "HangingLantern189",
+    "parent": "Actors/Props",
+    "uid": "380994896",
+    "ref": "31_36thd",
+    "kind": "hanging_lantern",
+    "position": [
+      1152.0,
+      1261.0
+    ]
+  },
+  {
+    "name": "HangingLantern190",
+    "parent": "Actors/Props",
+    "uid": "954615380",
+    "ref": "31_36thd",
+    "kind": "hanging_lantern",
+    "position": [
+      976.0,
+      1648.0
+    ]
+  },
+  {
+    "name": "HangingLantern191",
+    "parent": "Actors/Props",
+    "uid": "451908250",
+    "ref": "31_36thd",
+    "kind": "hanging_lantern",
+    "position": [
+      1928.0,
+      1641.0
+    ]
+  },
+  {
+    "name": "WoodStore192",
+    "parent": "Actors/Props",
+    "uid": "458176964",
+    "ref": "32_hm75g",
+    "kind": "wood_store",
+    "position": [
+      626.0,
+      1548.0
+    ]
+  },
+  {
+    "name": "Logs193",
+    "parent": "Actors/Props",
+    "uid": "1431060883",
+    "ref": "33_2wpvd",
+    "kind": "logs",
+    "position": [
+      701.0,
+      1625.0
+    ]
+  },
+  {
+    "name": "Cart194",
+    "parent": "Actors/Props",
+    "uid": "1913591739",
+    "ref": "34_ribmv",
+    "kind": "cart",
+    "position": [
+      660.0,
+      1650.0
+    ]
+  },
+  {
+    "name": "Stump195",
+    "parent": "Actors/Props",
+    "uid": "1532807206",
+    "ref": "35_8y1qs",
+    "kind": "stump",
+    "position": [
+      1000.0,
+      1700.0
+    ]
+  },
+  {
+    "name": "Barrel196",
+    "parent": "Actors/Props",
+    "uid": "303228861",
+    "ref": "36_whfd6",
+    "kind": "barrel",
+    "position": [
+      760.0,
+      810.0
+    ]
+  },
+  {
+    "name": "Crate197",
+    "parent": "Actors/Props",
+    "uid": "824770610",
+    "ref": "37_he0vi",
+    "kind": "crate",
+    "position": [
+      800.0,
+      850.0
+    ]
+  },
+  {
+    "name": "Barrel198",
+    "parent": "Actors/Props",
+    "uid": "969958091",
+    "ref": "36_whfd6",
+    "kind": "barrel",
+    "position": [
+      1530.0,
+      800.0
+    ]
+  },
+  {
+    "name": "Barrel199",
+    "parent": "Actors/Props",
+    "uid": "1345106666",
+    "ref": "36_whfd6",
+    "kind": "barrel",
+    "position": [
+      1570.0,
+      800.0
+    ]
+  },
+  {
+    "name": "Cart200",
+    "parent": "Actors/Props",
+    "uid": "2019160131",
+    "ref": "34_ribmv",
+    "kind": "cart",
+    "position": [
+      2055.0,
+      780.0
+    ]
+  },
+  {
+    "name": "Crate201",
+    "parent": "Actors/Props",
+    "uid": "1944164540",
+    "ref": "37_he0vi",
+    "kind": "crate",
+    "position": [
+      1489.0,
+      1172.0
+    ]
+  },
+  {
+    "name": "VegetableBox202",
+    "parent": "Actors/Props",
+    "uid": "434212239",
+    "ref": "38_k6epq",
+    "kind": "vegetable_box",
+    "position": [
+      1479.0,
+      1227.0
+    ]
+  },
+  {
+    "name": "Barrel203",
+    "parent": "Actors/Props",
+    "uid": "1191940450",
+    "ref": "36_whfd6",
+    "kind": "barrel",
+    "position": [
+      1096.0,
+      1211.0
+    ]
+  },
+  {
+    "name": "Bench204",
+    "parent": "Actors/Props",
+    "uid": "375308991",
+    "ref": "39_71qda",
+    "kind": "bench",
+    "position": [
+      1364.0,
+      1288.0
+    ]
+  },
+  {
+    "name": "Bench205",
+    "parent": "Actors/Props",
+    "uid": "1381079776",
+    "ref": "39_71qda",
+    "kind": "bench",
+    "position": [
+      1074.0,
+      817.0
+    ]
+  },
+  {
+    "name": "Sign206",
+    "parent": "Actors/Props",
+    "uid": "1237733317",
+    "ref": "40_shuhq",
+    "kind": "sign",
+    "position": [
+      628.0,
+      1007.0
+    ]
+  },
+  {
+    "name": "Rock207",
+    "parent": "Actors/Props",
+    "uid": "1579862919",
+    "ref": "41_fqp5t",
+    "kind": "rock",
+    "position": [
+      508.0,
+      1145.0
+    ]
+  },
+  {
+    "name": "Rock208",
+    "parent": "Actors/Props",
+    "uid": "1545668988",
+    "ref": "41_fqp5t",
+    "kind": "rock",
+    "position": [
+      2020.0,
+      1170.0
+    ]
+  },
+  {
+    "name": "Logs209",
+    "parent": "Actors/Props",
+    "uid": "1958027830",
+    "ref": "33_2wpvd",
+    "kind": "logs",
+    "position": [
+      2097.0,
+      1456.0
+    ]
+  },
+  {
+    "name": "Pumpkins210",
+    "parent": "Actors/Props",
+    "uid": "607935740",
+    "ref": "42_fhu3t",
+    "kind": "pumpkins",
+    "position": [
+      1896.0,
+      1638.0
+    ]
+  },
+  {
+    "name": "VegetableBox211",
+    "parent": "Actors/Props",
+    "uid": "2035890896",
+    "ref": "38_k6epq",
+    "kind": "vegetable_box",
+    "position": [
+      1858.0,
+      1645.0
+    ]
+  },
+  {
+    "name": "GateLintel",
+    "parent": "Foreground",
+    "uid": "574563092",
+    "ref": "45_nacxe",
+    "kind": "gate_beam",
+    "position": [
+      1287.0,
+      1729.0
+    ]
+  }
+]

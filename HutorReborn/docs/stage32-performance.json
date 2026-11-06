@@ -1,0 +1,79 @@
+{
+  "renderer": "Godot 4.6.3 / Mesa llvmpipe",
+  "warmup_frames_per_view": 45,
+  "samples_per_view_per_run": 90,
+  "runs_per_version": 2,
+  "order": "before, after; after, before",
+  "results": {
+    "before": {
+      "wind_material_nodes": 439,
+      "scene_tree_nodes": 2475,
+      "collision_shapes": 496,
+      "views": [
+        {
+          "center": "(1378.0, 1442.0)",
+          "process_ms": 60.3889944444445,
+          "physics_ms": 0.5261055555555549,
+          "draw_calls": 59.9999999999999,
+          "drawn_objects": 2506.0
+        },
+        {
+          "center": "(510.0, 760.0)",
+          "process_ms": 56.4651111111111,
+          "physics_ms": 0.2597555555555555,
+          "draw_calls": 106.0,
+          "drawn_objects": 1380.0
+        },
+        {
+          "center": "(1050.0, 350.0)",
+          "process_ms": 49.2243222222222,
+          "physics_ms": 0.267227777777778,
+          "draw_calls": 71.9999999999999,
+          "drawn_objects": 1534.0
+        },
+        {
+          "center": "(1800.0, 1650.0)",
+          "process_ms": 54.8001333333333,
+          "physics_ms": 0.2203888888888885,
+          "draw_calls": 103.0,
+          "drawn_objects": 2616.0
+        }
+      ]
+    },
+    "after": {
+      "wind_material_nodes": 320,
+      "scene_tree_nodes": 2535,
+      "collision_shapes": 526,
+      "views": [
+        {
+          "center": "(1378.0, 1442.0)",
+          "process_ms": 59.6214388888889,
+          "physics_ms": 0.2295555555555555,
+          "draw_calls": 59.9999999999999,
+          "drawn_objects": 2511.0
+        },
+        {
+          "center": "(510.0, 760.0)",
+          "process_ms": 53.420561111111155,
+          "physics_ms": 0.29712777777777755,
+          "draw_calls": 73.0,
+          "drawn_objects": 1354.0
+        },
+        {
+          "center": "(1050.0, 350.0)",
+          "process_ms": 48.47558333333335,
+          "physics_ms": 0.2346666666666665,
+          "draw_calls": 63.0000000000001,
+          "drawn_objects": 1524.0
+        },
+        {
+          "center": "(1800.0, 1650.0)",
+          "process_ms": 58.38394999999995,
+          "physics_ms": 0.323538888888889,
+          "draw_calls": 98.0,
+          "drawn_objects": 2616.0
+        }
+      ]
+    }
+  }
+}

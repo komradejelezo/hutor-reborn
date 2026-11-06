@@ -1,0 +1,1137 @@
+{
+  "atlas_size": [
+    1024,
+    512
+  ],
+  "objects": [
+    {
+      "name": "sack_tied",
+      "source": "Тайл декор.png",
+      "box": [
+        1162,
+        146,
+        1213,
+        217
+      ],
+      "scale": 0.6,
+      "pivot": [
+        25.5,
+        59
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        212,
+        227,
+        51,
+        71
+      ]
+    },
+    {
+      "name": "grain_sack",
+      "source": "Тайл декор.png",
+      "box": [
+        1218,
+        286,
+        1276,
+        364
+      ],
+      "scale": 0.6,
+      "pivot": [
+        29.0,
+        68
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        347,
+        137,
+        58,
+        78
+      ]
+    },
+    {
+      "name": "grain_basin",
+      "source": "Тайл декор.png",
+      "box": [
+        1158,
+        286,
+        1216,
+        363
+      ],
+      "scale": 0.6,
+      "pivot": [
+        29.0,
+        69
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        696,
+        137,
+        58,
+        77
+      ]
+    },
+    {
+      "name": "bottle_crate",
+      "source": "Тайл декор.png",
+      "box": [
+        1040,
+        287,
+        1098,
+        365
+      ],
+      "scale": 0.6,
+      "pivot": [
+        29.0,
+        65
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        413,
+        137,
+        58,
+        78
+      ]
+    },
+    {
+      "name": "basket",
+      "source": "Тайл декор.png",
+      "box": [
+        627,
+        609,
+        682,
+        672
+      ],
+      "scale": 0.6,
+      "pivot": [
+        27.5,
+        44
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        4,
+        311,
+        55,
+        63
+      ]
+    },
+    {
+      "name": "bucket",
+      "source": "Тайл декор.png",
+      "box": [
+        626,
+        484,
+        672,
+        546
+      ],
+      "scale": 0.6,
+      "pivot": [
+        23.0,
+        53
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        180,
+        311,
+        46,
+        62
+      ]
+    },
+    {
+      "name": "wash_basin",
+      "source": "Тайл декор.png",
+      "box": [
+        674,
+        488,
+        727,
+        548
+      ],
+      "scale": 0.55,
+      "pivot": [
+        26.5,
+        50
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": [
+        [
+          5,
+          7
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          50,
+          12
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          27,
+          56
+        ],
+        [
+          0,
+          43
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "protect": null,
+      "atlas_region": [
+        297,
+        311,
+        53,
+        60
+      ]
+    },
+    {
+      "name": "tankard",
+      "source": "Тайл декор.png",
+      "box": [
+        729,
+        488,
+        765,
+        536
+      ],
+      "scale": 0.4,
+      "pivot": [
+        18.0,
+        39
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          31,
+          26
+        ],
+        [
+          24,
+          46
+        ],
+        [
+          0,
+          46
+        ]
+      ],
+      "protect": null,
+      "atlas_region": [
+        545,
+        311,
+        36,
+        48
+      ]
+    },
+    {
+      "name": "kitchen_pot",
+      "source": "Тайл декор.png",
+      "box": [
+        850,
+        486,
+        905,
+        548
+      ],
+      "scale": 0.6,
+      "pivot": [
+        27.5,
+        47
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        234,
+        311,
+        55,
+        62
+      ]
+    },
+    {
+      "name": "cooking_tripod",
+      "source": "Тайл декор.png",
+      "box": [
+        769,
+        442,
+        847,
+        551
+      ],
+      "scale": 0.65,
+      "pivot": [
+        39.0,
+        94
+      ],
+      "solid": [
+        44,
+        12,
+        0,
+        -6
+      ],
+      "mode": "dark",
+      "polygon": [
+        [
+          24,
+          0
+        ],
+        [
+          37,
+          4
+        ],
+        [
+          77,
+          96
+        ],
+        [
+          65,
+          108
+        ],
+        [
+          3,
+          108
+        ],
+        [
+          0,
+          90
+        ]
+      ],
+      "protect": null,
+      "atlas_region": [
+        114,
+        4,
+        78,
+        109
+      ]
+    },
+    {
+      "name": "wood_trough",
+      "source": "Тайл декор.png",
+      "box": [
+        547,
+        484,
+        622,
+        548
+      ],
+      "scale": 0.7,
+      "pivot": [
+        37.5,
+        53
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        823,
+        227,
+        75,
+        64
+      ]
+    },
+    {
+      "name": "short_bench",
+      "source": "Тайл декор.png",
+      "box": [
+        902,
+        486,
+        977,
+        550
+      ],
+      "scale": 0.75,
+      "pivot": [
+        37.5,
+        51
+      ],
+      "solid": [
+        48,
+        12,
+        0,
+        -6
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        906,
+        227,
+        75,
+        64
+      ]
+    },
+    {
+      "name": "stool",
+      "source": "Тайл декор.png",
+      "box": [
+        979,
+        497,
+        1020,
+        553
+      ],
+      "scale": 0.6,
+      "pivot": [
+        20.5,
+        40
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        358,
+        311,
+        41,
+        56
+      ]
+    },
+    {
+      "name": "shovel",
+      "source": "Тайл декор.png",
+      "box": [
+        765,
+        582,
+        808,
+        673
+      ],
+      "scale": 0.6,
+      "pivot": [
+        21.5,
+        72
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        385,
+        4,
+        43,
+        91
+      ]
+    },
+    {
+      "name": "pitchfork",
+      "source": "Тайл декор.png",
+      "box": [
+        820,
+        582,
+        866,
+        673
+      ],
+      "scale": 0.6,
+      "pivot": [
+        23.0,
+        75
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        436,
+        4,
+        46,
+        91
+      ]
+    },
+    {
+      "name": "broom",
+      "source": "Тайл декор.png",
+      "box": [
+        874,
+        583,
+        922,
+        673
+      ],
+      "scale": 0.6,
+      "pivot": [
+        24.0,
+        74
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        490,
+        4,
+        48,
+        90
+      ]
+    },
+    {
+      "name": "herb_line",
+      "source": "Тайл декор.png",
+      "box": [
+        809,
+        294,
+        910,
+        393
+      ],
+      "scale": 0.65,
+      "pivot": [
+        50.5,
+        67
+      ],
+      "solid": [
+        60,
+        12,
+        0,
+        -6
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        276,
+        4,
+        101,
+        99
+      ]
+    },
+    {
+      "name": "hide_rack",
+      "source": "Тайл декор.png",
+      "box": [
+        472,
+        284,
+        540,
+        391
+      ],
+      "scale": 0.7,
+      "pivot": [
+        34.0,
+        95
+      ],
+      "solid": [
+        36,
+        12,
+        0,
+        -6
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        200,
+        4,
+        68,
+        107
+      ]
+    },
+    {
+      "name": "herb_pot",
+      "source": "Тайл декор.png",
+      "box": [
+        831,
+        756,
+        880,
+        834
+      ],
+      "scale": 0.6,
+      "pivot": [
+        24.5,
+        66
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        479,
+        137,
+        49,
+        78
+      ]
+    },
+    {
+      "name": "white_herbs",
+      "source": "Тайл декор.png",
+      "box": [
+        886,
+        756,
+        943,
+        834
+      ],
+      "scale": 0.6,
+      "pivot": [
+        28.5,
+        67
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        536,
+        137,
+        57,
+        78
+      ]
+    },
+    {
+      "name": "axe_stump",
+      "source": "Тайлы лесозаготовка.png",
+      "box": [
+        925,
+        395,
+        1025,
+        474
+      ],
+      "scale": 0.6,
+      "pivot": [
+        50.0,
+        73
+      ],
+      "solid": [
+        26,
+        14,
+        0,
+        -7
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        239,
+        137,
+        100,
+        79
+      ]
+    },
+    {
+      "name": "saw",
+      "source": "Тайлы лесозаготовка.png",
+      "box": [
+        1040,
+        395,
+        1240,
+        471
+      ],
+      "scale": 0.45,
+      "pivot": [
+        100.0,
+        70
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        4,
+        227,
+        200,
+        76
+      ]
+    },
+    {
+      "name": "stump_roots",
+      "source": "Тайлы лесозаготовка.png",
+      "box": [
+        794,
+        114,
+        912,
+        204
+      ],
+      "scale": 0.6,
+      "pivot": [
+        59.0,
+        83
+      ],
+      "solid": [
+        32,
+        18,
+        0,
+        -9
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        546,
+        4,
+        118,
+        90
+      ]
+    },
+    {
+      "name": "old_stump",
+      "source": "Тайлы лесозаготовка.png",
+      "box": [
+        932,
+        116,
+        1062,
+        205
+      ],
+      "scale": 0.55,
+      "pivot": [
+        65.0,
+        75
+      ],
+      "solid": [
+        30,
+        16,
+        0,
+        -8
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        672,
+        4,
+        130,
+        89
+      ]
+    },
+    {
+      "name": "charred_snag",
+      "source": "Тайлы лесозаготовка.png",
+      "box": [
+        916,
+        785,
+        1051,
+        862
+      ],
+      "scale": 0.9,
+      "pivot": [
+        67.5,
+        74
+      ],
+      "solid": [
+        22,
+        14,
+        0,
+        -7
+      ],
+      "mode": "charred",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        762,
+        137,
+        135,
+        77
+      ]
+    },
+    {
+      "name": "dry_snag",
+      "source": "кривая сосна.png",
+      "box": [
+        1038,
+        815,
+        1140,
+        940
+      ],
+      "scale": 1.0,
+      "pivot": [
+        51.0,
+        122
+      ],
+      "solid": [
+        17,
+        17,
+        0,
+        -8
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        4,
+        4,
+        102,
+        125
+      ]
+    },
+    {
+      "name": "fallen_a",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        38,
+        137,
+        168,
+        189
+      ],
+      "scale": 0.9,
+      "pivot": [
+        65.0,
+        40
+      ],
+      "solid": [
+        96,
+        15,
+        0,
+        -8
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        407,
+        311,
+        130,
+        52
+      ]
+    },
+    {
+      "name": "fallen_b",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        223,
+        132,
+        450,
+        214
+      ],
+      "scale": 0.7,
+      "pivot": [
+        113.5,
+        77
+      ],
+      "solid": [
+        122,
+        17,
+        0,
+        -8
+      ],
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        4,
+        137,
+        227,
+        82
+      ]
+    },
+    {
+      "name": "roots",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        819,
+        131,
+        941,
+        216
+      ],
+      "scale": 0.6,
+      "pivot": [
+        61.0,
+        81
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        810,
+        4,
+        122,
+        85
+      ]
+    },
+    {
+      "name": "branches",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        980,
+        500,
+        1094,
+        565
+      ],
+      "scale": 0.65,
+      "pivot": [
+        57.0,
+        62
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        585,
+        227,
+        114,
+        65
+      ]
+    },
+    {
+      "name": "bark",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        1110,
+        500,
+        1215,
+        563
+      ],
+      "scale": 0.55,
+      "pivot": [
+        52.5,
+        60
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        67,
+        311,
+        105,
+        63
+      ]
+    },
+    {
+      "name": "chips",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        1240,
+        499,
+        1348,
+        564
+      ],
+      "scale": 0.55,
+      "pivot": [
+        54.0,
+        62
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        707,
+        227,
+        108,
+        65
+      ]
+    },
+    {
+      "name": "leaf_litter",
+      "source": "Тайлы поваленные деревья.png",
+      "box": [
+        1375,
+        501,
+        1492,
+        567
+      ],
+      "scale": 0.6,
+      "pivot": [
+        58.5,
+        63
+      ],
+      "solid": null,
+      "mode": "dark",
+      "polygon": null,
+      "protect": null,
+      "atlas_region": [
+        460,
+        227,
+        117,
+        66
+      ]
+    },
+    {
+      "name": "bush_round",
+      "source": "Тайл природа.png",
+      "box": [
+        1033,
+        164,
+        1120,
+        232
+      ],
+      "scale": 0.72,
+      "pivot": [
+        43.5,
+        61
+      ],
+      "solid": null,
+      "mode": "bush",
+      "polygon": [
+        [
+          23,
+          2
+        ],
+        [
+          57,
+          0
+        ],
+        [
+          85,
+          25
+        ],
+        [
+          84,
+          52
+        ],
+        [
+          59,
+          65
+        ],
+        [
+          21,
+          63
+        ],
+        [
+          1,
+          45
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "protect": null,
+      "atlas_region": [
+        365,
+        227,
+        87,
+        68
+      ]
+    },
+    {
+      "name": "bush_sparse",
+      "source": "Тайл природа.png",
+      "box": [
+        1174,
+        164,
+        1260,
+        233
+      ],
+      "scale": 0.75,
+      "pivot": [
+        43.0,
+        63
+      ],
+      "solid": null,
+      "mode": "bush",
+      "polygon": [
+        [
+          22,
+          1
+        ],
+        [
+          59,
+          2
+        ],
+        [
+          85,
+          23
+        ],
+        [
+          82,
+          51
+        ],
+        [
+          58,
+          67
+        ],
+        [
+          24,
+          64
+        ],
+        [
+          1,
+          41
+        ],
+        [
+          3,
+          18
+        ]
+      ],
+      "protect": null,
+      "atlas_region": [
+        271,
+        227,
+        86,
+        69
+      ]
+    },
+    {
+      "name": "bush_berries",
+      "source": "Тайл природа.png",
+      "box": [
+        1033,
+        329,
+        1120,
+        407
+      ],
+      "scale": 0.65,
+      "pivot": [
+        43.5,
+        68
+      ],
+      "solid": null,
+      "mode": "bush",
+      "polygon": [
+        [
+          24,
+          0
+        ],
+        [
+          58,
+          1
+        ],
+        [
+          85,
+          31
+        ],
+        [
+          84,
+          60
+        ],
+        [
+          58,
+          75
+        ],
+        [
+          21,
+          71
+        ],
+        [
+          1,
+          47
+        ],
+        [
+          4,
+          20
+        ]
+      ],
+      "protect": null,
+      "atlas_region": [
+        601,
+        137,
+        87,
+        78
+      ]
+    }
+  ]
+}

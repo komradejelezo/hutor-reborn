@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage32/environment_atlas.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="ArtTexture"]
+atlas = ExtResource("1")
+region = Rect2(4, 227, 200, 76)
+filter_clip = true
+
+[node name="Saw" type="Node2D"]
+metadata/detail_asset = "saw"
+
+[node name="Art" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(0.45, 0.45)
+texture = SubResource("ArtTexture")
+centered = false
+offset = Vector2(-100.0, -70)
