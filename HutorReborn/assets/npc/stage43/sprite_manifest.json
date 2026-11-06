@@ -1,0 +1,2918 @@
+{
+  "canvas": [
+    96,
+    96
+  ],
+  "pivot": [
+    48,
+    82
+  ],
+  "method": "original crops and alpha cleanup; Nearest to game resolution; no painting",
+  "residents": {
+    "elder": {
+      "height": 48,
+      "temporary": "Borrowed older-man study; an approved elder design is still needed",
+      "sources": {
+        "Npc/Старик.png": "2f1aa43a6da0d068e202597f2494b46aa5f8449fb3dbc80db15d1b415373aca9"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Npc/Старик.png",
+          "box": [
+            475,
+            370,
+            548,
+            506
+          ],
+          "source_foot": [
+            39.0,
+            122.5
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            29,
+            55
+          ],
+          "offset": [
+            32,
+            33
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Npc/Старик.png",
+          "box": [
+            548,
+            370,
+            623,
+            506
+          ],
+          "source_foot": [
+            39.0,
+            122.5
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            30,
+            55
+          ],
+          "offset": [
+            32,
+            33
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Npc/Старик.png",
+          "box": [
+            785,
+            370,
+            858,
+            506
+          ],
+          "source_foot": [
+            29.0,
+            122.5
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            29,
+            55
+          ],
+          "offset": [
+            36,
+            33
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Npc/Старик.png",
+          "box": [
+            858,
+            370,
+            933,
+            506
+          ],
+          "source_foot": [
+            29.0,
+            122.5
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            30,
+            55
+          ],
+          "offset": [
+            36,
+            33
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Npc/Старик.png",
+          "box": [
+            935,
+            370,
+            1002,
+            506
+          ],
+          "source_foot": [
+            32.0,
+            122.0
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            27,
+            55
+          ],
+          "offset": [
+            35,
+            33
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Npc/Старик.png",
+          "box": [
+            1002,
+            370,
+            1065,
+            506
+          ],
+          "source_foot": [
+            32.0,
+            122.0
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            25,
+            55
+          ],
+          "offset": [
+            35,
+            33
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 2,
+          "source": "Npc/Старик.png",
+          "box": [
+            1065,
+            370,
+            1131,
+            506
+          ],
+          "source_foot": [
+            32.0,
+            122.0
+          ],
+          "scale": 0.40336134453781514,
+          "resized": [
+            27,
+            55
+          ],
+          "offset": [
+            35,
+            33
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_right": [
+          2,
+          3
+        ],
+        "walk_up": [
+          4,
+          5,
+          6
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          4
+        ],
+        "idle_right": [
+          2
+        ],
+        "walk_left": [
+          2,
+          3
+        ],
+        "idle_left": [
+          2
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "innkeeper": {
+      "height": 50,
+      "temporary": "",
+      "sources": {
+        "Npc/Трактирщик.png": "2caf66fba25059302b5cfd5e0efeb55b22ce8bfe175fa0cdd3edb752b328ec1e",
+        "Трактирщик/Sprite-0007.png": "40da308127cf1282b4aea088e8fdc2883d2e2e6d5d2001bb76287f154d510434"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            472,
+            382,
+            550,
+            518
+          ],
+          "source_foot": [
+            38.5,
+            127.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            31,
+            55
+          ],
+          "offset": [
+            32,
+            31
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            550,
+            382,
+            632,
+            518
+          ],
+          "source_foot": [
+            38.5,
+            127.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            33,
+            55
+          ],
+          "offset": [
+            32,
+            31
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            786,
+            382,
+            868,
+            518
+          ],
+          "source_foot": [
+            49.5,
+            127.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            33,
+            55
+          ],
+          "offset": [
+            28,
+            31
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            868,
+            382,
+            952,
+            518
+          ],
+          "source_foot": [
+            49.5,
+            127.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            34,
+            55
+          ],
+          "offset": [
+            28,
+            31
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            968,
+            382,
+            1042,
+            518
+          ],
+          "source_foot": [
+            33.0,
+            128.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            30,
+            55
+          ],
+          "offset": [
+            35,
+            30
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            1042,
+            382,
+            1111,
+            518
+          ],
+          "source_foot": [
+            33.0,
+            128.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            28,
+            55
+          ],
+          "offset": [
+            35,
+            30
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 2,
+          "source": "Npc/Трактирщик.png",
+          "box": [
+            1111,
+            382,
+            1182,
+            518
+          ],
+          "source_foot": [
+            33.0,
+            128.0
+          ],
+          "scale": 0.4032258064516129,
+          "resized": [
+            29,
+            55
+          ],
+          "offset": [
+            35,
+            30
+          ]
+        },
+        {
+          "clip": "work_wipe",
+          "index": 0,
+          "source": "Трактирщик/Sprite-0007.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            385.5,
+            1274.0
+          ],
+          "scale": 0.05955926146515783,
+          "resized": [
+            47,
+            77
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        },
+        {
+          "clip": "work_wipe",
+          "index": 1,
+          "source": "Трактирщик/Sprite-0007.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            385.5,
+            1274.0
+          ],
+          "scale": 0.05955926146515783,
+          "resized": [
+            47,
+            77
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        },
+        {
+          "clip": "work_wipe",
+          "index": 2,
+          "source": "Трактирщик/Sprite-0007.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            385.5,
+            1274.0
+          ],
+          "scale": 0.05955926146515783,
+          "resized": [
+            47,
+            77
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        },
+        {
+          "clip": "work_wipe",
+          "index": 3,
+          "source": "Трактирщик/Sprite-0007.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            385.5,
+            1274.0
+          ],
+          "scale": 0.05955926146515783,
+          "resized": [
+            47,
+            77
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_right": [
+          2,
+          3
+        ],
+        "walk_up": [
+          4,
+          5,
+          6
+        ],
+        "work_wipe": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          4
+        ],
+        "idle_right": [
+          2
+        ],
+        "walk_left": [
+          2,
+          3
+        ],
+        "idle_left": [
+          2
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "innkeeper_wife": {
+      "height": 47,
+      "temporary": "",
+      "sources": {
+        "Npc/Жена трактирщика.png": "0c32a7eaeb773e659e769a858503b38a64a99a614a8a7e9ac0b31aae2092e924",
+        "Жена трактирщика/Sprite-0009.png": "72d6d672abae0a6e6c10a4c2da13ab90eb27416ec528def7c8b0109959b19ea4"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            475,
+            370,
+            548,
+            522
+          ],
+          "source_foot": [
+            41.0,
+            130.5
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            26,
+            55
+          ],
+          "offset": [
+            33,
+            35
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            548,
+            370,
+            623,
+            522
+          ],
+          "source_foot": [
+            41.0,
+            130.5
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            27,
+            55
+          ],
+          "offset": [
+            33,
+            35
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            785,
+            370,
+            858,
+            522
+          ],
+          "source_foot": [
+            31.5,
+            129.0
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            26,
+            55
+          ],
+          "offset": [
+            37,
+            35
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            858,
+            370,
+            933,
+            522
+          ],
+          "source_foot": [
+            31.5,
+            129.0
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            27,
+            55
+          ],
+          "offset": [
+            37,
+            35
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            935,
+            370,
+            1002,
+            522
+          ],
+          "source_foot": [
+            31.0,
+            130.0
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            24,
+            55
+          ],
+          "offset": [
+            37,
+            35
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            1002,
+            370,
+            1065,
+            522
+          ],
+          "source_foot": [
+            31.0,
+            130.0
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            23,
+            55
+          ],
+          "offset": [
+            37,
+            35
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 2,
+          "source": "Npc/Жена трактирщика.png",
+          "box": [
+            1065,
+            370,
+            1131,
+            522
+          ],
+          "source_foot": [
+            31.0,
+            130.0
+          ],
+          "scale": 0.36153846153846153,
+          "resized": [
+            24,
+            55
+          ],
+          "offset": [
+            37,
+            35
+          ]
+        },
+        {
+          "clip": "work_sweep",
+          "index": 0,
+          "source": "Жена трактирщика/Sprite-0009.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            394.0,
+            1284.0
+          ],
+          "scale": 0.05911949685534591,
+          "resized": [
+            47,
+            76
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        },
+        {
+          "clip": "work_sweep",
+          "index": 1,
+          "source": "Жена трактирщика/Sprite-0009.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            394.0,
+            1284.0
+          ],
+          "scale": 0.05911949685534591,
+          "resized": [
+            47,
+            76
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        },
+        {
+          "clip": "work_sweep",
+          "index": 2,
+          "source": "Жена трактирщика/Sprite-0009.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            394.0,
+            1284.0
+          ],
+          "scale": 0.05911949685534591,
+          "resized": [
+            47,
+            76
+          ],
+          "offset": [
+            25,
+            6
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_right": [
+          2,
+          3
+        ],
+        "walk_up": [
+          4,
+          5,
+          6
+        ],
+        "work_sweep": [
+          7,
+          8,
+          9
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          4
+        ],
+        "idle_right": [
+          2
+        ],
+        "walk_left": [
+          2,
+          3
+        ],
+        "idle_left": [
+          2
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "woodcutter": {
+      "height": 48,
+      "temporary": "",
+      "sources": {
+        "Дровосек/Sprite-0006.png": "8c22bcf693e440ca838d2474e90f49162b279766e818345ecfeb025406c6c489",
+        "Дровосек/Sprite-0005.png": "5bf164d4ea4ed1f42e7e7167a9ff78dffb87fb4ec400116189daccc7d3689834",
+        "Дровосек/Sprite-0011.png": "d592f33e7085e29a74ed9d348e113be2cb95a80e9f3336be7276827b74dc200c",
+        "Дровосек/Sprite-00101.png": "ac6f3db04efa5856eba654e3fe122f9499a662aaa5256213b2f13313149b9ca4"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Дровосек/Sprite-0006.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            402.0,
+            1280.5
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            26,
+            12
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Дровосек/Sprite-0006.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            402.0,
+            1280.5
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            26,
+            12
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Дровосек/Sprite-0005.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            365.0,
+            1284.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            28,
+            12
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Дровосек/Sprite-0005.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            365.0,
+            1284.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            28,
+            12
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 2,
+          "source": "Дровосек/Sprite-0005.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            365.0,
+            1284.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            28,
+            12
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 3,
+          "source": "Дровосек/Sprite-0005.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            365.0,
+            1284.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            28,
+            12
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Дровосек/Sprite-0011.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            400.0,
+            1277.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            26,
+            13
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Дровосек/Sprite-0011.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            400.0,
+            1277.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            26,
+            13
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 2,
+          "source": "Дровосек/Sprite-0011.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            400.0,
+            1277.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            26,
+            13
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 0,
+          "source": "Дровосек/Sprite-00101.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            286.0,
+            1252.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            32,
+            14
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 1,
+          "source": "Дровосек/Sprite-00101.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            286.0,
+            1252.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            32,
+            14
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 2,
+          "source": "Дровосек/Sprite-00101.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            286.0,
+            1252.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            32,
+            14
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 3,
+          "source": "Дровосек/Sprite-00101.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            286.0,
+            1252.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            32,
+            14
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 4,
+          "source": "Дровосек/Sprite-00101.png",
+          "box": [
+            3172,
+            0,
+            3965,
+            1285
+          ],
+          "source_foot": [
+            286.0,
+            1252.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            32,
+            14
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 5,
+          "source": "Дровосек/Sprite-00101.png",
+          "box": [
+            3965,
+            0,
+            4758,
+            1285
+          ],
+          "source_foot": [
+            286.0,
+            1252.0
+          ],
+          "scale": 0.05436013590033975,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            32,
+            14
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_up": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "walk_right": [
+          6,
+          7,
+          8
+        ],
+        "work_chop": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          2
+        ],
+        "idle_right": [
+          6
+        ],
+        "walk_left": [
+          6,
+          7,
+          8
+        ],
+        "idle_left": [
+          6
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "woodcutter_wife": {
+      "height": 46,
+      "temporary": "",
+      "sources": {
+        "Жена дровосека/Sprite-0002.png": "102be5cff026f8f1c64a5b5a5d94d64609091c956da92370ed36a238835fa51a",
+        "Жена дровосека/Sprite-0003.png": "13611d4d0cb7610f106e01b87a331428df93b95041e225f87a1020663b07e826",
+        "Жена дровосека/Sprite-0004.png": "baa35ab7759b8e64abb9e7d25ffbc48e5a9ad91db085fa1f30da5b75029886cd",
+        "Жена дровосека/Sprite-0001.png": "bd96074b6c6c9806133b7b84ad2e96efdc6bedebc27f5351f6de6833d52ab89c"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Жена дровосека/Sprite-0002.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            389.0,
+            1280.5
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Жена дровосека/Sprite-0002.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            389.0,
+            1280.5
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Жена дровосека/Sprite-0003.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            389.5,
+            1282.0
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Жена дровосека/Sprite-0003.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            389.5,
+            1282.0
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Жена дровосека/Sprite-0004.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1281.5
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Жена дровосека/Sprite-0004.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1281.5
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 2,
+          "source": "Жена дровосека/Sprite-0004.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1281.5
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 3,
+          "source": "Жена дровосека/Sprite-0004.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1281.5
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "work_sweep",
+          "index": 0,
+          "source": "Жена дровосека/Sprite-0001.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            301.5,
+            1284.0
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            33,
+            20
+          ]
+        },
+        {
+          "clip": "work_sweep",
+          "index": 1,
+          "source": "Жена дровосека/Sprite-0001.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            301.5,
+            1284.0
+          ],
+          "scale": 0.04811715481171548,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            33,
+            20
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_up": [
+          2,
+          3
+        ],
+        "walk_right": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "work_sweep": [
+          8,
+          9
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          2
+        ],
+        "idle_right": [
+          4
+        ],
+        "walk_left": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "idle_left": [
+          4
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "woodcutter_son": {
+      "height": 33,
+      "temporary": "",
+      "sources": {
+        "Сын дровосека/Sprite-0001.png": "45cb3d366fd4dc7d9ba1195b9244418a5b69a29b8af194d8b742c8844a10a6e0",
+        "Сын дровосека/Sprite-0002.png": "eb687f86ab7f3c7498def8580aa25690fb1fd6d212f04d8653548507d91c2f15",
+        "Сын дровосека/Sprite-0007.png": "2c873d10160fb1ee06833ffe90ec636e4ec95dcf4697d7611d757cd2f521b555",
+        "Сын дровосека/Sprite-0010.png": "a0eccf15430b31b02e4350896aae3c71f775879c1f0bbf308ee934769e558853"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Сын дровосека/Sprite-0001.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1283.0
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            28,
+            15
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Сын дровосека/Sprite-0001.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1283.0
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            28,
+            15
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Сын дровосека/Sprite-0002.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            385.5,
+            1283.0
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            28,
+            15
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Сын дровосека/Sprite-0002.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            385.5,
+            1283.0
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            28,
+            15
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Сын дровосека/Sprite-0007.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            387.5,
+            1276.0
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            28,
+            15
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Сын дровосека/Sprite-0007.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            387.5,
+            1276.0
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            28,
+            15
+          ]
+        },
+        {
+          "clip": "work_play",
+          "index": 0,
+          "source": "Сын дровосека/Sprite-0010.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            433.0,
+            1281.5
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            25,
+            15
+          ]
+        },
+        {
+          "clip": "work_play",
+          "index": 1,
+          "source": "Сын дровосека/Sprite-0010.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            433.0,
+            1281.5
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            25,
+            15
+          ]
+        },
+        {
+          "clip": "work_play",
+          "index": 2,
+          "source": "Сын дровосека/Sprite-0010.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            433.0,
+            1281.5
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            25,
+            15
+          ]
+        },
+        {
+          "clip": "work_play",
+          "index": 3,
+          "source": "Сын дровосека/Sprite-0010.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            433.0,
+            1281.5
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            25,
+            15
+          ]
+        },
+        {
+          "clip": "work_play",
+          "index": 4,
+          "source": "Сын дровосека/Sprite-0010.png",
+          "box": [
+            3172,
+            0,
+            3965,
+            1285
+          ],
+          "source_foot": [
+            433.0,
+            1281.5
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            25,
+            15
+          ]
+        },
+        {
+          "clip": "work_play",
+          "index": 5,
+          "source": "Сын дровосека/Sprite-0010.png",
+          "box": [
+            3965,
+            0,
+            4758,
+            1285
+          ],
+          "source_foot": [
+            433.0,
+            1281.5
+          ],
+          "scale": 0.05242255758538523,
+          "resized": [
+            42,
+            67
+          ],
+          "offset": [
+            25,
+            15
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_up": [
+          2,
+          3
+        ],
+        "walk_right": [
+          4,
+          5
+        ],
+        "work_play": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          2
+        ],
+        "idle_right": [
+          4
+        ],
+        "walk_left": [
+          4,
+          5
+        ],
+        "idle_left": [
+          4
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "herbalist": {
+      "height": 47,
+      "temporary": "",
+      "sources": {
+        "Марта/Sprite-0015.png": "c8d76326c1c12334a41a7b58c376c3ec0f8bf272ded9d3b30b3e23f8cac0f24b",
+        "Марта/Sprite-0016.png": "7f429ae220fafab1c82696e2407bc2ca57615b366295a649fb0cc04462a86024",
+        "Марта/Sprite-0014.png": "2b4b7ea9ccfe5c3110b1cf165c262f69766ce2efca9a85f6e7a9a58d6a5a0cb8",
+        "Марта/Sprite-0005.png": "ce6414868d971fb22e89fcabe95060db1a5282d44cd8a32f0ee5c3d7b3a0ef8f"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Марта/Sprite-0015.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            412.0,
+            1281.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Марта/Sprite-0015.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            412.0,
+            1281.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Марта/Sprite-0016.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            413.0,
+            1282.5
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Марта/Sprite-0016.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            413.0,
+            1282.5
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Марта/Sprite-0014.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            408.0,
+            1279.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            19
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Марта/Sprite-0014.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            408.0,
+            1279.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            19
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 2,
+          "source": "Марта/Sprite-0014.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            408.0,
+            1279.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            19
+          ]
+        },
+        {
+          "clip": "work_gather",
+          "index": 0,
+          "source": "Марта/Sprite-0005.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            393.5,
+            1283.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "work_gather",
+          "index": 1,
+          "source": "Марта/Sprite-0005.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            393.5,
+            1283.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "work_gather",
+          "index": 2,
+          "source": "Марта/Sprite-0005.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            393.5,
+            1283.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        },
+        {
+          "clip": "work_gather",
+          "index": 3,
+          "source": "Марта/Sprite-0005.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            393.5,
+            1283.0
+          ],
+          "scale": 0.049578059071729956,
+          "resized": [
+            39,
+            64
+          ],
+          "offset": [
+            28,
+            18
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_up": [
+          2,
+          3
+        ],
+        "walk_right": [
+          4,
+          5,
+          6
+        ],
+        "work_gather": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          2
+        ],
+        "idle_right": [
+          4
+        ],
+        "walk_left": [
+          4,
+          5,
+          6
+        ],
+        "idle_left": [
+          4
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "herbalist_brother": {
+      "height": 49,
+      "temporary": "",
+      "sources": {
+        "Ганс/Sprite-0008.png": "8f024118b118a1f054a4bf8bd0f9e00b009f17c48812a738fb13d20ef15a680c",
+        "Ганс/Sprite-0010.png": "5dfbfc7a8c8b984b7700e3f856f45295c860ebd702d9532de43ba188043fc1b9",
+        "Ганс/Sprite-0004.png": "a819d990814491273d7d6135534563e28f46639d5769eefcb963e485f996682b",
+        "Ганс/Sprite-0009.png": "38653058cf459aff2fd6053ae8ae9ea90e2a6b89f8d05b09c03797efb588463e"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Ганс/Sprite-0008.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            386.5,
+            1283.5
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Ганс/Sprite-0008.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            386.5,
+            1283.5
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Ганс/Sprite-0010.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            392.5,
+            1282.5
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Ганс/Sprite-0010.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            392.5,
+            1282.5
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Ганс/Sprite-0004.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1284.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Ганс/Sprite-0004.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1284.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 2,
+          "source": "Ганс/Sprite-0004.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1284.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 3,
+          "source": "Ганс/Sprite-0004.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1284.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 4,
+          "source": "Ганс/Sprite-0004.png",
+          "box": [
+            3172,
+            0,
+            3965,
+            1285
+          ],
+          "source_foot": [
+            390.0,
+            1284.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            29,
+            20
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 0,
+          "source": "Ганс/Sprite-0009.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            327.0,
+            1275.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            32,
+            21
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 1,
+          "source": "Ганс/Sprite-0009.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            327.0,
+            1275.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            32,
+            21
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 2,
+          "source": "Ганс/Sprite-0009.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            327.0,
+            1275.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            32,
+            21
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 3,
+          "source": "Ганс/Sprite-0009.png",
+          "box": [
+            2379,
+            0,
+            3172,
+            1285
+          ],
+          "source_foot": [
+            327.0,
+            1275.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            32,
+            21
+          ]
+        },
+        {
+          "clip": "work_chop",
+          "index": 4,
+          "source": "Ганс/Sprite-0009.png",
+          "box": [
+            3172,
+            0,
+            3965,
+            1285
+          ],
+          "source_foot": [
+            327.0,
+            1275.0
+          ],
+          "scale": 0.0481335952848723,
+          "resized": [
+            38,
+            62
+          ],
+          "offset": [
+            32,
+            21
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_up": [
+          2,
+          3
+        ],
+        "walk_right": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "work_chop": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          2
+        ],
+        "idle_right": [
+          4
+        ],
+        "walk_left": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "idle_left": [
+          4
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    },
+    "old_man": {
+      "height": 44,
+      "temporary": "",
+      "sources": {
+        "Страрик/Sprite-0005.png": "345694efe5c756d9fef2e856a41716fb3a62b748d9e6746ce52c7e072db441e8",
+        "Страрик/Sprite-0004.png": "4601e57c350c1a9190a8e6fb8065ae7a01c616be3ac1a1b934556e4ddfc1580b",
+        "Страрик/Sprite-001.png": "f5460881e006b45ae29666bbb49256ddea1fffeb4876b649ad51889340078850",
+        "Страрик/Sprite-0013.png": "d87d2709c31259dff8063ec2e2a2e4823e0a86a7f8dabe2613f85795b42f0543"
+      },
+      "frames": [
+        {
+          "clip": "walk_down",
+          "index": 0,
+          "source": "Страрик/Sprite-0005.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            381.5,
+            1279.5
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "walk_down",
+          "index": 1,
+          "source": "Страрик/Sprite-0005.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            381.5,
+            1279.5
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 0,
+          "source": "Страрик/Sprite-0004.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            382.5,
+            1282.5
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "walk_up",
+          "index": 1,
+          "source": "Страрик/Sprite-0004.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            382.5,
+            1282.5
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 0,
+          "source": "Страрик/Sprite-001.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            393.5,
+            1284.0
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "walk_right",
+          "index": 1,
+          "source": "Страрик/Sprite-001.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            393.5,
+            1284.0
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "work_smoke",
+          "index": 0,
+          "source": "Страрик/Sprite-0013.png",
+          "box": [
+            0,
+            0,
+            793,
+            1285
+          ],
+          "source_foot": [
+            391.0,
+            1273.0
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "work_smoke",
+          "index": 1,
+          "source": "Страрик/Sprite-0013.png",
+          "box": [
+            793,
+            0,
+            1586,
+            1285
+          ],
+          "source_foot": [
+            391.0,
+            1273.0
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        },
+        {
+          "clip": "work_smoke",
+          "index": 2,
+          "source": "Страрик/Sprite-0013.png",
+          "box": [
+            1586,
+            0,
+            2379,
+            1285
+          ],
+          "source_foot": [
+            391.0,
+            1273.0
+          ],
+          "scale": 0.05462445685909373,
+          "resized": [
+            43,
+            70
+          ],
+          "offset": [
+            27,
+            12
+          ]
+        }
+      ],
+      "clips": {
+        "walk_down": [
+          0,
+          1
+        ],
+        "walk_up": [
+          2,
+          3
+        ],
+        "walk_right": [
+          4,
+          5
+        ],
+        "work_smoke": [
+          6,
+          7,
+          8
+        ],
+        "idle_down": [
+          0
+        ],
+        "idle_up": [
+          2
+        ],
+        "idle_right": [
+          4
+        ],
+        "walk_left": [
+          4,
+          5
+        ],
+        "idle_left": [
+          4
+        ]
+      },
+      "missing_art": [
+        "animated_idle_down",
+        "animated_idle_up",
+        "animated_idle_right",
+        "animated_idle_left",
+        "neutral_portrait",
+        "joy_portrait",
+        "displeased_portrait",
+        "anxious_portrait"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/woodcutter/frames.tres" id="1_6yp85"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_w20b0"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_38nd0"]
+
+[sub_resource type="Resource" id="Resource_mmttg"]
+script = ExtResource("2_w20b0")
+label = "У своего дома"
+action = 0
+position = Vector2(1720, 808)
+duration = 5.0
+
+[sub_resource type="Resource" id="Resource_c3h5k"]
+script = ExtResource("2_w20b0")
+label = "Дорога к лесу"
+action = 5
+position = Vector2(1912, 920)
+duration = 0.5
+
+[sub_resource type="Resource" id="Resource_03hj6"]
+script = ExtResource("2_w20b0")
+label = "Разрешённое место рубки"
+action = 1
+position = Vector2(2088, 984)
+duration = 12.0
+facing = &"right"
+animation = &"work_chop"
+
+[sub_resource type="Resource" id="Resource_4jq85"]
+script = ExtResource("2_w20b0")
+label = "Привал у опушки"
+position = Vector2(1960, 952)
+duration = 4.0
+facing = &"left"
+
+[resource]
+script = ExtResource("3_38nd0")
+id = &"woodcutter"
+display_name = "Дровосек"
+behavior = 1
+speed = 36.0
+frames = ExtResource("1_6yp85")
+routine = Array[ExtResource("2_w20b0")]([SubResource("Resource_mmttg"), SubResource("Resource_c3h5k"), SubResource("Resource_03hj6"), SubResource("Resource_4jq85")])
+dialogue_path = "res://dialogues/residents/woodcutter.json"
+dialogue_id = "resident_woodcutter"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

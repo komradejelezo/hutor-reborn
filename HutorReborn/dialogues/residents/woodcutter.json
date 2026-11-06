@@ -1,0 +1,73 @@
+{
+  "id": "resident_woodcutter",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Дровосек",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter/portraits/anxious.png"
+      },
+      "text": "Шаг в сторону, путник. Щепа летит.",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Давно работаешь в этих местах?",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "Не мешаю?",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Дровосек",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter/portraits/anxious.png"
+      },
+      "text": "Достаточно, чтобы знать: дерево сперва слушают, потом берутся за топор.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Дровосек",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter/portraits/anxious.png"
+      },
+      "text": "Сейчас нет. Закончу дело — вернусь к своим.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Дровосек",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter/portraits/anxious.png"
+      },
+      "text": "Держись тропы. Так всем спокойнее.",
+      "end": true
+    }
+  ]
+}

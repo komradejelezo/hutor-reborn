@@ -1,0 +1,46 @@
+{
+  "effects": "unchanged/on",
+  "godot": "4.6.3-stable (official)",
+  "navigation": {
+    "cache_entries": 18,
+    "cache_hits": 0,
+    "max_solves_per_tick": 2,
+    "solves": 18
+  },
+  "note": "Software llvmpipe; this comparison is diagnostic, not target hardware FPS.",
+  "order": "off-on-on-off",
+  "passes": [
+    {
+      "draw_calls": 82.0,
+      "physics_mean_ms": 0.186188888888889,
+      "physics_p95_ms": 0.225,
+      "process_mean_ms": 59.4821888888888,
+      "residents": false
+    },
+    {
+      "draw_calls": 88.1555555555554,
+      "physics_mean_ms": 0.545522222222222,
+      "physics_p95_ms": 0.84,
+      "process_mean_ms": 65.9106222222221,
+      "residents": true
+    },
+    {
+      "draw_calls": 88.1999999999998,
+      "physics_mean_ms": 0.641688888888889,
+      "physics_p95_ms": 0.81,
+      "process_mean_ms": 53.8402666666666,
+      "residents": true
+    },
+    {
+      "draw_calls": 82.0,
+      "physics_mean_ms": 0.231811111111111,
+      "physics_p95_ms": 0.607,
+      "process_mean_ms": 55.9699555555555,
+      "residents": false
+    }
+  ],
+  "renderer": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "same_camera": "woodcutter courtyard",
+  "samples_per_pass": 90,
+  "warmup_frames": 45
+}

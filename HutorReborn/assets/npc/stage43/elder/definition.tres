@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/elder/frames.tres" id="1_fjnt4"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_cioif"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_hbd0t"]
+
+[sub_resource type="Resource" id="Resource_5ugxs"]
+script = ExtResource("2_cioif")
+label = "У своего дома"
+action = 0
+position = Vector2(936, 808)
+duration = 7.0
+
+[sub_resource type="Resource" id="Resource_mjny3"]
+script = ExtResource("2_cioif")
+label = "Осмотреть двор"
+action = 2
+position = Vector2(936, 920)
+facing = &"right"
+
+[sub_resource type="Resource" id="Resource_rerjd"]
+script = ExtResource("2_cioif")
+label = "Верхняя дорога"
+action = 5
+position = Vector2(1384, 920)
+duration = 0.5
+
+[sub_resource type="Resource" id="Resource_bujcm"]
+script = ExtResource("2_cioif")
+label = "Центральная дорога"
+action = 5
+position = Vector2(1448, 1368)
+duration = 0.5
+
+[sub_resource type="Resource" id="Resource_7mvd2"]
+script = ExtResource("2_cioif")
+label = "Осмотреть площадь"
+position = Vector2(1384, 1448)
+duration = 7.0
+facing = &"left"
+
+[sub_resource type="Resource" id="Resource_bb7dx"]
+script = ExtResource("2_cioif")
+label = "Возвращение во двор"
+action = 5
+position = Vector2(936, 920)
+duration = 0.5
+
+[resource]
+script = ExtResource("3_hbd0t")
+id = &"elder"
+display_name = "Староста"
+speed = 30.0
+frames = ExtResource("1_fjnt4")
+routine = Array[ExtResource("2_cioif")]([SubResource("Resource_5ugxs"), SubResource("Resource_mjny3"), SubResource("Resource_rerjd"), SubResource("Resource_bujcm"), SubResource("Resource_7mvd2"), SubResource("Resource_bb7dx")])
+dialogue_path = "res://dialogues/residents/elder.json"
+dialogue_id = "resident_elder"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending. Elder design is provisional, from the archived older-man study."

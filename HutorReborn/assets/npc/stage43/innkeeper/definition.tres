@@ -1,0 +1,46 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/innkeeper/frames.tres" id="1_bjl3v"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_br62u"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_6ngrm"]
+
+[sub_resource type="Resource" id="Resource_iewsd"]
+script = ExtResource("2_br62u")
+label = "Вход в трактир"
+action = 0
+position = Vector2(1688, 2248)
+duration = 5.0
+
+[sub_resource type="Resource" id="Resource_pysbh"]
+script = ExtResource("2_br62u")
+label = "Проверить бочки"
+action = 1
+position = Vector2(1864, 2328)
+duration = 7.0
+animation = &"work_wipe"
+
+[sub_resource type="Resource" id="Resource_1ey54"]
+script = ExtResource("2_br62u")
+label = "Коновязь"
+action = 2
+position = Vector2(1496, 2360)
+duration = 5.0
+facing = &"left"
+
+[sub_resource type="Resource" id="Resource_ltkfo"]
+script = ExtResource("2_br62u")
+label = "Перед трактиром"
+position = Vector2(1688, 2328)
+duration = 4.0
+
+[resource]
+script = ExtResource("3_6ngrm")
+id = &"innkeeper"
+display_name = "Трактирщик"
+behavior = 1
+speed = 28.0
+frames = ExtResource("1_bjl3v")
+routine = Array[ExtResource("2_br62u")]([SubResource("Resource_iewsd"), SubResource("Resource_pysbh"), SubResource("Resource_1ey54"), SubResource("Resource_ltkfo")])
+dialogue_path = "res://dialogues/residents/innkeeper.json"
+dialogue_id = "resident_innkeeper"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

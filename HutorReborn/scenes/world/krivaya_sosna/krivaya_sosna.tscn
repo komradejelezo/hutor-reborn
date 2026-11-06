@@ -99,6 +99,8 @@
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/abandoned_house.tscn" id="s42_4"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/hitching_rail.tscn" id="s42_5"]
 
+[ext_resource type="PackedScene" path="res://scenes/npc/residents.tscn" id="stage43_residents"]
+
 [sub_resource type="Curve" id="Curve_sb7vl"]
 _data = [Vector2(0, 0.5), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
 point_count = 2
@@ -2355,6 +2357,8 @@ position = Vector2(205, 1430)
 
 [node name="SouthGlade" type="Marker2D" parent="Exploration" unique_id=1618118233]
 position = Vector2(2330, 1920)
+
+[node name="Residents" parent="Actors" instance=ExtResource("stage43_residents")]
 
 [node name="MapBounds" type="StaticBody2D" parent="." unique_id=1416397792]
 collision_mask = 2

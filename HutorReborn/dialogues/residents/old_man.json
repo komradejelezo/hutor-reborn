@@ -1,0 +1,73 @@
+{
+  "id": "resident_old_man",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Старик с трубкой",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/old_man/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/old_man/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/old_man/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/old_man/portraits/anxious.png"
+      },
+      "text": "Сосна скрипит, а люди всё спешат. Присядешь словом, путник?",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Что о ней рассказывают?",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "Ты давно здесь живёшь?",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Старик с трубкой",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/old_man/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/old_man/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/old_man/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/old_man/portraits/anxious.png"
+      },
+      "text": "Всякий своё. Я пока слушаю и дерево, и людей. Не всему сразу верить надо.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Старик с трубкой",
+      "portrait": "",
+      "emotion": "joy",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/old_man/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/old_man/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/old_man/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/old_man/portraits/anxious.png"
+      },
+      "text": "Давно. Только по одному разговору всей жизни не узнаешь.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Старик с трубкой",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/old_man/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/old_man/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/old_man/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/old_man/portraits/anxious.png"
+      },
+      "text": "Будет случай — ещё потолкуем. Сейчас дай старику трубку докурить.",
+      "end": true
+    }
+  ]
+}

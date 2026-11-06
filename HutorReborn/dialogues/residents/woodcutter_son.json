@@ -1,0 +1,73 @@
+{
+  "id": "resident_woodcutter_son",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Сын дровосека",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_son/portraits/anxious.png"
+      },
+      "text": "Ты дальше нашего леса бывал? Я пока только возле дома хожу.",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Бывал, дорога длинная.",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "А что тебе здесь нравится?",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Сын дровосека",
+      "portrait": "",
+      "emotion": "joy",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_son/portraits/anxious.png"
+      },
+      "text": "Вот вырасту — тоже погляжу. Мама говорит, сперва свои тропки запомни.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Сын дровосека",
+      "portrait": "",
+      "emotion": "joy",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_son/portraits/anxious.png"
+      },
+      "text": "Смотреть, кто по дороге идёт. И палкой по земле рисовать.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Сын дровосека",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_son/portraits/anxious.png"
+      },
+      "text": "Я тут ещё побегаю. Далеко мне не велят.",
+      "end": true
+    }
+  ]
+}

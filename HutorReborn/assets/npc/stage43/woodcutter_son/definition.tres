@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/woodcutter_son/frames.tres" id="1_kmf7k"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_711i3"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_bobu8"]
+
+[sub_resource type="Resource" id="Resource_ro2xq"]
+script = ExtResource("2_711i3")
+label = "У дома"
+action = 0
+position = Vector2(1720, 824)
+duration = 1.0
+
+[sub_resource type="Resource" id="Resource_bgrw3"]
+script = ExtResource("2_711i3")
+label = "Игра во дворе"
+position = Vector2(1688, 888)
+duration = 4.0
+animation = &"work_play"
+
+[sub_resource type="Resource" id="Resource_8roj6"]
+script = ExtResource("2_711i3")
+label = "Пробежка"
+action = 2
+position = Vector2(1768, 920)
+duration = 0.7
+facing = &"left"
+
+[sub_resource type="Resource" id="Resource_sbwib"]
+script = ExtResource("2_711i3")
+label = "Рядом с матерью"
+action = 4
+position = Vector2(1752, 872)
+duration = 2.0
+look_at_npc = &"woodcutter_wife"
+
+[sub_resource type="Resource" id="Resource_fknk6"]
+script = ExtResource("2_711i3")
+label = "Обратно во двор"
+action = 2
+position = Vector2(1640, 840)
+duration = 1.0
+
+[resource]
+script = ExtResource("3_bobu8")
+id = &"woodcutter_son"
+display_name = "Сын дровосека"
+behavior = 2
+speed = 62.0
+frames = ExtResource("1_kmf7k")
+routine = Array[ExtResource("2_711i3")]([SubResource("Resource_ro2xq"), SubResource("Resource_bgrw3"), SubResource("Resource_8roj6"), SubResource("Resource_sbwib"), SubResource("Resource_fknk6")])
+route_bounds = Rect2(1540, 740, 380, 210)
+foot_radius = 4.0
+dialogue_path = "res://dialogues/residents/woodcutter_son.json"
+dialogue_id = "resident_woodcutter_son"
+notices_player = true
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/woodcutter_wife/frames.tres" id="1_d07gx"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_cnv8x"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_rduvb"]
+
+[sub_resource type="Resource" id="Resource_3kodl"]
+script = ExtResource("2_cnv8x")
+label = "Домашние дела"
+action = 0
+position = Vector2(1768, 872)
+duration = 4.0
+
+[sub_resource type="Resource" id="Resource_ydpe3"]
+script = ExtResource("2_cnv8x")
+label = "Подмести у поленницы"
+action = 1
+position = Vector2(1800, 856)
+duration = 7.0
+facing = &"right"
+animation = &"work_sweep"
+
+[sub_resource type="Resource" id="Resource_gg6le"]
+script = ExtResource("2_cnv8x")
+label = "Поговорить с сыном"
+action = 4
+position = Vector2(1736, 888)
+duration = 4.0
+facing = &"left"
+look_at_npc = &"woodcutter_son"
+
+[sub_resource type="Resource" id="Resource_2iyk1"]
+script = ExtResource("2_cnv8x")
+label = "Отдохнуть во дворе"
+position = Vector2(1640, 872)
+duration = 4.0
+
+[resource]
+script = ExtResource("3_rduvb")
+id = &"woodcutter_wife"
+display_name = "Жена дровосека"
+behavior = 1
+frames = ExtResource("1_d07gx")
+routine = Array[ExtResource("2_cnv8x")]([SubResource("Resource_3kodl"), SubResource("Resource_ydpe3"), SubResource("Resource_gg6le"), SubResource("Resource_2iyk1")])
+dialogue_path = "res://dialogues/residents/woodcutter_wife.json"
+dialogue_id = "resident_woodcutter_wife"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."
