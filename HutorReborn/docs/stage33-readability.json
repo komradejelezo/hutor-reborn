@@ -1,0 +1,65 @@
+{
+  "fog": {
+    "maximum_alpha": 0.0313725508749485,
+    "pan": {
+      "bad": 0,
+      "maximum": 0
+    },
+    "window_scale": {
+      "bad": 0,
+      "maximum": 0
+    },
+    "zoom": {
+      "bad": 0,
+      "maximum": 1
+    }
+  },
+  "readability": [
+    {
+      "mean_rgb_contrast": 0.268850056794787,
+      "view": "plaza",
+      "visible_pixels": 828
+    },
+    {
+      "mean_rgb_contrast": 0.226285881994423,
+      "view": "elder",
+      "visible_pixels": 828
+    },
+    {
+      "mean_rgb_contrast": 0.307426355861843,
+      "view": "miller",
+      "visible_pixels": 828
+    },
+    {
+      "mean_rgb_contrast": 0.29766505998548,
+      "view": "common",
+      "visible_pixels": 828
+    },
+    {
+      "mean_rgb_contrast": 0.323244166408506,
+      "view": "hunter",
+      "visible_pixels": 763
+    },
+    {
+      "mean_rgb_contrast": 0.259743467252026,
+      "view": "herbalist",
+      "visible_pixels": 827
+    },
+    {
+      "mean_rgb_contrast": 0.117253922172274,
+      "view": "pine",
+      "visible_pixels": 798
+    },
+    {
+      "mean_rgb_contrast": 0.279515964948068,
+      "view": "north",
+      "visible_pixels": 828
+    },
+    {
+      "mean_rgb_contrast": 0.294401822268068,
+      "view": "gate",
+      "visible_pixels": 828
+    }
+  ],
+  "shadow_pixels": 3785
+}

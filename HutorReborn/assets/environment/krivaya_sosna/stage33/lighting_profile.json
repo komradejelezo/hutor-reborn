@@ -1,0 +1,115 @@
+{
+  "lights": [
+    {
+      "path": "Actors/Structures/ElderHouse/WarmLight4",
+      "energy": 0.42,
+      "texture_scale": 0.375,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/ElderHouse/WarmLight5",
+      "energy": 0.3,
+      "texture_scale": 0.5,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/MillerHouse/WarmLight4",
+      "energy": 0.42,
+      "texture_scale": 0.375,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/MillerHouse/WarmLight5",
+      "energy": 0.3,
+      "texture_scale": 0.5,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/CommonHouse/WarmLight5",
+      "energy": 0.48,
+      "texture_scale": 0.425,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/CommonHouse/WarmLight6",
+      "energy": 0.36,
+      "texture_scale": 0.4,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/CommonHouse/WarmLight7",
+      "energy": 0.4,
+      "texture_scale": 0.575,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/CarpenterHouse/WarmLight4",
+      "energy": 0.42,
+      "texture_scale": 0.375,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/CarpenterHouse/WarmLight5",
+      "energy": 0.3,
+      "texture_scale": 0.5,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Structures/HerbalistHouse/WarmLight4",
+      "energy": 0.42,
+      "texture_scale": 0.375,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Props/GatePostLeft/WarmLight2",
+      "energy": 0.48,
+      "texture_scale": 0.45,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Props/GatePostRight/WarmLight2",
+      "energy": 0.48,
+      "texture_scale": 0.45,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Props/HangingLantern187/WarmLight2",
+      "energy": 0.56,
+      "texture_scale": 0.55,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Props/HangingLantern188/WarmLight2",
+      "energy": 0.56,
+      "texture_scale": 0.55,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Props/HangingLantern189/WarmLight2",
+      "energy": 0.56,
+      "texture_scale": 0.55,
+      "shadow": true
+    },
+    {
+      "path": "Actors/Props/HangingLantern190/WarmLight2",
+      "energy": 0.56,
+      "texture_scale": 0.55,
+      "shadow": false
+    },
+    {
+      "path": "Actors/Props/HangingLantern191/WarmLight2",
+      "energy": 0.56,
+      "texture_scale": 0.55,
+      "shadow": false
+    }
+  ],
+  "shadow_lights": 1,
+  "house_occluders": 1,
+  "particles": 55,
+  "ambient": [
+    0.89,
+    0.91,
+    0.94
+  ],
+  "world_space_fog": true
+}

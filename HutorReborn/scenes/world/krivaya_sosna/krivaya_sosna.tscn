@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" path="res://scenes/objects/interaction_point.tscn" id="5_6qgnx"]
 [ext_resource type="Script" path="res://scripts/components/interactable.gd" id="6_04s2k"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/warm_window.tscn" id="7_skb30"]
-[ext_resource type="Texture2D" path="res://assets/environment/light.png" id="8_j0stn"]
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage33/soft_light.tres" id="8_j0stn"]
 [ext_resource type="Script" path="res://scripts/components/warm_light.gd" id="9_k33fj"]
 [ext_resource type="Texture2D" path="res://assets/environment/smoke.png" id="10_kje1d"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/miller_house.tscn" id="11_nii1a"]
@@ -47,7 +47,7 @@
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/gate_beam.tscn" id="45_nacxe"]
 [ext_resource type="FontFile" path="res://assets/fonts/DejaVuSerif.ttf" id="46_acjtt"]
 [ext_resource type="Script" path="res://scripts/atmosphere.gd" id="47_7et7n"]
-[ext_resource type="Shader" path="res://shaders/atmosphere.gdshader" id="48_iqc2b"]
+[ext_resource type="Shader" path="res://shaders/evening_mist.gdshader" id="48_iqc2b"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="49_utkus"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage32/axe_stump.tscn" id="s32_axe_stump"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage32/bark.tscn" id="s32_bark"]
@@ -89,6 +89,8 @@
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage32/wash_basin.tscn" id="s32_wash_basin"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage32/white_herbs.tscn" id="s32_white_herbs"]
 [ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage32/wood_trough.tscn" id="s32_wood_trough"]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage33/mist_noise.tres" id="s33_noise"]
 
 [sub_resource type="Curve" id="Curve_sb7vl"]
 _data = [Vector2(0, 0.5), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
@@ -139,8 +141,12 @@ size = Vector2(32, 2176)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_k1rhc"]
 shader = ExtResource("48_iqc2b")
-shader_parameter/fog_strength = 0.045
+shader_parameter/fog_strength = 0.032
+shader_parameter/mist_noise = ExtResource("s33_noise")
 shader_parameter/camera_world = null
+
+[sub_resource type="OccluderPolygon2D" id="s33_CommonHouse"]
+polygon = PackedVector2Array(-113.0, -109.0, 113.0, -109.0, 113.0, -1.0, -113.0, -1.0)
 
 [node name="KrivayaSosna" type="Node2D" unique_id=1837227503]
 script = ExtResource("1_qw2cy")
@@ -189,23 +195,29 @@ position = Vector2(-43, -74)
 
 [node name="WarmLight4" type="PointLight2D" parent="Actors/Structures/ElderHouse" unique_id=1950719290]
 position = Vector2(-43, -74)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.62
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.42
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.375
 script = ExtResource("9_k33fj")
-base_energy = 0.62
-flicker = 0.025
+base_energy = 0.42
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="WarmLight5" type="PointLight2D" parent="Actors/Structures/ElderHouse" unique_id=1380556286]
 position = Vector2(28, -22)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.45
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.3
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.5
 script = ExtResource("9_k33fj")
-base_energy = 0.45
-flicker = 0.025
+base_energy = 0.3
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="ChimneySmoke6" type="CPUParticles2D" parent="Actors/Structures/ElderHouse" unique_id=1612058690 groups=["ambient_particles"]]
 z_index = 2
@@ -238,23 +250,29 @@ position = Vector2(-54, -71)
 
 [node name="WarmLight4" type="PointLight2D" parent="Actors/Structures/MillerHouse" unique_id=2135615746]
 position = Vector2(-54, -71)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.62
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.42
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.375
 script = ExtResource("9_k33fj")
-base_energy = 0.62
-flicker = 0.025
+base_energy = 0.42
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="WarmLight5" type="PointLight2D" parent="Actors/Structures/MillerHouse" unique_id=1783162591]
 position = Vector2(28, -22)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.45
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.3
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.5
 script = ExtResource("9_k33fj")
-base_energy = 0.45
-flicker = 0.025
+base_energy = 0.3
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="ChimneySmoke6" type="CPUParticles2D" parent="Actors/Structures/MillerHouse" unique_id=1767123613 groups=["ambient_particles"]]
 z_index = 2
@@ -290,33 +308,42 @@ position = Vector2(44, -85)
 
 [node name="WarmLight5" type="PointLight2D" parent="Actors/Structures/CommonHouse" unique_id=2134047723]
 position = Vector2(-81, -85)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.65
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.48
 texture = ExtResource("8_j0stn")
-texture_scale = 1.55
+texture_scale = 0.425
 script = ExtResource("9_k33fj")
-base_energy = 0.65
-flicker = 0.025
+base_energy = 0.48
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="WarmLight6" type="PointLight2D" parent="Actors/Structures/CommonHouse" unique_id=714315134]
 position = Vector2(44, -85)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.48
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.36
 texture = ExtResource("8_j0stn")
-texture_scale = 1.35
+texture_scale = 0.4
 script = ExtResource("9_k33fj")
-base_energy = 0.48
-flicker = 0.025
+base_energy = 0.36
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="WarmLight7" type="PointLight2D" parent="Actors/Structures/CommonHouse" unique_id=1806200857]
 position = Vector2(1, -22)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.45
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.4
 texture = ExtResource("8_j0stn")
-texture_scale = 1.6
+texture_scale = 0.575
 script = ExtResource("9_k33fj")
-base_energy = 0.45
-flicker = 0.025
+base_energy = 0.4
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="ChimneySmoke8" type="CPUParticles2D" parent="Actors/Structures/CommonHouse" unique_id=66994750 groups=["ambient_particles"]]
 z_index = 2
@@ -349,23 +376,29 @@ position = Vector2(-51, -68)
 
 [node name="WarmLight4" type="PointLight2D" parent="Actors/Structures/CarpenterHouse" unique_id=1312547036]
 position = Vector2(-51, -68)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.62
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.42
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.375
 script = ExtResource("9_k33fj")
-base_energy = 0.62
-flicker = 0.025
+base_energy = 0.42
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="WarmLight5" type="PointLight2D" parent="Actors/Structures/CarpenterHouse" unique_id=430800385]
 position = Vector2(28, -22)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.45
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.3
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.5
 script = ExtResource("9_k33fj")
-base_energy = 0.45
-flicker = 0.025
+base_energy = 0.3
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="ChimneySmoke6" type="CPUParticles2D" parent="Actors/Structures/CarpenterHouse" unique_id=638823217 groups=["ambient_particles"]]
 z_index = 2
@@ -398,13 +431,16 @@ position = Vector2(26, -57)
 
 [node name="WarmLight4" type="PointLight2D" parent="Actors/Structures/HerbalistHouse" unique_id=443453371]
 position = Vector2(26, -57)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.58
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.42
 texture = ExtResource("8_j0stn")
-texture_scale = 1.3
+texture_scale = 0.375
 script = ExtResource("9_k33fj")
-base_energy = 0.58
-flicker = 0.025
+base_energy = 0.42
+flicker = 0.0
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="ChimneySmoke5" type="CPUParticles2D" parent="Actors/Structures/HerbalistHouse" unique_id=1357126340 groups=["ambient_particles"]]
 z_index = 2
@@ -2072,26 +2108,32 @@ position = Vector2(1215, 1813)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/GatePostLeft" unique_id=1027503343]
 position = Vector2(0, -48)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.6
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.48
 texture = ExtResource("8_j0stn")
-texture_scale = 1.6
+texture_scale = 0.45
 script = ExtResource("9_k33fj")
-base_energy = 0.6
-flicker = 0.025
+base_energy = 0.48
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="GatePostRight" type="Node2D" parent="Actors/Props" unique_id=456703236 instance=ExtResource("29_gv1fg")]
 position = Vector2(1359, 1813)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/GatePostRight" unique_id=833610466]
 position = Vector2(0, -48)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.6
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.48
 texture = ExtResource("8_j0stn")
-texture_scale = 1.6
+texture_scale = 0.45
 script = ExtResource("9_k33fj")
-base_energy = 0.6
-flicker = 0.025
+base_energy = 0.48
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = false
+update_interval = 0.12
 
 [node name="GateLeaf184" type="Node2D" parent="Actors/Props" unique_id=940821904 instance=ExtResource("30_2ojow")]
 position = Vector2(1162, 1811)
@@ -2104,65 +2146,90 @@ position = Vector2(708, 796)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/HangingLantern187" unique_id=1211089463]
 position = Vector2(1, -40)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.72
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.56
 texture = ExtResource("8_j0stn")
-texture_scale = 1.9
+texture_scale = 0.55
 script = ExtResource("9_k33fj")
-base_energy = 0.72
-flicker = 0.025
+base_energy = 0.56
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = false
+shadow_filter = 1
+shadow_filter_smooth = 1.4
+update_interval = 0.12
 
 [node name="HangingLantern188" type="Node2D" parent="Actors/Props" unique_id=17116431 instance=ExtResource("31_36thd")]
 position = Vector2(1873, 791)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/HangingLantern188" unique_id=320195909]
 position = Vector2(1, -40)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.72
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.56
 texture = ExtResource("8_j0stn")
-texture_scale = 1.9
+texture_scale = 0.55
 script = ExtResource("9_k33fj")
-base_energy = 0.72
-flicker = 0.025
+base_energy = 0.56
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = false
+shadow_filter = 1
+shadow_filter_smooth = 1.4
+update_interval = 0.12
 
 [node name="HangingLantern189" type="Node2D" parent="Actors/Props" unique_id=380994896 instance=ExtResource("31_36thd")]
 position = Vector2(1152, 1261)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/HangingLantern189" unique_id=1848986158]
 position = Vector2(1, -40)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.72
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.56
 texture = ExtResource("8_j0stn")
-texture_scale = 1.9
+texture_scale = 0.55
 script = ExtResource("9_k33fj")
-base_energy = 0.72
-flicker = 0.025
+base_energy = 0.56
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = true
+shadow_filter = 1
+shadow_filter_smooth = 1.4
+update_interval = 0.12
 
 [node name="HangingLantern190" type="Node2D" parent="Actors/Props" unique_id=954615380 instance=ExtResource("31_36thd")]
 position = Vector2(976, 1648)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/HangingLantern190" unique_id=1657527880]
 position = Vector2(1, -40)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.72
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.56
 texture = ExtResource("8_j0stn")
-texture_scale = 1.9
+texture_scale = 0.55
 script = ExtResource("9_k33fj")
-base_energy = 0.72
-flicker = 0.025
+base_energy = 0.56
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = false
+shadow_filter = 1
+shadow_filter_smooth = 1.4
+update_interval = 0.12
 
 [node name="HangingLantern191" type="Node2D" parent="Actors/Props" unique_id=451908250 instance=ExtResource("31_36thd")]
 position = Vector2(1928, 1641)
 
 [node name="WarmLight2" type="PointLight2D" parent="Actors/Props/HangingLantern191" unique_id=1458455899]
 position = Vector2(1, -40)
-color = Color(1, 0.78039217, 0.49019608, 1)
-energy = 0.72
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.56
 texture = ExtResource("8_j0stn")
-texture_scale = 1.9
+texture_scale = 0.55
 script = ExtResource("9_k33fj")
-base_energy = 0.72
-flicker = 0.025
+base_energy = 0.56
+flicker = 0.012
+texture_filter = 1
+shadow_enabled = false
+shadow_filter = 1
+shadow_filter_smooth = 1.4
+update_interval = 0.12
 
 [node name="WoodStore192" type="Node2D" parent="Actors/Props" unique_id=458176964 instance=ExtResource("32_hm75g")]
 position = Vector2(626, 1548)
@@ -2251,7 +2318,7 @@ text = "КРИВАЯ СОСНА"
 [node name="Lighting" type="Node2D" parent="." unique_id=204070304]
 
 [node name="Evening" type="CanvasModulate" parent="Lighting" unique_id=725615820]
-color = Color(0.87, 0.89, 0.92, 1)
+color = Color(0.89, 0.91, 0.94, 1)
 
 [node name="Exploration" type="Node2D" parent="." unique_id=1168033078]
 
@@ -2288,6 +2355,7 @@ shape = SubResource("RectangleShape2D_q63x4")
 
 [node name="Atmosphere" type="Node2D" parent="." unique_id=715278037]
 script = ExtResource("47_7et7n")
+world_space_fog = true
 
 [node name="Screen" type="CanvasLayer" parent="Atmosphere" unique_id=1932383025]
 layer = 4
@@ -2663,3 +2731,7 @@ position = Vector2(134, 786)
 
 [node name="S32_Litter_bark_410" type="Node2D" parent="Ground Objects" unique_id=1505130621 instance=ExtResource("s32_bark")]
 position = Vector2(191, 649)
+
+[node name="HouseLightOccluder" type="LightOccluder2D" parent="Actors/Structures/CommonHouse"]
+occluder = SubResource("s33_CommonHouse")
+sdf_collision = false
