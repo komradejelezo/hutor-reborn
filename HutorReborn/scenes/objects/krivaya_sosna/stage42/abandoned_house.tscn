@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage42/abandoned_house.png" id="1"]
+
+[sub_resource type="RectangleShape2D" id="Footprint"]
+size = Vector2(174, 92)
+
+[node name="AbandonedHouse" type="Node2D"]
+metadata/stage42_asset = "abandoned_house"
+
+[node name="Art" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.0, 1.0)
+texture = ExtResource("1")
+centered = false
+offset = Vector2(-112, -267)
+
+[node name="Solid" type="StaticBody2D" parent="."]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid"]
+position = Vector2(0, -48)
+shape = SubResource("Footprint")
+
+[node name="Entrance" type="Marker2D" parent="."]
+position = Vector2(10, 20)
+metadata/interior_id = "abandoned_house"
+metadata/transition_enabled = false

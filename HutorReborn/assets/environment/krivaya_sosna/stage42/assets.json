@@ -1,0 +1,232 @@
+[
+  {
+    "name": "inn_body",
+    "source": "трактир.png",
+    "box": [
+      18,
+      85,
+      260,
+      391
+    ],
+    "pivot": [
+      127,
+      246
+    ],
+    "scale": 1.15,
+    "core": [
+      [
+        35,
+        22
+      ],
+      [
+        218,
+        22
+      ],
+      [
+        222,
+        148
+      ],
+      [
+        224,
+        219
+      ],
+      [
+        30,
+        219
+      ]
+    ],
+    "ground_y": 242,
+    "footprint": [
+      206,
+      104,
+      0,
+      -54
+    ],
+    "rgb_method": "exact source crop; binary alpha only"
+  },
+  {
+    "name": "inn_left_wing",
+    "source": "трактир.png",
+    "box": [
+      16,
+      830,
+      143,
+      980
+    ],
+    "pivot": [
+      66,
+      130
+    ],
+    "scale": 1.15,
+    "core": [
+      [
+        12,
+        14
+      ],
+      [
+        108,
+        14
+      ],
+      [
+        111,
+        115
+      ],
+      [
+        12,
+        117
+      ]
+    ],
+    "ground_y": 130,
+    "footprint": [
+      116,
+      87,
+      0,
+      -45
+    ],
+    "rgb_method": "exact source crop; binary alpha only"
+  },
+  {
+    "name": "inn_right_wing",
+    "source": "трактир.png",
+    "box": [
+      371,
+      830,
+      503,
+      981
+    ],
+    "pivot": [
+      65,
+      131
+    ],
+    "scale": 1.15,
+    "core": [
+      [
+        12,
+        23
+      ],
+      [
+        115,
+        23
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        10,
+        119
+      ]
+    ],
+    "ground_y": 131,
+    "footprint": [
+      123,
+      84,
+      0,
+      -43
+    ],
+    "rgb_method": "exact source crop; binary alpha only"
+  },
+  {
+    "name": "abandoned_house",
+    "source": "Пустой дом.png",
+    "box": [
+      370,
+      125,
+      595,
+      416
+    ],
+    "pivot": [
+      112,
+      267
+    ],
+    "scale": 1.0,
+    "core": [
+      [
+        21,
+        128
+      ],
+      [
+        192,
+        130
+      ],
+      [
+        194,
+        251
+      ],
+      [
+        19,
+        259
+      ]
+    ],
+    "ground_y": 267,
+    "footprint": [
+      174,
+      92,
+      0,
+      -48
+    ],
+    "rgb_method": "exact source crop; binary alpha only"
+  },
+  {
+    "name": "hitching_rail",
+    "source": "трактир.png",
+    "box": [
+      503,
+      641,
+      627,
+      704
+    ],
+    "pivot": [
+      62,
+      55
+    ],
+    "scale": 0.9,
+    "core": null,
+    "ground_y": 57,
+    "footprint": [
+      104,
+      11,
+      0,
+      -6
+    ],
+    "rgb_method": "exact source crop; binary alpha only"
+  },
+  {
+    "name": "inn_sign",
+    "source": "трактир.png",
+    "box": [
+      686,
+      535,
+      751,
+      638
+    ],
+    "pivot": [
+      33,
+      96
+    ],
+    "scale": 0.8,
+    "core": null,
+    "ground_y": 98,
+    "footprint": null,
+    "rgb_method": "exact source crop; binary alpha only"
+  },
+  {
+    "name": "herb_bed",
+    "source": "Тайл земля, база.png",
+    "box": [
+      33,
+      354,
+      153,
+      454
+    ],
+    "pivot": [
+      60,
+      94
+    ],
+    "scale": 1.0,
+    "core": null,
+    "ground_y": 100,
+    "footprint": null,
+    "rgb_method": "exact source crop; binary alpha only"
+  }
+]

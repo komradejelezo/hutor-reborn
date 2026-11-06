@@ -1,0 +1,72 @@
+[gd_scene format=3]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/inn_body.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/inn_left_wing.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/inn_right_wing.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/inn_sign.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/warm_window.tscn" id="5"]
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage33/soft_light.tres" id="6"]
+[ext_resource type="Script" path="res://scripts/components/warm_light.gd" id="7"]
+
+[node name="Inn" type="Node2D"]
+y_sort_enabled = true
+metadata/building_role = "inn"
+metadata/residents = PackedStringArray("Трактирщик", "Жена трактирщика")
+
+[node name="Body" parent="." instance=ExtResource("1")]
+position = Vector2(0, -55)
+
+[node name="LeftWing" parent="." instance=ExtResource("2")]
+position = Vector2(-160, 0)
+
+[node name="RightWing" parent="." instance=ExtResource("3")]
+position = Vector2(160, 0)
+
+[node name="SymbolSign" parent="." instance=ExtResource("4")]
+position = Vector2(-108, -31)
+
+[node name="LeftWindow" parent="Body" instance=ExtResource("5")]
+position = Vector2(-56, -74)
+
+[node name="RightWindow" parent="Body" instance=ExtResource("5")]
+position = Vector2(51, -74)
+
+[node name="WindowLight" type="PointLight2D" parent="Body"]
+position = Vector2(-56, -74)
+texture_filter = 1
+texture = ExtResource("6")
+texture_scale = 0.4
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.42
+script = ExtResource("7")
+base_energy = 0.42
+flicker = 0.0
+update_interval = 0.12
+
+[node name="WindowLight2" type="PointLight2D" parent="Body"]
+position = Vector2(51, -74)
+texture_filter = 1
+texture = ExtResource("6")
+texture_scale = 0.4
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.42
+script = ExtResource("7")
+base_energy = 0.42
+flicker = 0.0
+update_interval = 0.12
+
+[node name="DoorLight" type="PointLight2D" parent="."]
+position = Vector2(0, -28)
+texture_filter = 1
+texture = ExtResource("6")
+texture_scale = 0.5
+color = Color(0.96, 0.80, 0.63, 1)
+energy = 0.38
+script = ExtResource("7")
+base_energy = 0.38
+flicker = 0.0
+update_interval = 0.12
+
+[node name="Entrance" type="Marker2D" parent="."]
+position = Vector2(0, -28)
+metadata/interior_id = "inn"
+metadata/transition_enabled = false

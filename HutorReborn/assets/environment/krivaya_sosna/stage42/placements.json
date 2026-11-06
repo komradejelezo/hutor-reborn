@@ -1,0 +1,1759 @@
+{
+  "base": "01131ddfb63ceef1f6ad77c6d2ecb2c5bde1f79a",
+  "relocations": [
+    {
+      "name": "S32_Miller_grain_sack_300",
+      "from": [
+        1625.0,
+        785.0
+      ],
+      "to": [
+        1124,
+        1250
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_sack_tied_301",
+      "from": [
+        1592.0,
+        767.0
+      ],
+      "to": [
+        1165,
+        1277
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_grain_basin_302",
+      "from": [
+        1644.0,
+        823.0
+      ],
+      "to": [
+        1452,
+        1235
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_bottle_crate_303",
+      "from": [
+        1810.0,
+        802.0
+      ],
+      "to": [
+        1442,
+        1277
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_crate_304",
+      "from": [
+        1801.0,
+        841.0
+      ],
+      "to": [
+        1484,
+        1247
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_pitchfork_305",
+      "from": [
+        1580.0,
+        738.0
+      ],
+      "to": [
+        1117,
+        1214
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_saw_306",
+      "from": [
+        1620.0,
+        738.0
+      ],
+      "to": [
+        1150,
+        1187
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Miller_grain_sack_307",
+      "from": [
+        1820.0,
+        769.0
+      ],
+      "to": [
+        1475,
+        1190
+      ],
+      "reason": "former milling supplies moved to common storehouse"
+    },
+    {
+      "name": "S32_Common_cooking_tripod_308",
+      "from": [
+        1108.0,
+        1261.0
+      ],
+      "to": [
+        1830,
+        2370
+      ],
+      "reason": "cooking equipment moved from warehouse to inn"
+    },
+    {
+      "name": "S32_Common_kitchen_pot_310",
+      "from": [
+        1178.0,
+        1283.0
+      ],
+      "to": [
+        1885,
+        2330
+      ],
+      "reason": "cooking equipment moved from warehouse to inn"
+    },
+    {
+      "name": "S32_Common_wash_basin_311",
+      "from": [
+        1207.0,
+        1252.0
+      ],
+      "to": [
+        1920,
+        2370
+      ],
+      "reason": "cooking equipment moved from warehouse to inn"
+    },
+    {
+      "name": "S32_Common_tankard_312",
+      "from": [
+        1388.0,
+        1269.0
+      ],
+      "to": [
+        1750,
+        2345
+      ],
+      "reason": "cooking equipment moved from warehouse to inn"
+    },
+    {
+      "name": "S32_Common_wood_trough_314",
+      "from": [
+        1443.0,
+        1196.0
+      ],
+      "to": [
+        1955,
+        2290
+      ],
+      "reason": "cooking equipment moved from warehouse to inn"
+    },
+    {
+      "name": "S32_Hunter_axe_stump_317",
+      "from": [
+        729.0,
+        1700.0
+      ],
+      "to": [
+        1625,
+        785
+      ],
+      "reason": "working tools reassigned to woodcutter"
+    },
+    {
+      "name": "S32_Hunter_saw_318",
+      "from": [
+        693.0,
+        1578.0
+      ],
+      "to": [
+        1595,
+        818
+      ],
+      "reason": "working tools reassigned to woodcutter"
+    },
+    {
+      "name": "Pine3220",
+      "from": [
+        1896.0,
+        2122.0
+      ],
+      "to": [
+        2747,
+        1999
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine3221",
+      "from": [
+        1819.0,
+        2106.0
+      ],
+      "to": [
+        2770,
+        2419
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine2238",
+      "from": [
+        2537.0,
+        774.0
+      ],
+      "to": [
+        909,
+        2502
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine2242",
+      "from": [
+        1904.0,
+        2056.0
+      ],
+      "to": [
+        2830,
+        2459
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "MixedTree247",
+      "from": [
+        2059.0,
+        2079.0
+      ],
+      "to": [
+        2693,
+        691
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine1258",
+      "from": [
+        2459.0,
+        1106.0
+      ],
+      "to": [
+        875,
+        2347
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine2263",
+      "from": [
+        1451.0,
+        2042.0
+      ],
+      "to": [
+        1079,
+        2234
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine3284",
+      "from": [
+        1593.0,
+        2038.0
+      ],
+      "to": [
+        976,
+        2495
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine3292",
+      "from": [
+        2561.0,
+        1342.0
+      ],
+      "to": [
+        2917,
+        1868
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine2296",
+      "from": [
+        1489.0,
+        2122.0
+      ],
+      "to": [
+        2868,
+        2251
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine3301",
+      "from": [
+        1987.0,
+        2124.0
+      ],
+      "to": [
+        2928,
+        182
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine1340",
+      "from": [
+        2564.0,
+        921.0
+      ],
+      "to": [
+        2774,
+        1883
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine1342",
+      "from": [
+        2565.0,
+        835.0
+      ],
+      "to": [
+        2633,
+        2228
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "MixedTree379",
+      "from": [
+        2527.0,
+        998.0
+      ],
+      "to": [
+        2662,
+        2325
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine1395",
+      "from": [
+        1730.0,
+        2107.0
+      ],
+      "to": [
+        2091,
+        2204
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine3463",
+      "from": [
+        2551.0,
+        1095.0
+      ],
+      "to": [
+        2846,
+        292
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine2475",
+      "from": [
+        1977.0,
+        2066.0
+      ],
+      "to": [
+        2761,
+        2258
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    },
+    {
+      "name": "Pine0494",
+      "from": [
+        1659.0,
+        2090.0
+      ],
+      "to": [
+        2907,
+        1532
+      ],
+      "reason": "trees retained on the extended forest perimeter"
+    }
+  ],
+  "added": [
+    {
+      "name": "Inn",
+      "kind": "inn",
+      "position": [
+        1688,
+        2264
+      ],
+      "parent": "Actors/Structures"
+    },
+    {
+      "name": "AbandonedHouse",
+      "kind": "abandoned_house",
+      "position": [
+        2700,
+        1030
+      ],
+      "parent": "Actors/Structures"
+    },
+    {
+      "name": "S42_Woodcutter_wood_store_0",
+      "kind": "wood_store",
+      "position": [
+        1805,
+        790
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Woodcutter_logs_1",
+      "kind": "logs",
+      "position": [
+        1586,
+        767
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Woodcutter_axe_stump_2",
+      "kind": "axe_stump",
+      "position": [
+        1837,
+        840
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Woodcutter_chips_3",
+      "kind": "chips",
+      "position": [
+        1600,
+        786
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Woodcutter_bark_4",
+      "kind": "bark",
+      "position": [
+        1845,
+        811
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Woodcutter_short_bench_5",
+      "kind": "short_bench",
+      "position": [
+        1580,
+        850
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Woodcutter_bucket_6",
+      "kind": "bucket",
+      "position": [
+        1777,
+        828
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Storehouse_crate_0",
+      "kind": "crate",
+      "position": [
+        1090,
+        1270
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Storehouse_barrel_1",
+      "kind": "barrel",
+      "position": [
+        1490,
+        1290
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Storehouse_grain_sack_2",
+      "kind": "grain_sack",
+      "position": [
+        1414,
+        1260
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Storehouse_crate_3",
+      "kind": "crate",
+      "position": [
+        1454,
+        1140
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Storehouse_sack_tied_4",
+      "kind": "sack_tied",
+      "position": [
+        1108,
+        1175
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_OldMan_bucket_0",
+      "kind": "bucket",
+      "position": [
+        786,
+        1662
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_OldMan_broom_1",
+      "kind": "broom",
+      "position": [
+        934,
+        1617
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_OldMan_wood_store_2",
+      "kind": "wood_store",
+      "position": [
+        687,
+        1650
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_OldMan_basket_3",
+      "kind": "basket",
+      "position": [
+        905,
+        1676
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Herbalist_herb_line_0",
+      "kind": "herb_line",
+      "position": [
+        1900,
+        1588
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Herbalist_herb_pot_1",
+      "kind": "herb_pot",
+      "position": [
+        1590,
+        1694
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Herbalist_herb_pot_2",
+      "kind": "herb_pot",
+      "position": [
+        1630,
+        1715
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Herbalist_white_herbs_3",
+      "kind": "white_herbs",
+      "position": [
+        1677,
+        1700
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Herbalist_white_herbs_4",
+      "kind": "white_herbs",
+      "position": [
+        1585,
+        1657
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Herbalist_bush_sparse_5",
+      "kind": "bush_sparse",
+      "position": [
+        1900,
+        1662
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Herbalist_bush_sparse_6",
+      "kind": "bush_sparse",
+      "position": [
+        1570,
+        1600
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Herbalist_leaf_litter_7",
+      "kind": "leaf_litter",
+      "position": [
+        1890,
+        1625
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Herbalist_bark_8",
+      "kind": "bark",
+      "position": [
+        1612,
+        1590
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Inn_hitching_rail_0",
+      "kind": "hitching_rail",
+      "position": [
+        1460,
+        2390
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_cart_1",
+      "kind": "cart",
+      "position": [
+        1935,
+        2375
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_barrel_2",
+      "kind": "barrel",
+      "position": [
+        1900,
+        2310
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_barrel_3",
+      "kind": "barrel",
+      "position": [
+        1960,
+        2325
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_crate_4",
+      "kind": "crate",
+      "position": [
+        1445,
+        2348
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_bench_5",
+      "kind": "bench",
+      "position": [
+        1620,
+        2365
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_basket_6",
+      "kind": "basket",
+      "position": [
+        1800,
+        2340
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_logs_7",
+      "kind": "logs",
+      "position": [
+        1950,
+        2200
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_wood_store_8",
+      "kind": "wood_store",
+      "position": [
+        1385,
+        2300
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Inn_hanging_lantern_9",
+      "kind": "hanging_lantern",
+      "position": [
+        1778,
+        2318
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_fence_broken_0",
+      "kind": "fence_broken",
+      "position": [
+        2590,
+        1140
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_fence_broken_1",
+      "kind": "fence_broken",
+      "position": [
+        2825,
+        1095
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_branches_2",
+      "kind": "branches",
+      "position": [
+        2600,
+        1010
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Abandoned_dry_snag_3",
+      "kind": "dry_snag",
+      "position": [
+        2865,
+        1115
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_old_stump_4",
+      "kind": "old_stump",
+      "position": [
+        2580,
+        935
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_bush_sparse_5",
+      "kind": "bush_sparse",
+      "position": [
+        2780,
+        1065
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_bush_sparse_6",
+      "kind": "bush_sparse",
+      "position": [
+        2620,
+        1050
+      ],
+      "parent": "Actors/Props"
+    },
+    {
+      "name": "S42_Abandoned_leaf_litter_7",
+      "kind": "leaf_litter",
+      "position": [
+        2720,
+        1120
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Abandoned_bark_8",
+      "kind": "bark",
+      "position": [
+        2650,
+        1080
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Abandoned_branches_9",
+      "kind": "branches",
+      "position": [
+        2800,
+        1000
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Forest_0",
+      "kind": "pine_0",
+      "position": [
+        617,
+        2508
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_1",
+      "kind": "pine_1",
+      "position": [
+        2693,
+        2428
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_2",
+      "kind": "pine_2",
+      "position": [
+        2797,
+        630
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_3",
+      "kind": "pine_3",
+      "position": [
+        2772,
+        2355
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_4",
+      "kind": "pine_0",
+      "position": [
+        2304,
+        2377
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_5",
+      "kind": "pine_1",
+      "position": [
+        926,
+        2403
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_6",
+      "kind": "pine_2",
+      "position": [
+        2898,
+        716
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_7",
+      "kind": "pine_3",
+      "position": [
+        2870,
+        2374
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_8",
+      "kind": "pine_0",
+      "position": [
+        2905,
+        2027
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_9",
+      "kind": "pine_1",
+      "position": [
+        1037,
+        2342
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_10",
+      "kind": "pine_2",
+      "position": [
+        2709,
+        2501
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_11",
+      "kind": "pine_3",
+      "position": [
+        2509,
+        2494
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_12",
+      "kind": "pine_0",
+      "position": [
+        2691,
+        620
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_13",
+      "kind": "pine_1",
+      "position": [
+        584,
+        2393
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_14",
+      "kind": "pine_2",
+      "position": [
+        2202,
+        2336
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_15",
+      "kind": "pine_3",
+      "position": [
+        623,
+        2295
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_16",
+      "kind": "pine_0",
+      "position": [
+        323,
+        2514
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_17",
+      "kind": "pine_1",
+      "position": [
+        491,
+        2293
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_18",
+      "kind": "pine_2",
+      "position": [
+        2839,
+        1638
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_19",
+      "kind": "pine_3",
+      "position": [
+        2742,
+        1750
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_20",
+      "kind": "pine_0",
+      "position": [
+        1072,
+        2418
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_21",
+      "kind": "pine_1",
+      "position": [
+        2769,
+        463
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_22",
+      "kind": "pine_2",
+      "position": [
+        368,
+        2256
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_23",
+      "kind": "pine_3",
+      "position": [
+        2748,
+        1688
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_24",
+      "kind": "pine_0",
+      "position": [
+        2665,
+        307
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_25",
+      "kind": "pine_1",
+      "position": [
+        2667,
+        2051
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_26",
+      "kind": "pine_2",
+      "position": [
+        2879,
+        1409
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_27",
+      "kind": "pine_3",
+      "position": [
+        2777,
+        2114
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_28",
+      "kind": "pine_0",
+      "position": [
+        2679,
+        1703
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_29",
+      "kind": "pine_1",
+      "position": [
+        2401,
+        2384
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_30",
+      "kind": "pine_2",
+      "position": [
+        2823,
+        1946
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_31",
+      "kind": "pine_3",
+      "position": [
+        260,
+        2513
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_32",
+      "kind": "pine_0",
+      "position": [
+        2924,
+        259
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_33",
+      "kind": "pine_1",
+      "position": [
+        2337,
+        2206
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_34",
+      "kind": "pine_2",
+      "position": [
+        2921,
+        2322
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_35",
+      "kind": "pine_3",
+      "position": [
+        2753,
+        363
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_36",
+      "kind": "pine_0",
+      "position": [
+        281,
+        2207
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_37",
+      "kind": "pine_1",
+      "position": [
+        140,
+        2259
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_38",
+      "kind": "pine_2",
+      "position": [
+        806,
+        2297
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_39",
+      "kind": "pine_3",
+      "position": [
+        964,
+        2299
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_40",
+      "kind": "pine_0",
+      "position": [
+        2243,
+        2220
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_41",
+      "kind": "pine_1",
+      "position": [
+        2407,
+        2299
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_42",
+      "kind": "pine_2",
+      "position": [
+        2448,
+        2523
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_43",
+      "kind": "pine_3",
+      "position": [
+        2833,
+        223
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_44",
+      "kind": "pine_0",
+      "position": [
+        2908,
+        319
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_45",
+      "kind": "pine_1",
+      "position": [
+        2923,
+        2422
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_46",
+      "kind": "pine_2",
+      "position": [
+        2534,
+        2292
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_47",
+      "kind": "pine_3",
+      "position": [
+        668,
+        2349
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_48",
+      "kind": "pine_0",
+      "position": [
+        2824,
+        2187
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_49",
+      "kind": "pine_1",
+      "position": [
+        741,
+        2448
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_50",
+      "kind": "pine_2",
+      "position": [
+        2311,
+        2286
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_51",
+      "kind": "pine_3",
+      "position": [
+        2228,
+        2486
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_52",
+      "kind": "pine_0",
+      "position": [
+        2913,
+        510
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_53",
+      "kind": "pine_1",
+      "position": [
+        243,
+        2340
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_54",
+      "kind": "pine_2",
+      "position": [
+        2927,
+        1725
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_55",
+      "kind": "pine_3",
+      "position": [
+        106,
+        2437
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_56",
+      "kind": "pine_0",
+      "position": [
+        2106,
+        2495
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Forest_57",
+      "kind": "pine_1",
+      "position": [
+        2887,
+        1943
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_0",
+      "kind": "shrub",
+      "position": [
+        453,
+        2223
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_1",
+      "kind": "bush_sparse",
+      "position": [
+        216,
+        2276
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_2",
+      "kind": "branches",
+      "position": [
+        2627,
+        2433
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_3",
+      "kind": "leaf_litter",
+      "position": [
+        2514,
+        2228
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_4",
+      "kind": "old_stump",
+      "position": [
+        2753,
+        1820
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_5",
+      "kind": "roots",
+      "position": [
+        313,
+        2404
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_6",
+      "kind": "shrub",
+      "position": [
+        375,
+        2324
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_7",
+      "kind": "bush_sparse",
+      "position": [
+        2452,
+        2341
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_8",
+      "kind": "branches",
+      "position": [
+        2833,
+        1702
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_9",
+      "kind": "leaf_litter",
+      "position": [
+        822,
+        2471
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_10",
+      "kind": "old_stump",
+      "position": [
+        2357,
+        2341
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_11",
+      "kind": "roots",
+      "position": [
+        2803,
+        696
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_12",
+      "kind": "shrub",
+      "position": [
+        2152,
+        2216
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_13",
+      "kind": "bush_sparse",
+      "position": [
+        2788,
+        2507
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_14",
+      "kind": "branches",
+      "position": [
+        1098,
+        2495
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_15",
+      "kind": "leaf_litter",
+      "position": [
+        1162,
+        2291
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_16",
+      "kind": "old_stump",
+      "position": [
+        2845,
+        2110
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_17",
+      "kind": "roots",
+      "position": [
+        2683,
+        1461
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_18",
+      "kind": "shrub",
+      "position": [
+        2799,
+        163
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_19",
+      "kind": "bush_sparse",
+      "position": [
+        2675,
+        1989
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_20",
+      "kind": "branches",
+      "position": [
+        2116,
+        2298
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_21",
+      "kind": "leaf_litter",
+      "position": [
+        2905,
+        2120
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_22",
+      "kind": "old_stump",
+      "position": [
+        2665,
+        1770
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_23",
+      "kind": "roots",
+      "position": [
+        2871,
+        1782
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_24",
+      "kind": "shrub",
+      "position": [
+        716,
+        2206
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_25",
+      "kind": "bush_sparse",
+      "position": [
+        2671,
+        465
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_26",
+      "kind": "branches",
+      "position": [
+        2803,
+        1436
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_27",
+      "kind": "leaf_litter",
+      "position": [
+        419,
+        2498
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_28",
+      "kind": "old_stump",
+      "position": [
+        2737,
+        1398
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_29",
+      "kind": "roots",
+      "position": [
+        2849,
+        2526
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_30",
+      "kind": "shrub",
+      "position": [
+        2673,
+        1556
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_31",
+      "kind": "bush_sparse",
+      "position": [
+        2866,
+        419
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_32",
+      "kind": "branches",
+      "position": [
+        766,
+        2344
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_33",
+      "kind": "leaf_litter",
+      "position": [
+        496,
+        2481
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_34",
+      "kind": "old_stump",
+      "position": [
+        1148,
+        2402
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_35",
+      "kind": "roots",
+      "position": [
+        2595,
+        2283
+      ],
+      "parent": "Ground Objects"
+    },
+    {
+      "name": "S42_Undergrowth_36",
+      "kind": "shrub",
+      "position": [
+        195,
+        2213
+      ],
+      "parent": "Actors/Nature"
+    },
+    {
+      "name": "S42_Undergrowth_37",
+      "kind": "bush_sparse",
+      "position": [
+        720,
+        2276
+      ],
+      "parent": "Actors/Nature"
+    }
+  ],
+  "reserved": {
+    "Square": [
+      1378,
+      1442
+    ],
+    "Pine": [
+      560,
+      917
+    ],
+    "Woodcutter": [
+      1713,
+      810
+    ],
+    "Herbalist": [
+      1717,
+      1660
+    ],
+    "Inn": [
+      1688,
+      2325
+    ],
+    "Elder": [
+      936,
+      805
+    ]
+  },
+  "building_roles": {
+    "ElderHouse": [
+      "elder",
+      "Дом старосты",
+      [
+        "Староста"
+      ],
+      "Самый крепкий сруб в хуторе. У порога аккуратно сложены дрова."
+    ],
+    "MillerHouse": [
+      "woodcutter",
+      "Дом семьи дровосека",
+      [
+        "Дровосек",
+        "Жена дровосека",
+        "Сын дровосека"
+      ],
+      "Здесь живёт семья дровосека. Во дворе — колода, топоры и пахнущие смолой поленья."
+    ],
+    "CommonHouse": [
+      "storehouse",
+      "Общий склад",
+      [],
+      "Общий запас хутора: зерно, мешки, бочки и ящики под надёжной крышей."
+    ],
+    "CarpenterHouse": [
+      "old_man",
+      "Дом старика",
+      [
+        "Старик"
+      ],
+      "Скромный жилой дом самого старого жителя хутора. У стены стоит потёртая скамья."
+    ],
+    "HerbalistHouse": [
+      "herbalist",
+      "Дом травницы и её брата",
+      [
+        "Травница",
+        "Брат травницы"
+      ],
+      "Ветхая крыша покосилась, но дом обитаем. На старых перекладинах сохнут лекарственные травы."
+    ]
+  }
+}

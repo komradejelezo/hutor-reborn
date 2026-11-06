@@ -1,0 +1,24 @@
+[gd_scene format=3]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage42/herb_bed.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/stage32/white_herbs.tscn" id="2"]
+
+[node name="MedicinalGarden" instance=ExtResource("1")]
+metadata/plot_role = "medicinal_herbs"
+
+[node name="Herbs1" parent="." instance=ExtResource("2")]
+position = Vector2(-30, -58)
+
+[node name="Herbs2" parent="." instance=ExtResource("2")]
+position = Vector2(0, -58)
+
+[node name="Herbs3" parent="." instance=ExtResource("2")]
+position = Vector2(30, -58)
+
+[node name="Herbs4" parent="." instance=ExtResource("2")]
+position = Vector2(-30, -25)
+
+[node name="Herbs5" parent="." instance=ExtResource("2")]
+position = Vector2(0, -25)
+
+[node name="Herbs6" parent="." instance=ExtResource("2")]
+position = Vector2(30, -25)
