@@ -1,0 +1,227 @@
+{
+  "renderer": "Godot 4.6.3 / Mesa llvmpipe",
+  "runs_per_version": 2,
+  "order": "after, before; before, after",
+  "warmup_frames": 45,
+  "samples_per_view_per_run": 90,
+  "results": {
+    "before": {
+      "scene_tree_nodes": 2535,
+      "collision_shapes": 526,
+      "wind_nodes": 320,
+      "individual_runs": [
+        {
+          "nodes": 2535,
+          "samples_per_view": 90,
+          "solid_shapes": 526,
+          "views": [
+            {
+              "center": "(1378.0, 1442.0)",
+              "draw_calls": 59.9555555555555,
+              "drawn_objects": 2510.95555555556,
+              "physics_ms": 0.337166666666666,
+              "process_ms": 61.3923666666666
+            },
+            {
+              "center": "(510.0, 760.0)",
+              "draw_calls": 73.0,
+              "drawn_objects": 1354.0,
+              "physics_ms": 0.326388888888889,
+              "process_ms": 55.0375555555556
+            },
+            {
+              "center": "(1050.0, 350.0)",
+              "draw_calls": 63.0000000000001,
+              "drawn_objects": 1524.0,
+              "physics_ms": 0.255066666666667,
+              "process_ms": 45.0267222222221
+            },
+            {
+              "center": "(1800.0, 1650.0)",
+              "draw_calls": 98.0,
+              "drawn_objects": 2616.0,
+              "physics_ms": 0.218333333333333,
+              "process_ms": 49.5638444444445
+            }
+          ],
+          "wind_nodes": 320
+        },
+        {
+          "nodes": 2535,
+          "samples_per_view": 90,
+          "solid_shapes": 526,
+          "views": [
+            {
+              "center": "(1378.0, 1442.0)",
+              "draw_calls": 59.9999999999999,
+              "drawn_objects": 2511.0,
+              "physics_ms": 0.64642222222222,
+              "process_ms": 65.1065777777777
+            },
+            {
+              "center": "(510.0, 760.0)",
+              "draw_calls": 73.0,
+              "drawn_objects": 1354.0,
+              "physics_ms": 0.2125,
+              "process_ms": 52.3050111111112
+            },
+            {
+              "center": "(1050.0, 350.0)",
+              "draw_calls": 63.0000000000001,
+              "drawn_objects": 1524.0,
+              "physics_ms": 0.199788888888889,
+              "process_ms": 47.4049777777777
+            },
+            {
+              "center": "(1800.0, 1650.0)",
+              "draw_calls": 98.0,
+              "drawn_objects": 2616.0,
+              "physics_ms": 0.219977777777778,
+              "process_ms": 56.1237444444444
+            }
+          ],
+          "wind_nodes": 320
+        }
+      ],
+      "views": [
+        {
+          "center": "(1378.0, 1442.0)",
+          "process_ms": 63.24947222222215,
+          "physics_ms": 0.491794444444443,
+          "draw_calls": 59.9777777777777,
+          "drawn_objects": 2510.97777777778
+        },
+        {
+          "center": "(510.0, 760.0)",
+          "process_ms": 53.6712833333334,
+          "physics_ms": 0.2694444444444445,
+          "draw_calls": 73.0,
+          "drawn_objects": 1354.0
+        },
+        {
+          "center": "(1050.0, 350.0)",
+          "process_ms": 46.215849999999904,
+          "physics_ms": 0.227427777777778,
+          "draw_calls": 63.0000000000001,
+          "drawn_objects": 1524.0
+        },
+        {
+          "center": "(1800.0, 1650.0)",
+          "process_ms": 52.84379444444445,
+          "physics_ms": 0.2191555555555555,
+          "draw_calls": 98.0,
+          "drawn_objects": 2616.0
+        }
+      ]
+    },
+    "after": {
+      "scene_tree_nodes": 2536,
+      "collision_shapes": 526,
+      "wind_nodes": 320,
+      "individual_runs": [
+        {
+          "nodes": 2536,
+          "samples_per_view": 90,
+          "solid_shapes": 526,
+          "views": [
+            {
+              "center": "(1378.0, 1442.0)",
+              "draw_calls": 62.0000000000001,
+              "drawn_objects": 2511.0,
+              "physics_ms": 0.235533333333333,
+              "process_ms": 59.1159888888889
+            },
+            {
+              "center": "(510.0, 760.0)",
+              "draw_calls": 73.0,
+              "drawn_objects": 1354.0,
+              "physics_ms": 0.241466666666667,
+              "process_ms": 52.8176777777778
+            },
+            {
+              "center": "(1050.0, 350.0)",
+              "draw_calls": 66.0000000000001,
+              "drawn_objects": 1524.0,
+              "physics_ms": 0.249844444444444,
+              "process_ms": 54.8719444444444
+            },
+            {
+              "center": "(1800.0, 1650.0)",
+              "draw_calls": 97.0000000000001,
+              "drawn_objects": 2616.0,
+              "physics_ms": 0.256177777777778,
+              "process_ms": 54.9164444444444
+            }
+          ],
+          "wind_nodes": 320
+        },
+        {
+          "nodes": 2536,
+          "samples_per_view": 90,
+          "solid_shapes": 526,
+          "views": [
+            {
+              "center": "(1378.0, 1442.0)",
+              "draw_calls": 62.0000000000001,
+              "drawn_objects": 2511.0,
+              "physics_ms": 0.343499999999999,
+              "process_ms": 61.6275000000001
+            },
+            {
+              "center": "(510.0, 760.0)",
+              "draw_calls": 73.0,
+              "drawn_objects": 1354.0,
+              "physics_ms": 0.211655555555555,
+              "process_ms": 53.9973777777778
+            },
+            {
+              "center": "(1050.0, 350.0)",
+              "draw_calls": 66.0000000000001,
+              "drawn_objects": 1524.0,
+              "physics_ms": 0.235066666666666,
+              "process_ms": 46.4847333333332
+            },
+            {
+              "center": "(1800.0, 1650.0)",
+              "draw_calls": 97.0000000000001,
+              "drawn_objects": 2616.0,
+              "physics_ms": 0.159,
+              "process_ms": 52.784
+            }
+          ],
+          "wind_nodes": 320
+        }
+      ],
+      "views": [
+        {
+          "center": "(1378.0, 1442.0)",
+          "process_ms": 60.3717444444445,
+          "physics_ms": 0.289516666666666,
+          "draw_calls": 62.0000000000001,
+          "drawn_objects": 2511.0
+        },
+        {
+          "center": "(510.0, 760.0)",
+          "process_ms": 53.4075277777778,
+          "physics_ms": 0.226561111111111,
+          "draw_calls": 73.0,
+          "drawn_objects": 1354.0
+        },
+        {
+          "center": "(1050.0, 350.0)",
+          "process_ms": 50.6783388888888,
+          "physics_ms": 0.242455555555555,
+          "draw_calls": 66.0000000000001,
+          "drawn_objects": 1524.0
+        },
+        {
+          "center": "(1800.0, 1650.0)",
+          "process_ms": 53.8502222222222,
+          "physics_ms": 0.207588888888889,
+          "draw_calls": 97.0000000000001,
+          "drawn_objects": 2616.0
+        }
+      ]
+    }
+  }
+}
