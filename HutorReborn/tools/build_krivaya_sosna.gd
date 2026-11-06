@@ -244,6 +244,7 @@ func terrain() -> void:
             for pair in bits:data.set_terrain_peering_bit(pair[1],0 if mask&pair[0] else -1)
     tiles.add_source(brushes,2)
     assert(ResourceSaver.save(tiles,BASE+"surfaces/expanded_surfaces.tres",ResourceSaver.FLAG_CHANGE_PATH)==OK)
+    tiles.take_over_path(BASE+"surfaces/expanded_surfaces.tres")
     var ground:=TileMapLayer.new()
     ground.name="Ground"
     ground.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
