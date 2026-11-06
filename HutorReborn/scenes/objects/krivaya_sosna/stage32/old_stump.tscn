@@ -1,0 +1,28 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage32/environment_atlas.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="ArtTexture"]
+atlas = ExtResource("1")
+region = Rect2(672, 4, 130, 89)
+filter_clip = true
+
+[sub_resource type="RectangleShape2D" id="Footprint"]
+size = Vector2(30, 16)
+
+[node name="OldStump" type="Node2D"]
+metadata/detail_asset = "old_stump"
+
+[node name="Art" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(0.55, 0.55)
+texture = SubResource("ArtTexture")
+centered = false
+offset = Vector2(-65.0, -75)
+
+[node name="Solid" type="StaticBody2D" parent="."]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid"]
+position = Vector2(0, -8)
+shape = SubResource("Footprint")

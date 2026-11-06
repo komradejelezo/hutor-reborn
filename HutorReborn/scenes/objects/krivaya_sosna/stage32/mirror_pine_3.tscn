@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/objects/krivaya_sosna/pine_3.tscn" id="1"]
+
+[node name="MirroredTree" instance=ExtResource("1")]
+
+[node name="Art" parent="." index="0"]
+flip_h = true
