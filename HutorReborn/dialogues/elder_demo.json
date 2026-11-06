@@ -1,0 +1,46 @@
+{
+  "id": "elder_first_meeting_demo",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Староста",
+      "portrait": "",
+      "emotion": "neutral",
+      "text": "Не припомню, чтобы видел тебя прежде. Каким ветром занесло в Кривую Сосну?",
+      "choices": [
+        {"id": "shelter", "text": "Ищу ночлег.", "next": "shelter_reply"},
+        {"id": "help", "text": "Мне нужна помощь.", "next": "help_reply"},
+        {"id": "private", "text": "Это не твоё дело.", "next": "private_reply"}
+      ]
+    },
+    {
+      "id": "shelter_reply",
+      "speaker": "Староста",
+      "emotion": "thoughtful",
+      "text": "Ночь в лесу — плохой попутчик. У общего очага найдётся место. Только ворота за собой прикрой.",
+      "next": "farewell"
+    },
+    {
+      "id": "help_reply",
+      "speaker": "Староста",
+      "emotion": "concerned",
+      "text": "Говори, путник. Сперва выслушаем, а там поглядим, чем наш хутор может помочь.",
+      "next": "farewell"
+    },
+    {
+      "id": "private_reply",
+      "speaker": "Староста",
+      "emotion": "stern",
+      "text": "Как знаешь. Только у нас чужих бед не ищут и своих за ворота не выносят. Помни об этом.",
+      "next": "farewell"
+    },
+    {
+      "id": "farewell",
+      "speaker": "Староста",
+      "emotion": "neutral",
+      "text": "Отдохни с дороги. Остальное — при свете дня.",
+      "end": true
+    }
+  ]
+}
