@@ -49,7 +49,8 @@ func run() -> void:
     var sprite: AnimatedSprite2D = player.get_node("AnimatedSprite2D")
     check(sprite.sprite_frames.get_animation_names().size()==8,"four idle and four walking animations")
     for dir in ["up","down","left","right"]:
-        check(sprite.sprite_frames.get_frame_count("walk_"+dir)==6,"six real walking frames: "+dir)
+        var count := 8 if dir in ["left", "right"] else 6
+        check(sprite.sprite_frames.get_frame_count("walk_"+dir)==count,"original walking frames: "+dir)
     await warp(Vector2(700,800))
     var start := player.position
     Input.action_press("move_up")

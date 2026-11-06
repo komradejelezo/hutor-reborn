@@ -28,21 +28,9 @@ func save_scene(node: Node, path: String) -> void:
     assert(ResourceSaver.save(packed, path) == OK)
 
 func build_frames() -> void:
-    var texture := load("res://assets/characters/hans.png") as Texture2D
-    var frames := SpriteFrames.new()
-    frames.remove_animation("default")
-    var dirs := ["down", "left", "right", "up"]
-    for direction in range(4):
-        for mode in ["idle", "walk"]:
-            var key: String = mode + "_" + dirs[direction]
-            frames.add_animation(key)
-            frames.set_animation_speed(key, 1.5 if mode == "idle" else 8.0)
-            for index in range(2 if mode == "idle" else 6):
-                var frame := AtlasTexture.new()
-                frame.atlas = texture
-                frame.region = Rect2((index if mode == "idle" else index+2)*32, direction*48, 32, 48)
-                frames.add_frame(key, frame)
-    ResourceSaver.save(frames, "res://assets/characters/hans_frames.tres")
+    # Authored Hans frames are generated only by tools/slice_hans.py.
+    # Rebuilding the map must preserve the supplied character artwork.
+    assert(ResourceLoader.exists("res://assets/characters/hans_frames.tres"))
     var fire_frames := SpriteFrames.new()
     fire_frames.set_animation_speed("default", 10.0)
     for index in range(8):
