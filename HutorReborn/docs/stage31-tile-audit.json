@@ -1,0 +1,226 @@
+{
+  "base_commit": "2d42f76c9942f63ae521877ac8ab9ca6413024e8",
+  "before": {
+    "layers": [
+      {
+        "cell_size": "(32, 32)",
+        "cells": 5576,
+        "filter": 1,
+        "path": "Ground",
+        "sources": [
+          {
+            "alpha": 0,
+            "id": 0,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/grass.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(512, 512)",
+            "tiles": 256
+          },
+          {
+            "alpha": 1,
+            "id": 1,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/world_overlay.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(2624, 2176)",
+            "tiles": 1607
+          },
+          {
+            "alpha": 1,
+            "id": 2,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/terrain_brushes.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(512, 64)",
+            "tiles": 32
+          }
+        ],
+        "transform": "[X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]",
+        "z": 0
+      },
+      {
+        "cell_size": "(32, 32)",
+        "cells": 1607,
+        "filter": 1,
+        "path": "Ground Details",
+        "sources": [
+          {
+            "alpha": 0,
+            "id": 0,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/grass.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(512, 512)",
+            "tiles": 256
+          },
+          {
+            "alpha": 1,
+            "id": 1,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/world_overlay.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(2624, 2176)",
+            "tiles": 1607
+          },
+          {
+            "alpha": 1,
+            "id": 2,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/terrain_brushes.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(512, 64)",
+            "tiles": 32
+          }
+        ],
+        "transform": "[X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]",
+        "z": 0
+      }
+    ],
+    "display": {
+      "display/window/stretch/mode": "viewport",
+      "display/window/stretch/scale_mode": "integer",
+      "rendering/2d/snap/snap_2d_transforms_to_pixel": true,
+      "rendering/2d/snap/snap_2d_vertices_to_pixel": true,
+      "rendering/textures/canvas_textures/default_texture_filter": 0
+    }
+  },
+  "findings": [
+    "32px cells, zero margins and separation, padding and Nearest are correct; no atlas off-by-one slicing detected.",
+    "Ground repeats its 512px source; roads repeat 256px source. Exact tile-border contrast alone does not detect these motifs.",
+    "Hard source-material changes inside the road/plaza remain; reference sheets are RGB, not authored transparent Terrain atlases.",
+    "Garden alpha override was not serialized in inherited Art nodes: loaded scene still uses objects/garden.png.",
+    "Common-house crop includes a cut-off ground apron; protected building pixels must remain unchanged."
+  ],
+  "after": {
+    "layers": [
+      {
+        "cell_size": "(32, 32)",
+        "cells": 5576,
+        "filter": 1,
+        "path": "Ground",
+        "sources": [
+          {
+            "alpha": 0,
+            "id": 0,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surface_polish/world_ground.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(2624, 2176)",
+            "tiles": 5576
+          },
+          {
+            "alpha": 1,
+            "id": 1,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surface_polish/world_overlay.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(2624, 2176)",
+            "tiles": 1711
+          },
+          {
+            "alpha": 1,
+            "id": 2,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/terrain_brushes.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(512, 64)",
+            "tiles": 32
+          }
+        ],
+        "transform": "[X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]",
+        "z": 0
+      },
+      {
+        "cell_size": "(32, 32)",
+        "cells": 1711,
+        "filter": 1,
+        "path": "Ground Details",
+        "sources": [
+          {
+            "alpha": 0,
+            "id": 0,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surface_polish/world_ground.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(2624, 2176)",
+            "tiles": 5576
+          },
+          {
+            "alpha": 1,
+            "id": 1,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surface_polish/world_overlay.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(2624, 2176)",
+            "tiles": 1711
+          },
+          {
+            "alpha": 1,
+            "id": 2,
+            "margins": "(0, 0)",
+            "padding": true,
+            "path": "res://assets/environment/krivaya_sosna/surfaces/terrain_brushes.png",
+            "region": "(32, 32)",
+            "separation": "(0, 0)",
+            "size": "(512, 64)",
+            "tiles": 32
+          }
+        ],
+        "transform": "[X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]",
+        "z": 0
+      }
+    ],
+    "display": {
+      "display/window/stretch/mode": "viewport",
+      "display/window/stretch/scale_mode": "integer",
+      "rendering/2d/snap/snap_2d_transforms_to_pixel": true,
+      "rendering/2d/snap/snap_2d_vertices_to_pixel": true,
+      "rendering/textures/canvas_textures/default_texture_filter": 0
+    },
+    "nonterrain_nodes_checked": 2472
+  },
+  "metrics": {
+    "ground": {
+      "boundary_contrast": {
+        "32": 1.0044,
+        "128": 1.0055,
+        "256": 1.0035,
+        "512": 1.0133
+      },
+      "exact_repeat_128px": 0.0004818371158559578,
+      "exact_repeat_256px": 0.0010010153765898251,
+      "exact_repeat_512px": 0.0002615481561942959
+    },
+    "overlay": {
+      "boundary_contrast": {
+        "32": 1.0842,
+        "128": 1.0791,
+        "256": 1.0369,
+        "512": 1.0221
+      }
+    }
+  }
+}

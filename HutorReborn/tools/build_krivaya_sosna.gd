@@ -1,6 +1,7 @@
 extends SceneTree
 ## Authoring utility. Packs a fully editable native map, not a runtime generator.
 const BASE := "res://assets/environment/krivaya_sosna/"
+const SURFACES := BASE+"surface_polish/"
 const SCENES := "res://scenes/objects/krivaya_sosna/"
 const SIZE := Vector2i(2624, 2176)
 const POSITION_FACTOR := Vector2(2624.0/1856.0, 2176.0/1536.0)
@@ -25,12 +26,42 @@ func _initialize() -> void:
     rng.seed = 20261106
     assets = JSON.parse_string(FileAccess.get_file_as_string(BASE+"extraction.json"))
     layout=JSON.parse_string(FileAccess.get_file_as_string(BASE+"expanded_layout.json"))
-    surfaces=JSON.parse_string(FileAccess.get_file_as_string(BASE+"surfaces/manifest.json"))
+    surfaces=JSON.parse_string(FileAccess.get_file_as_string(SURFACES+"manifest.json"))
+    if "--surfaces-only" in OS.get_cmdline_user_args():
+        update_surfaces_only()
+        quit()
+        return
     if "--rebuild-objects" in OS.get_cmdline_user_args():
         object_scenes()
     build()
     print("BUILT Krivaya Sosna: ",count," original-asset objects; ",SIZE)
     quit()
+
+func update_surfaces_only() -> void:
+    # Change only TileMap data and its TileSet reference, retaining every other
+    # byte of the scene, including object transforms, IDs and atmosphere.
+    world=Node2D.new()
+    terrain()
+    var temporary:=PackedScene.new()
+    assert(temporary.pack(world)==OK)
+    var temp_path:="user://surface_layers.tscn"
+    assert(ResourceSaver.save(temporary,temp_path)==OK)
+    var generated:=FileAccess.get_file_as_string(temp_path)
+    var scene_path:="res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+    var scene:=FileAccess.get_file_as_string(scene_path)
+    var maps:=RegEx.new()
+    assert(maps.compile("tile_map_data = PackedByteArray\\([^\\n]+\\)")==OK)
+    var old_maps:=maps.search_all(scene)
+    var new_maps:=maps.search_all(generated)
+    assert(old_maps.size()==2 and new_maps.size()==2)
+    for i in range(2):
+        scene=scene.replace(old_maps[i].get_string(),new_maps[i].get_string())
+    scene=scene.replace(BASE+"surfaces/expanded_surfaces.tres",SURFACES+"terrain.tres")
+    var file:=FileAccess.open(scene_path,FileAccess.WRITE)
+    file.store_string(scene)
+    file.close()
+    print("UPDATED: two surface layers only; all other scene data preserved")
+    world.free()
 
 func own(node: Node, parent: Node) -> void:
     parent.add_child(node)
@@ -80,7 +111,7 @@ func object_scenes() -> void:
         base.name=key.to_pascal_case()
         var sprite := Sprite2D.new()
         sprite.name="Art"
-        sprite.texture=load(BASE+"objects/"+key+".png")
+        sprite.texture=load(SURFACES+key+"_ground.png" if key in ["common_house","garden"] else BASE+"objects/"+key+".png")
         sprite.centered=false
         sprite.offset=-Vector2(info.pivot[0],info.pivot[1])
         sprite.scale=Vector2.ONE*float(info.scale)
@@ -127,8 +158,6 @@ func object(key: String, pos: Vector2, parent: Node2D, tag: String = "", native_
     item.name=tag if tag!="" else key.to_pascal_case()+str(count)
     item.position=world_pos(pos) if not native_position and parent in [structures,nature,props,foreground,ground_props] else pos
     own(item,parent)
-    if key=="garden":
-        item.get_node("Art").texture=load(BASE+"surfaces/garden_blended.png")
     if item.has_node("Solid/Footprint"):
         var collision: CollisionShape2D=item.get_node("Solid/Footprint")
         var shape: RectangleShape2D=collision.shape
@@ -204,13 +233,13 @@ func terrain() -> void:
         tiles.set_terrain_name(index,0,"Тропы" if index==0 else "Влажная земля")
         tiles.set_terrain_color(index,0,Color("997445") if index==0 else Color("57412d"))
     var grass:=TileSetAtlasSource.new()
-    grass.texture=load(BASE+"surfaces/grass.png")
+    grass.texture=load(SURFACES+"world_ground.png")
     grass.texture_region_size=Vector2i(32,32)
-    for y in range(16):
-        for x in range(16):grass.create_tile(Vector2i(x,y))
+    for y in range(SIZE.y/32):
+        for x in range(SIZE.x/32):grass.create_tile(Vector2i(x,y))
     tiles.add_source(grass,0)
     var overlay:=TileSetAtlasSource.new()
-    overlay.texture=load(BASE+"surfaces/world_overlay.png")
+    overlay.texture=load(SURFACES+"world_overlay.png")
     overlay.texture_region_size=Vector2i(32,32)
     for point in surfaces.active_cells:
         var y:int=point[0]
@@ -243,8 +272,8 @@ func terrain() -> void:
             var bits:Array=[[1,TileSet.CELL_NEIGHBOR_TOP_SIDE],[2,TileSet.CELL_NEIGHBOR_RIGHT_SIDE],[4,TileSet.CELL_NEIGHBOR_BOTTOM_SIDE],[8,TileSet.CELL_NEIGHBOR_LEFT_SIDE]]
             for pair in bits:data.set_terrain_peering_bit(pair[1],0 if mask&pair[0] else -1)
     tiles.add_source(brushes,2)
-    assert(ResourceSaver.save(tiles,BASE+"surfaces/expanded_surfaces.tres",ResourceSaver.FLAG_CHANGE_PATH)==OK)
-    tiles.take_over_path(BASE+"surfaces/expanded_surfaces.tres")
+    assert(ResourceSaver.save(tiles,SURFACES+"terrain.tres",ResourceSaver.FLAG_CHANGE_PATH)==OK)
+    tiles.take_over_path(SURFACES+"terrain.tres")
     var ground:=TileMapLayer.new()
     ground.name="Ground"
     ground.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
@@ -257,7 +286,7 @@ func terrain() -> void:
     own(detail,world)
     for y in range(SIZE.y/32):
         for x in range(SIZE.x/32):
-            ground.set_cell(Vector2i(x,y),0,Vector2i(x%16,y%16))
+            ground.set_cell(Vector2i(x,y),0,Vector2i(x,y))
     for point in surfaces.active_cells:
         var coord:=Vector2i(point[1],point[0])
         detail.set_cell(coord,1,coord)

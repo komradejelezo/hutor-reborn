@@ -1,6 +1,6 @@
 [gd_scene format=3]
 
-[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/garden.png" id="1_tkm1n"]
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/surface_polish/garden_ground.png" id="1_tkm1n"]
 
 [node name="Garden" type="Node2D" unique_id=1577208462]
 

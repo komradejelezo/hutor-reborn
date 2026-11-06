@@ -200,7 +200,11 @@ func run() -> void:
             if not space.intersect_shape(query,1).is_empty():blocked_plaza+=1
     check(blocked_plaza==0,"central square has a clear open interior")
     var tiles:TileSet=world.get_node("Ground").tile_set
-    check(tiles.resource_path=="res://assets/environment/krivaya_sosna/surfaces/expanded_surfaces.tres" and tiles==world.get_node("Ground Details").tile_set,"both ground layers share the external editable TileSet")
+    check(tiles.resource_path=="res://assets/environment/krivaya_sosna/surface_polish/terrain.tres" and tiles==world.get_node("Ground Details").tile_set,"both ground layers share the external editable TileSet")
+    var native_cells:=true
+    for position in world.get_node("Ground").get_used_cells():
+        native_cells=native_cells and world.get_node("Ground").get_cell_atlas_coords(position)==position
+    check(native_cells,"ground uses nonperiodic native atlas cells without stretching")
     check(tiles.get_terrain_sets_count()==2,"native road and mud Terrain Sets")
     var painted:=TileMapLayer.new()
     painted.tile_set=tiles
