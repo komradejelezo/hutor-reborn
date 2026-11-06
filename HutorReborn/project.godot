@@ -2,8 +2,8 @@
 config_version=5
 [application]
 config/name="Hutor Reborn"
-config/description="Хутор: Возрождение — Окраина Хутора, этап 1"
-run/main_scene="res://scenes/world/outskirts.tscn"
+config/description="Хутор: Возрождение — Кривая Сосна, этап 2"
+run/main_scene="res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.png"
 [display]

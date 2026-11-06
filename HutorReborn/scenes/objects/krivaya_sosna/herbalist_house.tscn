@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/herbalist_house.png" id="1_c5r8k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h8vg0"]
+size = Vector2(242, 85)
+
+[node name="HerbalistHouse" type="Node2D" unique_id=220283374]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=1113597095]
+texture_filter = 1
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("1_c5r8k")
+centered = false
+offset = Vector2(-152, -203)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1149124381]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=1431647437]
+position = Vector2(0, -44)
+shape = SubResource("RectangleShape2D_h8vg0")

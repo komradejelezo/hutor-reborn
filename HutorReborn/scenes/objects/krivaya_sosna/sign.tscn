@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/sign.png" id="1_5ieml"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jvvr0"]
+size = Vector2(36, 14)
+
+[node name="Sign" type="Node2D" unique_id=1237733317]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=1907690827]
+texture_filter = 1
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_5ieml")
+centered = false
+offset = Vector2(-42.5, -72)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=176261540]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=169690012]
+position = Vector2(0, -6)
+shape = SubResource("RectangleShape2D_jvvr0")

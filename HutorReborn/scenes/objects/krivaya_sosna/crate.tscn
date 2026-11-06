@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/crate.png" id="1_n6gvt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7j86u"]
+size = Vector2(27, 19)
+
+[node name="Crate" type="Node2D" unique_id=824770610]
+
+[node name="Art" type="Sprite2D" parent="." unique_id=1761841091]
+texture_filter = 1
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_n6gvt")
+centered = false
+offset = Vector2(-26.5, -49)
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1025453678]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=960442266]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_7j86u")
