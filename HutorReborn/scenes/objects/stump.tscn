@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/stump.png" id="1_wi2ep"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_53udi"]
+size = Vector2(25, 15)
+
+[node name="Stump" type="Node2D" unique_id=551198233]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=985076689]
+position = Vector2(0, -16)
+texture = ExtResource("1_wi2ep")
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=318113512]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=132434179]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_53udi")

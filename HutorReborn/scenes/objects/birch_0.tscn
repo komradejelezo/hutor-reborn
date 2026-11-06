@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" path="res://shaders/vegetation.gdshader" id="1_hqquv"]
+[ext_resource type="Texture2D" path="res://assets/environment/birch_0.png" id="2_byb4h"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yju4m"]
+shader = ExtResource("1_hqquv")
+shader_parameter/strength = 1.0
+shader_parameter/speed = 0.9
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cd0ug"]
+radius = 8.0
+
+[node name="Tree" type="Node2D" unique_id=1447552187]
+
+[node name="Crown" type="Sprite2D" parent="." unique_id=451040062 groups=["wind_plants"]]
+material = SubResource("ShaderMaterial_yju4m")
+position = Vector2(0, -74)
+texture = ExtResource("2_byb4h")
+
+[node name="Trunk" type="StaticBody2D" parent="." unique_id=252600151]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Trunk" unique_id=214007973]
+position = Vector2(0, -9)
+shape = SubResource("CircleShape2D_cd0ug")

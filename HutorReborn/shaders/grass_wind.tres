@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/vegetation.gdshader" id="1_0opag"]
+
+[resource]
+shader = ExtResource("1_0opag")
+shader_parameter/strength = 1.0
+shader_parameter/speed = null
