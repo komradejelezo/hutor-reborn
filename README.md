@@ -10,3 +10,5 @@ Stage 3.1 refines the existing surfaces without changing the layout or mechanics
 Stage 3.2 improves the existing forest, the landmark's framing and all five courtyards while retaining Stage 3.1 terrain and gameplay. Resources, screenshots, physical/depth checks and performance samples: [STAGE32_ENVIRONMENT.md](HutorReborn/docs/STAGE32_ENVIRONMENT.md).
 
 Stage 3.3 polishes the existing evening lights and world-space mist, preserves the approved environment and gameplay, and verifies character readability, routes and camera behavior. Screenshots, checks and measured performance: [STAGE33_LIGHTING.md](HutorReborn/docs/STAGE33_LIGHTING.md).
+
+Stage 4.1 adds reusable data-driven conversations with portraits, choices, typewriter text and a custom dark fantasy UI. F5 retains the existing game; open `HutorReborn/scenes/demo/dialogue_demo.tscn` and press F6 for the optional demonstration. Architecture, authoring guide and validation: [STAGE41_DIALOGUE.md](HutorReborn/docs/STAGE41_DIALOGUE.md).

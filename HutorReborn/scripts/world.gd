@@ -35,6 +35,11 @@ func _unhandled_input(event: InputEvent) -> void:
         hud.show_effects(atmosphere.effects_enabled)
 
 func _show_description(payload: Dictionary) -> void:
+    if get_node("/root/DialogueManager").is_active():
+        return
+    if payload.has("dialogue_path"):
+        get_node("/root/DialogueManager").start_file(str(payload.dialogue_path), player, hud)
+        return
     player.controls_locked = true
     hud.show_description(payload)
 
