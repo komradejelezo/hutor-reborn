@@ -1,0 +1,918 @@
+Godot 4.6.3.stable.official / Compatibility / Mesa llvmpipe
+Validation: 2026-11-06
+214 Godot assertions passed (88 + 82 + 44); source-pixel checks passed.
+PASS: archived map equals the prior scene with only explicit original map_size and spacing added.
+
+=== Native surfaces preparation ===
+QUILTED grass 512
+QUILTED road 256
+QUILTED soil 256
+QUILTED worn 256
+QUILTED moss 256
+Prepared expanded native surfaces 2624 2176 active cells 1607
+
+=== Original RGB, alpha, periodic boundaries and preservation ===
+PASS: 198 existing resource/controller files byte-identical
+PASS: grass: exact source pixels, periodic wrap, boundary contrast {32: 1.043, 128: 1.04}
+PASS: road: exact source pixels, periodic wrap, boundary contrast {32: 0.951, 128: 0.818}
+PASS: soil: exact source pixels, periodic wrap, boundary contrast {32: 0.966, 128: 0.99}
+PASS: worn: exact source pixels, periodic wrap, boundary contrast {32: 0.916, 128: 0.836}
+PASS: moss: exact source pixels, periodic wrap, boundary contrast {32: 0.974, 128: 0.976}
+PASS: 2624x2176 continuous overlay; 1607 native 32px cells, binary alpha
+PASS: garden keeps original RGB/proportions and removes rectangular alpha boundary
+PASS: 32 native terrain brushes retain provenanced source RGB and seamless borders
+PASS: 72 original images; 37 object crops; 96 terrain cells; 128 road masks; 140 preserved Hans/legacy files.
+
+=== Expanded scene authoring / external shared TileSet ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+BUILT Krivaya Sosna: 703 original-asset objects; (2624, 2176)
+
+=== Expanded map / real physics routes ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: all houses, trees and props retain native scales
+PASS: map area approximately doubled
+PASS: native editable ground layers
+PASS: complete expanded ground
+PASS: shared actor Y-sort groups
+PASS: foreground arch and lighting groups
+PASS: two upper houses: elder left, miller right
+PASS: common house in the middle row
+PASS: two lower houses: carpenter left, herbalist right
+PASS: landmark pine left and well in lower centre
+PASS: main entrance at the bottom
+PASS: existing Hans movement and original animation resource
+PASS: map camera bounds and smooth following
+PASS: five modest chimney smoke emitters
+PASS: five houses, pine, well and open gate inspectable
+PASS: spawn is outside all solid footprints
+PASS: reachable from spawn: Дом старшего
+PASS: collision-free swept route: Дом старшего
+PASS: physical route completed: Дом старшего
+PASS: interaction sensor focuses after route: Дом старшего
+PASS: E description opens: Дом старшего
+PASS: E description closes: Дом старшего
+PASS: reachable from spawn: Дом мельника
+PASS: collision-free swept route: Дом мельника
+PASS: physical route completed: Дом мельника
+PASS: interaction sensor focuses after route: Дом мельника
+PASS: E description opens: Дом мельника
+PASS: E description closes: Дом мельника
+PASS: reachable from spawn: Общий дом
+PASS: collision-free swept route: Общий дом
+PASS: physical route completed: Общий дом
+PASS: interaction sensor focuses after route: Общий дом
+PASS: E description opens: Общий дом
+PASS: E description closes: Общий дом
+PASS: reachable from spawn: Дом плотника
+PASS: collision-free swept route: Дом плотника
+PASS: physical route completed: Дом плотника
+PASS: interaction sensor focuses after route: Дом плотника
+PASS: E description opens: Дом плотника
+PASS: E description closes: Дом плотника
+PASS: reachable from spawn: Дом знахарки
+PASS: collision-free swept route: Дом знахарки
+PASS: physical route completed: Дом знахарки
+PASS: interaction sensor focuses after route: Дом знахарки
+PASS: E description opens: Дом знахарки
+PASS: E description closes: Дом знахарки
+PASS: reachable from spawn: Ворота хутора
+PASS: collision-free swept route: Ворота хутора
+PASS: physical route completed: Ворота хутора
+PASS: interaction sensor focuses after route: Ворота хутора
+PASS: E description opens: Ворота хутора
+PASS: E description closes: Ворота хутора
+PASS: reachable from spawn: Кривая Сосна
+PASS: collision-free swept route: Кривая Сосна
+PASS: physical route completed: Кривая Сосна
+PASS: interaction sensor focuses after route: Кривая Сосна
+PASS: E description opens: Кривая Сосна
+PASS: E description closes: Кривая Сосна
+PASS: reachable from spawn: Старый колодец
+PASS: collision-free swept route: Старый колодец
+PASS: physical route completed: Старый колодец
+PASS: interaction sensor focuses after route: Старый колодец
+PASS: E description opens: Старый колодец
+PASS: E description closes: Старый колодец
+PASS: Hans can enter through the open main gate
+PASS: collision blocks entry into elder
+PASS: collision blocks entry into well
+PASS: crooked pine trunk blocks movement
+PASS: vertical perimeter fence blocks crossing
+PASS: horizontal yard fence blocks crossing
+PASS: left movement preserves mirrored Hans
+PASS: F3 atmosphere components disable
+PASS: pause preserved
+PASS: resume preserved
+PASS: camera remains in map at (8.0, 8.0)
+PASS: camera remains in map at (2616.0, 8.0)
+PASS: camera remains in map at (8.0, 2168.0)
+PASS: camera remains in map at (2616.0, 2168.0)
+ROAD HITS: []
+PASS: all road centrelines free of hidden solid obstacles
+PASS: forest exploration reachable: NorthGlade
+PASS: forest exploration reachable: EastGlade
+PASS: forest exploration reachable: WestGlade
+PASS: forest exploration reachable: SouthGlade
+PASS: central square has a clear open interior
+PASS: both ground layers share the external editable TileSet
+PASS: native road and mud Terrain Sets
+PASS: native Terrain painting selects reusable brushes: 0
+PASS: native Terrain painting selects reusable brushes: 1
+ROUTES: [{"path_points":74,"title":"Дом старшего"},{"path_points":67,"title":"Дом мельника"},{"path_points":23,"title":"Общий дом"},{"path_points":62,"title":"Дом плотника"},{"path_points":50,"title":"Дом знахарки"},{"path_points":32,"title":"Ворота хутора"},{"path_points":85,"title":"Кривая Сосна"},{"path_points":15,"title":"Старый колодец"}]
+RESULT: 88 passed, 0 failed
+
+=== Original Hans ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: supplied frame count: walk_up
+PASS: native frame canvas: walk_up 0
+PASS: native frame canvas: walk_up 1
+PASS: native frame canvas: walk_up 2
+PASS: native frame canvas: walk_up 3
+PASS: native frame canvas: walk_up 4
+PASS: native frame canvas: walk_up 5
+PASS: supplied frame count: walk_down
+PASS: native frame canvas: walk_down 0
+PASS: native frame canvas: walk_down 1
+PASS: native frame canvas: walk_down 2
+PASS: native frame canvas: walk_down 3
+PASS: native frame canvas: walk_down 4
+PASS: native frame canvas: walk_down 5
+PASS: supplied frame count: walk_right
+PASS: native frame canvas: walk_right 0
+PASS: native frame canvas: walk_right 1
+PASS: native frame canvas: walk_right 2
+PASS: native frame canvas: walk_right 3
+PASS: native frame canvas: walk_right 4
+PASS: native frame canvas: walk_right 5
+PASS: native frame canvas: walk_right 6
+PASS: native frame canvas: walk_right 7
+PASS: supplied frame count: walk_left
+PASS: native frame canvas: walk_left 0
+PASS: native frame canvas: walk_left 1
+PASS: native frame canvas: walk_left 2
+PASS: native frame canvas: walk_left 3
+PASS: native frame canvas: walk_left 4
+PASS: native frame canvas: walk_left 5
+PASS: native frame canvas: walk_left 6
+PASS: native frame canvas: walk_left 7
+PASS: supplied frame count: idle_up
+PASS: native frame canvas: idle_up 0
+PASS: supplied frame count: idle_down
+PASS: native frame canvas: idle_down 0
+PASS: supplied frame count: idle_right
+PASS: native frame canvas: idle_right 0
+PASS: native frame canvas: idle_right 1
+PASS: native frame canvas: idle_right 2
+PASS: supplied frame count: idle_left
+PASS: native frame canvas: idle_left 0
+PASS: native frame canvas: idle_left 1
+PASS: native frame canvas: idle_left 2
+PASS: left reuses original right textures: walk_
+PASS: left reuses original right textures: idle_
+PASS: up idle uses a static original frame
+PASS: down idle uses a static original frame
+PASS: explicit nearest filtering
+PASS: native foot pivot maps to the body origin
+PASS: walking direction: left
+PASS: walking mirror: left
+PASS: uniform walking scale: left
+PASS: walking visits every supplied frame: left
+PASS: idle keeps facing: left
+PASS: idle mirror: left
+PASS: uniform idle scale: left
+PASS: idle visits all three original frames: left
+PASS: walking direction: right
+PASS: walking mirror: right
+PASS: uniform walking scale: right
+PASS: walking visits every supplied frame: right
+PASS: idle keeps facing: right
+PASS: idle mirror: right
+PASS: uniform idle scale: right
+PASS: idle visits all three original frames: right
+PASS: walking direction: up
+PASS: walking mirror: up
+PASS: uniform walking scale: up
+PASS: walking visits every supplied frame: up
+PASS: idle keeps facing: up
+PASS: idle mirror: up
+PASS: uniform idle scale: up
+PASS: walking direction: down
+PASS: walking mirror: down
+PASS: uniform walking scale: down
+PASS: walking visits every supplied frame: down
+PASS: idle keeps facing: down
+PASS: idle mirror: down
+PASS: uniform idle scale: down
+PASS: movement speed and collision layers preserved
+PASS: original collision shape and anchor preserved
+RESULT: 82 passed, 0 failed
+
+=== Original stage 1 mechanics ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: three editable TileMapLayer nodes
+PASS: 1536 × 1152 terrain populated
+PASS: world and player collision layers
+PASS: four idle and four walking animations
+PASS: original walking frames: up
+PASS: original walking frames: down
+PASS: original walking frames: left
+PASS: original walking frames: right
+PASS: forward movement
+PASS: upward walking animation
+PASS: last facing direction retained at rest
+PASS: normalized diagonal movement
+PASS: house collision blocks passage at the doorway
+PASS: door interaction reachable outside collision
+PASS: E opens description and locks walking
+PASS: second E closes without immediately reopening
+PASS: reachable interaction: Старый колодец
+PASS: reachable interaction: Хозяйственный сарай
+PASS: reachable interaction: Тлеющий костёр
+PASS: reachable interaction: Дорога к хутору
+PASS: fence blocks crossing
+PASS: map boundary collision
+PASS: smooth camera and map limits
+PASS: camera viewport stays in bounds at (10.0, 10.0)
+PASS: camera viewport stays in bounds at (1526.0, 10.0)
+PASS: camera viewport stays in bounds at (10.0, 1142.0)
+PASS: camera viewport stays in bounds at (1526.0, 1142.0)
+PASS: solid collision: shed
+PASS: solid collision: well
+PASS: solid collision: pine_0
+PASS: solid collision: birch_0
+PASS: solid collision: rock
+PASS: solid collision: stump
+PASS: solid collision: barrel
+PASS: solid collision: logs
+PASS: solid collision: sign
+PASS: solid collision: lantern
+PASS: solid collision: fence_v
+PASS: five interaction components
+PASS: smoke, embers and atmospheric motes
+PASS: atmosphere toggle disables fog
+PASS: atmosphere toggle restores fog
+PASS: Esc pauses simulation
+PASS: Esc resumes simulation
+RESULT: 44 passed, 0 failed
+
+=== Fresh project import without .godot ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] update_scripts_classes | Started Registering global classes... (14 steps)
+[   0% ] update_scripts_classes | HutorInteractable
+[   6% ] update_scripts_classes |
+[  13% ] update_scripts_classes |
+[  20% ] update_scripts_classes |
+[  26% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[  40% ] update_scripts_classes |
+[  46% ] update_scripts_classes |
+[  53% ] update_scripts_classes |
+[  60% ] update_scripts_classes |
+[  66% ] update_scripts_classes |
+[  73% ] update_scripts_classes |
+[  80% ] update_scripts_classes |
+[  86% ] update_scripts_classes |
+[ DONE ] update_scripts_classes
+
+[   0% ] _update_scan_actions | Started Scanning actions... (172 steps)
+[   0% ] _update_scan_actions | idle_right_00.png
+[   0% ] _update_scan_actions | idle_right_01.png
+[   1% ] _update_scan_actions | idle_right_02.png
+[   1% ] _update_scan_actions | walk_down_00.png
+[   2% ] _update_scan_actions | walk_down_01.png
+[   2% ] _update_scan_actions | walk_down_02.png
+[   3% ] _update_scan_actions | walk_down_03.png
+[   4% ] _update_scan_actions | walk_down_04.png
+[   4% ] _update_scan_actions | walk_down_05.png
+[   5% ] _update_scan_actions | walk_right_00.png
+[   5% ] _update_scan_actions | walk_right_01.png
+[   6% ] _update_scan_actions | walk_right_02.png
+[   6% ] _update_scan_actions | walk_right_03.png
+[   7% ] _update_scan_actions | walk_right_04.png
+[   8% ] _update_scan_actions | walk_right_05.png
+[   8% ] _update_scan_actions | walk_right_06.png
+[   9% ] _update_scan_actions | walk_right_07.png
+[   9% ] _update_scan_actions | walk_up_00.png
+[  10% ] _update_scan_actions | walk_up_01.png
+[  10% ] _update_scan_actions | walk_up_02.png
+[  11% ] _update_scan_actions | walk_up_03.png
+[  12% ] _update_scan_actions | walk_up_04.png
+[  12% ] _update_scan_actions | walk_up_05.png
+[  13% ] _update_scan_actions | idle.png
+[  13% ] _update_scan_actions | вверх.png
+[  14% ] _update_scan_actions | вниз.png
+[  15% ] _update_scan_actions | ходьба.png
+[  15% ] _update_scan_actions | hans.png
+[  16% ] _update_scan_actions | barrel.png
+[  16% ] _update_scan_actions | bench.png
+[  17% ] _update_scan_actions | carpenter_house.png
+[  17% ] _update_scan_actions | cart.png
+[  18% ] _update_scan_actions | common_house.png
+[  19% ] _update_scan_actions | crate.png
+[  19% ] _update_scan_actions | crooked_pine.png
+[  20% ] _update_scan_actions | elder_house.png
+[  20% ] _update_scan_actions | fence_broken.png
+[  21% ] _update_scan_actions | fence_h.png
+[  21% ] _update_scan_actions | fence_v.png
+[  22% ] _update_scan_actions | flowers.png
+[  23% ] _update_scan_actions | garden.png
+[  23% ] _update_scan_actions | gate_beam.png
+[  24% ] _update_scan_actions | gate_leaf.png
+[  24% ] _update_scan_actions | gate_post.png
+[  25% ] _update_scan_actions | grass.png
+[  26% ] _update_scan_actions | hanging_lantern.png
+[  26% ] _update_scan_actions | herbalist_house.png
+[  27% ] _update_scan_actions | lantern.png
+[  27% ] _update_scan_actions | logs.png
+[  28% ] _update_scan_actions | miller_house.png
+[  28% ] _update_scan_actions | mixed_tree.png
+[  29% ] _update_scan_actions | pine_0.png
+[  30% ] _update_scan_actions | pine_1.png
+[  30% ] _update_scan_actions | pine_2.png
+[  31% ] _update_scan_actions | pine_3.png
+[  31% ] _update_scan_actions | pumpkins.png
+[  32% ] _update_scan_actions | rock.png
+[  32% ] _update_scan_actions | scarecrow.png
+[  33% ] _update_scan_actions | shrub.png
+[  34% ] _update_scan_actions | sign.png
+[  34% ] _update_scan_actions | stump.png
+[  35% ] _update_scan_actions | vegetable_box.png
+[  35% ] _update_scan_actions | warm_window.png
+[  36% ] _update_scan_actions | well.png
+[  36% ] _update_scan_actions | wood_store.png
+[  37% ] _update_scan_actions | заборы вертикаль 1.png
+[  38% ] _update_scan_actions | заборы вертикаль 2.png
+[  38% ] _update_scan_actions | заборы горизонт.png
+[  39% ] _update_scan_actions | карта.png
+[  39% ] _update_scan_actions | кривая сосна.png
+[  40% ] _update_scan_actions | огород 1.png
+[  41% ] _update_scan_actions | огород 2.png
+[  41% ] _update_scan_actions | пристройки.png
+[  42% ] _update_scan_actions | Пустой дом.png
+[  42% ] _update_scan_actions | Тайл декор.png
+[  43% ] _update_scan_actions | Тайл дома.png
+[  43% ] _update_scan_actions | Тайл дороги 2.png
+[  44% ] _update_scan_actions | Тайл дороги.png
+[  45% ] _update_scan_actions | Тайл земля, база.png
+[  45% ] _update_scan_actions | Тайл избы.png
+[  46% ] _update_scan_actions | Тайл природа.png
+[  46% ] _update_scan_actions | Тайлы болото.png
+[  47% ] _update_scan_actions | Тайлы дворовые животные.png
+[  47% ] _update_scan_actions | Тайлы животные и трава.png
+[  48% ] _update_scan_actions | Тайлы лесозаготовка.png
+[  49% ] _update_scan_actions | Тайлы падальщики 1.png
+[  49% ] _update_scan_actions | Тайлы падальщики 2.png
+[  50% ] _update_scan_actions | Тайлы поваленные деревья.png
+[  50% ] _update_scan_actions | трактир.png
+[  51% ] _update_scan_actions | garden_blended.png
+[  52% ] _update_scan_actions | grass.png
+[  52% ] _update_scan_actions | moss.png
+[  53% ] _update_scan_actions | road.png
+[  53% ] _update_scan_actions | soil.png
+[  54% ] _update_scan_actions | terrain_brushes.png
+[  54% ] _update_scan_actions | world_overlay.png
+[  55% ] _update_scan_actions | worn.png
+[  56% ] _update_scan_actions | path_edges.png
+[  56% ] _update_scan_actions | terrain.png
+[  57% ] _update_scan_actions | barrel.png
+[  57% ] _update_scan_actions | birch_0.png
+[  58% ] _update_scan_actions | birch_1.png
+[  58% ] _update_scan_actions | crop.png
+[  59% ] _update_scan_actions | fence_h.png
+[  60% ] _update_scan_actions | fence_v.png
+[  60% ] _update_scan_actions | fire.png
+[  61% ] _update_scan_actions | grass.png
+[  61% ] _update_scan_actions | izba.png
+[  62% ] _update_scan_actions | lantern.png
+[  63% ] _update_scan_actions | light.png
+[  63% ] _update_scan_actions | logs.png
+[  64% ] _update_scan_actions | mushrooms.png
+[  64% ] _update_scan_actions | pine_0.png
+[  65% ] _update_scan_actions | pine_1.png
+[  65% ] _update_scan_actions | pine_2.png
+[  66% ] _update_scan_actions | puddle.png
+[  67% ] _update_scan_actions | reeds.png
+[  67% ] _update_scan_actions | rock.png
+[  68% ] _update_scan_actions | shed.png
+[  68% ] _update_scan_actions | sign.png
+[  69% ] _update_scan_actions | smoke.png
+[  69% ] _update_scan_actions | stump.png
+[  70% ] _update_scan_actions | well.png
+[  71% ] _update_scan_actions | DejaVuSans.ttf
+[  71% ] _update_scan_actions | DejaVuSerif.ttf
+[  72% ] _update_scan_actions | Жена лесоруба.png
+[  72% ] _update_scan_actions | Жена трактирщика.png
+[  73% ] _update_scan_actions | Лесоруб.png
+[  73% ] _update_scan_actions | Мальчик.png
+[  74% ] _update_scan_actions | Путник.png
+[  75% ] _update_scan_actions | Старик.png
+[  75% ] _update_scan_actions | Трактирщик.png
+[  76% ] _update_scan_actions | Sprite-0001.png
+[  76% ] _update_scan_actions | Sprite-0004.png
+[  77% ] _update_scan_actions | Sprite-0008.png
+[  78% ] _update_scan_actions | Sprite-0009.png
+[  78% ] _update_scan_actions | Sprite-0010.png
+[  79% ] _update_scan_actions | Sprite-0005.png
+[  79% ] _update_scan_actions | Sprite-0006.png
+[  80% ] _update_scan_actions | Sprite-0011.png
+[  80% ] _update_scan_actions | Sprite-00101.png
+[  81% ] _update_scan_actions | Sprite-ар0.png
+[  82% ] _update_scan_actions | Sprite-0001.png
+[  82% ] _update_scan_actions | Sprite-0002.png
+[  83% ] _update_scan_actions | Sprite-0003.png
+[  83% ] _update_scan_actions | Sprite-0004.png
+[  84% ] _update_scan_actions | Sprite-0010.png
+[  84% ] _update_scan_actions | Sprite-0013.png
+[  85% ] _update_scan_actions | Sprite-0009.png
+[  86% ] _update_scan_actions | Sprite-0010.png
+[  86% ] _update_scan_actions | Sprite-0002.png
+[  87% ] _update_scan_actions | Sprite-0005.png
+[  87% ] _update_scan_actions | Sprite-0006.png
+[  88% ] _update_scan_actions | Sprite-0014.png
+[  89% ] _update_scan_actions | Sprite-0015.png
+[  89% ] _update_scan_actions | Sprite-0016.png
+[  90% ] _update_scan_actions | Sprite-001.png
+[  90% ] _update_scan_actions | Sprite-0004.png
+[  91% ] _update_scan_actions | Sprite-0005.png
+[  91% ] _update_scan_actions | Sprite-0007.png
+[  92% ] _update_scan_actions | Sprite-0012.png
+[  93% ] _update_scan_actions | Sprite-0013.png
+[  93% ] _update_scan_actions | Sprite-0001.png
+[  94% ] _update_scan_actions | Sprite-0002.png
+[  94% ] _update_scan_actions | Sprite-0007.png
+[  95% ] _update_scan_actions | Sprite-0010.png
+[  95% ] _update_scan_actions | Sprite-0014.png
+[  96% ] _update_scan_actions | Sprite-0007.png
+[  97% ] _update_scan_actions | Sprite-0008.png
+[  97% ] _update_scan_actions | scatter.png
+[  98% ] _update_scan_actions | terrain.png
+[  98% ] _update_scan_actions | icon.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (172 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Preparing files to reimport...
+[   1% ] reimport | Preparing files to reimport...
+[   1% ] reimport | Preparing files to reimport...
+[   2% ] reimport | Preparing files to reimport...
+[   2% ] reimport | Preparing files to reimport...
+[   3% ] reimport | Preparing files to reimport...
+[   4% ] reimport | Preparing files to reimport...
+[   4% ] reimport | Preparing files to reimport...
+[   5% ] reimport | Preparing files to reimport...
+[   5% ] reimport | Preparing files to reimport...
+[   6% ] reimport | Preparing files to reimport...
+[   6% ] reimport | Preparing files to reimport...
+[   7% ] reimport | Preparing files to reimport...
+[   8% ] reimport | Preparing files to reimport...
+[   8% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[   9% ] reimport | Preparing files to reimport...
+[  10% ] reimport | Preparing files to reimport...
+[  10% ] reimport | Preparing files to reimport...
+[  11% ] reimport | Preparing files to reimport...
+[  12% ] reimport | Preparing files to reimport...
+[  12% ] reimport | Preparing files to reimport...
+[  13% ] reimport | Preparing files to reimport...
+[  13% ] reimport | Preparing files to reimport...
+[  14% ] reimport | Preparing files to reimport...
+[  15% ] reimport | Preparing files to reimport...
+[  15% ] reimport | Preparing files to reimport...
+[  16% ] reimport | Preparing files to reimport...
+[  16% ] reimport | Preparing files to reimport...
+[  17% ] reimport | Preparing files to reimport...
+[  17% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  19% ] reimport | Preparing files to reimport...
+[  19% ] reimport | Preparing files to reimport...
+[  20% ] reimport | Preparing files to reimport...
+[  20% ] reimport | Preparing files to reimport...
+[  21% ] reimport | Preparing files to reimport...
+[  21% ] reimport | Preparing files to reimport...
+[  22% ] reimport | Preparing files to reimport...
+[  23% ] reimport | Preparing files to reimport...
+[  23% ] reimport | Preparing files to reimport...
+[  24% ] reimport | Preparing files to reimport...
+[  24% ] reimport | Preparing files to reimport...
+[  25% ] reimport | Preparing files to reimport...
+[  26% ] reimport | Preparing files to reimport...
+[  26% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  28% ] reimport | Preparing files to reimport...
+[  28% ] reimport | Preparing files to reimport...
+[  29% ] reimport | Preparing files to reimport...
+[  30% ] reimport | Preparing files to reimport...
+[  30% ] reimport | Preparing files to reimport...
+[  31% ] reimport | Preparing files to reimport...
+[  31% ] reimport | Preparing files to reimport...
+[  32% ] reimport | Preparing files to reimport...
+[  32% ] reimport | Preparing files to reimport...
+[  33% ] reimport | Preparing files to reimport...
+[  34% ] reimport | Preparing files to reimport...
+[  34% ] reimport | Preparing files to reimport...
+[  35% ] reimport | Preparing files to reimport...
+[  35% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  37% ] reimport | Preparing files to reimport...
+[  38% ] reimport | Preparing files to reimport...
+[  38% ] reimport | Preparing files to reimport...
+[  39% ] reimport | Preparing files to reimport...
+[  39% ] reimport | Preparing files to reimport...
+[  40% ] reimport | Preparing files to reimport...
+[  41% ] reimport | Preparing files to reimport...
+[  41% ] reimport | Preparing files to reimport...
+[  42% ] reimport | Preparing files to reimport...
+[  42% ] reimport | Preparing files to reimport...
+[  43% ] reimport | Preparing files to reimport...
+[  43% ] reimport | Preparing files to reimport...
+[  44% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  46% ] reimport | Preparing files to reimport...
+[  46% ] reimport | Preparing files to reimport...
+[  47% ] reimport | Preparing files to reimport...
+[  47% ] reimport | Preparing files to reimport...
+[  48% ] reimport | Preparing files to reimport...
+[  49% ] reimport | Preparing files to reimport...
+[  49% ] reimport | Preparing files to reimport...
+[  50% ] reimport | Preparing files to reimport...
+[  50% ] reimport | Preparing files to reimport...
+[  51% ] reimport | Preparing files to reimport...
+[  52% ] reimport | Preparing files to reimport...
+[  52% ] reimport | Preparing files to reimport...
+[  53% ] reimport | Preparing files to reimport...
+[  53% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  55% ] reimport | Preparing files to reimport...
+[  56% ] reimport | Preparing files to reimport...
+[  56% ] reimport | Preparing files to reimport...
+[  57% ] reimport | Preparing files to reimport...
+[  57% ] reimport | Preparing files to reimport...
+[  58% ] reimport | Preparing files to reimport...
+[  58% ] reimport | Preparing files to reimport...
+[  59% ] reimport | Preparing files to reimport...
+[  60% ] reimport | Preparing files to reimport...
+[  60% ] reimport | Preparing files to reimport...
+[  61% ] reimport | Preparing files to reimport...
+[  61% ] reimport | Preparing files to reimport...
+[  62% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  64% ] reimport | Preparing files to reimport...
+[  64% ] reimport | Preparing files to reimport...
+[  65% ] reimport | Preparing files to reimport...
+[  65% ] reimport | Preparing files to reimport...
+[  66% ] reimport | Preparing files to reimport...
+[  67% ] reimport | Preparing files to reimport...
+[  67% ] reimport | Preparing files to reimport...
+[  68% ] reimport | Preparing files to reimport...
+[  68% ] reimport | Preparing files to reimport...
+[  69% ] reimport | Preparing files to reimport...
+[  69% ] reimport | Preparing files to reimport...
+[  70% ] reimport | Preparing files to reimport...
+[  71% ] reimport | Preparing files to reimport...
+[  71% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  73% ] reimport | Preparing files to reimport...
+[  73% ] reimport | Preparing files to reimport...
+[  74% ] reimport | Preparing files to reimport...
+[  75% ] reimport | Preparing files to reimport...
+[  75% ] reimport | Preparing files to reimport...
+[  76% ] reimport | Preparing files to reimport...
+[  76% ] reimport | Preparing files to reimport...
+[  77% ] reimport | Preparing files to reimport...
+[  78% ] reimport | Preparing files to reimport...
+[  78% ] reimport | Preparing files to reimport...
+[  79% ] reimport | Preparing files to reimport...
+[  79% ] reimport | Preparing files to reimport...
+[  80% ] reimport | Preparing files to reimport...
+[  80% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[  82% ] reimport | Preparing files to reimport...
+[  82% ] reimport | Preparing files to reimport...
+[  83% ] reimport | Preparing files to reimport...
+[  83% ] reimport | Preparing files to reimport...
+[  84% ] reimport | Preparing files to reimport...
+[  84% ] reimport | Preparing files to reimport...
+[  85% ] reimport | Preparing files to reimport...
+[  86% ] reimport | Preparing files to reimport...
+[  86% ] reimport | Preparing files to reimport...
+[  87% ] reimport | Preparing files to reimport...
+[  87% ] reimport | Preparing files to reimport...
+[  88% ] reimport | Preparing files to reimport...
+[  89% ] reimport | Preparing files to reimport...
+[  89% ] reimport | Preparing files to reimport...
+[  90% ] reimport | Preparing files to reimport...
+[  90% ] reimport | Preparing files to reimport...
+[  91% ] reimport | Preparing files to reimport...
+[  91% ] reimport | Preparing files to reimport...
+[  92% ] reimport | Preparing files to reimport...
+[  93% ] reimport | Preparing files to reimport...
+[  93% ] reimport | Preparing files to reimport...
+[  94% ] reimport | Preparing files to reimport...
+[  94% ] reimport | Preparing files to reimport...
+[  95% ] reimport | Preparing files to reimport...
+[  95% ] reimport | Preparing files to reimport...
+[  96% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | DejaVuSerif.ttf
+[   0% ] reimport | DejaVuSans.ttf
+[   1% ] reimport | DejaVuSerif.ttf
+[   1% ] reimport | DejaVuSans.ttf
+[   2% ] reimport | lantern.png
+[   2% ] reimport | light.png
+[   3% ] reimport | logs.png
+[   4% ] reimport | mushrooms.png
+[   4% ] reimport | pine_0.png
+[   5% ] reimport | pine_1.png
+[   5% ] reimport | pine_2.png
+[   6% ] reimport | puddle.png
+[   6% ] reimport | reeds.png
+[   7% ] reimport | rock.png
+[   8% ] reimport | shed.png
+[   8% ] reimport | sign.png
+[   9% ] reimport | smoke.png
+[   9% ] reimport | stump.png
+[  10% ] reimport | well.png
+[  10% ] reimport | Жена лесоруба.png
+[  11% ] reimport | Жена трактирщика.png
+[  12% ] reimport | Лесоруб.png
+[  12% ] reimport | Мальчик.png
+[  13% ] reimport | Тайлы падальщики 2.png
+[  13% ] reimport | Тайлы поваленные деревья.png
+[  14% ] reimport | трактир.png
+[  15% ] reimport | garden_blended.png
+[  15% ] reimport | grass.png
+[  16% ] reimport | moss.png
+[  16% ] reimport | road.png
+[  17% ] reimport | soil.png
+[  17% ] reimport | terrain_brushes.png
+[  18% ] reimport | world_overlay.png
+[  19% ] reimport | worn.png
+[  19% ] reimport | path_edges.png
+[  20% ] reimport | terrain.png
+[  20% ] reimport | barrel.png
+[  21% ] reimport | birch_0.png
+[  21% ] reimport | birch_1.png
+[  22% ] reimport | crop.png
+[  23% ] reimport | fence_h.png
+[  23% ] reimport | fence_v.png
+[  24% ] reimport | fire.png
+[  24% ] reimport | fire.png
+[  24% ] reimport | grass.png
+[  25% ] reimport | izba.png
+[  25% ] reimport | izba.png
+[  26% ] reimport | Sprite-0005.png
+[  26% ] reimport | Sprite-0006.png
+[  27% ] reimport | Sprite-0014.png
+[  27% ] reimport | Sprite-0015.png
+[  28% ] reimport | Sprite-0016.png
+[  28% ] reimport | Sprite-001.png
+[  29% ] reimport | Sprite-0004.png
+[  30% ] reimport | Sprite-0005.png
+[  30% ] reimport | Sprite-0007.png
+[  31% ] reimport | Sprite-0012.png
+[  31% ] reimport | Sprite-0013.png
+[  32% ] reimport | Sprite-0001.png
+[  32% ] reimport | Sprite-0002.png
+[  32% ] reimport | Sprite-0002.png
+[  33% ] reimport | Sprite-0007.png
+[  34% ] reimport | Sprite-0010.png
+[  34% ] reimport | Sprite-0014.png
+[  35% ] reimport | Sprite-0007.png
+[  35% ] reimport | Sprite-0008.png
+[  36% ] reimport | scatter.png
+[  36% ] reimport | terrain.png
+[  37% ] reimport | icon.png
+[  38% ] reimport | Путник.png
+[  38% ] reimport | Старик.png
+[  38% ] reimport | Старик.png
+[  39% ] reimport | Трактирщик.png
+[  39% ] reimport | Sprite-0001.png
+[  40% ] reimport | Sprite-0004.png
+[  41% ] reimport | Sprite-0008.png
+[  41% ] reimport | Sprite-0009.png
+[  42% ] reimport | Sprite-0010.png
+[  42% ] reimport | Sprite-0005.png
+[  43% ] reimport | Sprite-0006.png
+[  43% ] reimport | Sprite-0006.png
+[  43% ] reimport | Sprite-0011.png
+[  44% ] reimport | Sprite-00101.png
+[  45% ] reimport | Sprite-ар0.png
+[  45% ] reimport | Sprite-0001.png
+[  46% ] reimport | Sprite-0002.png
+[  46% ] reimport | Sprite-0003.png
+[  46% ] reimport | Sprite-0003.png
+[  47% ] reimport | Sprite-0004.png
+[  47% ] reimport | Sprite-0010.png
+[  48% ] reimport | Sprite-0013.png
+[  48% ] reimport | Sprite-0013.png
+[  49% ] reimport | Sprite-0009.png
+[  49% ] reimport | Sprite-0010.png
+[  50% ] reimport | Sprite-0002.png
+[  50% ] reimport | walk_up_05.png
+[  50% ] reimport | walk_up_05.png
+[  51% ] reimport | idle.png
+[  52% ] reimport | вверх.png
+[  52% ] reimport | вниз.png
+[  53% ] reimport | ходьба.png
+[  53% ] reimport | hans.png
+[  54% ] reimport | barrel.png
+[  54% ] reimport | bench.png
+[  55% ] reimport | carpenter_house.png
+[  56% ] reimport | cart.png
+[  56% ] reimport | common_house.png
+[  57% ] reimport | crate.png
+[  57% ] reimport | crooked_pine.png
+[  58% ] reimport | elder_house.png
+[  58% ] reimport | fence_broken.png
+[  59% ] reimport | fence_h.png
+[  60% ] reimport | fence_v.png
+[  60% ] reimport | flowers.png
+[  61% ] reimport | garden.png
+[  61% ] reimport | gate_beam.png
+[  62% ] reimport | gate_leaf.png
+[  63% ] reimport | idle_right_00.png
+[  63% ] reimport | idle_right_01.png
+[  64% ] reimport | idle_right_02.png
+[  64% ] reimport | walk_down_00.png
+[  65% ] reimport | walk_down_01.png
+[  65% ] reimport | walk_down_02.png
+[  66% ] reimport | walk_down_03.png
+[  67% ] reimport | walk_down_04.png
+[  67% ] reimport | walk_down_05.png
+[  68% ] reimport | walk_right_00.png
+[  68% ] reimport | walk_right_01.png
+[  69% ] reimport | walk_right_02.png
+[  69% ] reimport | walk_right_03.png
+[  70% ] reimport | walk_right_04.png
+[  71% ] reimport | walk_right_05.png
+[  71% ] reimport | walk_right_06.png
+[  72% ] reimport | walk_right_07.png
+[  72% ] reimport | walk_up_00.png
+[  73% ] reimport | walk_up_01.png
+[  73% ] reimport | walk_up_02.png
+[  74% ] reimport | walk_up_03.png
+[  75% ] reimport | walk_up_04.png
+[  75% ] reimport | заборы вертикаль 1.png
+[  76% ] reimport | заборы вертикаль 2.png
+[  76% ] reimport | заборы горизонт.png
+[  77% ] reimport | карта.png
+[  78% ] reimport | кривая сосна.png
+[  78% ] reimport | огород 1.png
+[  79% ] reimport | огород 2.png
+[  79% ] reimport | пристройки.png
+[  80% ] reimport | Пустой дом.png
+[  80% ] reimport | Тайл декор.png
+[  81% ] reimport | Тайл дома.png
+[  82% ] reimport | Тайл дороги 2.png
+[  82% ] reimport | Тайл дороги.png
+[  83% ] reimport | Тайл земля, база.png
+[  83% ] reimport | Тайл избы.png
+[  84% ] reimport | Тайл природа.png
+[  84% ] reimport | Тайлы болото.png
+[  85% ] reimport | Тайлы дворовые животные.png
+[  86% ] reimport | Тайлы животные и трава.png
+[  86% ] reimport | Тайлы лесозаготовка.png
+[  87% ] reimport | Тайлы падальщики 1.png
+[  87% ] reimport | gate_post.png
+[  88% ] reimport | grass.png
+[  89% ] reimport | hanging_lantern.png
+[  89% ] reimport | herbalist_house.png
+[  90% ] reimport | lantern.png
+[  90% ] reimport | logs.png
+[  91% ] reimport | miller_house.png
+[  91% ] reimport | mixed_tree.png
+[  92% ] reimport | pine_0.png
+[  93% ] reimport | pine_1.png
+[  93% ] reimport | pine_2.png
+[  94% ] reimport | pine_3.png
+[  94% ] reimport | pumpkins.png
+[  95% ] reimport | rock.png
+[  95% ] reimport | scarecrow.png
+[  96% ] reimport | shrub.png
+[  97% ] reimport | sign.png
+[  97% ] reimport | stump.png
+[  98% ] reimport | vegetable_box.png
+[  98% ] reimport | warm_window.png
+[  99% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (172 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+
+=== Final scene import into fresh project ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] update_scripts_classes | Started Registering global classes... (2 steps)
+[   0% ] update_scripts_classes |
+[  33% ] update_scripts_classes |
+[ DONE ] update_scripts_classes
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+
+=== Fresh project graphical startup ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+
+=== Repository asset import ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] _update_scan_actions | Started Scanning actions... (8 steps)
+[   0% ] _update_scan_actions | garden_blended.png
+[  11% ] _update_scan_actions | grass.png
+[  22% ] _update_scan_actions | moss.png
+[  33% ] _update_scan_actions | road.png
+[  44% ] _update_scan_actions | soil.png
+[  55% ] _update_scan_actions | terrain_brushes.png
+[  66% ] _update_scan_actions | world_overlay.png
+[  77% ] _update_scan_actions | worn.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (1 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | terrain_brushes.png
+[  50% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (1 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+
+=== Final scene graphical startup in imported fresh project ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+
+=== Final map screenshots / real OpenGL ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+
+=== Archived old map startup ===
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org

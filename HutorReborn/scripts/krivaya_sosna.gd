@@ -1,6 +1,6 @@
 extends "res://scripts/world.gd"
 ## Location configuration only; input, descriptions, pause and movement are inherited.
-@export var map_size := Vector2i(1856, 1536)
+@export var map_size := Vector2i(2624, 2176)
 @export var camera_lead := Vector2(0, -80)
 
 func _ready() -> void:

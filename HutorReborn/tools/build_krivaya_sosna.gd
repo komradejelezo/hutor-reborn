@@ -2,7 +2,8 @@ extends SceneTree
 ## Authoring utility. Packs a fully editable native map, not a runtime generator.
 const BASE := "res://assets/environment/krivaya_sosna/"
 const SCENES := "res://scenes/objects/krivaya_sosna/"
-const SIZE := Vector2i(1856, 1536)
+const SIZE := Vector2i(2624, 2176)
+const POSITION_FACTOR := Vector2(2624.0/1856.0, 2176.0/1536.0)
 var world: Node2D
 var actors: Node2D
 var structures: Node2D
@@ -17,11 +18,16 @@ var wind: ShaderMaterial
 var assets: Dictionary
 var solid_rects: Array[Rect2] = []
 var roads: Array = []
+var layout: Dictionary
+var surfaces: Dictionary
 
 func _initialize() -> void:
     rng.seed = 20261106
     assets = JSON.parse_string(FileAccess.get_file_as_string(BASE+"extraction.json"))
-    object_scenes()
+    layout=JSON.parse_string(FileAccess.get_file_as_string(BASE+"expanded_layout.json"))
+    surfaces=JSON.parse_string(FileAccess.get_file_as_string(BASE+"surfaces/manifest.json"))
+    if "--rebuild-objects" in OS.get_cmdline_user_args():
+        object_scenes()
     build()
     print("BUILT Krivaya Sosna: ",count," original-asset objects; ",SIZE)
     quit()
@@ -113,15 +119,20 @@ func group(name: String, parent: Node2D, sort: bool = false) -> Node2D:
     own(item,parent)
     return item
 
-func object(key: String, pos: Vector2, parent: Node2D, tag: String = "") -> Node2D:
+func world_pos(point: Vector2) -> Vector2:
+    return (point*POSITION_FACTOR).round()
+
+func object(key: String, pos: Vector2, parent: Node2D, tag: String = "", native_position: bool = false) -> Node2D:
     var item := load(SCENES+key+".tscn").instantiate() as Node2D
     item.name=tag if tag!="" else key.to_pascal_case()+str(count)
-    item.position=pos
+    item.position=world_pos(pos) if not native_position and parent in [structures,nature,props,foreground,ground_props] else pos
     own(item,parent)
+    if key=="garden":
+        item.get_node("Art").texture=load(BASE+"surfaces/garden_blended.png")
     if item.has_node("Solid/Footprint"):
         var collision: CollisionShape2D=item.get_node("Solid/Footprint")
         var shape: RectangleShape2D=collision.shape
-        solid_rects.append(Rect2(pos+collision.position-shape.size/2,shape.size))
+        solid_rects.append(Rect2(item.position+collision.position-shape.size/2,shape.size))
     count+=1
     return item
 
@@ -180,65 +191,87 @@ func path_distance(point: Vector2) -> float:
     return distance
 
 func terrain() -> void:
-    roads=[
-        [Vector2(910,1580),Vector2(910,1250),Vector2(990,1110),Vector2(1000,950),Vector2(1080,815),Vector2(990,640),Vector2(980,500),Vector2(980,250)],
-        [Vector2(645,500),Vector2(675,579),Vector2(820,615),Vector2(990,640),Vector2(1195,581),Vector2(1195,500)],
-        [Vector2(910,820),Vector2(925,880),Vector2(1000,950),Vector2(1260,922),Vector2(1550,865)],
-        [Vector2(590,1120),Vector2(660,1190),Vector2(910,1200),Vector2(1230,1190),Vector2(1230,1120)],
-        [Vector2(910,1100),Vector2(1000,1080)],
-        [Vector2(350,625),Vector2(460,670),Vector2(610,640),Vector2(820,615)],
-        [Vector2(620,660),Vector2(580,815),Vector2(650,965),Vector2(660,1190)]
-    ]
-    var tiles := TileSet.new()
+    for road in layout.roads:
+        var points:Array=[]
+        for point in road.points:points.append(Vector2(point[0],point[1]))
+        roads.append(points)
+    var tiles:=TileSet.new()
     tiles.tile_size=Vector2i(32,32)
-    var source := TileSetAtlasSource.new()
-    source.texture=load(BASE+"terrain.png")
-    source.texture_region_size=Vector2i(32,32)
-    for y in range(6):
-        for x in range(16):source.create_tile(Vector2i(x,y))
-    tiles.add_source(source,0)
-    var edge := TileSetAtlasSource.new()
-    edge.texture=load(BASE+"path_edges.png")
-    edge.texture_region_size=Vector2i(32,32)
-    for y in range(8):
-        for x in range(16):edge.create_tile(Vector2i(x,y))
-    tiles.add_source(edge,1)
-    ResourceSaver.save(tiles,BASE+"krivaya_sosna.tres")
-    var ground := TileMapLayer.new()
+    for index in range(2):
+        tiles.add_terrain_set()
+        tiles.set_terrain_set_mode(index,TileSet.TERRAIN_MODE_MATCH_SIDES)
+        tiles.add_terrain(index)
+        tiles.set_terrain_name(index,0,"Тропы" if index==0 else "Влажная земля")
+        tiles.set_terrain_color(index,0,Color("997445") if index==0 else Color("57412d"))
+    var grass:=TileSetAtlasSource.new()
+    grass.texture=load(BASE+"surfaces/grass.png")
+    grass.texture_region_size=Vector2i(32,32)
+    for y in range(16):
+        for x in range(16):grass.create_tile(Vector2i(x,y))
+    tiles.add_source(grass,0)
+    var overlay:=TileSetAtlasSource.new()
+    overlay.texture=load(BASE+"surfaces/world_overlay.png")
+    overlay.texture_region_size=Vector2i(32,32)
+    for point in surfaces.active_cells:
+        var y:int=point[0]
+        var x:int=point[1]
+        var coord:=Vector2i(x,y)
+        overlay.create_tile(coord)
+        var kind:int=surfaces.cell_kinds[y][x]
+        if kind<0:continue
+        var data:=overlay.get_tile_data(coord,0)
+        data.terrain_set=kind
+        data.terrain=0
+        # Authored cells keep their world phase; native painting chooses reusable brushes.
+        data.probability=0.0
+        var neighbors: Array = [[Vector2i.UP,TileSet.CELL_NEIGHBOR_TOP_SIDE],[Vector2i.RIGHT,TileSet.CELL_NEIGHBOR_RIGHT_SIDE],[Vector2i.DOWN,TileSet.CELL_NEIGHBOR_BOTTOM_SIDE],[Vector2i.LEFT,TileSet.CELL_NEIGHBOR_LEFT_SIDE]]
+        for pair in neighbors:
+            var sample:Vector2i=coord+pair[0]
+            var same:=sample.x>=0 and sample.y>=0 and sample.x<SIZE.x/32 and sample.y<SIZE.y/32 and int(surfaces.cell_kinds[sample.y][sample.x])==kind
+            data.set_terrain_peering_bit(pair[1],0 if same else -1)
+    tiles.add_source(overlay,1)
+    var brushes:=TileSetAtlasSource.new()
+    brushes.texture=load(BASE+"surfaces/terrain_brushes.png")
+    brushes.texture_region_size=Vector2i(32,32)
+    for row in range(2):
+        for mask in range(16):
+            var coord:=Vector2i(mask,row)
+            brushes.create_tile(coord)
+            var data:=brushes.get_tile_data(coord,0)
+            data.terrain_set=row
+            data.terrain=0
+            var bits:Array=[[1,TileSet.CELL_NEIGHBOR_TOP_SIDE],[2,TileSet.CELL_NEIGHBOR_RIGHT_SIDE],[4,TileSet.CELL_NEIGHBOR_BOTTOM_SIDE],[8,TileSet.CELL_NEIGHBOR_LEFT_SIDE]]
+            for pair in bits:data.set_terrain_peering_bit(pair[1],0 if mask&pair[0] else -1)
+    tiles.add_source(brushes,2)
+    assert(ResourceSaver.save(tiles,BASE+"surfaces/expanded_surfaces.tres",ResourceSaver.FLAG_CHANGE_PATH)==OK)
+    tiles.take_over_path(BASE+"surfaces/expanded_surfaces.tres")
+    var ground:=TileMapLayer.new()
     ground.name="Ground"
+    ground.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
     ground.tile_set=tiles
     own(ground,world)
-    var detail := TileMapLayer.new()
+    var detail:=TileMapLayer.new()
     detail.name="Ground Details"
+    detail.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
     detail.tile_set=tiles
     own(detail,world)
-    var paths: Dictionary={}
-    for y in range(48):
-        for x in range(58):
-            var cell:=Vector2i(x,y)
-            var point:=Vector2(x*32+16,y*32+16)
-            var variant:=(x%4)+(y%4)*4
-            ground.set_cell(cell,0,Vector2i(variant,0))
-            if path_distance(point)<45:paths[cell]=true
-            elif rng.randf()<0.09:
-                detail.set_cell(cell,0,Vector2i(rng.randi_range(0,15),4))
-    for cell in paths:
-        var mask:=0
-        for pair in [[Vector2i.UP,1],[Vector2i.RIGHT,2],[Vector2i.DOWN,4],[Vector2i.LEFT,8]]:
-            if paths.has(cell+pair[0]):mask |= pair[1]
-        var index:int=mask*8+(cell.x%4)+(cell.y%2)*4
-        detail.set_cell(cell,1,Vector2i(index%16,index/16))
-    for cell in [Vector2i(28,38),Vector2i(31,30),Vector2i(25,19),Vector2i(38,36),Vector2i(20,24),Vector2i(17,35)]:
-        detail.set_cell(cell,0,Vector2i(2,5))
-        detail.set_cell(cell+Vector2i.RIGHT,0,Vector2i(3,5))
+    for y in range(SIZE.y/32):
+        for x in range(SIZE.x/32):
+            ground.set_cell(Vector2i(x,y),0,Vector2i(x%16,y%16))
+    for point in surfaces.active_cells:
+        var coord:=Vector2i(point[1],point[0])
+        detail.set_cell(coord,1,coord)
 
 func yard(x0: float, x1: float, y_back: float, y_front: float, entry: float) -> void:
     for x in range(int(x0)+48,int(x1),96):
-        object("fence_h",Vector2(x,y_back),props)
-        if absf(x-entry)>72:object("fence_h",Vector2(x,y_front),props)
+        object("fence_h",Vector2(x,y_back),props,"",true)
+        if absf(x-entry)>72:object("fence_h",Vector2(x,y_front),props,"",true)
     for y in range(int(y_back)+80,int(y_front)+1,80):
-        object("fence_v",Vector2(x0,y),props)
-        object("fence_v",Vector2(x1,y),props)
+        object("fence_v",Vector2(x0,y),props,"",true)
+        object("fence_v",Vector2(x1,y),props,"",true)
+    if (int(y_front)-int(y_back))%80!=0:
+        object("fence_v",Vector2(x0,y_front),props,"",true)
+        object("fence_v",Vector2(x1,y_front),props,"",true)
 
 func build() -> void:
     world=Node2D.new()
@@ -284,39 +317,37 @@ func build() -> void:
     inspect(pine,"Кривая Сосна","Старая сосна склонилась над хутором. Говорят, она помнит всё, что здесь происходило.",Vector2(75,22))
     var well:=object("well",Vector2(910,1100),props,"VillageWell")
     inspect(well,"Старый колодец","Сырой камень холодит ладонь. Из глубины доносится тихий плеск. Здесь сходятся тропинки пяти дворов.")
-    yard(480,810,414,583,669)
-    yard(1025,1360,414,583,1219)
-    yard(755,1065,727,901,910)
-    yard(425,755,1035,1196,614)
-    yard(1065,1410,1035,1196,1208)
-    # Fenced vegetable beds have an actual passable opening on the east side.
-    for center in [Vector2(1140,1000),Vector2(690,1010)]:
-        object("garden",center,ground_props)
-        object("fence_h",center+Vector2(0,-112),props)
-        object("fence_h",center+Vector2(0,8),props)
-        object("fence_v",center+Vector2(-65,-24),props)
+    for field in layout.yards:yard(field[0],field[1],field[2],field[3],field[4])
+    for point in layout.gardens:
+        var center:=Vector2(point[0],point[1])
+        object("garden",center,ground_props,"",true)
+        object("fence_h",center+Vector2(0,-112),props,"",true)
+        object("fence_h",center+Vector2(0,8),props,"",true)
+        object("fence_v",center+Vector2(-65,-24),props,"",true)
     object("scarecrow",Vector2(1310,992),props)
     object("shrub",Vector2(1320,1085),nature)
-    # Settlement perimeter, with a 144 px wide entrance. No closed door blocks entry.
-    for x in range(284,1510,96):
-        object("fence_h",Vector2(x,1280),props) if absf(x-910)>110 else null
-        object("fence_broken",Vector2(x,320),props) if absf(x-980)>85 else null
-    for y in range(400,1281,80):
-        object("fence_v",Vector2(238,y),props)
-        object("fence_v",Vector2(1550,y),props)
+    # Rebuild longer fences with unchanged segment sizes and native-width openings.
+    var gate_pos:=world_pos(Vector2(910,1280))
+    var north_x:=1387.0
+    for x in range(int(world_pos(Vector2(284,0)).x),int(world_pos(Vector2(1510,0)).x),96):
+        if absf(x-gate_pos.x)>110:object("fence_h",Vector2(x,gate_pos.y),props,"",true)
+        if absf(x-north_x)>85:object("fence_broken",Vector2(x,world_pos(Vector2(0,320)).y),props,"",true)
+    for y in range(int(world_pos(Vector2(0,320)).y)+80,int(gate_pos.y)+1,80):
+        if absf((y-40)-1417)>90:object("fence_v",Vector2(336,y),props,"",true)
+        if absf((y-40)-1225)>90:object("fence_v",Vector2(2191,y),props,"",true)
     var gate:=group("MainGate",structures)
-    gate.position=Vector2(910,1280)
-    var post_left:=object("gate_post",Vector2(838,1280),props,"GatePostLeft")
-    var post_right:=object("gate_post",Vector2(982,1280),props,"GatePostRight")
-    object("gate_leaf",Vector2(785,1278),props)
-    var right_leaf:=object("gate_leaf",Vector2(1034,1278),props)
+    gate.position=gate_pos
+    var post_left:=object("gate_post",gate_pos+Vector2(-72,0),props,"GatePostLeft",true)
+    var post_right:=object("gate_post",gate_pos+Vector2(72,0),props,"GatePostRight",true)
+    object("gate_leaf",gate_pos+Vector2(-125,-2),props,"",true)
+    var right_leaf:=object("gate_leaf",gate_pos+Vector2(124,-2),props,"",true)
     right_leaf.get_node("Art").flip_h=true
-    var beam:=object("gate_beam",Vector2(910,1196),foreground,"GateLintel")
+    var beam:=object("gate_beam",gate_pos+Vector2(0,-84),foreground,"GateLintel",true)
     beam.z_index=3
     var sign:=Label.new()
     sign.name="VillageName"
     sign.text="КРИВАЯ СОСНА"
-    sign.position=Vector2(849,1187)
+    sign.position=gate_pos+Vector2(-61,-93)
     sign.add_theme_font_override("font",load("res://assets/fonts/DejaVuSerif.ttf"))
     sign.add_theme_font_size_override("font_size",11)
     sign.add_theme_color_override("font_color",Color("debf83"))
@@ -340,35 +371,54 @@ func build() -> void:
         ["rock",Vector2(1429,826)],["logs",Vector2(1483,1028)],
         ["pumpkins",Vector2(1341,1156)],["vegetable_box",Vector2(1314,1161)]
     ]
-    for info in decor:object(info[0],info[1],props)
+    for info in decor:
+        if info[0]=="cart" and info[1]==Vector2(407,1171):object("cart",Vector2(660,1650),props,"",true)
+        elif info[0]=="cart" and info[1]==Vector2(1366,527):object("cart",Vector2(2055,780),props,"",true)
+        elif info[0]=="barrel" and info[1]==Vector2(786,516):object("barrel",Vector2(760,810),props,"",true)
+        elif info[0]=="crate" and info[1]==Vector2(785,550):object("crate",Vector2(800,850),props,"",true)
+        elif info[0]=="barrel" and info[1]==Vector2(1046,519):object("barrel",Vector2(1530,800),props,"",true)
+        elif info[0]=="barrel" and info[1]==Vector2(1073,523):object("barrel",Vector2(1570,800),props,"",true)
+        elif info[0]=="stump":object("stump",Vector2(1000,1700),props,"",true)
+        else:object(info[0],info[1],props)
     # Forest assets are source fir crops; extra crooked-tree angles form mixed growth.
-    for y in range(130,1480,75):
-        for x in range(80,1800,70):
+    for y in range(130,SIZE.y-56,75):
+        for x in range(80,SIZE.x-56,70):
             var pos:=Vector2(x+rng.randi_range(-22,22),y+rng.randi_range(-20,20))
-            if Rect2(230,320,1340,1020).has_point(pos) or path_distance(pos)<92:continue
+            if Rect2(world_pos(Vector2(230,320)),Vector2(1340,1020)*POSITION_FACTOR).has_point(pos) or path_distance(pos)<112:continue
+            var clearing:=false
+            for point in layout.exploration_points:
+                if pos.distance_to(Vector2(point.position[0],point.position[1]))<140:clearing=true
+            if clearing:continue
             if rng.randf()<0.18:continue
-            object("mixed_tree" if rng.randf()<0.18 else "pine_"+str(rng.randi_range(0,3)),pos,nature)
+            object("mixed_tree" if rng.randf()<0.18 else "pine_"+str(rng.randi_range(0,3)),pos,nature,"",true)
     for pos in [Vector2(280,835),Vector2(1466,722),Vector2(1459,1031),Vector2(420,962),Vector2(1378,1280)]:
-        object("mixed_tree" if rng.randf()<0.18 else "pine_"+str(rng.randi_range(0,3)),pos,nature)
-    for i in range(235):
-        var pos:=Vector2(rng.randf_range(100,1750),rng.randf_range(320,1470))
-        if path_distance(pos)<51:continue
+        if path_distance(world_pos(pos))>92:
+            object("mixed_tree" if rng.randf()<0.18 else "pine_"+str(rng.randi_range(0,3)),pos,nature)
+    for i in range(470):
+        var pos:=Vector2(rng.randf_range(100,SIZE.x-100),rng.randf_range(320,SIZE.y-66))
+        if path_distance(pos)<55 or ((pos-Vector2(1320,1435))/Vector2(220,105)).length()<1.1:continue
         var occupied:=false
         for box in solid_rects:
             if box.grow(20).has_point(pos):occupied=true;break
         if occupied:continue
-        object("grass" if i%4 else "flowers",pos,nature)
+        object("grass" if i%4 else "flowers",pos,nature,"",true)
     for pos in [Vector2(320,716),Vector2(388,837),Vector2(795,671),Vector2(1384,690),Vector2(1424,944),Vector2(380,1241)]:
         object("shrub",pos,nature)
+    var exploration:=group("Exploration",world)
+    for point in layout.exploration_points:
+        var marker:=Marker2D.new()
+        marker.name=point.name
+        marker.position=Vector2(point.position[0],point.position[1])
+        own(marker,exploration)
     var hans:=load("res://scenes/player/hans.tscn").instantiate() as CharacterBody2D
     hans.name="Hans"
-    hans.position=Vector2(975,1018)
+    hans.position=world_pos(Vector2(975,1018))
     own(hans,actors)
     var bounds:=StaticBody2D.new()
     bounds.name="MapBounds"
     bounds.collision_mask=2
     own(bounds,world)
-    for box in [Rect2(-32,-32,1920,32),Rect2(-32,1536,1920,32),Rect2(-32,0,32,1536),Rect2(1856,0,32,1536)]:
+    for box in [Rect2(-32,-32,SIZE.x+64,32),Rect2(-32,SIZE.y,SIZE.x+64,32),Rect2(-32,0,32,SIZE.y),Rect2(SIZE.x,0,32,SIZE.y)]:
         var collision:=CollisionShape2D.new()
         var shape:=RectangleShape2D.new()
         shape.size=box.size
