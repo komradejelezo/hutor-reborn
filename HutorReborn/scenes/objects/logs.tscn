@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/logs.png" id="1_g3nkq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v4orw"]
+size = Vector2(47, 17)
+
+[node name="Logs" type="Node2D" unique_id=1617874256]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1830576543]
+position = Vector2(0, -16)
+texture = ExtResource("1_g3nkq")
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=104862992]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=1827895090]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_v4orw")

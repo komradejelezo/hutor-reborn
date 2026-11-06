@@ -1,0 +1,47 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: three editable TileMapLayer nodes
+PASS: 1536 × 1152 terrain populated
+PASS: world and player collision layers
+PASS: four idle and four walking animations
+PASS: six real walking frames: up
+PASS: six real walking frames: down
+PASS: six real walking frames: left
+PASS: six real walking frames: right
+PASS: forward movement
+PASS: upward walking animation
+PASS: last facing direction retained at rest
+PASS: normalized diagonal movement
+PASS: house collision blocks passage at the doorway
+PASS: door interaction reachable outside collision
+PASS: E opens description and locks walking
+PASS: second E closes without immediately reopening
+PASS: reachable interaction: Старый колодец
+PASS: reachable interaction: Хозяйственный сарай
+PASS: reachable interaction: Тлеющий костёр
+PASS: reachable interaction: Дорога к хутору
+PASS: fence blocks crossing
+PASS: map boundary collision
+PASS: smooth camera and map limits
+PASS: camera viewport stays in bounds at (10.0, 10.0)
+PASS: camera viewport stays in bounds at (1526.0, 10.0)
+PASS: camera viewport stays in bounds at (10.0, 1142.0)
+PASS: camera viewport stays in bounds at (1526.0, 1142.0)
+PASS: solid collision: shed
+PASS: solid collision: well
+PASS: solid collision: pine_0
+PASS: solid collision: birch_0
+PASS: solid collision: rock
+PASS: solid collision: stump
+PASS: solid collision: barrel
+PASS: solid collision: logs
+PASS: solid collision: sign
+PASS: solid collision: lantern
+PASS: solid collision: fence_v
+PASS: five interaction components
+PASS: smoke, embers and atmospheric motes
+PASS: atmosphere toggle disables fog
+PASS: atmosphere toggle restores fog
+PASS: Esc pauses simulation
+PASS: Esc resumes simulation
+RESULT: 44 passed, 0 failed

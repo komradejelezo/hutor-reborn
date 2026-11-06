@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/rock.png" id="1_2dker"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7c88i"]
+size = Vector2(32, 15)
+
+[node name="Rock" type="Node2D" unique_id=706831317]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1646626268]
+position = Vector2(0, -15)
+texture = ExtResource("1_2dker")
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=2106117393]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=2044712844]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_7c88i")

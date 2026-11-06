@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" path="res://shaders/vegetation.gdshader" id="1_c2ktp"]
+[ext_resource type="Texture2D" path="res://assets/environment/pine_0.png" id="2_8clrm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_exorh"]
+shader = ExtResource("1_c2ktp")
+shader_parameter/strength = 1.0
+shader_parameter/speed = 0.9
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_n0fl5"]
+radius = 8.0
+
+[node name="Tree" type="Node2D" unique_id=222018030]
+
+[node name="Crown" type="Sprite2D" parent="." unique_id=63328379 groups=["wind_plants"]]
+material = SubResource("ShaderMaterial_exorh")
+position = Vector2(0, -78)
+texture = ExtResource("2_8clrm")
+
+[node name="Trunk" type="StaticBody2D" parent="." unique_id=1838243089]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Trunk" unique_id=390511246]
+position = Vector2(0, -9)
+shape = SubResource("CircleShape2D_n0fl5")

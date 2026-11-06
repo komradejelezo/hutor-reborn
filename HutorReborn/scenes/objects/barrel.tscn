@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/barrel.png" id="1_ipomw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ky1ul"]
+size = Vector2(20, 15)
+
+[node name="Barrel" type="Node2D" unique_id=397926471]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1531601548]
+position = Vector2(0, -18)
+texture = ExtResource("1_ipomw")
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=485604380]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=555375239]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_ky1ul")

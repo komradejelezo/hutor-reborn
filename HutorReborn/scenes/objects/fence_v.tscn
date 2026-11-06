@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/fence_v.png" id="1_h6c8g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e1pyk"]
+size = Vector2(12, 61)
+
+[node name="Fence V" type="Node2D" unique_id=439593809]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=294990863]
+position = Vector2(0, -32)
+texture = ExtResource("1_h6c8g")
+
+[node name="Solid" type="StaticBody2D" parent="." unique_id=1169600765]
+collision_mask = 2
+
+[node name="Footprint" type="CollisionShape2D" parent="Solid" unique_id=2016478200]
+position = Vector2(0, -31)
+shape = SubResource("RectangleShape2D_e1pyk")
