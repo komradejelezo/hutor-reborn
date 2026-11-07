@@ -243,10 +243,7 @@ func _start_journey(record: HutorDailyResidentState) -> void:
 func _minutes_per_second() -> float:return 1440.0/clock.real_day_seconds
 
 func _frames_for(record: HutorDailyResidentState) -> SpriteFrames:
-    if not _frames.has(record.id):
-        var path:String="res://assets/npc/stage46/"+String(record.id)+".tres"
-        _frames[record.id]=load(path) if ResourceLoader.exists(path) else record.original.frames
-    return _frames[record.id]
+    return HutorNpcVisualLibrary.frames_for(record.id,record.original.frames)
 
 func _definition(record: HutorDailyResidentState) -> HutorNpcDefinition:
     var definition:HutorNpcDefinition=record.original.duplicate()

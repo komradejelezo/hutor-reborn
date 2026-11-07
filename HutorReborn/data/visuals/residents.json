@@ -1,0 +1,128 @@
+{
+  "elder": {
+    "delay": 0.55,
+    "duration": 0.8,
+    "cooldown": 24,
+    "radius": 64,
+    "turn_seconds": 0.1,
+    "work_fps": 5,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/elder/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/elder/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/elder/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/elder/anxious.png"
+    }
+  },
+  "innkeeper": {
+    "delay": 0.3,
+    "duration": 0.75,
+    "cooldown": 18,
+    "radius": 76,
+    "turn_seconds": 0.1,
+    "work_fps": 6,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/innkeeper/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/innkeeper/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/innkeeper/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/innkeeper/anxious.png"
+    }
+  },
+  "innkeeper_wife": {
+    "delay": 0.2,
+    "duration": 0.7,
+    "cooldown": 16,
+    "radius": 64,
+    "turn_seconds": 0.1,
+    "work_fps": 6,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/innkeeper_wife/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/innkeeper_wife/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/innkeeper_wife/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/innkeeper_wife/anxious.png"
+    }
+  },
+  "woodcutter": {
+    "delay": 0.4,
+    "duration": 0.65,
+    "cooldown": 24,
+    "radius": 64,
+    "turn_seconds": 0.1,
+    "work_fps": 6,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/woodcutter/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/woodcutter/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/woodcutter/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/woodcutter/anxious.png"
+    }
+  },
+  "woodcutter_wife": {
+    "delay": 0.3,
+    "duration": 0.75,
+    "cooldown": 20,
+    "radius": 64,
+    "turn_seconds": 0.1,
+    "work_fps": 5,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/woodcutter_wife/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/woodcutter_wife/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/woodcutter_wife/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/woodcutter_wife/anxious.png"
+    }
+  },
+  "woodcutter_son": {
+    "delay": 0.12,
+    "duration": 1.1,
+    "cooldown": 12,
+    "radius": 80,
+    "turn_seconds": 0.1,
+    "work_fps": 8,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/woodcutter_son/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/woodcutter_son/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/woodcutter_son/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/woodcutter_son/anxious.png"
+    }
+  },
+  "herbalist": {
+    "delay": 0.4,
+    "duration": 0.9,
+    "cooldown": 22,
+    "radius": 64,
+    "turn_seconds": 0.1,
+    "work_fps": 5,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/herbalist/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/herbalist/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/herbalist/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/herbalist/anxious.png"
+    }
+  },
+  "herbalist_brother": {
+    "delay": 0.4,
+    "duration": 0.7,
+    "cooldown": 24,
+    "radius": 64,
+    "turn_seconds": 0.1,
+    "work_fps": 6,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/herbalist_brother/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/herbalist_brother/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/herbalist_brother/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/herbalist_brother/anxious.png"
+    }
+  },
+  "old_man": {
+    "delay": 1.15,
+    "duration": 1.25,
+    "cooldown": 30,
+    "radius": 76,
+    "turn_seconds": 0.22,
+    "work_fps": 3.5,
+    "portraits": {
+      "neutral": "res://assets/npc/stage47/portraits/old_man/neutral.png",
+      "joy": "res://assets/npc/stage47/portraits/old_man/joy.png",
+      "displeased": "res://assets/npc/stage47/portraits/old_man/displeased.png",
+      "anxious": "res://assets/npc/stage47/portraits/old_man/anxious.png"
+    }
+  }
+}

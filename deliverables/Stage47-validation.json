@@ -1,0 +1,21 @@
+{
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "base_commit": "0b8ad16d52135695e8af110460245c9efa52a51d",
+  "results": {
+    "expressive_residents": 289,
+    "full_daily_cycle": 32,
+    "daily_lifecycle": 163,
+    "resident_regressions": 137,
+    "dialogue_regressions": 65,
+    "obstacle_recovery": 10,
+    "source_audit": 1184,
+    "frozen_files": 975,
+    "portraits": 36,
+    "original_additional_saw_frames": 6
+  },
+  "clean_import": "passed with --single-threaded-scene, without cache",
+  "clean_visual_tests": 289,
+  "dialogue_preview": "36 actual expressions rendered in unchanged UI",
+  "attention_capture": "21 original framebuffer frames; exactly one glance, WAITING/step 0 retained; work_smoke resumes",
+  "missing_art": "HutorReborn/data/visuals/missing_art.json"
+}

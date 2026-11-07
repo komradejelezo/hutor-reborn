@@ -8,10 +8,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/elder/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/elder/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/elder/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/elder/anxious.png"
       },
       "text": "Я за хутор отвечаю. Ты к кому, путник?",
       "choices": [
@@ -33,10 +33,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/elder/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/elder/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/elder/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/elder/anxious.png"
       },
       "text": "За воротами, у дороги, наш трактир. С хозяином и потолкуй.",
       "next": "closing"
@@ -47,10 +47,10 @@
       "portrait": "",
       "emotion": "displeased",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/elder/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/elder/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/elder/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/elder/anxious.png"
       },
       "text": "По тропам ходи, дворы людям оставь. Мы к чужим сперва присматриваемся.",
       "next": "closing"
@@ -61,10 +61,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/elder/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/elder/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/elder/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/elder/anxious.png"
       },
       "text": "Пока ты у нас — живи с людьми в ладу.",
       "end": true

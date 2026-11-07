@@ -1,0 +1,82 @@
+[
+  {
+    "ids": [
+      "elder",
+      "innkeeper",
+      "innkeeper_wife",
+      "woodcutter",
+      "woodcutter_wife",
+      "woodcutter_son",
+      "herbalist",
+      "herbalist_brother",
+      "old_man"
+    ],
+    "needed": [
+      "four-direction native idle/blink frames",
+      "intermediate quarter-turn frames"
+    ],
+    "fallback": "honest single-frame directional poses"
+  },
+  {
+    "ids": [
+      "woodcutter",
+      "herbalist_brother"
+    ],
+    "needed": [
+      "walking with tool",
+      "carrying wood/tools",
+      "post-work fatigue"
+    ],
+    "fallback": "original walk/rest poses; virtual carry activity"
+  },
+  {
+    "ids": [
+      "woodcutter_son"
+    ],
+    "needed": [
+      "additional native run frames"
+    ],
+    "fallback": "two original walk frames per direction at faster playback"
+  },
+  {
+    "ids": [
+      "innkeeper_wife"
+    ],
+    "needed": [
+      "carrying dishes",
+      "individual tabletop wiping cycle"
+    ],
+    "fallback": "original sweep/cook and household pauses"
+  },
+  {
+    "ids": [
+      "herbalist"
+    ],
+    "needed": [
+      "separate sorting/drying/stirring variants"
+    ],
+    "fallback": "original compatible table/inspection/gather cycles"
+  },
+  {
+    "ids": [
+      "elder"
+    ],
+    "needed": [
+      "dedicated approved sprite set",
+      "reading documents",
+      "thinking body cycle"
+    ],
+    "fallback": "current provisional source sprite; quiet directional pauses"
+  },
+  {
+    "ids": [
+      "old_man"
+    ],
+    "needed": [
+      "sit down/stand up",
+      "four-direction seated poses",
+      "seated head turns"
+    ],
+    "fallback": "one archived seated pose, no incidental forced standing"
+  }
+]

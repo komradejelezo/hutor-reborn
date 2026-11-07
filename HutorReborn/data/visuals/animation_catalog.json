@@ -1,0 +1,800 @@
+{
+  "elder": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    }
+  },
+  "herbalist": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_gather": {
+      "fps": 5.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_inspect": {
+      "fps": 5.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_table": {
+      "fps": 5.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    }
+  },
+  "herbalist_brother": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 5,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 5,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_chop": {
+      "fps": 6.0,
+      "frames": 5,
+      "kind": "original_activity",
+      "loop": true
+    }
+  },
+  "innkeeper": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_taste": {
+      "fps": 6.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_wipe": {
+      "fps": 6.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    }
+  },
+  "innkeeper_wife": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_cook": {
+      "fps": 6.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_sweep": {
+      "fps": 6.0,
+      "frames": 3,
+      "kind": "original_activity",
+      "loop": true
+    }
+  },
+  "old_man": {
+    "idle_down": {
+      "fps": 6.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 6.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 6.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 6.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 6.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 6.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 6.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 6.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_sit": {
+      "fps": 3.5,
+      "frames": 1,
+      "kind": "single_archived_seated_pose",
+      "loop": false
+    },
+    "work_smoke": {
+      "fps": 3.5,
+      "frames": 3,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_think": {
+      "fps": 3.5,
+      "frames": 3,
+      "kind": "original_activity",
+      "loop": true
+    }
+  },
+  "woodcutter": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 3,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 4,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_chop": {
+      "fps": 6.0,
+      "frames": 6,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_saw": {
+      "fps": 6.0,
+      "frames": 6,
+      "kind": "new_original_saw_cycle_prepared_only",
+      "loop": true
+    }
+  },
+  "woodcutter_son": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "run_down": {
+      "fps": 10.0,
+      "frames": 2,
+      "kind": "original_walk_frames_faster",
+      "loop": true
+    },
+    "run_left": {
+      "fps": 10.0,
+      "frames": 2,
+      "kind": "original_walk_frames_faster",
+      "loop": true
+    },
+    "run_right": {
+      "fps": 10.0,
+      "frames": 2,
+      "kind": "original_walk_frames_faster",
+      "loop": true
+    },
+    "run_up": {
+      "fps": 10.0,
+      "frames": 2,
+      "kind": "original_walk_frames_faster",
+      "loop": true
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_kneel": {
+      "fps": 8.0,
+      "frames": 4,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_play": {
+      "fps": 8.0,
+      "frames": 6,
+      "kind": "original_activity",
+      "loop": true
+    }
+  },
+  "woodcutter_wife": {
+    "idle_down": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_left": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_right": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "idle_up": {
+      "fps": 8.0,
+      "frames": 1,
+      "kind": "static_idle_fallback",
+      "loop": false
+    },
+    "turn_down": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_left": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_right": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "turn_up": {
+      "fps": 5.0,
+      "frames": 1,
+      "kind": "static_directional_pose",
+      "loop": false
+    },
+    "walk_down": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_left": {
+      "fps": 8.0,
+      "frames": 4,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_right": {
+      "fps": 8.0,
+      "frames": 4,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "walk_up": {
+      "fps": 8.0,
+      "frames": 2,
+      "kind": "original_walk",
+      "loop": true
+    },
+    "work_cook": {
+      "fps": 5.0,
+      "frames": 9,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_rake": {
+      "fps": 5.0,
+      "frames": 3,
+      "kind": "original_activity",
+      "loop": true
+    },
+    "work_sweep": {
+      "fps": 5.0,
+      "frames": 2,
+      "kind": "original_activity",
+      "loop": true
+    }
+  }
+}

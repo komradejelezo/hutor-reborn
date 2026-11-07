@@ -1,0 +1,114 @@
+{
+  "sha256": "8f9d468d84e44f094449545a424891757ec08c3e959c7d992649151a5aa84396",
+  "frames": [
+    {
+      "source": "assets/npc/stage2/Дровосек/Sprite-ар0.png",
+      "box": [
+        0,
+        0,
+        793,
+        1285
+      ],
+      "scale": 0.05436013590033975,
+      "size": [
+        43,
+        70
+      ],
+      "offset": [
+        32,
+        14
+      ]
+    },
+    {
+      "source": "assets/npc/stage2/Дровосек/Sprite-ар0.png",
+      "box": [
+        793,
+        0,
+        1586,
+        1285
+      ],
+      "scale": 0.05436013590033975,
+      "size": [
+        43,
+        70
+      ],
+      "offset": [
+        32,
+        14
+      ]
+    },
+    {
+      "source": "assets/npc/stage2/Дровосек/Sprite-ар0.png",
+      "box": [
+        1586,
+        0,
+        2379,
+        1285
+      ],
+      "scale": 0.05436013590033975,
+      "size": [
+        43,
+        70
+      ],
+      "offset": [
+        32,
+        14
+      ]
+    },
+    {
+      "source": "assets/npc/stage2/Дровосек/Sprite-ар0.png",
+      "box": [
+        2379,
+        0,
+        3172,
+        1285
+      ],
+      "scale": 0.05436013590033975,
+      "size": [
+        43,
+        70
+      ],
+      "offset": [
+        32,
+        14
+      ]
+    },
+    {
+      "source": "assets/npc/stage2/Дровосек/Sprite-ар0.png",
+      "box": [
+        3172,
+        0,
+        3965,
+        1285
+      ],
+      "scale": 0.05436013590033975,
+      "size": [
+        43,
+        70
+      ],
+      "offset": [
+        32,
+        14
+      ]
+    },
+    {
+      "source": "assets/npc/stage2/Дровосек/Sprite-ар0.png",
+      "box": [
+        3965,
+        0,
+        4758,
+        1285
+      ],
+      "scale": 0.05436013590033975,
+      "size": [
+        43,
+        70
+      ],
+      "offset": [
+        32,
+        14
+      ]
+    }
+  ],
+  "note": "Original saw action; prepared for preview/future work location, not inserted into frozen daily schedules."
+}

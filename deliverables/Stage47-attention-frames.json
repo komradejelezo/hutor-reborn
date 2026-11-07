@@ -1,0 +1,149 @@
+[
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-000.png",
+    "milliseconds": 295,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-001.png",
+    "milliseconds": 580,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-002.png",
+    "milliseconds": 859,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-003.png",
+    "milliseconds": 1174,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-004.png",
+    "milliseconds": 1480,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-005.png",
+    "milliseconds": 1791,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-006.png",
+    "milliseconds": 2062,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-007.png",
+    "milliseconds": 2339,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_down",
+    "image": "attention-complete-008.png",
+    "milliseconds": 2631,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_down",
+    "image": "attention-complete-009.png",
+    "milliseconds": 2918,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_left",
+    "image": "attention-complete-010.png",
+    "milliseconds": 3206,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_left",
+    "image": "attention-complete-011.png",
+    "milliseconds": 3500,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_left",
+    "image": "attention-complete-012.png",
+    "milliseconds": 3786,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_left",
+    "image": "attention-complete-013.png",
+    "milliseconds": 4056,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_left",
+    "image": "attention-complete-014.png",
+    "milliseconds": 4347,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_left",
+    "image": "attention-complete-015.png",
+    "milliseconds": 4618,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "turn_down",
+    "image": "attention-complete-016.png",
+    "milliseconds": 4905,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-017.png",
+    "milliseconds": 5185,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-018.png",
+    "milliseconds": 5469,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-019.png",
+    "milliseconds": 5747,
+    "state": 2,
+    "step": 0
+  },
+  {
+    "animation": "work_smoke",
+    "image": "attention-complete-020.png",
+    "milliseconds": 6023,
+    "state": 2,
+    "step": 0
+  }
+]
