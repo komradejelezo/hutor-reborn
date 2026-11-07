@@ -1,0 +1,17 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: friendly short wait does not shove Hans
+PASS: NPC passes stationary Hans without requiring him to leave
+PASS: NPC never displaces Hans
+PASS: existing grid performs a dynamic detour
+PASS: NPC escapes an initial overlap with Hans without a permanent yield
+PASS: head-on residents both reach their destinations
+PASS: residents never overlap feet while passing
+PASS: walking resident passes stationary neighbor
+PASS: unbaked static barrier is bypassed after bounded recovery
+PASS: blocked destination is not falsely completed or silently skipped
+PASS: closed goal uses bounded backoff rather than continuous search
+PASS: same task resumes when the obstacle is removed
+PASS: no visible teleport or passage through world geometry:
+PASS: dynamic paths respect existing solver/cache budgets
+RESULT: 14 obstacle checks passed, 0 failed

@@ -1,0 +1,81 @@
+{
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "base": "796dc0347470bb1b4872f558ca1c416d8dd9f02a",
+  "dependency_pr": 15,
+  "runs": {
+    "child-play.log": {
+      "passed": 7,
+      "failed": 0
+    },
+    "clean-obstacles.log": {
+      "passed": 14,
+      "failed": 0
+    },
+    "clean-scene-state.log": {
+      "passed": 32,
+      "failed": 0
+    },
+    "daily-lifecycle.log": {
+      "passed": 163,
+      "failed": 0
+    },
+    "daily-routes.log": {
+      "passed": 380,
+      "failed": 0
+    },
+    "expressive-residents.log": {
+      "passed": 289,
+      "failed": 0
+    },
+    "live-day.log": {
+      "passed": 34,
+      "failed": 0
+    },
+    "motion-rendered.log": {
+      "passed": 3,
+      "failed": 0
+    },
+    "obstacles.log": {
+      "passed": 14,
+      "failed": 0
+    },
+    "occupations-rendered.log": {
+      "passed": 152,
+      "failed": 0
+    },
+    "player-doors.log": {
+      "passed": 335,
+      "failed": 0
+    },
+    "resident-recovery.log": {
+      "passed": 10,
+      "failed": 0
+    },
+    "scene-state.log": {
+      "passed": 32,
+      "failed": 0
+    }
+  },
+  "clean_import": "passed",
+  "unchanged_original_files": 1241,
+  "changed_original_files": 9,
+  "screenshots": [
+    "child-kneels.png",
+    "child-mother.png",
+    "child-runs.png",
+    "child-stick.png",
+    "elder-work.png",
+    "herbalist-work.png",
+    "herbalist_brother-work.png",
+    "innkeeper-work.png",
+    "innkeeper_wife-work.png",
+    "logging-departure.png",
+    "logging-return.png",
+    "old_man-work.png",
+    "woodcutter-work.png",
+    "woodcutter_son-work.png",
+    "woodcutter_wife-work.png"
+  ],
+  "renderer": "OpenGL Compatibility, Mesa llvmpipe on Xorg",
+  "warning": "Xorg driver does not support changing V-Sync mode"
+}

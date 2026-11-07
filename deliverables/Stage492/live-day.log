@@ -1,0 +1,38 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: full day completes at x30 without seeking
+PASS: continuous physics, identity and child-safe-area checks:
+PASS: Hans remains stationary on the central route
+PASS: morning/day/evening/night observed
+PASS: exactly nine logical residents
+PASS: elder executes distinct daily phases
+PASS: elder body is never recreated
+PASS: innkeeper executes distinct daily phases
+PASS: innkeeper body is never recreated
+PASS: inn workers remain attached to inn schedule
+PASS: innkeeper_wife executes distinct daily phases
+PASS: innkeeper_wife body is never recreated
+PASS: inn workers remain attached to inn schedule
+PASS: woodcutter executes distinct daily phases
+PASS: woodcutter body is never recreated
+PASS: woodcutter visibly crosses map boundary
+PASS: woodcutter leaves and returns once
+PASS: woodcutter returns to its own home
+PASS: woodcutter_wife executes distinct daily phases
+PASS: woodcutter_wife body is never recreated
+PASS: woodcutter_son executes distinct daily phases
+PASS: woodcutter_son body is never recreated
+PASS: child plays, kneels and runs
+PASS: herbalist executes distinct daily phases
+PASS: herbalist body is never recreated
+PASS: herbalist_brother executes distinct daily phases
+PASS: herbalist_brother body is never recreated
+PASS: herbalist_brother visibly crosses map boundary
+PASS: herbalist_brother leaves and returns once
+PASS: herbalist_brother returns to its own home
+PASS: old_man executes distinct daily phases
+PASS: old_man body is never recreated
+PASS: bounded navigation work and cache
+PASS: bounded schedule diagnostics
+METRICS: minimum resident foot clearance=5.03802490234375 dynamic solves=20 probes=2200
+RESULT: 34 live-day checks passed, 0 failed

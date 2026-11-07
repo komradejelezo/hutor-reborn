@@ -58,8 +58,8 @@
             456
           ],
           "minutes": 10,
-          "clip": "work_sweep",
-          "facing": "down"
+          "clip": "",
+          "facing": "up"
         },
         {
           "id": "kitchen",
@@ -72,13 +72,13 @@
           "facing": "left"
         },
         {
-          "id": "household",
+          "id": "sweep_floor",
           "point": [
             686,
             306
           ],
           "minutes": 8,
-          "clip": "",
+          "clip": "work_sweep",
           "facing": "down"
         }
       ]
@@ -95,8 +95,8 @@
             456
           ],
           "minutes": 10,
-          "clip": "work_sweep",
-          "facing": "down"
+          "clip": "",
+          "facing": "up"
         },
         {
           "id": "kitchen",

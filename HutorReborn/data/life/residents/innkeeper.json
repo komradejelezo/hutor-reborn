@@ -45,7 +45,7 @@
             360
           ],
           "minutes": 8,
-          "clip": "work_taste",
+          "clip": "",
           "facing": "down"
         }
       ]
@@ -76,7 +76,7 @@
             200
           ],
           "minutes": 8,
-          "clip": "work_wipe",
+          "clip": "",
           "facing": "down",
           "talk_offset": [
             0,
@@ -111,7 +111,7 @@
             440
           ],
           "minutes": 7,
-          "clip": "work_taste",
+          "clip": "",
           "facing": "down"
         }
       ]

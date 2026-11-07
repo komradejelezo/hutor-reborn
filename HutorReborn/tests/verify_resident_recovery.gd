@@ -48,9 +48,17 @@ func run() -> void:
     await ticks(2)
     var recoveries:=npc.recovery_count
     npc.set_motion_paused(false)
-    await ticks(160)
+    var smooth_and_clear:=true
+    var query:=PhysicsShapeQueryParameters2D.new();var probe:=CircleShape2D.new();probe.radius=npc.definition.foot_radius
+    query.shape=probe;query.collision_mask=1
+    for i in 160:
+        var before:=npc.position
+        await physics_frame
+        query.transform=Transform2D(0,npc.position+Vector2(0,-3))
+        smooth_and_clear=smooth_and_clear and npc.position.distance_to(before)<=npc.definition.speed*npc.get_physics_process_delta_time()+.6
+        smooth_and_clear=smooth_and_clear and world.get_world_2d().direct_space_state.intersect_shape(query,1).is_empty()
     check(npc.recovery_count>recoveries,"unexpected temporary obstruction triggers recovery")
-    check(npc.position.x<1703 and npc.position.distance_to(Vector2(1688,2328))<28,"blocked actor neither tunnels through the obstacle nor teleports")
+    check(smooth_and_clear,"recovering actor may detour but never tunnels or teleports")
     barrier.queue_free(); await ticks(3)
     var before_distance:=npc.distance_walked
     Engine.time_scale=5

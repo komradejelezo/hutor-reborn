@@ -1,0 +1,158 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: woodcutter existing home entry
+PASS: transition completes within deadline
+PASS: woodcutter visible only in correct home
+PASS: woodcutter reaches the actual occupation
+PASS: woodcutter correct activity point
+PASS: woodcutter honest static fallback for missing action frames
+PASS: woodcutter action has a real duration
+PASS: woodcutter original sharp body proportions
+PASS: woodcutter conversation reachable by E
+PASS: woodcutter accepted dialogue stops occupation
+PASS: woodcutter speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: woodcutter occupation and Hans resume
+PASS: woodcutter existing home exit
+PASS: transition completes within deadline
+PASS: woodcutter_wife existing home entry
+PASS: transition completes within deadline
+PASS: woodcutter_wife visible only in correct home
+PASS: woodcutter_wife reaches the actual occupation
+PASS: woodcutter_wife correct activity point
+PASS: woodcutter_wife existing action clip actually plays: work_cook
+PASS: woodcutter_wife action has a real duration
+PASS: woodcutter_wife original sharp body proportions
+PASS: woodcutter_wife conversation reachable by E
+PASS: woodcutter_wife accepted dialogue stops occupation
+PASS: woodcutter_wife speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: woodcutter_wife occupation and Hans resume
+PASS: woodcutter_wife existing home exit
+PASS: transition completes within deadline
+PASS: woodcutter_son existing home entry
+PASS: transition completes within deadline
+PASS: woodcutter_son visible only in correct home
+PASS: woodcutter_son reaches the actual occupation
+PASS: woodcutter_son correct activity point
+PASS: woodcutter_son existing action clip actually plays: work_play
+PASS: woodcutter_son action has a real duration
+PASS: woodcutter_son original sharp body proportions
+PASS: woodcutter_son conversation reachable by E
+PASS: woodcutter_son accepted dialogue stops occupation
+PASS: woodcutter_son speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: woodcutter_son occupation and Hans resume
+PASS: woodcutter_son existing home exit
+PASS: transition completes within deadline
+PASS: innkeeper existing home entry
+PASS: transition completes within deadline
+PASS: innkeeper visible only in correct home
+PASS: innkeeper reaches the actual occupation
+PASS: innkeeper correct activity point
+PASS: innkeeper existing action clip actually plays: work_wipe
+PASS: innkeeper action has a real duration
+PASS: innkeeper original sharp body proportions
+PASS: innkeeper conversation reachable by E
+PASS: innkeeper accepted dialogue stops occupation
+PASS: innkeeper speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: innkeeper occupation and Hans resume
+PASS: innkeeper existing home exit
+PASS: transition completes within deadline
+PASS: innkeeper_wife existing home entry
+PASS: transition completes within deadline
+PASS: innkeeper_wife visible only in correct home
+PASS: innkeeper_wife reaches the actual occupation
+PASS: innkeeper_wife correct activity point
+PASS: innkeeper_wife honest static fallback for missing action frames
+PASS: innkeeper_wife action has a real duration
+PASS: innkeeper_wife original sharp body proportions
+PASS: innkeeper_wife conversation reachable by E
+PASS: innkeeper_wife accepted dialogue stops occupation
+PASS: innkeeper_wife speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: innkeeper_wife occupation and Hans resume
+PASS: innkeeper_wife existing home exit
+PASS: transition completes within deadline
+PASS: herbalist existing home entry
+PASS: transition completes within deadline
+PASS: herbalist visible only in correct home
+PASS: herbalist reaches the actual occupation
+PASS: herbalist correct activity point
+PASS: herbalist existing action clip actually plays: work_table
+PASS: herbalist action has a real duration
+PASS: herbalist original sharp body proportions
+PASS: herbalist conversation reachable by E
+PASS: herbalist accepted dialogue stops occupation
+PASS: herbalist speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: herbalist occupation and Hans resume
+PASS: herbalist existing home exit
+PASS: transition completes within deadline
+PASS: herbalist_brother existing home entry
+PASS: transition completes within deadline
+PASS: herbalist_brother visible only in correct home
+PASS: herbalist_brother reaches the actual occupation
+PASS: herbalist_brother correct activity point
+PASS: herbalist_brother honest static fallback for missing action frames
+PASS: herbalist_brother action has a real duration
+PASS: herbalist_brother original sharp body proportions
+PASS: herbalist_brother conversation reachable by E
+PASS: herbalist_brother accepted dialogue stops occupation
+PASS: herbalist_brother speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: herbalist_brother occupation and Hans resume
+PASS: herbalist_brother existing home exit
+PASS: transition completes within deadline
+PASS: elder existing home entry
+PASS: transition completes within deadline
+PASS: elder visible only in correct home
+PASS: elder reaches the actual occupation
+PASS: elder correct activity point
+PASS: elder honest static fallback for missing action frames
+PASS: elder action has a real duration
+PASS: elder original sharp body proportions
+PASS: elder conversation reachable by E
+PASS: elder accepted dialogue stops occupation
+PASS: elder speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: elder occupation and Hans resume
+PASS: elder existing home exit
+PASS: transition completes within deadline
+PASS: old_man existing home entry
+PASS: transition completes within deadline
+PASS: old_man visible only in correct home
+PASS: old_man reaches the actual occupation
+PASS: old_man correct activity point
+PASS: old_man existing action clip actually plays: work_smoke
+PASS: old_man action has a real duration
+PASS: old_man original sharp body proportions
+PASS: old_man conversation reachable by E
+PASS: old_man accepted dialogue stops occupation
+PASS: old_man speaker stops moving
+PASS: dialogue closing animation completes within deadline
+PASS: old_man occupation and Hans resume
+PASS: old_man existing home exit
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: elder reaches the actual occupation
+PASS: time-boundary conversation starts
+PASS: clock jump does not interrupt an accepted dialogue
+PASS: dialogue closing animation completes within deadline
+PASS: after conversation elder follows current schedule instead of old paperwork
+PASS: new goal is the actual exit
+PASS: transition completes within deadline
+PASS: elder keeps one identity through visits and conversations
+PASS: innkeeper keeps one identity through visits and conversations
+PASS: innkeeper_wife keeps one identity through visits and conversations
+PASS: woodcutter keeps one identity through visits and conversations
+PASS: woodcutter_wife keeps one identity through visits and conversations
+PASS: woodcutter_son keeps one identity through visits and conversations
+PASS: herbalist keeps one identity through visits and conversations
+PASS: herbalist_brother keeps one identity through visits and conversations
+PASS: old_man keeps one identity through visits and conversations
+RESULT: 152 occupation checks passed, 0 failed

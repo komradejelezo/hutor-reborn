@@ -82,7 +82,7 @@
           "id": "read_old_papers",
           "point": "NPCPoints/Reading",
           "minutes": 10,
-          "clip": "work_think",
+          "clip": "",
           "facing": "down"
         }
       ]

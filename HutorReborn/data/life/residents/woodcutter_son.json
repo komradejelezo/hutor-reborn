@@ -77,7 +77,7 @@
           ],
           "minutes": 5,
           "clip": "work_kneel",
-          "facing": "down"
+          "facing": "right"
         },
         {
           "id": "visit_mother",
@@ -135,7 +135,7 @@
           ],
           "minutes": 5,
           "clip": "work_kneel",
-          "facing": "down"
+          "facing": "left"
         },
         {
           "id": "look_at_hans",
@@ -192,7 +192,7 @@
           ],
           "minutes": 5,
           "clip": "work_kneel",
-          "facing": "down"
+          "facing": "right"
         },
         {
           "id": "visit_mother",
