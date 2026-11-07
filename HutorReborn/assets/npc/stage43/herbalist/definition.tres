@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/herbalist/frames.tres" id="1_fqm0x"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_qoknk"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_27hma"]
+
+[sub_resource type="Resource" id="Resource_o7tyq"]
+script = ExtResource("2_qoknk")
+label = "У ветхого дома"
+action = 0
+position = Vector2(1720, 1656)
+duration = 6.0
+
+[sub_resource type="Resource" id="Resource_eekky"]
+script = ExtResource("2_qoknk")
+label = "Лекарственные грядки"
+action = 1
+position = Vector2(1912, 1656)
+duration = 7.0
+facing = &"right"
+animation = &"work_gather"
+
+[sub_resource type="Resource" id="Resource_43tcs"]
+script = ExtResource("2_qoknk")
+label = "Тропа к опушке"
+action = 5
+position = Vector2(1992, 1736)
+duration = 1.0
+
+[sub_resource type="Resource" id="Resource_uwylw"]
+script = ExtResource("2_qoknk")
+label = "Собрать травы у леса"
+action = 1
+position = Vector2(2152, 1720)
+duration = 10.0
+facing = &"right"
+animation = &"work_gather"
+
+[resource]
+script = ExtResource("3_27hma")
+id = &"herbalist"
+display_name = "Травница"
+behavior = 1
+speed = 29.0
+frames = ExtResource("1_fqm0x")
+routine = Array[ExtResource("2_qoknk")]([SubResource("Resource_o7tyq"), SubResource("Resource_eekky"), SubResource("Resource_43tcs"), SubResource("Resource_uwylw")])
+dialogue_path = "res://dialogues/residents/herbalist.json"
+dialogue_id = "resident_herbalist"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

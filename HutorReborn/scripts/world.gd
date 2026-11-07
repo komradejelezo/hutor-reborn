@@ -35,6 +35,9 @@ func _unhandled_input(event: InputEvent) -> void:
         hud.show_effects(atmosphere.effects_enabled)
 
 func _show_description(payload: Dictionary) -> void:
+    if payload.has("building_id"):
+        get_node("/root/InteriorTravel").request_transition(payload.building_id, payload.get("exit_to_village", false))
+        return
     if get_node("/root/DialogueManager").is_active():
         return
     if payload.has("dialogue_path"):

@@ -1,0 +1,73 @@
+{
+  "id": "resident_herbalist",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Травница",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist/portraits/anxious.png"
+      },
+      "text": "На посадки не наступай. Молодой росток не сразу заметишь.",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Ты знаешь местные растения?",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "Можно посмотреть на грядки?",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Травница",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist/portraits/anxious.png"
+      },
+      "text": "Те, что рядом растут. С незнакомой травой я и сама осторожна.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Травница",
+      "portrait": "",
+      "emotion": "anxious",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist/portraits/anxious.png"
+      },
+      "text": "С тропинки смотри. Пусть растения спокойно принимаются.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Травница",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist/portraits/anxious.png"
+      },
+      "text": "Не всякую траву в руки брать стоит. Помни это.",
+      "end": true
+    }
+  ]
+}

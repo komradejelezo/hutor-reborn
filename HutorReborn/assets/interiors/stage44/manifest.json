@@ -1,0 +1,789 @@
+[
+  {
+    "name": "counter",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      784,
+      450,
+      1014,
+      510
+    ],
+    "size": [
+      230,
+      60
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": [
+      [
+        0,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        23,
+        14
+      ],
+      [
+        206,
+        14
+      ],
+      [
+        206,
+        6
+      ],
+      [
+        228,
+        6
+      ],
+      [
+        228,
+        58
+      ],
+      [
+        22,
+        58
+      ],
+      [
+        0,
+        40
+      ]
+    ]
+  },
+  {
+    "name": "shelf_cups",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1034,
+      453,
+      1140,
+      524
+    ],
+    "size": [
+      106,
+      71
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "fireplace",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1281,
+      449,
+      1348,
+      528
+    ],
+    "size": [
+      67,
+      79
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": [
+      [
+        20,
+        4
+      ],
+      [
+        41,
+        4
+      ],
+      [
+        48,
+        14
+      ],
+      [
+        52,
+        14
+      ],
+      [
+        52,
+        25
+      ],
+      [
+        61,
+        32
+      ],
+      [
+        63,
+        74
+      ],
+      [
+        4,
+        74
+      ],
+      [
+        4,
+        32
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        13
+      ]
+    ]
+  },
+  {
+    "name": "table_round",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1451,
+      447,
+      1517,
+      487
+    ],
+    "size": [
+      66,
+      40
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "table_set",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      791,
+      629,
+      858,
+      700
+    ],
+    "size": [
+      67,
+      71
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "bench",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1464,
+      559,
+      1512,
+      586
+    ],
+    "size": [
+      48,
+      27
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "barrel",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1353,
+      476,
+      1395,
+      523
+    ],
+    "size": [
+      42,
+      47
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "lantern",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1360,
+      548,
+      1395,
+      597
+    ],
+    "size": [
+      35,
+      49
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "bed_old",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1111,
+      628,
+      1158,
+      710
+    ],
+    "size": [
+      47,
+      82
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": [
+      [
+        3,
+        4
+      ],
+      [
+        43,
+        4
+      ],
+      [
+        43,
+        78
+      ],
+      [
+        3,
+        78
+      ]
+    ]
+  },
+  {
+    "name": "table_small",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      880,
+      632,
+      920,
+      700
+    ],
+    "size": [
+      40,
+      68
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "pot",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1078,
+      719,
+      1120,
+      759
+    ],
+    "size": [
+      42,
+      40
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "chair",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1435,
+      726,
+      1467,
+      758
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "stool",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1203,
+      727,
+      1231,
+      758
+    ],
+    "size": [
+      28,
+      31
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "herbs",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1463,
+      717,
+      1501,
+      764
+    ],
+    "size": [
+      38,
+      47
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "dry_food",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      949,
+      719,
+      1021,
+      766
+    ],
+    "size": [
+      72,
+      47
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "door",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      791,
+      716,
+      848,
+      765
+    ],
+    "size": [
+      57,
+      49
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "sacks",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      198,
+      773,
+      277,
+      824
+    ],
+    "size": [
+      79,
+      51
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": [
+      [
+        8,
+        4
+      ],
+      [
+        69,
+        4
+      ],
+      [
+        76,
+        47
+      ],
+      [
+        0,
+        47
+      ]
+    ]
+  },
+  {
+    "name": "bed",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      34,
+      886,
+      82,
+      977
+    ],
+    "size": [
+      48,
+      91
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "chest",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      995,
+      155,
+      1045,
+      213
+    ],
+    "size": [
+      50,
+      58
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "shelf_books",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      459,
+      768,
+      511,
+      827
+    ],
+    "size": [
+      52,
+      59
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "desk",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      282,
+      769,
+      349,
+      835
+    ],
+    "size": [
+      67,
+      66
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "wall_hanging",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      477,
+      292,
+      537,
+      393
+    ],
+    "size": [
+      60,
+      101
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "hanging_pots",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      455,
+      886,
+      518,
+      943
+    ],
+    "size": [
+      63,
+      57
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "cauldron",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      844,
+      486,
+      901,
+      545
+    ],
+    "size": [
+      57,
+      59
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "basket",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      627,
+      609,
+      682,
+      672
+    ],
+    "size": [
+      55,
+      63
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "bottles",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      1040,
+      287,
+      1098,
+      365
+    ],
+    "size": [
+      58,
+      78
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "herb_line",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      809,
+      294,
+      910,
+      393
+    ],
+    "size": [
+      101,
+      99
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "documents",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      1378,
+      662,
+      1407,
+      693
+    ],
+    "size": [
+      29,
+      31
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "candle",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      1360,
+      548,
+      1395,
+      597
+    ],
+    "size": [
+      35,
+      49
+    ],
+    "method": "native RGB; connected edge-background alpha removal",
+    "polygon": null
+  },
+  {
+    "name": "floor_dark",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      1048,
+      467,
+      1080,
+      499
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native opaque tile crop",
+    "polygon": null
+  },
+  {
+    "name": "floor_warm",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      1164,
+      467,
+      1196,
+      499
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native opaque tile crop",
+    "polygon": null
+  },
+  {
+    "name": "floor_worn",
+    "source": "assets/environment/krivaya_sosna/source/Тайл избы.png",
+    "sha256": "bff26804b36ef8175a4778a8d87d8fde1d5cfb30d25b2895c1f5501d1ea99444",
+    "box": [
+      960,
+      490,
+      992,
+      522
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native opaque tile crop",
+    "polygon": null
+  },
+  {
+    "name": "wall",
+    "source": "assets/environment/krivaya_sosna/source/Тайл избы.png",
+    "sha256": "bff26804b36ef8175a4778a8d87d8fde1d5cfb30d25b2895c1f5501d1ea99444",
+    "box": [
+      44,
+      163,
+      76,
+      195
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native opaque tile crop",
+    "polygon": null
+  },
+  {
+    "name": "wall_old",
+    "source": "assets/environment/krivaya_sosna/source/Тайл избы.png",
+    "sha256": "bff26804b36ef8175a4778a8d87d8fde1d5cfb30d25b2895c1f5501d1ea99444",
+    "box": [
+      44,
+      172,
+      76,
+      204
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native opaque tile crop",
+    "polygon": null
+  },
+  {
+    "name": "broken_boards",
+    "source": "assets/environment/krivaya_sosna/source/Тайл избы.png",
+    "sha256": "bff26804b36ef8175a4778a8d87d8fde1d5cfb30d25b2895c1f5501d1ea99444",
+    "box": [
+      944,
+      487,
+      976,
+      519
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "method": "native opaque tile crop",
+    "polygon": [
+      [
+        3,
+        1
+      ],
+      [
+        30,
+        3
+      ],
+      [
+        28,
+        14
+      ],
+      [
+        31,
+        23
+      ],
+      [
+        10,
+        30
+      ],
+      [
+        2,
+        27
+      ]
+    ]
+  },
+  {
+    "name": "floor_atlas_inn",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      1164,
+      461,
+      1228,
+      525
+    ],
+    "size": [
+      768,
+      448
+    ],
+    "method": "native min-cut source-pixel quilt; provenance in floor_provenance.npz",
+    "polygon": null
+  },
+  {
+    "name": "floor_atlas_elder",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      1048,
+      461,
+      1112,
+      525
+    ],
+    "size": [
+      576,
+      384
+    ],
+    "method": "native min-cut source-pixel quilt; provenance in floor_provenance.npz",
+    "polygon": null
+  },
+  {
+    "name": "floor_atlas_herbalist",
+    "source": "assets/environment/krivaya_sosna/source/Тайл избы.png",
+    "sha256": "bff26804b36ef8175a4778a8d87d8fde1d5cfb30d25b2895c1f5501d1ea99444",
+    "box": [
+      949,
+      486,
+      1013,
+      550
+    ],
+    "size": [
+      576,
+      384
+    ],
+    "method": "native min-cut source-pixel quilt; provenance in floor_provenance.npz",
+    "polygon": null
+  }
+]

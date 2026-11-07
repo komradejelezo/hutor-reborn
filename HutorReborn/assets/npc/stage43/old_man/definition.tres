@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/old_man/frames.tres" id="1_ve0ag"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_aq54k"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_rcqm3"]
+
+[sub_resource type="Resource" id="Resource_d3gxt"]
+script = ExtResource("2_aq54k")
+label = "У Кривой сосны"
+position = Vector2(568, 920)
+duration = 9.0
+facing = &"right"
+animation = &"work_smoke"
+
+[sub_resource type="Resource" id="Resource_3bsec"]
+script = ExtResource("2_aq54k")
+label = "Медленная прогулка"
+action = 2
+position = Vector2(648, 952)
+facing = &"left"
+
+[sub_resource type="Resource" id="Resource_f4spi"]
+script = ExtResource("2_aq54k")
+label = "Покурить у тропы"
+position = Vector2(632, 1032)
+duration = 10.0
+facing = &"left"
+animation = &"work_smoke"
+
+[sub_resource type="Resource" id="Resource_otc0r"]
+script = ExtResource("2_aq54k")
+label = "Рядом с корнями"
+action = 2
+position = Vector2(568, 984)
+duration = 2.0
+
+[sub_resource type="Resource" id="Resource_whtp0"]
+script = ExtResource("2_aq54k")
+label = "Короткий отдых"
+position = Vector2(552, 952)
+duration = 5.0
+facing = &"right"
+animation = &"work_smoke"
+
+[resource]
+script = ExtResource("3_rcqm3")
+id = &"old_man"
+display_name = "Старик с трубкой"
+behavior = 3
+speed = 18.0
+frames = ExtResource("1_ve0ag")
+routine = Array[ExtResource("2_aq54k")]([SubResource("Resource_d3gxt"), SubResource("Resource_3bsec"), SubResource("Resource_f4spi"), SubResource("Resource_otc0r"), SubResource("Resource_whtp0")])
+route_bounds = Rect2(410, 890, 310, 170)
+dialogue_path = "res://dialogues/residents/old_man.json"
+dialogue_id = "resident_old_man"
+pipe_smoke = true
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

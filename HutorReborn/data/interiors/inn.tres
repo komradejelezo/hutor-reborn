@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="HutorBuildingDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/building_definition.gd" id="1_23r5c"]
+
+[resource]
+script = ExtResource("1_23r5c")
+id = &"inn"
+display_name = "Большой трактир"
+interior_scene = "res://scenes/interiors/inn.tscn"
+exterior_anchor = NodePath("Actors/Structures/Inn/Entrance")
+residents = Array[StringName]([&"innkeeper", &"innkeeper_wife"])
+always_inside = Array[StringName]([&"innkeeper", &"innkeeper_wife"])

@@ -1,0 +1,489 @@
+Stage 4.3 validation — Godot 4.6.3 Compatibility / Mesa llvmpipe
+Final successful runs only; clean copy excludes .godot.
+
+--- final-import ---
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+
+--- clean-import ---
+[  98% ] reimport | огород 2.png
+[  99% ] reimport | пристройки.png
+[  99% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (200 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+
+--- clean-game ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+
+--- resident-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: exactly nine registered residents
+PASS: Hans plus nine NPC bodies; no extra residents
+PASS: nine talk markers plus eight existing inspections
+PASS: population shares the existing world depth hierarchy
+PASS: approved map and Hans movement/collision settings retained
+PASS: original animated four-way walk/Nearest: elder
+PASS: one-frame idle is explicitly a non-looping fallback: elder
+PASS: valid independent branched dialogue: elder
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: elder
+PASS: every routine leg accounts for baked static obstacles: elder
+PASS: original animated four-way walk/Nearest: innkeeper
+PASS: one-frame idle is explicitly a non-looping fallback: innkeeper
+PASS: valid independent branched dialogue: innkeeper
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: innkeeper
+PASS: every routine leg accounts for baked static obstacles: innkeeper
+PASS: original animated four-way walk/Nearest: innkeeper_wife
+PASS: one-frame idle is explicitly a non-looping fallback: innkeeper_wife
+PASS: valid independent branched dialogue: innkeeper_wife
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: innkeeper_wife
+PASS: every routine leg accounts for baked static obstacles: innkeeper_wife
+PASS: original animated four-way walk/Nearest: woodcutter
+PASS: one-frame idle is explicitly a non-looping fallback: woodcutter
+PASS: valid independent branched dialogue: woodcutter
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: woodcutter
+PASS: every routine leg accounts for baked static obstacles: woodcutter
+PASS: original animated four-way walk/Nearest: woodcutter_wife
+PASS: one-frame idle is explicitly a non-looping fallback: woodcutter_wife
+PASS: valid independent branched dialogue: woodcutter_wife
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: woodcutter_wife
+PASS: every routine leg accounts for baked static obstacles: woodcutter_wife
+PASS: original animated four-way walk/Nearest: woodcutter_son
+PASS: one-frame idle is explicitly a non-looping fallback: woodcutter_son
+PASS: valid independent branched dialogue: woodcutter_son
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: woodcutter_son
+PASS: every routine leg accounts for baked static obstacles: woodcutter_son
+PASS: original animated four-way walk/Nearest: herbalist
+PASS: one-frame idle is explicitly a non-looping fallback: herbalist
+PASS: valid independent branched dialogue: herbalist
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: herbalist
+PASS: every routine leg accounts for baked static obstacles: herbalist
+PASS: original animated four-way walk/Nearest: herbalist_brother
+PASS: one-frame idle is explicitly a non-looping fallback: herbalist_brother
+PASS: valid independent branched dialogue: herbalist_brother
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: herbalist_brother
+PASS: every routine leg accounts for baked static obstacles: herbalist_brother
+PASS: original animated four-way walk/Nearest: old_man
+PASS: one-frame idle is explicitly a non-looping fallback: old_man
+PASS: valid independent branched dialogue: old_man
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: old_man
+PASS: every routine leg accounts for baked static obstacles: old_man
+PASS: child has its own proportions and smaller feet
+SIMULATION: 0 seconds; path solves 9
+SIMULATION: 30 seconds; path solves 33
+SIMULATION: 60 seconds; path solves 44
+SIMULATION: 90 seconds; path solves 46
+SIMULATION: 120 seconds; path solves 47
+SIMULATION: 150 seconds; path solves 47
+PASS: 180 simulated seconds: all residents stay inside the map and child/pine zones
+PASS: simultaneous residents never enter static walls, fences or trees
+PASS: movement, waits and a complete schedule: elder (11 stops, 0 recoveries)
+PASS: all individual route stops visited: elder
+PASS: movement, waits and a complete schedule: innkeeper (13 stops, 0 recoveries)
+PASS: all individual route stops visited: innkeeper
+PASS: movement, waits and a complete schedule: innkeeper_wife (17 stops, 0 recoveries)
+PASS: all individual route stops visited: innkeeper_wife
+PASS: movement, waits and a complete schedule: woodcutter (15 stops, 0 recoveries)
+PASS: all individual route stops visited: woodcutter
+PASS: movement, waits and a complete schedule: woodcutter_wife (23 stops, 0 recoveries)
+PASS: all individual route stops visited: woodcutter_wife
+PASS: movement, waits and a complete schedule: woodcutter_son (47 stops, 0 recoveries)
+PASS: all individual route stops visited: woodcutter_son
+PASS: movement, waits and a complete schedule: herbalist (13 stops, 0 recoveries)
+PASS: all individual route stops visited: herbalist
+PASS: movement, waits and a complete schedule: herbalist_brother (8 stops, 0 recoveries)
+PASS: all individual route stops visited: herbalist_brother
+PASS: movement, waits and a complete schedule: old_man (17 stops, 0 recoveries)
+PASS: all individual route stops visited: old_man
+PASS: bounded path budget and cache; no frame-by-frame recomputation
+PASS: existing E talk prompt can focus: elder
+PASS: real E starts the existing dialogue and stops speaker: elder
+PASS: Hans and speaker remain stopped: elder
+PASS: first reply branch: elder
+PASS: closing restores player and suspended routine state: elder
+PASS: second reply branch: elder
+PASS: existing E talk prompt can focus: innkeeper
+PASS: real E starts the existing dialogue and stops speaker: innkeeper
+PASS: Hans and speaker remain stopped: innkeeper
+PASS: first reply branch: innkeeper
+PASS: closing restores player and suspended routine state: innkeeper
+PASS: second reply branch: innkeeper
+PASS: existing E talk prompt can focus: innkeeper_wife
+PASS: real E starts the existing dialogue and stops speaker: innkeeper_wife
+PASS: Hans and speaker remain stopped: innkeeper_wife
+PASS: first reply branch: innkeeper_wife
+PASS: closing restores player and suspended routine state: innkeeper_wife
+PASS: second reply branch: innkeeper_wife
+PASS: existing E talk prompt can focus: woodcutter
+PASS: real E starts the existing dialogue and stops speaker: woodcutter
+PASS: Hans and speaker remain stopped: woodcutter
+PASS: first reply branch: woodcutter
+PASS: closing restores player and suspended routine state: woodcutter
+PASS: second reply branch: woodcutter
+PASS: existing E talk prompt can focus: woodcutter_wife
+PASS: real E starts the existing dialogue and stops speaker: woodcutter_wife
+PASS: Hans and speaker remain stopped: woodcutter_wife
+PASS: first reply branch: woodcutter_wife
+PASS: closing restores player and suspended routine state: woodcutter_wife
+PASS: second reply branch: woodcutter_wife
+PASS: existing E talk prompt can focus: woodcutter_son
+PASS: real E starts the existing dialogue and stops speaker: woodcutter_son
+PASS: Hans and speaker remain stopped: woodcutter_son
+PASS: first reply branch: woodcutter_son
+PASS: closing restores player and suspended routine state: woodcutter_son
+PASS: second reply branch: woodcutter_son
+PASS: existing E talk prompt can focus: herbalist
+PASS: real E starts the existing dialogue and stops speaker: herbalist
+PASS: Hans and speaker remain stopped: herbalist
+PASS: first reply branch: herbalist
+PASS: closing restores player and suspended routine state: herbalist
+PASS: second reply branch: herbalist
+PASS: existing E talk prompt can focus: herbalist_brother
+PASS: real E starts the existing dialogue and stops speaker: herbalist_brother
+PASS: Hans and speaker remain stopped: herbalist_brother
+PASS: first reply branch: herbalist_brother
+PASS: closing restores player and suspended routine state: herbalist_brother
+PASS: second reply branch: herbalist_brother
+PASS: existing E talk prompt can focus: old_man
+PASS: real E starts the existing dialogue and stops speaker: old_man
+PASS: Hans and speaker remain stopped: old_man
+PASS: first reply branch: old_man
+PASS: closing restores player and suspended routine state: old_man
+PASS: second reply branch: old_man
+PASS: old man smokes with only three optional particles
+PASS: F3 also disables the local pipe effect
+PASS: routine movement resumes after dialogue: elder
+PASS: routine movement resumes after dialogue: innkeeper
+PASS: routine movement resumes after dialogue: innkeeper_wife
+PASS: routine movement resumes after dialogue: woodcutter
+PASS: routine movement resumes after dialogue: woodcutter_wife
+PASS: routine movement resumes after dialogue: woodcutter_son
+PASS: routine movement resumes after dialogue: herbalist
+PASS: routine movement resumes after dialogue: herbalist_brother
+PASS: routine movement resumes after dialogue: old_man
+RESULT: 137 resident checks passed, 0 failed
+
+--- recovery-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: resident yields instead of pushing Hans
+PASS: Hans is not displaced by a friendly NPC
+PASS: resident resumes after Hans clears the route
+PASS: external pause preserves position and schedule
+PASS: unexpected temporary obstruction triggers recovery
+PASS: blocked actor neither tunnels through the obstacle nor teleports
+PASS: safe recovery resumes a valid routine after obstruction removal
+PASS: recovery respects the shared per-tick path budget
+PASS: interaction adapter owns only its accepted dialogue session
+PASS: removing a speaker safely releases player and director references
+RESULT: 10 resident recovery checks passed, 0 failed
+
+--- depth-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: woodcutter behind/house: 820 opaque pixels, 0 wrong
+PASS: woodcutter front/house: 814 opaque pixels, 0 wrong
+PASS: woodcutter behind/pine: 709 opaque pixels, 0 wrong
+PASS: woodcutter front/pine: 820 opaque pixels, 0 wrong
+PASS: woodcutter behind/fence: 56 opaque pixels, 0 wrong
+PASS: woodcutter front/fence: 279 opaque pixels, 0 wrong
+PASS: woodcutter behind/Hans: 465 opaque pixels, 0 wrong
+PASS: woodcutter front/Hans: 463 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/house: 304 opaque pixels, 0 wrong
+PASS: woodcutter_son front/house: 302 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/pine: 303 opaque pixels, 0 wrong
+PASS: woodcutter_son front/pine: 305 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/fence: 18 opaque pixels, 0 wrong
+PASS: woodcutter_son front/fence: 148 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/Hans: 296 opaque pixels, 0 wrong
+PASS: woodcutter_son front/Hans: 183 opaque pixels, 0 wrong
+PASS: old_man behind/house: 659 opaque pixels, 0 wrong
+PASS: old_man front/house: 655 opaque pixels, 0 wrong
+PASS: old_man behind/pine: 583 opaque pixels, 0 wrong
+PASS: old_man front/pine: 659 opaque pixels, 0 wrong
+PASS: old_man behind/fence: 32 opaque pixels, 0 wrong
+PASS: old_man front/fence: 256 opaque pixels, 0 wrong
+PASS: old_man behind/Hans: 426 opaque pixels, 0 wrong
+PASS: old_man front/Hans: 423 opaque pixels, 0 wrong
+RESULT: 24 resident depth checks passed, 0 failed
+
+--- dialogue-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: external UTF-8 graph loads with three branches and a shared ending
+PASS: reject a non-object graph root
+PASS: reject incomplete graph metadata
+PASS: reject duplicate line IDs
+PASS: reject missing start
+PASS: reject dangling transitions
+PASS: reject nonterminal dead ends
+PASS: reject non-string text
+PASS: reject malformed emotion map
+PASS: reject ambiguous terminal/next node
+PASS: reject an answer with both end and next
+PASS: reject duplicate answer IDs
+PASS: reject malformed choices
+PASS: reject non-boolean end flags
+PASS: malformed JSON returns a validation error without opening UI
+PASS: validated graph owns a deep copy
+PASS: normal F5 world has no dialogue window or idle input processing
+PASS: missing JSON fails without locking the player
+PASS: invalid graph cannot open a session
+PASS: new generic marker participates in the existing nearest/raycast sensor
+PASS: E opens through HutorInteractable and the existing world bridge
+PASS: window fades in and arms input
+PASS: opening E does not skip the typewriter
+PASS: held opener and key-repeat cannot skip or double advance
+PASS: second conversation cannot replace an active session
+PASS: held WASD produces no movement during dialogue
+PASS: camera remains exactly still, even with pending smoothing
+PASS: world interaction focus is suspended
+PASS: other world interaction requests are blocked while speaking
+PASS: released E reveals the full Cyrillic line and three answers
+PASS: missing character portrait uses the decorative fallback
+PASS: E cannot accidentally confirm an answer
+PASS: up wraps from first answer to last
+PASS: down chooses the second answer
+PASS: Enter confirms the selected branch and emits its stable choice ID
+PASS: one Enter reveals text without skipping its node
+PASS: next links continue the sequence
+PASS: input stays locked during fade-out
+PASS: terminal line closes the window and restores controls
+PASS: camera and sensor processing states are restored
+PASS: completion signal distinguishes a natural ending
+PASS: previously held movement resumes after closing
+PASS: reopen branch 0
+PASS: invalid choice index is ignored
+PASS: branch 0 has its own reply
+PASS: Escape closes conversation without pausing the world
+PASS: reopen branch 1
+PASS: invalid choice index is ignored
+PASS: branch 1 has its own reply
+PASS: Escape closes conversation without pausing the world
+PASS: reopen branch 2
+PASS: invalid choice index is ignored
+PASS: branch 2 has its own reply
+PASS: Escape closes conversation without pausing the world
+PASS: old inspection remains modal and prevents dialogue overlap
+PASS: old E inspection still closes and restores movement
+PASS: pause menu prevents starting a conversation
+PASS: existing pause resumes normally
+PASS: pre-existing external lock and sensor state are preserved
+PASS: emotion selects its own PNG texture
+PASS: portrait proportions and Nearest are explicit
+PASS: missing emotion falls back to the line's default PNG
+PASS: an answer may end a conversation directly
+PASS: an extension hook can cancel a choice without running a stale transition
+PASS: scene/actor removal safely tears down the modal session
+RESULT: 65 dialogue checks passed, 0 failed
+
+--- dialogue-render-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: opt-in demo initially shows a launch interaction, not an NPC or forced conversation
+PASS: actual mouse click opens the demo conversation
+PASS: real timewriter visibly advances before completion
+PASS: mouse cannot select an answer while its line is still printing
+PASS: real keyboard E reveals exactly one line
+PASS: rendered font supports Cyrillic glyphs
+PASS: greeting wraps naturally in the actual layout
+PASS: bottom window leaves the upper game world visible
+PASS: text and continuation hint stay within the authored frame
+PASS: all three demo answers fit without clipping
+PASS: actual mouse hit selects the third branch
+PASS: mouse selection does not leak into the legacy inspection UI
+PASS: Enter reveals the reply without double advancing via GUI focus
+PASS: Escape closes and restores the launch interaction
+PASS: focused launch interaction works with Enter without skipping the greeting
+PASS: very long Cyrillic text is preserved and scrollable inside its area
+PASS: many wrapped answers use their own scroll area
+PASS: keyboard navigation scrolls the last long answer into view
+PASS: transparent PNG loads in the portrait slot without adding a background
+PASS: mouse hit on a scrolled answer can finish the conversation
+PASS: integer 2x window stretch retains the approved 960x540 UI layout
+RESULT: 21 dialogue render checks passed, 0 failed
+
+--- hans-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: supplied frame count: walk_up
+PASS: native frame canvas: walk_up 0
+PASS: native frame canvas: walk_up 1
+PASS: native frame canvas: walk_up 2
+PASS: native frame canvas: walk_up 3
+PASS: native frame canvas: walk_up 4
+PASS: native frame canvas: walk_up 5
+PASS: supplied frame count: walk_down
+PASS: native frame canvas: walk_down 0
+PASS: native frame canvas: walk_down 1
+PASS: native frame canvas: walk_down 2
+PASS: native frame canvas: walk_down 3
+PASS: native frame canvas: walk_down 4
+PASS: native frame canvas: walk_down 5
+PASS: supplied frame count: walk_right
+PASS: native frame canvas: walk_right 0
+PASS: native frame canvas: walk_right 1
+PASS: native frame canvas: walk_right 2
+PASS: native frame canvas: walk_right 3
+PASS: native frame canvas: walk_right 4
+PASS: native frame canvas: walk_right 5
+PASS: native frame canvas: walk_right 6
+PASS: native frame canvas: walk_right 7
+PASS: supplied frame count: walk_left
+PASS: native frame canvas: walk_left 0
+PASS: native frame canvas: walk_left 1
+PASS: native frame canvas: walk_left 2
+PASS: native frame canvas: walk_left 3
+PASS: native frame canvas: walk_left 4
+PASS: native frame canvas: walk_left 5
+PASS: native frame canvas: walk_left 6
+PASS: native frame canvas: walk_left 7
+PASS: supplied frame count: idle_up
+PASS: native frame canvas: idle_up 0
+PASS: supplied frame count: idle_down
+PASS: native frame canvas: idle_down 0
+PASS: supplied frame count: idle_right
+PASS: native frame canvas: idle_right 0
+PASS: native frame canvas: idle_right 1
+PASS: native frame canvas: idle_right 2
+PASS: supplied frame count: idle_left
+PASS: native frame canvas: idle_left 0
+PASS: native frame canvas: idle_left 1
+PASS: native frame canvas: idle_left 2
+PASS: left reuses original right textures: walk_
+PASS: left reuses original right textures: idle_
+PASS: up idle uses a static original frame
+PASS: down idle uses a static original frame
+PASS: explicit nearest filtering
+PASS: native foot pivot maps to the body origin
+PASS: walking direction: left
+PASS: walking mirror: left
+PASS: uniform walking scale: left
+PASS: walking visits every supplied frame: left
+PASS: idle keeps facing: left
+PASS: idle mirror: left
+PASS: uniform idle scale: left
+PASS: idle visits all three original frames: left
+PASS: walking direction: right
+PASS: walking mirror: right
+PASS: uniform walking scale: right
+PASS: walking visits every supplied frame: right
+PASS: idle keeps facing: right
+PASS: idle mirror: right
+PASS: uniform idle scale: right
+PASS: idle visits all three original frames: right
+PASS: walking direction: up
+PASS: walking mirror: up
+PASS: uniform walking scale: up
+PASS: walking visits every supplied frame: up
+PASS: idle keeps facing: up
+PASS: idle mirror: up
+PASS: uniform idle scale: up
+PASS: walking direction: down
+PASS: walking mirror: down
+PASS: uniform walking scale: down
+PASS: walking visits every supplied frame: down
+PASS: idle keeps facing: down
+PASS: idle mirror: down
+PASS: uniform idle scale: down
+PASS: movement speed and collision layers preserved
+PASS: original collision shape and anchor preserved
+RESULT: 82 passed, 0 failed
+
+--- stage1-tests ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: three editable TileMapLayer nodes
+PASS: 1536 × 1152 terrain populated
+PASS: world and player collision layers
+PASS: four idle and four walking animations
+PASS: original walking frames: up
+PASS: original walking frames: down
+PASS: original walking frames: left
+PASS: original walking frames: right
+PASS: forward movement
+PASS: upward walking animation
+PASS: last facing direction retained at rest
+PASS: normalized diagonal movement
+PASS: house collision blocks passage at the doorway
+PASS: door interaction reachable outside collision
+PASS: E opens description and locks walking
+PASS: second E closes without immediately reopening
+PASS: reachable interaction: Старый колодец
+PASS: reachable interaction: Хозяйственный сарай
+PASS: reachable interaction: Тлеющий костёр
+PASS: reachable interaction: Дорога к хутору
+PASS: fence blocks crossing
+PASS: map boundary collision
+PASS: smooth camera and map limits
+PASS: camera viewport stays in bounds at (10.0, 10.0)
+PASS: camera viewport stays in bounds at (1526.0, 10.0)
+PASS: camera viewport stays in bounds at (10.0, 1142.0)
+PASS: camera viewport stays in bounds at (1526.0, 1142.0)
+PASS: solid collision: shed
+PASS: solid collision: well
+PASS: solid collision: pine_0
+PASS: solid collision: birch_0
+PASS: solid collision: rock
+PASS: solid collision: stump
+PASS: solid collision: barrel
+PASS: solid collision: logs
+PASS: solid collision: sign
+PASS: solid collision: lantern
+PASS: solid collision: fence_v
+PASS: five interaction components
+PASS: smoke, embers and atmospheric motes
+PASS: atmosphere toggle disables fog
+PASS: atmosphere toggle restores fog
+PASS: Esc pauses simulation
+PASS: Esc resumes simulation
+RESULT: 44 passed, 0 failed
+
+--- source-tests ---
+PASS: 7241 source/preservation checks; 658 original files; 3039 original nodes; 99 original frames; 4.78 MiB uncompressed NPC atlases
+
+--- review ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+
+--- benchmark ---
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: benchmark saved; max 2 solves/tick

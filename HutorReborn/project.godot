@@ -8,6 +8,7 @@ config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.png"
 [autoload]
 DialogueManager="*res://scripts/dialogue/dialogue_controller.gd"
+InteriorTravel="*res://scripts/interiors/interior_travel.gd"
 [display]
 window/size/viewport_width=960
 window/size/viewport_height=540

@@ -1,0 +1,73 @@
+{
+  "id": "resident_innkeeper_wife",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Жена трактирщика",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper_wife/portraits/anxious.png"
+      },
+      "text": "Чужака по сапогам видно. Долго тебя дорога водила?",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Всякое бывало в пути.",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "У вас тихое место.",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Жена трактирщика",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper_wife/portraits/anxious.png"
+      },
+      "text": "И у нас всякое бывает, только мы сперва друг друга слушаем.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Жена трактирщика",
+      "portrait": "",
+      "emotion": "joy",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper_wife/portraits/anxious.png"
+      },
+      "text": "Тихое — не значит пустое. На девять человек забот хватает.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Жена трактирщика",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper_wife/portraits/anxious.png"
+      },
+      "text": "Проходи осторожно, во дворе утварь стоит.",
+      "end": true
+    }
+  ]
+}

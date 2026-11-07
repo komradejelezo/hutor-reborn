@@ -1,0 +1,48 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://scripts/npc/npc_population.gd" id="p"]
+[ext_resource type="Script" path="res://scripts/npc/navigation_service.gd" id="n"]
+[ext_resource type="Resource" path="res://assets/npc/stage43/navigation.tres" id="d"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/elder.tscn" id="elder"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/innkeeper.tscn" id="innkeeper"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/innkeeper_wife.tscn" id="innkeeper_wife"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/woodcutter.tscn" id="woodcutter"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/woodcutter_wife.tscn" id="woodcutter_wife"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/woodcutter_son.tscn" id="woodcutter_son"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/herbalist.tscn" id="herbalist"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/herbalist_brother.tscn" id="herbalist_brother"]
+[ext_resource type="PackedScene" path="res://scenes/npc/residents/old_man.tscn" id="old_man"]
+
+[node name="Residents" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("p")
+
+[node name="Navigation" type="Node" parent="."]
+script = ExtResource("n")
+data = ExtResource("d")
+
+[node name="Elder" parent="." instance=ExtResource("elder")]
+position = Vector2(936.0, 808.0)
+
+[node name="Innkeeper" parent="." instance=ExtResource("innkeeper")]
+position = Vector2(1688.0, 2328.0)
+
+[node name="InnkeeperWife" parent="." instance=ExtResource("innkeeper_wife")]
+position = Vector2(1832.0, 2408.0)
+
+[node name="Woodcutter" parent="." instance=ExtResource("woodcutter")]
+position = Vector2(1720.0, 808.0)
+
+[node name="WoodcutterWife" parent="." instance=ExtResource("woodcutter_wife")]
+position = Vector2(1768.0, 872.0)
+
+[node name="WoodcutterSon" parent="." instance=ExtResource("woodcutter_son")]
+position = Vector2(1688.0, 840.0)
+
+[node name="Herbalist" parent="." instance=ExtResource("herbalist")]
+position = Vector2(1720.0, 1656.0)
+
+[node name="HerbalistBrother" parent="." instance=ExtResource("herbalist_brother")]
+position = Vector2(1768.0, 1672.0)
+
+[node name="OldMan" parent="." instance=ExtResource("old_man")]
+position = Vector2(552.0, 952.0)

@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/herbalist/frames.tres" id="1_qltul"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_h7q6b"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_bl33d"]
+
+[sub_resource type="Resource" id="Resource_46twu"]
+script = ExtResource("2_h7q6b")
+label = "Работа с травами"
+action = 1
+position = Vector2(520, 344)
+duration = 8.0
+animation = &"work_gather"
+
+[sub_resource type="Resource" id="Resource_evjm4"]
+script = ExtResource("2_h7q6b")
+label = "У полки"
+position = Vector2(552, 216)
+duration = 6.0
+
+[sub_resource type="Resource" id="Resource_xnjee"]
+script = ExtResource("2_h7q6b")
+label = "Проверить котёл"
+position = Vector2(648, 344)
+duration = 5.0
+
+[sub_resource type="Resource" id="Resource_4j3pk"]
+script = ExtResource("2_h7q6b")
+label = "У двери"
+position = Vector2(488, 456)
+duration = 0.6
+
+[resource]
+script = ExtResource("3_bl33d")
+id = &"herbalist"
+display_name = "Травница"
+behavior = 1
+speed = 29.0
+frames = ExtResource("1_qltul")
+routine = Array[ExtResource("2_h7q6b")]([SubResource("Resource_46twu"), SubResource("Resource_evjm4"), SubResource("Resource_xnjee"), SubResource("Resource_4j3pk")])
+dialogue_path = "res://dialogues/residents/herbalist.json"
+dialogue_id = "resident_herbalist"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

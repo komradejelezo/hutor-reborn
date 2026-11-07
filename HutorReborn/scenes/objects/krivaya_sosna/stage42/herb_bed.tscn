@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/stage42/herb_bed.png" id="1"]
+
+[node name="HerbBed" type="Node2D"]
+metadata/stage42_asset = "herb_bed"
+
+[node name="Art" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.0, 1.0)
+texture = ExtResource("1")
+centered = false
+offset = Vector2(-60, -94)

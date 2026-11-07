@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/herbalist_brother/frames.tres" id="1_pa4tv"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_jy6rx"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_0bnnx"]
+
+[sub_resource type="Resource" id="Resource_31cxx"]
+script = ExtResource("2_jy6rx")
+label = "Общий с сестрой дом"
+action = 0
+position = Vector2(1768, 1672)
+duration = 5.0
+
+[sub_resource type="Resource" id="Resource_gkaei"]
+script = ExtResource("2_jy6rx")
+label = "Дорога к лесной работе"
+action = 5
+position = Vector2(1800, 1304)
+duration = 1.0
+
+[sub_resource type="Resource" id="Resource_yvlul"]
+script = ExtResource("2_jy6rx")
+label = "Работа у восточной опушки"
+action = 1
+position = Vector2(2152, 1288)
+duration = 12.0
+facing = &"right"
+animation = &"work_chop"
+
+[sub_resource type="Resource" id="Resource_6x4lg"]
+script = ExtResource("2_jy6rx")
+label = "Возвращение по тропе"
+action = 5
+position = Vector2(1800, 1304)
+duration = 1.0
+
+[resource]
+script = ExtResource("3_0bnnx")
+id = &"herbalist_brother"
+display_name = "Брат травницы"
+behavior = 1
+speed = 37.0
+frames = ExtResource("1_pa4tv")
+routine = Array[ExtResource("2_jy6rx")]([SubResource("Resource_31cxx"), SubResource("Resource_gkaei"), SubResource("Resource_yvlul"), SubResource("Resource_6x4lg")])
+dialogue_path = "res://dialogues/residents/herbalist_brother.json"
+dialogue_id = "resident_herbalist_brother"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

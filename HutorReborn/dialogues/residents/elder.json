@@ -1,0 +1,73 @@
+{
+  "id": "resident_elder",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Староста",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+      },
+      "text": "Я за хутор отвечаю. Ты к кому, путник?",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Нужен ночлег.",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "Хочу осмотреться.",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Староста",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+      },
+      "text": "За воротами, у дороги, наш трактир. С хозяином и потолкуй.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Староста",
+      "portrait": "",
+      "emotion": "displeased",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+      },
+      "text": "По тропам ходи, дворы людям оставь. Мы к чужим сперва присматриваемся.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Староста",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/elder/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/elder/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/elder/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/elder/portraits/anxious.png"
+      },
+      "text": "Пока ты у нас — живи с людьми в ладу.",
+      "end": true
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "resident_herbalist_brother",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Брат травницы",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist_brother/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist_brother/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist_brother/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist_brother/portraits/anxious.png"
+      },
+      "text": "Если к сестре — она неподалёку. Я к работе иду.",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Вы вместе здесь живёте?",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "В лесу сейчас спокойно?",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Брат травницы",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist_brother/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist_brother/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist_brother/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist_brother/portraits/anxious.png"
+      },
+      "text": "Вместе. Дом старый, работы с ним хватает.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Брат травницы",
+      "portrait": "",
+      "emotion": "anxious",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist_brother/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist_brother/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist_brother/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist_brother/portraits/anxious.png"
+      },
+      "text": "На рабочей опушке привычно. Глубже мне без дела ходить незачем.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Брат травницы",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/herbalist_brother/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/herbalist_brother/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/herbalist_brother/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/herbalist_brother/portraits/anxious.png"
+      },
+      "text": "Мне пора. Ступай по дороге.",
+      "end": true
+    }
+  ]
+}

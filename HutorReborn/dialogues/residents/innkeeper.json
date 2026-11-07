@@ -1,0 +1,73 @@
+{
+  "id": "resident_innkeeper",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Трактирщик",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper/portraits/anxious.png"
+      },
+      "text": "Дорога пылью кормит, а добрый очаг — теплом. Чего ищешь, гость?",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Здесь часто бывают путники?",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "Что слышно в хуторе?",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Трактирщик",
+      "portrait": "",
+      "emotion": "joy",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper/portraits/anxious.png"
+      },
+      "text": "Бывают. Один больше молчит, другой всё о себе расскажет. Я обоим рад.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Трактирщик",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper/portraits/anxious.png"
+      },
+      "text": "Живём понемногу. Кто дрова считает, кто припасы. Молва обычно быстрее дела.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Трактирщик",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/innkeeper/portraits/anxious.png"
+      },
+      "text": "Будешь проходить — заглядывай. Разговор дорогу короче делает.",
+      "end": true
+    }
+  ]
+}

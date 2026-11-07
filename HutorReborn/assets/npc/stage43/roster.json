@@ -1,0 +1,623 @@
+[
+  {
+    "id": "elder",
+    "name": "Староста",
+    "behavior": "PATROL",
+    "speed": 30,
+    "spawn": [
+      936,
+      805
+    ],
+    "routine": [
+      {
+        "label": "У своего дома",
+        "position": [
+          936,
+          805
+        ],
+        "action": "HOME",
+        "duration": 7,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Осмотреть двор",
+        "position": [
+          936,
+          920
+        ],
+        "action": "WALK",
+        "duration": 3,
+        "facing": "right",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Верхняя дорога",
+        "position": [
+          1390,
+          920
+        ],
+        "action": "MOVE",
+        "duration": 0.5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Центральная дорога",
+        "position": [
+          1440,
+          1370
+        ],
+        "action": "MOVE",
+        "duration": 0.5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Осмотреть площадь",
+        "position": [
+          1378,
+          1442
+        ],
+        "action": "REST",
+        "duration": 7,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Возвращение во двор",
+        "position": [
+          936,
+          920
+        ],
+        "action": "MOVE",
+        "duration": 0.5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/elder.json",
+    "dialogue_id": "resident_elder"
+  },
+  {
+    "id": "innkeeper",
+    "name": "Трактирщик",
+    "behavior": "WORKER",
+    "speed": 28,
+    "spawn": [
+      1688,
+      2325
+    ],
+    "routine": [
+      {
+        "label": "Вход в трактир",
+        "position": [
+          1688,
+          2248
+        ],
+        "action": "HOME",
+        "duration": 5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Проверить бочки",
+        "position": [
+          1860,
+          2320
+        ],
+        "action": "WORK",
+        "duration": 7,
+        "facing": "down",
+        "animation": "work_wipe",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Коновязь",
+        "position": [
+          1490,
+          2360
+        ],
+        "action": "WALK",
+        "duration": 5,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Перед трактиром",
+        "position": [
+          1688,
+          2325
+        ],
+        "action": "REST",
+        "duration": 4,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/innkeeper.json",
+    "dialogue_id": "resident_innkeeper"
+  },
+  {
+    "id": "innkeeper_wife",
+    "name": "Жена трактирщика",
+    "behavior": "WORKER",
+    "speed": 34,
+    "spawn": [
+      1830,
+      2410
+    ],
+    "routine": [
+      {
+        "label": "У входа",
+        "position": [
+          1748,
+          2250
+        ],
+        "action": "HOME",
+        "duration": 4,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Хозяйственный двор",
+        "position": [
+          1990,
+          2355
+        ],
+        "action": "WORK",
+        "duration": 8,
+        "facing": "left",
+        "animation": "work_sweep",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Припасы",
+        "position": [
+          1900,
+          2405
+        ],
+        "action": "REST",
+        "duration": 4,
+        "facing": "up",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Перед трактиром",
+        "position": [
+          1780,
+          2375
+        ],
+        "action": "WALK",
+        "duration": 2,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/innkeeper_wife.json",
+    "dialogue_id": "resident_innkeeper_wife"
+  },
+  {
+    "id": "woodcutter",
+    "name": "Дровосек",
+    "behavior": "WORKER",
+    "speed": 36,
+    "spawn": [
+      1713,
+      810
+    ],
+    "routine": [
+      {
+        "label": "У своего дома",
+        "position": [
+          1713,
+          810
+        ],
+        "action": "HOME",
+        "duration": 5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Дорога к лесу",
+        "position": [
+          1905,
+          925
+        ],
+        "action": "MOVE",
+        "duration": 0.5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Разрешённое место рубки",
+        "position": [
+          2080,
+          980
+        ],
+        "action": "WORK",
+        "duration": 12,
+        "facing": "right",
+        "animation": "work_chop",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Привал у опушки",
+        "position": [
+          1960,
+          955
+        ],
+        "action": "REST",
+        "duration": 4,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/woodcutter.json",
+    "dialogue_id": "resident_woodcutter"
+  },
+  {
+    "id": "woodcutter_wife",
+    "name": "Жена дровосека",
+    "behavior": "WORKER",
+    "speed": 32,
+    "spawn": [
+      1770,
+      870
+    ],
+    "routine": [
+      {
+        "label": "Домашние дела",
+        "position": [
+          1770,
+          870
+        ],
+        "action": "HOME",
+        "duration": 4,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Подмести у поленницы",
+        "position": [
+          1800,
+          850
+        ],
+        "action": "WORK",
+        "duration": 7,
+        "facing": "right",
+        "animation": "work_sweep",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Поговорить с сыном",
+        "position": [
+          1745,
+          895
+        ],
+        "action": "TALK",
+        "duration": 4,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": "woodcutter_son"
+      },
+      {
+        "label": "Отдохнуть во дворе",
+        "position": [
+          1640,
+          875
+        ],
+        "action": "REST",
+        "duration": 4,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/woodcutter_wife.json",
+    "dialogue_id": "resident_woodcutter_wife"
+  },
+  {
+    "id": "woodcutter_son",
+    "name": "Сын дровосека",
+    "behavior": "CHILD",
+    "speed": 62,
+    "spawn": [
+      1680,
+      840
+    ],
+    "radius": 4,
+    "bounds": [
+      1540,
+      740,
+      380,
+      210
+    ],
+    "notices_player": true,
+    "routine": [
+      {
+        "label": "У дома",
+        "position": [
+          1713,
+          825
+        ],
+        "action": "HOME",
+        "duration": 1,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Игра во дворе",
+        "position": [
+          1685,
+          895
+        ],
+        "action": "REST",
+        "duration": 4,
+        "facing": "down",
+        "animation": "work_play",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Пробежка",
+        "position": [
+          1770,
+          910
+        ],
+        "action": "WALK",
+        "duration": 0.7,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Рядом с матерью",
+        "position": [
+          1745,
+          865
+        ],
+        "action": "TALK",
+        "duration": 2,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": "woodcutter_wife"
+      },
+      {
+        "label": "Обратно во двор",
+        "position": [
+          1640,
+          840
+        ],
+        "action": "WALK",
+        "duration": 1,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/woodcutter_son.json",
+    "dialogue_id": "resident_woodcutter_son"
+  },
+  {
+    "id": "herbalist",
+    "name": "Травница",
+    "behavior": "WORKER",
+    "speed": 29,
+    "spawn": [
+      1717,
+      1660
+    ],
+    "routine": [
+      {
+        "label": "У ветхого дома",
+        "position": [
+          1717,
+          1660
+        ],
+        "action": "HOME",
+        "duration": 6,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Лекарственные грядки",
+        "position": [
+          1910,
+          1660
+        ],
+        "action": "WORK",
+        "duration": 7,
+        "facing": "right",
+        "animation": "work_gather",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Тропа к опушке",
+        "position": [
+          2010,
+          1730
+        ],
+        "action": "MOVE",
+        "duration": 1,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Собрать травы у леса",
+        "position": [
+          2150,
+          1720
+        ],
+        "action": "WORK",
+        "duration": 10,
+        "facing": "right",
+        "animation": "work_gather",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/herbalist.json",
+    "dialogue_id": "resident_herbalist"
+  },
+  {
+    "id": "herbalist_brother",
+    "name": "Брат травницы",
+    "behavior": "WORKER",
+    "speed": 37,
+    "spawn": [
+      1760,
+      1670
+    ],
+    "routine": [
+      {
+        "label": "Общий с сестрой дом",
+        "position": [
+          1760,
+          1670
+        ],
+        "action": "HOME",
+        "duration": 5,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Дорога к лесной работе",
+        "position": [
+          1800,
+          1300
+        ],
+        "action": "MOVE",
+        "duration": 1,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Работа у восточной опушки",
+        "position": [
+          2145,
+          1285
+        ],
+        "action": "WORK",
+        "duration": 12,
+        "facing": "right",
+        "animation": "work_chop",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Возвращение по тропе",
+        "position": [
+          1800,
+          1300
+        ],
+        "action": "MOVE",
+        "duration": 1,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/herbalist_brother.json",
+    "dialogue_id": "resident_herbalist_brother"
+  },
+  {
+    "id": "old_man",
+    "name": "Старик с трубкой",
+    "behavior": "ELDER",
+    "speed": 18,
+    "spawn": [
+      555,
+      945
+    ],
+    "bounds": [
+      410,
+      890,
+      310,
+      170
+    ],
+    "pipe_smoke": true,
+    "routine": [
+      {
+        "label": "У Кривой сосны",
+        "position": [
+          560,
+          917
+        ],
+        "action": "REST",
+        "duration": 9,
+        "facing": "right",
+        "animation": "work_smoke",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Медленная прогулка",
+        "position": [
+          650,
+          952
+        ],
+        "action": "WALK",
+        "duration": 3,
+        "facing": "left",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Покурить у тропы",
+        "position": [
+          630,
+          1010
+        ],
+        "action": "REST",
+        "duration": 10,
+        "facing": "left",
+        "animation": "work_smoke",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Рядом с корнями",
+        "position": [
+          560,
+          980
+        ],
+        "action": "WALK",
+        "duration": 2,
+        "facing": "down",
+        "animation": "",
+        "look_at_npc": ""
+      },
+      {
+        "label": "Короткий отдых",
+        "position": [
+          550,
+          945
+        ],
+        "action": "REST",
+        "duration": 5,
+        "facing": "right",
+        "animation": "work_smoke",
+        "look_at_npc": ""
+      }
+    ],
+    "dialogue_path": "res://dialogues/residents/old_man.json",
+    "dialogue_id": "resident_old_man"
+  }
+]

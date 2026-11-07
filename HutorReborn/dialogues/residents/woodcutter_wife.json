@@ -1,0 +1,73 @@
+{
+  "id": "resident_woodcutter_wife",
+  "start": "greeting",
+  "nodes": [
+    {
+      "id": "greeting",
+      "speaker": "Жена дровосека",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+      },
+      "text": "Столько дел, что день короток. А ты с дороги?",
+      "choices": [
+        {
+          "id": "answer_1",
+          "text": "Да, только пришёл.",
+          "next": "reply_1"
+        },
+        {
+          "id": "answer_2",
+          "text": "Сын у тебя бойкий.",
+          "next": "reply_2"
+        }
+      ]
+    },
+    {
+      "id": "reply_1",
+      "speaker": "Жена дровосека",
+      "portrait": "",
+      "emotion": "anxious",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+      },
+      "text": "Тогда сперва отдышись. На усталую голову всё труднее.",
+      "next": "closing"
+    },
+    {
+      "id": "reply_2",
+      "speaker": "Жена дровосека",
+      "portrait": "",
+      "emotion": "joy",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+      },
+      "text": "Любопытный. Пока возле дома бегает — мне спокойнее.",
+      "next": "closing"
+    },
+    {
+      "id": "closing",
+      "speaker": "Жена дровосека",
+      "portrait": "",
+      "emotion": "neutral",
+      "portraits": {
+        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
+        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
+        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+      },
+      "text": "Ладно, заговорилась я. Хозяйство не ждёт.",
+      "end": true
+    }
+  ]
+}
