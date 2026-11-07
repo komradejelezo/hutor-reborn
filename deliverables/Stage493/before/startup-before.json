@@ -1,0 +1,52 @@
+{
+  "active_id": "",
+  "busy": false,
+  "camera_zoom": [
+    1.0,
+    1.0
+  ],
+  "checks": {
+    "clock_running": false,
+    "configured_main": true,
+    "life_initialized": false,
+    "nine_residents": false,
+    "six_registered_doors": false,
+    "travel_bound": false
+  },
+  "clock": 420.0,
+  "clock_speed": 1.0,
+  "dialogue": false,
+  "doors": {
+
+  },
+  "entry": [],
+  "hero": 270817834397,
+  "info": false,
+  "locked": false,
+  "position": [
+    1378.0,
+    1442.0
+  ],
+  "project": "/workspace/work/stage493/baseline_project/",
+  "prompt": "",
+  "residents": {
+
+  },
+  "route": {
+
+  },
+  "target": "",
+  "tick": 12,
+  "transitions": [
+    {
+      "hero": 270817834397,
+      "minute": 420.0,
+      "position": [
+        1378.0,
+        1442.0
+      ],
+      "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+    }
+  ],
+  "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+}

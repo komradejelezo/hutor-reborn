@@ -1,0 +1,76 @@
+{
+  "base_commit": "9c8c14cb8dcf909e5410e7d7a1bcf73ffe038871",
+  "engine": "Godot 4.6.3 stable official",
+  "native_platform": "Linux Xorg / XTest / Mesa llvmpipe; Compatibility renderer",
+  "gameplay_changes": [
+    "HutorReborn/scripts/interiors/interior_travel.gd",
+    "HutorReborn/scripts/life/village_life.gd"
+  ],
+  "preserved_original_files": 1299,
+  "native": {
+    "configured_main_without_script": true,
+    "input": "OS XTest WASD/E/F7/Esc; no teleport, scene calls, time seek or synthetic Godot events",
+    "observer": "Optional temporary read-only autoload; override.cfg removed after test",
+    "six_house_roundtrips": true,
+    "npc_checks_passed": 13,
+    "stationary_hans_obstructions": 3,
+    "all_nine_logical_homes_observed_at_game_time": "19:32",
+    "actual_indoor_returning_actor": "herbalist_brother; same instance, dialogue and portrait",
+    "videos": [
+      "videos/workers-evening.mp4",
+      "videos/workers-morning.mp4"
+    ]
+  },
+  "programmatic": {
+    "normal_startup": {
+      "passed": 6,
+      "failed": 0
+    },
+    "interior_content": {
+      "passed": 54,
+      "failed": 0
+    },
+    "worker_speed": {
+      "passed": 11,
+      "failed": 0
+    },
+    "doors": {
+      "passed": 335,
+      "failed": 0
+    },
+    "daily_lifecycle": {
+      "passed": 163,
+      "failed": 0
+    },
+    "live_day": {
+      "passed": 34,
+      "failed": 0
+    },
+    "obstacles": {
+      "passed": 14,
+      "failed": 0
+    },
+    "fresh_cache_import": "passed",
+    "literal_resource_references_checked": 1842
+  },
+  "before_expected_failures": {
+    "normal_startup": {
+      "passed": 1,
+      "failed": 5
+    },
+    "worker_speed": {
+      "passed": 7,
+      "failed": 4
+    },
+    "native_elder_E": "information card shown instead of entering; before PNGs"
+  },
+  "limitations": [
+    "Native tests are automated real-window Linux play, not a human Windows editor playthrough.",
+    "Only brother arrival/dialogue was directly watched inside; all nine logical home states and scene identities checked, all other residents exercised programmatically.",
+    "No active nested project exists here; deleted local user copy unavailable for historical portrait-conflict diagnosis.",
+    "Three actual route blocks and bounded obstacle unit tests cannot exhaust all dynamic crowd arrangements."
+  ],
+  "warnings": [
+    "V-Sync mode unsupported by software X11 driver; game console has no script/load/runtime errors."
+  ]
+}

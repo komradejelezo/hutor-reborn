@@ -1,0 +1,57 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: inn exists as separate PackedScene
+PASS: inn nonempty editable floor
+PASS: inn nonempty walls
+PASS: inn furnished room rather than placeholder
+PASS: inn substantial physical collisions
+PASS: inn real interior lighting
+PASS: inn entry, exit and playable Hans/camera
+PASS: inn navigation and defined NPC places
+PASS: inn matches registered building identity
+PASS: elder exists as separate PackedScene
+PASS: elder nonempty editable floor
+PASS: elder nonempty walls
+PASS: elder furnished room rather than placeholder
+PASS: elder substantial physical collisions
+PASS: elder real interior lighting
+PASS: elder entry, exit and playable Hans/camera
+PASS: elder navigation and defined NPC places
+PASS: elder matches registered building identity
+PASS: herbalist exists as separate PackedScene
+PASS: herbalist nonempty editable floor
+PASS: herbalist nonempty walls
+PASS: herbalist furnished room rather than placeholder
+PASS: herbalist substantial physical collisions
+PASS: herbalist real interior lighting
+PASS: herbalist entry, exit and playable Hans/camera
+PASS: herbalist navigation and defined NPC places
+PASS: herbalist matches registered building identity
+PASS: woodcutter exists as separate PackedScene
+PASS: woodcutter nonempty editable floor
+PASS: woodcutter nonempty walls
+PASS: woodcutter furnished room rather than placeholder
+PASS: woodcutter substantial physical collisions
+PASS: woodcutter real interior lighting
+PASS: woodcutter entry, exit and playable Hans/camera
+PASS: woodcutter navigation and defined NPC places
+PASS: woodcutter matches registered building identity
+PASS: old_man exists as separate PackedScene
+PASS: old_man nonempty editable floor
+PASS: old_man nonempty walls
+PASS: old_man furnished room rather than placeholder
+PASS: old_man substantial physical collisions
+PASS: old_man real interior lighting
+PASS: old_man entry, exit and playable Hans/camera
+PASS: old_man navigation and defined NPC places
+PASS: old_man matches registered building identity
+PASS: storehouse exists as separate PackedScene
+PASS: storehouse nonempty editable floor
+PASS: storehouse nonempty walls
+PASS: storehouse furnished room rather than placeholder
+PASS: storehouse substantial physical collisions
+PASS: storehouse real interior lighting
+PASS: storehouse entry, exit and playable Hans/camera
+PASS: storehouse navigation and defined NPC places
+PASS: storehouse matches registered building identity
+RESULT: 54 interior-content checks passed, 0 failed

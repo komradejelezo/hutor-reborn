@@ -42,6 +42,9 @@ func _ready() -> void:
     clock.sought.connect(_scrub)
     get_node("/root/DialogueManager").dialogue_finished.connect(func(_id: String,_reason: String):_tick.call_deferred(clock.absolute_minutes))
     get_tree().root.child_entered_tree.connect(_root_added)
+    # F5 starts with the main scene already in the tree before autoload _ready.
+    # --script fixtures add it later; subscribe AND bind the existing scene.
+    if is_instance_valid(get_tree().current_scene): _root_added(get_tree().current_scene)
 
 func _root_added(node: Node) -> void:
     if node.scene_file_path==travel.VILLAGE:_bootstrap.call_deferred(node)
@@ -310,6 +313,11 @@ func _materialize(record: HutorDailyResidentState) -> void:
         record.pending_entry=true
         return
     record.pending_entry=false
+    if record.mode in [&"boundary_in",&"boundary_out"]:
+        # A first appearance after virtual work still owns the source resource.
+        # Give manual boundary movement its own definition before any F7 signal.
+        record.actor.definition=_definition(record)
+        record.actor.get_node("AnimatedSprite2D").sprite_frames=record.actor.definition.frames
     record.actor.reparent(population,false)
     record.actor.set_physics_process(true)
     materializations+=1
@@ -493,6 +501,8 @@ func _speed_changed(_value: float) -> void:
     if not initialized:return
     for record:HutorDailyResidentState in states.values():
         if _active(record):
+            if record.actor.definition==record.original:
+                record.actor.definition=record.original.duplicate()
             record.actor.definition.speed=record.original.speed*clock.speed*(record.schedule.get("run_multiplier",1.0) if record.id==&"woodcutter_son" else 1.0)
             record.actor.wait_time_scale=clock.speed
     _update_widget()

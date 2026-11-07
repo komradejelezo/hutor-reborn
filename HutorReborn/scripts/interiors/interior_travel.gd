@@ -36,6 +36,9 @@ func _ready() -> void:
     _overlay.add_child(_fade); _fade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
     _fade.modulate.a = 0; _fade.hide()
     get_tree().root.child_entered_tree.connect(_root_added)
+    # F5 starts with the main scene already in the tree before autoload _ready.
+    # --script fixtures add it later; subscribe AND bind the existing scene.
+    if is_instance_valid(get_tree().current_scene): _root_added(get_tree().current_scene)
 
 func _root_added(node: Node) -> void:
     if node.scene_file_path == VILLAGE: _bind_village.call_deferred(node)

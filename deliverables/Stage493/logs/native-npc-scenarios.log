@@ -1,0 +1,32 @@
+NATIVE morning-inn-approach [1684.84631347656, 2294.94287109375]
+PASS: workers first become visible only after a completely virtual morning departure
+NATIVE morning-inn-exit [480.0, 498.0]
+NATIVE north-observation-point [1475.20434570312, 297.071716308594]
+PASS: both original workers physically return from logging
+NATIVE screenshot workers-evening-return.png
+PASS: native F7 reset restores actual worker speeds without mutating source data
+NATIVE stand-on-route-1 [1452.51098632812, 268.111450195312]
+PASS: native route obstruction 1: NPC continues without pushing Hans
+NATIVE screenshot hans-block-1.png
+NATIVE stand-on-route-2 [1452.51098632812, 451.413116455078]
+PASS: native route obstruction 2: NPC continues without pushing Hans
+NATIVE screenshot hans-block-2.png
+NATIVE stand-on-route-3 [1452.51098632812, 661.345458984375]
+PASS: native route obstruction 3: NPC continues without pushing Hans
+NATIVE screenshot hans-block-3.png
+NATIVE reach-herbalist-before-brother [1719.77856445312, 1659.98046875]
+NATIVE clear-inner-entry-for-resident [476.676635742188, 434.634155273438]
+PASS: same returning brother becomes visible in correct interior
+PASS: nine unique residents across native scene transitions
+NATIVE screenshot brother-home-arrival.png
+NATIVE approach-returned-resident [337.002014160156, 361.520141601562]
+NATIVE screenshot returned-resident-dialogue.png
+PASS: real E dialogue opens after indoor arrival
+PASS: returned resident resumes after native dialogue
+NATIVE exit-herbalist-after-dialogue [477.056640625, 463.974426269531]
+NATIVE return-to-north-for-next-morning [1474.81811523438, 299.311767578125]
+NATIVE workers-seen-leaving
+PASS: both workers followed along the real northern exit route
+PASS: same workers leave visible map and enter logical logging state
+PASS: all nine IDs persist for evening, dialogue and next morning
+RESULT: 13 native NPC scenarios passed
