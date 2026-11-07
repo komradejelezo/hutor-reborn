@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="HutorNpcDefinition" format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/npc/stage43/woodcutter_wife/frames.tres" id="1_i0nv3"]
+[ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_0n48l"]
+[ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_5g8oq"]
+
+[sub_resource type="Resource" id="Resource_muckw"]
+script = ExtResource("2_0n48l")
+label = "Кухонная зона"
+position = Vector2(584, 312)
+duration = 7.0
+
+[sub_resource type="Resource" id="Resource_6aphn"]
+script = ExtResource("2_0n48l")
+label = "Прибрать комнату"
+action = 1
+position = Vector2(616, 408)
+duration = 5.0
+animation = &"work_sweep"
+
+[sub_resource type="Resource" id="Resource_gy7mm"]
+script = ExtResource("2_0n48l")
+label = "У выхода"
+position = Vector2(488, 424)
+duration = 0.6
+
+[resource]
+script = ExtResource("3_5g8oq")
+id = &"woodcutter_wife"
+display_name = "Жена дровосека"
+behavior = 1
+frames = ExtResource("1_i0nv3")
+routine = Array[ExtResource("2_0n48l")]([SubResource("Resource_muckw"), SubResource("Resource_6aphn"), SubResource("Resource_gy7mm")])
+dialogue_path = "res://dialogues/residents/woodcutter_wife.json"
+dialogue_id = "resident_woodcutter_wife"
+art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

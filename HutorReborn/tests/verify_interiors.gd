@@ -46,7 +46,7 @@ func run() -> void:
     var original_limits:=[camera.limit_left,camera.limit_top,camera.limit_right,camera.limit_bottom,camera.position]
     var original_ids:=all_residents()
     check(original_ids.size()==9,"nine original resident objects")
-    check(travel.buildings.size()==3,"exactly three configured buildings")
+    check(travel.buildings.size()==6,"six configured buildings, including the three unchanged 4.4 interiors")
     for id in [&"inn",&"elder",&"herbalist"]:
         var data:HutorBuildingDefinition=travel.buildings[id]
         var door:HutorInteractable=world.get_node(data.exterior_anchor).get_node("InteriorDoor")

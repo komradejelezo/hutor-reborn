@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HutorBuildingDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/building_definition.gd" id="1_j5mgu"]
+
+[resource]
+script = ExtResource("1_j5mgu")
+id = &"woodcutter"
+display_name = "Дом семьи дровосека"
+interior_scene = "res://scenes/interiors/woodcutter.tscn"
+exterior_anchor = NodePath("Actors/Structures/MillerHouse/Entrance")
+residents = Array[StringName]([&"woodcutter", &"woodcutter_wife", &"woodcutter_son"])
