@@ -1,6 +1,8 @@
 extends "res://tests/verify_environment_depth.gd"
 ## Opaque raster comparison through the actual nested world/population Y-sort.
 func run() -> void:
+    # Isolate the approved pre-schedule component fixture. Live residency has separate integration coverage.
+    root.get_node("VillageLife").enabled=false
     root.size=Vector2i(320,256)
     root.content_scale_size=root.size
     root.transparent_bg=true
@@ -9,7 +11,7 @@ func run() -> void:
     world.atmosphere.set_effects_enabled(false)
     for light in world.find_children("*","PointLight2D",true,false):light.enabled=false
     for modulate in world.find_children("*","CanvasModulate",true,false):modulate.color=Color.WHITE
-    for group in ["Ground","Ground Details","Ground Objects","Foreground","HUD"]:world.get_node(group).hide()
+    for group in ["Ground","Ground Details","Ground Objects","Extension Ground","New Paths","Foreground","HUD"]:world.get_node(group).hide()
     for group in ["Structures","Nature","Props"]:
         for child in world.get_node("Actors/"+group).get_children():child.hide()
     var population:Node2D=world.get_node("Actors/Residents")

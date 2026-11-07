@@ -1,0 +1,73 @@
+{
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "base_commit": "945a07acbc819cc68c951ba0fcb8528b4afe6f61",
+  "checks": [
+    {
+      "test": "daily-cycle",
+      "result": "RESULT: 32 daily-cycle checks passed, 0 failed"
+    },
+    {
+      "test": "lifecycle",
+      "result": "RESULT: 163 daily-lifecycle checks passed, 0 failed"
+    },
+    {
+      "test": "routes",
+      "result": "RESULT: 380 daily-route checks passed, 0 failed"
+    },
+    {
+      "test": "preview-live",
+      "result": "RESULT: 7 live-preview checks passed, 0 failed"
+    },
+    {
+      "test": "recovery",
+      "result": "RESULT: 10 resident recovery checks passed, 0 failed"
+    },
+    {
+      "test": "verify_hans",
+      "result": "RESULT: 82 passed, 0 failed"
+    },
+    {
+      "test": "verify_dialogue",
+      "result": "RESULT: 65 dialogue checks passed, 0 failed"
+    },
+    {
+      "test": "verify_residents",
+      "result": "RESULT: 137 resident checks passed, 0 failed"
+    },
+    {
+      "test": "verify_remaining_interiors",
+      "result": "RESULT: 280 remaining-interior checks passed, 0 failed"
+    },
+    {
+      "test": "verify_interior_lifecycle",
+      "result": "RESULT: 101 lifecycle/physics checks passed, 0 failed; 29 furniture bodies, 17 waypoints"
+    },
+    {
+      "test": "verify_six_interior_previews",
+      "result": "RESULT: 48 six-room preview checks passed, 0 failed"
+    },
+    {
+      "test": "verify_resident_depth",
+      "result": "RESULT: 24 resident depth checks passed, 0 failed"
+    },
+    {
+      "test": "verify_remaining_depth",
+      "result": "RESULT: 28 remaining-interior depth checks passed, 0 failed"
+    },
+    {
+      "test": "verify_interior_depth",
+      "result": "RESULT: 20 interior depth checks passed, 0 failed"
+    }
+  ],
+  "source_audit": {
+    "checks": 1405,
+    "frozen_old_files": 921,
+    "additional_original_frames": 36
+  },
+  "clean_import": {
+    "result": "passed without .godot cache",
+    "command": "godot --headless --editor --single-threaded-scene --path HutorReborn --import",
+    "environment_note": "Initial default-threaded font import crashed; retry with single-threaded-scene succeeded. See import-diagnostics log."
+  },
+  "clean_day_cycle": "32 checks passed, 0 failed"
+}

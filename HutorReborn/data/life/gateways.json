@@ -1,0 +1,17 @@
+[
+  {
+    "id": "north_logging",
+    "source": "village",
+    "virtual_destination": "logging",
+    "position": [
+      1384,
+      24
+    ],
+    "direction": [
+      0,
+      -1
+    ],
+    "outside_distance": 64,
+    "future_scene": ""
+  }
+]

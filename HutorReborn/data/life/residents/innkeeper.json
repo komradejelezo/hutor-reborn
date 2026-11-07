@@ -1,0 +1,137 @@
+{
+  "id": "innkeeper",
+  "home": "inn",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            780,
+            220
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "prepare_inn",
+          "point": [
+            456,
+            200
+          ],
+          "minutes": 10,
+          "clip": "work_wipe",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
+        },
+        {
+          "id": "check_supplies",
+          "point": [
+            800,
+            360
+          ],
+          "minutes": 8,
+          "clip": "work_taste",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "wipe_mug",
+          "point": [
+            456,
+            200
+          ],
+          "minutes": 12,
+          "clip": "work_wipe",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
+        },
+        {
+          "id": "arrange_dishes",
+          "point": [
+            520,
+            200
+          ],
+          "minutes": 8,
+          "clip": "work_wipe",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "wipe_mug",
+          "point": [
+            456,
+            200
+          ],
+          "minutes": 12,
+          "clip": "work_wipe",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
+        },
+        {
+          "id": "visit_tables",
+          "point": [
+            570,
+            440
+          ],
+          "minutes": 7,
+          "clip": "work_taste",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            780,
+            220
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ]
+}

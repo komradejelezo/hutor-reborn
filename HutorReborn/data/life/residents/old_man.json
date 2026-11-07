@@ -1,0 +1,108 @@
+{
+  "id": "old_man",
+  "home": "old_man",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "old_man",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            410,
+            390
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "slow_walk",
+          "point": [
+            560,
+            917
+          ],
+          "minutes": 8,
+          "clip": "work_smoke",
+          "facing": "right"
+        },
+        {
+          "id": "sit_and_smoke",
+          "point": [
+            630,
+            1010
+          ],
+          "minutes": 16,
+          "clip": "work_sit",
+          "facing": "right"
+        },
+        {
+          "id": "ponder",
+          "point": [
+            650,
+            952
+          ],
+          "minutes": 10,
+          "clip": "work_think",
+          "facing": "down"
+        },
+        {
+          "id": "watch_hans",
+          "point": [
+            550,
+            945
+          ],
+          "minutes": 8,
+          "clip": "work_smoke",
+          "facing": "right"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "old_man",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_by_hearth",
+          "point": "NPCPoints/ChairRest",
+          "minutes": 15,
+          "clip": "work_smoke",
+          "facing": "right"
+        },
+        {
+          "id": "read_old_papers",
+          "point": "NPCPoints/Reading",
+          "minutes": 10,
+          "clip": "work_think",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "old_man",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            410,
+            390
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "woodcutter_son",
+  "home": "woodcutter",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            420,
+            324
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "home_play",
+          "point": "NPCPoints/ChildPlay",
+          "minutes": 6,
+          "clip": "work_play",
+          "facing": "down"
+        },
+        {
+          "id": "near_mother",
+          "point": [
+            604,
+            355
+          ],
+          "minutes": 3,
+          "clip": "",
+          "facing": "down",
+          "partner": "woodcutter_wife"
+        }
+      ]
+    },
+    {
+      "start": 480,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "play_stick",
+          "point": [
+            1685,
+            895
+          ],
+          "minutes": 7,
+          "clip": "work_play",
+          "facing": "down"
+        },
+        {
+          "id": "run_yard",
+          "point": [
+            1770,
+            910
+          ],
+          "minutes": 1,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "kneel_toy",
+          "point": [
+            1640,
+            840
+          ],
+          "minutes": 5,
+          "clip": "work_kneel",
+          "facing": "down"
+        },
+        {
+          "id": "visit_mother",
+          "point": [
+            1745,
+            865
+          ],
+          "minutes": 4,
+          "clip": "",
+          "facing": "down",
+          "partner": "woodcutter_wife"
+        }
+      ]
+    },
+    {
+      "start": 660,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "run_to_tree",
+          "point": [
+            1585,
+            1000
+          ],
+          "minutes": 1,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "play_stick",
+          "point": [
+            1550,
+            1020
+          ],
+          "minutes": 6,
+          "clip": "work_play",
+          "facing": "down"
+        },
+        {
+          "id": "run_path",
+          "point": [
+            1480,
+            1370
+          ],
+          "minutes": 1,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "inspect_well",
+          "point": [
+            1320,
+            1580
+          ],
+          "minutes": 5,
+          "clip": "work_kneel",
+          "facing": "down"
+        },
+        {
+          "id": "look_at_hans",
+          "point": [
+            1370,
+            1530
+          ],
+          "minutes": 3,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "return_yard",
+          "point": [
+            1680,
+            895
+          ],
+          "minutes": 4,
+          "clip": "work_play",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "play_stick",
+          "point": [
+            1685,
+            895
+          ],
+          "minutes": 7,
+          "clip": "work_play",
+          "facing": "down"
+        },
+        {
+          "id": "run_yard",
+          "point": [
+            1770,
+            910
+          ],
+          "minutes": 1,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "kneel_toy",
+          "point": [
+            1640,
+            840
+          ],
+          "minutes": 5,
+          "clip": "work_kneel",
+          "facing": "down"
+        },
+        {
+          "id": "visit_mother",
+          "point": [
+            1745,
+            865
+          ],
+          "minutes": 4,
+          "clip": "",
+          "facing": "down",
+          "partner": "woodcutter_wife"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "home_play",
+          "point": "NPCPoints/ChildPlay",
+          "minutes": 5,
+          "clip": "work_play",
+          "facing": "down"
+        },
+        {
+          "id": "family_meal",
+          "point": [
+            604,
+            400
+          ],
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            420,
+            324
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ],
+  "safe_village_rect": [
+    1180,
+    740,
+    730,
+    970
+  ],
+  "run_multiplier": 1.25
+}

@@ -1,0 +1,19 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+pine-smoking old_man (632.0, 1032.0) 2 sit_and_smoke visible=true clip=work_sit
+child-playing woodcutter_son (1640.0, 840.0) 2 kneel_toy visible=true clip=work_kneel
+child-playing herbalist (2152.0, 1720.0) 2 inspect_plants visible=true clip=work_inspect
+child-playing old_man (568.0, 920.0) 2 slow_walk visible=true clip=work_smoke
+woodcutter-work woodcutter (408.0, 392.0) 2 prepare_work visible=true clip=idle_down
+woodcutter-work woodcutter_wife (568.0, 296.0) 2 cook visible=true clip=work_cook
+woodcutter-work woodcutter_son (408.0, 360.0) 2 home_play visible=true clip=work_play
+inn-work innkeeper (456.0, 200.0) 2 wipe_mug visible=true clip=work_wipe
+inn-work innkeeper_wife (792.0, 360.0) 2 kitchen visible=true clip=work_cook
+working-dialogue innkeeper (456.0, 200.0) 5 wipe_mug visible=true clip=idle_down
+working-dialogue innkeeper_wife (792.0, 360.0) 2 kitchen visible=true clip=work_cook
+herbalist-work herbalist (520.0, 344.0) 2 sort_herbs visible=true clip=work_table
+elder-work elder (488.0, 248.0) 2 read_documents visible=true clip=idle_right
+PASS: seven live daily-life captures

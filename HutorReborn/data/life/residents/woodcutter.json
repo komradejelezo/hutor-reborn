@@ -1,0 +1,134 @@
+{
+  "id": "woodcutter",
+  "home": "woodcutter",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": "NPCPoints/FatherRest",
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "take_tool",
+          "point": [
+            648,
+            350
+          ],
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "prepare_work",
+          "point": "NPCPoints/FatherRest",
+          "minutes": 6,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 450,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "meet_worker",
+          "point": [
+            1368,
+            920
+          ],
+          "minutes": 12,
+          "clip": "",
+          "facing": "down",
+          "partner": "herbalist_brother"
+        }
+      ]
+    },
+    {
+      "start": 480,
+      "scene": "logging",
+      "label": "Лесозаготовки",
+      "activities": [
+        {
+          "id": "chop",
+          "point": null,
+          "minutes": 12,
+          "clip": "work_chop",
+          "facing": "down"
+        },
+        {
+          "id": "carry_wood",
+          "point": null,
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "work_break",
+          "point": null,
+          "minutes": 10,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_after_work",
+          "point": "NPCPoints/FatherRest",
+          "minutes": 18,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "family_meal",
+          "point": [
+            516,
+            308
+          ],
+          "minutes": 10,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            360,
+            322
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ],
+  "portal_lane": -10,
+  "work_group": "logging_pair",
+  "work_location": "logging"
+}

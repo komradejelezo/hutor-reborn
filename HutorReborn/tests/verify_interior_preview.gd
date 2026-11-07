@@ -1,5 +1,7 @@
 extends "res://tests/verify_interiors.gd"
 func run() -> void:
+    # Isolate the approved pre-schedule component fixture. Live residency has separate integration coverage.
+    root.get_node("VillageLife").enabled=false
     travel=root.get_node("InteriorTravel")
     for id in [&"inn",&"elder",&"herbalist"]:
         if is_instance_valid(travel.exterior):

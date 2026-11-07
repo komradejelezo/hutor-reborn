@@ -35,6 +35,8 @@ func all_residents() -> Dictionary:
                 ids[child.definition.id]=child.get_instance_id()
     return ids
 func run() -> void:
+    # Isolate the approved pre-schedule component fixture. Live residency has separate integration coverage.
+    root.get_node("VillageLife").enabled=false
     travel=root.get_node("InteriorTravel")
     var world:Node2D=load("res://scenes/world/krivaya_sosna/krivaya_sosna.tscn").instantiate()
     root.add_child(world);current_scene=world

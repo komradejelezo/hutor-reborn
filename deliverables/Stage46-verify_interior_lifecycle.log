@@ -1,0 +1,104 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: transition completes within deadline
+PASS: brother working in the forest is absent indoors
+PASS: at-home herbalist is the original object
+PASS: real indoor routine traverses the furnished room
+PASS: household resident reaches door and resumes outdoor context
+PASS: departure restores original ID and shared definition
+PASS: saved outdoor waypoint and position restored
+PASS: outdoor waiting state preserved while interior runs
+PASS: transition completes within deadline
+PASS: all outside directors rebuild correctly on re-entry
+PASS: transition completes within deadline
+PASS: held E entered the inn once
+PASS: holding E cannot trigger the reverse transition
+PASS: transition completes within deadline
+PASS: indoor F3 state never changes street fog/light
+PASS: keeper remains inside while Hans is outside
+PASS: transition completes within deadline
+PASS: repeat visit reuses cached interior scene
+PASS: repeat visit retains the exact keeper object
+PASS: transition completes within deadline
+PASS: indoor F3 state never changes street fog/light
+PASS: keeper remains inside while Hans is outside
+PASS: transition completes within deadline
+PASS: repeat visit reuses cached interior scene
+PASS: repeat visit retains the exact keeper object
+PASS: transition completes within deadline
+PASS: indoor F3 state never changes street fog/light
+PASS: keeper remains inside while Hans is outside
+PASS: transition completes within deadline
+PASS: repeat visit reuses cached interior scene
+PASS: repeat visit retains the exact keeper object
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: solid furniture: herbalist/BedA
+PASS: solid furniture: herbalist/BedB
+PASS: solid furniture: herbalist/Table
+PASS: solid furniture: herbalist/Stove
+PASS: solid furniture: herbalist/Bottles
+PASS: solid furniture: herbalist/BasketA
+PASS: solid furniture: herbalist/BasketB
+PASS: solid furniture: herbalist/Cauldron
+PASS: solid furniture: herbalist/ClayPotA
+PASS: solid furniture: herbalist/ClayPotB
+PASS: baked indoor waypoint is physically free: herbalist
+PASS: baked indoor waypoint is physically free: herbalist
+PASS: baked indoor waypoint is physically free: herbalist
+PASS: baked indoor waypoint is physically free: herbalist
+PASS: baked indoor waypoint is physically free: herbalist_brother
+PASS: baked indoor waypoint is physically free: herbalist_brother
+PASS: baked indoor waypoint is physically free: herbalist_brother
+PASS: entry connects to every authored indoor destination
+PASS: wall collision stops Hans: move_up
+PASS: wall collision stops Hans: move_left
+PASS: wall collision stops Hans: move_right
+PASS: wall collision stops Hans: move_down
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: solid furniture: inn/Counter
+PASS: solid furniture: inn/BarrelA
+PASS: solid furniture: inn/BarrelB
+PASS: solid furniture: inn/Fireplace
+PASS: solid furniture: inn/TableA
+PASS: solid furniture: inn/TableB
+PASS: solid furniture: inn/TableC
+PASS: solid furniture: inn/BenchA
+PASS: solid furniture: inn/BenchB
+PASS: solid furniture: inn/BenchC
+PASS: solid furniture: inn/Sacks
+PASS: solid furniture: inn/SupplyBasket
+PASS: baked indoor waypoint is physically free: innkeeper
+PASS: baked indoor waypoint is physically free: innkeeper
+PASS: baked indoor waypoint is physically free: innkeeper_wife
+PASS: baked indoor waypoint is physically free: innkeeper_wife
+PASS: baked indoor waypoint is physically free: innkeeper_wife
+PASS: baked indoor waypoint is physically free: innkeeper_wife
+PASS: entry connects to every authored indoor destination
+PASS: wall collision stops Hans: move_up
+PASS: wall collision stops Hans: move_left
+PASS: wall collision stops Hans: move_right
+PASS: wall collision stops Hans: move_down
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: solid furniture: elder/Desk
+PASS: solid furniture: elder/Chair
+PASS: solid furniture: elder/GuestChair
+PASS: solid furniture: elder/GuestChair2
+PASS: solid furniture: elder/Chest
+PASS: solid furniture: elder/Bed
+PASS: solid furniture: elder/Hearth
+PASS: baked indoor waypoint is physically free: elder
+PASS: baked indoor waypoint is physically free: elder
+PASS: baked indoor waypoint is physically free: elder
+PASS: baked indoor waypoint is physically free: elder
+PASS: entry connects to every authored indoor destination
+PASS: wall collision stops Hans: move_up
+PASS: wall collision stops Hans: move_left
+PASS: wall collision stops Hans: move_right
+PASS: wall collision stops Hans: move_down
+PASS: transition completes within deadline
+RESULT: 101 lifecycle/physics checks passed, 0 failed; 29 furniture bodies, 17 waypoints

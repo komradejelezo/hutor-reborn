@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "start_minute": 420,
+  "real_day_seconds": 1800,
+  "residents": [
+    "res://data/life/residents/elder.json",
+    "res://data/life/residents/herbalist.json",
+    "res://data/life/residents/herbalist_brother.json",
+    "res://data/life/residents/innkeeper.json",
+    "res://data/life/residents/innkeeper_wife.json",
+    "res://data/life/residents/old_man.json",
+    "res://data/life/residents/woodcutter.json",
+    "res://data/life/residents/woodcutter_son.json",
+    "res://data/life/residents/woodcutter_wife.json"
+  ]
+}

@@ -25,6 +25,8 @@ var _notice_cooldown := 0.0
 var _social_timer := 0.0
 var _ready_to_walk := false
 var motion_paused := false
+var wait_time_scale := 1.0
+var activity_controller: Node
 @onready var animator: Node = $Animator
 
 func _ready() -> void:
@@ -38,6 +40,7 @@ func _ready() -> void:
     call_deferred("_begin")
 
 func _begin() -> void:
+    if _ready_to_walk:return
     director = get_parent()
     _ready_to_walk = true
     if definition.routine.is_empty():
@@ -77,10 +80,10 @@ func _physics_process(delta: float) -> void:
     if state == State.TALKING:
         _present(); return
     if state == State.RECOVERING:
-        wait_left -= delta
+        wait_left -= delta*wait_time_scale
         if wait_left <= 0: _request_path()
     elif state == State.WAITING:
-        wait_left -= delta
+        wait_left -= delta*wait_time_scale
         var step := current_step()
         if step and step.look_at_npc != &"" and _social_timer<=0:
             var partner: CharacterBody2D = director.resident(step.look_at_npc)
@@ -88,7 +91,7 @@ func _physics_process(delta: float) -> void:
             _social_timer = .5
         if wait_left <= 0: _next_step()
     elif state == State.YIELDING:
-        wait_left -= delta
+        wait_left -= delta*wait_time_scale
         if wait_left <= 0 and _player_distance()>42:
             state = _resume_state
     elif state == State.MOVING:
@@ -184,6 +187,7 @@ func end_conversation() -> void:
     _present()
 
 func _present() -> void:
+    if is_instance_valid(activity_controller) and activity_controller.present(self):return
     var mode := "walk" if state == State.MOVING and not velocity.is_zero_approx() else "idle"
     var step := current_step()
     $Interaction.position = step.talk_offset if state == State.WAITING and step else Vector2.ZERO
@@ -204,8 +208,10 @@ func suspend_location() -> Dictionary:
     return snapshot
 
 func enter_location(data: HutorNpcDefinition, population: Node2D, spawn: Vector2) -> void:
+    _ready_to_walk = true
     _token += 1
     definition = data; director = population
+    $AnimatedSprite2D.sprite_frames = data.frames
     position = spawn; step_index = 0; velocity = Vector2.ZERO
     _path.clear(); _path_index = 0; _retry_count = 0; _blocked_time = 0
     _avoid_cell = Vector2i(-1,-1); motion_paused = false
@@ -218,6 +224,7 @@ func restore_location(snapshot: Dictionary, population: Node2D) -> void:
         if field != "rng_state": set(field, snapshot[field])
     _rng.state = snapshot.rng_state
     director = population; velocity = Vector2.ZERO
+    $AnimatedSprite2D.sprite_frames = definition.frames
     population.adopt(self)
     if state == State.WAIT_PATH: _request_path()
     _present()

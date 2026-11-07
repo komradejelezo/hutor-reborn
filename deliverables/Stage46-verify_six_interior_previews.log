@@ -1,0 +1,51 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: F6 playable: inn
+PASS: F6 exit reachable
+PASS: F6 uses existing indoor zoom
+PASS: transition completes within deadline
+PASS: F6 exit returns to normal village
+PASS: F6 exit restores outdoor zoom
+PASS: F6 exit releases input
+PASS: F6 exit retains exactly nine residents
+PASS: F6 playable: elder
+PASS: F6 exit reachable
+PASS: F6 uses existing indoor zoom
+PASS: transition completes within deadline
+PASS: F6 exit returns to normal village
+PASS: F6 exit restores outdoor zoom
+PASS: F6 exit releases input
+PASS: F6 exit retains exactly nine residents
+PASS: F6 playable: herbalist
+PASS: F6 exit reachable
+PASS: F6 uses existing indoor zoom
+PASS: transition completes within deadline
+PASS: F6 exit returns to normal village
+PASS: F6 exit restores outdoor zoom
+PASS: F6 exit releases input
+PASS: F6 exit retains exactly nine residents
+PASS: F6 playable: woodcutter
+PASS: F6 exit reachable
+PASS: F6 uses existing indoor zoom
+PASS: transition completes within deadline
+PASS: F6 exit returns to normal village
+PASS: F6 exit restores outdoor zoom
+PASS: F6 exit releases input
+PASS: F6 exit retains exactly nine residents
+PASS: F6 playable: old_man
+PASS: F6 exit reachable
+PASS: F6 uses existing indoor zoom
+PASS: transition completes within deadline
+PASS: F6 exit returns to normal village
+PASS: F6 exit restores outdoor zoom
+PASS: F6 exit releases input
+PASS: F6 exit retains exactly nine residents
+PASS: F6 playable: storehouse
+PASS: F6 exit reachable
+PASS: F6 uses existing indoor zoom
+PASS: transition completes within deadline
+PASS: F6 exit returns to normal village
+PASS: F6 exit restores outdoor zoom
+PASS: F6 exit releases input
+PASS: F6 exit retains exactly nine residents
+RESULT: 48 six-room preview checks passed, 0 failed

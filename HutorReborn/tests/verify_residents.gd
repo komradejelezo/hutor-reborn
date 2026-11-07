@@ -22,6 +22,8 @@ func key(code: Key, down: bool) -> void:
 func tap(code: Key) -> void:
     await key(code,true); await key(code,false)
 func run() -> void:
+    # Isolate the approved pre-schedule component fixture. Live residency has separate integration coverage.
+    root.get_node("VillageLife").enabled=false
     world = load("res://scenes/world/krivaya_sosna/krivaya_sosna.tscn").instantiate()
     root.add_child(world); current_scene = world
     population = world.get_node("Actors/Residents")

@@ -1,0 +1,146 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: exactly nine registered residents
+PASS: Hans plus nine NPC bodies; no extra residents
+PASS: nine talk markers, eight existing inspections and six interior doors
+PASS: population shares the existing world depth hierarchy
+PASS: approved map and Hans movement/collision settings retained
+PASS: original animated four-way walk/Nearest: elder
+PASS: one-frame idle is explicitly a non-looping fallback: elder
+PASS: valid independent branched dialogue: elder
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: elder
+PASS: every routine leg accounts for baked static obstacles: elder
+PASS: original animated four-way walk/Nearest: innkeeper
+PASS: one-frame idle is explicitly a non-looping fallback: innkeeper
+PASS: valid independent branched dialogue: innkeeper
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: innkeeper
+PASS: every routine leg accounts for baked static obstacles: innkeeper
+PASS: original animated four-way walk/Nearest: innkeeper_wife
+PASS: one-frame idle is explicitly a non-looping fallback: innkeeper_wife
+PASS: valid independent branched dialogue: innkeeper_wife
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: innkeeper_wife
+PASS: every routine leg accounts for baked static obstacles: innkeeper_wife
+PASS: original animated four-way walk/Nearest: woodcutter
+PASS: one-frame idle is explicitly a non-looping fallback: woodcutter
+PASS: valid independent branched dialogue: woodcutter
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: woodcutter
+PASS: every routine leg accounts for baked static obstacles: woodcutter
+PASS: original animated four-way walk/Nearest: woodcutter_wife
+PASS: one-frame idle is explicitly a non-looping fallback: woodcutter_wife
+PASS: valid independent branched dialogue: woodcutter_wife
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: woodcutter_wife
+PASS: every routine leg accounts for baked static obstacles: woodcutter_wife
+PASS: original animated four-way walk/Nearest: woodcutter_son
+PASS: one-frame idle is explicitly a non-looping fallback: woodcutter_son
+PASS: valid independent branched dialogue: woodcutter_son
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: woodcutter_son
+PASS: every routine leg accounts for baked static obstacles: woodcutter_son
+PASS: original animated four-way walk/Nearest: herbalist
+PASS: one-frame idle is explicitly a non-looping fallback: herbalist
+PASS: valid independent branched dialogue: herbalist
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: herbalist
+PASS: every routine leg accounts for baked static obstacles: herbalist
+PASS: original animated four-way walk/Nearest: herbalist_brother
+PASS: one-frame idle is explicitly a non-looping fallback: herbalist_brother
+PASS: valid independent branched dialogue: herbalist_brother
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: herbalist_brother
+PASS: every routine leg accounts for baked static obstacles: herbalist_brother
+PASS: original animated four-way walk/Nearest: old_man
+PASS: one-frame idle is explicitly a non-looping fallback: old_man
+PASS: valid independent branched dialogue: old_man
+PASS: one shared controller, cyclic resource and non-blocking friendly layer: old_man
+PASS: every routine leg accounts for baked static obstacles: old_man
+PASS: child has its own proportions and smaller feet
+SIMULATION: 0 seconds; path solves 9
+SIMULATION: 30 seconds; path solves 33
+SIMULATION: 60 seconds; path solves 44
+SIMULATION: 90 seconds; path solves 46
+SIMULATION: 120 seconds; path solves 47
+SIMULATION: 150 seconds; path solves 47
+PASS: 180 simulated seconds: all residents stay inside the map and child/pine zones
+PASS: simultaneous residents never enter static walls, fences or trees
+PASS: movement, waits and a complete schedule: elder (11 stops, 0 recoveries)
+PASS: all individual route stops visited: elder
+PASS: movement, waits and a complete schedule: innkeeper (13 stops, 0 recoveries)
+PASS: all individual route stops visited: innkeeper
+PASS: movement, waits and a complete schedule: innkeeper_wife (17 stops, 0 recoveries)
+PASS: all individual route stops visited: innkeeper_wife
+PASS: movement, waits and a complete schedule: woodcutter (15 stops, 0 recoveries)
+PASS: all individual route stops visited: woodcutter
+PASS: movement, waits and a complete schedule: woodcutter_wife (23 stops, 0 recoveries)
+PASS: all individual route stops visited: woodcutter_wife
+PASS: movement, waits and a complete schedule: woodcutter_son (47 stops, 0 recoveries)
+PASS: all individual route stops visited: woodcutter_son
+PASS: movement, waits and a complete schedule: herbalist (13 stops, 0 recoveries)
+PASS: all individual route stops visited: herbalist
+PASS: movement, waits and a complete schedule: herbalist_brother (8 stops, 0 recoveries)
+PASS: all individual route stops visited: herbalist_brother
+PASS: movement, waits and a complete schedule: old_man (17 stops, 0 recoveries)
+PASS: all individual route stops visited: old_man
+PASS: bounded path budget and cache; no frame-by-frame recomputation
+PASS: existing E talk prompt can focus: elder
+PASS: real E starts the existing dialogue and stops speaker: elder
+PASS: Hans and speaker remain stopped: elder
+PASS: first reply branch: elder
+PASS: closing restores player and suspended routine state: elder
+PASS: second reply branch: elder
+PASS: existing E talk prompt can focus: innkeeper
+PASS: real E starts the existing dialogue and stops speaker: innkeeper
+PASS: Hans and speaker remain stopped: innkeeper
+PASS: first reply branch: innkeeper
+PASS: closing restores player and suspended routine state: innkeeper
+PASS: second reply branch: innkeeper
+PASS: existing E talk prompt can focus: innkeeper_wife
+PASS: real E starts the existing dialogue and stops speaker: innkeeper_wife
+PASS: Hans and speaker remain stopped: innkeeper_wife
+PASS: first reply branch: innkeeper_wife
+PASS: closing restores player and suspended routine state: innkeeper_wife
+PASS: second reply branch: innkeeper_wife
+PASS: existing E talk prompt can focus: woodcutter
+PASS: real E starts the existing dialogue and stops speaker: woodcutter
+PASS: Hans and speaker remain stopped: woodcutter
+PASS: first reply branch: woodcutter
+PASS: closing restores player and suspended routine state: woodcutter
+PASS: second reply branch: woodcutter
+PASS: existing E talk prompt can focus: woodcutter_wife
+PASS: real E starts the existing dialogue and stops speaker: woodcutter_wife
+PASS: Hans and speaker remain stopped: woodcutter_wife
+PASS: first reply branch: woodcutter_wife
+PASS: closing restores player and suspended routine state: woodcutter_wife
+PASS: second reply branch: woodcutter_wife
+PASS: existing E talk prompt can focus: woodcutter_son
+PASS: real E starts the existing dialogue and stops speaker: woodcutter_son
+PASS: Hans and speaker remain stopped: woodcutter_son
+PASS: first reply branch: woodcutter_son
+PASS: closing restores player and suspended routine state: woodcutter_son
+PASS: second reply branch: woodcutter_son
+PASS: existing E talk prompt can focus: herbalist
+PASS: real E starts the existing dialogue and stops speaker: herbalist
+PASS: Hans and speaker remain stopped: herbalist
+PASS: first reply branch: herbalist
+PASS: closing restores player and suspended routine state: herbalist
+PASS: second reply branch: herbalist
+PASS: existing E talk prompt can focus: herbalist_brother
+PASS: real E starts the existing dialogue and stops speaker: herbalist_brother
+PASS: Hans and speaker remain stopped: herbalist_brother
+PASS: first reply branch: herbalist_brother
+PASS: closing restores player and suspended routine state: herbalist_brother
+PASS: second reply branch: herbalist_brother
+PASS: existing E talk prompt can focus: old_man
+PASS: real E starts the existing dialogue and stops speaker: old_man
+PASS: Hans and speaker remain stopped: old_man
+PASS: first reply branch: old_man
+PASS: closing restores player and suspended routine state: old_man
+PASS: second reply branch: old_man
+PASS: old man smokes with only three optional particles
+PASS: F3 also disables the local pipe effect
+PASS: routine movement resumes after dialogue: elder
+PASS: routine movement resumes after dialogue: innkeeper
+PASS: routine movement resumes after dialogue: innkeeper_wife
+PASS: routine movement resumes after dialogue: woodcutter
+PASS: routine movement resumes after dialogue: woodcutter_wife
+PASS: routine movement resumes after dialogue: woodcutter_son
+PASS: routine movement resumes after dialogue: herbalist
+PASS: routine movement resumes after dialogue: herbalist_brother
+PASS: routine movement resumes after dialogue: old_man
+RESULT: 137 resident checks passed, 0 failed

@@ -1,0 +1,187 @@
+{
+  "id": "woodcutter_wife",
+  "home": "woodcutter",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            360,
+            350
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "cook",
+          "point": [
+            568,
+            296
+          ],
+          "minutes": 12,
+          "clip": "work_cook",
+          "facing": "right",
+          "hide_props": [
+            "Actors/Props/KitchenPot"
+          ]
+        },
+        {
+          "id": "serve",
+          "point": [
+            568,
+            370
+          ],
+          "minutes": 6,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "sweep_yard",
+          "point": [
+            1800,
+            850
+          ],
+          "minutes": 10,
+          "clip": "work_sweep",
+          "facing": "right"
+        },
+        {
+          "id": "household",
+          "point": [
+            1640,
+            875
+          ],
+          "minutes": 7,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "watch_child",
+          "point": [
+            1745,
+            895
+          ],
+          "minutes": 6,
+          "clip": "",
+          "facing": "down",
+          "partner": "woodcutter_son"
+        }
+      ]
+    },
+    {
+      "start": 720,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "cook",
+          "point": [
+            568,
+            296
+          ],
+          "minutes": 12,
+          "clip": "work_cook",
+          "facing": "right",
+          "hide_props": [
+            "Actors/Props/KitchenPot"
+          ]
+        },
+        {
+          "id": "clean",
+          "point": "NPCPoints/Housekeeping",
+          "minutes": 10,
+          "clip": "work_sweep",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "garden_work",
+          "point": [
+            1800,
+            850
+          ],
+          "minutes": 10,
+          "clip": "work_rake",
+          "facing": "right"
+        },
+        {
+          "id": "watch_child",
+          "point": [
+            1745,
+            895
+          ],
+          "minutes": 8,
+          "clip": "",
+          "facing": "down",
+          "partner": "woodcutter_son"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "family_meal",
+          "point": [
+            568,
+            370
+          ],
+          "minutes": 12,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "household",
+          "point": "NPCPoints/Housekeeping",
+          "minutes": 10,
+          "clip": "work_sweep",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "woodcutter",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            360,
+            350
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ]
+}
