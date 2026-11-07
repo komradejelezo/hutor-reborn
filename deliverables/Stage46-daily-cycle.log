@@ -3,7 +3,7 @@ Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
 PASS: one daily owner initialized for nine original residents
 PASS: default day is 30 real minutes
 PASS: full day advances without seeking, within timeout
-PASS: live physics/identity/safe-zone invariants: 
+PASS: live physics/identity/safe-zone invariants:
 PASS: morning, day, evening and night observed
 PASS: elder performs distinct occupations: [&"read_documents", &"ponder", &"travel", &"inspect_square", &"inspect_well", &"common_store", &"watch_village", &"rest_night"]
 PASS: innkeeper performs distinct occupations: [&"prepare_inn", &"check_supplies", &"wipe_mug", &"arrange_dishes", &"visit_tables", &"rest_night"]
