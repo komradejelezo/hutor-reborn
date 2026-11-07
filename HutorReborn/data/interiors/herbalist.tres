@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HutorBuildingDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/building_definition.gd" id="1_3biny"]
+
+[resource]
+script = ExtResource("1_3biny")
+id = &"herbalist"
+display_name = "Дом травницы и её брата"
+interior_scene = "res://scenes/interiors/herbalist.tscn"
+exterior_anchor = NodePath("Actors/Structures/HerbalistHouse/Entrance")
+residents = Array[StringName]([&"herbalist", &"herbalist_brother"])

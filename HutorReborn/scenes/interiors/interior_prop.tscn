@@ -1,0 +1,13 @@
+[gd_scene format=3]
+[sub_resource type="RectangleShape2D" id="Feet"]
+resource_local_to_scene = true
+size = Vector2(32, 18)
+[node name="InteriorProp" type="Node2D"]
+[node name="Art" type="Sprite2D" parent="."]
+texture_filter = 1
+centered = false
+[node name="Solid" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 6
+[node name="Feet" type="CollisionShape2D" parent="Solid"]
+shape = SubResource("Feet")

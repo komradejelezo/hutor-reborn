@@ -186,6 +186,7 @@ func end_conversation() -> void:
 func _present() -> void:
     var mode := "walk" if state == State.MOVING and not velocity.is_zero_approx() else "idle"
     var step := current_step()
+    $Interaction.position = step.talk_offset if state == State.WAITING and step else Vector2.ZERO
     if not motion_paused and state == State.WAITING and step and step.animation != &"": mode = "work"
     var allow_smoke: bool = definition.pipe_smoke and (not is_instance_valid(director) or not is_instance_valid(director.atmosphere) or director.atmosphere.effects_enabled)
     animator.apply(mode,facing,step.animation if step else &"",allow_smoke)
@@ -194,3 +195,29 @@ func set_motion_paused(value: bool) -> void:
     motion_paused = value
     if value: velocity = Vector2.ZERO
     if is_node_ready(): _present()
+
+func suspend_location() -> Dictionary:
+    var snapshot := {"definition": definition, "position": position, "rng_state": _rng.state}
+    for field in ["state", "step_index", "facing", "wait_left", "_path", "_path_index", "_blocked_time", "_retry_count", "_avoid_cell", "_resume_state", "_talk_resume_state", "_notice_cooldown", "_social_timer", "motion_paused"]:
+        snapshot[field] = get(field)
+    _token += 1 # Invalidate any queued result from the old navigation context.
+    return snapshot
+
+func enter_location(data: HutorNpcDefinition, population: Node2D, spawn: Vector2) -> void:
+    _token += 1
+    definition = data; director = population
+    position = spawn; step_index = 0; velocity = Vector2.ZERO
+    _path.clear(); _path_index = 0; _retry_count = 0; _blocked_time = 0
+    _avoid_cell = Vector2i(-1,-1); motion_paused = false
+    population.adopt(self)
+    _request_path(); _present()
+
+func restore_location(snapshot: Dictionary, population: Node2D) -> void:
+    _token += 1
+    for field in snapshot:
+        if field != "rng_state": set(field, snapshot[field])
+    _rng.state = snapshot.rng_state
+    director = population; velocity = Vector2.ZERO
+    population.adopt(self)
+    if state == State.WAIT_PATH: _request_path()
+    _present()

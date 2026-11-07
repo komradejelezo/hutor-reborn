@@ -1,5 +1,6 @@
 class_name HutorNpcRoutineStep
 extends Resource
+@export var talk_offset := Vector2.ZERO
 ## A cyclic schedule entry, deliberately independent of clock time and quests.
 enum Action { HOME, WORK, WALK, REST, TALK, MOVE }
 @export var label := ""
