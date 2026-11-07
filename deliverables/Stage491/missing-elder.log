@@ -1,0 +1,17 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: missing elder does not break nine-resident bootstrap
+PASS: unavailable home is never cached as a fake scene
+PASS: missing home cannot trap Hans
+PASS: virtual residents survive time seek 600
+PASS: virtual residents survive time seek 730
+PASS: virtual residents survive time seek 1080
+PASS: virtual residents survive time seek 1215
+PASS: virtual residents survive time seek 1380
+PASS: restored original scene can be retried
+PASS: transition completes within deadline
+PASS: retry enters original home
+PASS: retry exit accepted
+PASS: transition completes within deadline
+PASS: retry returns to village
+RESULT: 14 missing-interior checks passed, 0 failed: elder

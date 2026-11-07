@@ -1,0 +1,170 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: nine original resident objects
+PASS: six configured buildings, including the three unchanged 4.4 interiors
+PASS: inn outdoor approach clear
+PASS: inn E prompt selects actual door
+PASS: inn real E starts fade
+PASS: concurrent transition rejected
+PASS: transition completes within deadline
+PASS: inn interior loaded
+PASS: the same Hans object crossed scenes
+PASS: correct indoor spawn
+PASS: only camera zoom increased by 30 percent
+PASS: Hans movement and sprite scale unchanged
+PASS: control restored after fade
+PASS: inactive village fully detached from physics/render/input
+PASS: entry has no furniture collision
+PASS: editable floor/wall tile layers
+PASS: no duplicate identity elder
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: all nine identities retained across cached scenes
+PASS: inn eligible residents are inside
+PASS: indoor resident absent from village director
+PASS: innkeeper talk approach is free
+PASS: innkeeper indoor E selects talk marker
+PASS: original dialogue ID opens indoors
+PASS: both actors stop for indoor conversation
+PASS: indoor conversation releases movement
+PASS: indoor resident absent from village director
+PASS: innkeeper_wife talk approach is free
+PASS: innkeeper_wife indoor E selects talk marker
+PASS: original dialogue ID opens indoors
+PASS: both actors stop for indoor conversation
+PASS: indoor conversation releases movement
+PASS: exit prompt reachable
+PASS: transition completes within deadline
+PASS: returned to original village scene
+PASS: returned outside the correct building
+PASS: exterior camera restored exactly
+PASS: outdoor return is not inside a wall
+PASS: no duplicate identity elder
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: leaving creates no resident copies
+PASS: village controls and remaining residents resume
+PASS: elder outdoor approach clear
+PASS: elder E prompt selects actual door
+PASS: elder real E starts fade
+PASS: concurrent transition rejected
+PASS: transition completes within deadline
+PASS: elder interior loaded
+PASS: the same Hans object crossed scenes
+PASS: correct indoor spawn
+PASS: only camera zoom increased by 30 percent
+PASS: Hans movement and sprite scale unchanged
+PASS: control restored after fade
+PASS: inactive village fully detached from physics/render/input
+PASS: entry has no furniture collision
+PASS: editable floor/wall tile layers
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity elder
+PASS: all nine identities retained across cached scenes
+PASS: elder eligible residents are inside
+PASS: indoor resident absent from village director
+PASS: elder talk approach is free
+PASS: elder indoor E selects talk marker
+PASS: original dialogue ID opens indoors
+PASS: both actors stop for indoor conversation
+PASS: indoor conversation releases movement
+PASS: exit prompt reachable
+PASS: transition completes within deadline
+PASS: returned to original village scene
+PASS: returned outside the correct building
+PASS: exterior camera restored exactly
+PASS: outdoor return is not inside a wall
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity elder
+PASS: leaving creates no resident copies
+PASS: village controls and remaining residents resume
+PASS: herbalist outdoor approach clear
+PASS: herbalist E prompt selects actual door
+PASS: herbalist real E starts fade
+PASS: concurrent transition rejected
+PASS: transition completes within deadline
+PASS: herbalist interior loaded
+PASS: the same Hans object crossed scenes
+PASS: correct indoor spawn
+PASS: only camera zoom increased by 30 percent
+PASS: Hans movement and sprite scale unchanged
+PASS: control restored after fade
+PASS: inactive village fully detached from physics/render/input
+PASS: entry has no furniture collision
+PASS: editable floor/wall tile layers
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity old_man
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity elder
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: all nine identities retained across cached scenes
+PASS: herbalist eligible residents are inside
+PASS: indoor resident absent from village director
+PASS: herbalist talk approach is free
+PASS: herbalist indoor E selects talk marker
+PASS: original dialogue ID opens indoors
+PASS: both actors stop for indoor conversation
+PASS: indoor conversation releases movement
+PASS: indoor resident absent from village director
+PASS: herbalist_brother talk approach is free
+PASS: herbalist_brother indoor E selects talk marker
+PASS: original dialogue ID opens indoors
+PASS: both actors stop for indoor conversation
+PASS: indoor conversation releases movement
+PASS: exit prompt reachable
+PASS: transition completes within deadline
+PASS: returned to original village scene
+PASS: returned outside the correct building
+PASS: exterior camera restored exactly
+PASS: outdoor return is not inside a wall
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity old_man
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity elder
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: leaving creates no resident copies
+PASS: village controls and remaining residents resume
+RESULT: 167 interior checks passed, 0 failed

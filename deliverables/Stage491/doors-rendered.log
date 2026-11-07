@@ -1,0 +1,341 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: live Stage 4.7 residency enabled with nine unique residents
+PASS: door beats closer inspection
+PASS: closer NPC action remains selectable beside door
+PASS: closer door beats more distant NPC action
+PASS: blocked high-priority actions never interact through walls
+PASS: unavailable actions fall back to nearby inspection
+PASS: inn original conflict approach now chooses door
+PASS: inn exact entry prompt
+PASS: inn approach is clear
+PASS: inn E locks movement during fade
+PASS: inn simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: inn matching existing interior loaded
+PASS: inn repeated visit reuses room
+PASS: inn Hans and all nine NPC identities retained
+PASS: inn clear Entry spawn
+PASS: inn controls restored with no information card
+PASS: inn interior camera zoom
+PASS: inn exact exit prompt
+PASS: inn held E cannot retrigger exit
+PASS: inn movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: inn exit returns to village
+PASS: inn correct clear outdoor return
+PASS: inn full outdoor camera restored
+PASS: inn outdoor input restored without card
+PASS: inn exactly one completed transition per press
+PASS: inn no NPC identity duplication on exit
+PASS: inn original conflict approach now chooses door
+PASS: inn exact entry prompt
+PASS: inn approach is clear
+PASS: inn E locks movement during fade
+PASS: inn simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: inn matching existing interior loaded
+PASS: inn repeated visit reuses room
+PASS: inn Hans and all nine NPC identities retained
+PASS: inn clear Entry spawn
+PASS: inn controls restored with no information card
+PASS: inn interior camera zoom
+PASS: inn exact exit prompt
+PASS: inn held E cannot retrigger exit
+PASS: inn movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: inn exit returns to village
+PASS: inn correct clear outdoor return
+PASS: inn full outdoor camera restored
+PASS: inn outdoor input restored without card
+PASS: inn exactly one completed transition per press
+PASS: inn no NPC identity duplication on exit
+PASS: elder inspection zone separated from door
+PASS: elder inspection point physically clear
+PASS: elder relocated inspection reachable
+PASS: elder description preserved at separate point
+PASS: elder description closes normally
+PASS: elder original conflict approach now chooses door
+PASS: elder exact entry prompt
+PASS: elder approach is clear
+PASS: elder E locks movement during fade
+PASS: elder simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: elder matching existing interior loaded
+PASS: elder repeated visit reuses room
+PASS: elder Hans and all nine NPC identities retained
+PASS: elder clear Entry spawn
+PASS: elder controls restored with no information card
+PASS: elder interior camera zoom
+PASS: elder exact exit prompt
+PASS: elder held E cannot retrigger exit
+PASS: elder movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: elder exit returns to village
+PASS: elder correct clear outdoor return
+PASS: elder full outdoor camera restored
+PASS: elder outdoor input restored without card
+PASS: elder exactly one completed transition per press
+PASS: elder no NPC identity duplication on exit
+PASS: elder original conflict approach now chooses door
+PASS: elder exact entry prompt
+PASS: elder approach is clear
+PASS: elder E locks movement during fade
+PASS: elder simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: elder matching existing interior loaded
+PASS: elder repeated visit reuses room
+PASS: elder Hans and all nine NPC identities retained
+PASS: elder clear Entry spawn
+PASS: elder controls restored with no information card
+PASS: elder interior camera zoom
+PASS: elder exact exit prompt
+PASS: elder held E cannot retrigger exit
+PASS: elder movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: elder exit returns to village
+PASS: elder correct clear outdoor return
+PASS: elder full outdoor camera restored
+PASS: elder outdoor input restored without card
+PASS: elder exactly one completed transition per press
+PASS: elder no NPC identity duplication on exit
+PASS: herbalist inspection zone separated from door
+PASS: herbalist inspection point physically clear
+PASS: herbalist relocated inspection reachable
+PASS: herbalist description preserved at separate point
+PASS: herbalist description closes normally
+PASS: herbalist original conflict approach now chooses door
+PASS: herbalist exact entry prompt
+PASS: herbalist approach is clear
+PASS: herbalist E locks movement during fade
+PASS: herbalist simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: herbalist matching existing interior loaded
+PASS: herbalist repeated visit reuses room
+PASS: herbalist Hans and all nine NPC identities retained
+PASS: herbalist clear Entry spawn
+PASS: herbalist controls restored with no information card
+PASS: herbalist interior camera zoom
+PASS: herbalist exact exit prompt
+PASS: herbalist held E cannot retrigger exit
+PASS: herbalist movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: herbalist exit returns to village
+PASS: herbalist correct clear outdoor return
+PASS: herbalist full outdoor camera restored
+PASS: herbalist outdoor input restored without card
+PASS: herbalist exactly one completed transition per press
+PASS: herbalist no NPC identity duplication on exit
+PASS: herbalist original conflict approach now chooses door
+PASS: herbalist exact entry prompt
+PASS: herbalist approach is clear
+PASS: herbalist E locks movement during fade
+PASS: herbalist simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: herbalist matching existing interior loaded
+PASS: herbalist repeated visit reuses room
+PASS: herbalist Hans and all nine NPC identities retained
+PASS: herbalist clear Entry spawn
+PASS: herbalist controls restored with no information card
+PASS: herbalist interior camera zoom
+PASS: herbalist exact exit prompt
+PASS: herbalist held E cannot retrigger exit
+PASS: herbalist movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: herbalist exit returns to village
+PASS: herbalist correct clear outdoor return
+PASS: herbalist full outdoor camera restored
+PASS: herbalist outdoor input restored without card
+PASS: herbalist exactly one completed transition per press
+PASS: herbalist no NPC identity duplication on exit
+PASS: woodcutter inspection zone separated from door
+PASS: woodcutter inspection point physically clear
+PASS: woodcutter relocated inspection reachable
+PASS: woodcutter description preserved at separate point
+PASS: woodcutter description closes normally
+PASS: woodcutter original conflict approach now chooses door
+PASS: woodcutter exact entry prompt
+PASS: woodcutter approach is clear
+PASS: woodcutter E locks movement during fade
+PASS: woodcutter simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: woodcutter matching existing interior loaded
+PASS: woodcutter repeated visit reuses room
+PASS: woodcutter Hans and all nine NPC identities retained
+PASS: woodcutter clear Entry spawn
+PASS: woodcutter controls restored with no information card
+PASS: woodcutter interior camera zoom
+PASS: woodcutter exact exit prompt
+PASS: woodcutter held E cannot retrigger exit
+PASS: woodcutter movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: woodcutter exit returns to village
+PASS: woodcutter correct clear outdoor return
+PASS: woodcutter full outdoor camera restored
+PASS: woodcutter outdoor input restored without card
+PASS: woodcutter exactly one completed transition per press
+PASS: woodcutter no NPC identity duplication on exit
+PASS: woodcutter original conflict approach now chooses door
+PASS: woodcutter exact entry prompt
+PASS: woodcutter approach is clear
+PASS: woodcutter E locks movement during fade
+PASS: woodcutter simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: woodcutter matching existing interior loaded
+PASS: woodcutter repeated visit reuses room
+PASS: woodcutter Hans and all nine NPC identities retained
+PASS: woodcutter clear Entry spawn
+PASS: woodcutter controls restored with no information card
+PASS: woodcutter interior camera zoom
+PASS: woodcutter exact exit prompt
+PASS: woodcutter held E cannot retrigger exit
+PASS: woodcutter movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: woodcutter exit returns to village
+PASS: woodcutter correct clear outdoor return
+PASS: woodcutter full outdoor camera restored
+PASS: woodcutter outdoor input restored without card
+PASS: woodcutter exactly one completed transition per press
+PASS: woodcutter no NPC identity duplication on exit
+PASS: old_man inspection zone separated from door
+PASS: old_man inspection point physically clear
+PASS: old_man relocated inspection reachable
+PASS: old_man description preserved at separate point
+PASS: old_man description closes normally
+PASS: old_man original conflict approach now chooses door
+PASS: old_man exact entry prompt
+PASS: old_man approach is clear
+PASS: old_man E locks movement during fade
+PASS: old_man simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: old_man matching existing interior loaded
+PASS: old_man repeated visit reuses room
+PASS: old_man Hans and all nine NPC identities retained
+PASS: old_man clear Entry spawn
+PASS: old_man controls restored with no information card
+PASS: old_man interior camera zoom
+PASS: old_man exact exit prompt
+PASS: old_man held E cannot retrigger exit
+PASS: old_man movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: old_man exit returns to village
+PASS: old_man correct clear outdoor return
+PASS: old_man full outdoor camera restored
+PASS: old_man outdoor input restored without card
+PASS: old_man exactly one completed transition per press
+PASS: old_man no NPC identity duplication on exit
+PASS: old_man original conflict approach now chooses door
+PASS: old_man exact entry prompt
+PASS: old_man approach is clear
+PASS: old_man E locks movement during fade
+PASS: old_man simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: old_man matching existing interior loaded
+PASS: old_man repeated visit reuses room
+PASS: old_man Hans and all nine NPC identities retained
+PASS: old_man clear Entry spawn
+PASS: old_man controls restored with no information card
+PASS: old_man interior camera zoom
+PASS: old_man exact exit prompt
+PASS: old_man held E cannot retrigger exit
+PASS: old_man movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: old_man exit returns to village
+PASS: old_man correct clear outdoor return
+PASS: old_man full outdoor camera restored
+PASS: old_man outdoor input restored without card
+PASS: old_man exactly one completed transition per press
+PASS: old_man no NPC identity duplication on exit
+PASS: storehouse inspection zone separated from door
+PASS: storehouse inspection point physically clear
+PASS: storehouse relocated inspection reachable
+PASS: storehouse description preserved at separate point
+PASS: storehouse description closes normally
+PASS: storehouse original conflict approach now chooses door
+PASS: storehouse exact entry prompt
+PASS: storehouse approach is clear
+PASS: storehouse E locks movement during fade
+PASS: storehouse simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: storehouse matching existing interior loaded
+PASS: storehouse repeated visit reuses room
+PASS: storehouse Hans and all nine NPC identities retained
+PASS: storehouse clear Entry spawn
+PASS: storehouse controls restored with no information card
+PASS: storehouse interior camera zoom
+PASS: storehouse exact exit prompt
+PASS: storehouse held E cannot retrigger exit
+PASS: storehouse movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: storehouse exit returns to village
+PASS: storehouse correct clear outdoor return
+PASS: storehouse full outdoor camera restored
+PASS: storehouse outdoor input restored without card
+PASS: storehouse exactly one completed transition per press
+PASS: storehouse no NPC identity duplication on exit
+PASS: storehouse original conflict approach now chooses door
+PASS: storehouse exact entry prompt
+PASS: storehouse approach is clear
+PASS: storehouse E locks movement during fade
+PASS: storehouse simultaneous request rejected
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: storehouse matching existing interior loaded
+PASS: storehouse repeated visit reuses room
+PASS: storehouse Hans and all nine NPC identities retained
+PASS: storehouse clear Entry spawn
+PASS: storehouse controls restored with no information card
+PASS: storehouse interior camera zoom
+PASS: storehouse exact exit prompt
+PASS: storehouse held E cannot retrigger exit
+PASS: storehouse movement works inside
+PASS: scene and camera switch under full black
+PASS: transition completes within deadline
+PASS: storehouse exit returns to village
+PASS: storehouse correct clear outdoor return
+PASS: storehouse full outdoor camera restored
+PASS: storehouse outdoor input restored without card
+PASS: storehouse exactly one completed transition per press
+PASS: storehouse no NPC identity duplication on exit
+PASS: abandoned building has no transition door
+PASS: abandoned house stays closed under E
+PASS: missing scene rejected before lock/fade
+PASS: missing scene leaves controls available and reason recorded
+PASS: nonmodal failure feedback uses existing prompt
+PASS: non-scene resource rejected safely
+PASS: invalid scene enters guarded loading path
+PASS: transition completes within deadline
+PASS: invalid room aborts without moving Hans or success signal
+PASS: failed load reveals current scene and records contract error
+PASS: wrong building scene enters guarded validation
+PASS: transition completes within deadline
+PASS: wrong room identity rejected without caching
+PASS: failure preserves spawn and camera
+PASS: failure notice expires without blocking input
+PASS: all four load failures reported
+RESULT: 335 door transition checks passed, 0 failed

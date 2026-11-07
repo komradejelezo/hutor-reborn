@@ -1,0 +1,36 @@
+{
+  "buildings": [
+    {
+      "building": "inn",
+      "passed": true,
+      "visits": 2
+    },
+    {
+      "building": "elder",
+      "passed": true,
+      "visits": 2
+    },
+    {
+      "building": "herbalist",
+      "passed": true,
+      "visits": 2
+    },
+    {
+      "building": "woodcutter",
+      "passed": true,
+      "visits": 2
+    },
+    {
+      "building": "old_man",
+      "passed": true,
+      "visits": 2
+    },
+    {
+      "building": "storehouse",
+      "passed": true,
+      "visits": 2
+    }
+  ],
+  "failed": 0,
+  "passed": 335
+}

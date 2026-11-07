@@ -113,15 +113,21 @@ func _gateway(record: HutorDailyResidentState) -> Dictionary:
     return gateways.get(StringName(record.schedule.get("work_location",gateway.virtual_destination)),gateway)
 
 func _navigation(scene: StringName) -> HutorNpcNavigation:
-    return world_for(scene).get_node("Actors/Residents/Navigation")
+    var world := world_for(scene)
+    return world.get_node("Actors/Residents/Navigation") if world else null
 
 func _point(scene: StringName, value: Variant) -> Vector2:
     if value is Array:return Vector2(value[0],value[1])
-    if value is String:return world_for(scene).get_node(NodePath(value)).position
+    if value is String:
+        var world := world_for(scene)
+        var marker := world.get_node_or_null(NodePath(value)) as Node2D if world else null
+        return marker.position if marker else Vector2.ZERO
     return Vector2.ZERO
 
 func _safe(record: HutorDailyResidentState, point: Vector2) -> Vector2:
     var nav:=_navigation(record.scene)
+    # An unavailable room stays virtual; it must not break the outdoor session.
+    if nav == null:return point
     var bounds:=Rect2()
     if record.scene==&"village" and record.schedule.has("safe_village_rect"):
         var r:Array=record.schedule.safe_village_rect;bounds=Rect2(r[0],r[1],r[2],r[3])
@@ -129,7 +135,7 @@ func _safe(record: HutorDailyResidentState, point: Vector2) -> Vector2:
     var cell:=nav.closest_cell(grid,point)
     if cell==Vector2i(-1,-1) and StringName(record.block.scene)==record.scene:cell=nav.closest_cell(grid,_point(record.scene,record.block.activities[record.index].point))
     if cell==Vector2i(-1,-1):
-        var fallback:Vector2=record.original.routine[0].position if record.scene==&"village" else world_for(record.scene).get_node("Entry").position
+        var fallback:Vector2=record.original.routine[0].position if record.scene==&"village" else _point(record.scene,"Entry")
         cell=nav.closest_cell(grid,fallback)
     return grid.get_point_position(cell)
 
@@ -233,7 +239,7 @@ func _start_journey(record: HutorDailyResidentState) -> void:
         record.hop=record.desired_scene
         record.goal=_gate(record) if _is_virtual(record.hop) else _door(record.hop)
     else:
-        record.hop=&"village";record.goal=world_for(record.scene).get_node("Exit").position
+        record.hop=&"village";record.goal=_point(record.scene,"Exit")
     var position:Vector2=record.actor.position if _active(record) else record.position
     record.position=position
     record.travel_end=clock.absolute_minutes+maxf(1,position.distance_to(record.goal)/record.original.speed*_minutes_per_second())
@@ -281,7 +287,9 @@ func _apply_travel(record: HutorDailyResidentState, position: Vector2) -> void:
 
 func _materialize(record: HutorDailyResidentState) -> void:
     if _is_virtual(record.scene) or record.actor.is_inside_tree():return
-    var population:Node2D=world_for(record.scene).get_node("Actors/Residents")
+    var world:=world_for(record.scene)
+    if world == null:return
+    var population:Node2D=world.get_node("Actors/Residents")
     record.actor.reparent(population,false)
     record.actor.set_physics_process(true)
     materializations+=1
@@ -385,7 +393,7 @@ func _transfer(record: HutorDailyResidentState) -> void:
         return
     var from:=record.scene;_park(record)
     record.scene=record.hop
-    record.position=_door(from) if record.scene==&"village" else world_for(record.scene).get_node("Entry").position
+    record.position=_door(from) if record.scene==&"village" else _point(record.scene,"Entry")
     record.mode=&"local";record.snapshot.clear()
     _event(record,"scene_changed",String(from)+" -> "+String(record.scene))
     _reconcile(record)

@@ -12,10 +12,14 @@ func _physics_process(_delta: float) -> void:
         focus_changed.emit(null)
     var best: HutorInteractable = null
     var best_distance := INF
+    var best_priority := -2147483648
     for node in get_tree().get_nodes_in_group("interactables"):
         var candidate := node as HutorInteractable
         var distance := actor.global_position.distance_to(candidate.global_position)
-        if distance > candidate.reach or distance >= best_distance:
+        var priority := candidate.interaction_priority()
+        if distance > candidate.reach or priority < best_priority:
+            continue
+        if priority == best_priority and distance >= best_distance:
             continue
         var ray := PhysicsRayQueryParameters2D.create(actor.global_position + Vector2(0, -5), candidate.global_position + Vector2(0, -5), 1)
         ray.exclude = [actor.get_rid()]
@@ -23,6 +27,7 @@ func _physics_process(_delta: float) -> void:
             continue
         best = candidate
         best_distance = distance
+        best_priority = priority
     if best != target:
         if is_instance_valid(target):
             target.set_focused(false)

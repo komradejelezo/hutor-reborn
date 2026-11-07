@@ -1,0 +1,80 @@
+{
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "base": "17152ccc5225823d1b81bf3bb5850044cef62bfb",
+  "runs": {
+    "daily-cycle.log": {
+      "passed": 32,
+      "failed": 0
+    },
+    "daily-lifecycle.log": {
+      "passed": 163,
+      "failed": 0
+    },
+    "daily-routes.log": {
+      "passed": 380,
+      "failed": 0
+    },
+    "dialogue.log": {
+      "passed": 65,
+      "failed": 0
+    },
+    "doors-clean.log": {
+      "passed": 335,
+      "failed": 0
+    },
+    "doors-rendered.log": {
+      "passed": 335,
+      "failed": 0
+    },
+    "expressive-residents.log": {
+      "passed": 289,
+      "failed": 0
+    },
+    "interiors.log": {
+      "passed": 167,
+      "failed": 0
+    },
+    "live-preview.log": {
+      "passed": 7,
+      "failed": 0
+    },
+    "missing-elder.log": {
+      "passed": 14,
+      "failed": 0
+    },
+    "missing-inn.log": {
+      "passed": 14,
+      "failed": 0
+    },
+    "missing-woodcutter.log": {
+      "passed": 14,
+      "failed": 0
+    },
+    "remaining-interiors.log": {
+      "passed": 280,
+      "failed": 0
+    },
+    "six-previews.log": {
+      "passed": 48,
+      "failed": 0
+    }
+  },
+  "clean_import": "passed",
+  "unchanged_original_files": 1204,
+  "allowed_existing_files_changed": 9,
+  "screenshots": [
+    "elder_door.png",
+    "elder_inside.png",
+    "herbalist_door.png",
+    "herbalist_inside.png",
+    "inn_door.png",
+    "inn_inside.png",
+    "old_man_door.png",
+    "old_man_inside.png",
+    "storehouse_door.png",
+    "storehouse_inside.png",
+    "woodcutter_door.png",
+    "woodcutter_inside.png"
+  ],
+  "renderer_warning": "Xorg driver does not support changing V-Sync mode"
+}

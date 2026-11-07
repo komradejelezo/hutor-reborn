@@ -1,0 +1,283 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: one registry exposes six interiors
+PASS: six doors preserve the nine conversations and eight inspections
+PASS: woodcutter outside approach clear
+PASS: woodcutter actual E selects entry
+PASS: transition completes within deadline
+PASS: woodcutter entered through existing travel service
+PASS: same Hans instance
+PASS: safe precise indoor spawn
+PASS: same indoor camera and restored control
+PASS: compact single-room bounds: (448.0, 320.0)
+PASS: complete editable 32px floor
+PASS: saved modular wall layer
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: scene transfer creates no NPC copies
+PASS: all local lamps are inside this room and enabled
+PASS: actual furniture collision: ParentsBed
+PASS: uniform Nearest art: ParentsBed
+PASS: actual furniture collision: SonBed
+PASS: uniform Nearest art: SonBed
+PASS: actual furniture collision: Stove
+PASS: uniform Nearest art: Stove
+PASS: actual furniture collision: DiningTable
+PASS: uniform Nearest art: DiningTable
+PASS: actual furniture collision: ChairA
+PASS: uniform Nearest art: ChairA
+PASS: actual furniture collision: ChairB
+PASS: uniform Nearest art: ChairB
+PASS: actual furniture collision: ChairC
+PASS: uniform Nearest art: ChairC
+PASS: actual furniture collision: RestBench
+PASS: uniform Nearest art: RestBench
+PASS: actual furniture collision: ClothesChest
+PASS: uniform Nearest art: ClothesChest
+PASS: actual furniture collision: KitchenPot
+PASS: uniform Nearest art: KitchenPot
+PASS: large objects solid, small decor nonblocking
+PASS: prepared action/access point is physically clear: FatherRest
+PASS: entry reaches prepared point: FatherRest
+PASS: actual physics clears the entire access route: FatherRest
+PASS: prepared action/access point is physically clear: Cooking
+PASS: entry reaches prepared point: Cooking
+PASS: actual physics clears the entire access route: Cooking
+PASS: prepared action/access point is physically clear: Housekeeping
+PASS: entry reaches prepared point: Housekeeping
+PASS: actual physics clears the entire access route: Housekeeping
+PASS: prepared action/access point is physically clear: ChildPlay
+PASS: entry reaches prepared point: ChildPlay
+PASS: actual physics clears the entire access route: ChildPlay
+PASS: prepared action/access point is physically clear: YardExit
+PASS: entry reaches prepared point: YardExit
+PASS: actual physics clears the entire access route: YardExit
+PASS: prepared route reuses original resident/data: woodcutter
+PASS: prepared indoor waypoint clear: woodcutter
+PASS: prepared indoor waypoint clear: woodcutter
+PASS: prepared indoor waypoint clear: woodcutter
+PASS: prepared route reuses original resident/data: woodcutter_wife
+PASS: prepared indoor waypoint clear: woodcutter_wife
+PASS: prepared indoor waypoint clear: woodcutter_wife
+PASS: prepared indoor waypoint clear: woodcutter_wife
+PASS: prepared route reuses original resident/data: woodcutter_son
+PASS: prepared indoor waypoint clear: woodcutter_son
+PASS: prepared indoor waypoint clear: woodcutter_son
+PASS: prepared indoor waypoint clear: woodcutter_son
+PASS: existing at-home family moved inside without new actors
+PASS: reachable talk position: woodcutter
+PASS: original family dialogue opens through E
+PASS: conversation locks both participants
+PASS: conversation resumes original controller
+PASS: reachable talk position: woodcutter_wife
+PASS: original family dialogue opens through E
+PASS: conversation locks both participants
+PASS: conversation resumes original controller
+PASS: reachable talk position: woodcutter_son
+PASS: original family dialogue opens through E
+PASS: conversation locks both participants
+PASS: conversation resumes original controller
+PASS: Hans remains inside physical wall: move_up
+PASS: Hans remains inside physical wall: move_left
+PASS: Hans remains inside physical wall: move_right
+PASS: Hans remains inside physical wall: move_down
+PASS: existing exit is reachable
+PASS: transition completes within deadline
+PASS: returned to correct original building
+PASS: outside camera/input fully restored
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: return remains free and preserves nine identities
+PASS: repeat entry accepted
+PASS: transition completes within deadline
+PASS: repeat entry reuses same room
+PASS: repeat exit accepted
+PASS: transition completes within deadline
+PASS: old_man outside approach clear
+PASS: old_man actual E selects entry
+PASS: transition completes within deadline
+PASS: old_man entered through existing travel service
+PASS: same Hans instance
+PASS: safe precise indoor spawn
+PASS: same indoor camera and restored control
+PASS: compact single-room bounds: (352.0, 288.0)
+PASS: complete editable 32px floor
+PASS: saved modular wall layer
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: scene transfer creates no NPC copies
+PASS: all local lamps are inside this room and enabled
+PASS: actual furniture collision: OldBed
+PASS: uniform Nearest art: OldBed
+PASS: actual furniture collision: OldStove
+PASS: uniform Nearest art: OldStove
+PASS: actual furniture collision: Armchair
+PASS: uniform Nearest art: Armchair
+PASS: actual furniture collision: SideTable
+PASS: uniform Nearest art: SideTable
+PASS: actual furniture collision: Chest
+PASS: uniform Nearest art: Chest
+PASS: large objects solid, small decor nonblocking
+PASS: prepared action/access point is physically clear: ChairRest
+PASS: entry reaches prepared point: ChairRest
+PASS: actual physics clears the entire access route: ChairRest
+PASS: prepared action/access point is physically clear: Reading
+PASS: entry reaches prepared point: Reading
+PASS: actual physics clears the entire access route: Reading
+PASS: prepared action/access point is physically clear: PineWalkExit
+PASS: entry reaches prepared point: PineWalkExit
+PASS: actual physics clears the entire access route: PineWalkExit
+PASS: prepared route reuses original resident/data: old_man
+PASS: prepared indoor waypoint clear: old_man
+PASS: prepared indoor waypoint clear: old_man
+PASS: prepared indoor waypoint clear: old_man
+PASS: old man retains his approved pine-side route until future HOME scheduling
+PASS: chair rest point carries the existing old_man ID
+PASS: future seated pose is anchored to the actual chair
+PASS: seat links a reachable approach and the original seated source
+PASS: Hans remains inside physical wall: move_up
+PASS: Hans remains inside physical wall: move_left
+PASS: Hans remains inside physical wall: move_right
+PASS: Hans remains inside physical wall: move_down
+PASS: existing exit is reachable
+PASS: transition completes within deadline
+PASS: returned to correct original building
+PASS: outside camera/input fully restored
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: return remains free and preserves nine identities
+PASS: repeat entry accepted
+PASS: transition completes within deadline
+PASS: repeat entry reuses same room
+PASS: repeat exit accepted
+PASS: transition completes within deadline
+PASS: storehouse outside approach clear
+PASS: storehouse actual E selects entry
+PASS: transition completes within deadline
+PASS: storehouse entered through existing travel service
+PASS: same Hans instance
+PASS: safe precise indoor spawn
+PASS: same indoor camera and restored control
+PASS: compact single-room bounds: (416.0, 320.0)
+PASS: complete editable 32px floor
+PASS: saved modular wall layer
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: scene transfer creates no NPC copies
+PASS: all local lamps are inside this room and enabled
+PASS: actual furniture collision: ShelfA
+PASS: uniform Nearest art: ShelfA
+PASS: actual furniture collision: ShelfB
+PASS: uniform Nearest art: ShelfB
+PASS: actual furniture collision: ShelfC
+PASS: uniform Nearest art: ShelfC
+PASS: actual furniture collision: GrainA
+PASS: uniform Nearest art: GrainA
+PASS: actual furniture collision: GrainB
+PASS: uniform Nearest art: GrainB
+PASS: actual furniture collision: GrainC
+PASS: uniform Nearest art: GrainC
+PASS: actual furniture collision: GrainD
+PASS: uniform Nearest art: GrainD
+PASS: actual furniture collision: GrainE
+PASS: uniform Nearest art: GrainE
+PASS: actual furniture collision: BarrelA
+PASS: uniform Nearest art: BarrelA
+PASS: actual furniture collision: BarrelB
+PASS: uniform Nearest art: BarrelB
+PASS: actual furniture collision: BasketA
+PASS: uniform Nearest art: BasketA
+PASS: actual furniture collision: BasketB
+PASS: uniform Nearest art: BasketB
+PASS: actual furniture collision: CrateA
+PASS: uniform Nearest art: CrateA
+PASS: actual furniture collision: CrateB
+PASS: uniform Nearest art: CrateB
+PASS: actual furniture collision: CrateC
+PASS: uniform Nearest art: CrateC
+PASS: actual furniture collision: Firewood
+PASS: uniform Nearest art: Firewood
+PASS: actual furniture collision: WorkTable
+PASS: uniform Nearest art: WorkTable
+PASS: large objects solid, small decor nonblocking
+PASS: prepared action/access point is physically clear: BackAisle
+PASS: entry reaches prepared point: BackAisle
+PASS: actual physics clears the entire access route: BackAisle
+PASS: prepared action/access point is physically clear: RightAisle
+PASS: entry reaches prepared point: RightAisle
+PASS: actual physics clears the entire access route: RightAisle
+PASS: prepared action/access point is physically clear: LeftAisle
+PASS: entry reaches prepared point: LeftAisle
+PASS: actual physics clears the entire access route: LeftAisle
+PASS: prepared action/access point is physically clear: WorkAccess
+PASS: entry reaches prepared point: WorkAccess
+PASS: actual physics clears the entire access route: WorkAccess
+PASS: storehouse has no permanent resident
+PASS: Hans remains inside physical wall: move_up
+PASS: Hans remains inside physical wall: move_left
+PASS: Hans remains inside physical wall: move_right
+PASS: Hans remains inside physical wall: move_down
+PASS: existing exit is reachable
+PASS: transition completes within deadline
+PASS: returned to correct original building
+PASS: outside camera/input fully restored
+PASS: no duplicate identity elder
+PASS: no duplicate identity innkeeper
+PASS: no duplicate identity innkeeper_wife
+PASS: no duplicate identity herbalist
+PASS: no duplicate identity herbalist_brother
+PASS: no duplicate identity old_man
+PASS: no duplicate identity woodcutter
+PASS: no duplicate identity woodcutter_wife
+PASS: no duplicate identity woodcutter_son
+PASS: return remains free and preserves nine identities
+PASS: repeat entry accepted
+PASS: transition completes within deadline
+PASS: repeat entry reuses same room
+PASS: repeat exit accepted
+PASS: transition completes within deadline
+RESULT: 280 remaining-interior checks passed, 0 failed
