@@ -1,0 +1,10 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: F6 has no extra resident instances
+PASS: transition completes within deadline
+PASS: F6 exit starts normal live village
+PASS: normal game clock starts once
+PASS: post-preview entry uses existing travel
+PASS: transition completes within deadline
+PASS: original family scheduled at home after F6 exit
+RESULT: 7 live-preview checks passed, 0 failed

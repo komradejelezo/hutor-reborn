@@ -1,0 +1,131 @@
+{
+  "id": "innkeeper_wife",
+  "home": "inn",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            810,
+            310
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "kitchen",
+          "point": [
+            790,
+            365
+          ],
+          "minutes": 12,
+          "clip": "work_cook",
+          "facing": "left"
+        },
+        {
+          "id": "prepare_supplies",
+          "point": [
+            770,
+            440
+          ],
+          "minutes": 8,
+          "clip": "work_sweep",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "clean_tables",
+          "point": [
+            386,
+            456
+          ],
+          "minutes": 10,
+          "clip": "work_sweep",
+          "facing": "down"
+        },
+        {
+          "id": "kitchen",
+          "point": [
+            790,
+            365
+          ],
+          "minutes": 12,
+          "clip": "work_cook",
+          "facing": "left"
+        },
+        {
+          "id": "household",
+          "point": [
+            686,
+            306
+          ],
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "clean_tables",
+          "point": [
+            596,
+            456
+          ],
+          "minutes": 10,
+          "clip": "work_sweep",
+          "facing": "down"
+        },
+        {
+          "id": "kitchen",
+          "point": [
+            790,
+            365
+          ],
+          "minutes": 12,
+          "clip": "work_cook",
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "inn",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            810,
+            310
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ]
+}

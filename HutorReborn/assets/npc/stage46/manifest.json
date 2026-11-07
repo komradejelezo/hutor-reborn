@@ -1,0 +1,956 @@
+{
+  "woodcutter_wife": {
+    "clips": {
+      "work_cook": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "work_rake": [
+        9,
+        10,
+        11
+      ]
+    },
+    "frames": [
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          2379,
+          0,
+          3172,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          3172,
+          0,
+          3965,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          3965,
+          0,
+          4758,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          4758,
+          0,
+          5551,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          5551,
+          0,
+          6344,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0010.png",
+        "sha256": "d418a4a94f2f01c205cbed650250f244b985367b534da35663cc87712b7c362d",
+        "box": [
+          6344,
+          0,
+          7137,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          37,
+          21
+        ],
+        "anchor": [
+          228.0,
+          1275.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_rake",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0013.png",
+        "sha256": "58c6f24a2f747daa6525f7f401025910e9ced1610a7ee1328e4f9def512e2782",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          33,
+          21
+        ],
+        "anchor": [
+          313.0,
+          1274.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_rake",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0013.png",
+        "sha256": "58c6f24a2f747daa6525f7f401025910e9ced1610a7ee1328e4f9def512e2782",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          33,
+          21
+        ],
+        "anchor": [
+          313.0,
+          1274.0
+        ],
+        "scale": 0.04811715481171548
+      },
+      {
+        "clip": "work_rake",
+        "source": "assets/npc/stage2/Жена дровосека/Sprite-0013.png",
+        "sha256": "58c6f24a2f747daa6525f7f401025910e9ced1610a7ee1328e4f9def512e2782",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          38,
+          62
+        ],
+        "offset": [
+          33,
+          21
+        ],
+        "anchor": [
+          313.0,
+          1274.0
+        ],
+        "scale": 0.04811715481171548
+      }
+    ]
+  },
+  "herbalist": {
+    "clips": {
+      "work_inspect": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "work_table": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "frames": [
+      {
+        "clip": "work_inspect",
+        "source": "assets/npc/stage2/Марта/Sprite-0002.png",
+        "sha256": "091ebfbe3d193e6b077e4ab97ebdb12dfc0a64bd1f31b9952402ebd7b51943a5",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          29,
+          19
+        ],
+        "anchor": [
+          389.0,
+          1275.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_inspect",
+        "source": "assets/npc/stage2/Марта/Sprite-0002.png",
+        "sha256": "091ebfbe3d193e6b077e4ab97ebdb12dfc0a64bd1f31b9952402ebd7b51943a5",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          29,
+          19
+        ],
+        "anchor": [
+          389.0,
+          1275.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_inspect",
+        "source": "assets/npc/stage2/Марта/Sprite-0002.png",
+        "sha256": "091ebfbe3d193e6b077e4ab97ebdb12dfc0a64bd1f31b9952402ebd7b51943a5",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          29,
+          19
+        ],
+        "anchor": [
+          389.0,
+          1275.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_inspect",
+        "source": "assets/npc/stage2/Марта/Sprite-0002.png",
+        "sha256": "091ebfbe3d193e6b077e4ab97ebdb12dfc0a64bd1f31b9952402ebd7b51943a5",
+        "box": [
+          2379,
+          0,
+          3172,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          29,
+          19
+        ],
+        "anchor": [
+          389.0,
+          1275.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_table",
+        "source": "assets/npc/stage2/Марта/Sprite-0006.png",
+        "sha256": "0757d6128d943f3dcb041e2f67a4c59a89cf1bbc90e1d9843ccef4bd85de9e75",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          36,
+          18
+        ],
+        "anchor": [
+          235.5,
+          1283.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_table",
+        "source": "assets/npc/stage2/Марта/Sprite-0006.png",
+        "sha256": "0757d6128d943f3dcb041e2f67a4c59a89cf1bbc90e1d9843ccef4bd85de9e75",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          36,
+          18
+        ],
+        "anchor": [
+          235.5,
+          1283.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_table",
+        "source": "assets/npc/stage2/Марта/Sprite-0006.png",
+        "sha256": "0757d6128d943f3dcb041e2f67a4c59a89cf1bbc90e1d9843ccef4bd85de9e75",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          36,
+          18
+        ],
+        "anchor": [
+          235.5,
+          1283.0
+        ],
+        "scale": 0.049578059071729956
+      },
+      {
+        "clip": "work_table",
+        "source": "assets/npc/stage2/Марта/Sprite-0006.png",
+        "sha256": "0757d6128d943f3dcb041e2f67a4c59a89cf1bbc90e1d9843ccef4bd85de9e75",
+        "box": [
+          2379,
+          0,
+          3172,
+          1285
+        ],
+        "resized": [
+          39,
+          64
+        ],
+        "offset": [
+          36,
+          18
+        ],
+        "anchor": [
+          235.5,
+          1283.0
+        ],
+        "scale": 0.049578059071729956
+      }
+    ]
+  },
+  "innkeeper_wife": {
+    "clips": {
+      "work_cook": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "frames": [
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена трактирщика/Sprite-0010.png",
+        "sha256": "6f3e4755bb426519a43a2986f87293f9659d575257adba06f5a1f72f6a811412",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          47,
+          76
+        ],
+        "offset": [
+          31,
+          6
+        ],
+        "anchor": [
+          291.5,
+          1279.0
+        ],
+        "scale": 0.05911949685534591
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена трактирщика/Sprite-0010.png",
+        "sha256": "6f3e4755bb426519a43a2986f87293f9659d575257adba06f5a1f72f6a811412",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          47,
+          76
+        ],
+        "offset": [
+          31,
+          6
+        ],
+        "anchor": [
+          291.5,
+          1279.0
+        ],
+        "scale": 0.05911949685534591
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена трактирщика/Sprite-0010.png",
+        "sha256": "6f3e4755bb426519a43a2986f87293f9659d575257adba06f5a1f72f6a811412",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          47,
+          76
+        ],
+        "offset": [
+          31,
+          6
+        ],
+        "anchor": [
+          291.5,
+          1279.0
+        ],
+        "scale": 0.05911949685534591
+      },
+      {
+        "clip": "work_cook",
+        "source": "assets/npc/stage2/Жена трактирщика/Sprite-0010.png",
+        "sha256": "6f3e4755bb426519a43a2986f87293f9659d575257adba06f5a1f72f6a811412",
+        "box": [
+          2379,
+          0,
+          3172,
+          1285
+        ],
+        "resized": [
+          47,
+          76
+        ],
+        "offset": [
+          31,
+          6
+        ],
+        "anchor": [
+          291.5,
+          1279.0
+        ],
+        "scale": 0.05911949685534591
+      }
+    ]
+  },
+  "innkeeper": {
+    "clips": {
+      "work_taste": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "frames": [
+      {
+        "clip": "work_taste",
+        "source": "assets/npc/stage2/Трактирщик/Sprite-0008.png",
+        "sha256": "2be88a85cfc73699af375daf0ef182f400ef2084285517c5221b9f11275179b4",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          47,
+          77
+        ],
+        "offset": [
+          24,
+          6
+        ],
+        "anchor": [
+          405.0,
+          1269.5
+        ],
+        "scale": 0.05955926146515783
+      },
+      {
+        "clip": "work_taste",
+        "source": "assets/npc/stage2/Трактирщик/Sprite-0008.png",
+        "sha256": "2be88a85cfc73699af375daf0ef182f400ef2084285517c5221b9f11275179b4",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          47,
+          77
+        ],
+        "offset": [
+          24,
+          6
+        ],
+        "anchor": [
+          405.0,
+          1269.5
+        ],
+        "scale": 0.05955926146515783
+      },
+      {
+        "clip": "work_taste",
+        "source": "assets/npc/stage2/Трактирщик/Sprite-0008.png",
+        "sha256": "2be88a85cfc73699af375daf0ef182f400ef2084285517c5221b9f11275179b4",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          47,
+          77
+        ],
+        "offset": [
+          24,
+          6
+        ],
+        "anchor": [
+          405.0,
+          1269.5
+        ],
+        "scale": 0.05955926146515783
+      },
+      {
+        "clip": "work_taste",
+        "source": "assets/npc/stage2/Трактирщик/Sprite-0008.png",
+        "sha256": "2be88a85cfc73699af375daf0ef182f400ef2084285517c5221b9f11275179b4",
+        "box": [
+          2379,
+          0,
+          3172,
+          1285
+        ],
+        "resized": [
+          47,
+          77
+        ],
+        "offset": [
+          24,
+          6
+        ],
+        "anchor": [
+          405.0,
+          1269.5
+        ],
+        "scale": 0.05955926146515783
+      }
+    ]
+  },
+  "old_man": {
+    "clips": {
+      "work_think": [
+        0,
+        1,
+        2
+      ],
+      "work_sit": [
+        3
+      ]
+    },
+    "frames": [
+      {
+        "clip": "work_think",
+        "source": "assets/npc/stage2/Страрик/Sprite-0007.png",
+        "sha256": "0c5e53fa2c51c5e9a15a5f26337f29dc3eef5e6ecb8a4aeeb7f1542704a90c9f",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          43,
+          70
+        ],
+        "offset": [
+          27,
+          12
+        ],
+        "anchor": [
+          388.0,
+          1283.0
+        ],
+        "scale": 0.05462445685909373
+      },
+      {
+        "clip": "work_think",
+        "source": "assets/npc/stage2/Страрик/Sprite-0007.png",
+        "sha256": "0c5e53fa2c51c5e9a15a5f26337f29dc3eef5e6ecb8a4aeeb7f1542704a90c9f",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          43,
+          70
+        ],
+        "offset": [
+          27,
+          12
+        ],
+        "anchor": [
+          388.0,
+          1283.0
+        ],
+        "scale": 0.05462445685909373
+      },
+      {
+        "clip": "work_think",
+        "source": "assets/npc/stage2/Страрик/Sprite-0007.png",
+        "sha256": "0c5e53fa2c51c5e9a15a5f26337f29dc3eef5e6ecb8a4aeeb7f1542704a90c9f",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          43,
+          70
+        ],
+        "offset": [
+          27,
+          12
+        ],
+        "anchor": [
+          388.0,
+          1283.0
+        ],
+        "scale": 0.05462445685909373
+      },
+      {
+        "clip": "work_sit",
+        "source": "assets/npc/stage2/Страрик/Sprite-0012.png",
+        "sha256": "292ef84da269bc18648dd40e64a936e4652c626aaf59108f667b1b99c70a0196",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          43,
+          70
+        ],
+        "offset": [
+          26,
+          13
+        ],
+        "anchor": [
+          403.0,
+          1268.0
+        ],
+        "scale": 0.05462445685909373
+      }
+    ]
+  },
+  "woodcutter_son": {
+    "clips": {
+      "work_kneel": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "frames": [
+      {
+        "clip": "work_kneel",
+        "source": "assets/npc/stage2/Сын дровосека/Sprite-0014.png",
+        "sha256": "0b3d5160bc47fcc3954f02cd1c7c15b8c69802f8950bada5973a54ed3ad8c46f",
+        "box": [
+          0,
+          0,
+          793,
+          1285
+        ],
+        "resized": [
+          42,
+          67
+        ],
+        "offset": [
+          34,
+          16
+        ],
+        "anchor": [
+          271.5,
+          1263.0
+        ],
+        "scale": 0.05242255758538523
+      },
+      {
+        "clip": "work_kneel",
+        "source": "assets/npc/stage2/Сын дровосека/Sprite-0014.png",
+        "sha256": "0b3d5160bc47fcc3954f02cd1c7c15b8c69802f8950bada5973a54ed3ad8c46f",
+        "box": [
+          793,
+          0,
+          1586,
+          1285
+        ],
+        "resized": [
+          42,
+          67
+        ],
+        "offset": [
+          34,
+          16
+        ],
+        "anchor": [
+          271.5,
+          1263.0
+        ],
+        "scale": 0.05242255758538523
+      },
+      {
+        "clip": "work_kneel",
+        "source": "assets/npc/stage2/Сын дровосека/Sprite-0014.png",
+        "sha256": "0b3d5160bc47fcc3954f02cd1c7c15b8c69802f8950bada5973a54ed3ad8c46f",
+        "box": [
+          1586,
+          0,
+          2379,
+          1285
+        ],
+        "resized": [
+          42,
+          67
+        ],
+        "offset": [
+          34,
+          16
+        ],
+        "anchor": [
+          271.5,
+          1263.0
+        ],
+        "scale": 0.05242255758538523
+      },
+      {
+        "clip": "work_kneel",
+        "source": "assets/npc/stage2/Сын дровосека/Sprite-0014.png",
+        "sha256": "0b3d5160bc47fcc3954f02cd1c7c15b8c69802f8950bada5973a54ed3ad8c46f",
+        "box": [
+          2379,
+          0,
+          3172,
+          1285
+        ],
+        "resized": [
+          42,
+          67
+        ],
+        "offset": [
+          34,
+          16
+        ],
+        "anchor": [
+          271.5,
+          1263.0
+        ],
+        "scale": 0.05242255758538523
+      }
+    ]
+  }
+}

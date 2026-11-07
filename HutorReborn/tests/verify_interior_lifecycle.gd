@@ -1,6 +1,8 @@
 extends "res://tests/verify_interiors.gd"
 ## Conditional home occupancy, restoration, hold gating, repeat entry and physics.
 func run() -> void:
+    # Isolate the approved pre-schedule component fixture. Live residency has separate integration coverage.
+    root.get_node("VillageLife").enabled=false
     travel=root.get_node("InteriorTravel")
     var village:Node2D=load("res://scenes/world/krivaya_sosna/krivaya_sosna.tscn").instantiate()
     root.add_child(village);current_scene=village;await frames(8)

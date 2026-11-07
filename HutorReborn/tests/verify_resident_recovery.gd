@@ -8,6 +8,8 @@ func check(ok: bool, message: String) -> void:
 func ticks(count: int) -> void:
     for i in range(count): await physics_frame
 func run() -> void:
+    # Isolate the approved pre-schedule component fixture. Live residency has separate integration coverage.
+    root.get_node("VillageLife").enabled=false
     var world: Node2D = load("res://scenes/world/krivaya_sosna/krivaya_sosna.tscn").instantiate()
     root.add_child(world); current_scene=world
     var population: Node2D=world.get_node("Actors/Residents")

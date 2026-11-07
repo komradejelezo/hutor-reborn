@@ -1,0 +1,156 @@
+{
+  "id": "herbalist",
+  "home": "herbalist",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            270,
+            360
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 420,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "gather",
+          "point": [
+            1910,
+            1660
+          ],
+          "minutes": 10,
+          "clip": "work_gather",
+          "facing": "right"
+        },
+        {
+          "id": "inspect_plants",
+          "point": [
+            2150,
+            1720
+          ],
+          "minutes": 8,
+          "clip": "work_inspect",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 660,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "sort_herbs",
+          "point": [
+            524,
+            344
+          ],
+          "minutes": 12,
+          "clip": "work_table",
+          "facing": "right",
+          "hide_props": [
+            "Actors/Props/Table",
+            "Actors/Props/DryHerbs"
+          ]
+        },
+        {
+          "id": "dry_plants",
+          "point": [
+            547,
+            213
+          ],
+          "minutes": 10,
+          "clip": "work_inspect",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 840,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "inspect_plants",
+          "point": [
+            1910,
+            1660
+          ],
+          "minutes": 10,
+          "clip": "work_inspect",
+          "facing": "down"
+        },
+        {
+          "id": "gather",
+          "point": [
+            2150,
+            1720
+          ],
+          "minutes": 10,
+          "clip": "work_gather",
+          "facing": "right"
+        }
+      ]
+    },
+    {
+      "start": 960,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "brew",
+          "point": [
+            524,
+            344
+          ],
+          "minutes": 15,
+          "clip": "work_table",
+          "facing": "right",
+          "hide_props": [
+            "Actors/Props/Table",
+            "Actors/Props/DryHerbs"
+          ]
+        },
+        {
+          "id": "sort_herbs",
+          "point": [
+            547,
+            213
+          ],
+          "minutes": 10,
+          "clip": "work_inspect",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            270,
+            360
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@ var active_id: StringName = &""
 var rooms: Dictionary = {}
 var resident_locations: Dictionary = {}
 var busy := false
+var residency_driver: Node
 var _held_gate := false
 var _outside_camera: Dictionary = {}
 var _return_position := Vector2.ZERO
@@ -119,6 +120,7 @@ func _room(id: StringName) -> Node2D:
     return room
 
 func _select_residents(id: StringName, room: Node2D) -> Array:
+    if is_instance_valid(residency_driver):return []
     var incoming: Array = []
     var data: HutorBuildingDefinition = buildings[id]
     var population: Node2D = exterior.get_node("Actors/Residents")
@@ -159,6 +161,7 @@ func _travel(id: StringName, exiting: bool) -> void:
         var data: HutorBuildingDefinition = buildings[id]
         _return_position = exterior.get_node(data.exterior_anchor).global_position + data.door_offset + Vector2(0, 28)
         incoming = _select_residents(id, destination)
+    if is_instance_valid(residency_driver):residency_driver.before_scene_change()
     _unbind(old, hero)
     hero.reparent(destination.get_node("Actors"), false)
     hero.position = _return_position if exiting else destination.get_node("Entry").position
@@ -167,6 +170,7 @@ func _travel(id: StringName, exiting: bool) -> void:
     get_tree().current_scene = destination
     active_world = destination; active_id = &"" if exiting else id
     _bind(destination, hero)
+    if is_instance_valid(residency_driver):residency_driver.after_scene_change(&"village" if exiting else id)
     for actor in incoming:
         var data: HutorNpcDefinition = destination.local_definition(actor.definition.id)
         actor.enter_location(data, destination.get_node("Actors/Residents"), data.routine[0].position)
@@ -189,6 +193,7 @@ func _travel(id: StringName, exiting: bool) -> void:
 
 func _process(delta: float) -> void:
     if _held_gate and not Input.is_action_pressed("interact"): _held_gate = false
+    if is_instance_valid(residency_driver):return
     if busy or get_tree().paused: return
     if not is_instance_valid(exterior): return
     for id in resident_locations.keys():

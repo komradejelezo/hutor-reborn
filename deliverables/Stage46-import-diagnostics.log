@@ -1,0 +1,36 @@
+First clean headless import (default threading): exit 139 at font import.
+[  97% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  98% ] reimport | Preparing files to reimport...
+[  99% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | DejaVuSans.ttf
+ERROR: /root: The caller thread can't call the function `propagate_notification()` on this node. Use `call_deferred()` or `call_deferred_thread_group()` instead.
+   at: propagate_notification (scene/main/node.cpp:2597)
+ERROR: /root: The caller thread can't call the function `propagate_notification()` on this node. Use `call_deferred()` or `call_deferred_thread_group()` instead.
+   at: propagate_notification (scene/main/node.cpp:2597)
+
+================================================================
+handle_crash: Program crashed with signal 11
+Engine version: Godot Engine v4.6.3.stable.official (7d41c59c457bd5a245092b4e7eb2d833e3b3f8c3)
+Dumping the backtrace. Please include this when reporting the bug on: https://github.com/godotengine/godot/issues
+
+================================================================
+handle_crash: Program crashed with signal 11
+Engine version: Godot Engine v4.6.3.stable.official (7d41c59c457bd5a245092b4e7eb2d833e3b3f8c3)
+Dumping the backtrace. Please include this when reporting the bug on: https://github.com/godotengine/godot/issues
+
+GUI editor import: exit 0; virtual-GPU Vulkan diagnostics:
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+ERROR: Required extension VK_KHR_surface not found.
+   at: _initialize_instance_extensions (drivers/vulkan/rendering_context_driver_vulkan.cpp:487)
+ERROR: Condition "err != OK" is true. Returning: err
+   at: initialize (drivers/vulkan/rendering_context_driver_vulkan.cpp:928)
+
+Clean headless import with --single-threaded-scene: exit 0, no errors (Stage46-clean-import.log).

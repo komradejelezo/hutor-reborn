@@ -1,0 +1,143 @@
+{
+  "id": "herbalist_brother",
+  "home": "herbalist",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            312,
+            358
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "household",
+          "point": [
+            367,
+            340
+          ],
+          "minutes": 10,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "prepare_work",
+          "point": [
+            480,
+            400
+          ],
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 450,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "meet_worker",
+          "point": [
+            1416,
+            920
+          ],
+          "minutes": 12,
+          "clip": "",
+          "facing": "down",
+          "partner": "woodcutter"
+        }
+      ]
+    },
+    {
+      "start": 480,
+      "scene": "logging",
+      "label": "Лесозаготовки",
+      "activities": [
+        {
+          "id": "chop",
+          "point": null,
+          "minutes": 12,
+          "clip": "work_chop",
+          "facing": "down"
+        },
+        {
+          "id": "carry_wood",
+          "point": null,
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "work_break",
+          "point": null,
+          "minutes": 10,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "home_rest",
+          "point": [
+            312,
+            358
+          ],
+          "minutes": 18,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "household",
+          "point": [
+            367,
+            340
+          ],
+          "minutes": 8,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "herbalist",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            312,
+            358
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ],
+  "portal_lane": 10,
+  "work_group": "logging_pair",
+  "work_location": "logging"
+}

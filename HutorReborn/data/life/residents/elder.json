@@ -1,0 +1,149 @@
+{
+  "id": "elder",
+  "home": "elder",
+  "blocks": [
+    {
+      "start": 0,
+      "scene": "elder",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            330,
+            370
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 360,
+      "scene": "elder",
+      "label": "",
+      "activities": [
+        {
+          "id": "read_documents",
+          "point": [
+            480,
+            248
+          ],
+          "minutes": 16,
+          "clip": "gesture_read",
+          "facing": "right",
+          "talk_offset": [
+            0,
+            76
+          ]
+        },
+        {
+          "id": "ponder",
+          "point": [
+            608,
+            216
+          ],
+          "minutes": 8,
+          "clip": "gesture_think",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "scene": "village",
+      "label": "",
+      "activities": [
+        {
+          "id": "inspect_square",
+          "point": [
+            1378,
+            1442
+          ],
+          "minutes": 10,
+          "clip": "gesture_think",
+          "facing": "down"
+        },
+        {
+          "id": "inspect_well",
+          "point": [
+            1320,
+            1580
+          ],
+          "minutes": 10,
+          "clip": "",
+          "facing": "down"
+        },
+        {
+          "id": "common_store",
+          "point": [
+            1287,
+            1220
+          ],
+          "minutes": 8,
+          "clip": "gesture_read",
+          "facing": "right"
+        },
+        {
+          "id": "watch_village",
+          "point": [
+            1440,
+            1370
+          ],
+          "minutes": 10,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1080,
+      "scene": "elder",
+      "label": "",
+      "activities": [
+        {
+          "id": "read_documents",
+          "point": [
+            480,
+            248
+          ],
+          "minutes": 16,
+          "clip": "gesture_read",
+          "facing": "right",
+          "talk_offset": [
+            0,
+            76
+          ]
+        },
+        {
+          "id": "ponder",
+          "point": [
+            608,
+            216
+          ],
+          "minutes": 10,
+          "clip": "gesture_think",
+          "facing": "down"
+        }
+      ]
+    },
+    {
+      "start": 1320,
+      "scene": "elder",
+      "label": "",
+      "activities": [
+        {
+          "id": "rest_night",
+          "point": [
+            330,
+            370
+          ],
+          "minutes": 25,
+          "clip": "",
+          "facing": "down"
+        }
+      ]
+    }
+  ]
+}
