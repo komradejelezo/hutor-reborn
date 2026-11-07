@@ -9,6 +9,12 @@ var focused := false
 func _ready() -> void:
     add_to_group("interactables")
 
+func interaction_priority() -> int:
+    return 0 # Passive inspections; actionable doors/conversations take precedence.
+
+func prompt_text() -> String:
+    return "[ E ]   " + title
+
 func set_focused(value: bool) -> void:
     if focused != value:
         focused = value

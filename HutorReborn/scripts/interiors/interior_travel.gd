@@ -2,6 +2,7 @@ extends Node
 ## One session owns the same Hans and nine resident instances across cached scenes.
 signal transition_started(building_id: StringName, exiting: bool)
 signal transition_finished(building_id: StringName, exiting: bool)
+signal transition_failed(building_id: StringName, reason: String)
 const VILLAGE := "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
 const DOOR = preload("res://scripts/interiors/door.gd")
 var buildings: Dictionary = {}
@@ -11,6 +12,9 @@ var active_id: StringName = &""
 var rooms: Dictionary = {}
 var resident_locations: Dictionary = {}
 var busy := false
+var last_error := ""
+var _room_errors: Dictionary = {}
+var _previous_control_lock := false
 var residency_driver: Node
 var _held_gate := false
 var _outside_camera: Dictionary = {}
@@ -59,7 +63,12 @@ func _bind_village(world: Node2D) -> void:
         marker.reach = 58
         marker.position = data.door_offset
         anchor.add_child(marker)
-        # Existing yard inspections remain available; the door has its own marker.
+        # Preserve the old description at a separate, reachable yard inspection.
+        var inspection := anchor.get_parent().get_node_or_null("InteractionPoint") as HutorInteractable
+        if inspection:
+            inspection.position = anchor.position + data.inspection_offset
+            inspection.reach = data.inspection_reach
+            inspection.title = "Осмотреть · " + data.display_name
 
 func request_transition(id: StringName, exiting: bool = false) -> bool:
     if busy or _held_gate or get_tree().paused or not buildings.has(id): return false
@@ -67,10 +76,19 @@ func request_transition(id: StringName, exiting: bool = false) -> bool:
     if not is_instance_valid(active_world): return false
     if exiting and active_id != id: return false
     if not exiting and active_id != &"": return false
+    if active_world.hud.dialogue.visible: return false
+    var path: String = VILLAGE if exiting else buildings[id].interior_scene
+    if (not exiting and not rooms.has(id)) or (exiting and not is_instance_valid(exterior)):
+        if not ResourceLoader.exists(path, "PackedScene"):
+            _report_failure(id, "Сцена недоступна: " + path)
+            return false
+    last_error = ""
     busy = true
     _held_gate = Input.is_action_pressed("interact")
+    _previous_control_lock = active_world.player.controls_locked
     active_world.player.controls_locked = true
     active_world.player.velocity = Vector2.ZERO
+    active_world.hud.clear_transition_error()
     active_world.hud.set_focus(null)
     transition_started.emit(id, exiting)
     _travel.call_deferred(id, exiting)
@@ -110,14 +128,38 @@ func _bind(world: Node2D, hero: CharacterBody2D) -> void:
 
 func _room(id: StringName) -> Node2D:
     if rooms.has(id) and is_instance_valid(rooms[id]): return rooms[id]
+    if not buildings.has(id): return null
     var data: HutorBuildingDefinition = buildings[id]
-    var packed: PackedScene = load(data.interior_scene)
-    if packed == null: return null
-    var room: Node2D = packed.instantiate()
+    _room_errors[id] = "Сцена недоступна: " + data.interior_scene
+    if not ResourceLoader.exists(data.interior_scene, "PackedScene"): return null
+    var packed := load(data.interior_scene) as PackedScene
+    if packed == null or not packed.can_instantiate(): return null
+    var candidate := packed.instantiate()
+    var room := candidate as Node2D
+    var valid: bool = room != null and room.get("building_id") == id and room.has_method("local_definition")
+    for path in ["Entry", "Exit", "Actors/Hans", "Actors/Hans/Camera2D", "Actors/Hans/InteractionSensor", "Actors/Residents/Navigation", "HUD", "Atmosphere"]:
+        valid = valid and candidate.has_node(path)
+    if not valid:
+        _room_errors[id] = "Неверная структура интерьера: " + data.interior_scene
+        candidate.free()
+        return null
     # The saved Hans is only for standalone F6 preview; runtime carries the original.
     room.get_node("Actors/Hans").free()
     rooms[id] = room
+    _room_errors.erase(id)
     return room
+
+func _report_failure(id: StringName, reason: String) -> void:
+    last_error = reason
+    if is_instance_valid(active_world): active_world.hud.show_transition_error()
+    transition_failed.emit(id, reason)
+
+func _abort_transition(id: StringName, reason: String) -> void:
+    await _fade_to(0)
+    _fade.hide()
+    if is_instance_valid(active_world): active_world.player.controls_locked = _previous_control_lock
+    busy = false
+    _report_failure(id, reason)
 
 func _select_residents(id: StringName, room: Node2D) -> Array:
     if is_instance_valid(residency_driver):return []
@@ -144,16 +186,18 @@ func _travel(id: StringName, exiting: bool) -> void:
     var hero: CharacterBody2D = old.player
     if exiting and not is_instance_valid(exterior):
         # Standalone F6 geometry preview returns to a normal village session.
+        var error := get_tree().change_scene_to_file(VILLAGE)
+        if error != OK:
+            await _abort_transition(id, "Не удалось загрузить деревню: " + error_string(error))
+            return
         rooms.clear()
-        get_tree().change_scene_to_file(VILLAGE)
         await get_tree().process_frame; await get_tree().process_frame
         await _fade_to(0); _fade.hide(); busy = false
         transition_finished.emit(id, true)
         return
     var destination: Node2D = exterior if exiting else _room(id)
     if not is_instance_valid(destination):
-        await _fade_to(0); _fade.hide(); busy = false
-        hero.controls_locked = false
+        await _abort_transition(id, _room_errors.get(id, "Сцена назначения недоступна"))
         return
     var incoming: Array = []
     if not exiting:
@@ -188,7 +232,7 @@ func _travel(id: StringName, exiting: bool) -> void:
     for i in range(3): await get_tree().physics_frame
     camera.reset_smoothing(); camera.force_update_scroll()
     await _fade_to(0)
-    _fade.hide(); hero.controls_locked = false; busy = false
+    _fade.hide(); hero.controls_locked = _previous_control_lock; busy = false
     transition_finished.emit(id, exiting)
 
 func _process(delta: float) -> void:

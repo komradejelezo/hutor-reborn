@@ -1,0 +1,383 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: nearby valid waypoint: elder/inspect_square@village
+PASS: physical feet clearance: elder/inspect_square@village
+PASS: connected route from entry: elder/inspect_square@village
+PASS: physics clears the entire route: elder/inspect_square@village
+PASS: nearby valid waypoint: elder/inspect_well@village
+PASS: physical feet clearance: elder/inspect_well@village
+PASS: connected route from entry: elder/inspect_well@village
+PASS: physics clears the entire route: elder/inspect_well@village
+PASS: nearby valid waypoint: elder/common_store@village
+PASS: physical feet clearance: elder/common_store@village
+PASS: connected route from entry: elder/common_store@village
+PASS: physics clears the entire route: elder/common_store@village
+PASS: nearby valid waypoint: elder/watch_village@village
+PASS: physical feet clearance: elder/watch_village@village
+PASS: connected route from entry: elder/watch_village@village
+PASS: physics clears the entire route: elder/watch_village@village
+PASS: nearby valid waypoint: woodcutter/meet_worker@village
+PASS: physical feet clearance: woodcutter/meet_worker@village
+PASS: connected route from entry: woodcutter/meet_worker@village
+PASS: physics clears the entire route: woodcutter/meet_worker@village
+PASS: nearby valid waypoint: woodcutter_wife/sweep_yard@village
+PASS: physical feet clearance: woodcutter_wife/sweep_yard@village
+PASS: connected route from entry: woodcutter_wife/sweep_yard@village
+PASS: physics clears the entire route: woodcutter_wife/sweep_yard@village
+PASS: nearby valid waypoint: woodcutter_wife/household@village
+PASS: physical feet clearance: woodcutter_wife/household@village
+PASS: connected route from entry: woodcutter_wife/household@village
+PASS: physics clears the entire route: woodcutter_wife/household@village
+PASS: nearby valid waypoint: woodcutter_wife/watch_child@village
+PASS: physical feet clearance: woodcutter_wife/watch_child@village
+PASS: connected route from entry: woodcutter_wife/watch_child@village
+PASS: physics clears the entire route: woodcutter_wife/watch_child@village
+PASS: nearby valid waypoint: woodcutter_wife/garden_work@village
+PASS: physical feet clearance: woodcutter_wife/garden_work@village
+PASS: connected route from entry: woodcutter_wife/garden_work@village
+PASS: physics clears the entire route: woodcutter_wife/garden_work@village
+PASS: nearby valid waypoint: woodcutter_wife/watch_child@village
+PASS: physical feet clearance: woodcutter_wife/watch_child@village
+PASS: connected route from entry: woodcutter_wife/watch_child@village
+PASS: physics clears the entire route: woodcutter_wife/watch_child@village
+PASS: nearby valid waypoint: woodcutter_son/play_stick@village
+PASS: physical feet clearance: woodcutter_son/play_stick@village
+PASS: connected route from entry: woodcutter_son/play_stick@village
+PASS: physics clears the entire route: woodcutter_son/play_stick@village
+PASS: nearby valid waypoint: woodcutter_son/run_yard@village
+PASS: physical feet clearance: woodcutter_son/run_yard@village
+PASS: connected route from entry: woodcutter_son/run_yard@village
+PASS: physics clears the entire route: woodcutter_son/run_yard@village
+PASS: nearby valid waypoint: woodcutter_son/kneel_toy@village
+PASS: physical feet clearance: woodcutter_son/kneel_toy@village
+PASS: connected route from entry: woodcutter_son/kneel_toy@village
+PASS: physics clears the entire route: woodcutter_son/kneel_toy@village
+PASS: nearby valid waypoint: woodcutter_son/visit_mother@village
+PASS: physical feet clearance: woodcutter_son/visit_mother@village
+PASS: connected route from entry: woodcutter_son/visit_mother@village
+PASS: physics clears the entire route: woodcutter_son/visit_mother@village
+PASS: nearby valid waypoint: woodcutter_son/run_to_tree@village
+PASS: physical feet clearance: woodcutter_son/run_to_tree@village
+PASS: connected route from entry: woodcutter_son/run_to_tree@village
+PASS: physics clears the entire route: woodcutter_son/run_to_tree@village
+PASS: nearby valid waypoint: woodcutter_son/play_stick@village
+PASS: physical feet clearance: woodcutter_son/play_stick@village
+PASS: connected route from entry: woodcutter_son/play_stick@village
+PASS: physics clears the entire route: woodcutter_son/play_stick@village
+PASS: nearby valid waypoint: woodcutter_son/run_path@village
+PASS: physical feet clearance: woodcutter_son/run_path@village
+PASS: connected route from entry: woodcutter_son/run_path@village
+PASS: physics clears the entire route: woodcutter_son/run_path@village
+PASS: nearby valid waypoint: woodcutter_son/inspect_well@village
+PASS: physical feet clearance: woodcutter_son/inspect_well@village
+PASS: connected route from entry: woodcutter_son/inspect_well@village
+PASS: physics clears the entire route: woodcutter_son/inspect_well@village
+PASS: nearby valid waypoint: woodcutter_son/look_at_hans@village
+PASS: physical feet clearance: woodcutter_son/look_at_hans@village
+PASS: connected route from entry: woodcutter_son/look_at_hans@village
+PASS: physics clears the entire route: woodcutter_son/look_at_hans@village
+PASS: nearby valid waypoint: woodcutter_son/return_yard@village
+PASS: physical feet clearance: woodcutter_son/return_yard@village
+PASS: connected route from entry: woodcutter_son/return_yard@village
+PASS: physics clears the entire route: woodcutter_son/return_yard@village
+PASS: nearby valid waypoint: woodcutter_son/play_stick@village
+PASS: physical feet clearance: woodcutter_son/play_stick@village
+PASS: connected route from entry: woodcutter_son/play_stick@village
+PASS: physics clears the entire route: woodcutter_son/play_stick@village
+PASS: nearby valid waypoint: woodcutter_son/run_yard@village
+PASS: physical feet clearance: woodcutter_son/run_yard@village
+PASS: connected route from entry: woodcutter_son/run_yard@village
+PASS: physics clears the entire route: woodcutter_son/run_yard@village
+PASS: nearby valid waypoint: woodcutter_son/kneel_toy@village
+PASS: physical feet clearance: woodcutter_son/kneel_toy@village
+PASS: connected route from entry: woodcutter_son/kneel_toy@village
+PASS: physics clears the entire route: woodcutter_son/kneel_toy@village
+PASS: nearby valid waypoint: woodcutter_son/visit_mother@village
+PASS: physical feet clearance: woodcutter_son/visit_mother@village
+PASS: connected route from entry: woodcutter_son/visit_mother@village
+PASS: physics clears the entire route: woodcutter_son/visit_mother@village
+PASS: nearby valid waypoint: herbalist/gather@village
+PASS: physical feet clearance: herbalist/gather@village
+PASS: connected route from entry: herbalist/gather@village
+PASS: physics clears the entire route: herbalist/gather@village
+PASS: nearby valid waypoint: herbalist/inspect_plants@village
+PASS: physical feet clearance: herbalist/inspect_plants@village
+PASS: connected route from entry: herbalist/inspect_plants@village
+PASS: physics clears the entire route: herbalist/inspect_plants@village
+PASS: nearby valid waypoint: herbalist/inspect_plants@village
+PASS: physical feet clearance: herbalist/inspect_plants@village
+PASS: connected route from entry: herbalist/inspect_plants@village
+PASS: physics clears the entire route: herbalist/inspect_plants@village
+PASS: nearby valid waypoint: herbalist/gather@village
+PASS: physical feet clearance: herbalist/gather@village
+PASS: connected route from entry: herbalist/gather@village
+PASS: physics clears the entire route: herbalist/gather@village
+PASS: nearby valid waypoint: herbalist_brother/meet_worker@village
+PASS: physical feet clearance: herbalist_brother/meet_worker@village
+PASS: connected route from entry: herbalist_brother/meet_worker@village
+PASS: physics clears the entire route: herbalist_brother/meet_worker@village
+PASS: nearby valid waypoint: old_man/slow_walk@village
+PASS: physical feet clearance: old_man/slow_walk@village
+PASS: connected route from entry: old_man/slow_walk@village
+PASS: physics clears the entire route: old_man/slow_walk@village
+PASS: nearby valid waypoint: old_man/sit_and_smoke@village
+PASS: physical feet clearance: old_man/sit_and_smoke@village
+PASS: connected route from entry: old_man/sit_and_smoke@village
+PASS: physics clears the entire route: old_man/sit_and_smoke@village
+PASS: nearby valid waypoint: old_man/ponder@village
+PASS: physical feet clearance: old_man/ponder@village
+PASS: connected route from entry: old_man/ponder@village
+PASS: physics clears the entire route: old_man/ponder@village
+PASS: nearby valid waypoint: old_man/watch_hans@village
+PASS: physical feet clearance: old_man/watch_hans@village
+PASS: connected route from entry: old_man/watch_hans@village
+PASS: physics clears the entire route: old_man/watch_hans@village
+PASS: transition completes within deadline
+PASS: nearby valid waypoint: innkeeper/rest_night@inn
+PASS: physical feet clearance: innkeeper/rest_night@inn
+PASS: connected route from entry: innkeeper/rest_night@inn
+PASS: physics clears the entire route: innkeeper/rest_night@inn
+PASS: nearby valid waypoint: innkeeper/prepare_inn@inn
+PASS: physical feet clearance: innkeeper/prepare_inn@inn
+PASS: connected route from entry: innkeeper/prepare_inn@inn
+PASS: physics clears the entire route: innkeeper/prepare_inn@inn
+PASS: nearby valid waypoint: innkeeper/check_supplies@inn
+PASS: physical feet clearance: innkeeper/check_supplies@inn
+PASS: connected route from entry: innkeeper/check_supplies@inn
+PASS: physics clears the entire route: innkeeper/check_supplies@inn
+PASS: nearby valid waypoint: innkeeper/wipe_mug@inn
+PASS: physical feet clearance: innkeeper/wipe_mug@inn
+PASS: connected route from entry: innkeeper/wipe_mug@inn
+PASS: physics clears the entire route: innkeeper/wipe_mug@inn
+PASS: nearby valid waypoint: innkeeper/arrange_dishes@inn
+PASS: physical feet clearance: innkeeper/arrange_dishes@inn
+PASS: connected route from entry: innkeeper/arrange_dishes@inn
+PASS: physics clears the entire route: innkeeper/arrange_dishes@inn
+PASS: nearby valid waypoint: innkeeper/wipe_mug@inn
+PASS: physical feet clearance: innkeeper/wipe_mug@inn
+PASS: connected route from entry: innkeeper/wipe_mug@inn
+PASS: physics clears the entire route: innkeeper/wipe_mug@inn
+PASS: nearby valid waypoint: innkeeper/visit_tables@inn
+PASS: physical feet clearance: innkeeper/visit_tables@inn
+PASS: connected route from entry: innkeeper/visit_tables@inn
+PASS: physics clears the entire route: innkeeper/visit_tables@inn
+PASS: nearby valid waypoint: innkeeper/rest_night@inn
+PASS: physical feet clearance: innkeeper/rest_night@inn
+PASS: connected route from entry: innkeeper/rest_night@inn
+PASS: physics clears the entire route: innkeeper/rest_night@inn
+PASS: nearby valid waypoint: innkeeper_wife/rest_night@inn
+PASS: physical feet clearance: innkeeper_wife/rest_night@inn
+PASS: connected route from entry: innkeeper_wife/rest_night@inn
+PASS: physics clears the entire route: innkeeper_wife/rest_night@inn
+PASS: nearby valid waypoint: innkeeper_wife/kitchen@inn
+PASS: physical feet clearance: innkeeper_wife/kitchen@inn
+PASS: connected route from entry: innkeeper_wife/kitchen@inn
+PASS: physics clears the entire route: innkeeper_wife/kitchen@inn
+PASS: nearby valid waypoint: innkeeper_wife/prepare_supplies@inn
+PASS: physical feet clearance: innkeeper_wife/prepare_supplies@inn
+PASS: connected route from entry: innkeeper_wife/prepare_supplies@inn
+PASS: physics clears the entire route: innkeeper_wife/prepare_supplies@inn
+PASS: nearby valid waypoint: innkeeper_wife/clean_tables@inn
+PASS: physical feet clearance: innkeeper_wife/clean_tables@inn
+PASS: connected route from entry: innkeeper_wife/clean_tables@inn
+PASS: physics clears the entire route: innkeeper_wife/clean_tables@inn
+PASS: nearby valid waypoint: innkeeper_wife/kitchen@inn
+PASS: physical feet clearance: innkeeper_wife/kitchen@inn
+PASS: connected route from entry: innkeeper_wife/kitchen@inn
+PASS: physics clears the entire route: innkeeper_wife/kitchen@inn
+PASS: nearby valid waypoint: innkeeper_wife/household@inn
+PASS: physical feet clearance: innkeeper_wife/household@inn
+PASS: connected route from entry: innkeeper_wife/household@inn
+PASS: physics clears the entire route: innkeeper_wife/household@inn
+PASS: nearby valid waypoint: innkeeper_wife/clean_tables@inn
+PASS: physical feet clearance: innkeeper_wife/clean_tables@inn
+PASS: connected route from entry: innkeeper_wife/clean_tables@inn
+PASS: physics clears the entire route: innkeeper_wife/clean_tables@inn
+PASS: nearby valid waypoint: innkeeper_wife/kitchen@inn
+PASS: physical feet clearance: innkeeper_wife/kitchen@inn
+PASS: connected route from entry: innkeeper_wife/kitchen@inn
+PASS: physics clears the entire route: innkeeper_wife/kitchen@inn
+PASS: nearby valid waypoint: innkeeper_wife/rest_night@inn
+PASS: physical feet clearance: innkeeper_wife/rest_night@inn
+PASS: connected route from entry: innkeeper_wife/rest_night@inn
+PASS: physics clears the entire route: innkeeper_wife/rest_night@inn
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: nearby valid waypoint: elder/rest_night@elder
+PASS: physical feet clearance: elder/rest_night@elder
+PASS: connected route from entry: elder/rest_night@elder
+PASS: physics clears the entire route: elder/rest_night@elder
+PASS: nearby valid waypoint: elder/read_documents@elder
+PASS: physical feet clearance: elder/read_documents@elder
+PASS: connected route from entry: elder/read_documents@elder
+PASS: physics clears the entire route: elder/read_documents@elder
+PASS: nearby valid waypoint: elder/ponder@elder
+PASS: physical feet clearance: elder/ponder@elder
+PASS: connected route from entry: elder/ponder@elder
+PASS: physics clears the entire route: elder/ponder@elder
+PASS: nearby valid waypoint: elder/read_documents@elder
+PASS: physical feet clearance: elder/read_documents@elder
+PASS: connected route from entry: elder/read_documents@elder
+PASS: physics clears the entire route: elder/read_documents@elder
+PASS: nearby valid waypoint: elder/ponder@elder
+PASS: physical feet clearance: elder/ponder@elder
+PASS: connected route from entry: elder/ponder@elder
+PASS: physics clears the entire route: elder/ponder@elder
+PASS: nearby valid waypoint: elder/rest_night@elder
+PASS: physical feet clearance: elder/rest_night@elder
+PASS: connected route from entry: elder/rest_night@elder
+PASS: physics clears the entire route: elder/rest_night@elder
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: nearby valid waypoint: herbalist/rest_night@herbalist
+PASS: physical feet clearance: herbalist/rest_night@herbalist
+PASS: connected route from entry: herbalist/rest_night@herbalist
+PASS: physics clears the entire route: herbalist/rest_night@herbalist
+PASS: nearby valid waypoint: herbalist/sort_herbs@herbalist
+PASS: physical feet clearance: herbalist/sort_herbs@herbalist
+PASS: connected route from entry: herbalist/sort_herbs@herbalist
+PASS: physics clears the entire route: herbalist/sort_herbs@herbalist
+PASS: nearby valid waypoint: herbalist/dry_plants@herbalist
+PASS: physical feet clearance: herbalist/dry_plants@herbalist
+PASS: connected route from entry: herbalist/dry_plants@herbalist
+PASS: physics clears the entire route: herbalist/dry_plants@herbalist
+PASS: nearby valid waypoint: herbalist/brew@herbalist
+PASS: physical feet clearance: herbalist/brew@herbalist
+PASS: connected route from entry: herbalist/brew@herbalist
+PASS: physics clears the entire route: herbalist/brew@herbalist
+PASS: nearby valid waypoint: herbalist/sort_herbs@herbalist
+PASS: physical feet clearance: herbalist/sort_herbs@herbalist
+PASS: connected route from entry: herbalist/sort_herbs@herbalist
+PASS: physics clears the entire route: herbalist/sort_herbs@herbalist
+PASS: nearby valid waypoint: herbalist/rest_night@herbalist
+PASS: physical feet clearance: herbalist/rest_night@herbalist
+PASS: connected route from entry: herbalist/rest_night@herbalist
+PASS: physics clears the entire route: herbalist/rest_night@herbalist
+PASS: nearby valid waypoint: herbalist_brother/rest_night@herbalist
+PASS: physical feet clearance: herbalist_brother/rest_night@herbalist
+PASS: connected route from entry: herbalist_brother/rest_night@herbalist
+PASS: physics clears the entire route: herbalist_brother/rest_night@herbalist
+PASS: nearby valid waypoint: herbalist_brother/household@herbalist
+PASS: physical feet clearance: herbalist_brother/household@herbalist
+PASS: connected route from entry: herbalist_brother/household@herbalist
+PASS: physics clears the entire route: herbalist_brother/household@herbalist
+PASS: nearby valid waypoint: herbalist_brother/prepare_work@herbalist
+PASS: physical feet clearance: herbalist_brother/prepare_work@herbalist
+PASS: connected route from entry: herbalist_brother/prepare_work@herbalist
+PASS: physics clears the entire route: herbalist_brother/prepare_work@herbalist
+PASS: nearby valid waypoint: herbalist_brother/home_rest@herbalist
+PASS: physical feet clearance: herbalist_brother/home_rest@herbalist
+PASS: connected route from entry: herbalist_brother/home_rest@herbalist
+PASS: physics clears the entire route: herbalist_brother/home_rest@herbalist
+PASS: nearby valid waypoint: herbalist_brother/household@herbalist
+PASS: physical feet clearance: herbalist_brother/household@herbalist
+PASS: connected route from entry: herbalist_brother/household@herbalist
+PASS: physics clears the entire route: herbalist_brother/household@herbalist
+PASS: nearby valid waypoint: herbalist_brother/rest_night@herbalist
+PASS: physical feet clearance: herbalist_brother/rest_night@herbalist
+PASS: connected route from entry: herbalist_brother/rest_night@herbalist
+PASS: physics clears the entire route: herbalist_brother/rest_night@herbalist
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: nearby valid waypoint: woodcutter/rest_night@woodcutter
+PASS: physical feet clearance: woodcutter/rest_night@woodcutter
+PASS: connected route from entry: woodcutter/rest_night@woodcutter
+PASS: physics clears the entire route: woodcutter/rest_night@woodcutter
+PASS: nearby valid waypoint: woodcutter/take_tool@woodcutter
+PASS: physical feet clearance: woodcutter/take_tool@woodcutter
+PASS: connected route from entry: woodcutter/take_tool@woodcutter
+PASS: physics clears the entire route: woodcutter/take_tool@woodcutter
+PASS: nearby valid waypoint: woodcutter/prepare_work@woodcutter
+PASS: physical feet clearance: woodcutter/prepare_work@woodcutter
+PASS: connected route from entry: woodcutter/prepare_work@woodcutter
+PASS: physics clears the entire route: woodcutter/prepare_work@woodcutter
+PASS: nearby valid waypoint: woodcutter/rest_after_work@woodcutter
+PASS: physical feet clearance: woodcutter/rest_after_work@woodcutter
+PASS: connected route from entry: woodcutter/rest_after_work@woodcutter
+PASS: physics clears the entire route: woodcutter/rest_after_work@woodcutter
+PASS: nearby valid waypoint: woodcutter/family_meal@woodcutter
+PASS: physical feet clearance: woodcutter/family_meal@woodcutter
+PASS: connected route from entry: woodcutter/family_meal@woodcutter
+PASS: physics clears the entire route: woodcutter/family_meal@woodcutter
+PASS: nearby valid waypoint: woodcutter/rest_night@woodcutter
+PASS: physical feet clearance: woodcutter/rest_night@woodcutter
+PASS: connected route from entry: woodcutter/rest_night@woodcutter
+PASS: physics clears the entire route: woodcutter/rest_night@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/rest_night@woodcutter
+PASS: physical feet clearance: woodcutter_wife/rest_night@woodcutter
+PASS: connected route from entry: woodcutter_wife/rest_night@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/rest_night@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/cook@woodcutter
+PASS: physical feet clearance: woodcutter_wife/cook@woodcutter
+PASS: connected route from entry: woodcutter_wife/cook@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/cook@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/serve@woodcutter
+PASS: physical feet clearance: woodcutter_wife/serve@woodcutter
+PASS: connected route from entry: woodcutter_wife/serve@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/serve@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/cook@woodcutter
+PASS: physical feet clearance: woodcutter_wife/cook@woodcutter
+PASS: connected route from entry: woodcutter_wife/cook@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/cook@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/clean@woodcutter
+PASS: physical feet clearance: woodcutter_wife/clean@woodcutter
+PASS: connected route from entry: woodcutter_wife/clean@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/clean@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/family_meal@woodcutter
+PASS: physical feet clearance: woodcutter_wife/family_meal@woodcutter
+PASS: connected route from entry: woodcutter_wife/family_meal@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/family_meal@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/household@woodcutter
+PASS: physical feet clearance: woodcutter_wife/household@woodcutter
+PASS: connected route from entry: woodcutter_wife/household@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/household@woodcutter
+PASS: nearby valid waypoint: woodcutter_wife/rest_night@woodcutter
+PASS: physical feet clearance: woodcutter_wife/rest_night@woodcutter
+PASS: connected route from entry: woodcutter_wife/rest_night@woodcutter
+PASS: physics clears the entire route: woodcutter_wife/rest_night@woodcutter
+PASS: nearby valid waypoint: woodcutter_son/rest_night@woodcutter
+PASS: physical feet clearance: woodcutter_son/rest_night@woodcutter
+PASS: connected route from entry: woodcutter_son/rest_night@woodcutter
+PASS: physics clears the entire route: woodcutter_son/rest_night@woodcutter
+PASS: nearby valid waypoint: woodcutter_son/home_play@woodcutter
+PASS: physical feet clearance: woodcutter_son/home_play@woodcutter
+PASS: connected route from entry: woodcutter_son/home_play@woodcutter
+PASS: physics clears the entire route: woodcutter_son/home_play@woodcutter
+PASS: nearby valid waypoint: woodcutter_son/near_mother@woodcutter
+PASS: physical feet clearance: woodcutter_son/near_mother@woodcutter
+PASS: connected route from entry: woodcutter_son/near_mother@woodcutter
+PASS: physics clears the entire route: woodcutter_son/near_mother@woodcutter
+PASS: nearby valid waypoint: woodcutter_son/home_play@woodcutter
+PASS: physical feet clearance: woodcutter_son/home_play@woodcutter
+PASS: connected route from entry: woodcutter_son/home_play@woodcutter
+PASS: physics clears the entire route: woodcutter_son/home_play@woodcutter
+PASS: nearby valid waypoint: woodcutter_son/family_meal@woodcutter
+PASS: physical feet clearance: woodcutter_son/family_meal@woodcutter
+PASS: connected route from entry: woodcutter_son/family_meal@woodcutter
+PASS: physics clears the entire route: woodcutter_son/family_meal@woodcutter
+PASS: nearby valid waypoint: woodcutter_son/rest_night@woodcutter
+PASS: physical feet clearance: woodcutter_son/rest_night@woodcutter
+PASS: connected route from entry: woodcutter_son/rest_night@woodcutter
+PASS: physics clears the entire route: woodcutter_son/rest_night@woodcutter
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: nearby valid waypoint: old_man/rest_night@old_man
+PASS: physical feet clearance: old_man/rest_night@old_man
+PASS: connected route from entry: old_man/rest_night@old_man
+PASS: physics clears the entire route: old_man/rest_night@old_man
+PASS: nearby valid waypoint: old_man/rest_by_hearth@old_man
+PASS: physical feet clearance: old_man/rest_by_hearth@old_man
+PASS: connected route from entry: old_man/rest_by_hearth@old_man
+PASS: physics clears the entire route: old_man/rest_by_hearth@old_man
+PASS: nearby valid waypoint: old_man/read_old_papers@old_man
+PASS: physical feet clearance: old_man/read_old_papers@old_man
+PASS: connected route from entry: old_man/read_old_papers@old_man
+PASS: physics clears the entire route: old_man/read_old_papers@old_man
+PASS: nearby valid waypoint: old_man/rest_night@old_man
+PASS: physical feet clearance: old_man/rest_night@old_man
+PASS: connected route from entry: old_man/rest_night@old_man
+PASS: physics clears the entire route: old_man/rest_night@old_man
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+RESULT: 380 daily-route checks passed, 0 failed

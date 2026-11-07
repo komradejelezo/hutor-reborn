@@ -13,6 +13,8 @@ var dialogue_title: Label
 var dialogue_text: Label
 var pause_panel: PanelContainer
 var effect_label: Label
+var _notice_left := 0.0
+var _notice_focus: HutorInteractable
 var sans: Font = preload("res://assets/fonts/DejaVuSans.ttf")
 var serif: Font = preload("res://assets/fonts/DejaVuSerif.ttf")
 
@@ -104,11 +106,34 @@ func _ready() -> void:
         menu.add_child(button)
     root.add_child(pause_panel)
     pause_panel.hide()
+    set_process(false)
 
 func set_focus(target: HutorInteractable) -> void:
-    prompt.visible = target != null and not dialogue.visible and not pause_panel.visible
+    _notice_focus = target
+    var manager: Node = get_node_or_null("/root/DialogueManager") if is_inside_tree() else null
+    var blocked: bool = dialogue.visible or pause_panel.visible or (manager != null and manager.is_active())
+    if _notice_left > 0:
+        prompt.visible = not blocked
+        return
+    prompt.visible = target != null and not blocked
     if target:
-        prompt_label.text = "[ E ]   " + target.title
+        prompt_label.text = target.prompt_text()
+
+func show_transition_error() -> void:
+    _notice_left = 2.0
+    prompt_label.text = "Переход временно недоступен"
+    prompt.visible = not dialogue.visible and not pause_panel.visible
+    set_process(true)
+
+func clear_transition_error() -> void:
+    _notice_left = 0
+    set_process(false)
+
+func _process(delta: float) -> void:
+    _notice_left = maxf(0, _notice_left-delta)
+    if _notice_left == 0:
+        set_process(false)
+        set_focus(_notice_focus if is_instance_valid(_notice_focus) else null)
 
 func show_description(payload: Dictionary) -> void:
     dialogue_title.text = payload.title

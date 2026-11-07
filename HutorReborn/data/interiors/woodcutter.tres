@@ -8,4 +8,5 @@ id = &"woodcutter"
 display_name = "Дом семьи дровосека"
 interior_scene = "res://scenes/interiors/woodcutter.tscn"
 exterior_anchor = NodePath("Actors/Structures/MillerHouse/Entrance")
+inspection_offset = Vector2(-112, 70)
 residents = Array[StringName]([&"woodcutter", &"woodcutter_wife", &"woodcutter_son"])
