@@ -6,6 +6,8 @@ extends Node
 func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool) -> void:
     if sprite.sprite_frames == null: return
     var clip: StringName = StringName(mode+"_"+String(facing))
+    if mode=="walk" and sprite.sprite_frames.has_animation("run_"+String(facing)):
+        clip=StringName("run_"+String(facing))
     if mode == "work" and work != &"": clip = work
     if not sprite.sprite_frames.has_animation(clip): clip = StringName("idle_"+String(facing))
     sprite.flip_h = facing == &"left"

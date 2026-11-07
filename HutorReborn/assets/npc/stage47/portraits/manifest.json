@@ -1,0 +1,686 @@
+[
+  {
+    "id": "elder",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/elder/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      61,
+      1,
+      301,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "elder",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/elder/joy.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      423,
+      1,
+      663,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "elder",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/elder/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      785,
+      1,
+      1025,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "elder",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/elder/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      1147,
+      1,
+      1387,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/innkeeper/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      61,
+      363,
+      301,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/innkeeper/joy.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      423,
+      363,
+      663,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/innkeeper/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      785,
+      363,
+      1025,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/innkeeper/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      1147,
+      363,
+      1387,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper_wife",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/innkeeper_wife/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      61,
+      725,
+      301,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper_wife",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/innkeeper_wife/joy.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      423,
+      725,
+      663,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper_wife",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/innkeeper_wife/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      785,
+      725,
+      1025,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "innkeeper_wife",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/innkeeper_wife/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/elders_inn.png",
+    "source_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e",
+    "box": [
+      1147,
+      725,
+      1387,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/woodcutter/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      61,
+      1,
+      301,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/woodcutter/joy.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      423,
+      1,
+      663,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/woodcutter/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      785,
+      1,
+      1025,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/woodcutter/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      1147,
+      1,
+      1387,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_wife",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/woodcutter_wife/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      61,
+      363,
+      301,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_wife",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/woodcutter_wife/joy.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      423,
+      363,
+      663,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_wife",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/woodcutter_wife/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      785,
+      363,
+      1025,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_wife",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/woodcutter_wife/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      1147,
+      363,
+      1387,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_son",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/woodcutter_son/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      61,
+      725,
+      301,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_son",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/woodcutter_son/joy.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      423,
+      725,
+      663,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_son",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/woodcutter_son/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      785,
+      725,
+      1025,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "woodcutter_son",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/woodcutter_son/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/woodcutter_family.png",
+    "source_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217",
+    "box": [
+      1147,
+      725,
+      1387,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/herbalist/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      61,
+      1,
+      301,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/herbalist/joy.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      423,
+      1,
+      663,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/herbalist/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      785,
+      1,
+      1025,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/herbalist/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      1147,
+      1,
+      1387,
+      361
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist_brother",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/herbalist_brother/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      61,
+      363,
+      301,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist_brother",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/herbalist_brother/joy.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      423,
+      363,
+      663,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist_brother",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/herbalist_brother/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      785,
+      363,
+      1025,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "herbalist_brother",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/herbalist_brother/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      1147,
+      363,
+      1387,
+      723
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "old_man",
+    "emotion": "neutral",
+    "path": "assets/npc/stage47/portraits/old_man/neutral.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      61,
+      725,
+      301,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "old_man",
+    "emotion": "joy",
+    "path": "assets/npc/stage47/portraits/old_man/joy.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      423,
+      725,
+      663,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "old_man",
+    "emotion": "displeased",
+    "path": "assets/npc/stage47/portraits/old_man/displeased.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      785,
+      725,
+      1025,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  },
+  {
+    "id": "old_man",
+    "emotion": "anxious",
+    "path": "assets/npc/stage47/portraits/old_man/anxious.png",
+    "source": "assets/npc/stage47/portraits/source/herbalist_and_old_man.png",
+    "source_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309",
+    "box": [
+      1147,
+      725,
+      1387,
+      1085
+    ],
+    "size": [
+      128,
+      192
+    ],
+    "sampling": "Nearest",
+    "origin": "AI generated from original resident reference; reviewed, not original sprite frames"
+  }
+]

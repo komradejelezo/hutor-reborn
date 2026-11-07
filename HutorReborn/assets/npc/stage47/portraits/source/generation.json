@@ -1,0 +1,23 @@
+{
+  "tool": "image_gen.imagegen",
+  "origin": "New AI-generated dialogue illustrations referenced to the current original NPC sprites. These are not supplied sprite frames.",
+  "art_direction": "Detailed pixel art, muted olive/umber/cream, warm side light, dark background. Same face/clothes/camera in each row. Columns neutral, friendly, irritated, worried. Separate identities from original sprite reference.",
+  "groups": {
+    "elders_inn": {
+      "atlas": "elders_inn.png",
+      "reference": "references/elders_inn.png",
+      "atlas_sha256": "f9755dc6ba201219badaf173d59d1dc7addaa96aefb99ed4dbb799ee8c5cb38e"
+    },
+    "woodcutter_family": {
+      "atlas": "woodcutter_family.png",
+      "reference": "references/woodcutter_family.png",
+      "atlas_sha256": "fa67852b0364926112233b1dc3aee2261a07313af7796a62b31b72c858d78217"
+    },
+    "herbalist_and_old_man": {
+      "atlas": "herbalist_and_old_man.png",
+      "reference": "references/herbalist_and_old_man.png",
+      "atlas_sha256": "f7d91725b4ed28a54602221e55f7e12af27cb2c99c97b3f64ede45f7907e8309"
+    }
+  },
+  "review": "All 36 faces and clothing reviewed against the nine source sprites; cropped uniformly to existing dialogue frame. No animated sprite was generated."
+}

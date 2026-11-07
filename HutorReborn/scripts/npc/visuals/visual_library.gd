@@ -1,0 +1,14 @@
+class_name HutorNpcVisualLibrary
+extends RefCounted
+## Presentation data only: no time, scene residency or routine ownership.
+static var _profiles: Dictionary = {}
+static var _frames: Dictionary = {}
+static func profile(id: StringName) -> Dictionary:
+    if _profiles.is_empty():
+        _profiles=JSON.parse_string(FileAccess.get_file_as_string("res://data/visuals/residents.json"))
+    return _profiles.get(String(id),{})
+static func frames_for(id: StringName, fallback: SpriteFrames) -> SpriteFrames:
+    if not _frames.has(id):
+        var path:="res://assets/npc/stage47/"+String(id)+".tres"
+        _frames[id]=load(path) if ResourceLoader.exists(path) else fallback
+    return _frames[id]

@@ -8,10 +8,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/woodcutter_wife/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/woodcutter_wife/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/woodcutter_wife/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/woodcutter_wife/anxious.png"
       },
       "text": "Столько дел, что день короток. А ты с дороги?",
       "choices": [
@@ -33,10 +33,10 @@
       "portrait": "",
       "emotion": "anxious",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/woodcutter_wife/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/woodcutter_wife/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/woodcutter_wife/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/woodcutter_wife/anxious.png"
       },
       "text": "Тогда сперва отдышись. На усталую голову всё труднее.",
       "next": "closing"
@@ -47,10 +47,10 @@
       "portrait": "",
       "emotion": "joy",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/woodcutter_wife/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/woodcutter_wife/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/woodcutter_wife/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/woodcutter_wife/anxious.png"
       },
       "text": "Любопытный. Пока возле дома бегает — мне спокойнее.",
       "next": "closing"
@@ -61,10 +61,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage43/woodcutter_wife/portraits/neutral.png",
-        "joy": "res://assets/npc/stage43/woodcutter_wife/portraits/joy.png",
-        "displeased": "res://assets/npc/stage43/woodcutter_wife/portraits/displeased.png",
-        "anxious": "res://assets/npc/stage43/woodcutter_wife/portraits/anxious.png"
+        "neutral": "res://assets/npc/stage47/portraits/woodcutter_wife/neutral.png",
+        "joy": "res://assets/npc/stage47/portraits/woodcutter_wife/joy.png",
+        "displeased": "res://assets/npc/stage47/portraits/woodcutter_wife/displeased.png",
+        "anxious": "res://assets/npc/stage47/portraits/woodcutter_wife/anxious.png"
       },
       "text": "Ладно, заговорилась я. Хозяйство не ждёт.",
       "end": true
