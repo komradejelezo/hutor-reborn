@@ -1,0 +1,241 @@
+[
+  {
+    "capture": "logging-departure",
+    "minute": 498.877125333333,
+    "residents": [
+      {
+        "activity": "travel",
+        "clip": "walk_up",
+        "id": "woodcutter",
+        "mode": "travel",
+        "position": "(1368.0, 172.0)"
+      },
+      {
+        "activity": "kneel_toy",
+        "clip": "work_kneel",
+        "id": "woodcutter_son",
+        "mode": "local",
+        "position": "(1640.0, 840.0)"
+      },
+      {
+        "activity": "gather",
+        "clip": "walk_up",
+        "id": "herbalist",
+        "mode": "local",
+        "position": "(2136.0, 1736.0)"
+      },
+      {
+        "activity": "travel",
+        "clip": "walk_up",
+        "id": "herbalist_brother",
+        "mode": "travel",
+        "position": "(1400.0, 184.0)"
+      },
+      {
+        "activity": "slow_walk",
+        "clip": "walk_right",
+        "id": "old_man",
+        "mode": "local",
+        "position": "(570.1213, 922.1213)"
+      }
+    ]
+  },
+  {
+    "capture": "logging-return",
+    "minute": 1084.50888,
+    "residents": [
+      {
+        "activity": "travel",
+        "clip": "walk_right",
+        "id": "elder",
+        "mode": "travel",
+        "position": "(1345.923, 1346.281)"
+      },
+      {
+        "activity": "travel",
+        "clip": "walk_down",
+        "id": "woodcutter",
+        "mode": "travel",
+        "position": "(1368.0, 136.0)"
+      },
+      {
+        "activity": "travel",
+        "clip": "walk_down",
+        "id": "herbalist_brother",
+        "mode": "travel",
+        "position": "(1448.0, 116.3333)"
+      },
+      {
+        "activity": "travel",
+        "clip": "walk_down",
+        "id": "old_man",
+        "mode": "travel",
+        "position": "(600.0, 1002.0)"
+      }
+    ]
+  },
+  {
+    "capture": "child-stick",
+    "minute": 600.257888,
+    "residents": [
+      {
+        "activity": "inspect_square",
+        "clip": "idle_down",
+        "id": "elder",
+        "mode": "local",
+        "position": "(1384.0, 1448.0)"
+      },
+      {
+        "activity": "sweep_yard",
+        "clip": "work_sweep",
+        "id": "woodcutter_wife",
+        "mode": "local",
+        "position": "(1800.0, 856.0)"
+      },
+      {
+        "activity": "play_stick",
+        "clip": "work_play",
+        "id": "woodcutter_son",
+        "mode": "local",
+        "position": "(1688.0, 888.0)"
+      },
+      {
+        "activity": "gather",
+        "clip": "work_gather",
+        "id": "herbalist",
+        "mode": "local",
+        "position": "(1912.0, 1656.0)"
+      },
+      {
+        "activity": "ponder",
+        "clip": "work_think",
+        "id": "old_man",
+        "mode": "local",
+        "position": "(648.0, 952.0)"
+      }
+    ]
+  },
+  {
+    "capture": "child-runs",
+    "minute": 613.230303999999,
+    "residents": [
+      {
+        "activity": "inspect_square",
+        "clip": "walk_down",
+        "id": "elder",
+        "mode": "local",
+        "position": "(1361.516, 1550.463)"
+      },
+      {
+        "activity": "sweep_yard",
+        "clip": "walk_left",
+        "id": "woodcutter_wife",
+        "mode": "local",
+        "position": "(1686.273, 872.0)"
+      },
+      {
+        "activity": "play_stick",
+        "clip": "run_down",
+        "id": "woodcutter_son",
+        "mode": "local",
+        "position": "(1701.7, 901.7003)"
+      },
+      {
+        "activity": "gather",
+        "clip": "walk_right",
+        "id": "herbalist",
+        "mode": "local",
+        "position": "(1992.0, 1720.0)"
+      },
+      {
+        "activity": "ponder",
+        "clip": "walk_left",
+        "id": "old_man",
+        "mode": "local",
+        "position": "(583.5, 952.0)"
+      }
+    ]
+  },
+  {
+    "capture": "child-kneels",
+    "minute": 616.894446666666,
+    "residents": [
+      {
+        "activity": "inspect_well",
+        "clip": "idle_down",
+        "id": "elder",
+        "mode": "local",
+        "position": "(1321.794, 1575.917)"
+      },
+      {
+        "activity": "household",
+        "clip": "idle_down",
+        "id": "woodcutter_wife",
+        "mode": "local",
+        "position": "(1640.941, 872.0)"
+      },
+      {
+        "activity": "kneel_toy",
+        "clip": "work_kneel",
+        "id": "woodcutter_son",
+        "mode": "local",
+        "position": "(1640.0, 840.0)"
+      },
+      {
+        "activity": "gather",
+        "clip": "walk_right",
+        "id": "herbalist",
+        "mode": "local",
+        "position": "(2092.833, 1752.0)"
+      },
+      {
+        "activity": "watch_hans",
+        "clip": "work_smoke",
+        "id": "old_man",
+        "mode": "local",
+        "position": "(553.5, 952.0)"
+      }
+    ]
+  },
+  {
+    "capture": "child-mother",
+    "minute": 623.822163407406,
+    "residents": [
+      {
+        "activity": "inspect_well",
+        "clip": "idle_down",
+        "id": "elder",
+        "mode": "local",
+        "position": "(1321.794, 1575.917)"
+      },
+      {
+        "activity": "household",
+        "clip": "walk_right",
+        "id": "woodcutter_wife",
+        "mode": "local",
+        "position": "(1725.333, 888.0)"
+      },
+      {
+        "activity": "visit_mother",
+        "clip": "idle_right",
+        "id": "woodcutter_son",
+        "mode": "local",
+        "position": "(1672.0, 904.0)"
+      },
+      {
+        "activity": "inspect_plants",
+        "clip": "work_inspect",
+        "id": "herbalist",
+        "mode": "local",
+        "position": "(2152.0, 1720.0)"
+      },
+      {
+        "activity": "watch_hans",
+        "clip": "walk_up",
+        "id": "old_man",
+        "mode": "local",
+        "position": "(567.7106, 931.9408)"
+      }
+    ]
+  }
+]

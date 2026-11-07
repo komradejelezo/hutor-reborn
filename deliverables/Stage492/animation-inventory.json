@@ -1,0 +1,697 @@
+{
+  "elder": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/elder.tres"
+  },
+  "herbalist": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "work_gather": {
+        "fps": 5.0,
+        "frames": 4,
+        "loop": true
+      },
+      "work_inspect": {
+        "fps": 5.0,
+        "frames": 4,
+        "loop": true
+      },
+      "work_table": {
+        "fps": 5.0,
+        "frames": 4,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/herbalist.tres"
+  },
+  "herbalist_brother": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 5,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 5,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "work_chop": {
+        "fps": 6.0,
+        "frames": 5,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/herbalist_brother.tres"
+  },
+  "innkeeper": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      },
+      "work_taste": {
+        "fps": 6.0,
+        "frames": 4,
+        "loop": true
+      },
+      "work_wipe": {
+        "fps": 6.0,
+        "frames": 4,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/innkeeper.tres"
+  },
+  "innkeeper_wife": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      },
+      "work_cook": {
+        "fps": 6.0,
+        "frames": 4,
+        "loop": true
+      },
+      "work_sweep": {
+        "fps": 6.0,
+        "frames": 3,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/innkeeper_wife.tres"
+  },
+  "old_man": {
+    "clips": {
+      "idle_down": {
+        "fps": 6.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 6.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 6.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 6.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 6.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 6.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 6.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 6.0,
+        "frames": 2,
+        "loop": true
+      },
+      "work_sit": {
+        "fps": 3.5,
+        "frames": 1,
+        "loop": false
+      },
+      "work_smoke": {
+        "fps": 3.5,
+        "frames": 3,
+        "loop": true
+      },
+      "work_think": {
+        "fps": 3.5,
+        "frames": 3,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/old_man.tres"
+  },
+  "woodcutter": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 3,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 4,
+        "loop": true
+      },
+      "work_chop": {
+        "fps": 6.0,
+        "frames": 6,
+        "loop": true
+      },
+      "work_saw": {
+        "fps": 6.0,
+        "frames": 6,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/woodcutter.tres"
+  },
+  "woodcutter_son": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "run_down": {
+        "fps": 10.0,
+        "frames": 2,
+        "loop": true
+      },
+      "run_left": {
+        "fps": 10.0,
+        "frames": 2,
+        "loop": true
+      },
+      "run_right": {
+        "fps": 10.0,
+        "frames": 2,
+        "loop": true
+      },
+      "run_up": {
+        "fps": 10.0,
+        "frames": 2,
+        "loop": true
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "work_kneel": {
+        "fps": 8.0,
+        "frames": 4,
+        "loop": true
+      },
+      "work_play": {
+        "fps": 8.0,
+        "frames": 6,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/woodcutter_son.tres"
+  },
+  "woodcutter_wife": {
+    "clips": {
+      "idle_down": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_left": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_right": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "idle_up": {
+        "fps": 8.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_down": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_left": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_right": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "turn_up": {
+        "fps": 5.0,
+        "frames": 1,
+        "loop": false
+      },
+      "walk_down": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "walk_left": {
+        "fps": 8.0,
+        "frames": 4,
+        "loop": true
+      },
+      "walk_right": {
+        "fps": 8.0,
+        "frames": 4,
+        "loop": true
+      },
+      "walk_up": {
+        "fps": 8.0,
+        "frames": 2,
+        "loop": true
+      },
+      "work_cook": {
+        "fps": 5.0,
+        "frames": 9,
+        "loop": true
+      },
+      "work_rake": {
+        "fps": 5.0,
+        "frames": 3,
+        "loop": true
+      },
+      "work_sweep": {
+        "fps": 5.0,
+        "frames": 2,
+        "loop": true
+      }
+    },
+    "resource": "res://assets/npc/stage47/woodcutter_wife.tres"
+  }
+}

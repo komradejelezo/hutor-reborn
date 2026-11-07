@@ -25,5 +25,6 @@ var route: Array = []
 var portal_direction := Vector2.ZERO
 var portal_target := Vector2.ZERO
 var portal_blocked := 0.0
+var pending_entry := false
 var event_counts: Dictionary = {}
 func count_event(event: String) -> void: event_counts[event]=event_counts.get(event,0)+1

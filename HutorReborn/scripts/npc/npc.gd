@@ -2,6 +2,7 @@ class_name HutorResident
 extends CharacterBody2D
 ## Shared cyclic state machine; the nine residents differ only through resources.
 signal routine_step_changed(npc_id: StringName, index: int)
+signal routine_step_requested(npc_id: StringName, index: int)
 enum State { WAIT_PATH, MOVING, WAITING, YIELDING, RECOVERING, TALKING }
 @export var definition: HutorNpcDefinition
 var state: State = State.WAIT_PATH
@@ -24,6 +25,8 @@ var _rng := RandomNumberGenerator.new()
 var _notice_cooldown := 0.0
 var _social_timer := 0.0
 var _ready_to_walk := false
+var _reroute_dynamic := false
+var _yield_obstacle := false
 var motion_paused := false
 var wait_time_scale := 1.0
 var activity_controller: Node
@@ -32,6 +35,7 @@ var activity_controller: Node
 func _ready() -> void:
     add_to_group("residents")
     motion_mode = CharacterBody2D.MOTION_MODE_FLOATING
+    collision_mask |= 6 # Existing feet now stop at Hans and other resident bodies.
     $AnimatedSprite2D.sprite_frames = definition.frames
     var feet: CapsuleShape2D = $Feet.shape
     feet.radius = definition.foot_radius
@@ -53,9 +57,10 @@ func current_step() -> HutorNpcRoutineStep:
 
 func _request_path() -> void:
     if not is_instance_valid(director): return
+    routine_step_requested.emit(definition.id,step_index)
     _token += 1
     state = State.WAIT_PATH
-    director.navigation.request(self,_token,global_position,current_step().position,definition.route_bounds,_avoid_cell)
+    director.navigation.request(self,_token,global_position,current_step().position,definition.route_bounds,_avoid_cell,_reroute_dynamic)
 
 func _path_received(token: int, path: PackedVector2Array) -> void:
     if token != _token: return
@@ -67,6 +72,7 @@ func _path_received(token: int, path: PackedVector2Array) -> void:
     else:
         state = State.MOVING
         _blocked_time = 0
+        _reroute_dynamic = false
 
 func _physics_process(delta: float) -> void:
     if not _ready_to_walk: return
@@ -80,7 +86,7 @@ func _physics_process(delta: float) -> void:
     if state == State.TALKING:
         _present(); return
     if state == State.RECOVERING:
-        wait_left -= delta*wait_time_scale
+        wait_left -= delta # Recovery is real-time, not 120 path retries per game second.
         if wait_left <= 0: _request_path()
     elif state == State.WAITING:
         wait_left -= delta*wait_time_scale
@@ -91,23 +97,29 @@ func _physics_process(delta: float) -> void:
             _social_timer = .5
         if wait_left <= 0: _next_step()
     elif state == State.YIELDING:
-        wait_left -= delta*wait_time_scale
-        if wait_left <= 0 and _player_distance()>42:
-            state = _resume_state
+        wait_left -= delta
+        if wait_left <= 0:
+            if _yield_obstacle:
+                _reroute_dynamic=true
+                _request_path()
+            else: state = _resume_state
     elif state == State.MOVING:
-        if _player_distance()<28:
-            _yield(.45)
-        elif definition.notices_player and _notice_cooldown<=0 and _player_distance()<62:
-            face_point(director.player.global_position)
-            _notice_cooldown = 8
-            _yield(1.4)
-        elif _neighbor_has_priority():
-            _yield(.3)
+        # Consume reached waypoints before checking the *next* segment. Otherwise
+        # its zero direction lets two accelerated residents enter the same cell.
+        while _path_index < _path.size() and global_position.distance_to(_path[_path_index]) < 2:
+            _path_index += 1
+        if _path_index >= _path.size():
+            _arrive()
         else:
-            while _path_index < _path.size() and global_position.distance_to(_path[_path_index]) < 2:
-                _path_index += 1
-            if _path_index >= _path.size():
-                _arrive()
+            var blocker := _blocking_body()
+            if blocker:
+                var duration := .45
+                if blocker is HutorResident and String(definition.id)<String(blocker.definition.id):duration=.15
+                _yield(duration,true)
+            elif definition.notices_player and _notice_cooldown<=0 and _player_distance()<62:
+                face_point(director.player.global_position)
+                _notice_cooldown = 8
+                _yield(1.4)
             else:
                 var delta_position := _path[_path_index]-global_position
                 var speed := minf(definition.speed,delta_position.length()/maxf(delta,.001))
@@ -121,23 +133,37 @@ func _physics_process(delta: float) -> void:
                 else: _blocked_time = 0
                 if _blocked_time>1.2:
                     _avoid_cell = director.navigation.cell(_path[_path_index])
+                    _reroute_dynamic = true
                     _recover()
     _present()
 
 func _player_distance() -> float:
     return global_position.distance_to(director.player.global_position) if is_instance_valid(director.player) else INF
 
-func _neighbor_has_priority() -> bool:
-    for other in director.residents.values():
-        if not is_instance_valid(other) or other == self: continue
-        if global_position.distance_squared_to(other.global_position)>22*22: continue
-        if other.state == State.MOVING and String(definition.id)>String(other.definition.id): return true
-    return false
+func _blocking_body() -> CharacterBody2D:
+    if _path_index>=_path.size():return null
+    var direction:=(_path[_path_index]-global_position).normalized()
+    var ahead:=global_position+direction*24
+    var neighbors: Array = director.residents.values()
+    if is_instance_valid(director.player):neighbors.append(director.player)
+    for other in neighbors:
+        if not is_instance_valid(other) or other==self:continue
+        var offset:Vector2=other.global_position-global_position
+        if offset.dot(direction)<0 or offset.length_squared()>32*32:continue
+        var radius:float=other.definition.foot_radius if other is HutorResident else 6.0
+        # Hans' unchanged controller can walk onto a resident. Let native body
+        # recovery separate already-overlapping feet instead of yielding forever.
+        if offset.length()<definition.foot_radius+radius-.1:continue
+        var clearance:=definition.foot_radius+radius+4
+        var nearest:=Geometry2D.get_closest_point_to_segment(other.global_position,global_position,ahead)
+        if nearest.distance_to(other.global_position)<clearance:return other
+    return null
 
-func _yield(duration: float) -> void:
+func _yield(duration: float, obstacle: bool = false) -> void:
     _resume_state = state
     state = State.YIELDING
     wait_left = duration
+    _yield_obstacle = obstacle
     velocity = Vector2.ZERO
 
 func _arrive() -> void:
@@ -159,11 +185,14 @@ func _recover() -> void:
     _token += 1
     state = State.RECOVERING
     velocity = Vector2.ZERO
-    wait_left = .6+_rng.randf_range(0,.5)
+    wait_left = minf(4,.6*_retry_count)+_rng.randf_range(0,.3)
     _blocked_time = 0
-    if _retry_count>=3:
-        step_index = (step_index+1)%definition.routine.size()
-        _retry_count = 0; _avoid_cell = Vector2i(-1,-1)
+    _retry_count = mini(_retry_count,6)
+    # A blocked local chore may give way to the next existing chore. A one-step
+    # trip to a door must never be skipped or reported as successfully arrived.
+    if _retry_count>=4 and definition.routine.size()>1:
+        step_index=(step_index+1)%definition.routine.size()
+        _retry_count=0;_avoid_cell=Vector2i(-1,-1)
 
 func face_point(point: Vector2) -> void:
     var axis := point-global_position
@@ -202,7 +231,7 @@ func set_motion_paused(value: bool) -> void:
 
 func suspend_location() -> Dictionary:
     var snapshot := {"definition": definition, "position": position, "rng_state": _rng.state}
-    for field in ["state", "step_index", "facing", "wait_left", "_path", "_path_index", "_blocked_time", "_retry_count", "_avoid_cell", "_resume_state", "_talk_resume_state", "_notice_cooldown", "_social_timer", "motion_paused"]:
+    for field in ["state", "step_index", "facing", "wait_left", "_path", "_path_index", "_blocked_time", "_retry_count", "_avoid_cell", "_resume_state", "_talk_resume_state", "_notice_cooldown", "_social_timer", "motion_paused", "_reroute_dynamic", "_yield_obstacle"]:
         snapshot[field] = get(field)
     _token += 1 # Invalidate any queued result from the old navigation context.
     return snapshot
@@ -215,6 +244,7 @@ func enter_location(data: HutorNpcDefinition, population: Node2D, spawn: Vector2
     position = spawn; step_index = 0; velocity = Vector2.ZERO
     _path.clear(); _path_index = 0; _retry_count = 0; _blocked_time = 0
     _avoid_cell = Vector2i(-1,-1); motion_paused = false
+    _reroute_dynamic=false; _yield_obstacle=false
     population.adopt(self)
     _request_path(); _present()
 

@@ -61,6 +61,7 @@ func _bootstrap(world: Node2D) -> void:
         actor.activity_controller=presenter
         actor._ready_to_walk=true;actor._token+=1
         actor.routine_step_changed.connect(_arrived)
+        actor.routine_step_requested.connect(_prepare_partner_visit)
         states[record.id]=record
         _choose(record);record.block=record.schedule.blocks[_block_index(record.schedule)]
         record.block_stamp=_block_start(record.block);record.scene=record.block.scene
@@ -196,7 +197,7 @@ func _tick(_minute: float) -> void:
             record.updated=clock.absolute_minutes
             continue
         _reconcile(record)
-        if not _active(record):_advance_virtual(record)
+        if not _active(record) and not (record.pending_entry and record.scene==active_scene()):_advance_virtual(record)
         if record.scene==active_scene() and not record.actor.is_inside_tree() and not _is_virtual(record.scene):_materialize(record)
 
 func _reconcile(record: HutorDailyResidentState) -> void:
@@ -248,6 +249,20 @@ func _start_journey(record: HutorDailyResidentState) -> void:
 
 func _minutes_per_second() -> float:return 1440.0/clock.real_day_seconds
 
+func _prepare_partner_visit(id: StringName, _index: int) -> void:
+    # Resolve the existing child's visit at departure, not a stale yard marker.
+    var record:HutorDailyResidentState=states.get(id)
+    if record==null or id!=&"woodcutter_son" or record.mode!=&"local":return
+    var step:=record.actor.current_step()
+    if step==null or step.label not in ["visit_mother","near_mother"]:return
+    var mother:HutorDailyResidentState=states.get(&"woodcutter_wife")
+    if mother==null:return
+    var point:=step.position
+    if mother.scene==record.scene and mother.actor.is_inside_tree():
+        point=mother.actor.position+Vector2(-28,24)
+    elif record.scene==&"village":point=_door(record.schedule.home)+Vector2(24,24)
+    step.position=_safe(record,point)
+
 func _frames_for(record: HutorDailyResidentState) -> SpriteFrames:
     return HutorNpcVisualLibrary.frames_for(record.id,record.original.frames)
 
@@ -290,6 +305,11 @@ func _materialize(record: HutorDailyResidentState) -> void:
     var world:=world_for(record.scene)
     if world == null:return
     var population:Node2D=world.get_node("Actors/Residents")
+    var position:Vector2=record.position if record.mode in [&"boundary_in",&"boundary_out"] else _safe(record,record.position)
+    if not _entry_clear(record,world,population,position):
+        record.pending_entry=true
+        return
+    record.pending_entry=false
     record.actor.reparent(population,false)
     record.actor.set_physics_process(true)
     materializations+=1
@@ -297,7 +317,6 @@ func _materialize(record: HutorDailyResidentState) -> void:
         record.actor.director=population;population.adopt(record.actor)
         record.actor.position=record.position;_enable_boundary(record)
         return
-    var position:=_safe(record,record.position)
     if record.mode==&"travel":_apply_travel(record,position)
     else:
         _apply_local(record,position)
@@ -309,6 +328,18 @@ func _materialize(record: HutorDailyResidentState) -> void:
                 record.actor._token+=1
                 record.actor._present()
     record.updated=clock.absolute_minutes
+
+func _entry_clear(record: HutorDailyResidentState, world: Node2D, population: Node2D, position: Vector2) -> bool:
+    # Bodies added in this frame may not yet be in the physics broad phase.
+    var radius:=record.original.foot_radius
+    if world.player.position.distance_to(position)<radius+6.5:return false
+    for other:HutorResident in population.residents.values():
+        if other!=record.actor and other.position.distance_to(position)<radius+other.definition.foot_radius+.5:return false
+    var shape:=CircleShape2D.new();shape.radius=radius
+    var query:=PhysicsShapeQueryParameters2D.new();query.shape=shape
+    query.collision_mask=7;query.exclude=[record.actor.get_rid()]
+    query.transform=Transform2D(0,position+Vector2(0,-3))
+    return world.get_world_2d().direct_space_state.intersect_shape(query,1).is_empty()
 
 func _park(record: HutorDailyResidentState) -> void:
     if not is_instance_valid(record.actor) or not record.actor.is_inside_tree():return
@@ -340,7 +371,7 @@ func after_scene_change(_scene: StringName) -> void:
     if not initialized:return
     for record:HutorDailyResidentState in states.values():
         _choose(record);_reconcile(record)
-        if not _active(record):_advance_virtual(record)
+        if not _active(record) and not (record.pending_entry and record.scene==active_scene()):_advance_virtual(record)
         if record.scene==active_scene() and not _is_virtual(record.scene):_materialize(record)
     _update_widget()
 
@@ -393,6 +424,7 @@ func _transfer(record: HutorDailyResidentState) -> void:
         return
     var from:=record.scene;_park(record)
     record.scene=record.hop
+    record.pending_entry=false
     record.position=_door(from) if record.scene==&"village" else _point(record.scene,"Entry")
     record.mode=&"local";record.snapshot.clear()
     _event(record,"scene_changed",String(from)+" -> "+String(record.scene))

@@ -1,0 +1,13 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: resident yields instead of pushing Hans
+PASS: Hans is not displaced by a friendly NPC
+PASS: resident resumes after Hans clears the route
+PASS: external pause preserves position and schedule
+PASS: unexpected temporary obstruction triggers recovery
+PASS: recovering actor may detour but never tunnels or teleports
+PASS: safe recovery resumes a valid routine after obstruction removal
+PASS: recovery respects the shared per-tick path budget
+PASS: interaction adapter owns only its accepted dialogue session
+PASS: removing a speaker safely releases player and director references
+RESULT: 10 resident recovery checks passed, 0 failed
