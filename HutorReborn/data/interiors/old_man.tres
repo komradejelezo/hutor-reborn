@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HutorBuildingDefinition" format=3]
+
+[ext_resource type="Script" path="res://scripts/interiors/building_definition.gd" id="1_656iv"]
+
+[resource]
+script = ExtResource("1_656iv")
+id = &"old_man"
+display_name = "Дом старика"
+interior_scene = "res://scenes/interiors/old_man.tscn"
+exterior_anchor = NodePath("Actors/Structures/CarpenterHouse/Entrance")
+residents = Array[StringName]([&"old_man"])

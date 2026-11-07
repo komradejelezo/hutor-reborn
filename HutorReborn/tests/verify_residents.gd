@@ -31,7 +31,7 @@ func run() -> void:
     var residents: Array = population.residents.values()
     check(residents.size()==9 and get_nodes_in_group("residents").size()==9,"exactly nine registered residents")
     check(world.find_children("*","CharacterBody2D",true,false).size()==10,"Hans plus nine NPC bodies; no extra residents")
-    check(get_nodes_in_group("interactables").size()==20,"nine talk markers, eight existing inspections and three interior doors")
+    check(get_nodes_in_group("interactables").size()==23,"nine talk markers, eight existing inspections and six interior doors")
     check(population.y_sort_enabled and world.get_node("Actors").y_sort_enabled,"population shares the existing world depth hierarchy")
     check(world.map_size==Vector2i(2976,2560) and world.player.speed==94 and world.player.collision_mask==1,"approved map and Hans movement/collision settings retained")
     var starts: Dictionary = {}

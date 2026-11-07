@@ -1,0 +1,410 @@
+[
+  {
+    "name": "window",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      46,
+      465,
+      108,
+      506
+    ],
+    "size": [
+      62,
+      41
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": [
+      [
+        0,
+        0
+      ],
+      [
+        61,
+        0
+      ],
+      [
+        61,
+        40
+      ],
+      [
+        0,
+        40
+      ]
+    ],
+    "holes": null
+  },
+  {
+    "name": "armchair",
+    "source": "assets/environment/krivaya_sosna/source/трактир.png",
+    "sha256": "7bd7054a508a322656b39bcdc15ec3bec449665e726d75d39b3392a2de3684f1",
+    "box": [
+      946,
+      628,
+      997,
+      704
+    ],
+    "size": [
+      51,
+      76
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "chair",
+    "source": "assets/environment/krivaya_sosna/source/Тайл дома.png",
+    "sha256": "65dd63486f260951decfc0311471a0999858f1623492fa8109adfb54e6d3a829",
+    "box": [
+      377,
+      772,
+      415,
+      827
+    ],
+    "size": [
+      38,
+      55
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": [
+      [
+        4,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        27,
+        8
+      ],
+      [
+        27,
+        2
+      ],
+      [
+        34,
+        2
+      ],
+      [
+        34,
+        29
+      ],
+      [
+        36,
+        29
+      ],
+      [
+        36,
+        40
+      ],
+      [
+        32,
+        40
+      ],
+      [
+        32,
+        53
+      ],
+      [
+        25,
+        53
+      ],
+      [
+        25,
+        41
+      ],
+      [
+        13,
+        41
+      ],
+      [
+        13,
+        52
+      ],
+      [
+        6,
+        52
+      ],
+      [
+        6,
+        40
+      ],
+      [
+        2,
+        40
+      ],
+      [
+        2,
+        29
+      ],
+      [
+        4,
+        29
+      ]
+    ],
+    "holes": [
+      [
+        12,
+        18,
+        26,
+        25
+      ]
+    ]
+  },
+  {
+    "name": "pipe",
+    "source": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png",
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "box": [
+      1138,
+      951,
+      1210,
+      1005
+    ],
+    "size": [
+      72,
+      54
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "papers",
+    "source": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png",
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "box": [
+      1000,
+      943,
+      1106,
+      1005
+    ],
+    "size": [
+      106,
+      62
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "axe",
+    "source": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png",
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "box": [
+      818,
+      388,
+      878,
+      432
+    ],
+    "size": [
+      60,
+      44
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "linen_line",
+    "source": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png",
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "box": [
+      23,
+      792,
+      155,
+      874
+    ],
+    "size": [
+      132,
+      82
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "rope_block",
+    "source": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png",
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "box": [
+      1398,
+      501,
+      1512,
+      591
+    ],
+    "size": [
+      114,
+      90
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "grain_sack",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      1218,
+      286,
+      1276,
+      364
+    ],
+    "size": [
+      58,
+      78
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "crate",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      934,
+      286,
+      984,
+      357
+    ],
+    "size": [
+      50,
+      71
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "shovel",
+    "source": "assets/environment/krivaya_sosna/source/Тайл декор.png",
+    "sha256": "15c5f7b69cde4e75ebc5f510fdf1eea1c16e42db42d6eb202f04147a53fcfee1",
+    "box": [
+      765,
+      582,
+      808,
+      673
+    ],
+    "size": [
+      43,
+      91
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "tool_rack",
+    "source": "assets/environment/krivaya_sosna/source/Тайлы лесозаготовка.png",
+    "sha256": "c1e1be5ab39f3568b0bd84922b567471f84df03764b7b7ac2b971ea405a712d7",
+    "box": [
+      1038,
+      390,
+      1162,
+      466
+    ],
+    "size": [
+      124,
+      76
+    ],
+    "method": "native RGB crop; binary silhouette alpha",
+    "polygon": null,
+    "holes": null
+  },
+  {
+    "name": "work_boots",
+    "source": "assets/npc/stage43/woodcutter/atlas.png",
+    "sha256": "95ee9a9ebe800d4f0b0824acfa907575ccd4aa90328cf7a39647b1ad39c6becc",
+    "box": [
+      36,
+      70,
+      56,
+      81
+    ],
+    "size": [
+      20,
+      11
+    ],
+    "method": "native archived woodcutter boot pixels; grey ground guide removed from alpha"
+  },
+  {
+    "name": "parents_bed",
+    "source": "assets/interiors/stage44/bed.png",
+    "sha256": "c8b6fdadf5a202d42430b92652e6a576234d7d731bd2f4c8ff3e793206953d97",
+    "size": [
+      88,
+      91
+    ],
+    "method": "two native original-bed copies; no stretching",
+    "placements": [
+      [
+        0,
+        0
+      ],
+      [
+        40,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "floor_atlas_woodcutter",
+    "source": "assets/interiors/stage44/floor_atlas_inn.png",
+    "sha256": "08e7d10d48e7a79fb6bea371affed8413c29b45a5c71774e4501e60c0f228c6c",
+    "box": [
+      64,
+      64,
+      512,
+      384
+    ],
+    "size": [
+      448,
+      320
+    ],
+    "method": "native contiguous crop of approved 4.4 source-pixel quilt",
+    "original_source": "assets/environment/krivaya_sosna/source/Тайл дома.png"
+  },
+  {
+    "name": "floor_atlas_old_man",
+    "source": "assets/interiors/stage44/floor_atlas_elder.png",
+    "sha256": "9f6abaa4ebc0769beb8d00e0da7ea391c8c8143462121d78b0b644966bc2aedf",
+    "box": [
+      64,
+      32,
+      416,
+      320
+    ],
+    "size": [
+      352,
+      288
+    ],
+    "method": "native contiguous crop of approved 4.4 source-pixel quilt",
+    "original_source": "assets/environment/krivaya_sosna/source/Тайл дома.png"
+  },
+  {
+    "name": "floor_atlas_storehouse",
+    "source": "assets/interiors/stage44/floor_atlas_herbalist.png",
+    "sha256": "de165d694d72f0c3d3327b7d8d157b5be951e7e4f2c30509e6107cbb736a62b5",
+    "box": [
+      64,
+      32,
+      480,
+      352
+    ],
+    "size": [
+      416,
+      320
+    ],
+    "method": "native contiguous crop of approved 4.4 source-pixel quilt",
+    "original_source": "assets/environment/krivaya_sosna/source/Тайл избы.png"
+  }
+]
