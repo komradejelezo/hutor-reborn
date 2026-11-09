@@ -1,0 +1,60 @@
+{
+  "audio_capture": {
+    "far_rms": 0.0,
+    "frames": 45056,
+    "near_peak": 0.0482919253408909,
+    "near_rms": 0.00593139482716654
+  },
+  "day_audio": {
+    "peak": 0.0168689396232367,
+    "rms": 0.00404389215465595
+  },
+  "elder": {
+    "dust": 10,
+    "motes": 5,
+    "puff": 4,
+    "spatial_fire": true
+  },
+  "evening_audio": {
+    "peak": 0.0121141709387302,
+    "rms": 0.00177848179408501
+  },
+  "herbalist": {
+    "dust": 10,
+    "motes": 5,
+    "puff": 4,
+    "spatial_fire": true
+  },
+  "inn": {
+    "dust": 10,
+    "motes": 5,
+    "puff": 4,
+    "spatial_fire": true
+  },
+  "morning_audio": {
+    "peak": 0.0155992079526186,
+    "rms": 0.00350004757640467
+  },
+  "night_audio": {
+    "peak": 0.0087385643273592,
+    "rms": 0.00198445708345309
+  },
+  "old_man": {
+    "dust": 10,
+    "motes": 5,
+    "puff": 4,
+    "spatial_fire": true
+  },
+  "storehouse": {
+    "dust": 10,
+    "motes": 5,
+    "puff": 4,
+    "spatial_fire": false
+  },
+  "woodcutter": {
+    "dust": 10,
+    "motes": 5,
+    "puff": 4,
+    "spatial_fire": true
+  }
+}

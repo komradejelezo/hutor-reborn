@@ -1,0 +1,3 @@
+PASS: 1409 original files unchanged from 03723ec43515e2df9dbddb04356d9f654082001c
+PASS: all eleven audio recordings match their pinned, credited upstream bytes
+PASS: no removed originals or temporary test override

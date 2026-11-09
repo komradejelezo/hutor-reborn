@@ -1,0 +1,90 @@
+[
+  {
+    "id": "forest_day",
+    "duration": 99.985729,
+    "channels": 2,
+    "sample_rate": "48000",
+    "mean_db": -63.6,
+    "peak_db": -39.6
+  },
+  {
+    "id": "forest_bird",
+    "duration": 23.616259,
+    "channels": 2,
+    "sample_rate": "44100",
+    "mean_db": -39.0,
+    "peak_db": -14.2
+  },
+  {
+    "id": "wind",
+    "duration": 167.619048,
+    "channels": 2,
+    "sample_rate": "44100",
+    "mean_db": -29.0,
+    "peak_db": -2.3
+  },
+  {
+    "id": "leaves_1",
+    "duration": 4.720476,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -60.3,
+    "peak_db": -37.4
+  },
+  {
+    "id": "leaves_2",
+    "duration": 4.720476,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -57.7,
+    "peak_db": -35.1
+  },
+  {
+    "id": "axe_1",
+    "duration": 1.374717,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -32.5,
+    "peak_db": -4.7
+  },
+  {
+    "id": "axe_2",
+    "duration": 1.385329,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -33.9,
+    "peak_db": -5.8
+  },
+  {
+    "id": "wood_1",
+    "duration": 0.492653,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -35.9,
+    "peak_db": -8.9
+  },
+  {
+    "id": "wood_2",
+    "duration": 0.519342,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -33.8,
+    "peak_db": -8.4
+  },
+  {
+    "id": "fire",
+    "duration": 6.466939,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -21.1,
+    "peak_db": -0.8
+  },
+  {
+    "id": "wood_creak",
+    "duration": 0.557438,
+    "channels": 1,
+    "sample_rate": "44100",
+    "mean_db": -23.6,
+    "peak_db": -9.2
+  }
+]

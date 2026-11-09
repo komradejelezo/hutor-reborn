@@ -1,0 +1,73 @@
+{
+  "base_commit": "03723ec43515e2df9dbddb04356d9f654082001c",
+  "dependency_pr": 18,
+  "engine": "Godot 4.6.3 stable official",
+  "native": {
+    "method": "Normal main scene, real XTest OS keys, read-only observer",
+    "phases": [
+      "day",
+      "evening",
+      "night"
+    ],
+    "f3_off_on": true,
+    "six_interior_roundtrips": true,
+    "same_nine_ids": true,
+    "natural_unforced_shelf_glance": true,
+    "dialogue_and_resume": true,
+    "video_audio_track": false
+  },
+  "programmatic": {
+    "ambient": {
+      "passed": 183,
+      "failed": 0
+    },
+    "doors": {
+      "passed": 335,
+      "failed": 0
+    },
+    "daily_lifecycle": {
+      "passed": 163,
+      "failed": 0
+    },
+    "normal_startup": {
+      "passed": 6,
+      "failed": 0
+    },
+    "fresh_import": "passed with --single-threaded-scene",
+    "audio_output": "Actual AudioEffectCapture PCM; near fire RMS ~0.0062, far RMS 0.0",
+    "preserved_original_files": 1409,
+    "unchanged_upstream_recordings": 11,
+    "depth": {
+      "passed": 48,
+      "failed": 0
+    }
+  },
+  "budgets": {
+    "pooled_audio_players": 6,
+    "configured_voice_range": [
+      3,
+      6
+    ],
+    "new_particle_capacity": 19,
+    "particle_limit": 24,
+    "active_scene_components": 1,
+    "event_history": 64
+  },
+  "missing_audio_categories": [
+    "crickets",
+    "night_animal",
+    "dishes",
+    "paper",
+    "brew",
+    "dry_herbs",
+    "floor_creak",
+    "tree_creak"
+  ],
+  "limitations": [
+    "No human listening or physical audio device test; Dummy driver digital mix only.",
+    "No human Windows editor playthrough.",
+    "No new route to the elder window; existing schedules and navigation preserved.",
+    "No occlusion or reverb; no GPU FPS benchmark.",
+    "PR depends on unmerged #18."
+  ]
+}

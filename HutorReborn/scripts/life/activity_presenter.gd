@@ -18,6 +18,9 @@ func present(actor: HutorResident) -> bool:
     sprite.position=Vector2.ZERO
     var delta:float=actor.get_physics_process_delta_time() if Engine.is_in_physics_frame() else 0.0
     var look:StringName=reactions.update(actor,delta,resident.mode==&"local")
+    var ambient:Node=get_node_or_null("/root/AmbientDirector")
+    if look==&"" and is_instance_valid(ambient):
+        look=ambient.glance_direction(actor,resident)
     var working:bool=actor.state==actor.State.WAITING and resident.mode==&"local" and look==&""
     var key:String=String(resident.activity) if working else ""
     if key!=_presentation_key:

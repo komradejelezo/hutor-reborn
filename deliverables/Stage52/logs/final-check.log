@@ -1,0 +1,186 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: normal village binds ambient service
+PASS: fixed six-player pool
+PASS: existing clock phase: day
+PASS: correct phase sound: day
+PASS: one settled bed: day
+PASS: voice cap during phase change
+PASS: actual phase PCM audible-level floor without clipping: day
+PASS: existing clock phase: evening
+PASS: correct phase sound: evening
+PASS: one settled bed: evening
+PASS: voice cap during phase change
+PASS: actual phase PCM audible-level floor without clipping: evening
+PASS: existing clock phase: night
+PASS: correct phase sound: night
+PASS: one settled bed: night
+PASS: voice cap during phase change
+PASS: actual phase PCM audible-level floor without clipping: night
+PASS: existing clock phase: morning
+PASS: correct phase sound: morning
+PASS: one settled bed: morning
+PASS: voice cap during phase change
+PASS: actual phase PCM audible-level floor without clipping: morning
+PASS: day bird detail fades out when night begins
+PASS: pause freezes ambient scheduling
+PASS: master volume API reaches actual audio bus
+PASS: missing natural recordings remain honest empty slots
+PASS: extensible catalog includes missing categories
+PASS: audio disable fades all voices
+PASS: visuals independently disabled
+PASS: F3 atmosphere toggle also silences new ambience
+PASS: F3 stops decorative particles
+PASS: F3 restore resumes phase ambience
+PASS: detail burst never exceeds fixed voice budget
+PASS: lowering budget retires excess voices
+PASS: hearth respects reduced voice budget
+PASS: crossfade also respects reduced voice budget
+PASS: enter existing interior inn
+PASS: transition completes within deadline
+PASS: interior profile connected: inn
+PASS: street bed absent indoors: inn
+PASS: correct spatial fire presence: inn
+PASS: sparse room dust active: inn
+PASS: particle capacity bounded: inn
+PASS: detached scene decorations inactive
+PASS: same resident elder in inn
+PASS: same resident innkeeper in inn
+PASS: same resident innkeeper_wife in inn
+PASS: same resident woodcutter in inn
+PASS: same resident woodcutter_wife in inn
+PASS: same resident woodcutter_son in inn
+PASS: same resident herbalist in inn
+PASS: same resident herbalist_brother in inn
+PASS: same resident old_man in inn
+PASS: rare flame decoration can run: inn
+PASS: exit existing interior inn
+PASS: transition completes within deadline
+PASS: cached room stops dust: inn
+PASS: outside control and ambience restore
+PASS: enter existing interior elder
+PASS: transition completes within deadline
+PASS: interior profile connected: elder
+PASS: street bed absent indoors: elder
+PASS: correct spatial fire presence: elder
+PASS: sparse room dust active: elder
+PASS: particle capacity bounded: elder
+PASS: detached scene decorations inactive
+PASS: same resident elder in elder
+PASS: same resident innkeeper in elder
+PASS: same resident innkeeper_wife in elder
+PASS: same resident woodcutter in elder
+PASS: same resident woodcutter_wife in elder
+PASS: same resident woodcutter_son in elder
+PASS: same resident herbalist in elder
+PASS: same resident herbalist_brother in elder
+PASS: same resident old_man in elder
+PASS: rare flame decoration can run: elder
+PASS: exit existing interior elder
+PASS: transition completes within deadline
+PASS: cached room stops dust: elder
+PASS: outside control and ambience restore
+PASS: enter existing interior herbalist
+PASS: transition completes within deadline
+PASS: interior profile connected: herbalist
+PASS: street bed absent indoors: herbalist
+PASS: correct spatial fire presence: herbalist
+PASS: sparse room dust active: herbalist
+PASS: particle capacity bounded: herbalist
+PASS: detached scene decorations inactive
+PASS: same resident elder in herbalist
+PASS: same resident innkeeper in herbalist
+PASS: same resident innkeeper_wife in herbalist
+PASS: same resident woodcutter in herbalist
+PASS: same resident woodcutter_wife in herbalist
+PASS: same resident woodcutter_son in herbalist
+PASS: same resident herbalist in herbalist
+PASS: same resident herbalist_brother in herbalist
+PASS: same resident old_man in herbalist
+PASS: rare flame decoration can run: herbalist
+PASS: exit existing interior herbalist
+PASS: transition completes within deadline
+PASS: cached room stops dust: herbalist
+PASS: outside control and ambience restore
+PASS: enter existing interior woodcutter
+PASS: transition completes within deadline
+PASS: interior profile connected: woodcutter
+PASS: street bed absent indoors: woodcutter
+PASS: correct spatial fire presence: woodcutter
+PASS: occupation signal routes a real spatial household recording
+PASS: household audio changes no actor motion or state
+PASS: sparse room dust active: woodcutter
+PASS: particle capacity bounded: woodcutter
+PASS: detached scene decorations inactive
+PASS: same resident elder in woodcutter
+PASS: same resident innkeeper in woodcutter
+PASS: same resident innkeeper_wife in woodcutter
+PASS: same resident woodcutter in woodcutter
+PASS: same resident woodcutter_wife in woodcutter
+PASS: same resident woodcutter_son in woodcutter
+PASS: same resident herbalist in woodcutter
+PASS: same resident herbalist_brother in woodcutter
+PASS: same resident old_man in woodcutter
+PASS: rare flame decoration can run: woodcutter
+PASS: exit existing interior woodcutter
+PASS: transition completes within deadline
+PASS: cached room stops dust: woodcutter
+PASS: outside control and ambience restore
+PASS: enter existing interior old_man
+PASS: transition completes within deadline
+PASS: interior profile connected: old_man
+PASS: street bed absent indoors: old_man
+PASS: correct spatial fire presence: old_man
+PASS: sparse room dust active: old_man
+PASS: particle capacity bounded: old_man
+PASS: detached scene decorations inactive
+PASS: same resident elder in old_man
+PASS: same resident innkeeper in old_man
+PASS: same resident innkeeper_wife in old_man
+PASS: same resident woodcutter in old_man
+PASS: same resident woodcutter_wife in old_man
+PASS: same resident woodcutter_son in old_man
+PASS: same resident herbalist in old_man
+PASS: same resident herbalist_brother in old_man
+PASS: same resident old_man in old_man
+PASS: rare flame decoration can run: old_man
+PASS: exit existing interior old_man
+PASS: transition completes within deadline
+PASS: cached room stops dust: old_man
+PASS: outside control and ambience restore
+PASS: enter existing interior storehouse
+PASS: transition completes within deadline
+PASS: interior profile connected: storehouse
+PASS: street bed absent indoors: storehouse
+PASS: correct spatial fire presence: storehouse
+PASS: single-recording room inserts a silent interval
+PASS: single-recording room can play again after silence
+PASS: sparse room dust active: storehouse
+PASS: particle capacity bounded: storehouse
+PASS: detached scene decorations inactive
+PASS: same resident elder in storehouse
+PASS: same resident innkeeper in storehouse
+PASS: same resident innkeeper_wife in storehouse
+PASS: same resident woodcutter in storehouse
+PASS: same resident woodcutter_wife in storehouse
+PASS: same resident woodcutter_son in storehouse
+PASS: same resident herbalist in storehouse
+PASS: same resident herbalist_brother in storehouse
+PASS: same resident old_man in storehouse
+PASS: rare flame decoration can run: storehouse
+PASS: exit existing interior storehouse
+PASS: transition completes within deadline
+PASS: cached room stops dust: storehouse
+PASS: outside control and ambience restore
+PASS: transitions never recreate audio players
+PASS: event history bounded
+PASS: enter inn for visual cue
+PASS: transition completes within deadline
+PASS: existing-frame shelf glance available
+PASS: glance changes no transform, routine or wait
+PASS: leave visual-cue test
+PASS: transition completes within deadline
+PASS: licensed recording produces real mixed PCM
+PASS: actual 2D output attenuates beyond source range
+PASS: recorded near-field mix has no clipping
+RESULT: 183 ambient checks passed, 0 failed

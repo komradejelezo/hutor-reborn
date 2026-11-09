@@ -1,0 +1,123 @@
+[
+  {
+    "id": "forest_day",
+    "file": "forest_day.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/ambient/dayscape/day_temperate_gen_01.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "7b899f4b2e9e1f5a711490deac9ebf85f8cdbf6c0668e85dbb185d781ac2c76e",
+    "modified": false
+  },
+  {
+    "id": "forest_bird",
+    "file": "forest_bird.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/ambient/dayscape/day_temperate_11.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "757fe246e165e82a890318fea0ee7bbe17435b889cccb90f380e8c32bed5441c",
+    "modified": false
+  },
+  {
+    "id": "wind",
+    "file": "wind.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/ambient/weather/wind_11.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "1376dd97af6ebd29e3f8928fb643324f55d82472db71a8fb1339eb9fb6cbb06f",
+    "modified": false
+  },
+  {
+    "id": "leaves_1",
+    "file": "leaves_1.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/ambient/weather/windleaves_10.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "1934ce4125ff721640473f741926ee406bdc87040d8fb073052d4c0f4dc5d8f2",
+    "modified": false
+  },
+  {
+    "id": "leaves_2",
+    "file": "leaves_2.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/ambient/weather/windleaves_11.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "0595028d9c9245fb059ea81efb9ca9f29cc7614410fde0777b23d2f27d144397",
+    "modified": false
+  },
+  {
+    "id": "axe_1",
+    "file": "axe_1.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/resource/lumbering/lumber_tree_01.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "4b65f37e87a22a275bb68ffa31296308f544f10fea2fd756de224fd24bae3604",
+    "modified": false
+  },
+  {
+    "id": "axe_2",
+    "file": "axe_2.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/resource/lumbering/lumber_tree_02.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "5fe1a0c411dfcf2af5bf9b82b73cbd9736b1ea3293cb12343048cde02e611ab8",
+    "modified": false
+  },
+  {
+    "id": "wood_1",
+    "file": "wood_1.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/resource/construction/con_wood_01.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "2d4adbb5a916f972532363b63d09d8bdc1462eef5a5996165c994f7903d687b4",
+    "modified": false
+  },
+  {
+    "id": "wood_2",
+    "file": "wood_2.ogg",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/audio/resource/construction/con_wood_02.ogg",
+    "repository": "0ad/0ad",
+    "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "7f1dd792991f280fe9176ba7b8e40e43f3fdf05869d98934410e043521e79a94",
+    "modified": false
+  },
+  {
+    "id": "fire",
+    "file": "fire.ogg",
+    "source": "https://raw.githubusercontent.com/luanti-org/minetest_game/9e895af6e9feb98332fa1a778001442f5669bc20/mods/fire/sounds/fire_small.ogg",
+    "repository": "luanti-org/minetest_game",
+    "revision": "9e895af6e9feb98332fa1a778001442f5669bc20",
+    "author": "dobroide",
+    "license": "CC-BY-3.0",
+    "sha256": "97b0c9b8fc13df25eb21f11305fc1f18b0368c3c5bdb5b595225a8e07d7b76f5",
+    "modified": false
+  },
+  {
+    "id": "wood_creak",
+    "file": "wood_creak.ogg",
+    "source": "https://raw.githubusercontent.com/luanti-org/minetest_game/9e895af6e9feb98332fa1a778001442f5669bc20/mods/default/sounds/default_chest_open.ogg",
+    "repository": "luanti-org/minetest_game",
+    "revision": "9e895af6e9feb98332fa1a778001442f5669bc20",
+    "author": "sofar; Sevin7; Percy Duke; kingsamas; bulbastre; Yoyodaman234",
+    "license": "CC-BY-SA-3.0 upstream media; CC-BY-3.0 / CC0 components",
+    "sha256": "8680a69592141ffad91f1a3d79980a68412443c416a43af86fc03341582c1352",
+    "modified": false
+  }
+]
