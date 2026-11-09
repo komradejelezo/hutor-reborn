@@ -6,7 +6,7 @@ func run() -> void:
         root.add_child(room);current_scene=room
         room.get_node("Evening").color=Color.WHITE
         for lamp in room.find_children("*","PointLight2D",true,false):lamp.enabled=false
-        for name in ["Void","Floor","Walls","HUD","Exit"]:room.get_node(name).hide()
+        for name in ["Void","Floor","Walls","FloorDetails","HUD","Exit"]:room.get_node(name).hide()
         for item in room.get_node("Actors/Props").get_children():item.hide()
         var hero:CharacterBody2D=room.player
         hero.set_physics_process(false);hero.sensor.set_physics_process(false)

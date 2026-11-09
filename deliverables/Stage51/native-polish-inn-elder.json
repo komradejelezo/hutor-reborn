@@ -1,0 +1,26 @@
+{
+  "method": "Real normal main scene, native XTest WASD/E/F7/Esc, read-only observer",
+  "houses": {
+    "inn": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "innkeeper",
+        "innkeeper_wife"
+      ],
+      "clock": 1235.45168159999
+    },
+    "elder": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "elder"
+      ],
+      "clock": 1283.34024906665
+    }
+  }
+}

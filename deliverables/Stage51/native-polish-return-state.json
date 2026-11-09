@@ -1,0 +1,584 @@
+{
+  "active_id": "",
+  "busy": false,
+  "camera_zoom": [
+    1.0,
+    1.0
+  ],
+  "checks": {
+    "clock_running": true,
+    "configured_main": true,
+    "life_initialized": true,
+    "nine_residents": true,
+    "six_registered_doors": true,
+    "travel_bound": true
+  },
+  "clock": 1347.41439386662,
+  "clock_speed": 1.0,
+  "dialogue": false,
+  "doors": {
+    "elder": {
+      "approach": [
+        936.0,
+        777.0
+      ],
+      "position": [
+        936.0,
+        749.0
+      ],
+      "registered": true,
+      "scene": "res://scenes/interiors/elder.tscn"
+    },
+    "herbalist": {
+      "approach": [
+        1717.0,
+        1656.0
+      ],
+      "position": [
+        1717.0,
+        1628.0
+      ],
+      "registered": true,
+      "scene": "res://scenes/interiors/herbalist.tscn"
+    },
+    "inn": {
+      "approach": [
+        1688.0,
+        2290.0
+      ],
+      "position": [
+        1688.0,
+        2262.0
+      ],
+      "registered": true,
+      "scene": "res://scenes/interiors/inn.tscn"
+    },
+    "old_man": {
+      "approach": [
+        858.0,
+        1656.0
+      ],
+      "position": [
+        858.0,
+        1628.0
+      ],
+      "registered": true,
+      "scene": "res://scenes/interiors/old_man.tscn"
+    },
+    "storehouse": {
+      "approach": [
+        1287.0,
+        1231.0
+      ],
+      "position": [
+        1287.0,
+        1203.0
+      ],
+      "registered": true,
+      "scene": "res://scenes/interiors/storehouse.tscn"
+    },
+    "woodcutter": {
+      "approach": [
+        1713.0,
+        777.0
+      ],
+      "position": [
+        1713.0,
+        749.0
+      ],
+      "registered": true,
+      "scene": "res://scenes/interiors/woodcutter.tscn"
+    }
+  },
+  "entry": [],
+  "hero": 269995750733,
+  "info": false,
+  "locked": false,
+  "position": [
+    1713.0,
+    777.0
+  ],
+  "project": "/workspace/hutor-reborn/HutorReborn/",
+  "prompt": "E — Войти",
+  "residents": {
+    "elder": {
+      "activity": "rest_night",
+      "body": 270331295073,
+      "clip": "idle_right",
+      "destination": [
+        504.0,
+        264.0
+      ],
+      "distance_walked": 3942.59430217743,
+      "events": {
+        "activity": 5,
+        "activity_block": 3,
+        "scene_changed": 2,
+        "virtual_activity": 24,
+        "walk_to_gateway": 2
+      },
+      "home": "elder",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        504.0,
+        264.0
+      ],
+      "present": false,
+      "runtime_speed": 30.0,
+      "scene": "elder",
+      "source_alias": false,
+      "source_speed": 30.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "herbalist": {
+      "activity": "rest_night",
+      "body": 271337928093,
+      "clip": "idle_down",
+      "destination": [
+        1720.0,
+        1624.0
+      ],
+      "distance_walked": 5979.97736120224,
+      "events": {
+        "activity": 17,
+        "activity_block": 4,
+        "scene_changed": 3,
+        "virtual_activity": 41,
+        "walk_to_gateway": 3
+      },
+      "home": "herbalist",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        1720.0,
+        1624.0
+      ],
+      "present": false,
+      "runtime_speed": 870.0,
+      "scene": "herbalist",
+      "source_alias": false,
+      "source_speed": 29.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "herbalist_brother": {
+      "activity": "rest_night",
+      "body": 271505700263,
+      "clip": "idle_down",
+      "destination": [
+        1720.0,
+        1624.0
+      ],
+      "distance_walked": 4503.04475212097,
+      "events": {
+        "activity_block": 3,
+        "left_for_work": 1,
+        "return_from_work": 1,
+        "scene_changed": 2,
+        "virtual_activity": 17,
+        "virtual_work": 56,
+        "walk_to_gateway": 3
+      },
+      "home": "herbalist",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        1720.0,
+        1624.0
+      ],
+      "present": false,
+      "runtime_speed": 1110.0,
+      "scene": "herbalist",
+      "source_alias": false,
+      "source_speed": 37.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "innkeeper": {
+      "activity": "rest_night",
+      "body": 270499067243,
+      "clip": "work_wipe",
+      "destination": [
+        424.0,
+        216.0
+      ],
+      "distance_walked": 283.270186513662,
+      "events": {
+        "activity": 1,
+        "activity_block": 3,
+        "virtual_activity": 66
+      },
+      "home": "inn",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        425.59912109375,
+        216.000030517578
+      ],
+      "present": false,
+      "runtime_speed": 28.0,
+      "scene": "inn",
+      "source_alias": false,
+      "source_speed": 28.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "innkeeper_wife": {
+      "activity": "rest_night",
+      "body": 270666839413,
+      "clip": "walk_left",
+      "destination": [
+        424.0,
+        376.0
+      ],
+      "distance_walked": 239.696020424366,
+      "events": {
+        "activity": 1,
+        "activity_block": 3,
+        "virtual_activity": 61
+      },
+      "home": "inn",
+      "mode": "local",
+      "next_path": [
+        488.0,
+        360.0
+      ],
+      "pending_entry": false,
+      "position": [
+        493.994689941406,
+        359.999969482422
+      ],
+      "present": false,
+      "runtime_speed": 34.0,
+      "scene": "inn",
+      "source_alias": false,
+      "source_speed": 34.0,
+      "state": 1,
+      "upcoming_path": [
+        [
+          488.0,
+          360.0
+        ],
+        [
+          472.0,
+          360.0
+        ],
+        [
+          456.0,
+          376.0
+        ],
+        [
+          440.0,
+          376.0
+        ],
+        [
+          424.0,
+          376.0
+        ]
+      ],
+      "velocity": [
+        -34.0,
+        0.000158137321704999
+      ]
+    },
+    "old_man": {
+      "activity": "rest_night",
+      "body": 271673472433,
+      "clip": "idle_down",
+      "destination": [
+        856.0,
+        1624.0
+      ],
+      "distance_walked": 5433.7628121376,
+      "events": {
+        "activity": 40,
+        "activity_block": 2,
+        "scene_changed": 1,
+        "virtual_activity": 14,
+        "walk_to_gateway": 1
+      },
+      "home": "old_man",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        856.0,
+        1624.0
+      ],
+      "present": false,
+      "runtime_speed": 540.0,
+      "scene": "old_man",
+      "source_alias": false,
+      "source_speed": 18.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "woodcutter": {
+      "activity": "rest_night",
+      "body": 270834611583,
+      "clip": "idle_down",
+      "destination": [
+        392.0,
+        328.0
+      ],
+      "distance_walked": 2964.99005651474,
+      "events": {
+        "activity": 5,
+        "activity_block": 3,
+        "left_for_work": 1,
+        "return_from_work": 1,
+        "scene_changed": 2,
+        "virtual_activity": 12,
+        "virtual_work": 57,
+        "walk_to_gateway": 3
+      },
+      "home": "woodcutter",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        393.09228515625,
+        329.09912109375
+      ],
+      "present": false,
+      "runtime_speed": 36.0,
+      "scene": "woodcutter",
+      "source_alias": false,
+      "source_speed": 36.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "woodcutter_son": {
+      "activity": "rest_night",
+      "body": 271170155923,
+      "clip": "idle_down",
+      "destination": [
+        440.0,
+        344.0
+      ],
+      "distance_walked": 10841.0732827187,
+      "events": {
+        "activity": 66,
+        "activity_block": 5,
+        "scene_changed": 2,
+        "virtual_activity": 36,
+        "walk_to_gateway": 2
+      },
+      "home": "woodcutter",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        440.131134033203,
+        345.871490478516
+      ],
+      "present": false,
+      "runtime_speed": 77.5,
+      "scene": "woodcutter",
+      "source_alias": false,
+      "source_speed": 62.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "woodcutter_wife": {
+      "activity": "rest_night",
+      "body": 271002383753,
+      "clip": "idle_left",
+      "destination": [
+        360.0,
+        344.0
+      ],
+      "distance_walked": 2907.20038574934,
+      "events": {
+        "activity": 24,
+        "activity_block": 5,
+        "scene_changed": 4,
+        "virtual_activity": 50,
+        "walk_to_gateway": 4
+      },
+      "home": "woodcutter",
+      "mode": "local",
+      "next_path": [
+        392.0,
+        344.0
+      ],
+      "pending_entry": false,
+      "position": [
+        406.067474365234,
+        357.955718994141
+      ],
+      "present": false,
+      "runtime_speed": 32.0,
+      "scene": "woodcutter",
+      "source_alias": false,
+      "source_speed": 32.0,
+      "state": 3,
+      "upcoming_path": [
+        [
+          392.0,
+          344.0
+        ],
+        [
+          376.0,
+          344.0
+        ],
+        [
+          360.0,
+          344.0
+        ]
+      ],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "route": {
+    "points": [
+      [
+        484.240905761719,
+        300.11572265625
+      ],
+      [
+        488.0,
+        312.0
+      ],
+      [
+        488.0,
+        328.0
+      ],
+      [
+        472.0,
+        344.0
+      ],
+      [
+        456.0,
+        344.0
+      ],
+      [
+        456.0,
+        360.0
+      ],
+      [
+        456.0,
+        376.0
+      ],
+      [
+        456.0,
+        392.0
+      ],
+      [
+        472.0,
+        392.0
+      ],
+      [
+        480.0,
+        402.0
+      ]
+    ],
+    "sequence": 1794221466986,
+    "world": "res://scenes/interiors/woodcutter.tscn"
+  },
+  "target": "/root/KrivayaSosna/Actors/Structures/MillerHouse/Entrance/InteriorDoor",
+  "tick": 13836,
+  "transitions": [
+    {
+      "hero": 269995750733,
+      "minute": 420.0,
+      "position": [
+        1378.0,
+        1442.0
+      ],
+      "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+    },
+    {
+      "hero": 269995750733,
+      "minute": 1217.56517866666,
+      "position": [
+        480.0,
+        434.0
+      ],
+      "world": "res://scenes/interiors/inn.tscn"
+    },
+    {
+      "hero": 269995750733,
+      "minute": 1235.24234799999,
+      "position": [
+        1688.0,
+        2290.0
+      ],
+      "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+    },
+    {
+      "hero": 269995750733,
+      "minute": 1273.61614959999,
+      "position": [
+        480.0,
+        402.0
+      ],
+      "world": "res://scenes/interiors/elder.tscn"
+    },
+    {
+      "hero": 269995750733,
+      "minute": 1283.09233146665,
+      "position": [
+        936.0,
+        777.0
+      ],
+      "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+    },
+    {
+      "hero": 269995750733,
+      "minute": 1296.69658933332,
+      "position": [
+        480.0,
+        402.0
+      ],
+      "world": "res://scenes/interiors/woodcutter.tscn"
+    },
+    {
+      "hero": 269995750733,
+      "minute": 1338.62958319996,
+      "position": [
+        1713.0,
+        777.0
+      ],
+      "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+    }
+  ],
+  "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn"
+}

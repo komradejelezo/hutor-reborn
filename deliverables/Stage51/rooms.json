@@ -1,0 +1,44 @@
+{
+  "elder": {
+    "bounds": "[P: (256.0, 160.0), S: (448.0, 288.0)]",
+    "contact_shadows": 12,
+    "lights": 3,
+    "old_size": "(576.0, 384.0)",
+    "props": 25
+  },
+  "herbalist": {
+    "bounds": "[P: (256.0, 160.0), S: (416.0, 288.0)]",
+    "contact_shadows": 15,
+    "lights": 2,
+    "old_size": "(576.0, 384.0)",
+    "props": 29
+  },
+  "inn": {
+    "bounds": "[P: (160.0, 128.0), S: (640.0, 352.0)]",
+    "contact_shadows": 20,
+    "lights": 5,
+    "old_size": "(768.0, 448.0)",
+    "props": 37
+  },
+  "old_man": {
+    "bounds": "[P: (352.0, 192.0), S: (288.0, 256.0)]",
+    "contact_shadows": 7,
+    "lights": 2,
+    "old_size": "(352.0, 288.0)",
+    "props": 23
+  },
+  "storehouse": {
+    "bounds": "[P: (320.0, 160.0), S: (352.0, 288.0)]",
+    "contact_shadows": 22,
+    "lights": 4,
+    "old_size": "(416.0, 320.0)",
+    "props": 38
+  },
+  "woodcutter": {
+    "bounds": "[P: (288.0, 160.0), S: (384.0, 288.0)]",
+    "contact_shadows": 16,
+    "lights": 3,
+    "old_size": "(448.0, 320.0)",
+    "props": 30
+  }
+}

@@ -10,8 +10,8 @@
         {
           "id": "rest_night",
           "point": [
-            312,
-            358
+            360,
+            344
           ],
           "minutes": 25,
           "clip": "",
@@ -27,8 +27,8 @@
         {
           "id": "household",
           "point": [
-            367,
-            340
+            408,
+            344
           ],
           "minutes": 10,
           "clip": "",
@@ -37,8 +37,8 @@
         {
           "id": "prepare_work",
           "point": [
-            480,
-            400
+            472,
+            376
           ],
           "minutes": 8,
           "clip": "",
@@ -100,8 +100,8 @@
         {
           "id": "home_rest",
           "point": [
-            312,
-            358
+            360,
+            344
           ],
           "minutes": 18,
           "clip": "",
@@ -110,8 +110,8 @@
         {
           "id": "household",
           "point": [
-            367,
-            340
+            408,
+            344
           ],
           "minutes": 8,
           "clip": "",
@@ -127,8 +127,8 @@
         {
           "id": "rest_night",
           "point": [
-            312,
-            358
+            360,
+            344
           ],
           "minutes": 25,
           "clip": "",

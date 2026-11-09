@@ -1,0 +1,1989 @@
+{
+  "inn": {
+    "bounds": [
+      160,
+      128,
+      640,
+      352
+    ],
+    "positions": {
+      "Counter": [
+        270,
+        132
+      ],
+      "Cups": [
+        220,
+        25
+      ],
+      "Dishes": [
+        338,
+        25
+      ],
+      "BarrelA": [
+        50,
+        90
+      ],
+      "BarrelB": [
+        96,
+        90
+      ],
+      "Fireplace": [
+        570,
+        138
+      ],
+      "TableA": [
+        140,
+        250
+      ],
+      "TableB": [
+        350,
+        280
+      ],
+      "TableC": [
+        510,
+        260
+      ],
+      "BenchA": [
+        140,
+        295
+      ],
+      "BenchB": [
+        380,
+        325
+      ],
+      "BenchC": [
+        510,
+        305
+      ],
+      "StoreDoor": [
+        575,
+        20
+      ],
+      "Food": [
+        465,
+        25
+      ],
+      "Sacks": [
+        595,
+        250
+      ],
+      "SupplyBasket": [
+        595,
+        310
+      ],
+      "KitchenPots": [
+        610,
+        65
+      ],
+      "CandleA": [
+        140,
+        214
+      ],
+      "CandleB": [
+        350,
+        245
+      ],
+      "Lamp": [
+        120,
+        25
+      ]
+    },
+    "additions": [
+      {
+        "name": "HearthLogs",
+        "art": "logs",
+        "point": [
+          568,
+          184
+        ],
+        "scale": 0.3,
+        "foot": [
+          35,
+          16
+        ],
+        "ground": false
+      },
+      {
+        "name": "BarBackCrate",
+        "art": "crate",
+        "point": [
+          405,
+          48
+        ],
+        "scale": 0.6,
+        "foot": [
+          28,
+          18
+        ],
+        "ground": false
+      },
+      {
+        "name": "BarBackSack",
+        "art": "grain_sack",
+        "point": [
+          445,
+          76
+        ],
+        "scale": 0.45,
+        "foot": [
+          24,
+          17
+        ],
+        "ground": false
+      },
+      {
+        "name": "DryHerbBeam",
+        "art": "herb_line",
+        "point": [
+          180,
+          24
+        ],
+        "scale": 0.55,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "KitchenShelf",
+        "art": "shelf_cups",
+        "point": [
+          592,
+          30
+        ],
+        "scale": 0.58,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "KitchenClay",
+        "art": "pot",
+        "point": [
+          620,
+          180
+        ],
+        "scale": 0.55,
+        "foot": [
+          22,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "RoundTableMugs",
+        "art": "tableware",
+        "point": [
+          510,
+          237
+        ],
+        "scale": 0.85,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "SpareStool",
+        "art": "stool",
+        "point": [
+          75,
+          225
+        ],
+        "scale": 0.8,
+        "foot": [
+          18,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "SpareStool2",
+        "art": "stool",
+        "point": [
+          222,
+          257
+        ],
+        "scale": 0.8,
+        "foot": [
+          18,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "BreadBasket",
+        "art": "basket",
+        "point": [
+          595,
+          207
+        ],
+        "scale": 0.42,
+        "foot": [
+          22,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "CounterJug",
+        "art": "bottles",
+        "point": [
+          294,
+          99
+        ],
+        "scale": 0.24,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "CounterLamp",
+        "art": "candle",
+        "point": [
+          215,
+          98
+        ],
+        "scale": 0.35,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "FireIron",
+        "art": "shovel",
+        "point": [
+          615,
+          145
+        ],
+        "scale": 0.4,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "HallRug",
+        "art": "rug",
+        "point": [
+          340,
+          230
+        ],
+        "scale": 0.65,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "ThresholdWear",
+        "art": "broken_boards",
+        "point": [
+          322,
+          324
+        ],
+        "scale": 1,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "TavernCloth",
+        "art": "linen_line",
+        "point": [
+          65,
+          30
+        ],
+        "scale": 0.35,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "ExtraKeg",
+        "art": "barrel",
+        "point": [
+          50,
+          145
+        ],
+        "scale": 0.85,
+        "foot": [
+          30,
+          23
+        ],
+        "ground": false
+      },
+      {
+        "name": "MugShelf",
+        "art": "shelf_cups",
+        "point": [
+          55,
+          32
+        ],
+        "scale": 0.65,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      }
+    ],
+    "lights": [
+      [
+        570,
+        105,
+        0.68,
+        0.63
+      ],
+      [
+        140,
+        221,
+        0.32,
+        0.44
+      ],
+      [
+        350,
+        248,
+        0.35,
+        0.48
+      ],
+      [
+        215,
+        97,
+        0.26,
+        0.4
+      ],
+      [
+        120,
+        25,
+        0.2,
+        0.4
+      ]
+    ],
+    "points": {
+      "Entry": [
+        320,
+        306
+      ]
+    },
+    "actions": {
+      "innkeeper": {
+        "rest_night": [
+          560,
+          198
+        ],
+        "prepare_inn": [
+          270,
+          82
+        ],
+        "check_supplies": [
+          435,
+          88
+        ],
+        "wipe_mug": [
+          270,
+          82
+        ],
+        "arrange_dishes": [
+          330,
+          82
+        ],
+        "visit_tables": [
+          425,
+          290
+        ]
+      },
+      "innkeeper_wife": {
+        "rest_night": [
+          550,
+          210
+        ],
+        "kitchen": [
+          570,
+          218
+        ],
+        "prepare_supplies": [
+          550,
+          285
+        ],
+        "clean_tables": [
+          270,
+          250
+        ],
+        "sweep_floor": [
+          440,
+          210
+        ]
+      }
+    }
+  },
+  "elder": {
+    "bounds": [
+      256,
+      160,
+      448,
+      288
+    ],
+    "positions": {
+      "Desk": [
+        240,
+        152
+      ],
+      "Chair": [
+        240,
+        84
+      ],
+      "GuestChair": [
+        180,
+        195
+      ],
+      "GuestChair2": [
+        300,
+        195
+      ],
+      "BooksA": [
+        220,
+        24
+      ],
+      "BooksB": [
+        280,
+        24
+      ],
+      "Documents": [
+        240,
+        110
+      ],
+      "Chest": [
+        70,
+        240
+      ],
+      "Bed": [
+        65,
+        145
+      ],
+      "Hearth": [
+        390,
+        125
+      ],
+      "WallCloth": [
+        110,
+        40
+      ],
+      "CandleA": [
+        217,
+        110
+      ],
+      "CandleB": [
+        262,
+        110
+      ]
+    },
+    "additions": [
+      {
+        "name": "DistrictMap",
+        "art": "village_map",
+        "point": [
+          355,
+          28
+        ],
+        "scale": 0.038,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "Strongbox",
+        "art": "chest",
+        "point": [
+          390,
+          250
+        ],
+        "scale": 0.7,
+        "foot": [
+          32,
+          20
+        ],
+        "ground": false
+      },
+      {
+        "name": "BedsideStool",
+        "art": "stool",
+        "point": [
+          110,
+          145
+        ],
+        "scale": 0.65,
+        "foot": [
+          16,
+          12
+        ],
+        "ground": false
+      },
+      {
+        "name": "DocumentStack",
+        "art": "papers",
+        "point": [
+          250,
+          111
+        ],
+        "scale": 0.25,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "InkBottle",
+        "art": "bottles",
+        "point": [
+          238,
+          106
+        ],
+        "scale": 0.17,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "HearthLogs",
+        "art": "logs",
+        "point": [
+          390,
+          170
+        ],
+        "scale": 0.25,
+        "foot": [
+          30,
+          14
+        ],
+        "ground": false
+      },
+      {
+        "name": "BookChest",
+        "art": "crate",
+        "point": [
+          355,
+          55
+        ],
+        "scale": 0.45,
+        "foot": [
+          22,
+          16
+        ],
+        "ground": false
+      },
+      {
+        "name": "GuestRug",
+        "art": "rug",
+        "point": [
+          240,
+          236
+        ],
+        "scale": 0.85,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "BedRug",
+        "art": "rug",
+        "point": [
+          80,
+          188
+        ],
+        "scale": 0.45,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "Window",
+        "art": "window",
+        "point": [
+          155,
+          24
+        ],
+        "scale": 0.7,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "WaterJug",
+        "art": "pot",
+        "point": [
+          390,
+          208
+        ],
+        "scale": 0.5,
+        "foot": [
+          20,
+          12
+        ],
+        "ground": false
+      },
+      {
+        "name": "DeskLamp",
+        "art": "candle",
+        "point": [
+          267,
+          110
+        ],
+        "scale": 0.3,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "SpareBooks",
+        "art": "shelf_books",
+        "point": [
+          55,
+          28
+        ],
+        "scale": 0.7,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      }
+    ],
+    "lights": [
+      [
+        390,
+        95,
+        0.58,
+        0.6
+      ],
+      [
+        245,
+        106,
+        0.32,
+        0.47
+      ],
+      [
+        155,
+        26,
+        0.13,
+        0.4
+      ]
+    ],
+    "points": {
+      "Entry": [
+        224,
+        242
+      ]
+    },
+    "actions": {
+      "elder": {
+        "rest_night": [
+          100,
+          205
+        ],
+        "read_documents": [
+          240,
+          100
+        ],
+        "ponder": [
+          338,
+          92
+        ]
+      }
+    }
+  },
+  "herbalist": {
+    "bounds": [
+      256,
+      160,
+      416,
+      288
+    ],
+    "positions": {
+      "BedA": [
+        55,
+        140
+      ],
+      "BedB": [
+        113,
+        140
+      ],
+      "Table": [
+        245,
+        185
+      ],
+      "Stove": [
+        360,
+        115
+      ],
+      "HerbShelf": [
+        235,
+        28
+      ],
+      "HerbLine": [
+        175,
+        45
+      ],
+      "Bottles": [
+        312,
+        225
+      ],
+      "BasketA": [
+        168,
+        225
+      ],
+      "BasketB": [
+        365,
+        240
+      ],
+      "Cauldron": [
+        318,
+        142
+      ],
+      "ClayPotA": [
+        300,
+        185
+      ],
+      "ClayPotB": [
+        300,
+        220
+      ],
+      "DryHerbs": [
+        245,
+        148
+      ],
+      "KitchenPots": [
+        360,
+        30
+      ],
+      "WornBoardsA": [
+        165,
+        175
+      ],
+      "WornBoardsB": [
+        100,
+        240
+      ],
+      "Candle": [
+        230,
+        145
+      ]
+    },
+    "additions": [
+      {
+        "name": "Roots",
+        "art": "dry_food",
+        "point": [
+          365,
+          200
+        ],
+        "scale": 0.45,
+        "foot": [
+          26,
+          14
+        ],
+        "ground": false
+      },
+      {
+        "name": "RoughShelf",
+        "art": "shelf_cups",
+        "point": [
+          58,
+          25
+        ],
+        "scale": 0.65,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "HangingRoots",
+        "art": "herb_line",
+        "point": [
+          310,
+          25
+        ],
+        "scale": 0.45,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "WornLinen",
+        "art": "linen_line",
+        "point": [
+          110,
+          30
+        ],
+        "scale": 0.36,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "ClayMortar",
+        "art": "pot",
+        "point": [
+          257,
+          149
+        ],
+        "scale": 0.22,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "HerbJar",
+        "art": "bottles",
+        "point": [
+          245,
+          144
+        ],
+        "scale": 0.18,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "HearthWood",
+        "art": "logs",
+        "point": [
+          369,
+          157
+        ],
+        "scale": 0.23,
+        "foot": [
+          27,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "Broom",
+        "art": "shovel",
+        "point": [
+          390,
+          170
+        ],
+        "scale": 0.35,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "OldStool",
+        "art": "stool",
+        "point": [
+          202,
+          163
+        ],
+        "scale": 0.65,
+        "foot": [
+          16,
+          12
+        ],
+        "ground": false
+      },
+      {
+        "name": "RepairPlanks",
+        "art": "broken_boards",
+        "point": [
+          35,
+          202
+        ],
+        "scale": 1,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "ThresholdWear",
+        "art": "broken_boards",
+        "point": [
+          205,
+          252
+        ],
+        "scale": 1,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "SeedBasket",
+        "art": "basket",
+        "point": [
+          370,
+          280
+        ],
+        "scale": 0.42,
+        "foot": [
+          22,
+          12
+        ],
+        "ground": false
+      },
+      {
+        "name": "BedsideChest",
+        "art": "chest",
+        "point": [
+          50,
+          255
+        ],
+        "scale": 0.65,
+        "foot": [
+          28,
+          18
+        ],
+        "ground": false
+      }
+    ],
+    "lights": [
+      [
+        360,
+        83,
+        0.48,
+        0.55
+      ],
+      [
+        230,
+        139,
+        0.21,
+        0.4
+      ]
+    ],
+    "points": {
+      "Entry": [
+        208,
+        242
+      ]
+    },
+    "actions": {
+      "herbalist": {
+        "rest_night": [
+          45,
+          185
+        ],
+        "sort_herbs": [
+          210,
+          192
+        ],
+        "dry_plants": [
+          240,
+          82
+        ],
+        "brew": [
+          210,
+          192
+        ]
+      },
+      "herbalist_brother": {
+        "rest_night": [
+          110,
+          190
+        ],
+        "home_rest": [
+          110,
+          190
+        ],
+        "household": [
+          155,
+          185
+        ],
+        "prepare_work": [
+          208,
+          220
+        ]
+      }
+    }
+  },
+  "woodcutter": {
+    "bounds": [
+      288,
+      160,
+      384,
+      288
+    ],
+    "positions": {
+      "ParentsBed": [
+        67,
+        135
+      ],
+      "SonBed": [
+        145,
+        135
+      ],
+      "Stove": [
+        331,
+        110
+      ],
+      "DiningTable": [
+        245,
+        190
+      ],
+      "ChairA": [
+        196,
+        204
+      ],
+      "ChairB": [
+        294,
+        204
+      ],
+      "ChairC": [
+        245,
+        120
+      ],
+      "RestBench": [
+        130,
+        240
+      ],
+      "ClothesChest": [
+        60,
+        240
+      ],
+      "Dishes": [
+        250,
+        28
+      ],
+      "Utensils": [
+        335,
+        30
+      ],
+      "KitchenPot": [
+        290,
+        118
+      ],
+      "Linen": [
+        75,
+        35
+      ],
+      "Boots": [
+        65,
+        170
+      ],
+      "AxeByWall": [
+        353,
+        170
+      ],
+      "ToyCart": [
+        145,
+        170
+      ],
+      "ToyBlocks": [
+        166,
+        163
+      ],
+      "Window": [
+        190,
+        25
+      ],
+      "Lamp": [
+        245,
+        145
+      ]
+    },
+    "additions": [
+      {
+        "name": "StoveWood",
+        "art": "logs",
+        "point": [
+          333,
+          149
+        ],
+        "scale": 0.25,
+        "foot": [
+          28,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "FoodSack",
+        "art": "grain_sack",
+        "point": [
+          347,
+          260
+        ],
+        "scale": 0.48,
+        "foot": [
+          24,
+          17
+        ],
+        "ground": false
+      },
+      {
+        "name": "RootBasket",
+        "art": "basket",
+        "point": [
+          290,
+          260
+        ],
+        "scale": 0.45,
+        "foot": [
+          22,
+          14
+        ],
+        "ground": false
+      },
+      {
+        "name": "ParentRug",
+        "art": "rug",
+        "point": [
+          66,
+          185
+        ],
+        "scale": 0.45,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "MealDishes",
+        "art": "tableware",
+        "point": [
+          245,
+          155
+        ],
+        "scale": 0.8,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "WorkTools",
+        "art": "tool_rack",
+        "point": [
+          348,
+          25
+        ],
+        "scale": 0.35,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "FamilyJug",
+        "art": "pot",
+        "point": [
+          260,
+          153
+        ],
+        "scale": 0.25,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "SmallPantry",
+        "art": "crate",
+        "point": [
+          35,
+          195
+        ],
+        "scale": 0.45,
+        "foot": [
+          22,
+          15
+        ],
+        "ground": false
+      },
+      {
+        "name": "Kindling",
+        "art": "wood_store",
+        "point": [
+          35,
+          280
+        ],
+        "scale": 0.22,
+        "foot": [
+          26,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "ChildStool",
+        "art": "stool",
+        "point": [
+          175,
+          150
+        ],
+        "scale": 0.55,
+        "foot": [
+          14,
+          10
+        ],
+        "ground": false
+      },
+      {
+        "name": "WornThreshold",
+        "art": "broken_boards",
+        "point": [
+          200,
+          266
+        ],
+        "scale": 1,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "BedsideLamp",
+        "art": "candle",
+        "point": [
+          37,
+          78
+        ],
+        "scale": 0.27,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      }
+    ],
+    "lights": [
+      [
+        331,
+        80,
+        0.6,
+        0.58
+      ],
+      [
+        190,
+        25,
+        0.15,
+        0.4
+      ],
+      [
+        245,
+        142,
+        0.23,
+        0.4
+      ]
+    ],
+    "points": {
+      "FatherRest": [
+        130,
+        210
+      ],
+      "Cooking": [
+        290,
+        155
+      ],
+      "Housekeeping": [
+        334,
+        223
+      ],
+      "ChildPlay": [
+        155,
+        204
+      ],
+      "YardExit": [
+        192,
+        242
+      ]
+    },
+    "actions": {
+      "woodcutter": {
+        "rest_night": [
+          104,
+          175
+        ],
+        "take_tool": [
+          335,
+          195
+        ],
+        "prepare_work": [
+          130,
+          210
+        ],
+        "rest_after_work": [
+          130,
+          210
+        ],
+        "family_meal": [
+          245,
+          144
+        ]
+      },
+      "woodcutter_wife": {
+        "rest_night": [
+          70,
+          180
+        ],
+        "cook": [
+          290,
+          155
+        ],
+        "serve": [
+          325,
+          211
+        ],
+        "family_meal": [
+          325,
+          211
+        ]
+      },
+      "woodcutter_son": {
+        "rest_night": [
+          145,
+          177
+        ],
+        "near_mother": [
+          286,
+          238
+        ],
+        "family_meal": [
+          245,
+          225
+        ]
+      }
+    }
+  },
+  "old_man": {
+    "bounds": [
+      352,
+      192,
+      288,
+      256
+    ],
+    "positions": {
+      "OldBed": [
+        45,
+        125
+      ],
+      "OldStove": [
+        235,
+        110
+      ],
+      "Armchair": [
+        195,
+        150
+      ],
+      "SideTable": [
+        123,
+        175
+      ],
+      "Pipe": [
+        129,
+        140
+      ],
+      "SmokingPouch": [
+        139,
+        146
+      ],
+      "Books": [
+        110,
+        24
+      ],
+      "OldPapers": [
+        116,
+        130
+      ],
+      "Chest": [
+        55,
+        210
+      ],
+      "KeepsakeCloth": [
+        45,
+        30
+      ],
+      "KeepsakeBox": [
+        105,
+        57
+      ],
+      "Window": [
+        230,
+        25
+      ],
+      "Lamp": [
+        114,
+        138
+      ],
+      "WornBoards": [
+        95,
+        190
+      ]
+    },
+    "additions": [
+      {
+        "name": "HearthWood",
+        "art": "logs",
+        "point": [
+          247,
+          150
+        ],
+        "scale": 0.22,
+        "foot": [
+          26,
+          13
+        ],
+        "ground": false
+      },
+      {
+        "name": "OldClayJug",
+        "art": "pot",
+        "point": [
+          250,
+          215
+        ],
+        "scale": 0.45,
+        "foot": [
+          18,
+          12
+        ],
+        "ground": false
+      },
+      {
+        "name": "DriedPlants",
+        "art": "herb_line",
+        "point": [
+          165,
+          30
+        ],
+        "scale": 0.37,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "BedsideBoots",
+        "art": "work_boots",
+        "point": [
+          48,
+          148
+        ],
+        "scale": 0.65,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "FoldedLinen",
+        "art": "linen_line",
+        "point": [
+          65,
+          30
+        ],
+        "scale": 0.25,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "BowlOnTable",
+        "art": "pot",
+        "point": [
+          111,
+          142
+        ],
+        "scale": 0.2,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "SavedLetters",
+        "art": "papers",
+        "point": [
+          150,
+          167
+        ],
+        "scale": 0.18,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "HearthMat",
+        "art": "rug",
+        "point": [
+          205,
+          201
+        ],
+        "scale": 0.45,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "DoorWear",
+        "art": "broken_boards",
+        "point": [
+          142,
+          234
+        ],
+        "scale": 1,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "OldShelf",
+        "art": "shelf_cups",
+        "point": [
+          65,
+          25
+        ],
+        "scale": 0.45,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      }
+    ],
+    "lights": [
+      [
+        235,
+        78,
+        0.44,
+        0.5
+      ],
+      [
+        114,
+        132,
+        0.18,
+        0.35
+      ]
+    ],
+    "points": {
+      "ChairRest": [
+        155,
+        150
+      ],
+      "Reading": [
+        123,
+        130
+      ],
+      "PineWalkExit": [
+        144,
+        210
+      ]
+    },
+    "actions": {
+      "old_man": {
+        "rest_night": [
+          90,
+          150
+        ]
+      }
+    }
+  },
+  "storehouse": {
+    "bounds": [
+      320,
+      160,
+      352,
+      288
+    ],
+    "positions": {
+      "ShelfA": [
+        60,
+        42
+      ],
+      "ShelfB": [
+        175,
+        42
+      ],
+      "ShelfC": [
+        291,
+        42
+      ],
+      "GrainA": [
+        45,
+        110
+      ],
+      "GrainB": [
+        90,
+        110
+      ],
+      "GrainC": [
+        45,
+        165
+      ],
+      "GrainD": [
+        305,
+        120
+      ],
+      "GrainE": [
+        305,
+        175
+      ],
+      "BarrelA": [
+        45,
+        225
+      ],
+      "BarrelB": [
+        95,
+        225
+      ],
+      "BasketA": [
+        250,
+        105
+      ],
+      "BasketB": [
+        305,
+        252
+      ],
+      "CrateA": [
+        105,
+        165
+      ],
+      "CrateB": [
+        105,
+        135
+      ],
+      "CrateC": [
+        292,
+        225
+      ],
+      "Firewood": [
+        55,
+        268
+      ],
+      "Ropes": [
+        325,
+        252
+      ],
+      "Tools": [
+        30,
+        78
+      ],
+      "Shovel": [
+        325,
+        95
+      ],
+      "WorkTable": [
+        115,
+        265
+      ],
+      "Utensils": [
+        115,
+        216
+      ],
+      "WindowA": [
+        110,
+        24
+      ],
+      "WindowB": [
+        245,
+        24
+      ],
+      "Lantern": [
+        200,
+        35
+      ]
+    },
+    "additions": [
+      {
+        "name": "FlourReserve",
+        "art": "grain_sack",
+        "point": [
+          250,
+          160
+        ],
+        "scale": 0.55,
+        "foot": [
+          26,
+          18
+        ],
+        "ground": false
+      },
+      {
+        "name": "GrainReserve",
+        "art": "grain_sack",
+        "point": [
+          250,
+          195
+        ],
+        "scale": 0.5,
+        "foot": [
+          25,
+          17
+        ],
+        "ground": false
+      },
+      {
+        "name": "WaterBarrel",
+        "art": "barrel",
+        "point": [
+          40,
+          65
+        ],
+        "scale": 0.75,
+        "foot": [
+          29,
+          22
+        ],
+        "ground": false
+      },
+      {
+        "name": "RopeShelf",
+        "art": "rope_block",
+        "point": [
+          291,
+          44
+        ],
+        "scale": 0.25,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "PotShelf",
+        "art": "pot",
+        "point": [
+          175,
+          24
+        ],
+        "scale": 0.3,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "StockLedger",
+        "art": "papers",
+        "point": [
+          115,
+          232
+        ],
+        "scale": 0.23,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "InventoryLamp",
+        "art": "candle",
+        "point": [
+          138,
+          236
+        ],
+        "scale": 0.27,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "StockInk",
+        "art": "bottles",
+        "point": [
+          99,
+          234
+        ],
+        "scale": 0.16,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "ToolCrate",
+        "art": "crate",
+        "point": [
+          250,
+          255
+        ],
+        "scale": 0.6,
+        "foot": [
+          28,
+          18
+        ],
+        "ground": false
+      },
+      {
+        "name": "ClayVessels",
+        "art": "pot",
+        "point": [
+          325,
+          206
+        ],
+        "scale": 0.45,
+        "foot": [
+          18,
+          12
+        ],
+        "ground": false
+      },
+      {
+        "name": "SpareAxe",
+        "art": "axe",
+        "point": [
+          25,
+          198
+        ],
+        "scale": 0.4,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "AisleWear",
+        "art": "broken_boards",
+        "point": [
+          176,
+          220
+        ],
+        "scale": 1,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": true
+      },
+      {
+        "name": "SmallSupplies",
+        "art": "dry_food",
+        "point": [
+          68,
+          43
+        ],
+        "scale": 0.35,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      },
+      {
+        "name": "RopeHooks",
+        "art": "rope_block",
+        "point": [
+          25,
+          150
+        ],
+        "scale": 0.25,
+        "foot": [
+          0,
+          0
+        ],
+        "ground": false
+      }
+    ],
+    "lights": [
+      [
+        200,
+        34,
+        0.3,
+        0.48
+      ],
+      [
+        110,
+        25,
+        0.14,
+        0.35
+      ],
+      [
+        245,
+        25,
+        0.14,
+        0.35
+      ],
+      [
+        138,
+        229,
+        0.18,
+        0.35
+      ]
+    ],
+    "points": {
+      "BackAisle": [
+        175,
+        78
+      ],
+      "RightAisle": [
+        215,
+        205
+      ],
+      "LeftAisle": [
+        145,
+        185
+      ],
+      "WorkAccess": [
+        160,
+        260
+      ]
+    },
+    "actions": {}
+  }
+}

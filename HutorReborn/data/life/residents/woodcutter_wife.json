@@ -11,7 +11,7 @@
           "id": "rest_night",
           "point": [
             360,
-            350
+            344
           ],
           "minutes": 25,
           "clip": "",
@@ -27,8 +27,8 @@
         {
           "id": "cook",
           "point": [
-            568,
-            296
+            584,
+            312
           ],
           "minutes": 12,
           "clip": "work_cook",
@@ -40,8 +40,8 @@
         {
           "id": "serve",
           "point": [
-            568,
-            370
+            616,
+            376
           ],
           "minutes": 6,
           "clip": "",
@@ -95,8 +95,8 @@
         {
           "id": "cook",
           "point": [
-            568,
-            296
+            584,
+            312
           ],
           "minutes": 12,
           "clip": "work_cook",
@@ -150,8 +150,8 @@
         {
           "id": "family_meal",
           "point": [
-            568,
-            370
+            616,
+            376
           ],
           "minutes": 12,
           "clip": "",
@@ -175,7 +175,7 @@
           "id": "rest_night",
           "point": [
             360,
-            350
+            344
           ],
           "minutes": 25,
           "clip": "",

@@ -1,0 +1,56 @@
+{
+  "base": "5b0b57d6a618e8ac94cb27c6792718f770c8d951",
+  "engine": "Godot 4.6.3 stable official",
+  "native_method": "Normal main scene, real X11 XTest OS WASD/E/F7/Esc, read-only observer; no gameplay calls, teleports or time seek",
+  "native": {
+    "houses_passed": 6,
+    "exploration_routes": 18,
+    "all_nine_residents_observed_in_homes": true,
+    "same_hans_npc_ids_camera_time": true,
+    "final_decor_revisits": [
+      "inn",
+      "elder",
+      "woodcutter"
+    ],
+    "final_woodcutter_exit": "Actual E after waiting for HUD focus; immediate driver assert was premature, no game changes required",
+    "screenshots": 7
+  },
+  "programmatic": {
+    "rooms": {
+      "passed": 706,
+      "failed": 0
+    },
+    "doors": {
+      "passed": 335,
+      "failed": 0
+    },
+    "daily_lifecycle": {
+      "passed": 163,
+      "failed": 0
+    },
+    "depth_first_three": {
+      "passed": 20,
+      "failed": 0
+    },
+    "depth_remaining_three": {
+      "passed": 28,
+      "failed": 0
+    },
+    "normal_startup": {
+      "passed": 6,
+      "failed": 0
+    },
+    "clean_import": "passed with --single-threaded-scene",
+    "preserved_files": 1347,
+    "original_props_preserved": 113,
+    "new_props": 80,
+    "literal_resource_links": 1893
+  },
+  "limitations": [
+    "No human Windows editor playthrough.",
+    "Dedicated quill/pestle art is absent; existing paper, ink bottle and clay vessel used.",
+    "Multi-threaded Linux headless font import crashed on existing DejaVuSans.ttf; fresh single-threaded import and subsequent normal startup passed.",
+    "Software X11 driver cannot change V-Sync; audio Dummy used in graphics checks.",
+    "All combinations of dynamic crowding and every furniture edge were not exhaustively tested."
+  ]
+}

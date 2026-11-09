@@ -1,0 +1,50 @@
+NATIVE approach-inn [1688.0, 2290.0]
+NATIVE inn-explore-0 [480.0, 312.003326416016]
+NATIVE inn-explore-1 [595.41357421875, 216.955749511719]
+NATIVE inn-explore-2 [595.41357421875, 412.790496826172]
+NATIVE inn-photo-position [485.204772949219, 304.148376464844]
+NATIVE screenshot inn-interior.png
+NATIVE inn-talk-approach [432.063171386719, 283.100402832031]
+NATIVE exit-inn [476.374694824219, 427.679504394531]
+NATIVE stage51-house-passed
+NATIVE approach-elder [936.447631835938, 778.968505859375]
+NATIVE elder-explore-0 [400.3359375, 392.029907226562]
+NATIVE elder-explore-1 [488.9267578125, 259.572021484375]
+NATIVE elder-explore-2 [592.896301269531, 249.601837158203]
+NATIVE elder-photo-position [484.77783203125, 332.65380859375]
+NATIVE screenshot elder-interior.png
+NATIVE exit-elder [484.77783203125, 401.587768554688]
+NATIVE stage51-house-passed
+NATIVE approach-herbalist [1718.57043457031, 1653.84924316406]
+NATIVE herbalist-explore-0 [361.832397460938, 354.508453369141]
+NATIVE herbalist-explore-1 [464.227844238281, 352.846160888672]
+NATIVE herbalist-explore-2 [492.033660888672, 242.59049987793]
+NATIVE herbalist-photo-position [459.907806396484, 301.350128173828]
+NATIVE screenshot herbalist-interior.png
+NATIVE exit-herbalist [466.443420410156, 396.222106933594]
+NATIVE stage51-house-passed
+NATIVE approach-woodcutter [1711.20324707031, 779.642211914062]
+NATIVE woodcutter-explore-0 [420.132781982422, 368.766357421875]
+NATIVE woodcutter-explore-1 [570.597473144531, 313.868072509766]
+NATIVE woodcutter-explore-2 [617.282043457031, 381.142028808594]
+NATIVE woodcutter-photo-position [482.405853271484, 299.531280517578]
+NATIVE screenshot woodcutter-interior.png
+NATIVE exit-woodcutter [475.759124755859, 405.814483642578]
+NATIVE stage51-house-passed
+NATIVE approach-old_man [860.098388671875, 1659.7412109375]
+NATIVE old_man-explore-0 [441.245056152344, 344.111694335938]
+NATIVE old_man-explore-1 [507.425659179688, 335.091613769531]
+NATIVE old_man-explore-2 [477.515380859375, 320.690368652344]
+NATIVE old_man-photo-position [495.239990234375, 320.690368652344]
+NATIVE screenshot old_man-interior.png
+NATIVE exit-old_man [495.239990234375, 399.784423828125]
+NATIVE stage51-house-passed
+NATIVE approach-storehouse [1287.49035644531, 1233.47131347656]
+NATIVE storehouse-explore-0 [494.892211914062, 242.815170288086]
+NATIVE storehouse-explore-1 [533.664794921875, 366.030914306641]
+NATIVE storehouse-explore-2 [482.168762207031, 417.526947021484]
+NATIVE storehouse-photo-position [492.676635742188, 304.962585449219]
+NATIVE screenshot storehouse-interior.png
+NATIVE exit-storehouse [498.215576171875, 395.8623046875]
+NATIVE stage51-house-passed
+PASS: six actual room visits, 18 exploration routes, camera and nine identities preserved

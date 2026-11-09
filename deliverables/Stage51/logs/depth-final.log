@@ -1,0 +1,26 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: inn/Counter behind: 359 opaque overlap, 0 wrong pixels
+PASS: inn/Counter front: 1122 opaque overlap, 0 wrong pixels
+PASS: inn/TableA behind: 930 opaque overlap, 0 wrong pixels
+PASS: inn/TableA front: 641 opaque overlap, 0 wrong pixels
+PASS: inn/Fireplace behind: 1237 opaque overlap, 0 wrong pixels
+PASS: inn/Fireplace front: 1018 opaque overlap, 0 wrong pixels
+PASS: elder/Desk behind: 1014 opaque overlap, 0 wrong pixels
+PASS: elder/Desk front: 1122 opaque overlap, 0 wrong pixels
+PASS: elder/Bed behind: 1293 opaque overlap, 0 wrong pixels
+PASS: elder/Bed front: 1108 opaque overlap, 0 wrong pixels
+PASS: elder/Chest behind: 581 opaque overlap, 0 wrong pixels
+PASS: elder/Chest front: 900 opaque overlap, 0 wrong pixels
+PASS: elder/Hearth behind: 1237 opaque overlap, 0 wrong pixels
+PASS: elder/Hearth front: 1018 opaque overlap, 0 wrong pixels
+PASS: herbalist/BedA behind: 1277 opaque overlap, 0 wrong pixels
+PASS: herbalist/BedA front: 1048 opaque overlap, 0 wrong pixels
+PASS: herbalist/Table behind: 1024 opaque overlap, 0 wrong pixels
+PASS: herbalist/Table front: 1084 opaque overlap, 0 wrong pixels
+PASS: herbalist/Stove behind: 1237 opaque overlap, 0 wrong pixels
+PASS: herbalist/Stove front: 1018 opaque overlap, 0 wrong pixels
+RESULT: 20 interior depth checks passed, 0 failed

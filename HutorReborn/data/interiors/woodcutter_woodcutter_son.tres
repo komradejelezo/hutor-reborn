@@ -4,23 +4,23 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_af5gv"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_khb7a"]
 
-[sub_resource type="Resource" id="Resource_y8ms3"]
+[sub_resource type="Resource" id="Resource_f3x5d"]
 script = ExtResource("2_af5gv")
 label = "Игрушки рядом с постелью"
 action = 1
-position = Vector2(408, 360)
+position = Vector2(424, 344)
 duration = 5.0
 animation = &"work_play"
 
-[sub_resource type="Resource" id="Resource_dreb5"]
+[sub_resource type="Resource" id="Resource_af5gv"]
 script = ExtResource("2_af5gv")
 label = "У стола"
-position = Vector2(584, 344)
+position = Vector2(584, 328)
 
-[sub_resource type="Resource" id="Resource_10cea"]
+[sub_resource type="Resource" id="Resource_khb7a"]
 script = ExtResource("2_af5gv")
 label = "Обратно во двор"
-position = Vector2(472, 424)
+position = Vector2(472, 392)
 duration = 0.6
 
 [resource]
@@ -30,7 +30,7 @@ display_name = "Сын дровосека"
 behavior = 2
 speed = 62.0
 frames = ExtResource("1_f3x5d")
-routine = Array[ExtResource("2_af5gv")]([SubResource("Resource_y8ms3"), SubResource("Resource_dreb5"), SubResource("Resource_10cea")])
+routine = Array[ExtResource("2_af5gv")]([SubResource("Resource_f3x5d"), SubResource("Resource_af5gv"), SubResource("Resource_khb7a")])
 foot_radius = 4.0
 dialogue_path = "res://dialogues/residents/woodcutter_son.json"
 dialogue_id = "resident_woodcutter_son"

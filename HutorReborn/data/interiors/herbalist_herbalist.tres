@@ -4,30 +4,30 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_h7q6b"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_bl33d"]
 
-[sub_resource type="Resource" id="Resource_46twu"]
+[sub_resource type="Resource" id="Resource_qltul"]
 script = ExtResource("2_h7q6b")
 label = "Работа с травами"
 action = 1
-position = Vector2(520, 344)
+position = Vector2(472, 344)
 duration = 8.0
 animation = &"work_gather"
 
-[sub_resource type="Resource" id="Resource_evjm4"]
+[sub_resource type="Resource" id="Resource_h7q6b"]
 script = ExtResource("2_h7q6b")
 label = "У полки"
-position = Vector2(552, 216)
+position = Vector2(520, 232)
 duration = 6.0
 
-[sub_resource type="Resource" id="Resource_xnjee"]
+[sub_resource type="Resource" id="Resource_bl33d"]
 script = ExtResource("2_h7q6b")
 label = "Проверить котёл"
-position = Vector2(648, 344)
+position = Vector2(584, 328)
 duration = 5.0
 
-[sub_resource type="Resource" id="Resource_4j3pk"]
+[sub_resource type="Resource" id="Resource_46twu"]
 script = ExtResource("2_h7q6b")
 label = "У двери"
-position = Vector2(488, 456)
+position = Vector2(472, 408)
 duration = 0.6
 
 [resource]
@@ -37,7 +37,7 @@ display_name = "Травница"
 behavior = 1
 speed = 29.0
 frames = ExtResource("1_qltul")
-routine = Array[ExtResource("2_h7q6b")]([SubResource("Resource_46twu"), SubResource("Resource_evjm4"), SubResource("Resource_xnjee"), SubResource("Resource_4j3pk")])
+routine = Array[ExtResource("2_h7q6b")]([SubResource("Resource_qltul"), SubResource("Resource_h7q6b"), SubResource("Resource_bl33d"), SubResource("Resource_46twu")])
 dialogue_path = "res://dialogues/residents/herbalist.json"
 dialogue_id = "resident_herbalist"
 art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

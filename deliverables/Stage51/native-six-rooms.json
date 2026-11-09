@@ -1,0 +1,67 @@
+{
+  "method": "Real normal main scene, native XTest WASD/E/F7/Esc, read-only observer",
+  "houses": {
+    "inn": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "innkeeper",
+        "innkeeper_wife"
+      ],
+      "clock": 1331.65945066667
+    },
+    "elder": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "elder"
+      ],
+      "clock": 1374.84295866666
+    },
+    "herbalist": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "herbalist",
+        "herbalist_brother"
+      ],
+      "clock": 1411.56295866665
+    },
+    "woodcutter": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "woodcutter",
+        "woodcutter_son",
+        "woodcutter_wife"
+      ],
+      "clock": 1443.32295866665
+    },
+    "old_man": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [
+        "old_man"
+      ],
+      "clock": 1472.03733893331
+    },
+    "storehouse": {
+      "entry_exit": true,
+      "walk_points": 3,
+      "camera": true,
+      "identities": true,
+      "residents_observed": [],
+      "clock": 1496.8588773333
+    }
+  }
+}

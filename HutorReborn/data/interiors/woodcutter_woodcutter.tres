@@ -4,22 +4,22 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_43s34"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_oifu0"]
 
-[sub_resource type="Resource" id="Resource_jc48f"]
+[sub_resource type="Resource" id="Resource_ch33q"]
 script = ExtResource("2_43s34")
 label = "Отдых у лавки"
-position = Vector2(408, 392)
+position = Vector2(424, 376)
 duration = 7.0
 
-[sub_resource type="Resource" id="Resource_m7ke4"]
+[sub_resource type="Resource" id="Resource_43s34"]
 script = ExtResource("2_43s34")
 label = "У семейного стола"
-position = Vector2(520, 312)
+position = Vector2(520, 296)
 duration = 6.0
 
-[sub_resource type="Resource" id="Resource_u7npe"]
+[sub_resource type="Resource" id="Resource_oifu0"]
 script = ExtResource("2_43s34")
 label = "У выхода"
-position = Vector2(488, 424)
+position = Vector2(488, 392)
 duration = 0.6
 
 [resource]
@@ -29,7 +29,7 @@ display_name = "Дровосек"
 behavior = 1
 speed = 36.0
 frames = ExtResource("1_ch33q")
-routine = Array[ExtResource("2_43s34")]([SubResource("Resource_jc48f"), SubResource("Resource_m7ke4"), SubResource("Resource_u7npe")])
+routine = Array[ExtResource("2_43s34")]([SubResource("Resource_ch33q"), SubResource("Resource_43s34"), SubResource("Resource_oifu0")])
 dialogue_path = "res://dialogues/residents/woodcutter.json"
 dialogue_id = "resident_woodcutter"
 art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."
