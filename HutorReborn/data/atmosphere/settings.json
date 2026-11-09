@@ -1,0 +1,29 @@
+{
+  "audio_enabled": true,
+  "visuals_enabled": true,
+  "wind_enabled": true,
+  "smoke_enabled": true,
+  "dust_enabled": true,
+  "light_motes_enabled": true,
+  "light_pulses_enabled": true,
+  "npc_glances_enabled": true,
+  "follow_f3": true,
+  "master_volume_db": -3.0,
+  "outdoor_volume_db": 0.0,
+  "interior_volume_db": 0.0,
+  "max_voices": 6,
+  "max_new_particles": 24,
+  "crossfade_seconds": 1.8,
+  "outdoor_event_seconds": [
+    18,
+    38
+  ],
+  "indoor_event_seconds": [
+    22,
+    46
+  ],
+  "visual_event_seconds": [
+    16,
+    32
+  ]
+}

@@ -1,0 +1,9 @@
+NATIVE natural-cue-inn-approach [1686.87182617188, 2293.79028320312]
+NATIVE natural-cue-readable-camera [484.43115234375, 308.823303222656]
+NATIVE natural-shelf-glance-observed
+NATIVE screenshot inn-natural-glance.png
+NATIVE natural-cue-talk-approach [595.761108398438, 252.326049804688]
+NATIVE screenshot inn-ambient-dialogue.png
+NATIVE natural-cue-dialogue-resumed
+NATIVE natural-cue-exit [481.232269287109, 433.146667480469]
+PASS: natural visible shelf glance, real dialogue and return

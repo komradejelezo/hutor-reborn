@@ -1,0 +1,89 @@
+{
+  "village": {
+    "morning": {
+      "bed": "forest_day",
+      "events": [
+        "leaves",
+        "bird",
+        "axe",
+        "wood_creak"
+      ]
+    },
+    "day": {
+      "bed": "forest_day",
+      "events": [
+        "leaves",
+        "bird",
+        "axe",
+        "wood_creak"
+      ]
+    },
+    "evening": {
+      "bed": "wind_bed",
+      "events": [
+        "leaves",
+        "wood_creak",
+        "bird"
+      ]
+    },
+    "night": {
+      "bed": "wind_bed",
+      "events": [
+        "leaves",
+        "wood_creak",
+        "crickets",
+        "night_animal",
+        "tree_creak"
+      ]
+    }
+  },
+  "inn": {
+    "bed": "",
+    "events": [
+      "wood_creak",
+      "dishes",
+      "wood"
+    ],
+    "fire": true
+  },
+  "elder": {
+    "bed": "",
+    "events": [
+      "wood_creak",
+      "paper"
+    ],
+    "fire": true
+  },
+  "herbalist": {
+    "bed": "",
+    "events": [
+      "wood_creak",
+      "brew",
+      "dry_herbs"
+    ],
+    "fire": true
+  },
+  "woodcutter": {
+    "bed": "",
+    "events": [
+      "wood_creak",
+      "wood"
+    ],
+    "fire": true
+  },
+  "old_man": {
+    "bed": "",
+    "events": [
+      "wood_creak"
+    ],
+    "fire": true
+  },
+  "storehouse": {
+    "bed": "",
+    "events": [
+      "wood_creak",
+      "floor_creak"
+    ],
+    "fire": false
+  }
+}

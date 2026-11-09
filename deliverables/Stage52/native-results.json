@@ -1,0 +1,1484 @@
+{
+  "method": "Normal main, OS XTest WASD/E/F3/F7/Escape; read-only observer",
+  "phases": {
+    "day": {
+      "active_components": 1,
+      "bed": "forest_day",
+      "cached_components": 0,
+      "dust": false,
+      "events": [
+        {
+          "detail": "village",
+          "kind": "scene",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "leaves",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "flame",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "wood_creak",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "leaves",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "smoke",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        }
+      ],
+      "glances": 0,
+      "gust_left": 0.0,
+      "hearth": false,
+      "master_db": -3.0,
+      "motes": false,
+      "particle_capacity": 19,
+      "peak_voices": 2,
+      "phase": "day",
+      "pool_size": 6,
+      "puff": false,
+      "scene": "village",
+      "visual_events": 4,
+      "voices": 1
+    },
+    "evening": {
+      "active_components": 1,
+      "bed": "wind_bed",
+      "cached_components": 0,
+      "dust": false,
+      "events": [
+        {
+          "detail": "village",
+          "kind": "scene",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "leaves",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "flame",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "wood_creak",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "leaves",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "smoke",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "axe",
+          "kind": "audio",
+          "phase": "day",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "day",
+          "scene": "village"
+        }
+      ],
+      "glances": 0,
+      "gust_left": 0.0,
+      "hearth": true,
+      "master_db": -3.0,
+      "motes": false,
+      "particle_capacity": 19,
+      "peak_voices": 3,
+      "phase": "evening",
+      "pool_size": 6,
+      "puff": false,
+      "scene": "village",
+      "visual_events": 5,
+      "voices": 2
+    },
+    "night": {
+      "active_components": 1,
+      "bed": "wind_bed",
+      "cached_components": 0,
+      "dust": false,
+      "events": [
+        {
+          "detail": "village",
+          "kind": "scene",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "leaves",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "flame",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "wood_creak",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "leaves",
+          "kind": "audio",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "smoke",
+          "kind": "visual",
+          "phase": "morning",
+          "scene": "village"
+        },
+        {
+          "detail": "axe",
+          "kind": "audio",
+          "phase": "day",
+          "scene": "village"
+        },
+        {
+          "detail": "gust",
+          "kind": "visual",
+          "phase": "day",
+          "scene": "village"
+        },
+        {
+          "detail": "bird",
+          "kind": "audio",
+          "phase": "evening",
+          "scene": "village"
+        }
+      ],
+      "glances": 0,
+      "gust_left": 0.0,
+      "hearth": true,
+      "master_db": -3.0,
+      "motes": false,
+      "particle_capacity": 19,
+      "peak_voices": 3,
+      "phase": "night",
+      "pool_size": 6,
+      "puff": false,
+      "scene": "village",
+      "visual_events": 5,
+      "voices": 3
+    }
+  },
+  "houses": {
+    "inn": {
+      "entered_exited": true,
+      "same_nine_ids": true,
+      "ambient": {
+        "active_components": 1,
+        "bed": "",
+        "cached_components": 1,
+        "dust": true,
+        "events": [
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "axe",
+            "kind": "audio",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "bird",
+            "kind": "audio",
+            "phase": "evening",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "inn",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "inn"
+          }
+        ],
+        "glances": 0,
+        "gust_left": 0.0,
+        "hearth": true,
+        "master_db": -3.0,
+        "motes": true,
+        "particle_capacity": 19,
+        "peak_voices": 3,
+        "phase": "night",
+        "pool_size": 6,
+        "puff": false,
+        "scene": "inn",
+        "visual_events": 0,
+        "voices": 1
+      }
+    },
+    "elder": {
+      "entered_exited": true,
+      "same_nine_ids": true,
+      "ambient": {
+        "active_components": 1,
+        "bed": "",
+        "cached_components": 2,
+        "dust": true,
+        "events": [
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "axe",
+            "kind": "audio",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "bird",
+            "kind": "audio",
+            "phase": "evening",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "inn",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "inn"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "elder",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "elder"
+          }
+        ],
+        "glances": 0,
+        "gust_left": 0.0,
+        "hearth": true,
+        "master_db": -3.0,
+        "motes": true,
+        "particle_capacity": 19,
+        "peak_voices": 3,
+        "phase": "night",
+        "pool_size": 6,
+        "puff": false,
+        "scene": "elder",
+        "visual_events": 0,
+        "voices": 1
+      }
+    },
+    "herbalist": {
+      "entered_exited": true,
+      "same_nine_ids": true,
+      "ambient": {
+        "active_components": 1,
+        "bed": "",
+        "cached_components": 3,
+        "dust": true,
+        "events": [
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "axe",
+            "kind": "audio",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "bird",
+            "kind": "audio",
+            "phase": "evening",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "inn",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "inn"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "elder",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "elder"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "herbalist",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "herbalist"
+          }
+        ],
+        "glances": 0,
+        "gust_left": 0.0,
+        "hearth": true,
+        "master_db": -3.0,
+        "motes": true,
+        "particle_capacity": 19,
+        "peak_voices": 3,
+        "phase": "night",
+        "pool_size": 6,
+        "puff": false,
+        "scene": "herbalist",
+        "visual_events": 0,
+        "voices": 1
+      }
+    },
+    "woodcutter": {
+      "entered_exited": true,
+      "same_nine_ids": true,
+      "ambient": {
+        "active_components": 1,
+        "bed": "",
+        "cached_components": 4,
+        "dust": true,
+        "events": [
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "axe",
+            "kind": "audio",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "bird",
+            "kind": "audio",
+            "phase": "evening",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "inn",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "inn"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "elder",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "elder"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "herbalist",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "herbalist"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "woodcutter",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "woodcutter"
+          }
+        ],
+        "glances": 0,
+        "gust_left": 0.0,
+        "hearth": true,
+        "master_db": -3.0,
+        "motes": true,
+        "particle_capacity": 19,
+        "peak_voices": 3,
+        "phase": "night",
+        "pool_size": 6,
+        "puff": false,
+        "scene": "woodcutter",
+        "visual_events": 0,
+        "voices": 1
+      }
+    },
+    "old_man": {
+      "entered_exited": true,
+      "same_nine_ids": true,
+      "ambient": {
+        "active_components": 1,
+        "bed": "",
+        "cached_components": 5,
+        "dust": true,
+        "events": [
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "axe",
+            "kind": "audio",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "bird",
+            "kind": "audio",
+            "phase": "evening",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "inn",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "inn"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "elder",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "elder"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "herbalist",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "herbalist"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "woodcutter",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "woodcutter"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "old_man",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "old_man"
+          }
+        ],
+        "glances": 0,
+        "gust_left": 0.0,
+        "hearth": true,
+        "master_db": -3.0,
+        "motes": true,
+        "particle_capacity": 19,
+        "peak_voices": 3,
+        "phase": "night",
+        "pool_size": 6,
+        "puff": false,
+        "scene": "old_man",
+        "visual_events": 0,
+        "voices": 1
+      }
+    },
+    "storehouse": {
+      "entered_exited": true,
+      "same_nine_ids": true,
+      "ambient": {
+        "active_components": 1,
+        "bed": "",
+        "cached_components": 6,
+        "dust": true,
+        "events": [
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "morning",
+            "scene": "village"
+          },
+          {
+            "detail": "axe",
+            "kind": "audio",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "day",
+            "scene": "village"
+          },
+          {
+            "detail": "bird",
+            "kind": "audio",
+            "phase": "evening",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "inn",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "inn"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "flame",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "elder",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "elder"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "herbalist",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "herbalist"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "woodcutter",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "woodcutter"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "wood_creak",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "gust",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "old_man",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "old_man"
+          },
+          {
+            "detail": "village",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "leaves",
+            "kind": "audio",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "smoke",
+            "kind": "visual",
+            "phase": "night",
+            "scene": "village"
+          },
+          {
+            "detail": "storehouse",
+            "kind": "scene",
+            "phase": "night",
+            "scene": "storehouse"
+          }
+        ],
+        "glances": 0,
+        "gust_left": 0.0,
+        "hearth": false,
+        "master_db": -3.0,
+        "motes": true,
+        "particle_capacity": 19,
+        "peak_voices": 3,
+        "phase": "night",
+        "pool_size": 6,
+        "puff": false,
+        "scene": "storehouse",
+        "visual_events": 0,
+        "voices": 0
+      }
+    }
+  },
+  "f3_off_on": true,
+  "final": {
+    "active_components": 1,
+    "bed": "wind_bed",
+    "cached_components": 6,
+    "dust": false,
+    "events": [
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "leaves",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "flame",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "gust",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "wood_creak",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "gust",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "leaves",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "smoke",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "axe",
+        "kind": "audio",
+        "phase": "day",
+        "scene": "village"
+      },
+      {
+        "detail": "gust",
+        "kind": "visual",
+        "phase": "day",
+        "scene": "village"
+      },
+      {
+        "detail": "bird",
+        "kind": "audio",
+        "phase": "evening",
+        "scene": "village"
+      },
+      {
+        "detail": "flame",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "inn",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "inn"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "wood_creak",
+        "kind": "audio",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "flame",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "smoke",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "elder",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "elder"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "wood_creak",
+        "kind": "audio",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "smoke",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "herbalist",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "herbalist"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "leaves",
+        "kind": "audio",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "smoke",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "woodcutter",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "woodcutter"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "wood_creak",
+        "kind": "audio",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "gust",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "old_man",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "old_man"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "leaves",
+        "kind": "audio",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "smoke",
+        "kind": "visual",
+        "phase": "night",
+        "scene": "village"
+      },
+      {
+        "detail": "storehouse",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "storehouse"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "night",
+        "scene": "village"
+      }
+    ],
+    "glances": 0,
+    "gust_left": 0.0,
+    "hearth": false,
+    "master_db": -3.0,
+    "motes": true,
+    "particle_capacity": 19,
+    "peak_voices": 3,
+    "phase": "night",
+    "pool_size": 6,
+    "puff": false,
+    "scene": "village",
+    "visual_events": 12,
+    "voices": 1
+  }
+}

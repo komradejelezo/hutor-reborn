@@ -1,0 +1,98 @@
+{
+  "glance_observed": true,
+  "dialogue_and_resume": true,
+  "returned_outdoors": true,
+  "ambient": {
+    "active_components": 1,
+    "bed": "forest_day",
+    "cached_components": 1,
+    "dust": false,
+    "events": [
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "leaves",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "smoke",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "gust",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "wood_creak",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "village"
+      },
+      {
+        "detail": "inn",
+        "kind": "scene",
+        "phase": "morning",
+        "scene": "inn"
+      },
+      {
+        "detail": "wood_creak",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "inn"
+      },
+      {
+        "detail": "flame",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "inn"
+      },
+      {
+        "detail": "innkeeper",
+        "kind": "glance",
+        "phase": "morning",
+        "scene": "inn"
+      },
+      {
+        "detail": "wood",
+        "kind": "audio",
+        "phase": "morning",
+        "scene": "inn"
+      },
+      {
+        "detail": "flame",
+        "kind": "visual",
+        "phase": "morning",
+        "scene": "inn"
+      },
+      {
+        "detail": "village",
+        "kind": "scene",
+        "phase": "morning",
+        "scene": "village"
+      }
+    ],
+    "glances": 1,
+    "gust_left": 0.0,
+    "hearth": false,
+    "master_db": -3.0,
+    "motes": true,
+    "particle_capacity": 19,
+    "peak_voices": 2,
+    "phase": "morning",
+    "pool_size": 6,
+    "puff": false,
+    "scene": "village",
+    "visual_events": 2,
+    "voices": 1
+  }
+}

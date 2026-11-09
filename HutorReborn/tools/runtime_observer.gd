@@ -62,6 +62,8 @@ func _physics_process(_delta: float) -> void:
     var checks:Dictionary={"configured_main":ProjectSettings.get_setting("application/run/main_scene")==travel.VILLAGE,"travel_bound":travel.active_world==world,"six_registered_doors":doors.size()==6,"life_initialized":life.initialized,"nine_residents":residents.size()==9,"clock_running":life.clock.running}
     for entry in doors.values():checks.six_registered_doors=checks.six_registered_doors and entry.registered
     var status:Dictionary={"tick":ticks,"project":ProjectSettings.globalize_path("res://"),"world":world.scene_file_path,"active_id":String(travel.active_id),"hero":hero.get_instance_id(),"position":vector(hero.position),"locked":hero.controls_locked,"busy":travel.busy,"clock":life.clock.absolute_minutes,"clock_speed":life.clock.speed,"target":String(target.get_path()) if is_instance_valid(target) else "","prompt":hud.prompt_label.text if hud.prompt.visible else "","info":hud.dialogue.visible,"dialogue":get_node("/root/DialogueManager").is_active(),"doors":doors,"residents":residents,"entry":vector(world.get_node("Entry").position) if world.has_node("Entry") else [],"camera_zoom":vector(camera.zoom),"route":route,"transitions":transitions,"checks":checks}
+    var ambient:Node=get_node_or_null("/root/AmbientDirector")
+    if ambient and ambient.has_method("diagnostics"):status["ambient"]=ambient.diagnostics()
     if not output.is_empty():
         var file:=FileAccess.open(output+".tmp",FileAccess.WRITE)
         file.store_string(JSON.stringify(status,"  "));file.close()
