@@ -1,0 +1,74 @@
+{
+  "elder": {
+    "collision_shapes": 19,
+    "entry": "(480.0, 466.0)",
+    "floor_cells": 216,
+    "lights": 2,
+    "local_npc_definitions": 1,
+    "markers": 2,
+    "props": 14,
+    "scene": "res://scenes/interiors/elder.tscn",
+    "static_bodies": 18,
+    "wall_cells": 64
+  },
+  "herbalist": {
+    "collision_shapes": 23,
+    "entry": "(480.0, 466.0)",
+    "floor_cells": 216,
+    "lights": 2,
+    "local_npc_definitions": 2,
+    "markers": 2,
+    "props": 18,
+    "scene": "res://scenes/interiors/herbalist.tscn",
+    "static_bodies": 22,
+    "wall_cells": 64
+  },
+  "inn": {
+    "collision_shapes": 26,
+    "entry": "(480.0, 498.0)",
+    "floor_cells": 336,
+    "lights": 4,
+    "local_npc_definitions": 2,
+    "markers": 3,
+    "props": 21,
+    "scene": "res://scenes/interiors/inn.tscn",
+    "static_bodies": 25,
+    "wall_cells": 80
+  },
+  "old_man": {
+    "collision_shapes": 20,
+    "entry": "(496.0, 434.0)",
+    "floor_cells": 99,
+    "lights": 2,
+    "local_npc_definitions": 1,
+    "markers": 6,
+    "props": 15,
+    "scene": "res://scenes/interiors/old_man.tscn",
+    "static_bodies": 19,
+    "wall_cells": 44
+  },
+  "storehouse": {
+    "collision_shapes": 30,
+    "entry": "(496.0, 434.0)",
+    "floor_cells": 130,
+    "lights": 3,
+    "local_npc_definitions": 0,
+    "markers": 6,
+    "props": 25,
+    "scene": "res://scenes/interiors/storehouse.tscn",
+    "static_bodies": 29,
+    "wall_cells": 50
+  },
+  "woodcutter": {
+    "collision_shapes": 25,
+    "entry": "(480.0, 434.0)",
+    "floor_cells": 140,
+    "lights": 2,
+    "local_npc_definitions": 3,
+    "markers": 7,
+    "props": 20,
+    "scene": "res://scenes/interiors/woodcutter.tscn",
+    "static_bodies": 24,
+    "wall_cells": 52
+  }
+}

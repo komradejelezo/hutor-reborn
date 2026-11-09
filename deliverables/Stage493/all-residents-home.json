@@ -1,0 +1,441 @@
+{
+  "label": "wait-morning",
+  "wall_time": 1794076916.6276844,
+  "clock": 1172.0191808727,
+  "hero": [
+    1474.81811523438,
+    299.311767578125
+  ],
+  "world": "res://scenes/world/krivaya_sosna/krivaya_sosna.tscn",
+  "residents": {
+    "elder": {
+      "activity": "read_documents",
+      "body": 270331295073,
+      "clip": "idle_down",
+      "destination": [
+        936.0,
+        744.0
+      ],
+      "distance_walked": 7971.29380226135,
+      "events": {
+        "activity": 22,
+        "activity_block": 2,
+        "scene_changed": 2,
+        "virtual_activity": 15,
+        "walk_to_gateway": 2
+      },
+      "home": "elder",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        937.239379882812,
+        745.239868164062
+      ],
+      "present": false,
+      "runtime_speed": 30.0,
+      "scene": "elder",
+      "source_alias": false,
+      "source_speed": 30.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "herbalist": {
+      "activity": "sort_herbs",
+      "body": 271337928093,
+      "clip": "work_table",
+      "destination": [
+        520.0,
+        344.0
+      ],
+      "distance_walked": 5323.92900961637,
+      "events": {
+        "activity": 16,
+        "activity_block": 3,
+        "scene_changed": 3,
+        "virtual_activity": 26,
+        "walk_to_gateway": 3
+      },
+      "home": "herbalist",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        520.000122070312,
+        342.385375976562
+      ],
+      "present": false,
+      "runtime_speed": 29.0,
+      "scene": "herbalist",
+      "source_alias": false,
+      "source_speed": 29.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "herbalist_brother": {
+      "activity": "home_rest",
+      "body": 271505700263,
+      "clip": "idle_right",
+      "destination": [
+        312.0,
+        360.0
+      ],
+      "distance_walked": 1952.18834996223,
+      "events": {
+        "activity": 1,
+        "activity_block": 2,
+        "left_for_work": 1,
+        "return_from_work": 1,
+        "scene_changed": 2,
+        "virtual_activity": 5,
+        "virtual_work": 57,
+        "walk_to_gateway": 3
+      },
+      "home": "herbalist",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        313.374633789062,
+        361.374633789062
+      ],
+      "present": false,
+      "runtime_speed": 37.0,
+      "scene": "herbalist",
+      "source_alias": false,
+      "source_speed": 37.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "innkeeper": {
+      "activity": "visit_tables",
+      "body": 270499067243,
+      "clip": "walk_up",
+      "destination": [
+        456.0,
+        200.0
+      ],
+      "distance_walked": 1167.05799865723,
+      "events": {
+        "activity": 3,
+        "activity_block": 2,
+        "virtual_activity": 52
+      },
+      "home": "inn",
+      "mode": "local",
+      "next_path": [
+        616.0,
+        200.0
+      ],
+      "pending_entry": false,
+      "position": [
+        616.0,
+        200.0
+      ],
+      "present": false,
+      "runtime_speed": 840.0,
+      "scene": "inn",
+      "source_alias": false,
+      "source_speed": 28.0,
+      "state": 1,
+      "upcoming_path": [
+        [
+          616.0,
+          200.0
+        ],
+        [
+          600.0,
+          200.0
+        ],
+        [
+          584.0,
+          200.0
+        ],
+        [
+          568.0,
+          200.0
+        ],
+        [
+          552.0,
+          200.0
+        ],
+        [
+          536.0,
+          200.0
+        ],
+        [
+          520.0,
+          200.0
+        ],
+        [
+          504.0,
+          200.0
+        ],
+        [
+          488.0,
+          200.0
+        ],
+        [
+          472.0,
+          200.0
+        ],
+        [
+          456.0,
+          200.0
+        ]
+      ],
+      "velocity": [
+        0.0,
+        -120.0
+      ]
+    },
+    "innkeeper_wife": {
+      "activity": "kitchen",
+      "body": 270666839413,
+      "clip": "idle_up",
+      "destination": [
+        792.0,
+        360.0
+      ],
+      "distance_walked": 540.646745681763,
+      "events": {
+        "activity": 5,
+        "activity_block": 2,
+        "virtual_activity": 43
+      },
+      "home": "inn",
+      "mode": "local",
+      "next_path": [
+        792.0,
+        360.0
+      ],
+      "pending_entry": false,
+      "position": [
+        788.020812988281,
+        363.979187011719
+      ],
+      "present": false,
+      "runtime_speed": 1020.0,
+      "scene": "inn",
+      "source_alias": false,
+      "source_speed": 34.0,
+      "state": 3,
+      "upcoming_path": [
+        [
+          792.0,
+          360.0
+        ]
+      ],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "old_man": {
+      "activity": "rest_by_hearth",
+      "body": 271673472433,
+      "clip": "walk_right",
+      "destination": [
+        856.0,
+        1624.0
+      ],
+      "distance_walked": 4609.8134163022,
+      "events": {
+        "activity": 35,
+        "activity_block": 1,
+        "scene_changed": 1,
+        "virtual_activity": 9,
+        "walk_to_gateway": 1
+      },
+      "home": "old_man",
+      "mode": "local",
+      "next_path": [
+        760.0,
+        1752.0
+      ],
+      "pending_entry": false,
+      "position": [
+        754.692321777344,
+        1751.99963378906
+      ],
+      "present": false,
+      "runtime_speed": 18.0,
+      "scene": "old_man",
+      "source_alias": false,
+      "source_speed": 18.0,
+      "state": 1,
+      "upcoming_path": [
+        [
+          760.0,
+          1752.0
+        ],
+        [
+          776.0,
+          1752.0
+        ],
+        [
+          792.0,
+          1752.0
+        ],
+        [
+          808.0,
+          1736.0
+        ],
+        [
+          808.0,
+          1720.0
+        ],
+        [
+          808.0,
+          1704.0
+        ],
+        [
+          808.0,
+          1688.0
+        ],
+        [
+          808.0,
+          1672.0
+        ],
+        [
+          824.0,
+          1656.0
+        ],
+        [
+          840.0,
+          1640.0
+        ],
+        [
+          856.0,
+          1624.0
+        ]
+      ],
+      "velocity": [
+        18.0,
+        0.00117549730930477
+      ]
+    },
+    "woodcutter": {
+      "activity": "rest_after_work",
+      "body": 270834611583,
+      "clip": "idle_down",
+      "destination": [
+        1720.0,
+        744.0
+      ],
+      "distance_walked": 1360.21283426881,
+      "events": {
+        "activity_block": 2,
+        "left_for_work": 1,
+        "return_from_work": 1,
+        "scene_changed": 2,
+        "virtual_activity": 7,
+        "virtual_work": 57,
+        "walk_to_gateway": 3
+      },
+      "home": "woodcutter",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        1718.86743164062,
+        745.141784667969
+      ],
+      "present": false,
+      "runtime_speed": 36.0,
+      "scene": "woodcutter",
+      "source_alias": false,
+      "source_speed": 36.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "woodcutter_son": {
+      "activity": "family_meal",
+      "body": 271170155923,
+      "clip": "idle_down",
+      "destination": [
+        1720.0,
+        760.0
+      ],
+      "distance_walked": 10317.2487792969,
+      "events": {
+        "activity": 65,
+        "activity_block": 4,
+        "scene_changed": 2,
+        "virtual_activity": 21,
+        "walk_to_gateway": 2
+      },
+      "home": "woodcutter",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        1720.0,
+        760.0
+      ],
+      "present": false,
+      "runtime_speed": 77.5,
+      "scene": "woodcutter",
+      "source_alias": false,
+      "source_speed": 62.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    },
+    "woodcutter_wife": {
+      "activity": "family_meal",
+      "body": 271002383753,
+      "clip": "idle_down",
+      "destination": [
+        1720.0,
+        744.0
+      ],
+      "distance_walked": 2741.59960091114,
+      "events": {
+        "activity": 23,
+        "activity_block": 4,
+        "scene_changed": 4,
+        "virtual_activity": 33,
+        "walk_to_gateway": 4
+      },
+      "home": "woodcutter",
+      "mode": "local",
+      "next_path": [],
+      "pending_entry": false,
+      "position": [
+        1720.00146484375,
+        745.868347167969
+      ],
+      "present": false,
+      "runtime_speed": 32.0,
+      "scene": "woodcutter",
+      "source_alias": false,
+      "source_speed": 32.0,
+      "state": 2,
+      "upcoming_path": [],
+      "velocity": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

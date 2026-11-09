@@ -1,0 +1,63 @@
+{
+  "method": "Real Godot main scene, XTest OS keyboard input, read-only observer; no teleport or time seek",
+  "checks": [
+    {
+      "label": "workers first become visible only after a completely virtual morning departure",
+      "passed": true
+    },
+    {
+      "label": "both original workers physically return from logging",
+      "passed": true
+    },
+    {
+      "label": "native F7 reset restores actual worker speeds without mutating source data",
+      "passed": true
+    },
+    {
+      "label": "native route obstruction 1: NPC continues without pushing Hans",
+      "passed": true
+    },
+    {
+      "label": "native route obstruction 2: NPC continues without pushing Hans",
+      "passed": true
+    },
+    {
+      "label": "native route obstruction 3: NPC continues without pushing Hans",
+      "passed": true
+    },
+    {
+      "label": "same returning brother becomes visible in correct interior",
+      "passed": true
+    },
+    {
+      "label": "nine unique residents across native scene transitions",
+      "passed": true
+    },
+    {
+      "label": "real E dialogue opens after indoor arrival",
+      "passed": true
+    },
+    {
+      "label": "returned resident resumes after native dialogue",
+      "passed": true
+    },
+    {
+      "label": "both workers followed along the real northern exit route",
+      "passed": true
+    },
+    {
+      "label": "same workers leave visible map and enter logical logging state",
+      "passed": true
+    },
+    {
+      "label": "all nine IDs persist for evening, dialogue and next morning",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "final_clock": 1971.73070087269,
+  "worker_ids": {
+    "woodcutter": 270834611583,
+    "herbalist_brother": 271505700263
+  }
+}

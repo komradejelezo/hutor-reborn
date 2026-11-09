@@ -1,0 +1,4 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+BOOT_READY InteriorTravel children=[DialogueManager:<Node#26256344493>, InteriorTravel:<Node#28068283823>, VillageLife:<Node#30802970034>, KrivayaSosna:<Node2D#232918091203>] current=KrivayaSosna:<Node2D#232918091203>
+BOOT_READY VillageLife children=[DialogueManager:<Node#26256344493>, InteriorTravel:<Node#28068283823>, VillageLife:<Node#30802970034>, KrivayaSosna:<Node2D#232918091203>] current=KrivayaSosna:<Node2D#232918091203>

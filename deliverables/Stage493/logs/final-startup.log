@@ -1,0 +1,9 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: normal main startup / configured_main
+PASS: normal main startup / travel_bound
+PASS: normal main startup / six_registered_doors
+PASS: normal main startup / life_initialized
+PASS: normal main startup / nine_residents
+PASS: normal main startup / clock_running
+RESULT: 6 normal-start checks, success=true

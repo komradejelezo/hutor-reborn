@@ -1,0 +1,40 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Hans enters inn before workers first appear
+PASS: transition completes within deadline
+PASS: virtual worker starts evening return while Hans is indoors
+PASS: Hans returns outside while workers cross boundary
+PASS: transition completes within deadline
+PASS: woodcutter visible runtime definition is independent of immutable original
+ERROR: FAIL: woodcutter source speed survives F7 acceleration/reset
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/verify_interiors.gd:8)
+       [1] run (res://tests/verify_worker_speed.gd:27)
+       [2] wait_transition (res://tests/verify_interiors.gd:15)
+       [3] frames (res://tests/verify_interiors.gd:10)
+ERROR: FAIL: woodcutter runtime speed actually returns to x1
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/verify_interiors.gd:8)
+       [1] run (res://tests/verify_worker_speed.gd:28)
+       [2] wait_transition (res://tests/verify_interiors.gd:15)
+       [3] frames (res://tests/verify_interiors.gd:10)
+SPEED woodcutter baseline=36.0 original=518400.0 runtime=518400.0
+PASS: herbalist_brother visible runtime definition is independent of immutable original
+ERROR: FAIL: herbalist_brother source speed survives F7 acceleration/reset
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/verify_interiors.gd:8)
+       [1] run (res://tests/verify_worker_speed.gd:27)
+       [2] wait_transition (res://tests/verify_interiors.gd:15)
+       [3] frames (res://tests/verify_interiors.gd:10)
+ERROR: FAIL: herbalist_brother runtime speed actually returns to x1
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/verify_interiors.gd:8)
+       [1] run (res://tests/verify_worker_speed.gd:28)
+       [2] wait_transition (res://tests/verify_interiors.gd:15)
+       [3] frames (res://tests/verify_interiors.gd:10)
+SPEED herbalist_brother baseline=37.0 original=4440.0 runtime=4440.0
+RESULT: 7 worker-speed checks passed, 4 failed
