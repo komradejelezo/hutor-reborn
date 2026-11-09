@@ -1,0 +1,155 @@
+{
+  "audited_commit": "610c46bcaa650890e6ded967c5a1abf489c2453a",
+  "engine": "4.6.3.stable.official.7d41c59c4",
+  "renderer": "OpenGL Compatibility, Mesa llvmpipe",
+  "viewport": [
+    960,
+    540
+  ],
+  "native_method": "Configured main scene in isolated runtime copy; native X11 WASD/E; read-only observer; clock speed 1; no teleport or seek",
+  "baseline_tracked_file_count": 1516,
+  "original_tracked_files_changed": [],
+  "six_native_roundtrips": [
+    "elder",
+    "herbalist",
+    "inn",
+    "old_man",
+    "storehouse",
+    "woodcutter"
+  ],
+  "village_lossless_webp_rgb_matches_png": true,
+  "full_map_dimensions": [
+    2976,
+    2560
+  ],
+  "video_validation": {
+    "diagnostic-environment-effects.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "179/9",
+        "nb_read_frames": "179"
+      },
+      "duration_seconds": 9.0,
+      "decodes_without_errors": true
+    },
+    "diagnostic-resource-preview.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "20/1",
+        "nb_read_frames": "724"
+      },
+      "duration_seconds": 36.2,
+      "decodes_without_errors": true
+    },
+    "native-01-hans-four-directions.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "20/1",
+        "nb_read_frames": "154"
+      },
+      "duration_seconds": 7.7,
+      "decodes_without_errors": true
+    },
+    "native-interior-elder.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "3330/167",
+        "nb_read_frames": "333"
+      },
+      "duration_seconds": 16.7,
+      "decodes_without_errors": true
+    },
+    "native-interior-herbalist.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "58/3",
+        "nb_read_frames": "352"
+      },
+      "duration_seconds": 18.206897,
+      "decodes_without_errors": true
+    },
+    "native-interior-inn.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "20/1",
+        "nb_read_frames": "423"
+      },
+      "duration_seconds": 21.15,
+      "decodes_without_errors": true
+    },
+    "native-interior-old_man.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "46243/2310",
+        "nb_read_frames": "353"
+      },
+      "duration_seconds": 17.633588,
+      "decodes_without_errors": true
+    },
+    "native-interior-storehouse.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "38479/1938",
+        "nb_read_frames": "322"
+      },
+      "duration_seconds": 16.217573,
+      "decodes_without_errors": true
+    },
+    "native-interior-woodcutter-observation.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "239/12",
+        "nb_read_frames": "253"
+      },
+      "duration_seconds": 12.702929,
+      "decodes_without_errors": true
+    },
+    "native-interior-woodcutter.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "20/1",
+        "nb_read_frames": "103"
+      },
+      "duration_seconds": 5.15,
+      "decodes_without_errors": true
+    },
+    "native-village-foliage-depth.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "3930/197",
+        "nb_read_frames": "393"
+      },
+      "duration_seconds": 19.7,
+      "decodes_without_errors": true
+    },
+    "native-village-pine-npc-effects.mp4": {
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "1815/91",
+        "nb_read_frames": "363"
+      },
+      "duration_seconds": 18.2,
+      "decodes_without_errors": true
+    }
+  },
+  "limitations": [
+    "Software GPU; no 60 FPS or target-platform performance guarantee",
+    "Temporal review uses recordings and sampled sequences, not continuous manual play of every NPC schedule",
+    "Diagnostic stills and resource playback are not navigation/input tests",
+    "All nine visible in sampled telemetry; not every direction of each NPC captured in actual gameplay",
+    "Night, exhaustive object overlaps and all emotional dialogue branches not reviewed",
+    "X11grab shared-memory warnings retained in diagnostic capture logs"
+  ]
+}
