@@ -4,30 +4,30 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_yu6em"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_4suv7"]
 
-[sub_resource type="Resource" id="Resource_n5piy"]
+[sub_resource type="Resource" id="Resource_eq06s"]
 script = ExtResource("2_yu6em")
 label = "Хозяйственная зона"
-position = Vector2(808, 360)
+position = Vector2(760, 312)
 duration = 4.0
 
-[sub_resource type="Resource" id="Resource_a44mw"]
+[sub_resource type="Resource" id="Resource_yu6em"]
 script = ExtResource("2_yu6em")
 label = "У очага"
-position = Vector2(680, 312)
+position = Vector2(648, 296)
 duration = 5.0
 
-[sub_resource type="Resource" id="Resource_bomm6"]
+[sub_resource type="Resource" id="Resource_4suv7"]
 script = ExtResource("2_yu6em")
 label = "Между столами"
 action = 1
-position = Vector2(392, 456)
+position = Vector2(408, 408)
 duration = 5.0
 animation = &"work_sweep"
 
-[sub_resource type="Resource" id="Resource_xkg37"]
+[sub_resource type="Resource" id="Resource_n5piy"]
 script = ExtResource("2_yu6em")
 label = "Припасы"
-position = Vector2(792, 440)
+position = Vector2(744, 392)
 duration = 4.0
 
 [resource]
@@ -37,7 +37,7 @@ display_name = "Жена трактирщика"
 behavior = 1
 speed = 34.0
 frames = ExtResource("1_eq06s")
-routine = Array[ExtResource("2_yu6em")]([SubResource("Resource_n5piy"), SubResource("Resource_a44mw"), SubResource("Resource_bomm6"), SubResource("Resource_xkg37")])
+routine = Array[ExtResource("2_yu6em")]([SubResource("Resource_eq06s"), SubResource("Resource_yu6em"), SubResource("Resource_4suv7"), SubResource("Resource_n5piy")])
 dialogue_path = "res://dialogues/residents/innkeeper_wife.json"
 dialogue_id = "resident_innkeeper_wife"
 art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

@@ -4,24 +4,24 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_0n48l"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_5g8oq"]
 
-[sub_resource type="Resource" id="Resource_muckw"]
+[sub_resource type="Resource" id="Resource_i0nv3"]
 script = ExtResource("2_0n48l")
 label = "Кухонная зона"
-position = Vector2(584, 312)
+position = Vector2(568, 296)
 duration = 7.0
 
-[sub_resource type="Resource" id="Resource_6aphn"]
+[sub_resource type="Resource" id="Resource_0n48l"]
 script = ExtResource("2_0n48l")
 label = "Прибрать комнату"
 action = 1
-position = Vector2(616, 408)
+position = Vector2(616, 376)
 duration = 5.0
 animation = &"work_sweep"
 
-[sub_resource type="Resource" id="Resource_gy7mm"]
+[sub_resource type="Resource" id="Resource_5g8oq"]
 script = ExtResource("2_0n48l")
 label = "У выхода"
-position = Vector2(488, 424)
+position = Vector2(488, 392)
 duration = 0.6
 
 [resource]
@@ -30,7 +30,7 @@ id = &"woodcutter_wife"
 display_name = "Жена дровосека"
 behavior = 1
 frames = ExtResource("1_i0nv3")
-routine = Array[ExtResource("2_0n48l")]([SubResource("Resource_muckw"), SubResource("Resource_6aphn"), SubResource("Resource_gy7mm")])
+routine = Array[ExtResource("2_0n48l")]([SubResource("Resource_i0nv3"), SubResource("Resource_0n48l"), SubResource("Resource_5g8oq")])
 dialogue_path = "res://dialogues/residents/woodcutter_wife.json"
 dialogue_id = "resident_woodcutter_wife"
 art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

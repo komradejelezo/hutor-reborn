@@ -4,30 +4,30 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_6ewjm"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_ytb0o"]
 
-[sub_resource type="Resource" id="Resource_bwsug"]
+[sub_resource type="Resource" id="Resource_ho2a7"]
 script = ExtResource("2_6ewjm")
 talk_offset = Vector2(0, 76)
 label = "За рабочим столом"
 action = 1
-position = Vector2(488, 248)
+position = Vector2(472, 248)
 duration = 8.0
 
-[sub_resource type="Resource" id="Resource_vkn1y"]
+[sub_resource type="Resource" id="Resource_6ewjm"]
 script = ExtResource("2_6ewjm")
 label = "У книг"
-position = Vector2(600, 216)
+position = Vector2(568, 232)
 duration = 6.0
 
-[sub_resource type="Resource" id="Resource_ltc2h"]
+[sub_resource type="Resource" id="Resource_ytb0o"]
 script = ExtResource("2_6ewjm")
 label = "Осмотреть комнату"
-position = Vector2(344, 392)
+position = Vector2(376, 360)
 duration = 5.0
 
-[sub_resource type="Resource" id="Resource_c5at8"]
+[sub_resource type="Resource" id="Resource_bwsug"]
 script = ExtResource("2_6ewjm")
 label = "У выхода"
-position = Vector2(488, 456)
+position = Vector2(488, 408)
 duration = 0.6
 
 [resource]
@@ -36,7 +36,7 @@ id = &"elder"
 display_name = "Староста"
 speed = 30.0
 frames = ExtResource("1_ho2a7")
-routine = Array[ExtResource("2_6ewjm")]([SubResource("Resource_bwsug"), SubResource("Resource_vkn1y"), SubResource("Resource_ltc2h"), SubResource("Resource_c5at8")])
+routine = Array[ExtResource("2_6ewjm")]([SubResource("Resource_ho2a7"), SubResource("Resource_6ewjm"), SubResource("Resource_ytb0o"), SubResource("Resource_bwsug")])
 dialogue_path = "res://dialogues/residents/elder.json"
 dialogue_id = "resident_elder"
 art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending. Elder design is provisional, from the archived older-man study."

@@ -10,8 +10,8 @@
         {
           "id": "rest_night",
           "point": [
-            330,
-            370
+            360,
+            360
           ],
           "minutes": 25,
           "clip": "",
@@ -27,8 +27,8 @@
         {
           "id": "read_documents",
           "point": [
-            480,
-            248
+            504,
+            264
           ],
           "minutes": 16,
           "clip": "gesture_read",
@@ -41,8 +41,8 @@
         {
           "id": "ponder",
           "point": [
-            608,
-            216
+            600,
+            248
           ],
           "minutes": 8,
           "clip": "gesture_think",
@@ -105,8 +105,8 @@
         {
           "id": "read_documents",
           "point": [
-            480,
-            248
+            504,
+            264
           ],
           "minutes": 16,
           "clip": "gesture_read",
@@ -119,8 +119,8 @@
         {
           "id": "ponder",
           "point": [
-            608,
-            216
+            600,
+            248
           ],
           "minutes": 10,
           "clip": "gesture_think",
@@ -136,8 +136,8 @@
         {
           "id": "rest_night",
           "point": [
-            330,
-            370
+            360,
+            360
           ],
           "minutes": 25,
           "clip": "",

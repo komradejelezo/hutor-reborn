@@ -10,8 +10,8 @@
         {
           "id": "rest_night",
           "point": [
-            780,
-            220
+            728,
+            328
           ],
           "minutes": 25,
           "clip": "",
@@ -27,8 +27,8 @@
         {
           "id": "prepare_inn",
           "point": [
-            456,
-            200
+            424,
+            216
           ],
           "minutes": 10,
           "clip": "work_wipe",
@@ -41,8 +41,8 @@
         {
           "id": "check_supplies",
           "point": [
-            800,
-            360
+            600,
+            232
           ],
           "minutes": 8,
           "clip": "",
@@ -58,8 +58,8 @@
         {
           "id": "wipe_mug",
           "point": [
-            456,
-            200
+            424,
+            216
           ],
           "minutes": 12,
           "clip": "work_wipe",
@@ -72,8 +72,8 @@
         {
           "id": "arrange_dishes",
           "point": [
-            520,
-            200
+            488,
+            216
           ],
           "minutes": 8,
           "clip": "",
@@ -93,8 +93,8 @@
         {
           "id": "wipe_mug",
           "point": [
-            456,
-            200
+            424,
+            216
           ],
           "minutes": 12,
           "clip": "work_wipe",
@@ -107,8 +107,8 @@
         {
           "id": "visit_tables",
           "point": [
-            570,
-            440
+            584,
+            424
           ],
           "minutes": 7,
           "clip": "",
@@ -124,8 +124,8 @@
         {
           "id": "rest_night",
           "point": [
-            780,
-            220
+            728,
+            328
           ],
           "minutes": 25,
           "clip": "",

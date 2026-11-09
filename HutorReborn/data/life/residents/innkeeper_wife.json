@@ -10,8 +10,8 @@
         {
           "id": "rest_night",
           "point": [
-            810,
-            310
+            712,
+            344
           ],
           "minutes": 25,
           "clip": "",
@@ -27,8 +27,8 @@
         {
           "id": "kitchen",
           "point": [
-            790,
-            365
+            728,
+            344
           ],
           "minutes": 12,
           "clip": "work_cook",
@@ -37,8 +37,8 @@
         {
           "id": "prepare_supplies",
           "point": [
-            770,
-            440
+            712,
+            408
           ],
           "minutes": 8,
           "clip": "work_sweep",
@@ -54,8 +54,8 @@
         {
           "id": "clean_tables",
           "point": [
-            386,
-            456
+            424,
+            376
           ],
           "minutes": 10,
           "clip": "",
@@ -64,8 +64,8 @@
         {
           "id": "kitchen",
           "point": [
-            790,
-            365
+            728,
+            344
           ],
           "minutes": 12,
           "clip": "work_cook",
@@ -74,8 +74,8 @@
         {
           "id": "sweep_floor",
           "point": [
-            686,
-            306
+            600,
+            344
           ],
           "minutes": 8,
           "clip": "work_sweep",
@@ -91,8 +91,8 @@
         {
           "id": "clean_tables",
           "point": [
-            596,
-            456
+            424,
+            376
           ],
           "minutes": 10,
           "clip": "",
@@ -101,8 +101,8 @@
         {
           "id": "kitchen",
           "point": [
-            790,
-            365
+            728,
+            344
           ],
           "minutes": 12,
           "clip": "work_cook",
@@ -118,8 +118,8 @@
         {
           "id": "rest_night",
           "point": [
-            810,
-            310
+            712,
+            344
           ],
           "minutes": 25,
           "clip": "",

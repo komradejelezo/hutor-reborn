@@ -24,8 +24,8 @@
         {
           "id": "take_tool",
           "point": [
-            648,
-            350
+            616,
+            360
           ],
           "minutes": 8,
           "clip": "",
@@ -101,8 +101,8 @@
         {
           "id": "family_meal",
           "point": [
-            516,
-            308
+            536,
+            312
           ],
           "minutes": 10,
           "clip": "",
@@ -118,8 +118,8 @@
         {
           "id": "rest_night",
           "point": [
-            360,
-            322
+            392,
+            328
           ],
           "minutes": 25,
           "clip": "",

@@ -1,0 +1,4 @@
+PASS: 1347 original files preserved from 5b0b57d6a618e8ac94cb27c6792718f770c8d951
+PASS: all nine schedules preserve timing, actions, animations and outdoor coordinates
+PASS: all 113 original furniture/decor objects retained
+PASS: no removed originals or temporary observer configuration

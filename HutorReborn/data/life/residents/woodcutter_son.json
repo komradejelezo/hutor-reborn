@@ -10,8 +10,8 @@
         {
           "id": "rest_night",
           "point": [
-            420,
-            324
+            440,
+            344
           ],
           "minutes": 25,
           "clip": "",
@@ -34,8 +34,8 @@
         {
           "id": "near_mother",
           "point": [
-            604,
-            355
+            568,
+            392
           ],
           "minutes": 3,
           "clip": "",
@@ -222,8 +222,8 @@
         {
           "id": "family_meal",
           "point": [
-            604,
-            400
+            536,
+            392
           ],
           "minutes": 8,
           "clip": "",
@@ -239,8 +239,8 @@
         {
           "id": "rest_night",
           "point": [
-            420,
-            324
+            440,
+            344
           ],
           "minutes": 25,
           "clip": "",

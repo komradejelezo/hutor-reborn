@@ -4,21 +4,21 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_qfqyf"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_57x1a"]
 
-[sub_resource type="Resource" id="Resource_d3yp4"]
+[sub_resource type="Resource" id="Resource_x273j"]
 script = ExtResource("2_qfqyf")
 talk_offset = Vector2(0, 70)
 label = "За стойкой"
 action = 1
-position = Vector2(456, 200)
+position = Vector2(456, 216)
 duration = 9.0
 animation = &"work_wipe"
 
-[sub_resource type="Resource" id="Resource_e07a5"]
+[sub_resource type="Resource" id="Resource_qfqyf"]
 script = ExtResource("2_qfqyf")
 talk_offset = Vector2(0, 70)
 label = "Проверить посуду"
 action = 1
-position = Vector2(520, 200)
+position = Vector2(520, 216)
 duration = 6.0
 animation = &"work_wipe"
 
@@ -29,7 +29,7 @@ display_name = "Трактирщик"
 behavior = 1
 speed = 28.0
 frames = ExtResource("1_x273j")
-routine = Array[ExtResource("2_qfqyf")]([SubResource("Resource_d3yp4"), SubResource("Resource_e07a5")])
+routine = Array[ExtResource("2_qfqyf")]([SubResource("Resource_x273j"), SubResource("Resource_qfqyf")])
 dialogue_path = "res://dialogues/residents/innkeeper.json"
 dialogue_id = "resident_innkeeper"
 art_notes = "Four-way archived walk frames; idle directions are explicit static fallback poses. Portraits pending."

@@ -7,7 +7,7 @@ func run() -> void:
         root.add_child(world);current_scene=world
         world.get_node("Evening").color=Color.WHITE
         for light in world.find_children("*","PointLight2D",true,false):light.enabled=false
-        for group in ["Void","Floor","Walls","HUD","Exit"]:world.get_node(group).hide()
+        for group in ["Void","Floor","Walls","FloorDetails","HUD","Exit"]:world.get_node(group).hide()
         for item in world.get_node("Actors/Props").get_children():item.hide()
         var hero:CharacterBody2D=world.player
         hero.set_physics_process(false);hero.sensor.set_physics_process(false)

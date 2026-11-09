@@ -4,25 +4,25 @@
 [ext_resource type="Script" path="res://scripts/npc/routine_step.gd" id="2_6h7gd"]
 [ext_resource type="Script" path="res://scripts/npc/npc_definition.gd" id="3_d3jre"]
 
-[sub_resource type="Resource" id="Resource_rcop7"]
+[sub_resource type="Resource" id="Resource_u2oxk"]
 script = ExtResource("2_6h7gd")
 label = "Отдых возле кресла"
 action = 1
-position = Vector2(520, 344)
+position = Vector2(520, 328)
 duration = 12.0
 facing = &"right"
 animation = &"work_smoke"
 
-[sub_resource type="Resource" id="Resource_b6qae"]
+[sub_resource type="Resource" id="Resource_6h7gd"]
 script = ExtResource("2_6h7gd")
 label = "У столика с книгами"
-position = Vector2(472, 344)
+position = Vector2(472, 328)
 duration = 8.0
 
-[sub_resource type="Resource" id="Resource_pd6n4"]
+[sub_resource type="Resource" id="Resource_d3jre"]
 script = ExtResource("2_6h7gd")
 label = "К прогулке у сосны"
-position = Vector2(504, 424)
+position = Vector2(504, 392)
 duration = 0.6
 
 [resource]
@@ -32,7 +32,7 @@ display_name = "Старик с трубкой"
 behavior = 3
 speed = 18.0
 frames = ExtResource("1_u2oxk")
-routine = Array[ExtResource("2_6h7gd")]([SubResource("Resource_rcop7"), SubResource("Resource_b6qae"), SubResource("Resource_pd6n4")])
+routine = Array[ExtResource("2_6h7gd")]([SubResource("Resource_u2oxk"), SubResource("Resource_6h7gd"), SubResource("Resource_d3jre")])
 dialogue_path = "res://dialogues/residents/old_man.json"
 dialogue_id = "resident_old_man"
 pipe_smoke = true
