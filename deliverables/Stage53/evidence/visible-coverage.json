@@ -1,0 +1,114 @@
+{
+  "herbalist_brother": {
+    "visible_samples": 183,
+    "clips": {
+      "walk_down": 10,
+      "walk_up": 168,
+      "idle_up": 5
+    },
+    "clip_changes_in_adjacent_visible_samples": 2,
+    "changes_while_moving": 0
+  },
+  "herbalist": {
+    "visible_samples": 145,
+    "clips": {
+      "walk_right": 39,
+      "work_inspect": 24,
+      "work_gather": 61,
+      "walk_left": 21
+    },
+    "clip_changes_in_adjacent_visible_samples": 2,
+    "changes_while_moving": 0
+  },
+  "woodcutter": {
+    "visible_samples": 19,
+    "clips": {
+      "idle_down": 17,
+      "idle_right": 2
+    },
+    "clip_changes_in_adjacent_visible_samples": 1,
+    "changes_while_moving": 0
+  },
+  "woodcutter_son": {
+    "visible_samples": 653,
+    "clips": {
+      "idle_down": 212,
+      "work_play": 39,
+      "run_down": 43,
+      "run_right": 41,
+      "run_left": 27,
+      "work_kneel": 194,
+      "run_up": 71,
+      "idle_up": 15,
+      "idle_left": 11
+    },
+    "clip_changes_in_adjacent_visible_samples": 35,
+    "changes_while_moving": 10
+  },
+  "old_man": {
+    "visible_samples": 111,
+    "clips": {
+      "walk_down": 2,
+      "walk_right": 8,
+      "walk_up": 56,
+      "work_think": 2,
+      "idle_down": 1,
+      "walk_left": 16,
+      "work_smoke": 26
+    },
+    "clip_changes_in_adjacent_visible_samples": 5,
+    "changes_while_moving": 3
+  },
+  "elder": {
+    "visible_samples": 595,
+    "clips": {
+      "idle_right": 149,
+      "turn_down": 7,
+      "turn_right": 1,
+      "idle_left": 44,
+      "idle_down": 208,
+      "walk_down": 98,
+      "walk_up": 46,
+      "walk_right": 37,
+      "walk_left": 5
+    },
+    "clip_changes_in_adjacent_visible_samples": 17,
+    "changes_while_moving": 2
+  },
+  "woodcutter_wife": {
+    "visible_samples": 1085,
+    "clips": {
+      "idle_down": 432,
+      "walk_up": 62,
+      "walk_left": 57,
+      "work_cook": 427,
+      "walk_down": 90,
+      "walk_right": 12,
+      "idle_right": 5
+    },
+    "clip_changes_in_adjacent_visible_samples": 28,
+    "changes_while_moving": 13
+  },
+  "innkeeper": {
+    "visible_samples": 205,
+    "clips": {
+      "work_wipe": 150,
+      "idle_down": 33,
+      "walk_right": 22
+    },
+    "clip_changes_in_adjacent_visible_samples": 3,
+    "changes_while_moving": 1
+  },
+  "innkeeper_wife": {
+    "visible_samples": 205,
+    "clips": {
+      "idle_up": 119,
+      "turn_right": 6,
+      "turn_up": 1,
+      "walk_up": 12,
+      "walk_right": 67
+    },
+    "clip_changes_in_adjacent_visible_samples": 5,
+    "changes_while_moving": 2
+  }
+}

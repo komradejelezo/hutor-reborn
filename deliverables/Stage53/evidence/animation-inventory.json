@@ -1,0 +1,880 @@
+{
+  "elder": {
+    "resource": "res://assets/npc/stage47/elder.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      }
+    }
+  },
+  "hans": {
+    "resource": "res://assets/characters/hans_frames.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 2.5,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 2.5,
+        "loop": true
+      },
+      "idle_right": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 2.5,
+        "loop": true
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 2.5,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 6,
+        "distinct_pixel_frames": 6,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 8,
+        "distinct_pixel_frames": 6,
+        "base_fps": 10.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 8,
+        "distinct_pixel_frames": 6,
+        "base_fps": 10.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 6,
+        "distinct_pixel_frames": 6,
+        "base_fps": 8.0,
+        "loop": true
+      }
+    }
+  },
+  "herbalist": {
+    "resource": "res://assets/npc/stage47/herbalist.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_gather": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 5.0,
+        "loop": true
+      },
+      "work_inspect": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 5.0,
+        "loop": true
+      },
+      "work_table": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 5.0,
+        "loop": true
+      }
+    }
+  },
+  "herbalist_brother": {
+    "resource": "res://assets/npc/stage47/herbalist_brother.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 5,
+        "distinct_pixel_frames": 5,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 5,
+        "distinct_pixel_frames": 5,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_chop": {
+        "frames": 5,
+        "distinct_pixel_frames": 5,
+        "base_fps": 6.0,
+        "loop": true
+      }
+    }
+  },
+  "innkeeper": {
+    "resource": "res://assets/npc/stage47/innkeeper.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_taste": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "work_wipe": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 6.0,
+        "loop": true
+      }
+    }
+  },
+  "innkeeper_wife": {
+    "resource": "res://assets/npc/stage47/innkeeper_wife.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_cook": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "work_sweep": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 6.0,
+        "loop": true
+      }
+    }
+  },
+  "old_man": {
+    "resource": "res://assets/npc/stage47/old_man.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 6.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 6.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 6.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 6.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "work_sit": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 3.5,
+        "loop": false
+      },
+      "work_smoke": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 3.5,
+        "loop": true
+      },
+      "work_think": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 3.5,
+        "loop": true
+      }
+    }
+  },
+  "woodcutter": {
+    "resource": "res://assets/npc/stage47/woodcutter.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_chop": {
+        "frames": 6,
+        "distinct_pixel_frames": 6,
+        "base_fps": 6.0,
+        "loop": true
+      },
+      "work_saw": {
+        "frames": 6,
+        "distinct_pixel_frames": 5,
+        "base_fps": 6.0,
+        "loop": true
+      }
+    }
+  },
+  "woodcutter_son": {
+    "resource": "res://assets/npc/stage47/woodcutter_son.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "run_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 10.0,
+        "loop": true
+      },
+      "run_left": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 10.0,
+        "loop": true
+      },
+      "run_right": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 10.0,
+        "loop": true
+      },
+      "run_up": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 10.0,
+        "loop": true
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_kneel": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_play": {
+        "frames": 6,
+        "distinct_pixel_frames": 6,
+        "base_fps": 8.0,
+        "loop": true
+      }
+    }
+  },
+  "woodcutter_wife": {
+    "resource": "res://assets/npc/stage47/woodcutter_wife.tres",
+    "clips": {
+      "idle_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "idle_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 8.0,
+        "loop": false
+      },
+      "turn_down": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_left": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_right": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "turn_up": {
+        "frames": 1,
+        "distinct_pixel_frames": 1,
+        "base_fps": 5.0,
+        "loop": false
+      },
+      "walk_down": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_left": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_right": {
+        "frames": 4,
+        "distinct_pixel_frames": 4,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "walk_up": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 8.0,
+        "loop": true
+      },
+      "work_cook": {
+        "frames": 9,
+        "distinct_pixel_frames": 4,
+        "base_fps": 5.0,
+        "loop": true
+      },
+      "work_rake": {
+        "frames": 3,
+        "distinct_pixel_frames": 3,
+        "base_fps": 5.0,
+        "loop": true
+      },
+      "work_sweep": {
+        "frames": 2,
+        "distinct_pixel_frames": 2,
+        "base_fps": 5.0,
+        "loop": true
+      }
+    }
+  }
+}
