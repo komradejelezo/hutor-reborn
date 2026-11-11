@@ -4,6 +4,7 @@ var manager: Node
 var resident: HutorDailyResidentState
 var _hidden: Array[CanvasItem] = []
 var _presentation_key := ""
+var visual54=preload("res://scripts/npc/rework/resident_presentation.gd").new()
 var reactions: HutorNpcVisualReactions
 func _ready() -> void:
     reactions=HutorNpcVisualReactions.new(HutorNpcVisualLibrary.profile(resident.id))
@@ -19,12 +20,14 @@ func present(actor: HutorResident) -> bool:
     sprite.speed_scale = clampf(actor.velocity.length()/reference_speed,.35,2.5) if actor.state==actor.State.MOVING else minf(2.5,sqrt(manager.clock.speed))
     var destination_step:HutorNpcRoutineStep=actor.current_step()
     actor.animator.prefer_run = resident.id==&"woodcutter_son" and resident.mode==&"local" and destination_step!=null and destination_step.label.begins_with("run_")
-    sprite.position=Vector2.ZERO
+    if int(sprite.sprite_frames.get_meta("rework_version",0))!=54:sprite.position=Vector2.ZERO
     var delta:float=actor.get_physics_process_delta_time() if Engine.is_in_physics_frame() else 0.0
     var look:StringName=reactions.update(actor,delta,resident.mode==&"local")
     var ambient:Node=get_node_or_null("/root/AmbientDirector")
     if look==&"" and is_instance_valid(ambient):
         look=ambient.glance_direction(actor,resident)
+    if int(sprite.sprite_frames.get_meta("rework_version",0))==54:
+        return visual54.present(actor,resident,look,delta)
     var working:bool=actor.state==actor.State.WAITING and resident.mode==&"local" and look==&""
     var key:String=String(resident.activity) if working else ""
     if key!=_presentation_key:

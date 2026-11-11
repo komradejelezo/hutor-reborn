@@ -8,10 +8,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/woodcutter_son/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/woodcutter_son/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/woodcutter_son/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/woodcutter_son/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/woodcutter_son/portraits/anxious.png"
       },
       "text": "Ты дальше нашего леса бывал? Я пока только возле дома хожу.",
       "choices": [
@@ -33,10 +33,10 @@
       "portrait": "",
       "emotion": "joy",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/woodcutter_son/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/woodcutter_son/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/woodcutter_son/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/woodcutter_son/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/woodcutter_son/portraits/anxious.png"
       },
       "text": "Вот вырасту — тоже погляжу. Мама говорит, сперва свои тропки запомни.",
       "next": "closing"
@@ -47,10 +47,10 @@
       "portrait": "",
       "emotion": "joy",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/woodcutter_son/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/woodcutter_son/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/woodcutter_son/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/woodcutter_son/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/woodcutter_son/portraits/anxious.png"
       },
       "text": "Смотреть, кто по дороге идёт. И палкой по земле рисовать.",
       "next": "closing"
@@ -61,10 +61,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/woodcutter_son/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/woodcutter_son/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/woodcutter_son/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/woodcutter_son/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/woodcutter_son/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/woodcutter_son/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/woodcutter_son/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/woodcutter_son/portraits/anxious.png"
       },
       "text": "Я тут ещё побегаю. Далеко мне не велят.",
       "end": true

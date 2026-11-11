@@ -1,0 +1,319 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: existing scene entry: elder
+PASS: transition completes within deadline
+PASS: same original actor visible: elder
+PASS: undistorted nearest body: elder
+PASS: approved Stage54 resource: elder
+PASS: eight source walking images: elder/down
+PASS: directional fallback exists: elder/down
+PASS: native directional art is not double mirrored: elder/down
+PASS: eight source walking images: elder/up
+PASS: directional fallback exists: elder/up
+PASS: native directional art is not double mirrored: elder/up
+PASS: eight source walking images: elder/left
+PASS: directional fallback exists: elder/left
+PASS: native directional art is not double mirrored: elder/left
+PASS: eight source walking images: elder/right
+PASS: directional fallback exists: elder/right
+PASS: native directional art is not double mirrored: elder/right
+PASS: four talk drawings: elder
+PASS: missing rear idle is honestly static: elder
+PASS: reaction respects individual delay: elder
+PASS: brief glance starts: elder
+PASS: glance finishes: elder
+PASS: lingering Hans does not constantly interrupt: elder
+PASS: attention changes no routine, movement or facing state: elder
+PASS: reachable original E conversation: elder
+PASS: work stops through existing dialogue: elder
+PASS: correct real portrait: elder/neutral
+PASS: correct real portrait: elder/joy
+PASS: correct real portrait: elder/displeased
+PASS: correct real portrait: elder/anxious
+PASS: dialogue holds body: elder
+PASS: original occupation resumes: elder
+PASS: existing exit: elder
+PASS: transition completes within deadline
+PASS: existing scene entry: innkeeper
+PASS: transition completes within deadline
+PASS: same original actor visible: innkeeper
+PASS: undistorted nearest body: innkeeper
+PASS: approved Stage54 resource: innkeeper
+PASS: eight source walking images: innkeeper/down
+PASS: directional fallback exists: innkeeper/down
+PASS: native directional art is not double mirrored: innkeeper/down
+PASS: eight source walking images: innkeeper/up
+PASS: directional fallback exists: innkeeper/up
+PASS: native directional art is not double mirrored: innkeeper/up
+PASS: eight source walking images: innkeeper/left
+PASS: directional fallback exists: innkeeper/left
+PASS: native directional art is not double mirrored: innkeeper/left
+PASS: eight source walking images: innkeeper/right
+PASS: directional fallback exists: innkeeper/right
+PASS: native directional art is not double mirrored: innkeeper/right
+PASS: four talk drawings: innkeeper
+PASS: missing rear idle is honestly static: innkeeper
+PASS: reaction respects individual delay: innkeeper
+PASS: brief glance starts: innkeeper
+PASS: glance finishes: innkeeper
+PASS: lingering Hans does not constantly interrupt: innkeeper
+PASS: attention changes no routine, movement or facing state: innkeeper
+PASS: reachable original E conversation: innkeeper
+PASS: work stops through existing dialogue: innkeeper
+PASS: correct real portrait: innkeeper/neutral
+PASS: correct real portrait: innkeeper/joy
+PASS: correct real portrait: innkeeper/displeased
+PASS: correct real portrait: innkeeper/anxious
+PASS: dialogue holds body: innkeeper
+PASS: original occupation resumes: innkeeper
+PASS: existing exit: innkeeper
+PASS: transition completes within deadline
+PASS: existing scene entry: innkeeper_wife
+PASS: transition completes within deadline
+PASS: same original actor visible: innkeeper_wife
+PASS: undistorted nearest body: innkeeper_wife
+PASS: approved Stage54 resource: innkeeper_wife
+PASS: eight source walking images: innkeeper_wife/down
+PASS: directional fallback exists: innkeeper_wife/down
+PASS: native directional art is not double mirrored: innkeeper_wife/down
+PASS: eight source walking images: innkeeper_wife/up
+PASS: directional fallback exists: innkeeper_wife/up
+PASS: native directional art is not double mirrored: innkeeper_wife/up
+PASS: eight source walking images: innkeeper_wife/left
+PASS: directional fallback exists: innkeeper_wife/left
+PASS: native directional art is not double mirrored: innkeeper_wife/left
+PASS: eight source walking images: innkeeper_wife/right
+PASS: directional fallback exists: innkeeper_wife/right
+PASS: native directional art is not double mirrored: innkeeper_wife/right
+PASS: four talk drawings: innkeeper_wife
+PASS: missing rear idle is honestly static: innkeeper_wife
+PASS: reaction respects individual delay: innkeeper_wife
+PASS: brief glance starts: innkeeper_wife
+PASS: glance finishes: innkeeper_wife
+PASS: lingering Hans does not constantly interrupt: innkeeper_wife
+PASS: attention changes no routine, movement or facing state: innkeeper_wife
+PASS: reachable original E conversation: innkeeper_wife
+PASS: work stops through existing dialogue: innkeeper_wife
+PASS: correct real portrait: innkeeper_wife/neutral
+PASS: correct real portrait: innkeeper_wife/joy
+PASS: correct real portrait: innkeeper_wife/displeased
+PASS: correct real portrait: innkeeper_wife/anxious
+PASS: dialogue holds body: innkeeper_wife
+PASS: original occupation resumes: innkeeper_wife
+PASS: existing exit: innkeeper_wife
+PASS: transition completes within deadline
+PASS: existing scene entry: woodcutter
+PASS: transition completes within deadline
+PASS: same original actor visible: woodcutter
+PASS: undistorted nearest body: woodcutter
+PASS: approved Stage54 resource: woodcutter
+PASS: eight source walking images: woodcutter/down
+PASS: directional fallback exists: woodcutter/down
+PASS: native directional art is not double mirrored: woodcutter/down
+PASS: eight source walking images: woodcutter/up
+PASS: directional fallback exists: woodcutter/up
+PASS: native directional art is not double mirrored: woodcutter/up
+PASS: eight source walking images: woodcutter/left
+PASS: directional fallback exists: woodcutter/left
+PASS: native directional art is not double mirrored: woodcutter/left
+PASS: eight source walking images: woodcutter/right
+PASS: directional fallback exists: woodcutter/right
+PASS: native directional art is not double mirrored: woodcutter/right
+PASS: four talk drawings: woodcutter
+PASS: missing rear idle is honestly static: woodcutter
+PASS: reaction respects individual delay: woodcutter
+PASS: brief glance starts: woodcutter
+PASS: glance finishes: woodcutter
+PASS: lingering Hans does not constantly interrupt: woodcutter
+PASS: attention changes no routine, movement or facing state: woodcutter
+PASS: reachable original E conversation: woodcutter
+PASS: work stops through existing dialogue: woodcutter
+PASS: correct real portrait: woodcutter/neutral
+PASS: correct real portrait: woodcutter/joy
+PASS: correct real portrait: woodcutter/displeased
+PASS: correct real portrait: woodcutter/anxious
+PASS: dialogue holds body: woodcutter
+PASS: original occupation resumes: woodcutter
+PASS: existing exit: woodcutter
+PASS: transition completes within deadline
+PASS: existing scene entry: woodcutter_wife
+PASS: transition completes within deadline
+PASS: same original actor visible: woodcutter_wife
+PASS: undistorted nearest body: woodcutter_wife
+PASS: approved Stage54 resource: woodcutter_wife
+PASS: eight source walking images: woodcutter_wife/down
+PASS: directional fallback exists: woodcutter_wife/down
+PASS: native directional art is not double mirrored: woodcutter_wife/down
+PASS: eight source walking images: woodcutter_wife/up
+PASS: directional fallback exists: woodcutter_wife/up
+PASS: native directional art is not double mirrored: woodcutter_wife/up
+PASS: eight source walking images: woodcutter_wife/left
+PASS: directional fallback exists: woodcutter_wife/left
+PASS: native directional art is not double mirrored: woodcutter_wife/left
+PASS: eight source walking images: woodcutter_wife/right
+PASS: directional fallback exists: woodcutter_wife/right
+PASS: native directional art is not double mirrored: woodcutter_wife/right
+PASS: four talk drawings: woodcutter_wife
+PASS: missing rear idle is honestly static: woodcutter_wife
+PASS: reaction respects individual delay: woodcutter_wife
+PASS: brief glance starts: woodcutter_wife
+PASS: glance finishes: woodcutter_wife
+PASS: lingering Hans does not constantly interrupt: woodcutter_wife
+PASS: attention changes no routine, movement or facing state: woodcutter_wife
+PASS: reachable original E conversation: woodcutter_wife
+PASS: work stops through existing dialogue: woodcutter_wife
+PASS: correct real portrait: woodcutter_wife/neutral
+PASS: correct real portrait: woodcutter_wife/joy
+PASS: correct real portrait: woodcutter_wife/displeased
+PASS: correct real portrait: woodcutter_wife/anxious
+PASS: dialogue holds body: woodcutter_wife
+PASS: original occupation resumes: woodcutter_wife
+PASS: existing exit: woodcutter_wife
+PASS: transition completes within deadline
+PASS: existing scene entry: woodcutter_son
+PASS: transition completes within deadline
+PASS: same original actor visible: woodcutter_son
+PASS: undistorted nearest body: woodcutter_son
+PASS: approved Stage54 resource: woodcutter_son
+PASS: eight source walking images: woodcutter_son/down
+PASS: directional fallback exists: woodcutter_son/down
+PASS: native directional art is not double mirrored: woodcutter_son/down
+PASS: eight source walking images: woodcutter_son/up
+PASS: directional fallback exists: woodcutter_son/up
+PASS: native directional art is not double mirrored: woodcutter_son/up
+PASS: eight source walking images: woodcutter_son/left
+PASS: directional fallback exists: woodcutter_son/left
+PASS: native directional art is not double mirrored: woodcutter_son/left
+PASS: eight source walking images: woodcutter_son/right
+PASS: directional fallback exists: woodcutter_son/right
+PASS: native directional art is not double mirrored: woodcutter_son/right
+PASS: four talk drawings: woodcutter_son
+PASS: missing rear idle is honestly static: woodcutter_son
+PASS: reaction respects individual delay: woodcutter_son
+PASS: brief glance starts: woodcutter_son
+PASS: glance finishes: woodcutter_son
+PASS: lingering Hans does not constantly interrupt: woodcutter_son
+PASS: attention changes no routine, movement or facing state: woodcutter_son
+PASS: reachable original E conversation: woodcutter_son
+PASS: work stops through existing dialogue: woodcutter_son
+PASS: correct real portrait: woodcutter_son/neutral
+PASS: correct real portrait: woodcutter_son/joy
+PASS: correct real portrait: woodcutter_son/displeased
+PASS: correct real portrait: woodcutter_son/anxious
+PASS: dialogue holds body: woodcutter_son
+PASS: original occupation resumes: woodcutter_son
+PASS: existing exit: woodcutter_son
+PASS: transition completes within deadline
+PASS: existing scene entry: herbalist
+PASS: transition completes within deadline
+PASS: same original actor visible: herbalist
+PASS: undistorted nearest body: herbalist
+PASS: approved Stage54 resource: herbalist
+PASS: eight source walking images: herbalist/down
+PASS: directional fallback exists: herbalist/down
+PASS: native directional art is not double mirrored: herbalist/down
+PASS: eight source walking images: herbalist/up
+PASS: directional fallback exists: herbalist/up
+PASS: native directional art is not double mirrored: herbalist/up
+PASS: eight source walking images: herbalist/left
+PASS: directional fallback exists: herbalist/left
+PASS: native directional art is not double mirrored: herbalist/left
+PASS: eight source walking images: herbalist/right
+PASS: directional fallback exists: herbalist/right
+PASS: native directional art is not double mirrored: herbalist/right
+PASS: four talk drawings: herbalist
+PASS: missing rear idle is honestly static: herbalist
+PASS: reaction respects individual delay: herbalist
+PASS: brief glance starts: herbalist
+PASS: glance finishes: herbalist
+PASS: lingering Hans does not constantly interrupt: herbalist
+PASS: attention changes no routine, movement or facing state: herbalist
+PASS: reachable original E conversation: herbalist
+PASS: work stops through existing dialogue: herbalist
+PASS: correct real portrait: herbalist/neutral
+PASS: correct real portrait: herbalist/joy
+PASS: correct real portrait: herbalist/displeased
+PASS: correct real portrait: herbalist/anxious
+PASS: dialogue holds body: herbalist
+PASS: original occupation resumes: herbalist
+PASS: existing exit: herbalist
+PASS: transition completes within deadline
+PASS: existing scene entry: herbalist_brother
+PASS: transition completes within deadline
+PASS: same original actor visible: herbalist_brother
+PASS: undistorted nearest body: herbalist_brother
+PASS: approved Stage54 resource: herbalist_brother
+PASS: eight source walking images: herbalist_brother/down
+PASS: directional fallback exists: herbalist_brother/down
+PASS: native directional art is not double mirrored: herbalist_brother/down
+PASS: eight source walking images: herbalist_brother/up
+PASS: directional fallback exists: herbalist_brother/up
+PASS: native directional art is not double mirrored: herbalist_brother/up
+PASS: eight source walking images: herbalist_brother/left
+PASS: directional fallback exists: herbalist_brother/left
+PASS: native directional art is not double mirrored: herbalist_brother/left
+PASS: eight source walking images: herbalist_brother/right
+PASS: directional fallback exists: herbalist_brother/right
+PASS: native directional art is not double mirrored: herbalist_brother/right
+PASS: four talk drawings: herbalist_brother
+PASS: missing rear idle is honestly static: herbalist_brother
+PASS: reaction respects individual delay: herbalist_brother
+PASS: brief glance starts: herbalist_brother
+PASS: glance finishes: herbalist_brother
+PASS: lingering Hans does not constantly interrupt: herbalist_brother
+PASS: attention changes no routine, movement or facing state: herbalist_brother
+PASS: reachable original E conversation: herbalist_brother
+PASS: work stops through existing dialogue: herbalist_brother
+PASS: correct real portrait: herbalist_brother/neutral
+PASS: correct real portrait: herbalist_brother/joy
+PASS: correct real portrait: herbalist_brother/displeased
+PASS: correct real portrait: herbalist_brother/anxious
+PASS: dialogue holds body: herbalist_brother
+PASS: original occupation resumes: herbalist_brother
+PASS: existing exit: herbalist_brother
+PASS: transition completes within deadline
+PASS: existing scene entry: old_man
+PASS: transition completes within deadline
+PASS: same original actor visible: old_man
+PASS: undistorted nearest body: old_man
+PASS: approved Stage54 resource: old_man
+PASS: eight source walking images: old_man/down
+PASS: directional fallback exists: old_man/down
+PASS: native directional art is not double mirrored: old_man/down
+PASS: eight source walking images: old_man/up
+PASS: directional fallback exists: old_man/up
+PASS: native directional art is not double mirrored: old_man/up
+PASS: eight source walking images: old_man/left
+PASS: directional fallback exists: old_man/left
+PASS: native directional art is not double mirrored: old_man/left
+PASS: eight source walking images: old_man/right
+PASS: directional fallback exists: old_man/right
+PASS: native directional art is not double mirrored: old_man/right
+PASS: four talk drawings: old_man
+PASS: missing rear idle is honestly static: old_man
+PASS: reaction respects individual delay: old_man
+PASS: brief glance starts: old_man
+PASS: glance finishes: old_man
+PASS: lingering Hans does not constantly interrupt: old_man
+PASS: attention changes no routine, movement or facing state: old_man
+PASS: reachable original E conversation: old_man
+PASS: work stops through existing dialogue: old_man
+PASS: correct real portrait: old_man/neutral
+PASS: correct real portrait: old_man/joy
+PASS: correct real portrait: old_man/displeased
+PASS: correct real portrait: old_man/anxious
+PASS: dialogue holds body: old_man
+PASS: original occupation resumes: old_man
+PASS: existing exit: old_man
+PASS: transition completes within deadline
+PASS: old man reacts much slower than curious child
+PASS: no duplicate resident: elder
+PASS: no duplicate resident: innkeeper
+PASS: no duplicate resident: innkeeper_wife
+PASS: no duplicate resident: woodcutter
+PASS: no duplicate resident: woodcutter_wife
+PASS: no duplicate resident: woodcutter_son
+PASS: no duplicate resident: herbalist
+PASS: no duplicate resident: herbalist_brother
+PASS: no duplicate resident: old_man
+RESULT: 316 Stage54 resident checks passed, 0 failed

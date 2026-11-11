@@ -8,10 +8,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/innkeeper/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/innkeeper/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/innkeeper/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/innkeeper/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/innkeeper/portraits/anxious.png"
       },
       "text": "Дорога пылью кормит, а добрый очаг — теплом. Чего ищешь, гость?",
       "choices": [
@@ -33,10 +33,10 @@
       "portrait": "",
       "emotion": "joy",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/innkeeper/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/innkeeper/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/innkeeper/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/innkeeper/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/innkeeper/portraits/anxious.png"
       },
       "text": "Бывают. Один больше молчит, другой всё о себе расскажет. Я обоим рад.",
       "next": "closing"
@@ -47,10 +47,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/innkeeper/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/innkeeper/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/innkeeper/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/innkeeper/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/innkeeper/portraits/anxious.png"
       },
       "text": "Живём понемногу. Кто дрова считает, кто припасы. Молва обычно быстрее дела.",
       "next": "closing"
@@ -61,10 +61,10 @@
       "portrait": "",
       "emotion": "neutral",
       "portraits": {
-        "neutral": "res://assets/npc/stage47/portraits/innkeeper/neutral.png",
-        "joy": "res://assets/npc/stage47/portraits/innkeeper/joy.png",
-        "displeased": "res://assets/npc/stage47/portraits/innkeeper/displeased.png",
-        "anxious": "res://assets/npc/stage47/portraits/innkeeper/anxious.png"
+        "neutral": "res://assets/npc/stage54/game/innkeeper/portraits/neutral.png",
+        "joy": "res://assets/npc/stage54/game/innkeeper/portraits/joy.png",
+        "displeased": "res://assets/npc/stage54/game/innkeeper/portraits/displeased.png",
+        "anxious": "res://assets/npc/stage54/game/innkeeper/portraits/anxious.png"
       },
       "text": "Будешь проходить — заглядывай. Разговор дорогу короче делает.",
       "end": true

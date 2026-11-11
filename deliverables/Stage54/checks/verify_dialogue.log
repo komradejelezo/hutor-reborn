@@ -1,0 +1,74 @@
+Fontconfig error: No writable cache directories
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: external UTF-8 graph loads with three branches and a shared ending
+PASS: reject a non-object graph root
+PASS: reject incomplete graph metadata
+PASS: reject duplicate line IDs
+PASS: reject missing start
+PASS: reject dangling transitions
+PASS: reject nonterminal dead ends
+PASS: reject non-string text
+PASS: reject malformed emotion map
+PASS: reject ambiguous terminal/next node
+PASS: reject an answer with both end and next
+PASS: reject duplicate answer IDs
+PASS: reject malformed choices
+PASS: reject non-boolean end flags
+PASS: malformed JSON returns a validation error without opening UI
+PASS: validated graph owns a deep copy
+Fontconfig error: No writable cache directories
+PASS: normal F5 world has no dialogue window or idle input processing
+PASS: missing JSON fails without locking the player
+PASS: invalid graph cannot open a session
+PASS: new generic marker participates in the existing nearest/raycast sensor
+PASS: E opens through HutorInteractable and the existing world bridge
+PASS: window fades in and arms input
+PASS: opening E does not skip the typewriter
+PASS: held opener and key-repeat cannot skip or double advance
+PASS: second conversation cannot replace an active session
+PASS: held WASD produces no movement during dialogue
+PASS: camera remains exactly still, even with pending smoothing
+PASS: world interaction focus is suspended
+PASS: other world interaction requests are blocked while speaking
+PASS: released E reveals the full Cyrillic line and three answers
+PASS: missing character portrait uses the decorative fallback
+PASS: E cannot accidentally confirm an answer
+PASS: up wraps from first answer to last
+PASS: down chooses the second answer
+PASS: Enter confirms the selected branch and emits its stable choice ID
+PASS: one Enter reveals text without skipping its node
+PASS: next links continue the sequence
+PASS: input stays locked during fade-out
+PASS: terminal line closes the window and restores controls
+PASS: camera and sensor processing states are restored
+PASS: completion signal distinguishes a natural ending
+PASS: previously held movement resumes after closing
+PASS: reopen branch 0
+PASS: invalid choice index is ignored
+PASS: branch 0 has its own reply
+PASS: Escape closes conversation without pausing the world
+PASS: reopen branch 1
+PASS: invalid choice index is ignored
+PASS: branch 1 has its own reply
+PASS: Escape closes conversation without pausing the world
+PASS: reopen branch 2
+PASS: invalid choice index is ignored
+PASS: branch 2 has its own reply
+PASS: Escape closes conversation without pausing the world
+PASS: old inspection remains modal and prevents dialogue overlap
+PASS: old E inspection still closes and restores movement
+PASS: pause menu prevents starting a conversation
+PASS: existing pause resumes normally
+PASS: pre-existing external lock and sensor state are preserved
+PASS: emotion selects its own PNG texture
+PASS: portrait proportions and Nearest are explicit
+PASS: missing emotion falls back to the line's default PNG
+PASS: an answer may end a conversation directly
+PASS: an extension hook can cancel a choice without running a stale transition
+PASS: scene/actor removal safely tears down the modal session
+RESULT: 65 dialogue checks passed, 0 failed
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2663)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

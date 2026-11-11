@@ -128,6 +128,10 @@ func _point(scene: StringName, value: Variant) -> Vector2:
         return marker.position if marker else Vector2.ZERO
     return Vector2.ZERO
 
+func _activity_point(record:HutorDailyResidentState, action:Dictionary) -> Vector2:
+    var point:=_point(record.scene,action.point)
+    return HutorNpcWorkBindings54.aligned_point(world_for(record.scene),record.id,String(action.id),point)
+
 func _safe(record: HutorDailyResidentState, point: Vector2) -> Vector2:
     var nav:=_navigation(record.scene)
     # An unavailable room stays virtual; it must not break the outdoor session.
@@ -283,7 +287,7 @@ func _apply_local(record: HutorDailyResidentState, position: Vector2) -> void:
     var definition:=_definition(record)
     for action in record.block.activities:
         var step:HutorNpcRoutineStep=STEP.new()
-        step.label=String(action.id);step.position=_safe(record,_point(record.scene,action.point))
+        step.label=String(action.id);step.position=_safe(record,_activity_point(record,action))
         step.duration=float(action.minutes)/_minutes_per_second();step.duration_variation=0
         step.animation=StringName(action.get("clip",""));step.facing=StringName(action.get("facing","down"))
         if action.has("talk_offset"):step.talk_offset=Vector2(action.talk_offset[0],action.talk_offset[1])
@@ -417,7 +421,7 @@ func _advance_virtual(record: HutorDailyResidentState) -> void:
 
 func _virtual_target(record: HutorDailyResidentState, began: float) -> void:
     var activity:Dictionary=record.block.activities[record.index]
-    record.activity=StringName(activity.id);record.goal=_point(record.scene,activity.point)
+    record.activity=StringName(activity.id);record.goal=_activity_point(record,activity)
     record.travel_end=began+record.position.distance_to(record.goal)/record.original.speed*_minutes_per_second()
     record.until=record.travel_end+float(activity.minutes)
 
