@@ -1,0 +1,68 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: enter original inn
+PASS: transition completes within deadline
+PASS: corrected resource connected: elder
+PASS: each resident resumes own work without moving feet: elder
+PASS: actual source walking count unchanged: elder/down
+PASS: actual source walking count unchanged: elder/up
+PASS: actual source walking count unchanged: elder/left
+PASS: actual source walking count unchanged: elder/right
+PASS: corrected resource connected: innkeeper
+PASS: each resident resumes own work without moving feet: innkeeper
+PASS: actual source walking count unchanged: innkeeper/down
+PASS: actual source walking count unchanged: innkeeper/up
+PASS: actual source walking count unchanged: innkeeper/left
+PASS: actual source walking count unchanged: innkeeper/right
+PASS: corrected resource connected: innkeeper_wife
+PASS: each resident resumes own work without moving feet: innkeeper_wife
+PASS: actual source walking count unchanged: innkeeper_wife/down
+PASS: actual source walking count unchanged: innkeeper_wife/up
+PASS: actual source walking count unchanged: innkeeper_wife/left
+PASS: actual source walking count unchanged: innkeeper_wife/right
+PASS: corrected resource connected: woodcutter
+PASS: each resident resumes own work without moving feet: woodcutter
+PASS: actual source walking count unchanged: woodcutter/down
+PASS: actual source walking count unchanged: woodcutter/up
+PASS: actual source walking count unchanged: woodcutter/left
+PASS: actual source walking count unchanged: woodcutter/right
+PASS: corrected resource connected: woodcutter_wife
+PASS: each resident resumes own work without moving feet: woodcutter_wife
+PASS: actual source walking count unchanged: woodcutter_wife/down
+PASS: actual source walking count unchanged: woodcutter_wife/up
+PASS: actual source walking count unchanged: woodcutter_wife/left
+PASS: actual source walking count unchanged: woodcutter_wife/right
+PASS: corrected resource connected: woodcutter_son
+PASS: each resident resumes own work without moving feet: woodcutter_son
+PASS: actual source walking count unchanged: woodcutter_son/down
+PASS: actual source walking count unchanged: woodcutter_son/up
+PASS: actual source walking count unchanged: woodcutter_son/left
+PASS: actual source walking count unchanged: woodcutter_son/right
+PASS: corrected resource connected: herbalist
+PASS: each resident resumes own work without moving feet: herbalist
+PASS: actual source walking count unchanged: herbalist/down
+PASS: actual source walking count unchanged: herbalist/up
+PASS: actual source walking count unchanged: herbalist/left
+PASS: actual source walking count unchanged: herbalist/right
+PASS: corrected resource connected: herbalist_brother
+PASS: each resident resumes own work without moving feet: herbalist_brother
+PASS: actual source walking count unchanged: herbalist_brother/down
+PASS: actual source walking count unchanged: herbalist_brother/up
+PASS: actual source walking count unchanged: herbalist_brother/left
+PASS: actual source walking count unchanged: herbalist_brother/right
+PASS: corrected resource connected: old_man
+PASS: each resident resumes own work without moving feet: old_man
+PASS: actual source walking count unchanged: old_man/down
+PASS: actual source walking count unchanged: old_man/up
+PASS: actual source walking count unchanged: old_man/left
+PASS: actual source walking count unchanged: old_man/right
+PASS: conversation resumes exact stroke, not frame zero
+PASS: new chore cannot inherit old cursor
+PASS: same clip in a new context starts fresh
+PASS: native left retains gait phase and orientation
+PASS: slow arrival has proportional playback, no 35 percent floor
+PASS: a stale visual glance cannot replace actual locomotion
+PASS: full standing body retains feet pivot immediately after work
+PASS: parking clears work offset, overlay and smoke
+PASS: presentation never changes physical speed
+RESULT: 65 NPC correction checks passed, 0 failed

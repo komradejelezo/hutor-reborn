@@ -1,7 +1,7 @@
 {
   "elder": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/elder/frames.tres",
+    "frames": "res://assets/npc/stage541/elder/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -31,11 +31,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "innkeeper": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/innkeeper/frames.tres",
+    "frames": "res://assets/npc/stage541/innkeeper/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -63,11 +65,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "innkeeper_wife": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/innkeeper_wife/frames.tres",
+    "frames": "res://assets/npc/stage541/innkeeper_wife/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -97,11 +101,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "woodcutter": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/woodcutter/frames.tres",
+    "frames": "res://assets/npc/stage541/woodcutter/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -128,11 +134,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "woodcutter_wife": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/woodcutter_wife/frames.tres",
+    "frames": "res://assets/npc/stage541/woodcutter_wife/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -160,11 +168,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "woodcutter_son": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/woodcutter_son/frames.tres",
+    "frames": "res://assets/npc/stage541/woodcutter_son/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -196,11 +206,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "herbalist": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/herbalist/frames.tres",
+    "frames": "res://assets/npc/stage541/herbalist/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -230,11 +242,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "herbalist_brother": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/herbalist_brother/frames.tres",
+    "frames": "res://assets/npc/stage541/herbalist_brother/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -262,11 +276,13 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   },
   "old_man": {
     "version": 54,
-    "frames": "res://assets/npc/stage54/game/old_man/frames.tres",
+    "frames": "res://assets/npc/stage541/old_man/frames.tres",
     "clips": {
       "walk_down": 8,
       "walk_up": 8,
@@ -296,6 +312,8 @@
     "limits": [
       "up/side idle and up talk use static directional poses",
       "8 reference walk images are not proof of eight anatomically perfect gait phases"
-    ]
+    ],
+    "correction_version": 541,
+    "artistic_redesign_complete": false
   }
 }

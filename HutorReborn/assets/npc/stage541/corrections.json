@@ -1,0 +1,798 @@
+{
+  "base": "a4fccc2",
+  "artistic_redesign_complete": false,
+  "changes": [
+    {
+      "id": "innkeeper",
+      "clip": "work_tray",
+      "frame": 0,
+      "before": [
+        937,
+        850,
+        1033,
+        966
+      ],
+      "after": [
+        937,
+        841,
+        1033,
+        966
+      ],
+      "scale": 0.4716981132075472,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 52,
+      "reference_sha256": "2387ff8fe7992f34cb1ff60df6889d13e9bcc62a6975ff42528b5fa7d5feb03b"
+    },
+    {
+      "id": "innkeeper",
+      "clip": "work_tray",
+      "frame": 1,
+      "before": [
+        1033,
+        850,
+        1128,
+        966
+      ],
+      "after": [
+        1033,
+        841,
+        1128,
+        966
+      ],
+      "scale": 0.4716981132075472,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 53,
+      "reference_sha256": "2387ff8fe7992f34cb1ff60df6889d13e9bcc62a6975ff42528b5fa7d5feb03b"
+    },
+    {
+      "id": "innkeeper",
+      "clip": "work_tray",
+      "frame": 2,
+      "before": [
+        1128,
+        850,
+        1224,
+        966
+      ],
+      "after": [
+        1128,
+        841,
+        1224,
+        966
+      ],
+      "scale": 0.4716981132075472,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 54,
+      "reference_sha256": "2387ff8fe7992f34cb1ff60df6889d13e9bcc62a6975ff42528b5fa7d5feb03b"
+    },
+    {
+      "id": "innkeeper",
+      "clip": "work_tray",
+      "frame": 3,
+      "before": [
+        1224,
+        850,
+        1320,
+        966
+      ],
+      "after": [
+        1224,
+        841,
+        1320,
+        966
+      ],
+      "scale": 0.4716981132075472,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 55,
+      "reference_sha256": "2387ff8fe7992f34cb1ff60df6889d13e9bcc62a6975ff42528b5fa7d5feb03b"
+    },
+    {
+      "id": "innkeeper",
+      "clip": "work_tray",
+      "frame": 4,
+      "before": [
+        1320,
+        850,
+        1415,
+        966
+      ],
+      "after": [
+        1320,
+        841,
+        1415,
+        966
+      ],
+      "scale": 0.4716981132075472,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 56,
+      "reference_sha256": "2387ff8fe7992f34cb1ff60df6889d13e9bcc62a6975ff42528b5fa7d5feb03b"
+    },
+    {
+      "id": "innkeeper",
+      "clip": "work_tray",
+      "frame": 5,
+      "before": [
+        1415,
+        850,
+        1511,
+        966
+      ],
+      "after": [
+        1415,
+        841,
+        1511,
+        966
+      ],
+      "scale": 0.4716981132075472,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 57,
+      "reference_sha256": "2387ff8fe7992f34cb1ff60df6889d13e9bcc62a6975ff42528b5fa7d5feb03b"
+    },
+    {
+      "id": "innkeeper_wife",
+      "clip": "work_tray",
+      "frame": 0,
+      "before": [
+        348,
+        849,
+        438,
+        970
+      ],
+      "after": [
+        348,
+        841,
+        438,
+        970
+      ],
+      "scale": 0.4351851851851852,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 51,
+      "reference_sha256": "4ede2015ceb6dff62107a7f80d7cd9411841db42a07d8bd89cace049143c7da5"
+    },
+    {
+      "id": "innkeeper_wife",
+      "clip": "work_tray",
+      "frame": 1,
+      "before": [
+        438,
+        849,
+        529,
+        970
+      ],
+      "after": [
+        438,
+        841,
+        529,
+        970
+      ],
+      "scale": 0.4351851851851852,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 52,
+      "reference_sha256": "4ede2015ceb6dff62107a7f80d7cd9411841db42a07d8bd89cace049143c7da5"
+    },
+    {
+      "id": "innkeeper_wife",
+      "clip": "work_tray",
+      "frame": 2,
+      "before": [
+        529,
+        849,
+        620,
+        970
+      ],
+      "after": [
+        529,
+        841,
+        620,
+        970
+      ],
+      "scale": 0.4351851851851852,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 53,
+      "reference_sha256": "4ede2015ceb6dff62107a7f80d7cd9411841db42a07d8bd89cace049143c7da5"
+    },
+    {
+      "id": "innkeeper_wife",
+      "clip": "work_tray",
+      "frame": 3,
+      "before": [
+        620,
+        849,
+        710,
+        970
+      ],
+      "after": [
+        620,
+        841,
+        710,
+        970
+      ],
+      "scale": 0.4351851851851852,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 54,
+      "reference_sha256": "4ede2015ceb6dff62107a7f80d7cd9411841db42a07d8bd89cace049143c7da5"
+    },
+    {
+      "id": "innkeeper_wife",
+      "clip": "work_tray",
+      "frame": 4,
+      "before": [
+        710,
+        849,
+        800,
+        970
+      ],
+      "after": [
+        710,
+        841,
+        800,
+        970
+      ],
+      "scale": 0.4351851851851852,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 55,
+      "reference_sha256": "4ede2015ceb6dff62107a7f80d7cd9411841db42a07d8bd89cace049143c7da5"
+    },
+    {
+      "id": "innkeeper_wife",
+      "clip": "work_tray",
+      "frame": 5,
+      "before": [
+        800,
+        849,
+        891,
+        970
+      ],
+      "after": [
+        800,
+        841,
+        891,
+        970
+      ],
+      "scale": 0.4351851851851852,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 56,
+      "reference_sha256": "4ede2015ceb6dff62107a7f80d7cd9411841db42a07d8bd89cace049143c7da5"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_chop",
+      "frame": 0,
+      "before": [
+        235,
+        635,
+        400,
+        772
+      ],
+      "after": [
+        235,
+        632,
+        400,
+        774
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 40,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_chop",
+      "frame": 1,
+      "before": [
+        400,
+        635,
+        564,
+        772
+      ],
+      "after": [
+        400,
+        632,
+        564,
+        774
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 41,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_chop",
+      "frame": 2,
+      "before": [
+        564,
+        635,
+        728,
+        772
+      ],
+      "after": [
+        564,
+        632,
+        728,
+        774
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 42,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_chop",
+      "frame": 3,
+      "before": [
+        728,
+        635,
+        893,
+        772
+      ],
+      "after": [
+        728,
+        632,
+        893,
+        774
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 43,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_chop",
+      "frame": 4,
+      "before": [
+        893,
+        635,
+        1058,
+        772
+      ],
+      "after": [
+        893,
+        632,
+        1058,
+        774
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 44,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_chop",
+      "frame": 5,
+      "before": [
+        1058,
+        635,
+        1222,
+        772
+      ],
+      "after": [
+        1058,
+        632,
+        1222,
+        774
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 45,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_saw",
+      "frame": 0,
+      "before": [
+        235,
+        800,
+        400,
+        927
+      ],
+      "after": [
+        235,
+        796,
+        400,
+        927
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 46,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_saw",
+      "frame": 1,
+      "before": [
+        400,
+        800,
+        564,
+        927
+      ],
+      "after": [
+        400,
+        796,
+        564,
+        927
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 47,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_saw",
+      "frame": 2,
+      "before": [
+        564,
+        800,
+        728,
+        927
+      ],
+      "after": [
+        564,
+        796,
+        728,
+        927
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 48,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_saw",
+      "frame": 3,
+      "before": [
+        728,
+        800,
+        893,
+        927
+      ],
+      "after": [
+        728,
+        796,
+        893,
+        927
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 49,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_saw",
+      "frame": 4,
+      "before": [
+        893,
+        800,
+        1058,
+        927
+      ],
+      "after": [
+        893,
+        796,
+        1058,
+        927
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 50,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "woodcutter",
+      "clip": "work_saw",
+      "frame": 5,
+      "before": [
+        1058,
+        800,
+        1222,
+        927
+      ],
+      "after": [
+        1058,
+        796,
+        1222,
+        927
+      ],
+      "scale": 0.4528301886792453,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 51,
+      "reference_sha256": "e463e629aef4cfa3ab5dc9d12f47def5e1df660b40a4ac6c628b7b6ff8c45d2b"
+    },
+    {
+      "id": "herbalist",
+      "clip": "work_dry",
+      "frame": 0,
+      "before": [
+        941,
+        841,
+        1039,
+        973
+      ],
+      "after": [
+        941,
+        832,
+        1039,
+        973
+      ],
+      "scale": 0.42727272727272725,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 52,
+      "reference_sha256": "bd1d83d169fae4f47e830e614e305d908ba197016918b078a7f8fa6d5deb0017"
+    },
+    {
+      "id": "herbalist",
+      "clip": "work_dry",
+      "frame": 1,
+      "before": [
+        1039,
+        841,
+        1137,
+        973
+      ],
+      "after": [
+        1039,
+        832,
+        1137,
+        973
+      ],
+      "scale": 0.42727272727272725,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 53,
+      "reference_sha256": "bd1d83d169fae4f47e830e614e305d908ba197016918b078a7f8fa6d5deb0017"
+    },
+    {
+      "id": "herbalist",
+      "clip": "work_dry",
+      "frame": 2,
+      "before": [
+        1137,
+        841,
+        1235,
+        973
+      ],
+      "after": [
+        1137,
+        832,
+        1235,
+        973
+      ],
+      "scale": 0.42727272727272725,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 54,
+      "reference_sha256": "bd1d83d169fae4f47e830e614e305d908ba197016918b078a7f8fa6d5deb0017"
+    },
+    {
+      "id": "herbalist_brother",
+      "clip": "work_chop",
+      "frame": 0,
+      "before": [
+        342,
+        631,
+        434,
+        761
+      ],
+      "after": [
+        342,
+        616,
+        434,
+        761
+      ],
+      "scale": 0.4336283185840708,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 40,
+      "reference_sha256": "713db150207e230ece05994c445bca8ad5a4394abbc30840ee10706d000c1f3b"
+    },
+    {
+      "id": "herbalist_brother",
+      "clip": "work_chop",
+      "frame": 1,
+      "before": [
+        434,
+        631,
+        526,
+        761
+      ],
+      "after": [
+        434,
+        616,
+        526,
+        761
+      ],
+      "scale": 0.4336283185840708,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 41,
+      "reference_sha256": "713db150207e230ece05994c445bca8ad5a4394abbc30840ee10706d000c1f3b"
+    },
+    {
+      "id": "herbalist_brother",
+      "clip": "work_chop",
+      "frame": 2,
+      "before": [
+        526,
+        631,
+        618,
+        761
+      ],
+      "after": [
+        526,
+        616,
+        618,
+        761
+      ],
+      "scale": 0.4336283185840708,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 42,
+      "reference_sha256": "713db150207e230ece05994c445bca8ad5a4394abbc30840ee10706d000c1f3b"
+    },
+    {
+      "id": "herbalist_brother",
+      "clip": "work_chop",
+      "frame": 3,
+      "before": [
+        618,
+        631,
+        711,
+        761
+      ],
+      "after": [
+        618,
+        616,
+        711,
+        761
+      ],
+      "scale": 0.4336283185840708,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 43,
+      "reference_sha256": "713db150207e230ece05994c445bca8ad5a4394abbc30840ee10706d000c1f3b"
+    },
+    {
+      "id": "herbalist_brother",
+      "clip": "work_chop",
+      "frame": 4,
+      "before": [
+        711,
+        631,
+        803,
+        761
+      ],
+      "after": [
+        711,
+        616,
+        803,
+        761
+      ],
+      "scale": 0.4336283185840708,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 44,
+      "reference_sha256": "713db150207e230ece05994c445bca8ad5a4394abbc30840ee10706d000c1f3b"
+    },
+    {
+      "id": "herbalist_brother",
+      "clip": "work_chop",
+      "frame": 5,
+      "before": [
+        803,
+        631,
+        895,
+        761
+      ],
+      "after": [
+        803,
+        616,
+        895,
+        761
+      ],
+      "scale": 0.4336283185840708,
+      "pivot": [
+        48,
+        82
+      ],
+      "texture_index": 45,
+      "reference_sha256": "713db150207e230ece05994c445bca8ad5a4394abbc30840ee10706d000c1f3b"
+    }
+  ]
+}

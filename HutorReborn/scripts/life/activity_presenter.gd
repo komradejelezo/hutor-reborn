@@ -13,11 +13,13 @@ func clear_props() -> void:
         if is_instance_valid(item):item.show()
     _hidden.clear();_presentation_key=""
     if reactions:reactions.reset_attention()
+    if resident and is_instance_valid(resident.actor):
+        visual54.release(resident.actor)
 func present(actor: HutorResident) -> bool:
     var sprite: AnimatedSprite2D=actor.get_node("AnimatedSprite2D")
     var reference_speed:float=resident.original.speed
     if resident.id==&"woodcutter_son":reference_speed*=resident.schedule.get("run_multiplier",1.0)
-    sprite.speed_scale = clampf(actor.velocity.length()/reference_speed,.35,2.5) if actor.state==actor.State.MOVING else minf(2.5,sqrt(manager.clock.speed))
+    sprite.speed_scale = clampf(actor.velocity.length()/reference_speed,0.0,2.5) if actor.state==actor.State.MOVING else minf(2.5,sqrt(manager.clock.speed))
     var destination_step:HutorNpcRoutineStep=actor.current_step()
     actor.animator.prefer_run = resident.id==&"woodcutter_son" and resident.mode==&"local" and destination_step!=null and destination_step.label.begins_with("run_")
     if int(sprite.sprite_frames.get_meta("rework_version",0))!=54:sprite.position=Vector2.ZERO

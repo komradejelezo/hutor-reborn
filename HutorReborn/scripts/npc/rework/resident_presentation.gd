@@ -7,6 +7,14 @@ var rejected_work:=0
 var work_clock:=0.0
 var action_key:=""
 
+func release(actor:HutorResident) -> void:
+    action_key="";last_work="";work_clock=0
+    var sprite:AnimatedSprite2D=actor.get_node("AnimatedSprite2D")
+    sprite.position=Vector2.ZERO;sprite.z_index=0
+    var smoke:CPUParticles2D=actor.get_node("PipeSmoke")
+    smoke.emitting=false;smoke.visible=false
+    actor.animator.reset_presentation()
+
 func _prop(world:Node2D, kind:String, point:Vector2) -> Node2D:
     var root:Node2D=world.get_node_or_null("Actors/NpcWorkProps54")
     if root==null:
@@ -31,8 +39,9 @@ func _prop(world:Node2D, kind:String, point:Vector2) -> Node2D:
 func present(actor:HutorResident, record:HutorDailyResidentState, look:StringName, delta:float) -> bool:
     var sprite:AnimatedSprite2D=actor.get_node("AnimatedSprite2D")
     var step:HutorNpcRoutineStep=actor.current_step()
-    var key:=String(record.scene)+"/"+(step.label if step else "")
+    var key:=String(record.scene)+"/"+str(record.block_stamp)+"/"+str(actor.step_index)+"/"+(step.label if step else "")
     if key!=action_key:action_key=key;work_clock=0
+    actor.animator.set_work_context(key)
     actor.get_node("Interaction").position=step.talk_offset if step and actor.state in [actor.State.WAITING,actor.State.TALKING] else Vector2.ZERO
     var target_offset:=Vector2.ZERO
     sprite.z_index=0
@@ -41,8 +50,8 @@ func present(actor:HutorResident, record:HutorDailyResidentState, look:StringNam
     var smoke:=false
     if actor.state==actor.State.TALKING:
         actor.animator.apply("talk",actor.facing,&"",false)
-    elif look!=&"":actor.animator.apply("turn",look,&"",false)
     elif actor.state==actor.State.MOVING and not actor.velocity.is_zero_approx():actor.animator.apply("walk",actor.facing,&"",false)
+    elif look!=&"" and actor.state==actor.State.WAITING:actor.animator.apply("turn",look,&"",false)
     elif actor.state==actor.State.WAITING and record.mode==&"local" and step and actor.position.distance_to(step.position)<12:
         var world:Node2D=actor.director.get_parent().get_parent()
         var spec:Dictionary=BIND.specification(record.id,record.scene,step.label)
@@ -70,7 +79,9 @@ func present(actor:HutorResident, record:HutorDailyResidentState, look:StringNam
     if working and clip!=last_work:work_starts+=1
     last_work=clip if working else ""
     # A deliberate short lean into the work surface; no actor teleportation.
-    sprite.position=sprite.position.move_toward(target_offset,delta*64)
+    # Full-body frames always retain their authored ground pivot. A work-only
+    # lean must never drift standing feet after talking, stopping or relocating.
+    sprite.position=sprite.position.move_toward(target_offset,delta*64) if working else Vector2.ZERO
     var particle:CPUParticles2D=actor.get_node("PipeSmoke")
     particle.emitting=smoke;particle.visible=smoke;particle.position=Vector2(-8 if sprite.flip_h else 8,-26 if clip=="work_sit" else -35)
     return true

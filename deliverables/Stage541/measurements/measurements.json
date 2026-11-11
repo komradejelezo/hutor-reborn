@@ -1,0 +1,362 @@
+{
+  "hans": {
+    "representative": "walk_down/0",
+    "alpha_height": 49.46,
+    "alpha_width": 22.83,
+    "head_roi": [
+      42,
+      34,
+      54,
+      46
+    ],
+    "head_gear_bbox_size": [
+      12,
+      12
+    ],
+    "torso_silhouette_width": 22,
+    "pelvis_line_estimate": 63,
+    "leg_to_pivot_estimate": 19,
+    "leg_uncertainty": 3,
+    "node_scale": 0.041666666666666664,
+    "side_idle_node_scale": 0.047619047619047616,
+    "pivot_in_source": [
+      480,
+      1280
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      37,
+      34,
+      59,
+      84
+    ],
+    "head_uncertainty": 1
+  },
+  "elder": {
+    "representative": "walk_down/0",
+    "alpha_height": 47.0,
+    "alpha_width": 29.0,
+    "head_roi": [
+      40,
+      35,
+      57,
+      49
+    ],
+    "head_gear_bbox_size": [
+      17,
+      14
+    ],
+    "torso_silhouette_width": 29,
+    "pelvis_line_estimate": 65,
+    "leg_to_pivot_estimate": 17,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      34,
+      35,
+      63,
+      82
+    ],
+    "head_uncertainty": 1
+  },
+  "innkeeper": {
+    "representative": "walk_down/0",
+    "alpha_height": 50.0,
+    "alpha_width": 32.0,
+    "head_roi": [
+      41,
+      33,
+      57,
+      47
+    ],
+    "head_gear_bbox_size": [
+      16,
+      14
+    ],
+    "torso_silhouette_width": 32,
+    "pelvis_line_estimate": 64,
+    "leg_to_pivot_estimate": 18,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      33,
+      33,
+      65,
+      83
+    ],
+    "head_uncertainty": 1
+  },
+  "innkeeper_wife": {
+    "representative": "walk_down/0",
+    "alpha_height": 47.0,
+    "alpha_width": 25.0,
+    "head_roi": [
+      41,
+      36,
+      56,
+      50
+    ],
+    "head_gear_bbox_size": [
+      15,
+      14
+    ],
+    "torso_silhouette_width": 25,
+    "pelvis_line_estimate": 64,
+    "leg_to_pivot_estimate": 18,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      36,
+      36,
+      61,
+      83
+    ],
+    "head_uncertainty": 1
+  },
+  "woodcutter": {
+    "representative": "walk_down/0",
+    "alpha_height": 49.0,
+    "alpha_width": 29.0,
+    "head_roi": [
+      41,
+      34,
+      57,
+      50
+    ],
+    "head_gear_bbox_size": [
+      16,
+      16
+    ],
+    "torso_silhouette_width": 29,
+    "pelvis_line_estimate": 63,
+    "leg_to_pivot_estimate": 19,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      35,
+      34,
+      64,
+      83
+    ],
+    "head_uncertainty": 1
+  },
+  "woodcutter_wife": {
+    "representative": "walk_down/0",
+    "alpha_height": 46.0,
+    "alpha_width": 21.0,
+    "head_roi": [
+      42,
+      36,
+      56,
+      49
+    ],
+    "head_gear_bbox_size": [
+      13,
+      13
+    ],
+    "torso_silhouette_width": 21,
+    "pelvis_line_estimate": 63,
+    "leg_to_pivot_estimate": 19,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      38,
+      36,
+      59,
+      82
+    ],
+    "head_uncertainty": 1
+  },
+  "woodcutter_son": {
+    "representative": "walk_down/0",
+    "alpha_height": 33.0,
+    "alpha_width": 15.0,
+    "head_roi": [
+      44,
+      50,
+      54,
+      62
+    ],
+    "head_gear_bbox_size": [
+      10,
+      12
+    ],
+    "torso_silhouette_width": 15,
+    "pelvis_line_estimate": 70,
+    "leg_to_pivot_estimate": 12,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      41,
+      50,
+      56,
+      83
+    ],
+    "head_uncertainty": 1
+  },
+  "herbalist": {
+    "representative": "walk_down/0",
+    "alpha_height": 48.0,
+    "alpha_width": 23.0,
+    "head_roi": [
+      40,
+      35,
+      58,
+      51
+    ],
+    "head_gear_bbox_size": [
+      16,
+      16
+    ],
+    "torso_silhouette_width": 22,
+    "pelvis_line_estimate": 64,
+    "leg_to_pivot_estimate": 18,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      36,
+      35,
+      59,
+      83
+    ],
+    "head_uncertainty": 1
+  },
+  "herbalist_brother": {
+    "representative": "walk_down/0",
+    "alpha_height": 48.0,
+    "alpha_width": 24.0,
+    "head_roi": [
+      40,
+      34,
+      57,
+      49
+    ],
+    "head_gear_bbox_size": [
+      17,
+      15
+    ],
+    "torso_silhouette_width": 24,
+    "pelvis_line_estimate": 63,
+    "leg_to_pivot_estimate": 19,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      36,
+      34,
+      60,
+      82
+    ],
+    "head_uncertainty": 1
+  },
+  "old_man": {
+    "representative": "walk_down/0",
+    "alpha_height": 43.0,
+    "alpha_width": 28.0,
+    "head_roi": [
+      40,
+      39,
+      58,
+      55
+    ],
+    "head_gear_bbox_size": [
+      18,
+      16
+    ],
+    "torso_silhouette_width": 27,
+    "pelvis_line_estimate": 66,
+    "leg_to_pivot_estimate": 16,
+    "leg_uncertainty": 3,
+    "node_scale": 1.0,
+    "side_idle_node_scale": 1,
+    "pivot_in_source": [
+      48,
+      82
+    ],
+    "world_pivot": [
+      0,
+      0
+    ],
+    "native_bbox": [
+      34,
+      39,
+      62,
+      82
+    ],
+    "head_uncertainty": 1
+  }
+}
