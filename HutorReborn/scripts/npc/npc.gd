@@ -124,7 +124,7 @@ func _physics_process(delta: float) -> void:
                 var delta_position := _path[_path_index]-global_position
                 var speed := minf(definition.speed,delta_position.length()/maxf(delta,.001))
                 velocity = delta_position.normalized()*speed
-                face_point(global_position+velocity)
+                face_point(global_position+velocity,true)
                 var before := global_position
                 move_and_slide()
                 var traveled := before.distance_to(global_position)
@@ -194,10 +194,15 @@ func _recover() -> void:
         step_index=(step_index+1)%definition.routine.size()
         _retry_count=0;_avoid_cell=Vector2i(-1,-1)
 
-func face_point(point: Vector2) -> void:
+func face_point(point: Vector2, stabilize_motion: bool = false) -> void:
     var axis := point-global_position
     if axis.length_squared()<.01: return
-    facing = (&"right" if axis.x>0 else &"left") if absf(axis.x)>absf(axis.y) else (&"down" if axis.y>0 else &"up")
+    var horizontal := absf(axis.x)>absf(axis.y)
+    if stabilize_motion:
+        # A narrow dead band is visual only; never changes route or velocity.
+        var was_horizontal := facing==&"left" or facing==&"right"
+        horizontal = absf(axis.x)*1.18>=absf(axis.y) if was_horizontal else absf(axis.x)>absf(axis.y)*1.18
+    facing = (&"right" if axis.x>0 else &"left") if horizontal else (&"down" if axis.y>0 else &"up")
 
 func begin_conversation() -> void:
     if state == State.TALKING: return

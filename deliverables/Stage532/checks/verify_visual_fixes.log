@@ -1,0 +1,53 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: destination step, not stale activity, selects yard run
+PASS: normal child run is 6 FPS without 1.45 multiplier
+PASS: direction change retains gait phase and mirrors once
+PASS: ordinary family visit uses walk, not forced run
+PASS: playback follows actual slower arrival velocity
+PASS: visual playback never changes physical or source speed
+PASS: small diagonal fluctuation keeps previous facing
+PASS: decisive direction change still turns
+PASS: explicit attention remains exact and never moves actor
+PASS: saved village uses corrected active house texture
+PASS: inn entry
+PASS: transition completes within deadline
+PASS: inn directional wall tiles applied
+PASS: inn original camera scale retained
+PASS: inn exit
+PASS: transition completes within deadline
+PASS: elder entry
+PASS: transition completes within deadline
+PASS: elder directional wall tiles applied
+PASS: elder original camera scale retained
+PASS: elder exit
+PASS: transition completes within deadline
+PASS: herbalist entry
+PASS: transition completes within deadline
+PASS: herbalist directional wall tiles applied
+PASS: herbalist original camera scale retained
+PASS: herbalist real native table texture
+PASS: herbalist bounded local fill
+PASS: herbalist exit
+PASS: transition completes within deadline
+PASS: woodcutter entry
+PASS: transition completes within deadline
+PASS: woodcutter directional wall tiles applied
+PASS: woodcutter original camera scale retained
+PASS: woodcutter exit
+PASS: transition completes within deadline
+PASS: old_man entry
+PASS: transition completes within deadline
+PASS: old_man directional wall tiles applied
+PASS: old_man original camera scale retained
+PASS: old_man real native table texture
+PASS: old_man exit
+PASS: transition completes within deadline
+PASS: storehouse entry
+PASS: transition completes within deadline
+PASS: storehouse directional wall tiles applied
+PASS: storehouse original camera scale retained
+PASS: storehouse bounded local fill
+PASS: storehouse exit
+PASS: transition completes within deadline
+RESULT: 50 visual-fix checks passed, 0 failed

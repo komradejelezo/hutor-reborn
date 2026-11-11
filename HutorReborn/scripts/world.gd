@@ -10,6 +10,10 @@ func _ready() -> void:
     for child in get_children():
         if child != hud:
             child.process_mode = Node.PROCESS_MODE_PAUSABLE
+    var polish:Node=preload("res://scripts/visuals/world_polish.gd").new()
+    polish.name="VisualPolish532"
+    add_child(polish)
+    polish.apply(self)
     preload("res://scripts/input_setup.gd").ensure_actions()
     player.interaction_requested.connect(_show_description)
     player.sensor.focus_changed.connect(hud.set_focus)

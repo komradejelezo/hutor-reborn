@@ -49,7 +49,8 @@ func run() -> void:
         if not fence and item.scene_file_path.ends_with("/fence_h.tscn"):fence=item
     cases.append([ordinary,30.0,20.0,"tree"])
     cases.append([fence,22.0,18.0,"fence"])
-    for kind in ["bush_round","fallen_b","hide_rack"]:
+    # The former hunter rack was already repurposed as the old man's bench in main.
+    for kind in ["bush_round","fallen_b","short_bench"]:
         var found:Node2D
         for item in world.find_children("S32_*","Node2D",true,false):
             if item.get_meta("detail_asset","")==kind:

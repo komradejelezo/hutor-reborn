@@ -1,6 +1,6 @@
 [gd_resource type="SpriteFrames" format=3]
 
-[ext_resource type="Texture2D" path="res://assets/npc/stage43/innkeeper_wife/atlas.png" id="1_eomd3"]
+[ext_resource type="Texture2D" path="res://assets/npc/stage532/innkeeper_wife_atlas.png" id="1_eomd3"]
 [ext_resource type="Texture2D" path="res://assets/npc/stage46/innkeeper_wife.png" id="2_8k2c6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qrwtf"]
