@@ -1,0 +1,16 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+NPC541_REVIEW_READY
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/elder/frames.tres","home":"elder","id":"elder","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/innkeeper/frames.tres","home":"inn","id":"innkeeper","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/innkeeper_wife/frames.tres","home":"inn","id":"innkeeper_wife","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/woodcutter/frames.tres","home":"woodcutter","id":"woodcutter","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/woodcutter_wife/frames.tres","home":"woodcutter","id":"woodcutter_wife","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/woodcutter_son/frames.tres","home":"woodcutter","id":"woodcutter_son","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/herbalist/frames.tres","home":"herbalist","id":"herbalist","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/herbalist_brother/frames.tres","home":"herbalist","id":"herbalist_brother","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW {"frames":"res://assets/npc/stage541/old_man/frames.tres","home":"old_man","id":"old_man","kind":"diagnostic in-place playback, not autonomous routes","scale":"(1.0, 1.0)","walk_directions":4}
+NPC541_REVIEW_COMPLETE

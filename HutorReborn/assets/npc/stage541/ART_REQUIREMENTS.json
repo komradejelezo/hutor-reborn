@@ -1,0 +1,215 @@
+{
+  "acceptance": "NOT met by technical fixes; artist pass required",
+  "reference": "Hans unchanged, see measured native sizes and annotated landmarks in report",
+  "phase_order": [
+    "left contact",
+    "left down/right heel lift",
+    "right passing",
+    "right contact",
+    "right down/left heel lift",
+    "left passing"
+  ],
+  "requirements": {
+    "woodcutter": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "heavy gait",
+        "axe preparation/lift/impact/recoil/rest",
+        "lifting and carrying logs"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_chop": 6,
+        "work_saw": 6,
+        "work_inspect": 4
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "woodcutter_wife": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "calm gait",
+        "sweep",
+        "laundry",
+        "basket carry",
+        "cook"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_laundry": 6,
+        "work_sweep": 4,
+        "work_cook": 4,
+        "work_inspect": 4
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "woodcutter_son": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "child walk",
+        "child run",
+        "play stick",
+        "inspect toy/kneel",
+        "stand from kneel"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_play": 4,
+        "work_kneel": 4,
+        "work_ball": 4,
+        "work_inspect": 4
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "innkeeper": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "heavy broad gait",
+        "wipe counter",
+        "wipe mug",
+        "serve mug",
+        "tray carry"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_wipe": 6,
+        "work_serve": 6,
+        "work_tray": 6,
+        "work_inspect": 4
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "innkeeper_wife": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "energetic gait",
+        "wipe table",
+        "place dishes",
+        "tray carry",
+        "sweep"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_wipe": 6,
+        "work_set_table": 6,
+        "work_tray": 6,
+        "work_cook": 6,
+        "work_sweep": 4,
+        "work_inspect": 3
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "elder": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "measured gait",
+        "read scroll",
+        "write in book",
+        "gesture"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_read": 6,
+        "work_write": 6,
+        "work_gesture": 6,
+        "work_read_full": 4,
+        "work_inspect": 4
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "old_man": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "slow stooped gait",
+        "sit down",
+        "stand up",
+        "pipe smoke without baked plume",
+        "carve"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_smoke": 6,
+        "work_sit": 6,
+        "work_carve": 6,
+        "work_story": 6,
+        "work_inspect": 4,
+        "work_think": 6
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "herbalist": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "slender adult gait",
+        "gather",
+        "grind",
+        "dry herbs",
+        "pack herbs"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_gather": 6,
+        "work_grind": 6,
+        "work_dry": 3,
+        "work_pack": 3,
+        "work_inspect": 4,
+        "work_table": 6
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    },
+    "herbalist_brother": {
+      "keep": "approved appearance/clothes/age and identity",
+      "walk": "4 directions; 6-8 genuinely different complete alternating phases, not duplicated contact poses",
+      "idle": "authored planted neutral poses for four directions, not a held lifted walking foot",
+      "talk": "4 directions, matching full standing anatomy",
+      "actions": [
+        "weary slender gait",
+        "chop",
+        "gather kindling",
+        "mend",
+        "carry wood"
+      ],
+      "work_structure": "distinct approach/prepare, cycle, recover/return; authored contacts, no torso truncation",
+      "technical": "96x96 or uniformly padded larger canvas for tools; world feet pivot unchanged; binary/clean RGBA; no frame labels",
+      "current_work_images": {
+        "work_chop": 6,
+        "work_mend": 6,
+        "work_gather": 6,
+        "work_inspect": 4
+      },
+      "turns": "short quarter-turns; contacts and props remain consistent across facing"
+    }
+  }
+}
