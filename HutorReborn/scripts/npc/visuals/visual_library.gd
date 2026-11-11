@@ -10,6 +10,7 @@ static func profile(id: StringName) -> Dictionary:
 static func frames_for(id: StringName, fallback: SpriteFrames) -> SpriteFrames:
     if not _frames.has(id):
         var path:="res://assets/npc/stage541/"+String(id)+"/frames.tres"
+        if id==&"woodcutter":path="res://assets/npc/woodcutter542/game/frames.tres"
         if not ResourceLoader.exists(path):path="res://assets/npc/stage54/game/"+String(id)+"/frames.tres"
         if not ResourceLoader.exists(path):path="res://assets/npc/stage47/"+String(id)+".tres"
         _frames[id]=load(path) if ResourceLoader.exists(path) else fallback

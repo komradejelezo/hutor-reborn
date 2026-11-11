@@ -13,6 +13,8 @@ static func aligned_point(world:Node2D, id:StringName, action:String, original:V
     return object.position+offset if object else original
 
 static func specification(id:StringName, scene:StringName, action:String) -> Dictionary:
+    if id==&"woodcutter" and scene==&"woodcutter" and action in ["prepare_work","rest_after_work"]:
+        return {"clip":"work_rest"}
     if id==&"innkeeper" and scene==&"inn":
         if action in ["prepare_inn","wipe_mug"]:return {"clip":"work_wipe","object":"Actors/Props/Counter","reach":74,"overlay":true,"offset":[0,18]}
         if action=="arrange_dishes":return {"clip":"work_serve","object":"Actors/Props/Counter","reach":92,"overlay":true,"offset":[0,18]}

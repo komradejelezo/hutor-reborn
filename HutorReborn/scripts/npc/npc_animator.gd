@@ -26,6 +26,10 @@ func is_locomotion(clip: StringName) -> bool:
 
 func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool) -> void:
     if sprite.sprite_frames == null: return
+    # Only the pilot finishes an already committed axe stroke before greeting.
+    # The logical dialogue locks movement immediately; no delayed input/session.
+    if int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 and mode=="talk" and not _discard_outgoing_work:
+        if sprite.animation in [&"work_chop",&"chop_wood"] and sprite.frame>0 and sprite.is_playing():return
     var clip: StringName = StringName(mode+"_"+String(facing))
     if mode=="walk" and prefer_run and sprite.sprite_frames.has_animation("run_"+String(facing)):
         clip=StringName("run_"+String(facing))
@@ -53,7 +57,11 @@ func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool
     elif _discard_outgoing_work and _is_work(clip):
         sprite.play(clip)
         sprite.set_frame_and_progress(0,0)
-    elif sprite.sprite_frames.get_frame_count(clip)>1 and not sprite.is_playing(): sprite.play(clip)
+    elif sprite.sprite_frames.get_frame_count(clip)>1 and not sprite.is_playing():
+        # The pilot's authored pick/place/rest actions finish on a real settle
+        # pose. Other eight residents retain their existing playback contract.
+        var finished_pilot_action:bool=int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 and not sprite.sprite_frames.get_animation_loop(clip)
+        if not finished_pilot_action:sprite.play(clip)
     _discard_outgoing_work = false
     var smoking := mode == "work" and work == &"work_smoke" and allow_smoke
     if smoke.emitting != smoking: smoke.emitting = smoking
