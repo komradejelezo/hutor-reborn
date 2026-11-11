@@ -36,7 +36,7 @@ func _ready() -> void:
     add_to_group("residents")
     motion_mode = CharacterBody2D.MOTION_MODE_FLOATING
     collision_mask |= 6 # Existing feet now stop at Hans and other resident bodies.
-    $AnimatedSprite2D.sprite_frames = definition.frames
+    $AnimatedSprite2D.sprite_frames = HutorNpcVisualLibrary.frames_for(definition.id,definition.frames)
     var feet: CapsuleShape2D = $Feet.shape
     feet.radius = definition.foot_radius
     feet.height = definition.foot_radius*2
@@ -227,6 +227,7 @@ func _present() -> void:
     $Interaction.position = step.talk_offset if state == State.WAITING and step else Vector2.ZERO
     if not motion_paused and state == State.WAITING and step and step.animation != &"": mode = "work"
     var allow_smoke: bool = definition.pipe_smoke and (not is_instance_valid(director) or not is_instance_valid(director.atmosphere) or director.atmosphere.effects_enabled)
+    if mode=="work" and int($AnimatedSprite2D.sprite_frames.get_meta("rework_version",0))==54:mode="idle" # Standalone preview has no bound daily work presenter.
     animator.apply(mode,facing,step.animation if step else &"",allow_smoke)
 
 func set_motion_paused(value: bool) -> void:
@@ -259,7 +260,7 @@ func restore_location(snapshot: Dictionary, population: Node2D) -> void:
         if field != "rng_state": set(field, snapshot[field])
     _rng.state = snapshot.rng_state
     director = population; velocity = Vector2.ZERO
-    $AnimatedSprite2D.sprite_frames = definition.frames
+    $AnimatedSprite2D.sprite_frames = HutorNpcVisualLibrary.frames_for(definition.id,definition.frames)
     population.adopt(self)
     if state == State.WAIT_PATH: _request_path()
     _present()

@@ -14,7 +14,8 @@ func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool
         clip=StringName("run_"+String(facing))
     if mode == "work" and work != &"": clip = work
     if not sprite.sprite_frames.has_animation(clip): clip = StringName("idle_"+String(facing))
-    sprite.flip_h = facing == &"left"
+    var native_left:PackedStringArray=sprite.sprite_frames.get_meta("native_left_clips",PackedStringArray())
+    sprite.flip_h = facing == &"left" and not String(clip) in native_left
     if sprite.animation != clip:
         # Direction changes must not restart every step at its contact pose.
         var phase := 0.0

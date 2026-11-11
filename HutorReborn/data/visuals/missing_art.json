@@ -12,71 +12,65 @@
       "old_man"
     ],
     "needed": [
-      "four-direction native idle/blink frames",
-      "intermediate quarter-turn frames"
+      "animated side/rear idle",
+      "native directional talk and quarter-turns",
+      "artist-reviewed perfectly phase-consistent gait"
     ],
-    "fallback": "honest single-frame directional poses"
+    "fallback": "static directional idle/up talk; 4 frontal/three-quarter talk drawings, mirrored for left"
   },
   {
     "ids": [
       "woodcutter",
-      "herbalist_brother"
-    ],
-    "needed": [
-      "walking with tool",
-      "carrying wood/tools",
-      "post-work fatigue"
-    ],
-    "fallback": "original walk/rest poses; virtual carry activity"
-  },
-  {
-    "ids": [
-      "woodcutter_son"
-    ],
-    "needed": [
-      "additional native run frames"
-    ],
-    "fallback": "two original walk frames per direction at faster playback"
-  },
-  {
-    "ids": [
+      "herbalist_brother",
+      "woodcutter_wife",
+      "innkeeper",
       "innkeeper_wife"
     ],
     "needed": [
-      "carrying dishes",
-      "individual tabletop wiping cycle"
+      "carrying wood/basket/tray locomotion and fatigue transitions"
     ],
-    "fallback": "original sweep/cook and household pauses"
+    "fallback": "ordinary walk/rest; standalone tray/chop assets prepared but not substituted into travel"
   },
   {
     "ids": [
       "herbalist"
     ],
     "needed": [
-      "separate sorting/drying/stirring variants"
+      "clean standalone drying/rack interaction",
+      "complete full-body grinding frames without embedded source furniture"
     ],
-    "fallback": "original compatible table/inspection/gather cycles"
+    "fallback": "drying is idle; grinding only beside actual Table"
   },
   {
     "ids": [
-      "elder"
+      "woodcutter_wife"
     ],
     "needed": [
-      "dedicated approved sprite set",
-      "reading documents",
-      "thinking body cycle"
+      "garden work with tool",
+      "stronger wash cycle without embedded source props"
     ],
-    "fallback": "current provisional source sprite; quiet directional pauses"
+    "fallback": "garden idle; washing uses reference with tub binding"
   },
   {
     "ids": [
-      "old_man"
+      "woodcutter_son"
     ],
     "needed": [
-      "sit down/stand up",
-      "four-direction seated poses",
-      "seated head turns"
+      "more than four vertical run contact/passing phases",
+      "artist cleanup of differences between generated run and source walk"
     ],
-    "fallback": "one archived seated pose, no incidental forced standing"
+    "fallback": "four generated vertical run poses; eight source side poses, left mirrored"
+  },
+  {
+    "ids": [
+      "elder",
+      "innkeeper",
+      "innkeeper_wife"
+    ],
+    "needed": [
+      "full body work drawings where source has cropped torso",
+      "intermediate approach/work/exit poses"
+    ],
+    "fallback": "cropped work only at bound desk/counter/table, full-body idle otherwise"
   }
 ]

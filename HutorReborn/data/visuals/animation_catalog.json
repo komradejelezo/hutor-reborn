@@ -1,800 +1,301 @@
 {
   "elder": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/elder/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_read": 6,
+      "work_write": 6,
+      "work_gesture": 6,
+      "work_read_full": 4,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "gesture_read": 6,
+      "gesture_think": 4
     },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    }
-  },
-  "herbalist": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_gather": {
-      "fps": 5.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_inspect": {
-      "fps": 5.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_table": {
-      "fps": 5.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    }
-  },
-  "herbalist_brother": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 5,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 5,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_chop": {
-      "fps": 6.0,
-      "frames": 5,
-      "kind": "original_activity",
-      "loop": true
-    }
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
   },
   "innkeeper": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/innkeeper/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_wipe": 6,
+      "work_serve": 6,
+      "work_tray": 6,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "gesture_think": 4
     },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_taste": {
-      "fps": 6.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_wipe": {
-      "fps": 6.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    }
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
   },
   "innkeeper_wife": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/innkeeper_wife/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 3,
+      "talk": 4,
+      "work_wipe": 6,
+      "work_set_table": 6,
+      "work_tray": 6,
+      "work_cook": 6,
+      "work_sweep": 4,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 3,
+      "gesture_think": 3
     },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_cook": {
-      "fps": 6.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_sweep": {
-      "fps": 6.0,
-      "frames": 3,
-      "kind": "original_activity",
-      "loop": true
-    }
-  },
-  "old_man": {
-    "idle_down": {
-      "fps": 6.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_left": {
-      "fps": 6.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 6.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 6.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_sit": {
-      "fps": 3.5,
-      "frames": 1,
-      "kind": "single_archived_seated_pose",
-      "loop": false
-    },
-    "work_smoke": {
-      "fps": 3.5,
-      "frames": 3,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_think": {
-      "fps": 3.5,
-      "frames": 3,
-      "kind": "original_activity",
-      "loop": true
-    }
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
   },
   "woodcutter": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/woodcutter/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_chop": 6,
+      "work_saw": 6,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "gesture_think": 4
     },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 3,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 4,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_chop": {
-      "fps": 6.0,
-      "frames": 6,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_saw": {
-      "fps": 6.0,
-      "frames": 6,
-      "kind": "new_original_saw_cycle_prepared_only",
-      "loop": true
-    }
-  },
-  "woodcutter_son": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
-    },
-    "run_down": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk_frames_run_fallback",
-      "loop": true
-    },
-    "run_left": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk_frames_run_fallback",
-      "loop": true
-    },
-    "run_right": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk_frames_run_fallback",
-      "loop": true
-    },
-    "run_up": {
-      "fps": 6.0,
-      "frames": 2,
-      "kind": "original_walk_frames_run_fallback",
-      "loop": true
-    },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_kneel": {
-      "fps": 8.0,
-      "frames": 4,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_play": {
-      "fps": 8.0,
-      "frames": 6,
-      "kind": "original_activity",
-      "loop": true
-    }
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
   },
   "woodcutter_wife": {
-    "idle_down": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/woodcutter_wife/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_laundry": 6,
+      "work_sweep": 4,
+      "work_cook": 4,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "gesture_think": 4
     },
-    "idle_left": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
+  },
+  "woodcutter_son": {
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/woodcutter_son/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_play": 4,
+      "work_kneel": 4,
+      "work_ball": 4,
+      "run_right": 8,
+      "run_down": 4,
+      "run_up": 4,
+      "run_left": 8,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "gesture_think": 4
     },
-    "idle_right": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
+  },
+  "herbalist": {
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/herbalist/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_gather": 6,
+      "work_grind": 6,
+      "work_dry": 3,
+      "work_pack": 3,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "work_table": 6,
+      "gesture_think": 4
     },
-    "idle_up": {
-      "fps": 8.0,
-      "frames": 1,
-      "kind": "static_idle_fallback",
-      "loop": false
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
+  },
+  "herbalist_brother": {
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/herbalist_brother/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_chop": 6,
+      "work_mend": 6,
+      "work_gather": 6,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "gesture_think": 4
     },
-    "turn_down": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
+  },
+  "old_man": {
+    "version": 54,
+    "frames": "res://assets/npc/stage54/game/old_man/frames.tres",
+    "clips": {
+      "walk_down": 8,
+      "walk_up": 8,
+      "walk_left": 8,
+      "walk_right": 8,
+      "idle_down": 4,
+      "talk": 4,
+      "work_smoke": 6,
+      "work_sit": 6,
+      "work_carve": 6,
+      "work_story": 6,
+      "idle_up": 1,
+      "idle_left": 1,
+      "idle_right": 1,
+      "turn_down": 1,
+      "turn_up": 1,
+      "turn_left": 1,
+      "turn_right": 1,
+      "talk_down": 4,
+      "talk_right": 4,
+      "talk_left": 4,
+      "talk_up": 1,
+      "work_inspect": 4,
+      "work_think": 6,
+      "gesture_think": 4
     },
-    "turn_left": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_right": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "turn_up": {
-      "fps": 5.0,
-      "frames": 1,
-      "kind": "static_directional_pose",
-      "loop": false
-    },
-    "walk_down": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_left": {
-      "fps": 8.0,
-      "frames": 4,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_right": {
-      "fps": 8.0,
-      "frames": 4,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "walk_up": {
-      "fps": 8.0,
-      "frames": 2,
-      "kind": "original_walk",
-      "loop": true
-    },
-    "work_cook": {
-      "fps": 5.0,
-      "frames": 9,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_rake": {
-      "fps": 5.0,
-      "frames": 3,
-      "kind": "original_activity",
-      "loop": true
-    },
-    "work_sweep": {
-      "fps": 5.0,
-      "frames": 2,
-      "kind": "original_activity",
-      "loop": true
-    }
+    "limits": [
+      "up/side idle and up talk use static directional poses",
+      "8 reference walk images are not proof of eight anatomically perfect gait phases"
+    ]
   }
 }

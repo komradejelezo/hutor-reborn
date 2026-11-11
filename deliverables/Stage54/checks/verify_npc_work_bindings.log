@@ -1,0 +1,124 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["elder", "elder", 425, "read_documents"]
+PASS: bound work starts at real goal: ["elder", "elder", 425, "read_documents"] -> work_read_full
+PASS: presentation never teleports body: ["elder", "elder", 425, "read_documents"]
+PASS: elder alternates reading and writing only at Desk
+PASS: missing work surface cannot animate in air: ["elder", "elder", 425, "read_documents"]
+PASS: work prop is reused: ["elder", "elder", 425, "read_documents"]
+PASS: work stops outside goal: ["elder", "elder", 425, "read_documents"]
+PASS: dialogue overrides work: ["elder", "elder", 425, "read_documents"]
+PASS: same work resumes after dialogue: ["elder", "elder", 425, "read_documents"]
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: bound work starts at real goal: ["innkeeper", "inn", 425, "prepare_inn"] -> work_wipe
+PASS: presentation never teleports body: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: missing work surface cannot animate in air: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: work prop is reused: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: work stops outside goal: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: dialogue overrides work: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: same work resumes after dialogue: ["innkeeper", "inn", 425, "prepare_inn"]
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: bound work starts at real goal: ["innkeeper_wife", "inn", 625, "clean_tables"] -> work_wipe
+PASS: presentation never teleports body: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: missing work surface cannot animate in air: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: work prop is reused: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: work stops outside goal: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: dialogue overrides work: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: same work resumes after dialogue: ["innkeeper_wife", "inn", 625, "clean_tables"]
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: bound work starts at real goal: ["innkeeper_wife", "inn", 625, "kitchen"] -> work_cook
+PASS: presentation never teleports body: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: missing work surface cannot animate in air: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: work prop is reused: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: work stops outside goal: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: dialogue overrides work: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: same work resumes after dialogue: ["innkeeper_wife", "inn", 625, "kitchen"]
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["innkeeper_wife", "inn", 625, "sweep_floor"]
+PASS: bound work starts at real goal: ["innkeeper_wife", "inn", 625, "sweep_floor"] -> work_sweep
+PASS: presentation never teleports body: ["innkeeper_wife", "inn", 625, "sweep_floor"]
+PASS: work prop is reused: ["innkeeper_wife", "inn", 625, "sweep_floor"]
+PASS: work stops outside goal: ["innkeeper_wife", "inn", 625, "sweep_floor"]
+PASS: dialogue overrides work: ["innkeeper_wife", "inn", 625, "sweep_floor"]
+PASS: same work resumes after dialogue: ["innkeeper_wife", "inn", 625, "sweep_floor"]
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: bound work starts at real goal: ["woodcutter_wife", "woodcutter", 425, "cook"] -> work_cook
+PASS: presentation never teleports body: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: missing work surface cannot animate in air: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: work prop is reused: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: work stops outside goal: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: dialogue overrides work: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: same work resumes after dialogue: ["woodcutter_wife", "woodcutter", 425, "cook"]
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["woodcutter_wife", "village", 625, "sweep_yard"]
+PASS: bound work starts at real goal: ["woodcutter_wife", "village", 625, "sweep_yard"] -> work_sweep
+PASS: presentation never teleports body: ["woodcutter_wife", "village", 625, "sweep_yard"]
+PASS: work prop is reused: ["woodcutter_wife", "village", 625, "sweep_yard"]
+PASS: work stops outside goal: ["woodcutter_wife", "village", 625, "sweep_yard"]
+PASS: dialogue overrides work: ["woodcutter_wife", "village", 625, "sweep_yard"]
+PASS: same work resumes after dialogue: ["woodcutter_wife", "village", 625, "sweep_yard"]
+PASS: original scheduled activity exists: ["woodcutter_wife", "village", 625, "household"]
+PASS: bound work starts at real goal: ["woodcutter_wife", "village", 625, "household"] -> work_laundry
+PASS: presentation never teleports body: ["woodcutter_wife", "village", 625, "household"]
+PASS: work prop is reused: ["woodcutter_wife", "village", 625, "household"]
+PASS: work stops outside goal: ["woodcutter_wife", "village", 625, "household"]
+PASS: dialogue overrides work: ["woodcutter_wife", "village", 625, "household"]
+PASS: same work resumes after dialogue: ["woodcutter_wife", "village", 625, "household"]
+PASS: original scheduled activity exists: ["woodcutter_son", "village", 500, "play_stick"]
+PASS: bound work starts at real goal: ["woodcutter_son", "village", 500, "play_stick"] -> work_play
+PASS: presentation never teleports body: ["woodcutter_son", "village", 500, "play_stick"]
+PASS: work prop is reused: ["woodcutter_son", "village", 500, "play_stick"]
+PASS: work stops outside goal: ["woodcutter_son", "village", 500, "play_stick"]
+PASS: dialogue overrides work: ["woodcutter_son", "village", 500, "play_stick"]
+PASS: same work resumes after dialogue: ["woodcutter_son", "village", 500, "play_stick"]
+PASS: original scheduled activity exists: ["woodcutter_son", "village", 500, "kneel_toy"]
+PASS: bound work starts at real goal: ["woodcutter_son", "village", 500, "kneel_toy"] -> work_kneel
+PASS: presentation never teleports body: ["woodcutter_son", "village", 500, "kneel_toy"]
+PASS: work prop is reused: ["woodcutter_son", "village", 500, "kneel_toy"]
+PASS: work stops outside goal: ["woodcutter_son", "village", 500, "kneel_toy"]
+PASS: dialogue overrides work: ["woodcutter_son", "village", 500, "kneel_toy"]
+PASS: same work resumes after dialogue: ["woodcutter_son", "village", 500, "kneel_toy"]
+PASS: original scheduled activity exists: ["old_man", "village", 425, "sit_and_smoke"]
+PASS: bound work starts at real goal: ["old_man", "village", 425, "sit_and_smoke"] -> work_sit
+PASS: presentation never teleports body: ["old_man", "village", 425, "sit_and_smoke"]
+PASS: pipe smoke follows reflected seated pose
+PASS: work prop is reused: ["old_man", "village", 425, "sit_and_smoke"]
+PASS: work stops outside goal: ["old_man", "village", 425, "sit_and_smoke"]
+PASS: dialogue overrides work: ["old_man", "village", 425, "sit_and_smoke"]
+PASS: same work resumes after dialogue: ["old_man", "village", 425, "sit_and_smoke"]
+PASS: original scheduled activity exists: ["herbalist", "village", 425, "gather"]
+PASS: bound work starts at real goal: ["herbalist", "village", 425, "gather"] -> work_gather
+PASS: presentation never teleports body: ["herbalist", "village", 425, "gather"]
+PASS: work prop is reused: ["herbalist", "village", 425, "gather"]
+PASS: work stops outside goal: ["herbalist", "village", 425, "gather"]
+PASS: dialogue overrides work: ["herbalist", "village", 425, "gather"]
+PASS: same work resumes after dialogue: ["herbalist", "village", 425, "gather"]
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: bound work starts at real goal: ["herbalist", "herbalist", 665, "sort_herbs"] -> work_grind
+PASS: presentation never teleports body: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: missing work surface cannot animate in air: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: work prop is reused: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: work stops outside goal: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: dialogue overrides work: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: same work resumes after dialogue: ["herbalist", "herbalist", 665, "sort_herbs"]
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: original scheduled activity exists: ["herbalist_brother", "herbalist", 425, "household"]
+PASS: bound work starts at real goal: ["herbalist_brother", "herbalist", 425, "household"] -> work_mend
+PASS: presentation never teleports body: ["herbalist_brother", "herbalist", 425, "household"]
+PASS: work prop is reused: ["herbalist_brother", "herbalist", 425, "household"]
+PASS: work stops outside goal: ["herbalist_brother", "herbalist", 425, "household"]
+PASS: dialogue overrides work: ["herbalist_brother", "herbalist", 425, "household"]
+PASS: same work resumes after dialogue: ["herbalist_brother", "herbalist", 425, "household"]
+RESULT: 121 work binding checks passed, 0 failed
