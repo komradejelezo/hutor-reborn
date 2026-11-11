@@ -42,6 +42,11 @@ func run() -> void:
         if index<0:continue
         npc.step_index=index
         var step:HutorNpcRoutineStep=npc.current_step()
+        check(free_at(room,step.position,npc.definition.foot_radius),"work goal has physical clearance: "+str(row))
+        if room_id!=&"village":
+            var nav:HutorNpcNavigation=room.get_node("Actors/Residents/Navigation")
+            var grid:=nav.grid_for(Rect2())
+            check(not grid.get_point_path(nav.cell(room.get_node("Entry").position),nav.cell(step.position)).is_empty(),"work goal connected to room entrance: "+str(row))
         npc.position=step.position;npc.state=npc.State.WAITING
         var pos:=npc.position
         var renderer:RefCounted=npc.activity_controller.visual54
