@@ -1,6 +1,15 @@
 extends "res://tests/verify_interiors.gd"
 ## Real active-scene residents, original dialogue paths and visual-only attention.
 var life: Node
+func retained_pixels(actual:Image, original:Image, cleaned:bool) -> bool:
+    if actual.get_size()!=original.get_size():return false
+    if not cleaned:return actual.get_data()==original.get_data()
+    var a:=actual.get_data();var b:=original.get_data()
+    for i in range(0,a.size(),4):
+        if a[i+3]>b[i+3]:return false
+        # Godot fixes hidden RGB at transparent borders during texture import.
+        if a[i+3]>0 and (a[i]!=b[i] or a[i+1]!=b[i+1] or a[i+2]!=b[i+2]):return false
+    return true
 func run() -> void:
     travel=root.get_node("InteriorTravel")
     var village:Node2D=load(travel.VILLAGE).instantiate()
@@ -30,8 +39,8 @@ func run() -> void:
                 var clip:StringName=StringName(mode+direction)
                 unchanged=unchanged and f.get_frame_count(clip)==original_frames.get_frame_count(clip)
                 for index in f.get_frame_count(clip):
-                    unchanged=unchanged and f.get_frame_texture(clip,index).get_image().get_data()==original_frames.get_frame_texture(clip,index).get_image().get_data()
-            check(unchanged,"original idle/walk frame pixels retained: "+id+"/"+direction)
+                    unchanged=unchanged and retained_pixels(f.get_frame_texture(clip,index).get_image(),original_frames.get_frame_texture(clip,index).get_image(),id in ["woodcutter","innkeeper_wife"])
+            check(unchanged,"visible source RGB retained, only reviewed alpha cleanup allowed: "+id+"/"+direction)
             check(f.get_frame_count("idle_"+direction)==1 and f.get_frame_count("turn_"+direction)==1 and not f.get_animation_loop("turn_"+direction),"static fallback is explicitly honest: "+id+"/"+direction)
         # Directly tick an isolated renderer with the real body; the NPC's state
         # and timers are frozen for measurement, not rewritten by the renderer.

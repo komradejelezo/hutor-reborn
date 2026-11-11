@@ -14,7 +14,11 @@ func clear_props() -> void:
     if reactions:reactions.reset_attention()
 func present(actor: HutorResident) -> bool:
     var sprite: AnimatedSprite2D=actor.get_node("AnimatedSprite2D")
-    sprite.speed_scale = minf(2.5,sqrt(manager.clock.speed))*(1.45 if resident.id==&"woodcutter_son" and actor.state==actor.State.MOVING else 1.0)
+    var reference_speed:float=resident.original.speed
+    if resident.id==&"woodcutter_son":reference_speed*=resident.schedule.get("run_multiplier",1.0)
+    sprite.speed_scale = clampf(actor.velocity.length()/reference_speed,.35,2.5) if actor.state==actor.State.MOVING else minf(2.5,sqrt(manager.clock.speed))
+    var destination_step:HutorNpcRoutineStep=actor.current_step()
+    actor.animator.prefer_run = resident.id==&"woodcutter_son" and resident.mode==&"local" and destination_step!=null and destination_step.label.begins_with("run_")
     sprite.position=Vector2.ZERO
     var delta:float=actor.get_physics_process_delta_time() if Engine.is_in_physics_frame() else 0.0
     var look:StringName=reactions.update(actor,delta,resident.mode==&"local")
@@ -49,9 +53,8 @@ func present(actor: HutorResident) -> bool:
         smoke.position=Vector2(-10 if sprite.flip_h else 10,-24)
         return true
     if step.animation==&"gesture_read" or step.animation==&"gesture_think":
-        # Dedicated elder action frames do not exist. Honest turns and pauses.
-        var phase:int=int(Time.get_ticks_msec()/2200)%3
-        var facing:StringName=step.facing if phase!=1 else (&"left" if step.facing==&"right" else &"right")
-        actor.animator.apply("idle",facing,&"",false)
+        # No reading art exists. Hold the authored pose; real attention above
+        # still works, without a timer repeatedly swivelling the entire body.
+        actor.animator.apply("idle",step.facing,&"",false)
         return true
     return false

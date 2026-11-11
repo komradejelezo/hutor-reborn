@@ -1,6 +1,6 @@
 [gd_resource type="SpriteFrames" format=3]
 
-[ext_resource type="Texture2D" path="res://assets/npc/stage43/woodcutter/atlas.png" id="1_4gsqq"]
+[ext_resource type="Texture2D" path="res://assets/npc/stage532/woodcutter_atlas.png" id="1_4gsqq"]
 [ext_resource type="Texture2D" path="res://assets/npc/stage47/woodcutter_saw.png" id="2_2o6l0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gss0q"]

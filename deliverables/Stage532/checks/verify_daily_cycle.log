@@ -1,0 +1,35 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: one daily owner initialized for nine original residents
+PASS: default day is 30 real minutes
+PASS: full day advances without seeking, within timeout
+PASS: live physics/identity/safe-zone invariants:
+PASS: morning, day, evening and night observed
+PASS: elder performs distinct occupations: [&"read_documents", &"ponder", &"travel", &"inspect_square", &"inspect_well", &"common_store", &"watch_village", &"rest_night"]
+PASS: innkeeper performs distinct occupations: [&"prepare_inn", &"check_supplies", &"wipe_mug", &"arrange_dishes", &"visit_tables", &"rest_night"]
+PASS: innkeeper_wife performs distinct occupations: [&"kitchen", &"prepare_supplies", &"clean_tables", &"sweep_floor", &"rest_night"]
+PASS: woodcutter performs distinct occupations: [&"take_tool", &"prepare_work", &"travel", &"meet_worker", &"work_break", &"chop", &"carry_wood", &"rest_after_work", &"family_meal", &"rest_night"]
+PASS: one physical logging departure and return: woodcutter
+PASS: worker visibly crosses map boundary: woodcutter
+PASS: worker is back at own home next morning: woodcutter
+PASS: woodcutter_wife performs distinct occupations: [&"cook", &"serve", &"travel", &"sweep_yard", &"household", &"watch_child", &"clean", &"garden_work", &"family_meal", &"rest_night"]
+PASS: woodcutter_son performs distinct occupations: [&"near_mother", &"home_play", &"travel", &"play_stick", &"run_yard", &"kneel_toy", &"visit_mother", &"run_to_tree", &"run_path", &"inspect_well", &"look_at_hans", &"family_meal", &"rest_night"]
+PASS: child plays, kneels and runs
+PASS: herbalist performs distinct occupations: [&"gather", &"inspect_plants", &"travel", &"sort_herbs", &"dry_plants", &"brew", &"rest_night"]
+PASS: herbalist_brother performs distinct occupations: [&"household", &"prepare_work", &"travel", &"meet_worker", &"carry_wood", &"work_break", &"chop", &"home_rest", &"rest_night"]
+PASS: one physical logging departure and return: herbalist_brother
+PASS: worker visibly crosses map boundary: herbalist_brother
+PASS: worker is back at own home next morning: herbalist_brother
+PASS: old_man performs distinct occupations: [&"sit_and_smoke", &"ponder", &"watch_hans", &"slow_walk", &"travel", &"rest_by_hearth", &"read_old_papers", &"rest_night"]
+PASS: old man has seated smoking occupation
+PASS: same declared gateway used in both directions
+PASS: same declared gateway used in both directions
+PASS: same declared gateway used in both directions
+PASS: same declared gateway used in both directions
+PASS: existing navigation work/cache budgets respected
+PASS: off-scene room does no path solves: woodcutter
+PASS: off-scene room does no path solves: herbalist
+PASS: off-scene room does no path solves: elder
+PASS: off-scene room does no path solves: old_man
+PASS: bounded diagnostics
+RESULT: 32 daily-cycle checks passed, 0 failed

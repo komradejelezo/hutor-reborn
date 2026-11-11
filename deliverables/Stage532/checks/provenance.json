@@ -1,0 +1,201 @@
+{
+  "base_commit": "af32d00166568fde60b72cbf5e66d7c9fc8430ce",
+  "engine": "4.6.3.stable.official.7d41c59c4",
+  "renderer": "Mesa llvmpipe OpenGL Compatibility",
+  "viewport": [
+    960,
+    540
+  ],
+  "fixed_ids": [
+    "A-01",
+    "A-02",
+    "A-03",
+    "A-04",
+    "A-05",
+    "A-06",
+    "A-07",
+    "A-09",
+    "A-10"
+  ],
+  "partial_ids": [
+    "A-11"
+  ],
+  "manual_decision": [
+    "A-08"
+  ],
+  "deferred": [
+    "B-01",
+    "B-02",
+    "B-03",
+    "B-04",
+    "B-05"
+  ],
+  "all_original_png_tscn_ogg_preserved": true,
+  "modified_original_files": [
+    "HutorReborn/assets/npc/stage47/innkeeper_wife.tres",
+    "HutorReborn/assets/npc/stage47/woodcutter.tres",
+    "HutorReborn/assets/npc/stage47/woodcutter_son.tres",
+    "HutorReborn/data/visuals/animation_catalog.json",
+    "HutorReborn/scripts/life/activity_presenter.gd",
+    "HutorReborn/scripts/npc/npc.gd",
+    "HutorReborn/scripts/npc/npc_animator.gd",
+    "HutorReborn/scripts/world.gd",
+    "HutorReborn/tests/verify_environment_depth.gd",
+    "HutorReborn/tests/verify_expressive_residents.gd",
+    "HutorReborn/tests/verify_interior_depth.gd",
+    "HutorReborn/tests/verify_remaining_depth.gd",
+    "HutorReborn/tools/build_expressive_frames.gd"
+  ],
+  "automated_checks": {
+    "verify_environment_depth": {
+      "passed": 17,
+      "failed": 0
+    },
+    "verify_visual_fixes": {
+      "passed": 50,
+      "failed": 0
+    },
+    "verify_daily_cycle": {
+      "passed": 32,
+      "failed": 0
+    },
+    "verify_door_transitions": {
+      "passed": 335,
+      "failed": 0
+    },
+    "verify_ambient": {
+      "passed": 183,
+      "failed": 0
+    },
+    "verify_dialogue": {
+      "passed": 65,
+      "failed": 0
+    },
+    "verify_expressive_residents": {
+      "passed": 289,
+      "failed": 0
+    },
+    "verify_interior_depth": {
+      "passed": 20,
+      "failed": 0
+    },
+    "verify_child_play": {
+      "passed": 7,
+      "failed": 0
+    },
+    "verify_remaining_depth": {
+      "passed": 28,
+      "failed": 0
+    },
+    "verify_worker_speed": {
+      "passed": 11,
+      "failed": 0
+    },
+    "stage51": {
+      "passed": 706,
+      "failed": 0
+    }
+  },
+  "automated_assertions_passed": 1743,
+  "additional_flame_render": {
+    "changed_pixels": 200,
+    "outside_roi": 0
+  },
+  "native_method": "normal configured main, X11 WASD/E; F7 then x1 for child; read-only observer; no teleport/clock seek",
+  "native_roundtrips": [
+    "storehouse",
+    "elder",
+    "woodcutter",
+    "herbalist",
+    "old_man",
+    "inn"
+  ],
+  "child_run_observed": {
+    "clip": "run_down",
+    "clock_speed": 1,
+    "physical_speed": 77.5,
+    "configured_fps": 6
+  },
+  "videos": {
+    "herbalist-roundtrip.mp4": {
+      "seconds": 6.65,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "20/1"
+      },
+      "decodes_without_errors": true
+    },
+    "hans-movement.mp4": {
+      "seconds": 4.149533,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "8881/444"
+      },
+      "decodes_without_errors": true
+    },
+    "inn-roundtrip.mp4": {
+      "seconds": 7.170124,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "34463/1728"
+      },
+      "decodes_without_errors": true
+    },
+    "storehouse-roundtrip.mp4": {
+      "seconds": 6.660377,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "7049/353"
+      },
+      "decodes_without_errors": true
+    },
+    "woodcutter-roundtrip.mp4": {
+      "seconds": 7.144509,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "24739/1236"
+      },
+      "decodes_without_errors": true
+    },
+    "old_man-roundtrip.mp4": {
+      "seconds": 7.179916,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "239/12"
+      },
+      "decodes_without_errors": true
+    },
+    "elder-roundtrip.mp4": {
+      "seconds": 13.659574,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "4277/214"
+      },
+      "decodes_without_errors": true
+    },
+    "child-normal-speed.mp4": {
+      "seconds": 22.15,
+      "stream": {
+        "width": 960,
+        "height": 540,
+        "avg_frame_rate": "20/1"
+      },
+      "decodes_without_errors": true
+    }
+  },
+  "source_protection_manifest": "HutorReborn/docs/stage532-invariants.json",
+  "limitations": [
+    "x1.3 interior zoom retains uneven screen pixels",
+    "Only four existing pine silhouettes; remaining repetition",
+    "Visual room/environment corrections applied on scene load; unrun editor retains original assignments",
+    "Software GPU/20FPS capture, target Windows/GPU and night acceptance remain"
+  ],
+  "log_whitespace_normalized": true
+}

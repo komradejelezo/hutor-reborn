@@ -5,6 +5,7 @@ func run() -> void:
         var room:Node2D=load("res://scenes/interiors/"+id+".tscn").instantiate()
         root.add_child(room);current_scene=room
         room.get_node("Evening").color=Color.WHITE
+        room.atmosphere.set_effects_enabled(false) # Freeze decorative flame during opaque-layer comparisons.
         for lamp in room.find_children("*","PointLight2D",true,false):lamp.enabled=false
         for name in ["Void","Floor","Walls","FloorDetails","HUD","Exit"]:room.get_node(name).hide()
         for item in room.get_node("Actors/Props").get_children():item.hide()

@@ -1,0 +1,34 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: woodcutter/ParentsBed behind: 1269 opaque overlap, 0 wrong
+PASS: woodcutter/ParentsBed front: 1101 opaque overlap, 0 wrong
+PASS: woodcutter/SonBed behind: 836 opaque overlap, 0 wrong
+PASS: woodcutter/SonBed front: 1070 opaque overlap, 0 wrong
+PASS: woodcutter/DiningTable behind: 1014 opaque overlap, 0 wrong
+PASS: woodcutter/DiningTable front: 1122 opaque overlap, 0 wrong
+PASS: woodcutter/Stove behind: 1237 opaque overlap, 0 wrong
+PASS: woodcutter/Stove front: 1018 opaque overlap, 0 wrong
+PASS: woodcutter/ChairA behind: 39 opaque overlap, 0 wrong
+PASS: woodcutter/ChairA front: 764 opaque overlap, 0 wrong
+PASS: old_man/OldBed behind: 1213 opaque overlap, 0 wrong
+PASS: old_man/OldBed front: 1095 opaque overlap, 0 wrong
+PASS: old_man/Armchair behind: 850 opaque overlap, 0 wrong
+PASS: old_man/Armchair front: 986 opaque overlap, 0 wrong
+PASS: old_man/SideTable behind: 169 opaque overlap, 0 wrong
+PASS: old_man/SideTable front: 360 opaque overlap, 0 wrong
+PASS: old_man/OldStove behind: 1237 opaque overlap, 0 wrong
+PASS: old_man/OldStove front: 1018 opaque overlap, 0 wrong
+PASS: storehouse/ShelfA behind: 552 opaque overlap, 0 wrong
+PASS: storehouse/ShelfA front: 1028 opaque overlap, 0 wrong
+PASS: storehouse/GrainD behind: 45 opaque overlap, 0 wrong
+PASS: storehouse/GrainD front: 924 opaque overlap, 0 wrong
+PASS: storehouse/CrateA behind: 582 opaque overlap, 0 wrong
+PASS: storehouse/CrateA front: 1073 opaque overlap, 0 wrong
+PASS: storehouse/WorkTable behind: 694 opaque overlap, 0 wrong
+PASS: storehouse/WorkTable front: 1102 opaque overlap, 0 wrong
+PASS: storehouse/Firewood behind: 228 opaque overlap, 0 wrong
+PASS: storehouse/Firewood front: 824 opaque overlap, 0 wrong
+RESULT: 28 remaining-interior depth checks passed, 0 failed

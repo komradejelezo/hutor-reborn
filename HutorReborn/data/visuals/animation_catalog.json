@@ -621,27 +621,27 @@
       "loop": false
     },
     "run_down": {
-      "fps": 10.0,
+      "fps": 6.0,
       "frames": 2,
-      "kind": "original_walk_frames_faster",
+      "kind": "original_walk_frames_run_fallback",
       "loop": true
     },
     "run_left": {
-      "fps": 10.0,
+      "fps": 6.0,
       "frames": 2,
-      "kind": "original_walk_frames_faster",
+      "kind": "original_walk_frames_run_fallback",
       "loop": true
     },
     "run_right": {
-      "fps": 10.0,
+      "fps": 6.0,
       "frames": 2,
-      "kind": "original_walk_frames_faster",
+      "kind": "original_walk_frames_run_fallback",
       "loop": true
     },
     "run_up": {
-      "fps": 10.0,
+      "fps": 6.0,
       "frames": 2,
-      "kind": "original_walk_frames_faster",
+      "kind": "original_walk_frames_run_fallback",
       "loop": true
     },
     "turn_down": {

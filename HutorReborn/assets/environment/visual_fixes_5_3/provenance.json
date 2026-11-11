@@ -1,0 +1,38 @@
+[
+  {
+    "output": "assets/npc/stage532/innkeeper_wife_atlas.png",
+    "source": "assets/npc/stage43/innkeeper_wife/atlas.png",
+    "source_sha256": "b8e9b591b51d0ef4db0dc1d78f3e906767e0bbea90aaa388bdd8c647dcca1bef",
+    "method": "alpha cleanup only; all RGB, dimensions, frame positions and foot anchors preserved"
+  },
+  {
+    "output": "assets/npc/stage532/woodcutter_atlas.png",
+    "source": "assets/npc/stage43/woodcutter/atlas.png",
+    "source_sha256": "95ee9a9ebe800d4f0b0824acfa907575ccd4aa90328cf7a39647b1ad39c6becc",
+    "method": "alpha cleanup only; all RGB, dimensions, frame positions and foot anchors preserved"
+  },
+  {
+    "output": "assets/environment/visual_fixes_5_3/common_house.png",
+    "source": "assets/environment/krivaya_sosna/surface_polish/common_house_ground.png",
+    "source_sha256": "d44ebf71193266da5a4fd95859ee875d679a29cda2787d37d3952662ad9ba498",
+    "method": "binary irregular alpha on apron only; roof/walls/stairs core and retained RGB unchanged"
+  },
+  {
+    "output": "assets/environment/visual_fixes_5_3/wall_atlas.png",
+    "source": "assets/interiors/stage44/wall.png",
+    "source_sha256": "823b267055b5c0732cb912545a4cc88de29ecc1c7a9070b357e1f960ac50c4a4",
+    "method": "native 32px top/side/corner tiles; rotations and copied native pixels only"
+  },
+  {
+    "output": "assets/environment/visual_fixes_5_3/wall_old_atlas.png",
+    "source": "assets/interiors/stage44/wall_old.png",
+    "source_sha256": "73748a5c4c9b1331c877587c291e75aef7c24614f866016d8203952209ea9ea8",
+    "method": "native 32px top/side/corner tiles; rotations and copied native pixels only"
+  },
+  {
+    "output": "assets/environment/visual_fixes_5_3/chimney_smoke.png",
+    "source": "assets/environment/smoke.png",
+    "source_sha256": "ae2d512356d50ba3fd23884b7b823a89fdebb3dee1735222beae531cdfba2ae5",
+    "method": "same 16px texture and RGB; alpha x2.4 for chimney only, no filtering"
+  }
+]

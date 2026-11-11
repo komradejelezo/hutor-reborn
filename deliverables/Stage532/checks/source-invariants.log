@@ -1,0 +1,2 @@
+PASS: 507 original images, audio, scenes, player, transitions, dialogues, schedules and time preserved
+PASS: two NPC derivatives change alpha only; guide line and light apron removed; house RGB/core unchanged

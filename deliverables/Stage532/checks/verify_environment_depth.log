@@ -1,0 +1,23 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: saved scene contains depth-test object: bush_round
+PASS: saved scene contains depth-test object: fallen_b
+PASS: saved scene contains depth-test object: short_bench
+PASS: house: Hans behind respects actual opaque overlap (779 pixels)
+PASS: house: Hans in front respects actual opaque overlap (663 pixels)
+PASS: landmark: Hans behind respects actual opaque overlap (665 pixels)
+PASS: landmark: Hans in front respects actual opaque overlap (779 pixels)
+PASS: tree: Hans behind respects actual opaque overlap (779 pixels)
+PASS: tree: Hans in front respects actual opaque overlap (669 pixels)
+PASS: fence: Hans behind respects actual opaque overlap (19 pixels)
+PASS: fence: Hans in front respects actual opaque overlap (262 pixels)
+PASS: bush_round: Hans behind respects actual opaque overlap (185 pixels)
+PASS: bush_round: Hans in front respects actual opaque overlap (406 pixels)
+PASS: fallen_b: Hans behind respects actual opaque overlap (62 pixels)
+PASS: fallen_b: Hans in front respects actual opaque overlap (301 pixels)
+PASS: short_bench: Hans behind respects actual opaque overlap (173 pixels)
+PASS: short_bench: Hans in front respects actual opaque overlap (281 pixels)
+RESULT: 17 depth checks passed, 0 failed
