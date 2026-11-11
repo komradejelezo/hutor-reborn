@@ -25,7 +25,7 @@
   "checks/verify_ambient.log": "211ffeea3cd3f67b90f9f24338d9b965f92a49150a92b149f68a0e9999e9e5d7",
   "checks/verify_dialogue.log": "3189a69b46fe4dfbca48185e2eb8625241c3712173f754f17f34bd6bc8ca8ec6",
   "checks/verify_stage51.log": "7667a999e94439bdc6127390345455056b4d701eb66e584fbf808f28d6ca6402",
-  "checks/import-final.log": "a5a84f069c99691fdef27c8a81c60b186f78aa49021728ab6589510940c952c5",
+  "checks/import-final.log": "a0e0e918626d2a9660c06a0b32808bca31fc4bd12ff37b7f9aaf7d8fa6a7d8cc",
   "checks/verify_child_play.log": "76aee6de2257a4088959710e7570f95b4e7cc8d6639203279d0a0988bc761749",
   "checks/generated-source-sha256.json": "bc51eadcf25496bddf868bdd7369a21a7053716c0e491627f2c73bf256564009",
   "checks/verify_npc_rework.log": "5bb4900ed5d06bef4bd744870bcde686e13f124f0e10b7d2711b083551eabaac",
