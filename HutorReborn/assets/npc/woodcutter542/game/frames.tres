@@ -262,6 +262,81 @@ atlas = ExtResource("1")
 region = Rect2(288, 576, 96, 96)
 filter_clip = true
 
+[sub_resource type="AtlasTexture" id="F52"]
+atlas = ExtResource("1")
+region = Rect2(384, 576, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F53"]
+atlas = ExtResource("1")
+region = Rect2(480, 576, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F54"]
+atlas = ExtResource("1")
+region = Rect2(576, 576, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F55"]
+atlas = ExtResource("1")
+region = Rect2(672, 576, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F56"]
+atlas = ExtResource("1")
+region = Rect2(0, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F57"]
+atlas = ExtResource("1")
+region = Rect2(96, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F58"]
+atlas = ExtResource("1")
+region = Rect2(192, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F59"]
+atlas = ExtResource("1")
+region = Rect2(288, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F60"]
+atlas = ExtResource("1")
+region = Rect2(384, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F61"]
+atlas = ExtResource("1")
+region = Rect2(480, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F62"]
+atlas = ExtResource("1")
+region = Rect2(576, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F63"]
+atlas = ExtResource("1")
+region = Rect2(672, 672, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F64"]
+atlas = ExtResource("1")
+region = Rect2(0, 768, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F65"]
+atlas = ExtResource("1")
+region = Rect2(96, 768, 96, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="F66"]
+atlas = ExtResource("1")
+region = Rect2(192, 768, 96, 96)
+filter_clip = true
+
 [resource]
 metadata/rework_version = 54
 metadata/woodcutter_version = 542
@@ -350,6 +425,54 @@ animations = [
 "loop": false,
 "name": &"rest",
 "speed": 3
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F34")}, {"duration": 1, "texture": SubResource("F35")}, {"duration": 1, "texture": SubResource("F36")}, {"duration": 1, "texture": SubResource("F37")}, {"duration": 1, "texture": SubResource("F38")}, {"duration": 1, "texture": SubResource("F39")}],
+"loop": true,
+"name": &"carry_right",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F34")}, {"duration": 1, "texture": SubResource("F35")}, {"duration": 1, "texture": SubResource("F36")}, {"duration": 1, "texture": SubResource("F37")}, {"duration": 1, "texture": SubResource("F38")}, {"duration": 1, "texture": SubResource("F39")}],
+"loop": true,
+"name": &"carry_left",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F52")}, {"duration": 1, "texture": SubResource("F53")}, {"duration": 1, "texture": SubResource("F54")}, {"duration": 1, "texture": SubResource("F55")}, {"duration": 1, "texture": SubResource("F56")}, {"duration": 1, "texture": SubResource("F57")}],
+"loop": true,
+"name": &"carry_down",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F58")}, {"duration": 1, "texture": SubResource("F59")}, {"duration": 1, "texture": SubResource("F60")}, {"duration": 1, "texture": SubResource("F61")}, {"duration": 1, "texture": SubResource("F62")}, {"duration": 1, "texture": SubResource("F63")}],
+"loop": true,
+"name": &"carry_up",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F64")}],
+"loop": true,
+"name": &"carry_idle_down",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F65")}],
+"loop": true,
+"name": &"carry_idle_right",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F65")}],
+"loop": true,
+"name": &"carry_idle_left",
+"speed": 8
+},
+{
+"frames": [{"duration": 1, "texture": SubResource("F66")}],
+"loop": true,
+"name": &"carry_idle_up",
+"speed": 8
 },
 {
 "frames": [{"duration": 1, "texture": SubResource("F18")}],

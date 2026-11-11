@@ -3,6 +3,7 @@ extends Node
 @onready var sprite: AnimatedSprite2D = get_node("../AnimatedSprite2D")
 @onready var smoke: CPUParticles2D = get_node("../PipeSmoke")
 var prefer_run := false
+var pilot_carrying := false
 var _work_context := ""
 var _work_cursors: Dictionary = {}
 var _discard_outgoing_work := false
@@ -22,18 +23,21 @@ func _is_work(clip: StringName) -> bool:
     return String(clip).begins_with("work_") or String(clip).begins_with("gesture_")
 
 func is_locomotion(clip: StringName) -> bool:
-    return String(clip).begins_with("walk_") or String(clip).begins_with("run_")
+    return String(clip).begins_with("walk_") or String(clip).begins_with("run_") or (pilot_carrying and String(clip).begins_with("carry_") and not String(clip).begins_with("carry_idle_"))
 
 func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool) -> void:
     if sprite.sprite_frames == null: return
     # Only the pilot finishes an already committed axe stroke before greeting.
     # The logical dialogue locks movement immediately; no delayed input/session.
     if int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 and mode=="talk" and not _discard_outgoing_work:
-        if sprite.animation in [&"work_chop",&"chop_wood"] and sprite.frame>0 and sprite.is_playing():return
+        if sprite.animation in [&"work_chop",&"chop_wood",&"work_pick_up",&"work_put_down"] and sprite.frame>0 and sprite.is_playing():return
     var clip: StringName = StringName(mode+"_"+String(facing))
     if mode=="walk" and prefer_run and sprite.sprite_frames.has_animation("run_"+String(facing)):
         clip=StringName("run_"+String(facing))
     if mode == "work" and work != &"": clip = work
+    if pilot_carrying and int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542:
+        if mode=="walk":clip=StringName("carry_"+String(facing))
+        elif mode in ["idle","talk","turn"]:clip=StringName("carry_idle_"+String(facing))
     if not sprite.sprite_frames.has_animation(clip): clip = StringName("idle_"+String(facing))
     var native_left:PackedStringArray=sprite.sprite_frames.get_meta("native_left_clips",PackedStringArray())
     sprite.flip_h = facing == &"left" and not String(clip) in native_left

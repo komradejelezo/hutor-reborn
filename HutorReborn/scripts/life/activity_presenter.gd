@@ -6,8 +6,13 @@ var _hidden: Array[CanvasItem] = []
 var _presentation_key := ""
 var visual54=preload("res://scripts/npc/rework/resident_presentation.gd").new()
 var reactions: HutorNpcVisualReactions
+var pilot_delivery: RefCounted
 func _ready() -> void:
     reactions=HutorNpcVisualReactions.new(HutorNpcVisualLibrary.profile(resident.id))
+    if resident.id==&"woodcutter":pilot_delivery=preload("res://scripts/npc/rework/woodcutter_delivery.gd").new()
+    set_process(pilot_delivery!=null)
+func _process(_delta:float) -> void:
+    if pilot_delivery:pilot_delivery.update(resident)
 func clear_props() -> void:
     for item in _hidden:
         if is_instance_valid(item):item.show()
@@ -15,6 +20,7 @@ func clear_props() -> void:
     if reactions:reactions.reset_attention()
     if resident and is_instance_valid(resident.actor):
         visual54.release(resident.actor)
+        if pilot_delivery:pilot_delivery.release(resident.actor)
 func present(actor: HutorResident) -> bool:
     var sprite: AnimatedSprite2D=actor.get_node("AnimatedSprite2D")
     var reference_speed:float=resident.original.speed
@@ -29,6 +35,7 @@ func present(actor: HutorResident) -> bool:
     if look==&"" and is_instance_valid(ambient):
         look=ambient.glance_direction(actor,resident)
     if int(sprite.sprite_frames.get_meta("rework_version",0))==54:
+        if pilot_delivery and pilot_delivery.present(actor,resident):return true
         return visual54.present(actor,resident,look,delta)
     var working:bool=actor.state==actor.State.WAITING and resident.mode==&"local" and look==&""
     var key:String=String(resident.activity) if working else ""

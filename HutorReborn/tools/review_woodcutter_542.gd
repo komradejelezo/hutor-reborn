@@ -48,7 +48,7 @@ func walk_to(point:Vector2,carry:bool=false) -> void:
         var direction:Vector2=point-actor.position
         actor.velocity=direction.normalized()*minf(36,direction.length()*60)
         actor.facing=(&"right" if direction.x>0 else &"left") if absf(direction.x)>absf(direction.y) else (&"down" if direction.y>0 else &"up")
-        if carry:actor.animator.apply("work",actor.facing,&"work_carry",false)
+        if carry:actor.animator.apply("work",actor.facing,StringName("carry_"+String(actor.facing)),false)
         else:actor.animator.apply("walk",actor.facing,&"",false)
         actor.move_and_slide();await physics_frame
     check(actor.position.distance_to(point)<2,"physical path completed without crossing props")
@@ -92,8 +92,8 @@ func run() -> void:
         await walk_to(goal);actor.animator.apply("idle",direction,&"",false);await create_timer(.3).timeout
     actor.position=start # End of closed path within tolerance; diagnostic registration only.
     var stump:=prop("DiagnosticStump542","res://assets/environment/krivaya_sosna/objects/stump.png",start+Vector2(18,13),.30,true)
-    log_a=prop("DiagnosticLogs542A","res://assets/environment/krivaya_sosna/objects/logs.png",start+Vector2(60,0),.20,false)
-    log_b=prop("DiagnosticLogs542B","res://assets/environment/krivaya_sosna/objects/logs.png",start+Vector2(120,0),.20,false);log_b.hide()
+    log_a=prop("DiagnosticLogs542A","res://assets/npc/woodcutter542/game/placed_logs.png",start+Vector2(60,0),1,false)
+    log_b=prop("DiagnosticLogs542B","res://assets/npc/woodcutter542/game/placed_logs.png",start+Vector2(120,0),1,false);log_b.hide()
     await frames(3)
     for i in 2:
         sprite.play("work_chop");sprite.set_frame_and_progress(0,0);await animate("work_chop")
@@ -101,6 +101,8 @@ func run() -> void:
     await walk_to(start+Vector2(42,0));sprite.play("work_pick_up");sprite.set_frame_and_progress(0,0);await animate("work_pick_up")
     check(not log_a.visible,"ground logs hidden when lifted")
     await snapshot("picked-up")
+    for offset in [Vector2(72,0),Vector2(72,16),Vector2(42,16),Vector2(42,0)]:
+        await walk_to(start+offset,true)
     await walk_to(start+Vector2(102,0),true);await snapshot("carrying")
     sprite.play("work_put_down");sprite.set_frame_and_progress(0,0);await animate("work_put_down")
     check(log_b.visible,"placed logs remain in world")
