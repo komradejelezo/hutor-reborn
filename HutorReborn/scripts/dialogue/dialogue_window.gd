@@ -121,7 +121,10 @@ func _fit_portrait_pixels() -> void:
     portrait.size = _portrait_default_rect.size
     # Only this pilot's existing portrait: avoid uneven nearest downsampling
     # inside the same frame. No new face, crop deformation or layout expansion.
-    if portrait.texture == null or not portrait.texture.resource_path.begins_with("res://assets/npc/stage54/game/woodcutter/portraits/"):
+    if portrait.texture == null:
+        return
+    var path:=portrait.texture.resource_path
+    if not (path.begins_with("res://assets/npc/stage54/game/woodcutter/portraits/") or path.begins_with("res://assets/npc/stage54/game/woodcutter_wife/portraits/")):
         return
     var native_size := portrait.texture.get_size()
     var frame := portrait.get_parent() as Control

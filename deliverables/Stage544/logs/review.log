@@ -1,0 +1,72 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: existing schedule action: sweep_yard
+PASS: new body performs bound action: sweep_yard
+PASS: work foot position is outside furniture: sweep_yard
+PASS: existing E target selects wife: yard-sweep
+PASS: real dialogue holds original actor: yard-sweep
+PASS: drawn rise completes into directed conversation
+PASS: approved portrait displays 1:1
+PASS: conversation returns occupation ownership: yard-sweep
+PASS: existing schedule action: household
+PASS: new body performs bound action: household
+PASS: work foot position is outside furniture: household
+PASS: drawn kneel entry finishes into real washing loop
+PASS: existing E target selects wife: laundry
+PASS: real dialogue holds original actor: laundry
+PASS: drawn rise completes into directed conversation
+PASS: approved portrait displays 1:1
+PASS: conversation returns occupation ownership: laundry
+PASS: existing schedule action: garden_work
+PASS: new body performs bound action: garden_work
+PASS: work foot position is outside furniture: garden_work
+PASS: collision-checked review corridor exists
+PASS: approved woodcutter and Hans scales remain intact
+WIFE544_REVIEW_READY
+PASS: same-speed physical path completed
+PASS: same-speed physical path completed
+PASS: same-speed physical path completed
+PASS: same-speed physical path completed
+PASS: rest settles without automatic gesture restart
+PASS: existing E target selects wife: after-rest
+PASS: real dialogue holds original actor: after-rest
+PASS: drawn rise completes into directed conversation
+PASS: approved portrait displays 1:1
+PASS: conversation returns occupation ownership: after-rest
+PASS: prepared floor basket imports correctly
+PASS: prepared floor basket imports correctly
+PASS: same-speed physical path completed
+PASS: floor basket disappears on real grasp pose
+PASS: same-speed physical path completed
+PASS: released basket remains after empty-handed settle
+PASS: existing family home loads
+PASS: transition completes within deadline
+PASS: existing schedule action: cook
+PASS: new body performs bound action: cook
+PASS: work foot position is outside furniture: cook
+PASS: cooking is bound to the original pot, not air
+PASS: existing E target selects wife: home-cook
+PASS: real dialogue holds original actor: home-cook
+PASS: drawn rise completes into directed conversation
+PASS: approved portrait displays 1:1
+PASS: conversation returns occupation ownership: home-cook
+PASS: existing schedule action: serve
+PASS: new body performs bound action: serve
+PASS: work foot position is outside furniture: serve
+PASS: existing schedule action: household
+PASS: new body performs bound action: household
+PASS: work foot position is outside furniture: household
+PASS: diagnostic table approach stays outside table collision
+PASS: same original resident identity: elder
+PASS: same original resident identity: innkeeper
+PASS: same original resident identity: innkeeper_wife
+PASS: same original resident identity: woodcutter
+PASS: same original resident identity: woodcutter_wife
+PASS: same original resident identity: woodcutter_son
+PASS: same original resident identity: herbalist
+PASS: same original resident identity: herbalist_brother
+PASS: same original resident identity: old_man
+RESULT: 65 wife world/work/interaction checks passed, 0 failed
