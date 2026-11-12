@@ -1,6 +1,10 @@
 [gd_scene format=3]
 [ext_resource type="PackedScene" path="res://scenes/npc/resident.tscn" id="1"]
 [ext_resource type="Resource" path="res://assets/npc/stage43/woodcutter_wife/definition.tres" id="2"]
+[ext_resource type="Material" path="res://assets/npc/woodcutter_wife544/game/palette.tres" id="3"]
 
 [node name="WoodcutterWife" instance=ExtResource("1")]
 definition = ExtResource("2")
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+material = ExtResource("3")

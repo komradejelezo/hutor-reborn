@@ -1,0 +1,16 @@
+{
+  "normal_main": true,
+  "native_keyboard": true,
+  "family_home_roundtrip": true,
+  "wife_dialogue": true,
+  "wife_yard_at_x1": true,
+  "checks": {
+    "clock_running": true,
+    "configured_main": true,
+    "life_initialized": true,
+    "nine_residents": true,
+    "six_registered_doors": true,
+    "travel_bound": true
+  },
+  "clock_speed": 1.0
+}

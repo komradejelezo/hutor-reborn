@@ -1,0 +1,58 @@
+[
+  {
+    "front": false,
+    "overlap": 525,
+    "resident": "woodcutter_wife",
+    "target": "house",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 521,
+    "resident": "woodcutter_wife",
+    "target": "house",
+    "wrong": 0
+  },
+  {
+    "front": false,
+    "overlap": 473,
+    "resident": "woodcutter_wife",
+    "target": "pine",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 520,
+    "resident": "woodcutter_wife",
+    "target": "pine",
+    "wrong": 0
+  },
+  {
+    "front": false,
+    "overlap": 35,
+    "resident": "woodcutter_wife",
+    "target": "fence",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 193,
+    "resident": "woodcutter_wife",
+    "target": "fence",
+    "wrong": 0
+  },
+  {
+    "front": false,
+    "overlap": 388,
+    "resident": "woodcutter_wife",
+    "target": "Hans",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 342,
+    "resident": "woodcutter_wife",
+    "target": "Hans",
+    "wrong": 0
+  }
+]

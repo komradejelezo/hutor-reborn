@@ -1,0 +1,15 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+RETURN STATE 1082.2 village boundary_in true 0
+PASS: real scheduled return reaches physical boundary
+PASS: same resident returns from virtual logging
+PASS: requested evening block activates load while old work block remains
+PASS: manual boundary movement actually renders carrying
+PASS: brother keeps original empty-hand renderer
+PASS: Hans enters existing family room before return
+PASS: transition completes within deadline
+PASS: same loaded actor walks indoors with returned logs
+PASS: scheduled home arrival plays authored release
+PASS: real return leaves matching ground bundle
+PASS: delivery preserves resident identity/home residency
+RESULT: 11 real return checks passed, 0 failed

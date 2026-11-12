@@ -62,9 +62,10 @@ func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool
         sprite.play(clip)
         sprite.set_frame_and_progress(0,0)
     elif sprite.sprite_frames.get_frame_count(clip)>1 and not sprite.is_playing():
-        # The pilot's authored pick/place/rest actions finish on a real settle
-        # pose. Other eight residents retain their existing playback contract.
-        var finished_pilot_action:bool=int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 and not sprite.sprite_frames.get_animation_loop(clip)
+        # Reviewed family one-shot actions hold their authored settle poses.
+        # All other residents retain their existing playback contract.
+        var authored_settle:bool=int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 or int(sprite.sprite_frames.get_meta("wife_version",0))==544
+        var finished_pilot_action:bool=authored_settle and not sprite.sprite_frames.get_animation_loop(clip)
         if not finished_pilot_action:sprite.play(clip)
     _discard_outgoing_work = false
     var smoking := mode == "work" and work == &"work_smoke" and allow_smoke
