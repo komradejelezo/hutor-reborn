@@ -11,6 +11,7 @@ func release(actor:HutorResident) -> void:
 
 func _continue(sprite:AnimatedSprite2D, clip:StringName, previous:StringName, frame:int, progress:float) -> void:
     sprite.play(clip)
+    sprite.flip_h=false # Drawn transitions face the fixed work surface on the right.
     if previous==clip:sprite.set_frame_and_progress(frame,progress)
 
 func present(actor:HutorResident, record:HutorDailyResidentState, look:StringName, delta:float) -> bool:
@@ -18,6 +19,7 @@ func present(actor:HutorResident, record:HutorDailyResidentState, look:StringNam
     var previous:=sprite.animation;var frame:=sprite.frame;var progress:=sprite.frame_progress
     var playing:=sprite.is_playing()
     super.present(actor,record,look,delta)
+    if not last_work.is_empty():sprite.flip_h=false
     if actor.state==actor.State.TALKING:
         if (_washing or _kneeling) and not _talk_recovered:
             _rising=true;_washing=false;_kneeling=false;_talk_recovered=true
