@@ -1,0 +1,709 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: inn existing transition starts
+PASS: transition completes within deadline
+PASS: inn real current_scene interior
+PASS: inn same Hans
+PASS: inn camera scale preserved
+PASS: inn smaller floor area
+PASS: inn spawn exact point is navigable
+PASS: inn spawn physical foot clearance
+PASS: inn spawn connected to door
+PASS: inn exit actually selected
+PASS: inn preview innkeeper За стойкой exact point is navigable
+PASS: inn preview innkeeper За стойкой physical foot clearance
+PASS: inn preview innkeeper За стойкой connected to door
+PASS: inn preview innkeeper Проверить посуду exact point is navigable
+PASS: inn preview innkeeper Проверить посуду physical foot clearance
+PASS: inn preview innkeeper Проверить посуду connected to door
+PASS: inn preview innkeeper_wife Хозяйственная зона exact point is navigable
+PASS: inn preview innkeeper_wife Хозяйственная зона physical foot clearance
+PASS: inn preview innkeeper_wife Хозяйственная зона connected to door
+PASS: inn preview innkeeper_wife У очага exact point is navigable
+PASS: inn preview innkeeper_wife У очага physical foot clearance
+PASS: inn preview innkeeper_wife У очага connected to door
+PASS: inn preview innkeeper_wife Между столами exact point is navigable
+PASS: inn preview innkeeper_wife Между столами physical foot clearance
+PASS: inn preview innkeeper_wife Между столами connected to door
+PASS: inn preview innkeeper_wife Припасы exact point is navigable
+PASS: inn preview innkeeper_wife Припасы physical foot clearance
+PASS: inn preview innkeeper_wife Припасы connected to door
+PASS: inn schedule innkeeper/rest_night exact point is navigable
+PASS: inn schedule innkeeper/rest_night physical foot clearance
+PASS: inn schedule innkeeper/rest_night connected to door
+PASS: inn schedule innkeeper/prepare_inn exact point is navigable
+PASS: inn schedule innkeeper/prepare_inn physical foot clearance
+PASS: inn schedule innkeeper/prepare_inn connected to door
+PASS: inn schedule innkeeper/check_supplies exact point is navigable
+PASS: inn schedule innkeeper/check_supplies physical foot clearance
+PASS: inn schedule innkeeper/check_supplies connected to door
+PASS: inn schedule innkeeper/wipe_mug exact point is navigable
+PASS: inn schedule innkeeper/wipe_mug physical foot clearance
+PASS: inn schedule innkeeper/wipe_mug connected to door
+PASS: inn schedule innkeeper/arrange_dishes exact point is navigable
+PASS: inn schedule innkeeper/arrange_dishes physical foot clearance
+PASS: inn schedule innkeeper/arrange_dishes connected to door
+PASS: inn schedule innkeeper/wipe_mug exact point is navigable
+PASS: inn schedule innkeeper/wipe_mug physical foot clearance
+PASS: inn schedule innkeeper/wipe_mug connected to door
+PASS: inn schedule innkeeper/visit_tables exact point is navigable
+PASS: inn schedule innkeeper/visit_tables physical foot clearance
+PASS: inn schedule innkeeper/visit_tables connected to door
+PASS: inn schedule innkeeper/rest_night exact point is navigable
+PASS: inn schedule innkeeper/rest_night physical foot clearance
+PASS: inn schedule innkeeper/rest_night connected to door
+PASS: inn schedule innkeeper_wife/rest_night exact point is navigable
+PASS: inn schedule innkeeper_wife/rest_night physical foot clearance
+PASS: inn schedule innkeeper_wife/rest_night connected to door
+PASS: inn schedule innkeeper_wife/kitchen exact point is navigable
+PASS: inn schedule innkeeper_wife/kitchen physical foot clearance
+PASS: inn schedule innkeeper_wife/kitchen connected to door
+PASS: inn schedule innkeeper_wife/prepare_supplies exact point is navigable
+PASS: inn schedule innkeeper_wife/prepare_supplies physical foot clearance
+PASS: inn schedule innkeeper_wife/prepare_supplies connected to door
+PASS: inn schedule innkeeper_wife/clean_tables exact point is navigable
+PASS: inn schedule innkeeper_wife/clean_tables physical foot clearance
+PASS: inn schedule innkeeper_wife/clean_tables connected to door
+PASS: inn schedule innkeeper_wife/kitchen exact point is navigable
+PASS: inn schedule innkeeper_wife/kitchen physical foot clearance
+PASS: inn schedule innkeeper_wife/kitchen connected to door
+PASS: inn schedule innkeeper_wife/sweep_floor exact point is navigable
+PASS: inn schedule innkeeper_wife/sweep_floor physical foot clearance
+PASS: inn schedule innkeeper_wife/sweep_floor connected to door
+PASS: inn schedule innkeeper_wife/clean_tables exact point is navigable
+PASS: inn schedule innkeeper_wife/clean_tables physical foot clearance
+PASS: inn schedule innkeeper_wife/clean_tables connected to door
+PASS: inn schedule innkeeper_wife/kitchen exact point is navigable
+PASS: inn schedule innkeeper_wife/kitchen physical foot clearance
+PASS: inn schedule innkeeper_wife/kitchen connected to door
+PASS: inn schedule innkeeper_wife/rest_night exact point is navigable
+PASS: inn schedule innkeeper_wife/rest_night physical foot clearance
+PASS: inn schedule innkeeper_wife/rest_night connected to door
+PASS: inn proportional FrontDoor
+PASS: inn proportional Counter
+PASS: inn contact shadow Counter
+PASS: inn proportional Cups
+PASS: inn proportional Dishes
+PASS: inn proportional BarrelA
+PASS: inn contact shadow BarrelA
+PASS: inn proportional BarrelB
+PASS: inn contact shadow BarrelB
+PASS: inn proportional Fireplace
+PASS: inn contact shadow Fireplace
+PASS: inn proportional TableA
+PASS: inn contact shadow TableA
+PASS: inn proportional TableB
+PASS: inn contact shadow TableB
+PASS: inn proportional TableC
+PASS: inn contact shadow TableC
+PASS: inn proportional BenchA
+PASS: inn contact shadow BenchA
+PASS: inn proportional BenchB
+PASS: inn contact shadow BenchB
+PASS: inn proportional BenchC
+PASS: inn contact shadow BenchC
+PASS: inn proportional StoreDoor
+PASS: inn proportional Food
+PASS: inn proportional Sacks
+PASS: inn contact shadow Sacks
+PASS: inn proportional SupplyBasket
+PASS: inn contact shadow SupplyBasket
+PASS: inn proportional KitchenPots
+PASS: inn proportional CandleA
+PASS: inn proportional CandleB
+PASS: inn proportional Lamp
+PASS: inn proportional HearthLogs
+PASS: inn contact shadow HearthLogs
+PASS: inn proportional BarBackCrate
+PASS: inn contact shadow BarBackCrate
+PASS: inn proportional BarBackSack
+PASS: inn contact shadow BarBackSack
+PASS: inn proportional DryHerbBeam
+PASS: inn proportional KitchenShelf
+PASS: inn proportional KitchenClay
+PASS: inn contact shadow KitchenClay
+PASS: inn proportional RoundTableMugs
+PASS: inn proportional SpareStool
+PASS: inn contact shadow SpareStool
+PASS: inn proportional SpareStool2
+PASS: inn contact shadow SpareStool2
+PASS: inn proportional BreadBasket
+PASS: inn contact shadow BreadBasket
+PASS: inn proportional CounterJug
+PASS: inn proportional CounterLamp
+PASS: inn proportional FireIron
+PASS: inn proportional TavernCloth
+PASS: inn proportional ExtraKeg
+PASS: inn contact shadow ExtraKeg
+PASS: inn proportional MugShelf
+PASS: inn persistent elder
+PASS: inn persistent innkeeper
+PASS: inn persistent innkeeper_wife
+PASS: inn persistent woodcutter
+PASS: inn persistent woodcutter_wife
+PASS: inn persistent woodcutter_son
+PASS: inn persistent herbalist
+PASS: inn persistent herbalist_brother
+PASS: inn persistent old_man
+PASS: inn exit transition starts
+PASS: transition completes within deadline
+PASS: inn returned outside with control
+PASS: elder existing transition starts
+PASS: transition completes within deadline
+PASS: elder real current_scene interior
+PASS: elder same Hans
+PASS: elder camera scale preserved
+PASS: elder smaller floor area
+PASS: elder spawn exact point is navigable
+PASS: elder spawn physical foot clearance
+PASS: elder spawn connected to door
+PASS: elder exit actually selected
+PASS: elder preview elder За рабочим столом exact point is navigable
+PASS: elder preview elder За рабочим столом physical foot clearance
+PASS: elder preview elder За рабочим столом connected to door
+PASS: elder preview elder У книг exact point is navigable
+PASS: elder preview elder У книг physical foot clearance
+PASS: elder preview elder У книг connected to door
+PASS: elder preview elder Осмотреть комнату exact point is navigable
+PASS: elder preview elder Осмотреть комнату physical foot clearance
+PASS: elder preview elder Осмотреть комнату connected to door
+PASS: elder preview elder У выхода exact point is navigable
+PASS: elder preview elder У выхода physical foot clearance
+PASS: elder preview elder У выхода connected to door
+PASS: elder schedule elder/rest_night exact point is navigable
+PASS: elder schedule elder/rest_night physical foot clearance
+PASS: elder schedule elder/rest_night connected to door
+PASS: elder schedule elder/read_documents exact point is navigable
+PASS: elder schedule elder/read_documents physical foot clearance
+PASS: elder schedule elder/read_documents connected to door
+PASS: elder schedule elder/ponder exact point is navigable
+PASS: elder schedule elder/ponder physical foot clearance
+PASS: elder schedule elder/ponder connected to door
+PASS: elder schedule elder/read_documents exact point is navigable
+PASS: elder schedule elder/read_documents physical foot clearance
+PASS: elder schedule elder/read_documents connected to door
+PASS: elder schedule elder/ponder exact point is navigable
+PASS: elder schedule elder/ponder physical foot clearance
+PASS: elder schedule elder/ponder connected to door
+PASS: elder schedule elder/rest_night exact point is navigable
+PASS: elder schedule elder/rest_night physical foot clearance
+PASS: elder schedule elder/rest_night connected to door
+PASS: elder proportional FrontDoor
+PASS: elder proportional Desk
+PASS: elder contact shadow Desk
+PASS: elder proportional Chair
+PASS: elder contact shadow Chair
+PASS: elder proportional GuestChair
+PASS: elder contact shadow GuestChair
+PASS: elder proportional GuestChair2
+PASS: elder contact shadow GuestChair2
+PASS: elder proportional BooksA
+PASS: elder proportional BooksB
+PASS: elder proportional Documents
+PASS: elder proportional Chest
+PASS: elder contact shadow Chest
+PASS: elder proportional Bed
+PASS: elder contact shadow Bed
+PASS: elder proportional Hearth
+PASS: elder contact shadow Hearth
+PASS: elder proportional WallCloth
+PASS: elder proportional CandleA
+PASS: elder proportional CandleB
+PASS: elder proportional DistrictMap
+PASS: elder proportional Strongbox
+PASS: elder contact shadow Strongbox
+PASS: elder proportional BedsideStool
+PASS: elder contact shadow BedsideStool
+PASS: elder proportional DocumentStack
+PASS: elder proportional InkBottle
+PASS: elder proportional HearthLogs
+PASS: elder contact shadow HearthLogs
+PASS: elder proportional BookChest
+PASS: elder contact shadow BookChest
+PASS: elder proportional Window
+PASS: elder proportional WaterJug
+PASS: elder contact shadow WaterJug
+PASS: elder proportional DeskLamp
+PASS: elder proportional SpareBooks
+PASS: elder persistent elder
+PASS: elder persistent innkeeper
+PASS: elder persistent innkeeper_wife
+PASS: elder persistent woodcutter
+PASS: elder persistent woodcutter_wife
+PASS: elder persistent woodcutter_son
+PASS: elder persistent herbalist
+PASS: elder persistent herbalist_brother
+PASS: elder persistent old_man
+PASS: elder exit transition starts
+PASS: transition completes within deadline
+PASS: elder returned outside with control
+PASS: herbalist existing transition starts
+PASS: transition completes within deadline
+PASS: herbalist real current_scene interior
+PASS: herbalist same Hans
+PASS: herbalist camera scale preserved
+PASS: herbalist smaller floor area
+PASS: herbalist spawn exact point is navigable
+PASS: herbalist spawn physical foot clearance
+PASS: herbalist spawn connected to door
+PASS: herbalist exit actually selected
+PASS: herbalist preview herbalist Работа с травами exact point is navigable
+PASS: herbalist preview herbalist Работа с травами physical foot clearance
+PASS: herbalist preview herbalist Работа с травами connected to door
+PASS: herbalist preview herbalist У полки exact point is navigable
+PASS: herbalist preview herbalist У полки physical foot clearance
+PASS: herbalist preview herbalist У полки connected to door
+PASS: herbalist preview herbalist Проверить котёл exact point is navigable
+PASS: herbalist preview herbalist Проверить котёл physical foot clearance
+PASS: herbalist preview herbalist Проверить котёл connected to door
+PASS: herbalist preview herbalist У двери exact point is navigable
+PASS: herbalist preview herbalist У двери physical foot clearance
+PASS: herbalist preview herbalist У двери connected to door
+PASS: herbalist preview herbalist_brother Отдохнуть дома exact point is navigable
+PASS: herbalist preview herbalist_brother Отдохнуть дома physical foot clearance
+PASS: herbalist preview herbalist_brother Отдохнуть дома connected to door
+PASS: herbalist preview herbalist_brother Прибрать у постели exact point is navigable
+PASS: herbalist preview herbalist_brother Прибрать у постели physical foot clearance
+PASS: herbalist preview herbalist_brother Прибрать у постели connected to door
+PASS: herbalist preview herbalist_brother У двери exact point is navigable
+PASS: herbalist preview herbalist_brother У двери physical foot clearance
+PASS: herbalist preview herbalist_brother У двери connected to door
+PASS: herbalist schedule herbalist/rest_night exact point is navigable
+PASS: herbalist schedule herbalist/rest_night physical foot clearance
+PASS: herbalist schedule herbalist/rest_night connected to door
+PASS: herbalist schedule herbalist/sort_herbs exact point is navigable
+PASS: herbalist schedule herbalist/sort_herbs physical foot clearance
+PASS: herbalist schedule herbalist/sort_herbs connected to door
+PASS: herbalist schedule herbalist/dry_plants exact point is navigable
+PASS: herbalist schedule herbalist/dry_plants physical foot clearance
+PASS: herbalist schedule herbalist/dry_plants connected to door
+PASS: herbalist schedule herbalist/brew exact point is navigable
+PASS: herbalist schedule herbalist/brew physical foot clearance
+PASS: herbalist schedule herbalist/brew connected to door
+PASS: herbalist schedule herbalist/sort_herbs exact point is navigable
+PASS: herbalist schedule herbalist/sort_herbs physical foot clearance
+PASS: herbalist schedule herbalist/sort_herbs connected to door
+PASS: herbalist schedule herbalist/rest_night exact point is navigable
+PASS: herbalist schedule herbalist/rest_night physical foot clearance
+PASS: herbalist schedule herbalist/rest_night connected to door
+PASS: herbalist schedule herbalist_brother/rest_night exact point is navigable
+PASS: herbalist schedule herbalist_brother/rest_night physical foot clearance
+PASS: herbalist schedule herbalist_brother/rest_night connected to door
+PASS: herbalist schedule herbalist_brother/household exact point is navigable
+PASS: herbalist schedule herbalist_brother/household physical foot clearance
+PASS: herbalist schedule herbalist_brother/household connected to door
+PASS: herbalist schedule herbalist_brother/prepare_work exact point is navigable
+PASS: herbalist schedule herbalist_brother/prepare_work physical foot clearance
+PASS: herbalist schedule herbalist_brother/prepare_work connected to door
+PASS: herbalist schedule herbalist_brother/home_rest exact point is navigable
+PASS: herbalist schedule herbalist_brother/home_rest physical foot clearance
+PASS: herbalist schedule herbalist_brother/home_rest connected to door
+PASS: herbalist schedule herbalist_brother/household exact point is navigable
+PASS: herbalist schedule herbalist_brother/household physical foot clearance
+PASS: herbalist schedule herbalist_brother/household connected to door
+PASS: herbalist schedule herbalist_brother/rest_night exact point is navigable
+PASS: herbalist schedule herbalist_brother/rest_night physical foot clearance
+PASS: herbalist schedule herbalist_brother/rest_night connected to door
+PASS: herbalist proportional FrontDoor
+PASS: herbalist proportional BedA
+PASS: herbalist contact shadow BedA
+PASS: herbalist proportional BedB
+PASS: herbalist contact shadow BedB
+PASS: herbalist proportional Table
+PASS: herbalist contact shadow Table
+PASS: herbalist proportional Stove
+PASS: herbalist contact shadow Stove
+PASS: herbalist proportional HerbShelf
+PASS: herbalist proportional HerbLine
+PASS: herbalist proportional Bottles
+PASS: herbalist contact shadow Bottles
+PASS: herbalist proportional BasketA
+PASS: herbalist contact shadow BasketA
+PASS: herbalist proportional BasketB
+PASS: herbalist contact shadow BasketB
+PASS: herbalist proportional Cauldron
+PASS: herbalist contact shadow Cauldron
+PASS: herbalist proportional ClayPotA
+PASS: herbalist contact shadow ClayPotA
+PASS: herbalist proportional ClayPotB
+PASS: herbalist contact shadow ClayPotB
+PASS: herbalist proportional DryHerbs
+PASS: herbalist proportional KitchenPots
+PASS: herbalist proportional WornBoardsA
+PASS: herbalist proportional WornBoardsB
+PASS: herbalist proportional Candle
+PASS: herbalist proportional Roots
+PASS: herbalist contact shadow Roots
+PASS: herbalist proportional RoughShelf
+PASS: herbalist proportional HangingRoots
+PASS: herbalist proportional WornLinen
+PASS: herbalist proportional ClayMortar
+PASS: herbalist proportional HerbJar
+PASS: herbalist proportional HearthWood
+PASS: herbalist contact shadow HearthWood
+PASS: herbalist proportional Broom
+PASS: herbalist proportional OldStool
+PASS: herbalist contact shadow OldStool
+PASS: herbalist proportional SeedBasket
+PASS: herbalist contact shadow SeedBasket
+PASS: herbalist proportional BedsideChest
+PASS: herbalist contact shadow BedsideChest
+PASS: herbalist persistent elder
+PASS: herbalist persistent innkeeper
+PASS: herbalist persistent innkeeper_wife
+PASS: herbalist persistent woodcutter
+PASS: herbalist persistent woodcutter_wife
+PASS: herbalist persistent woodcutter_son
+PASS: herbalist persistent herbalist
+PASS: herbalist persistent herbalist_brother
+PASS: herbalist persistent old_man
+PASS: herbalist exit transition starts
+PASS: transition completes within deadline
+PASS: herbalist returned outside with control
+PASS: woodcutter existing transition starts
+PASS: transition completes within deadline
+PASS: woodcutter real current_scene interior
+PASS: woodcutter same Hans
+PASS: woodcutter camera scale preserved
+PASS: woodcutter smaller floor area
+PASS: woodcutter spawn exact point is navigable
+PASS: woodcutter spawn physical foot clearance
+PASS: woodcutter spawn connected to door
+PASS: woodcutter exit actually selected
+PASS: woodcutter/FatherRest exact point is navigable
+PASS: woodcutter/FatherRest physical foot clearance
+PASS: woodcutter/FatherRest connected to door
+PASS: woodcutter/Cooking exact point is navigable
+PASS: woodcutter/Cooking physical foot clearance
+PASS: woodcutter/Cooking connected to door
+PASS: woodcutter/Housekeeping exact point is navigable
+PASS: woodcutter/Housekeeping physical foot clearance
+PASS: woodcutter/Housekeeping connected to door
+PASS: woodcutter/ChildPlay exact point is navigable
+PASS: woodcutter/ChildPlay physical foot clearance
+PASS: woodcutter/ChildPlay connected to door
+PASS: woodcutter/YardExit exact point is navigable
+PASS: woodcutter/YardExit physical foot clearance
+PASS: woodcutter/YardExit connected to door
+PASS: woodcutter preview woodcutter Отдых у лавки exact point is navigable
+PASS: woodcutter preview woodcutter Отдых у лавки physical foot clearance
+PASS: woodcutter preview woodcutter Отдых у лавки connected to door
+PASS: woodcutter preview woodcutter У семейного стола exact point is navigable
+PASS: woodcutter preview woodcutter У семейного стола physical foot clearance
+PASS: woodcutter preview woodcutter У семейного стола connected to door
+PASS: woodcutter preview woodcutter У выхода exact point is navigable
+PASS: woodcutter preview woodcutter У выхода physical foot clearance
+PASS: woodcutter preview woodcutter У выхода connected to door
+PASS: woodcutter preview woodcutter_wife Кухонная зона exact point is navigable
+PASS: woodcutter preview woodcutter_wife Кухонная зона physical foot clearance
+PASS: woodcutter preview woodcutter_wife Кухонная зона connected to door
+PASS: woodcutter preview woodcutter_wife Прибрать комнату exact point is navigable
+PASS: woodcutter preview woodcutter_wife Прибрать комнату physical foot clearance
+PASS: woodcutter preview woodcutter_wife Прибрать комнату connected to door
+PASS: woodcutter preview woodcutter_wife У выхода exact point is navigable
+PASS: woodcutter preview woodcutter_wife У выхода physical foot clearance
+PASS: woodcutter preview woodcutter_wife У выхода connected to door
+PASS: woodcutter preview woodcutter_son Игрушки рядом с постелью exact point is navigable
+PASS: woodcutter preview woodcutter_son Игрушки рядом с постелью physical foot clearance
+PASS: woodcutter preview woodcutter_son Игрушки рядом с постелью connected to door
+PASS: woodcutter preview woodcutter_son У стола exact point is navigable
+PASS: woodcutter preview woodcutter_son У стола physical foot clearance
+PASS: woodcutter preview woodcutter_son У стола connected to door
+PASS: woodcutter preview woodcutter_son Обратно во двор exact point is navigable
+PASS: woodcutter preview woodcutter_son Обратно во двор physical foot clearance
+PASS: woodcutter preview woodcutter_son Обратно во двор connected to door
+PASS: woodcutter schedule woodcutter/rest_night exact point is navigable
+PASS: woodcutter schedule woodcutter/rest_night physical foot clearance
+PASS: woodcutter schedule woodcutter/rest_night connected to door
+PASS: woodcutter schedule woodcutter/take_tool exact point is navigable
+PASS: woodcutter schedule woodcutter/take_tool physical foot clearance
+PASS: woodcutter schedule woodcutter/take_tool connected to door
+PASS: woodcutter schedule woodcutter/prepare_work exact point is navigable
+PASS: woodcutter schedule woodcutter/prepare_work physical foot clearance
+PASS: woodcutter schedule woodcutter/prepare_work connected to door
+PASS: woodcutter schedule woodcutter/rest_after_work exact point is navigable
+PASS: woodcutter schedule woodcutter/rest_after_work physical foot clearance
+PASS: woodcutter schedule woodcutter/rest_after_work connected to door
+PASS: woodcutter schedule woodcutter/family_meal exact point is navigable
+PASS: woodcutter schedule woodcutter/family_meal physical foot clearance
+PASS: woodcutter schedule woodcutter/family_meal connected to door
+PASS: woodcutter schedule woodcutter/rest_night exact point is navigable
+PASS: woodcutter schedule woodcutter/rest_night physical foot clearance
+PASS: woodcutter schedule woodcutter/rest_night connected to door
+PASS: woodcutter schedule woodcutter_wife/rest_night exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/rest_night physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/rest_night connected to door
+PASS: woodcutter schedule woodcutter_wife/cook exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/cook physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/cook connected to door
+PASS: woodcutter schedule woodcutter_wife/serve exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/serve physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/serve connected to door
+PASS: woodcutter schedule woodcutter_wife/cook exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/cook physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/cook connected to door
+PASS: woodcutter schedule woodcutter_wife/clean exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/clean physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/clean connected to door
+PASS: woodcutter schedule woodcutter_wife/family_meal exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/family_meal physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/family_meal connected to door
+PASS: woodcutter schedule woodcutter_wife/household exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/household physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/household connected to door
+PASS: woodcutter schedule woodcutter_wife/rest_night exact point is navigable
+PASS: woodcutter schedule woodcutter_wife/rest_night physical foot clearance
+PASS: woodcutter schedule woodcutter_wife/rest_night connected to door
+PASS: woodcutter schedule woodcutter_son/rest_night exact point is navigable
+PASS: woodcutter schedule woodcutter_son/rest_night physical foot clearance
+PASS: woodcutter schedule woodcutter_son/rest_night connected to door
+PASS: woodcutter schedule woodcutter_son/home_play exact point is navigable
+PASS: woodcutter schedule woodcutter_son/home_play physical foot clearance
+PASS: woodcutter schedule woodcutter_son/home_play connected to door
+PASS: woodcutter schedule woodcutter_son/near_mother exact point is navigable
+PASS: woodcutter schedule woodcutter_son/near_mother physical foot clearance
+PASS: woodcutter schedule woodcutter_son/near_mother connected to door
+PASS: woodcutter schedule woodcutter_son/home_play exact point is navigable
+PASS: woodcutter schedule woodcutter_son/home_play physical foot clearance
+PASS: woodcutter schedule woodcutter_son/home_play connected to door
+PASS: woodcutter schedule woodcutter_son/family_meal exact point is navigable
+PASS: woodcutter schedule woodcutter_son/family_meal physical foot clearance
+PASS: woodcutter schedule woodcutter_son/family_meal connected to door
+PASS: woodcutter schedule woodcutter_son/rest_night exact point is navigable
+PASS: woodcutter schedule woodcutter_son/rest_night physical foot clearance
+PASS: woodcutter schedule woodcutter_son/rest_night connected to door
+PASS: woodcutter proportional FrontDoor
+PASS: woodcutter proportional ParentsBed
+PASS: woodcutter contact shadow ParentsBed
+PASS: woodcutter proportional SonBed
+PASS: woodcutter contact shadow SonBed
+PASS: woodcutter proportional Stove
+PASS: woodcutter contact shadow Stove
+PASS: woodcutter proportional DiningTable
+PASS: woodcutter contact shadow DiningTable
+PASS: woodcutter proportional ChairA
+PASS: woodcutter contact shadow ChairA
+PASS: woodcutter proportional ChairB
+PASS: woodcutter contact shadow ChairB
+PASS: woodcutter proportional ChairC
+PASS: woodcutter contact shadow ChairC
+PASS: woodcutter proportional RestBench
+PASS: woodcutter contact shadow RestBench
+PASS: woodcutter proportional ClothesChest
+PASS: woodcutter contact shadow ClothesChest
+PASS: woodcutter proportional Dishes
+PASS: woodcutter proportional Utensils
+PASS: woodcutter proportional KitchenPot
+PASS: woodcutter contact shadow KitchenPot
+PASS: woodcutter proportional Linen
+PASS: woodcutter proportional Boots
+PASS: woodcutter proportional AxeByWall
+PASS: woodcutter proportional ToyCart
+PASS: woodcutter proportional ToyBlocks
+PASS: woodcutter proportional Window
+PASS: woodcutter proportional Lamp
+PASS: woodcutter proportional StoveWood
+PASS: woodcutter contact shadow StoveWood
+PASS: woodcutter proportional FoodSack
+PASS: woodcutter contact shadow FoodSack
+PASS: woodcutter proportional RootBasket
+PASS: woodcutter contact shadow RootBasket
+PASS: woodcutter proportional MealDishes
+PASS: woodcutter proportional WorkTools
+PASS: woodcutter proportional FamilyJug
+PASS: woodcutter proportional SmallPantry
+PASS: woodcutter contact shadow SmallPantry
+PASS: woodcutter proportional Kindling
+PASS: woodcutter contact shadow Kindling
+PASS: woodcutter proportional ChildStool
+PASS: woodcutter contact shadow ChildStool
+PASS: woodcutter proportional BedsideLamp
+PASS: woodcutter persistent elder
+PASS: woodcutter persistent innkeeper
+PASS: woodcutter persistent innkeeper_wife
+PASS: woodcutter persistent woodcutter
+PASS: woodcutter persistent woodcutter_wife
+PASS: woodcutter persistent woodcutter_son
+PASS: woodcutter persistent herbalist
+PASS: woodcutter persistent herbalist_brother
+PASS: woodcutter persistent old_man
+PASS: woodcutter exit transition starts
+PASS: transition completes within deadline
+PASS: woodcutter returned outside with control
+PASS: old_man existing transition starts
+PASS: transition completes within deadline
+PASS: old_man real current_scene interior
+PASS: old_man same Hans
+PASS: old_man camera scale preserved
+PASS: old_man smaller floor area
+PASS: old_man spawn exact point is navigable
+PASS: old_man spawn physical foot clearance
+PASS: old_man spawn connected to door
+PASS: old_man exit actually selected
+PASS: old_man/ChairRest exact point is navigable
+PASS: old_man/ChairRest physical foot clearance
+PASS: old_man/ChairRest connected to door
+PASS: old_man/Reading exact point is navigable
+PASS: old_man/Reading physical foot clearance
+PASS: old_man/Reading connected to door
+PASS: old_man/PineWalkExit exact point is navigable
+PASS: old_man/PineWalkExit physical foot clearance
+PASS: old_man/PineWalkExit connected to door
+PASS: old_man preview old_man Отдых возле кресла exact point is navigable
+PASS: old_man preview old_man Отдых возле кресла physical foot clearance
+PASS: old_man preview old_man Отдых возле кресла connected to door
+PASS: old_man preview old_man У столика с книгами exact point is navigable
+PASS: old_man preview old_man У столика с книгами physical foot clearance
+PASS: old_man preview old_man У столика с книгами connected to door
+PASS: old_man preview old_man К прогулке у сосны exact point is navigable
+PASS: old_man preview old_man К прогулке у сосны physical foot clearance
+PASS: old_man preview old_man К прогулке у сосны connected to door
+PASS: old_man schedule old_man/rest_night exact point is navigable
+PASS: old_man schedule old_man/rest_night physical foot clearance
+PASS: old_man schedule old_man/rest_night connected to door
+PASS: old_man schedule old_man/rest_by_hearth exact point is navigable
+PASS: old_man schedule old_man/rest_by_hearth physical foot clearance
+PASS: old_man schedule old_man/rest_by_hearth connected to door
+PASS: old_man schedule old_man/read_old_papers exact point is navigable
+PASS: old_man schedule old_man/read_old_papers physical foot clearance
+PASS: old_man schedule old_man/read_old_papers connected to door
+PASS: old_man schedule old_man/rest_night exact point is navigable
+PASS: old_man schedule old_man/rest_night physical foot clearance
+PASS: old_man schedule old_man/rest_night connected to door
+PASS: old_man proportional FrontDoor
+PASS: old_man proportional OldBed
+PASS: old_man contact shadow OldBed
+PASS: old_man proportional OldStove
+PASS: old_man contact shadow OldStove
+PASS: old_man proportional Armchair
+PASS: old_man contact shadow Armchair
+PASS: old_man proportional SideTable
+PASS: old_man contact shadow SideTable
+PASS: old_man proportional Pipe
+PASS: old_man proportional SmokingPouch
+PASS: old_man proportional Books
+PASS: old_man proportional OldPapers
+PASS: old_man proportional Chest
+PASS: old_man contact shadow Chest
+PASS: old_man proportional KeepsakeCloth
+PASS: old_man proportional KeepsakeBox
+PASS: old_man proportional Window
+PASS: old_man proportional Lamp
+PASS: old_man proportional WornBoards
+PASS: old_man proportional HearthWood
+PASS: old_man contact shadow HearthWood
+PASS: old_man proportional OldClayJug
+PASS: old_man contact shadow OldClayJug
+PASS: old_man proportional DriedPlants
+PASS: old_man proportional BedsideBoots
+PASS: old_man proportional FoldedLinen
+PASS: old_man proportional BowlOnTable
+PASS: old_man proportional SavedLetters
+PASS: old_man proportional OldShelf
+PASS: old_man persistent elder
+PASS: old_man persistent innkeeper
+PASS: old_man persistent innkeeper_wife
+PASS: old_man persistent woodcutter
+PASS: old_man persistent woodcutter_wife
+PASS: old_man persistent woodcutter_son
+PASS: old_man persistent herbalist
+PASS: old_man persistent herbalist_brother
+PASS: old_man persistent old_man
+PASS: old_man exit transition starts
+PASS: transition completes within deadline
+PASS: old_man returned outside with control
+PASS: storehouse existing transition starts
+PASS: transition completes within deadline
+PASS: storehouse real current_scene interior
+PASS: storehouse same Hans
+PASS: storehouse camera scale preserved
+PASS: storehouse smaller floor area
+PASS: storehouse spawn exact point is navigable
+PASS: storehouse spawn physical foot clearance
+PASS: storehouse spawn connected to door
+PASS: storehouse exit actually selected
+PASS: storehouse/BackAisle exact point is navigable
+PASS: storehouse/BackAisle physical foot clearance
+PASS: storehouse/BackAisle connected to door
+PASS: storehouse/RightAisle exact point is navigable
+PASS: storehouse/RightAisle physical foot clearance
+PASS: storehouse/RightAisle connected to door
+PASS: storehouse/LeftAisle exact point is navigable
+PASS: storehouse/LeftAisle physical foot clearance
+PASS: storehouse/LeftAisle connected to door
+PASS: storehouse/WorkAccess exact point is navigable
+PASS: storehouse/WorkAccess physical foot clearance
+PASS: storehouse/WorkAccess connected to door
+PASS: storehouse proportional FrontDoor
+PASS: storehouse proportional ShelfA
+PASS: storehouse contact shadow ShelfA
+PASS: storehouse proportional ShelfB
+PASS: storehouse contact shadow ShelfB
+PASS: storehouse proportional ShelfC
+PASS: storehouse contact shadow ShelfC
+PASS: storehouse proportional GrainA
+PASS: storehouse contact shadow GrainA
+PASS: storehouse proportional GrainB
+PASS: storehouse contact shadow GrainB
+PASS: storehouse proportional GrainC
+PASS: storehouse contact shadow GrainC
+PASS: storehouse proportional GrainD
+PASS: storehouse contact shadow GrainD
+PASS: storehouse proportional GrainE
+PASS: storehouse contact shadow GrainE
+PASS: storehouse proportional BarrelA
+PASS: storehouse contact shadow BarrelA
+PASS: storehouse proportional BarrelB
+PASS: storehouse contact shadow BarrelB
+PASS: storehouse proportional BasketA
+PASS: storehouse contact shadow BasketA
+PASS: storehouse proportional BasketB
+PASS: storehouse contact shadow BasketB
+PASS: storehouse proportional CrateA
+PASS: storehouse contact shadow CrateA
+PASS: storehouse proportional CrateB
+PASS: storehouse contact shadow CrateB
+PASS: storehouse proportional CrateC
+PASS: storehouse contact shadow CrateC
+PASS: storehouse proportional Firewood
+PASS: storehouse contact shadow Firewood
+PASS: storehouse proportional Ropes
+PASS: storehouse proportional Tools
+PASS: storehouse proportional Shovel
+PASS: storehouse proportional WorkTable
+PASS: storehouse contact shadow WorkTable
+PASS: storehouse proportional Utensils
+PASS: storehouse proportional WindowA
+PASS: storehouse proportional WindowB
+PASS: storehouse proportional Lantern
+PASS: storehouse proportional FlourReserve
+PASS: storehouse contact shadow FlourReserve
+PASS: storehouse proportional GrainReserve
+PASS: storehouse contact shadow GrainReserve
+PASS: storehouse proportional WaterBarrel
+PASS: storehouse contact shadow WaterBarrel
+PASS: storehouse proportional RopeShelf
+PASS: storehouse proportional PotShelf
+PASS: storehouse proportional StockLedger
+PASS: storehouse proportional InventoryLamp
+PASS: storehouse proportional StockInk
+PASS: storehouse proportional ToolCrate
+PASS: storehouse contact shadow ToolCrate
+PASS: storehouse proportional ClayVessels
+PASS: storehouse contact shadow ClayVessels
+PASS: storehouse proportional SpareAxe
+PASS: storehouse proportional SmallSupplies
+PASS: storehouse proportional RopeHooks
+PASS: storehouse persistent elder
+PASS: storehouse persistent innkeeper
+PASS: storehouse persistent innkeeper_wife
+PASS: storehouse persistent woodcutter
+PASS: storehouse persistent woodcutter_wife
+PASS: storehouse persistent woodcutter_son
+PASS: storehouse persistent herbalist
+PASS: storehouse persistent herbalist_brother
+PASS: storehouse persistent old_man
+PASS: storehouse exit transition starts
+PASS: transition completes within deadline
+PASS: storehouse returned outside with control
+RESULT: 706 stage51 room checks passed, 0 failed

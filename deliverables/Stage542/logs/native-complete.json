@@ -1,0 +1,14 @@
+{
+  "normal_main": true,
+  "native_keyboard": true,
+  "woodcutter_roundtrip": true,
+  "checks": {
+    "clock_running": true,
+    "configured_main": true,
+    "life_initialized": true,
+    "nine_residents": true,
+    "six_registered_doors": true,
+    "travel_bound": true
+  },
+  "clock_speed": 1.0
+}

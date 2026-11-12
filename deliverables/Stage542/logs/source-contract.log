@@ -1,0 +1,3 @@
+PASS: 67 unique transparent poses, four-way walk/carry, safe bounds/pivots; Hans, other eight NPC resources, schedules, maps/interiors, dialogues/audio unchanged
+idle_down bbox (35, 33, 55, 82) shoulder-clothing-band 44 52 span 20
+carry_idle_down bbox (36, 33, 55, 82) shoulder-clothing-band 44 52 span 19
