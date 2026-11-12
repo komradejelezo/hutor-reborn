@@ -1,0 +1,38 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: one original woodcutter materialized, no clone
+PASS: workshop corridor physically clear
+WOOD542_REVIEW_READY
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: original E target selects this resident: mid-work
+PASS: real dialogue pauses actor: mid-work
+PASS: dialogue returns to original occupation state: mid-work
+PASS: work stroke resumes after conversation
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: axe impact at bound stump, actor planted
+PASS: physical path completed without crossing props
+PASS: ground logs hidden when lifted
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: physical path completed without crossing props
+PASS: placed logs remain in world
+PASS: original E target selects this resident: after-work
+PASS: real dialogue pauses actor: after-work
+PASS: dialogue returns to original occupation state: after-work
+RESULT: 30 woodcutter workshop checks passed, 0 failed
+WOOD542_REVIEW_COMPLETE

@@ -1,0 +1,167 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: only pilot scene loads uniform finish and colour grade
+PASS: other resident presentation unchanged: elder
+PASS: other resident presentation unchanged: innkeeper
+PASS: other resident presentation unchanged: innkeeper_wife
+PASS: other resident presentation unchanged: woodcutter_wife
+PASS: other resident presentation unchanged: woodcutter_son
+PASS: other resident presentation unchanged: herbalist
+PASS: other resident presentation unchanged: herbalist_brother
+PASS: other resident presentation unchanged: old_man
+PASS: body/navigation radius remains original; only art grows
+PASS: comparison positions have clear foot collisions
+PASS: clock phases do not replace the existing static world tint
+PASS: palette preserves every alpha texel / no halo
+PASS: palette is visible but retains readable luminance
+PASS: warm red/blue separation is reduced
+PASS: visible height increases about eight percent
+PASS: sole stays on the same ground baseline
+PASS: scaled full-body bounds: carry_down/0
+PASS: scaled full-body bounds: carry_down/1
+PASS: scaled full-body bounds: carry_down/2
+PASS: scaled full-body bounds: carry_down/3
+PASS: scaled full-body bounds: carry_down/4
+PASS: scaled full-body bounds: carry_down/5
+PASS: scaled full-body bounds: carry_idle_down/0
+PASS: scaled full-body bounds: carry_idle_left/0
+PASS: scaled full-body bounds: carry_idle_right/0
+PASS: scaled full-body bounds: carry_idle_up/0
+PASS: scaled full-body bounds: carry_left/0
+PASS: scaled full-body bounds: carry_left/1
+PASS: scaled full-body bounds: carry_left/2
+PASS: scaled full-body bounds: carry_left/3
+PASS: scaled full-body bounds: carry_left/4
+PASS: scaled full-body bounds: carry_left/5
+PASS: scaled full-body bounds: carry_logs/0
+PASS: scaled full-body bounds: carry_logs/1
+PASS: scaled full-body bounds: carry_logs/2
+PASS: scaled full-body bounds: carry_logs/3
+PASS: scaled full-body bounds: carry_logs/4
+PASS: scaled full-body bounds: carry_logs/5
+PASS: scaled full-body bounds: carry_right/0
+PASS: scaled full-body bounds: carry_right/1
+PASS: scaled full-body bounds: carry_right/2
+PASS: scaled full-body bounds: carry_right/3
+PASS: scaled full-body bounds: carry_right/4
+PASS: scaled full-body bounds: carry_right/5
+PASS: scaled full-body bounds: carry_up/0
+PASS: scaled full-body bounds: carry_up/1
+PASS: scaled full-body bounds: carry_up/2
+PASS: scaled full-body bounds: carry_up/3
+PASS: scaled full-body bounds: carry_up/4
+PASS: scaled full-body bounds: carry_up/5
+PASS: scaled full-body bounds: chop_wood/0
+PASS: scaled full-body bounds: chop_wood/1
+PASS: scaled full-body bounds: chop_wood/2
+PASS: scaled full-body bounds: chop_wood/3
+PASS: scaled full-body bounds: chop_wood/4
+PASS: scaled full-body bounds: chop_wood/5
+PASS: scaled full-body bounds: chop_wood/6
+PASS: scaled full-body bounds: chop_wood/7
+PASS: scaled full-body bounds: idle_down/0
+PASS: scaled full-body bounds: idle_down/1
+PASS: scaled full-body bounds: idle_left/0
+PASS: scaled full-body bounds: idle_left/1
+PASS: scaled full-body bounds: idle_right/0
+PASS: scaled full-body bounds: idle_right/1
+PASS: scaled full-body bounds: idle_up/0
+PASS: scaled full-body bounds: idle_up/1
+PASS: scaled full-body bounds: pick_up_log/0
+PASS: scaled full-body bounds: pick_up_log/1
+PASS: scaled full-body bounds: pick_up_log/2
+PASS: scaled full-body bounds: pick_up_log/3
+PASS: scaled full-body bounds: put_down_log/0
+PASS: scaled full-body bounds: put_down_log/1
+PASS: scaled full-body bounds: put_down_log/2
+PASS: scaled full-body bounds: put_down_log/3
+PASS: scaled full-body bounds: rest/0
+PASS: scaled full-body bounds: rest/1
+PASS: scaled full-body bounds: rest/2
+PASS: scaled full-body bounds: talk/0
+PASS: scaled full-body bounds: talk/1
+PASS: scaled full-body bounds: talk/2
+PASS: scaled full-body bounds: talk_down/0
+PASS: scaled full-body bounds: talk_down/1
+PASS: scaled full-body bounds: talk_down/2
+PASS: scaled full-body bounds: talk_left/0
+PASS: scaled full-body bounds: talk_left/1
+PASS: scaled full-body bounds: talk_right/0
+PASS: scaled full-body bounds: talk_right/1
+PASS: scaled full-body bounds: talk_up/0
+PASS: scaled full-body bounds: talk_up/1
+PASS: scaled full-body bounds: turn_down/0
+PASS: scaled full-body bounds: turn_left/0
+PASS: scaled full-body bounds: turn_right/0
+PASS: scaled full-body bounds: turn_up/0
+PASS: scaled full-body bounds: walk_down/0
+PASS: scaled full-body bounds: walk_down/1
+PASS: scaled full-body bounds: walk_down/2
+PASS: scaled full-body bounds: walk_down/3
+PASS: scaled full-body bounds: walk_down/4
+PASS: scaled full-body bounds: walk_down/5
+PASS: scaled full-body bounds: walk_left/0
+PASS: scaled full-body bounds: walk_left/1
+PASS: scaled full-body bounds: walk_left/2
+PASS: scaled full-body bounds: walk_left/3
+PASS: scaled full-body bounds: walk_left/4
+PASS: scaled full-body bounds: walk_left/5
+PASS: scaled full-body bounds: walk_right/0
+PASS: scaled full-body bounds: walk_right/1
+PASS: scaled full-body bounds: walk_right/2
+PASS: scaled full-body bounds: walk_right/3
+PASS: scaled full-body bounds: walk_right/4
+PASS: scaled full-body bounds: walk_right/5
+PASS: scaled full-body bounds: walk_up/0
+PASS: scaled full-body bounds: walk_up/1
+PASS: scaled full-body bounds: walk_up/2
+PASS: scaled full-body bounds: walk_up/3
+PASS: scaled full-body bounds: walk_up/4
+PASS: scaled full-body bounds: walk_up/5
+PASS: scaled full-body bounds: work_carry/0
+PASS: scaled full-body bounds: work_carry/1
+PASS: scaled full-body bounds: work_carry/2
+PASS: scaled full-body bounds: work_carry/3
+PASS: scaled full-body bounds: work_carry/4
+PASS: scaled full-body bounds: work_carry/5
+PASS: scaled full-body bounds: work_chop/0
+PASS: scaled full-body bounds: work_chop/1
+PASS: scaled full-body bounds: work_chop/2
+PASS: scaled full-body bounds: work_chop/3
+PASS: scaled full-body bounds: work_chop/4
+PASS: scaled full-body bounds: work_chop/5
+PASS: scaled full-body bounds: work_chop/6
+PASS: scaled full-body bounds: work_chop/7
+PASS: scaled full-body bounds: work_inspect/0
+PASS: scaled full-body bounds: work_inspect/1
+PASS: scaled full-body bounds: work_pick_up/0
+PASS: scaled full-body bounds: work_pick_up/1
+PASS: scaled full-body bounds: work_pick_up/2
+PASS: scaled full-body bounds: work_pick_up/3
+PASS: scaled full-body bounds: work_put_down/0
+PASS: scaled full-body bounds: work_put_down/1
+PASS: scaled full-body bounds: work_put_down/2
+PASS: scaled full-body bounds: work_put_down/3
+PASS: scaled full-body bounds: work_rest/0
+PASS: scaled full-body bounds: work_rest/1
+PASS: scaled full-body bounds: work_rest/2
+PASS: existing home transition works with scaled pilot
+PASS: transition completes within deadline
+PASS: original FatherRest feet remain outside furniture
+PASS: same original actor crosses scenes
+PASS: interior camera stays at approved scale
+PASS: real E selects the original woodcutter
+PASS: existing dialogue opens
+PASS: native portrait size / neutral
+PASS: integer placement fits existing frame / neutral
+PASS: native portrait size / joy
+PASS: integer placement fits existing frame / joy
+PASS: native portrait size / displeased
+PASS: integer placement fits existing frame / displeased
+PASS: native portrait size / anxious
+PASS: integer placement fits existing frame / anxious
+PASS: next resident restores original portrait layout
+RESULT: 161 finish/raster/portrait checks passed, 0 failed

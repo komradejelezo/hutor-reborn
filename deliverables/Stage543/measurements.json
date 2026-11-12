@@ -1,0 +1,25 @@
+[
+  {
+    "canvas_modulate": "(0.89, 0.91, 0.94, 1.0)",
+    "minute": 720,
+    "phase": "day"
+  },
+  {
+    "canvas_modulate": "(0.89, 0.91, 0.94, 1.0)",
+    "minute": 1140,
+    "phase": "evening"
+  },
+  {
+    "canvas_modulate": "(0.89, 0.91, 0.94, 1.0)",
+    "minute": 1380,
+    "phase": "night"
+  },
+  {
+    "alpha_mismatches": 0,
+    "luminance_ratio": 0.925344940294735,
+    "raster_after": "[P: (50, 43), S: (22, 53)]",
+    "raster_before": "[P: (51, 47), S: (20, 49)]",
+    "warm_after": 67.5921584442258,
+    "warm_before": 107.780394624919
+  }
+]

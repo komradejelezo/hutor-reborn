@@ -18,7 +18,7 @@ func run() -> void:
         var npc:HutorResident=r.actor
         check(npc.is_inside_tree() and npc.get_instance_id()==ids[StringName(id)],"same original actor visible: "+id)
         var sprite:AnimatedSprite2D=npc.get_node("AnimatedSprite2D")
-        check(sprite.texture_filter==CanvasItem.TEXTURE_FILTER_NEAREST and sprite.scale==Vector2.ONE and sprite.rotation==0,"undistorted nearest body: "+id)
+        check(sprite.texture_filter==CanvasItem.TEXTURE_FILTER_NEAREST and sprite.scale==Vector2.ONE*(1.08 if id=="woodcutter" else 1.0) and sprite.rotation==0,"undistorted nearest body: "+id)
         var f:SpriteFrames=sprite.sprite_frames
         check(int(f.get_meta("rework_version",0))==54,"approved Stage54 resource: "+id)
         for direction in ["down","up","left","right"]:
