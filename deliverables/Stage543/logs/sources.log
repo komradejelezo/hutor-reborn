@@ -1,0 +1,4 @@
+PASS: 636 old art/animation/scene/data/gameplay files unchanged from c90b6d3
+SHA256 HutorReborn/assets/npc/woodcutter542/game/frames.tres a191de5fe6b952a98cbbb03cbec67469108f63dfb095a651f9e4e42ec9a9c493
+SHA256 HutorReborn/assets/npc/woodcutter542/game/atlas.png d851cdf0dd7556ab37294389771cce9a66911be0916826278e54e57bad03de1e
+PASS: four unchanged six-pose walk cycles; no old file deleted

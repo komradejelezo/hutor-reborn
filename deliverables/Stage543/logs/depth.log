@@ -1,0 +1,30 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: woodcutter behind/house: 793 opaque pixels, 0 wrong
+PASS: woodcutter front/house: 791 opaque pixels, 0 wrong
+PASS: woodcutter behind/pine: 714 opaque pixels, 0 wrong
+PASS: woodcutter front/pine: 788 opaque pixels, 0 wrong
+PASS: woodcutter behind/fence: 34 opaque pixels, 0 wrong
+PASS: woodcutter front/fence: 230 opaque pixels, 0 wrong
+PASS: woodcutter behind/Hans: 374 opaque pixels, 0 wrong
+PASS: woodcutter front/Hans: 538 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/house: 286 opaque pixels, 0 wrong
+PASS: woodcutter_son front/house: 279 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/pine: 286 opaque pixels, 0 wrong
+PASS: woodcutter_son front/pine: 286 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/fence: 26 opaque pixels, 0 wrong
+PASS: woodcutter_son front/fence: 129 opaque pixels, 0 wrong
+PASS: woodcutter_son behind/Hans: 275 opaque pixels, 0 wrong
+PASS: woodcutter_son front/Hans: 165 opaque pixels, 0 wrong
+PASS: old_man behind/house: 693 opaque pixels, 0 wrong
+PASS: old_man front/house: 688 opaque pixels, 0 wrong
+PASS: old_man behind/pine: 605 opaque pixels, 0 wrong
+PASS: old_man front/pine: 693 opaque pixels, 0 wrong
+PASS: old_man behind/fence: 26 opaque pixels, 0 wrong
+PASS: old_man front/fence: 266 opaque pixels, 0 wrong
+PASS: old_man behind/Hans: 399 opaque pixels, 0 wrong
+PASS: old_man front/Hans: 448 opaque pixels, 0 wrong
+RESULT: 24 resident depth checks passed, 0 failed

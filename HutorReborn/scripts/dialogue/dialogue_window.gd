@@ -20,6 +20,7 @@ var _elapsed_characters := 0.0
 var _line: Dictionary = {}
 var _tween: Tween
 var _portrait_cache: Dictionary = {}
+var _portrait_default_rect: Rect2
 var _normal: StyleBoxTexture
 var _highlight: StyleBoxTexture
 var _interactive := false
@@ -28,6 +29,7 @@ func _ready() -> void:
     _normal = _answer_style(Color(0.86, 0.84, 0.75))
     _highlight = _answer_style(Color(1.35, 1.21, 0.91))
     portrait.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+    _portrait_default_rect = Rect2(portrait.position, portrait.size)
     set_process(false)
 
 func _answer_style(tint: Color) -> StyleBoxTexture:
@@ -75,6 +77,7 @@ func show_line(line: Dictionary) -> void:
     body.visible_characters = 0
     body.scroll_to_line(0)
     portrait.texture = _resolve_portrait(line)
+    _fit_portrait_pixels()
     _elapsed_characters = 0.0
     typing = true
     selected = 0
@@ -112,6 +115,19 @@ func show_line(line: Dictionary) -> void:
         button.focus_mode = Control.FOCUS_NONE
     _refresh_footer()
     set_process(true)
+
+func _fit_portrait_pixels() -> void:
+    portrait.position = _portrait_default_rect.position
+    portrait.size = _portrait_default_rect.size
+    # Only this pilot's existing portrait: avoid uneven nearest downsampling
+    # inside the same frame. No new face, crop deformation or layout expansion.
+    if portrait.texture == null or not portrait.texture.resource_path.begins_with("res://assets/npc/stage54/game/woodcutter/portraits/"):
+        return
+    var native_size := portrait.texture.get_size()
+    var frame := portrait.get_parent() as Control
+    if native_size == Vector2(128, 192) and frame.size.x >= native_size.x + 12 and frame.size.y >= native_size.y + 12:
+        portrait.size = native_size
+        portrait.position = ((frame.size - native_size) * 0.5).floor()
 
 func _resolve_portrait(line: Dictionary) -> Texture2D:
     var variants: Dictionary = line.get("portraits", {})

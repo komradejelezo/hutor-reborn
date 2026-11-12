@@ -1,6 +1,14 @@
 [gd_scene format=3]
 [ext_resource type="PackedScene" path="res://scenes/npc/resident.tscn" id="1"]
 [ext_resource type="Resource" path="res://assets/npc/stage43/woodcutter/definition.tres" id="2"]
+[ext_resource type="Material" path="res://assets/npc/woodcutter542/game/palette_543.tres" id="3"]
 
 [node name="Woodcutter" instance=ExtResource("1")]
 definition = ExtResource("2")
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+scale = Vector2(1.08, 1.08)
+material = ExtResource("3")
+
+[node name="Shadow" parent="." index="0"]
+scale = Vector2(1.08, 1.08)

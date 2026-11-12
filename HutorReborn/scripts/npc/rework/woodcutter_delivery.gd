@@ -42,7 +42,9 @@ func present(actor:HutorResident,record:HutorDailyResidentState) -> bool:
         if bundle==null:
             bundle=Sprite2D.new();bundle.name="DeliveredLogs542";bundle.texture=load("res://assets/npc/woodcutter542/game/placed_logs.png")
             bundle.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;props.add_child(bundle)
-        bundle.position=actor.position+Vector2(18,-4)
+        bundle.scale=sprite.scale
+        bundle.material=sprite.material
+        bundle.position=actor.position+Vector2(18,-4)*sprite.scale
         bundle.z_index=0
     placing=false;delivered=active_return;actor.animator.pilot_carrying=false
     return false
