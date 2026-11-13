@@ -124,7 +124,7 @@ func _fit_portrait_pixels() -> void:
     if portrait.texture == null:
         return
     var path:=portrait.texture.resource_path
-    if not (path.begins_with("res://assets/npc/stage54/game/woodcutter/portraits/") or path.begins_with("res://assets/npc/stage54/game/woodcutter_wife/portraits/") or path.begins_with("res://assets/npc/woodcutter_son545/game/portraits/") or path.begins_with("res://assets/npc/innkeeper546/game/portraits/")):
+    if not (path.begins_with("res://assets/npc/stage54/game/woodcutter/portraits/") or path.begins_with("res://assets/npc/stage54/game/woodcutter_wife/portraits/") or path.begins_with("res://assets/npc/woodcutter_son545/game/portraits/") or path.begins_with("res://assets/npc/innkeeper546/game/portraits/") or path.begins_with("res://assets/npc/innkeeper_wife547/game/portraits/")):
         return
     var native_size := portrait.texture.get_size()
     var frame := portrait.get_parent() as Control
