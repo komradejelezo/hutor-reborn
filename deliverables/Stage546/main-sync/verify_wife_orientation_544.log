@@ -1,0 +1,19 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: existing home loads
+PASS: transition completes within deadline
+PASS: cooking remains at right-hand pot after logical facing: left
+PASS: renderer does not rewrite logical facing
+PASS: cooking remains at right-hand pot after logical facing: right
+PASS: renderer does not rewrite logical facing
+PASS: cooking remains at right-hand pot after logical facing: up
+PASS: renderer does not rewrite logical facing
+PASS: cooking remains at right-hand pot after logical facing: down
+PASS: renderer does not rewrite logical facing
+PASS: kneel entry stays oriented toward original basin
+PASS: real E can approach wife from left
+PASS: logical dialogue opens during drawn rise
+PASS: rise stays toward work before turning to Hans
+PASS: completed rise turns talk toward Hans on left
+PASS: resumed washing returns to basin on right
+RESULT: 16 wife work-orientation checks passed, 0 failed

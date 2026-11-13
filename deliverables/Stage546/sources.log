@@ -1,0 +1,4 @@
+PASS: 1444 old files unchanged; other eight models, schedules, profiles and animations unchanged
+PASS: inn scene adds five small decoration nodes and corrects only counter base collision; all other nodes and navigation unchanged
+PASS: innkeeper block boundaries and cycle totals retained; original points/activities retained
+PASS: 62 unique native poses; full frames, binary alpha, source hashes and six-phase gaits
