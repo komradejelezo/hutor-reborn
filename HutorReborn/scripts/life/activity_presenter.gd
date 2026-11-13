@@ -12,6 +12,7 @@ func _ready() -> void:
     if resident.id==&"woodcutter_wife":visual54=preload("res://scripts/npc/rework/wife_presentation_544.gd").new()
     if resident.id==&"woodcutter_son":visual54=preload("res://scripts/npc/rework/son_presentation_545.gd").new()
     if resident.id==&"innkeeper":visual54=preload("res://scripts/npc/rework/innkeeper_presentation_546.gd").new()
+    if resident.id==&"elder":visual54=preload("res://scripts/npc/rework/elder_presentation_548.gd").new()
     if resident.id==&"woodcutter":pilot_delivery=preload("res://scripts/npc/rework/woodcutter_delivery.gd").new()
     set_process(pilot_delivery!=null)
 func _process(_delta:float) -> void:

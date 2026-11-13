@@ -7,6 +7,8 @@ static func aligned_point(world:Node2D, id:StringName, action:String, original:V
     if world.get("building_id")==&"inn" and id==&"innkeeper_wife":
         if action=="clean_tables":path="Actors/Props/TableA";offset=Vector2(0,-42)
         elif action=="kitchen":path="Actors/Props/TableC";offset=Vector2(0,-40)
+    elif world.get("building_id")==&"elder" and id==&"elder" and action in ["read_documents","write_journal"]:
+        path="Actors/Props/Desk";offset=Vector2(-40,-16)
     elif world.get("building_id")==&"herbalist" and id==&"herbalist" and action in ["sort_herbs","brew"]:
         path="Actors/Props/Table";offset=Vector2(0,30)
     elif world.get("building_id")==&"woodcutter" and id==&"woodcutter_wife" and action=="cook":
