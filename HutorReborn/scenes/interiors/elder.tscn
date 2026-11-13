@@ -36,6 +36,11 @@
 [ext_resource type="Script" path="res://scripts/components/warm_light.gd" id="25_57r8q"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="26_6kfr5"]
 
+[ext_resource type="Texture2D" path="res://assets/npc/elder548/game/parchment_rolled.png" id="548_paper"]
+[ext_resource type="Texture2D" path="res://assets/npc/elder548/game/journal_closed.png" id="548_book"]
+[ext_resource type="Texture2D" path="res://assets/npc/elder548/game/inkwell.png" id="548_ink"]
+[ext_resource type="Texture2D" path="res://assets/npc/elder548/game/quill.png" id="548_quill"]
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1p2na"]
 texture = ExtResource("4_qlgia")
 texture_region_size = Vector2i(32, 32)
@@ -1098,3 +1103,23 @@ pause_caption = "Дом старосты"
 [editable path="Actors/Props/WaterJug"]
 [editable path="Actors/Props/DeskLamp"]
 [editable path="Actors/Props/SpareBooks"]
+
+[node name="Paper548" type="Sprite2D" parent="Actors/Props/Desk"]
+texture_filter = 1
+position = Vector2(-20, -36)
+texture = ExtResource("548_paper")
+
+[node name="Journal548" type="Sprite2D" parent="Actors/Props/Desk"]
+texture_filter = 1
+position = Vector2(-20, -36)
+texture = ExtResource("548_book")
+
+[node name="Inkwell548" type="Sprite2D" parent="Actors/Props/Desk"]
+texture_filter = 1
+position = Vector2(-18, -46)
+texture = ExtResource("548_ink")
+
+[node name="Quill548" type="Sprite2D" parent="Actors/Props/Desk"]
+texture_filter = 1
+position = Vector2(-12, -40)
+texture = ExtResource("548_quill")

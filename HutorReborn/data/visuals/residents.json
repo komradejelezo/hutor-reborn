@@ -7,10 +7,10 @@
     "turn_seconds": 0.1,
     "work_fps": 5,
     "portraits": {
-      "neutral": "res://assets/npc/stage54/game/elder/portraits/neutral.png",
-      "joy": "res://assets/npc/stage54/game/elder/portraits/joy.png",
-      "displeased": "res://assets/npc/stage54/game/elder/portraits/displeased.png",
-      "anxious": "res://assets/npc/stage54/game/elder/portraits/anxious.png"
+      "neutral": "res://assets/npc/elder548/game/portraits/neutral.png",
+      "joy": "res://assets/npc/elder548/game/portraits/joy.png",
+      "displeased": "res://assets/npc/elder548/game/portraits/displeased.png",
+      "anxious": "res://assets/npc/elder548/game/portraits/anxious.png"
     }
   },
   "innkeeper": {
