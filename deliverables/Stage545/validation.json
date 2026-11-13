@@ -1,0 +1,14 @@
+{
+  "verify_residents_545": "RESULT: 316 pilot and unchanged-resident checks passed, 0 failed",
+  "verify_son_games_545": "RESULT: 31 son live-game checks passed, 0 failed",
+  "verify_child_play": "RESULT: 7 child-play checks passed, 0 failed",
+  "verify_daily_cycle": "RESULT: 33 daily-cycle checks passed, 0 failed",
+  "verify_door_transitions": "RESULT: 335 door transition checks passed, 0 failed",
+  "verify_worker_speed": "RESULT: 11 worker-speed checks passed, 0 failed",
+  "verify_dialogue": "RESULT: 65 dialogue checks passed, 0 failed",
+  "graphical_review": "26/26",
+  "depth": "8/8, 0 wrong opaque pixels",
+  "native": "WASD/E home/dialogue/exit/yard/F7 evening, original hero and nine body IDs retained",
+  "base": "08c9d04",
+  "engine": "4.6.3.stable.official.7d41c59c4"
+}

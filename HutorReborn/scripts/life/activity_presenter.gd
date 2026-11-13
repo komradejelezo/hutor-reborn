@@ -10,6 +10,7 @@ var pilot_delivery: RefCounted
 func _ready() -> void:
     reactions=HutorNpcVisualReactions.new(HutorNpcVisualLibrary.profile(resident.id))
     if resident.id==&"woodcutter_wife":visual54=preload("res://scripts/npc/rework/wife_presentation_544.gd").new()
+    if resident.id==&"woodcutter_son":visual54=preload("res://scripts/npc/rework/son_presentation_545.gd").new()
     if resident.id==&"woodcutter":pilot_delivery=preload("res://scripts/npc/rework/woodcutter_delivery.gd").new()
     set_process(pilot_delivery!=null)
 func _process(_delta:float) -> void:
@@ -25,10 +26,10 @@ func clear_props() -> void:
 func present(actor: HutorResident) -> bool:
     var sprite: AnimatedSprite2D=actor.get_node("AnimatedSprite2D")
     var reference_speed:float=resident.original.speed
-    if resident.id==&"woodcutter_son":reference_speed*=resident.schedule.get("run_multiplier",1.0)
-    sprite.speed_scale = clampf(actor.velocity.length()/reference_speed,0.0,2.5) if actor.state==actor.State.MOVING else minf(2.5,sqrt(manager.clock.speed))
     var destination_step:HutorNpcRoutineStep=actor.current_step()
-    actor.animator.prefer_run = resident.id==&"woodcutter_son" and resident.mode==&"local" and destination_step!=null and destination_step.label.begins_with("run_")
+    if resident.id==&"woodcutter_son":reference_speed=preload("res://scripts/npc/rework/son_motion_545.gd").speed(resident,destination_step.label if destination_step else "")
+    sprite.speed_scale = clampf(actor.velocity.length()/reference_speed,0.0,2.5) if actor.state==actor.State.MOVING else minf(2.5,sqrt(manager.clock.speed))
+    actor.animator.prefer_run = resident.id==&"woodcutter_son" and preload("res://scripts/npc/rework/son_motion_545.gd").runs(resident,destination_step.label if destination_step else "")
     if int(sprite.sprite_frames.get_meta("rework_version",0))!=54:sprite.position=Vector2.ZERO
     var delta:float=actor.get_physics_process_delta_time() if Engine.is_in_physics_frame() else 0.0
     var look:StringName=reactions.update(actor,delta,resident.mode==&"local")

@@ -6,6 +6,7 @@ const CLOCK = preload("res://scripts/life/game_clock.gd")
 const RECORD = preload("res://scripts/life/resident_state.gd")
 const PRESENTER = preload("res://scripts/life/activity_presenter.gd")
 const STEP = preload("res://scripts/npc/routine_step.gd")
+const SON_MOTION = preload("res://scripts/npc/rework/son_motion_545.gd")
 var enabled := true # Legacy component fixtures disable this before loading a world.
 var initialized := false
 var switching := false
@@ -250,11 +251,14 @@ func _start_journey(record: HutorDailyResidentState) -> void:
         record.hop=&"village";record.goal=_point(record.scene,"Exit")
     var position:Vector2=record.actor.position if _active(record) else record.position
     record.position=position
-    record.travel_end=clock.absolute_minutes+maxf(1,position.distance_to(record.goal)/record.original.speed*_minutes_per_second())
+    record.travel_end=clock.absolute_minutes+maxf(1,position.distance_to(record.goal)/_travel_speed(record)*_minutes_per_second())
     _event(record,"walk_to_gateway",String(record.hop))
     if _active(record):_apply_travel(record,position)
 
 func _minutes_per_second() -> float:return 1440.0/clock.real_day_seconds
+
+func _travel_speed(record:HutorDailyResidentState) -> float:
+    return SON_MOTION.speed(record) if record.id==&"woodcutter_son" else record.original.speed
 
 func _prepare_partner_visit(id: StringName, _index: int) -> void:
     # Resolve the existing child's visit at departure, not a stale yard marker.
@@ -276,8 +280,7 @@ func _frames_for(record: HutorDailyResidentState) -> SpriteFrames:
 func _definition(record: HutorDailyResidentState) -> HutorNpcDefinition:
     var definition:HutorNpcDefinition=record.original.duplicate()
     definition.frames=_frames_for(record);definition.routine=[]
-    definition.speed=record.original.speed*clock.speed
-    if record.id==&"woodcutter_son":definition.speed*=record.schedule.get("run_multiplier",1.0)
+    definition.speed=_travel_speed(record)*clock.speed
     definition.route_bounds=Rect2()
     if record.scene==&"village" and record.schedule.has("safe_village_rect"):
         var r:Array=record.schedule.safe_village_rect;definition.route_bounds=Rect2(r[0],r[1],r[2],r[3])
@@ -363,14 +366,14 @@ func _park(record: HutorDailyResidentState) -> void:
     record.snapshot=record.actor.suspend_location();record.snapshot_stamp=record.block_stamp
     record.parked_at=clock.absolute_minutes;record.updated=clock.absolute_minutes
     if record.mode==&"travel":
-        record.travel_end=clock.absolute_minutes+record.position.distance_to(record.goal)/record.original.speed*_minutes_per_second()
+        record.travel_end=clock.absolute_minutes+record.position.distance_to(record.goal)/_travel_speed(record)*_minutes_per_second()
     if record.mode==&"local":
         record.index=record.actor.step_index
         if record.actor.state==HutorResident.State.WAITING:
             record.until=clock.absolute_minutes+record.actor.wait_left*_minutes_per_second();record.travel_end=0
         else:
             record.goal=record.actor.current_step().position
-            record.travel_end=clock.absolute_minutes+record.position.distance_to(record.goal)/record.original.speed*_minutes_per_second()
+            record.travel_end=clock.absolute_minutes+record.position.distance_to(record.goal)/_travel_speed(record)*_minutes_per_second()
             record.until=record.travel_end+float(record.block.activities[record.index].minutes)
     record.actor.reparent(_parking,false)
 
@@ -422,7 +425,7 @@ func _advance_virtual(record: HutorDailyResidentState) -> void:
 func _virtual_target(record: HutorDailyResidentState, began: float) -> void:
     var activity:Dictionary=record.block.activities[record.index]
     record.activity=StringName(activity.id);record.goal=_activity_point(record,activity)
-    record.travel_end=began+record.position.distance_to(record.goal)/record.original.speed*_minutes_per_second()
+    record.travel_end=began+record.position.distance_to(record.goal)/_travel_speed(record)*_minutes_per_second()
     record.until=record.travel_end+float(activity.minutes)
 
 func _transfer(record: HutorDailyResidentState) -> void:
@@ -507,7 +510,7 @@ func _speed_changed(_value: float) -> void:
         if _active(record):
             if record.actor.definition==record.original:
                 record.actor.definition=record.original.duplicate()
-            record.actor.definition.speed=record.original.speed*clock.speed*(record.schedule.get("run_multiplier",1.0) if record.id==&"woodcutter_son" else 1.0)
+            record.actor.definition.speed=_travel_speed(record)*clock.speed
             record.actor.wait_time_scale=clock.speed
     _update_widget()
 

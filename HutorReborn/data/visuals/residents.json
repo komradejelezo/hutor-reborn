@@ -77,10 +77,10 @@
     "turn_seconds": 0.1,
     "work_fps": 8,
     "portraits": {
-      "neutral": "res://assets/npc/stage54/game/woodcutter_son/portraits/neutral.png",
-      "joy": "res://assets/npc/stage54/game/woodcutter_son/portraits/joy.png",
-      "displeased": "res://assets/npc/stage54/game/woodcutter_son/portraits/displeased.png",
-      "anxious": "res://assets/npc/stage54/game/woodcutter_son/portraits/anxious.png"
+      "neutral": "res://assets/npc/woodcutter_son545/game/portraits/neutral.png",
+      "joy": "res://assets/npc/woodcutter_son545/game/portraits/joy.png",
+      "displeased": "res://assets/npc/woodcutter_son545/game/portraits/displeased.png",
+      "anxious": "res://assets/npc/woodcutter_son545/game/portraits/anxious.png"
     }
   },
   "herbalist": {
