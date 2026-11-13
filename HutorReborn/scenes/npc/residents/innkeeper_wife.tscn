@@ -2,5 +2,13 @@
 [ext_resource type="PackedScene" path="res://scenes/npc/resident.tscn" id="1"]
 [ext_resource type="Resource" path="res://assets/npc/stage43/innkeeper_wife/definition.tres" id="2"]
 
+[ext_resource type="Material" path="res://assets/npc/innkeeper_wife547/game/palette.tres" id="3"]
+
+[ext_resource type="Script" path="res://scripts/npc/rework/innkeeper_wife_actor_547.gd" id="4"]
+
 [node name="InnkeeperWife" instance=ExtResource("1")]
+script = ExtResource("4")
 definition = ExtResource("2")
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+material = ExtResource("3")

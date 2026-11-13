@@ -1,0 +1,166 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: 30-minute-day rate is 0.8 game minutes per second
+PASS: pause freezes game clock
+PASS: phase boundary at 359
+PASS: phase boundary at 360
+PASS: phase boundary at 600
+PASS: phase boundary at 1080
+PASS: phase boundary at 1320
+PASS: phase boundary at 1440
+PASS: hours wrap at midnight
+PASS: entry accepted: woodcutter
+PASS: transition completes within deadline
+PASS: time survives transition: woodcutter
+PASS: same nine identities after entry: woodcutter
+PASS: same Hans object across all six rooms
+PASS: existing interior camera and clear spawn
+PASS: scheduled occupants present in woodcutter
+PASS: resident reaches contextual action using real navigation
+PASS: working resident has reachable E prompt: woodcutter
+PASS: existing dialogue pauses work and Hans
+PASS: dialogue prevents competing hero transition
+PASS: dialogue stops NPC movement
+PASS: conversation resumes occupation
+PASS: working resident has reachable E prompt: woodcutter_wife
+PASS: household dialogue pauses context animation: woodcutter_wife
+PASS: household occupation resumes: woodcutter_wife
+PASS: working resident has reachable E prompt: woodcutter_son
+PASS: household dialogue pauses context animation: woodcutter_son
+PASS: household occupation resumes: woodcutter_son
+PASS: exit accepted: woodcutter
+PASS: transition completes within deadline
+PASS: same nine identities after exit: woodcutter
+PASS: same-room revisit accepted
+PASS: transition completes within deadline
+PASS: short visit preserves current activity/progress: woodcutter distance=28.717399597168 budget=69.6274166107178
+PASS: exit accepted: woodcutter
+PASS: transition completes within deadline
+PASS: same nine identities after exit: woodcutter
+PASS: entry accepted: inn
+PASS: transition completes within deadline
+PASS: time survives transition: inn
+PASS: same nine identities after entry: inn
+PASS: same Hans object across all six rooms
+PASS: existing interior camera and clear spawn
+PASS: scheduled occupants present in inn
+PASS: resident reaches contextual action using real navigation
+PASS: working resident has reachable E prompt: innkeeper
+PASS: existing dialogue pauses work and Hans
+PASS: dialogue prevents competing hero transition
+PASS: dialogue stops NPC movement
+PASS: conversation resumes occupation
+PASS: working resident has reachable E prompt: innkeeper_wife
+PASS: household dialogue pauses context animation: innkeeper_wife
+PASS: household occupation resumes: innkeeper_wife
+PASS: exit accepted: inn
+PASS: transition completes within deadline
+PASS: same nine identities after exit: inn
+PASS: same-room revisit accepted
+PASS: transition completes within deadline
+PASS: short visit preserves current activity/progress: inn distance=39.5239028930664 budget=59.6274166107178
+PASS: exit accepted: inn
+PASS: transition completes within deadline
+PASS: same nine identities after exit: inn
+PASS: entry accepted: elder
+PASS: transition completes within deadline
+PASS: time survives transition: elder
+PASS: same nine identities after entry: elder
+PASS: same Hans object across all six rooms
+PASS: existing interior camera and clear spawn
+PASS: scheduled occupants present in elder
+PASS: resident reaches contextual action using real navigation
+PASS: working resident has reachable E prompt: elder
+PASS: existing dialogue pauses work and Hans
+PASS: dialogue prevents competing hero transition
+PASS: dialogue stops NPC movement
+PASS: conversation resumes occupation
+PASS: exit accepted: elder
+PASS: transition completes within deadline
+PASS: same nine identities after exit: elder
+PASS: same-room revisit accepted
+PASS: transition completes within deadline
+PASS: short visit preserves current activity/progress: elder distance=1.0 budget=24.6274166107178
+PASS: exit accepted: elder
+PASS: transition completes within deadline
+PASS: same nine identities after exit: elder
+PASS: entry accepted: herbalist
+PASS: transition completes within deadline
+PASS: time survives transition: herbalist
+PASS: same nine identities after entry: herbalist
+PASS: same Hans object across all six rooms
+PASS: existing interior camera and clear spawn
+PASS: scheduled occupants present in herbalist
+PASS: resident reaches contextual action using real navigation
+PASS: working resident has reachable E prompt: herbalist
+PASS: existing dialogue pauses work and Hans
+PASS: dialogue prevents competing hero transition
+PASS: dialogue stops NPC movement
+PASS: conversation resumes occupation
+PASS: exit accepted: herbalist
+PASS: transition completes within deadline
+PASS: same nine identities after exit: herbalist
+PASS: same-room revisit accepted
+PASS: transition completes within deadline
+PASS: short visit preserves current activity/progress: herbalist distance=0.0 budget=24.6274166107178
+PASS: exit accepted: herbalist
+PASS: transition completes within deadline
+PASS: same nine identities after exit: herbalist
+PASS: entry accepted: old_man
+PASS: transition completes within deadline
+PASS: time survives transition: old_man
+PASS: same nine identities after entry: old_man
+PASS: same Hans object across all six rooms
+PASS: existing interior camera and clear spawn
+PASS: scheduled occupants present in old_man
+PASS: resident reaches contextual action using real navigation
+PASS: working resident has reachable E prompt: old_man
+PASS: existing dialogue pauses work and Hans
+PASS: dialogue prevents competing hero transition
+PASS: dialogue stops NPC movement
+PASS: conversation resumes occupation
+PASS: exit accepted: old_man
+PASS: transition completes within deadline
+PASS: same nine identities after exit: old_man
+PASS: same-room revisit accepted
+PASS: transition completes within deadline
+PASS: short visit preserves current activity/progress: old_man distance=3.29986572265625 budget=47.1274166107178
+PASS: exit accepted: old_man
+PASS: transition completes within deadline
+PASS: same nine identities after exit: old_man
+PASS: entry accepted: storehouse
+PASS: transition completes within deadline
+PASS: time survives transition: storehouse
+PASS: same nine identities after entry: storehouse
+PASS: same Hans object across all six rooms
+PASS: existing interior camera and clear spawn
+PASS: storehouse gains no resident
+PASS: exit accepted: storehouse
+PASS: transition completes within deadline
+PASS: same nine identities after exit: storehouse
+PASS: entry accepted: herbalist
+PASS: transition completes within deadline
+PASS: time survives transition: herbalist
+PASS: same nine identities after entry: herbalist
+PASS: working resident has reachable E prompt: herbalist_brother
+PASS: returned worker retains original conversation
+PASS: exit accepted: herbalist
+PASS: transition completes within deadline
+PASS: same nine identities after exit: herbalist
+PASS: exterior camera is restored exactly
+PASS: time acceleration leaves Hans unchanged
+PASS: working resident has reachable E prompt: elder
+PASS: outdoor dialogue starts before evening
+PASS: schedule change never interrupts conversation
+PASS: evening route replanned after dialogue
+PASS: worker starts actual boundary segment
+PASS: Hans may enter while worker crosses boundary
+PASS: transition completes within deadline
+PASS: parking clears temporary map-boundary exception
+PASS: off-scene departure completes virtually
+PASS: exit accepted: inn
+PASS: transition completes within deadline
+PASS: same nine identities after exit: inn
+PASS: returning worker restores all normal collisions
+PASS: all transitions and dialogue retain exactly nine identities
+RESULT: 163 daily-lifecycle checks passed, 0 failed

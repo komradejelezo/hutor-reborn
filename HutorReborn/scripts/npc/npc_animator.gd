@@ -64,7 +64,7 @@ func apply(mode: String, facing: StringName, work: StringName, allow_smoke: bool
     elif sprite.sprite_frames.get_frame_count(clip)>1 and not sprite.is_playing():
         # Reviewed family one-shot actions hold their authored settle poses.
         # All other residents retain their existing playback contract.
-        var authored_settle:bool=int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 or int(sprite.sprite_frames.get_meta("wife_version",0))==544 or int(sprite.sprite_frames.get_meta("son_version",0))==545 or int(sprite.sprite_frames.get_meta("innkeeper_version",0))==546
+        var authored_settle:bool=int(sprite.sprite_frames.get_meta("woodcutter_version",0))==542 or int(sprite.sprite_frames.get_meta("wife_version",0))==544 or int(sprite.sprite_frames.get_meta("son_version",0))==545 or int(sprite.sprite_frames.get_meta("innkeeper_version",0))==546 or int(sprite.sprite_frames.get_meta("innkeeper_wife_version",0))==547
         var finished_pilot_action:bool=authored_settle and not sprite.sprite_frames.get_animation_loop(clip)
         if not finished_pilot_action:sprite.play(clip)
     _discard_outgoing_work = false

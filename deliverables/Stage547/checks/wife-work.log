@@ -1,0 +1,86 @@
+Godot 4.6.3 headless, fixed-fps 60; filtered --verbose startup/loading noise.
+PASS: transition completes within deadline
+PASS: reachable original E: work_cook
+PASS: at most input acceptance ticks: work_cook
+PASS: original dialogue: work_cook
+PASS: talk locks feet: work_cook
+PASS: work settled before conversation: work_cook
+PASS: same occupation resumes: work_cook
+PASS: reachable original E: work_cut
+PASS: at most input acceptance ticks: work_cut
+PASS: original dialogue: work_cut
+PASS: talk locks feet: work_cut
+PASS: work settled before conversation: work_cut
+PASS: same occupation resumes: work_cut
+PASS: reachable original E: work_pickup
+PASS: at most input acceptance ticks: work_pickup
+PASS: original dialogue: work_pickup
+PASS: talk locks feet: work_pickup
+PASS: work settled before conversation: work_pickup
+PASS: same occupation resumes: work_pickup
+PASS: reachable original E: carrying tray
+PASS: at most input acceptance ticks: carrying tray
+PASS: original dialogue: carrying tray
+PASS: talk locks feet: carrying tray
+PASS: work settled before conversation: carrying tray
+PASS: same occupation resumes: carrying tray
+PASS: tray stays supported during and after talk on route
+PASS: reachable original E: work_place
+PASS: at most input acceptance ticks: work_place
+PASS: original dialogue: work_place
+PASS: talk locks feet: work_place
+PASS: work settled before conversation: work_place
+PASS: same occupation resumes: work_place
+PASS: reachable original E: work_wipe
+PASS: at most input acceptance ticks: work_wipe
+PASS: original dialogue: work_wipe
+PASS: talk locks feet: work_wipe
+PASS: work settled before conversation: work_wipe
+PASS: same occupation resumes: work_wipe
+PASS: reachable original E: work_dishes
+PASS: at most input acceptance ticks: work_dishes
+PASS: original dialogue: work_dishes
+PASS: talk locks feet: work_dishes
+PASS: work settled before conversation: work_dishes
+PASS: same occupation resumes: work_dishes
+PASS: reachable original E: work_sweep
+PASS: at most input acceptance ticks: work_sweep
+PASS: original dialogue: work_sweep
+PASS: talk locks feet: work_sweep
+PASS: work settled before conversation: work_sweep
+PASS: same occupation resumes: work_sweep
+PASS: actual authored clip: work_cook
+PASS: actual authored clip: work_cut
+PASS: actual authored clip: work_pickup
+PASS: actual authored clip: work_place
+PASS: actual authored clip: work_wipe
+PASS: actual authored clip: work_dishes
+PASS: actual authored clip: work_sweep
+PASS: actual authored clip: work_rest
+PASS: physical route: kitchen
+PASS: physical route: cut_food
+PASS: physical route: take_tray
+PASS: physical route: serve_food
+PASS: physical route: clean_tables
+PASS: physical route: polish_dishes
+PASS: physical route: sweep_floor
+PASS: physical route: pause_kitchen
+PASS: feet/physics invariant:
+PASS: tray carried on real navigation, distance 408.57001131773
+PASS: husband continues original duties alongside wife
+PASS: all wife surfaces are reachable
+PASS: wife original walking speed
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: same original actor: elder
+PASS: same original actor: innkeeper
+PASS: same original actor: innkeeper_wife
+PASS: same original actor: woodcutter
+PASS: same original actor: woodcutter_wife
+PASS: same original actor: woodcutter_son
+PASS: same original actor: herbalist
+PASS: same original actor: herbalist_brother
+PASS: same original actor: old_man
+PASS: wife re-enters existing inn
+CLIPS { &"work_cook": true, &"work_cut": true, &"work_pickup": true, &"work_place": true, &"work_wipe": true, &"work_dishes": true, &"work_sweep": true, &"work_rest": true } ACTIONS { "kitchen": true, "cut_food": true, "take_tray": true, "serve_food": true, "clean_tables": true, "polish_dishes": true, "sweep_floor": true, "pause_kitchen": true } SPOKE { &"work_cook": true, &"work_cut": true, &"work_pickup": true, "carry_route": true, &"work_place": true, &"work_wipe": true, &"work_dishes": true, &"work_sweep": true }
+RESULT: 83 wife work checks passed, 0 failed

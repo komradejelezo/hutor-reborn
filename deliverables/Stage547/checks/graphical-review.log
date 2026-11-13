@@ -1,0 +1,40 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: existing inn entry
+PASS: transition completes within deadline
+PASS: free comparison and gait corridor
+INN547_REVIEW_READY
+PASS: physical walk right
+PASS: physical walk up
+PASS: physical walk left
+PASS: physical walk down
+PASS: existing reachable E target work_cook
+PASS: existing dialogue stops body work_cook
+PASS: put-down finishes into calm conversation
+PASS: portrait uses native aspect and size
+PASS: original occupation released work_cook
+PASS: existing reachable E target work_cut
+PASS: existing dialogue stops body work_cut
+PASS: put-down finishes into calm conversation
+PASS: portrait uses native aspect and size
+PASS: original occupation released work_cut
+PASS: existing reachable E target work_place
+PASS: existing dialogue stops body work_place
+PASS: put-down finishes into calm conversation
+PASS: portrait uses native aspect and size
+PASS: original occupation released work_place
+PASS: natural wife route performs all duties on foot
+PASS: unchanged grounded pivot and uniform native scale
+PASS: original resident identity elder
+PASS: original resident identity innkeeper
+PASS: original resident identity innkeeper_wife
+PASS: original resident identity woodcutter
+PASS: original resident identity woodcutter_wife
+PASS: original resident identity woodcutter_son
+PASS: original resident identity herbalist
+PASS: original resident identity herbalist_brother
+PASS: original resident identity old_man
+RESULT: 33 innkeeper graphical checks passed, 0 failed

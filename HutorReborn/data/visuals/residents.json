@@ -35,10 +35,10 @@
     "turn_seconds": 0.1,
     "work_fps": 6,
     "portraits": {
-      "neutral": "res://assets/npc/stage54/game/innkeeper_wife/portraits/neutral.png",
-      "joy": "res://assets/npc/stage54/game/innkeeper_wife/portraits/joy.png",
-      "displeased": "res://assets/npc/stage54/game/innkeeper_wife/portraits/displeased.png",
-      "anxious": "res://assets/npc/stage54/game/innkeeper_wife/portraits/anxious.png"
+      "neutral": "res://assets/npc/innkeeper_wife547/game/portraits/neutral.png",
+      "joy": "res://assets/npc/innkeeper_wife547/game/portraits/joy.png",
+      "displeased": "res://assets/npc/innkeeper_wife547/game/portraits/displeased.png",
+      "anxious": "res://assets/npc/innkeeper_wife547/game/portraits/anxious.png"
     }
   },
   "woodcutter": {
