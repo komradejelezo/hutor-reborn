@@ -1,0 +1,4 @@
+PASS: 962 asset files exactly match main or original PR #28; no artwork changes
+PASS: family/other resident data and behavior unchanged from main; innkeeper and inn unchanged from PR #28
+PASS: all nine animation and portrait profiles retain the correct versions
+PASS: four resolved files have no markers, duplicate functions or added functions

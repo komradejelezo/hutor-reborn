@@ -9,6 +9,7 @@ func run() -> void:
     var ids:Dictionary={}
     for id in life.states:ids[id]=life.states[id].actor.get_instance_id()
     var profiles:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/visuals/residents.json"))
+    var catalogue:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/visuals/animation_catalog.json"))
     for id in profiles:
         var r:HutorDailyResidentState=life.states[StringName(id)]
         var minute:=665.0 if id=="herbalist" else 1215.0 if id=="old_man" else 425.0
@@ -20,14 +21,15 @@ func run() -> void:
         var sprite:AnimatedSprite2D=npc.get_node("AnimatedSprite2D")
         check(sprite.texture_filter==CanvasItem.TEXTURE_FILTER_NEAREST and sprite.scale==Vector2.ONE*(1.08 if id=="woodcutter" else 1.0) and sprite.rotation==0,"undistorted nearest body: "+id)
         var f:SpriteFrames=sprite.sprite_frames
+        check(f.resource_path==catalogue[id].frames,"correct animation resource for original identity: "+id)
         check(int(f.get_meta("rework_version",0))==54,"approved Stage54 resource: "+id)
         for direction in ["down","up","left","right"]:
-            check(f.get_frame_count("walk_"+direction)==(6 if id in ["woodcutter","woodcutter_wife","innkeeper"] else 8),"real walking phase count: "+id+"/"+direction)
+            check(f.get_frame_count("walk_"+direction)==(6 if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper"] else 8),"real walking phase count: "+id+"/"+direction)
             check(f.has_animation("idle_"+direction) and f.has_animation("turn_"+direction),"directional fallback exists: "+id+"/"+direction)
             npc.animator.apply("walk",StringName(direction),&"",false)
-            check(sprite.flip_h==(id in ["woodcutter","woodcutter_wife","innkeeper"] and direction=="left"),"direction reflected exactly once: "+id+"/"+direction)
-        check(f.get_frame_count("talk")==(3 if id in ["woodcutter","woodcutter_wife"] else 4),"real talk drawings: "+id)
-        check(f.get_frame_count("idle_up")==(2 if id in ["woodcutter","woodcutter_wife","innkeeper"] else 1),"directional idle count: "+id)
+            check(sprite.flip_h==(id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper"] and direction=="left"),"direction reflected exactly once: "+id+"/"+direction)
+        check(f.get_frame_count("talk")==(3 if id in ["woodcutter","woodcutter_wife","woodcutter_son"] else 4),"real talk drawings: "+id)
+        check(f.get_frame_count("idle_up")==(2 if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper"] else 1),"directional idle count: "+id)
         npc.animator.prefer_run=false
         # Directly tick an isolated renderer with the real body; the NPC's state
         # and timers are frozen for measurement, not rewritten by the renderer.
@@ -62,6 +64,8 @@ func run() -> void:
             var manager:Node=root.get_node("DialogueManager")
             check(manager.is_active() and npc.state==HutorResident.State.TALKING,"work stops through existing dialogue: "+id)
             if manager.is_active():
+                if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper"]:
+                    check(manager.window.portrait.size==Vector2(128,192),"native portrait rectangle preserved: "+id)
                 var line:Dictionary=manager.data.nodes[manager.current_line]
                 for emotion in ["neutral","joy","displeased","anxious"]:
                     var variant:Dictionary=line.duplicate(true);variant.emotion=emotion

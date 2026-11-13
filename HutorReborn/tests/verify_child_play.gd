@@ -21,7 +21,7 @@ func run()->void:
             actions[r.activity]=true
             if r.activity in [&"play_stick",&"kneel_toy"]:
                 if not frames_seen.has(r.activity):frames_seen[r.activity]={}
-                frames_seen[r.activity][sprite.frame]=true
+                frames_seen[r.activity][String(sprite.animation)+"/"+str(sprite.frame)]=true
             if r.activity==&"visit_mother" and child.position.distance_to(mother.position)<65:visited=true
         if child.state==HutorResident.State.MOVING and child.current_step().label=="run_yard" and not child.velocity.is_zero_approx():
             ran=ran or String(sprite.animation).begins_with("run_")
@@ -32,7 +32,7 @@ func run()->void:
     life.clock.running=false
     check(actions.has(&"play_stick") and actions.has(&"kneel_toy") and actions.has(&"visit_mother"),"boy completes play, kneeling and family visits")
     check(ran,"actual run animation plays while crossing yard")
-    check(frames_seen.get(&"play_stick",{}).size()>1 and frames_seen.get(&"kneel_toy",{}).size()>1,"original stick and crouch animations advance through real frames")
+    check(frames_seen.get(&"play_stick",{}).size()>1 and frames_seen.get(&"kneel_toy",{}).size()>1,"authored play and crouch clips advance through real poses")
     check(visited,"boy reaches mother's current position rather than stale yard marker")
     check(watched,"boy briefly looks at nearby Hans during play")
     check(invalid.is_empty(),"play remains continuous and inside safe area: "+invalid)

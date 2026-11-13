@@ -1,0 +1,14 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: woodcutter_wife behind/house: 525 opaque pixels, 0 wrong
+PASS: woodcutter_wife front/house: 521 opaque pixels, 0 wrong
+PASS: woodcutter_wife behind/pine: 473 opaque pixels, 0 wrong
+PASS: woodcutter_wife front/pine: 525 opaque pixels, 0 wrong
+PASS: woodcutter_wife behind/fence: 35 opaque pixels, 0 wrong
+PASS: woodcutter_wife front/fence: 193 opaque pixels, 0 wrong
+PASS: woodcutter_wife behind/Hans: 388 opaque pixels, 0 wrong
+PASS: woodcutter_wife front/Hans: 342 opaque pixels, 0 wrong
+RESULT: 8 wife depth checks passed, 0 failed

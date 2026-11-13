@@ -1,0 +1,10 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: boy completes play, kneeling and family visits
+PASS: actual run animation plays while crossing yard
+PASS: authored play and crouch clips advance through real poses
+PASS: boy reaches mother's current position rather than stale yard marker
+PASS: boy briefly looks at nearby Hans during play
+PASS: play remains continuous and inside safe area:
+PASS: same boy returns home in evening through his door
+RESULT: 7 child-play checks passed, 0 failed

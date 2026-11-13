@@ -1,0 +1,332 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: existing scene entry: elder
+PASS: transition completes within deadline
+PASS: same original actor visible: elder
+PASS: undistorted nearest body: elder
+PASS: correct animation resource for original identity: elder
+PASS: approved Stage54 resource: elder
+PASS: real walking phase count: elder/down
+PASS: directional fallback exists: elder/down
+PASS: direction reflected exactly once: elder/down
+PASS: real walking phase count: elder/up
+PASS: directional fallback exists: elder/up
+PASS: direction reflected exactly once: elder/up
+PASS: real walking phase count: elder/left
+PASS: directional fallback exists: elder/left
+PASS: direction reflected exactly once: elder/left
+PASS: real walking phase count: elder/right
+PASS: directional fallback exists: elder/right
+PASS: direction reflected exactly once: elder/right
+PASS: real talk drawings: elder
+PASS: directional idle count: elder
+PASS: reaction respects individual delay: elder
+PASS: brief glance starts: elder
+PASS: glance finishes: elder
+PASS: lingering Hans does not constantly interrupt: elder
+PASS: attention changes no routine, movement or facing state: elder
+PASS: reachable original E conversation: elder
+PASS: work stops through existing dialogue: elder
+PASS: correct real portrait: elder/neutral
+PASS: correct real portrait: elder/joy
+PASS: correct real portrait: elder/displeased
+PASS: correct real portrait: elder/anxious
+PASS: dialogue holds body: elder
+PASS: original occupation resumes: elder
+PASS: existing exit: elder
+PASS: transition completes within deadline
+PASS: existing scene entry: innkeeper
+PASS: transition completes within deadline
+PASS: same original actor visible: innkeeper
+PASS: undistorted nearest body: innkeeper
+PASS: correct animation resource for original identity: innkeeper
+PASS: approved Stage54 resource: innkeeper
+PASS: real walking phase count: innkeeper/down
+PASS: directional fallback exists: innkeeper/down
+PASS: direction reflected exactly once: innkeeper/down
+PASS: real walking phase count: innkeeper/up
+PASS: directional fallback exists: innkeeper/up
+PASS: direction reflected exactly once: innkeeper/up
+PASS: real walking phase count: innkeeper/left
+PASS: directional fallback exists: innkeeper/left
+PASS: direction reflected exactly once: innkeeper/left
+PASS: real walking phase count: innkeeper/right
+PASS: directional fallback exists: innkeeper/right
+PASS: direction reflected exactly once: innkeeper/right
+PASS: real talk drawings: innkeeper
+PASS: directional idle count: innkeeper
+PASS: reaction respects individual delay: innkeeper
+PASS: brief glance starts: innkeeper
+PASS: glance finishes: innkeeper
+PASS: lingering Hans does not constantly interrupt: innkeeper
+PASS: attention changes no routine, movement or facing state: innkeeper
+PASS: reachable original E conversation: innkeeper
+PASS: work stops through existing dialogue: innkeeper
+PASS: native portrait rectangle preserved: innkeeper
+PASS: correct real portrait: innkeeper/neutral
+PASS: correct real portrait: innkeeper/joy
+PASS: correct real portrait: innkeeper/displeased
+PASS: correct real portrait: innkeeper/anxious
+PASS: dialogue holds body: innkeeper
+PASS: original occupation resumes: innkeeper
+PASS: existing exit: innkeeper
+PASS: transition completes within deadline
+PASS: existing scene entry: innkeeper_wife
+PASS: transition completes within deadline
+PASS: same original actor visible: innkeeper_wife
+PASS: undistorted nearest body: innkeeper_wife
+PASS: correct animation resource for original identity: innkeeper_wife
+PASS: approved Stage54 resource: innkeeper_wife
+PASS: real walking phase count: innkeeper_wife/down
+PASS: directional fallback exists: innkeeper_wife/down
+PASS: direction reflected exactly once: innkeeper_wife/down
+PASS: real walking phase count: innkeeper_wife/up
+PASS: directional fallback exists: innkeeper_wife/up
+PASS: direction reflected exactly once: innkeeper_wife/up
+PASS: real walking phase count: innkeeper_wife/left
+PASS: directional fallback exists: innkeeper_wife/left
+PASS: direction reflected exactly once: innkeeper_wife/left
+PASS: real walking phase count: innkeeper_wife/right
+PASS: directional fallback exists: innkeeper_wife/right
+PASS: direction reflected exactly once: innkeeper_wife/right
+PASS: real talk drawings: innkeeper_wife
+PASS: directional idle count: innkeeper_wife
+PASS: reaction respects individual delay: innkeeper_wife
+PASS: brief glance starts: innkeeper_wife
+PASS: glance finishes: innkeeper_wife
+PASS: lingering Hans does not constantly interrupt: innkeeper_wife
+PASS: attention changes no routine, movement or facing state: innkeeper_wife
+PASS: reachable original E conversation: innkeeper_wife
+PASS: work stops through existing dialogue: innkeeper_wife
+PASS: correct real portrait: innkeeper_wife/neutral
+PASS: correct real portrait: innkeeper_wife/joy
+PASS: correct real portrait: innkeeper_wife/displeased
+PASS: correct real portrait: innkeeper_wife/anxious
+PASS: dialogue holds body: innkeeper_wife
+PASS: original occupation resumes: innkeeper_wife
+PASS: existing exit: innkeeper_wife
+PASS: transition completes within deadline
+PASS: existing scene entry: woodcutter
+PASS: transition completes within deadline
+PASS: same original actor visible: woodcutter
+PASS: undistorted nearest body: woodcutter
+PASS: correct animation resource for original identity: woodcutter
+PASS: approved Stage54 resource: woodcutter
+PASS: real walking phase count: woodcutter/down
+PASS: directional fallback exists: woodcutter/down
+PASS: direction reflected exactly once: woodcutter/down
+PASS: real walking phase count: woodcutter/up
+PASS: directional fallback exists: woodcutter/up
+PASS: direction reflected exactly once: woodcutter/up
+PASS: real walking phase count: woodcutter/left
+PASS: directional fallback exists: woodcutter/left
+PASS: direction reflected exactly once: woodcutter/left
+PASS: real walking phase count: woodcutter/right
+PASS: directional fallback exists: woodcutter/right
+PASS: direction reflected exactly once: woodcutter/right
+PASS: real talk drawings: woodcutter
+PASS: directional idle count: woodcutter
+PASS: reaction respects individual delay: woodcutter
+PASS: brief glance starts: woodcutter
+PASS: glance finishes: woodcutter
+PASS: lingering Hans does not constantly interrupt: woodcutter
+PASS: attention changes no routine, movement or facing state: woodcutter
+PASS: reachable original E conversation: woodcutter
+PASS: work stops through existing dialogue: woodcutter
+PASS: native portrait rectangle preserved: woodcutter
+PASS: correct real portrait: woodcutter/neutral
+PASS: correct real portrait: woodcutter/joy
+PASS: correct real portrait: woodcutter/displeased
+PASS: correct real portrait: woodcutter/anxious
+PASS: dialogue holds body: woodcutter
+PASS: original occupation resumes: woodcutter
+PASS: existing exit: woodcutter
+PASS: transition completes within deadline
+PASS: existing scene entry: woodcutter_wife
+PASS: transition completes within deadline
+PASS: same original actor visible: woodcutter_wife
+PASS: undistorted nearest body: woodcutter_wife
+PASS: correct animation resource for original identity: woodcutter_wife
+PASS: approved Stage54 resource: woodcutter_wife
+PASS: real walking phase count: woodcutter_wife/down
+PASS: directional fallback exists: woodcutter_wife/down
+PASS: direction reflected exactly once: woodcutter_wife/down
+PASS: real walking phase count: woodcutter_wife/up
+PASS: directional fallback exists: woodcutter_wife/up
+PASS: direction reflected exactly once: woodcutter_wife/up
+PASS: real walking phase count: woodcutter_wife/left
+PASS: directional fallback exists: woodcutter_wife/left
+PASS: direction reflected exactly once: woodcutter_wife/left
+PASS: real walking phase count: woodcutter_wife/right
+PASS: directional fallback exists: woodcutter_wife/right
+PASS: direction reflected exactly once: woodcutter_wife/right
+PASS: real talk drawings: woodcutter_wife
+PASS: directional idle count: woodcutter_wife
+PASS: reaction respects individual delay: woodcutter_wife
+PASS: brief glance starts: woodcutter_wife
+PASS: glance finishes: woodcutter_wife
+PASS: lingering Hans does not constantly interrupt: woodcutter_wife
+PASS: attention changes no routine, movement or facing state: woodcutter_wife
+PASS: reachable original E conversation: woodcutter_wife
+PASS: work stops through existing dialogue: woodcutter_wife
+PASS: native portrait rectangle preserved: woodcutter_wife
+PASS: correct real portrait: woodcutter_wife/neutral
+PASS: correct real portrait: woodcutter_wife/joy
+PASS: correct real portrait: woodcutter_wife/displeased
+PASS: correct real portrait: woodcutter_wife/anxious
+PASS: dialogue holds body: woodcutter_wife
+PASS: original occupation resumes: woodcutter_wife
+PASS: existing exit: woodcutter_wife
+PASS: transition completes within deadline
+PASS: existing scene entry: woodcutter_son
+PASS: transition completes within deadline
+PASS: same original actor visible: woodcutter_son
+PASS: undistorted nearest body: woodcutter_son
+PASS: correct animation resource for original identity: woodcutter_son
+PASS: approved Stage54 resource: woodcutter_son
+PASS: real walking phase count: woodcutter_son/down
+PASS: directional fallback exists: woodcutter_son/down
+PASS: direction reflected exactly once: woodcutter_son/down
+PASS: real walking phase count: woodcutter_son/up
+PASS: directional fallback exists: woodcutter_son/up
+PASS: direction reflected exactly once: woodcutter_son/up
+PASS: real walking phase count: woodcutter_son/left
+PASS: directional fallback exists: woodcutter_son/left
+PASS: direction reflected exactly once: woodcutter_son/left
+PASS: real walking phase count: woodcutter_son/right
+PASS: directional fallback exists: woodcutter_son/right
+PASS: direction reflected exactly once: woodcutter_son/right
+PASS: real talk drawings: woodcutter_son
+PASS: directional idle count: woodcutter_son
+PASS: reaction respects individual delay: woodcutter_son
+PASS: brief glance starts: woodcutter_son
+PASS: glance finishes: woodcutter_son
+PASS: lingering Hans does not constantly interrupt: woodcutter_son
+PASS: attention changes no routine, movement or facing state: woodcutter_son
+PASS: reachable original E conversation: woodcutter_son
+PASS: work stops through existing dialogue: woodcutter_son
+PASS: native portrait rectangle preserved: woodcutter_son
+PASS: correct real portrait: woodcutter_son/neutral
+PASS: correct real portrait: woodcutter_son/joy
+PASS: correct real portrait: woodcutter_son/displeased
+PASS: correct real portrait: woodcutter_son/anxious
+PASS: dialogue holds body: woodcutter_son
+PASS: original occupation resumes: woodcutter_son
+PASS: existing exit: woodcutter_son
+PASS: transition completes within deadline
+PASS: existing scene entry: herbalist
+PASS: transition completes within deadline
+PASS: same original actor visible: herbalist
+PASS: undistorted nearest body: herbalist
+PASS: correct animation resource for original identity: herbalist
+PASS: approved Stage54 resource: herbalist
+PASS: real walking phase count: herbalist/down
+PASS: directional fallback exists: herbalist/down
+PASS: direction reflected exactly once: herbalist/down
+PASS: real walking phase count: herbalist/up
+PASS: directional fallback exists: herbalist/up
+PASS: direction reflected exactly once: herbalist/up
+PASS: real walking phase count: herbalist/left
+PASS: directional fallback exists: herbalist/left
+PASS: direction reflected exactly once: herbalist/left
+PASS: real walking phase count: herbalist/right
+PASS: directional fallback exists: herbalist/right
+PASS: direction reflected exactly once: herbalist/right
+PASS: real talk drawings: herbalist
+PASS: directional idle count: herbalist
+PASS: reaction respects individual delay: herbalist
+PASS: brief glance starts: herbalist
+PASS: glance finishes: herbalist
+PASS: lingering Hans does not constantly interrupt: herbalist
+PASS: attention changes no routine, movement or facing state: herbalist
+PASS: reachable original E conversation: herbalist
+PASS: work stops through existing dialogue: herbalist
+PASS: correct real portrait: herbalist/neutral
+PASS: correct real portrait: herbalist/joy
+PASS: correct real portrait: herbalist/displeased
+PASS: correct real portrait: herbalist/anxious
+PASS: dialogue holds body: herbalist
+PASS: original occupation resumes: herbalist
+PASS: existing exit: herbalist
+PASS: transition completes within deadline
+PASS: existing scene entry: herbalist_brother
+PASS: transition completes within deadline
+PASS: same original actor visible: herbalist_brother
+PASS: undistorted nearest body: herbalist_brother
+PASS: correct animation resource for original identity: herbalist_brother
+PASS: approved Stage54 resource: herbalist_brother
+PASS: real walking phase count: herbalist_brother/down
+PASS: directional fallback exists: herbalist_brother/down
+PASS: direction reflected exactly once: herbalist_brother/down
+PASS: real walking phase count: herbalist_brother/up
+PASS: directional fallback exists: herbalist_brother/up
+PASS: direction reflected exactly once: herbalist_brother/up
+PASS: real walking phase count: herbalist_brother/left
+PASS: directional fallback exists: herbalist_brother/left
+PASS: direction reflected exactly once: herbalist_brother/left
+PASS: real walking phase count: herbalist_brother/right
+PASS: directional fallback exists: herbalist_brother/right
+PASS: direction reflected exactly once: herbalist_brother/right
+PASS: real talk drawings: herbalist_brother
+PASS: directional idle count: herbalist_brother
+PASS: reaction respects individual delay: herbalist_brother
+PASS: brief glance starts: herbalist_brother
+PASS: glance finishes: herbalist_brother
+PASS: lingering Hans does not constantly interrupt: herbalist_brother
+PASS: attention changes no routine, movement or facing state: herbalist_brother
+PASS: reachable original E conversation: herbalist_brother
+PASS: work stops through existing dialogue: herbalist_brother
+PASS: correct real portrait: herbalist_brother/neutral
+PASS: correct real portrait: herbalist_brother/joy
+PASS: correct real portrait: herbalist_brother/displeased
+PASS: correct real portrait: herbalist_brother/anxious
+PASS: dialogue holds body: herbalist_brother
+PASS: original occupation resumes: herbalist_brother
+PASS: existing exit: herbalist_brother
+PASS: transition completes within deadline
+PASS: existing scene entry: old_man
+PASS: transition completes within deadline
+PASS: same original actor visible: old_man
+PASS: undistorted nearest body: old_man
+PASS: correct animation resource for original identity: old_man
+PASS: approved Stage54 resource: old_man
+PASS: real walking phase count: old_man/down
+PASS: directional fallback exists: old_man/down
+PASS: direction reflected exactly once: old_man/down
+PASS: real walking phase count: old_man/up
+PASS: directional fallback exists: old_man/up
+PASS: direction reflected exactly once: old_man/up
+PASS: real walking phase count: old_man/left
+PASS: directional fallback exists: old_man/left
+PASS: direction reflected exactly once: old_man/left
+PASS: real walking phase count: old_man/right
+PASS: directional fallback exists: old_man/right
+PASS: direction reflected exactly once: old_man/right
+PASS: real talk drawings: old_man
+PASS: directional idle count: old_man
+PASS: reaction respects individual delay: old_man
+PASS: brief glance starts: old_man
+PASS: glance finishes: old_man
+PASS: lingering Hans does not constantly interrupt: old_man
+PASS: attention changes no routine, movement or facing state: old_man
+PASS: reachable original E conversation: old_man
+PASS: work stops through existing dialogue: old_man
+PASS: correct real portrait: old_man/neutral
+PASS: correct real portrait: old_man/joy
+PASS: correct real portrait: old_man/displeased
+PASS: correct real portrait: old_man/anxious
+PASS: dialogue holds body: old_man
+PASS: original occupation resumes: old_man
+PASS: existing exit: old_man
+PASS: transition completes within deadline
+PASS: old man reacts much slower than curious child
+PASS: no duplicate resident: elder
+PASS: no duplicate resident: innkeeper
+PASS: no duplicate resident: innkeeper_wife
+PASS: no duplicate resident: woodcutter
+PASS: no duplicate resident: woodcutter_wife
+PASS: no duplicate resident: woodcutter_son
+PASS: no duplicate resident: herbalist
+PASS: no duplicate resident: herbalist_brother
+PASS: no duplicate resident: old_man
+RESULT: 329 pilot and unchanged-resident checks passed, 0 failed

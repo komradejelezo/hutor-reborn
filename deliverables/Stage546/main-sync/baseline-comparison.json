@@ -1,0 +1,31 @@
+[
+  {
+    "baseline": "main",
+    "ref": "bc8bfaa",
+    "exit_code": 1,
+    "details": [
+      "REVISIT woodcutter saved_step=1 actual_step=1 displacement=28.717399597168 state=1 wait_left=-0.01666666666667",
+      "ERROR: FAIL: short visit preserves current activity/progress",
+      "REVISIT inn saved_step=1 actual_step=1 displacement=0.0 state=2 wait_left=3.13333333333334",
+      "REVISIT elder saved_step=0 actual_step=0 displacement=1.0 state=2 wait_left=2.21666666666667",
+      "REVISIT herbalist saved_step=0 actual_step=0 displacement=0.0 state=2 wait_left=2.21666666666667",
+      "REVISIT old_man saved_step=1 actual_step=1 displacement=3.29986572265625 state=1 wait_left=-0.25",
+      "RESULT: 162 daily-lifecycle checks passed, 1 failed"
+    ]
+  },
+  {
+    "baseline": "pr28",
+    "ref": "d174085",
+    "exit_code": 1,
+    "details": [
+      "REVISIT woodcutter saved_step=1 actual_step=1 displacement=28.717399597168 state=1 wait_left=-0.01666666666667",
+      "ERROR: FAIL: short visit preserves current activity/progress",
+      "REVISIT inn saved_step=0 actual_step=0 displacement=39.5239028930664 state=1 wait_left=-0.01666666666667",
+      "ERROR: FAIL: short visit preserves current activity/progress",
+      "REVISIT elder saved_step=0 actual_step=0 displacement=1.0 state=2 wait_left=2.21666666666667",
+      "REVISIT herbalist saved_step=0 actual_step=0 displacement=0.0 state=2 wait_left=2.21666666666667",
+      "REVISIT old_man saved_step=1 actual_step=1 displacement=3.29986572265625 state=1 wait_left=-0.25",
+      "RESULT: 161 daily-lifecycle checks passed, 2 failed"
+    ]
+  }
+]

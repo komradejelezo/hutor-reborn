@@ -1,0 +1,87 @@
+{
+  "main": "bc8bfaa",
+  "original_pr28": "d174085",
+  "engine": "4.6.3.stable.official.7d41c59c4",
+  "tests": [
+    {
+      "test": "verify_residents_546",
+      "exit_code": 0,
+      "summary": "RESULT: 329 pilot and unchanged-resident checks passed, 0 failed"
+    },
+    {
+      "test": "verify_innkeeper_work_546",
+      "exit_code": 0,
+      "summary": "RESULT: 51 innkeeper work checks passed, 0 failed"
+    },
+    {
+      "test": "verify_son_games_545",
+      "exit_code": 0,
+      "summary": "RESULT: 31 son live-game checks passed, 0 failed"
+    },
+    {
+      "test": "verify_child_play",
+      "exit_code": 0,
+      "summary": "RESULT: 7 child-play checks passed, 0 failed"
+    },
+    {
+      "test": "verify_woodcutter_delivery",
+      "exit_code": 0,
+      "summary": "RESULT: 26 delivery/animation checks passed, 0 failed"
+    },
+    {
+      "test": "verify_woodcutter_return",
+      "exit_code": 0,
+      "summary": "RESULT: 11 real return checks passed, 0 failed"
+    },
+    {
+      "test": "verify_wife_orientation_544",
+      "exit_code": 0,
+      "summary": "RESULT: 16 wife work-orientation checks passed, 0 failed"
+    },
+    {
+      "test": "verify_daily_cycle",
+      "exit_code": 0,
+      "summary": "RESULT: 33 daily-cycle checks passed, 0 failed"
+    },
+    {
+      "test": "verify_door_transitions",
+      "exit_code": 0,
+      "summary": "RESULT: 335 door transition checks passed, 0 failed"
+    },
+    {
+      "test": "verify_daily_lifecycle",
+      "exit_code": 0,
+      "summary": "RESULT: 163 daily-lifecycle checks passed, 0 failed"
+    },
+    {
+      "test": "verify_dialogue",
+      "exit_code": 0,
+      "summary": "RESULT: 65 dialogue checks passed, 0 failed"
+    },
+    {
+      "test": "verify_worker_speed",
+      "exit_code": 0,
+      "summary": "RESULT: 11 worker-speed checks passed, 0 failed"
+    },
+    {
+      "test": "verify_innkeeper_counter_546",
+      "exit_code": 0,
+      "summary": "RESULT: 8 counter registration checks passed, 0 failed"
+    },
+    {
+      "test": "verify_innkeeper_depth_546",
+      "exit_code": 0,
+      "summary": "RESULT: 8 innkeeper depth checks passed, 0 failed"
+    },
+    {
+      "test": "verify_son_depth_545",
+      "exit_code": 0,
+      "summary": "RESULT: 8 son depth checks passed, 0 failed"
+    },
+    {
+      "test": "verify_wife_depth_544",
+      "exit_code": 0,
+      "summary": "RESULT: 8 wife depth checks passed, 0 failed"
+    }
+  ]
+}

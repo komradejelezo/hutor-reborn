@@ -1,0 +1,134 @@
+{
+  "Family-before-after.png": {
+    "bytes": 113327,
+    "sha256": "999509ff5d594812dd130f2900131f5b6877d2a9969c02f075c46ac774c26fc4"
+  },
+  "Family-game.png": {
+    "bytes": 1083090,
+    "sha256": "02939bc65f34015d896cc2b674559a93699a8c9e1d9506a795dff94c00c34564"
+  },
+  "Gaits-nearest.mp4": {
+    "bytes": 414645,
+    "sha256": "eab3088245cd020e53db97410ecee8e980807c1c1c2c1c28647754bdbcf64203"
+  },
+  "Home-dialogue.png": {
+    "bytes": 294387,
+    "sha256": "1f1964e4810cfba18047e8251da8881d5e95a4d44700609eb80d641a35e8c2d9"
+  },
+  "Native-playtest.mp4": {
+    "bytes": 2583434,
+    "sha256": "55aa671267b36bbc57f3fe8f4cab86805f1d05bff3a899bcbdd21d6caeb7ec4e"
+  },
+  "Native-poses.png": {
+    "bytes": 107288,
+    "sha256": "f51569307f9ec3ad1943fab1d4cd714b27e9f8a65ecdee9775a179cba493154e"
+  },
+  "Run-time-sequence.png": {
+    "bytes": 92280,
+    "sha256": "cb550aeaedd9468d3ad3e579b27915765b4f9067e65ddeafa66d2f72163a3925"
+  },
+  "Walk-time-sequence.png": {
+    "bytes": 104942,
+    "sha256": "29fb48aac014226197cee94face5c669d623e2ffe7a4f8374465844a109bb92b"
+  },
+  "World-review.mp4": {
+    "bytes": 3243500,
+    "sha256": "a250c9fa32756494890a04ca008181badc31ce0953a2f368754120fecc5fae72"
+  },
+  "Yard-jump.png": {
+    "bytes": 1049231,
+    "sha256": "520204421cdf9dc11502677917dafd40548122f103e1d9b7afdba72af3b5d643"
+  },
+  "Yard-kick.png": {
+    "bytes": 1044187,
+    "sha256": "d99876d0b74955c6121e6b01d9cfd9fc5156f177fc4a7104fa5ae1bb081b988f"
+  },
+  "Yard-pebbles.png": {
+    "bytes": 1048609,
+    "sha256": "ed4b8ac30a436d7cc046e952bbd83aa489128b488bc8955ae2b621b50b0071f4"
+  },
+  "Yard-pickup.png": {
+    "bytes": 1042942,
+    "sha256": "dd490fb0985ddfc6e6c5af3c65dd7f8d1a007eac855ce81d0388050185b4fb6a"
+  },
+  "depth.json": {
+    "bytes": 961,
+    "sha256": "3626fc496bcfed6bc6271f01104b3bc496f8d3c219b6b3e4d5b162c5a74b830d"
+  },
+  "depth.log": {
+    "bytes": 899,
+    "sha256": "ed38f9c36bb637781de4ba6e263b190e205830e1fa0ba6afcd32e9c14d5c9587"
+  },
+  "graphical-review.log": {
+    "bytes": 1624,
+    "sha256": "d4fe4956443e5720cfb6734f6a737d3761e9fab762c9bd8d94e0503ed62c3b67"
+  },
+  "import.log": {
+    "bytes": 1127,
+    "sha256": "901302403987e42564f73ce63f15364a4579f8934b46868c16acfe4fc1ae481d"
+  },
+  "native-evening-yard.png": {
+    "bytes": 1127886,
+    "sha256": "bf09889237a6f8be4a6f37e63a7ddb3c616f3a596d956b72439fc8b4c6b5e32a"
+  },
+  "native-family-home.png": {
+    "bytes": 280694,
+    "sha256": "4d7f3286d615b976e82de12f340ff0c8a6f2f2255527e4323ae734ac22601a8d"
+  },
+  "native-game.log": {
+    "bytes": 367,
+    "sha256": "36e36669428facd74332657f763307565fdcc6c6a86f05c8c8ed999dffced574"
+  },
+  "native-native-actions.jsonl": {
+    "bytes": 36371,
+    "sha256": "c6d683177447fff479356e5d43a2a18fd0bbf0d3ed2f6d00fec404ee92e15872"
+  },
+  "native-result.json": {
+    "bytes": 18668,
+    "sha256": "9a795cb697e8cf0a88a0b6c4fdedc40417f9f3fe7b173b3ca2b795b867e0c8bf"
+  },
+  "native-son-dialogue.png": {
+    "bytes": 296002,
+    "sha256": "ba6c0214e072b48a895f2aaeca672c42da065199b8a1d40f2430920393d54535"
+  },
+  "native-son-yard.png": {
+    "bytes": 1128072,
+    "sha256": "219871840f221c8d32cc7fedcc11b9cefc7df17eff1d03c475f80d617b13defa"
+  },
+  "sources.log": {
+    "bytes": 177,
+    "sha256": "7f1d80dd77c37516c5af5f52d21bc1af5a363edadca82619f80ef01399836f40"
+  },
+  "validation.json": {
+    "bytes": 787,
+    "sha256": "942c12a27cd0c4f7ebf39fc0ac6db2063eda9a75f9a2b04013aa0bd3e26fb499"
+  },
+  "verify_child_play.log": {
+    "bytes": 521,
+    "sha256": "d963068c607d53d822d194796dc150ca37206505f4257c12094c8a6cab16a2ab"
+  },
+  "verify_daily_cycle.log": {
+    "bytes": 2930,
+    "sha256": "5ba4d119ad6ba63ac38877056b854035835a6eef31ecb8735e7d1be5d5e05be8"
+  },
+  "verify_dialogue.log": {
+    "bytes": 3248,
+    "sha256": "31d22cb45754a57179b9f3ded944e50b035293e6bade6195d672557118c0e261"
+  },
+  "verify_door_transitions.log": {
+    "bytes": 15165,
+    "sha256": "82ae93229e7961f2655eb53b71c11835f314554e03de56b0071ec055d3fb343b"
+  },
+  "verify_residents_545.log": {
+    "bytes": 15532,
+    "sha256": "a6deaa0c6bfeb60f8f1e8fc40fcdba1a2bf20ac953e7fcb90993994d0daef0e8"
+  },
+  "verify_son_games_545.log": {
+    "bytes": 2122,
+    "sha256": "1c93f2497145b31416ce5f3074db6710ab5ab12884efaf1ec790b292ea079905"
+  },
+  "verify_worker_speed.log": {
+    "bytes": 914,
+    "sha256": "e7e7654387fbdaac6bc07e58f166a44d8868912994a5f682beea9d56b3d7d502"
+  }
+}

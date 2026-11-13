@@ -1,0 +1,35 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: conversation immediately stops chase
+PASS: conversation pauses ball and child sequence
+PASS: same chase resumes after conversation
+PASS: actual live-game phase: kick
+PASS: actual live-game phase: chase
+PASS: actual live-game phase: pickup
+PASS: actual live-game phase: rise_return
+PASS: actual live-game phase: return
+PASS: actual live-game phase: joy
+PASS: actual live-game phase: kneel
+PASS: actual live-game phase: inspect
+PASS: actual live-game phase: rise
+PASS: actual live-game phase: jump
+PASS: actual live-game phase: rest
+PASS: drawn action is actually played: work_ball
+PASS: drawn action is actually played: work_kneel_down
+PASS: drawn action is actually played: work_kneel
+PASS: drawn action is actually played: work_stand_up
+PASS: drawn action is actually played: work_jump
+PASS: drawn action is actually played: work_joy
+PASS: live routine contains distinct walk and run movement
+PASS: continuous safe-area physics:
+PASS: dialogue interruption was exercised during actual chase
+PASS: source definition speed was not mutated
+PASS: family home entry
+PASS: transition completes within deadline
+PASS: parked game leaves no floor toy behind
+PASS: return outdoors
+PASS: transition completes within deadline
+PASS: same child and schedule survive player scene changes
+PASS: original evening homeward door transfer remains operational
+PHASES: { "rest": true, "kick": true, "chase": true, "pickup": true, "rise_return": true, "return": true, "joy": true, "": true, "kneel": true, "inspect": true, "rise": true, "jump": true } CLIPS: { &"work_rest": true, &"work_ball": true, &"idle_right": true, &"run_right": true, &"work_kneel_down": true, &"work_stand_up": true, &"run_left": true, &"work_joy": true, &"idle_down": true, &"walk_left": true, &"work_kneel": true, &"run_down": true, &"idle_up": true, &"idle_left": true, &"work_jump": true } COUNTS: { "rest": 9, "kick": 1, "chase": 1, "pickup": 1, "rise_return": 1, "return": 1, "joy": 1, "kneel": 3, "inspect": 3, "rise": 3, "jump": 1 }
+RESULT: 31 son live-game checks passed, 0 failed

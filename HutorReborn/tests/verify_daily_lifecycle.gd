@@ -89,9 +89,19 @@ func run() -> void:
             var saved_id:=npc.get_instance_id()
             var saved_step:=npc.step_index
             var saved_pos:=npc.position
+            var saved_frame:=Engine.get_physics_frames()
+            var saved_delta:=npc.get_physics_process_delta_time()
+            var saved_speed:=npc.definition.speed
+            var saved_wait:=npc.wait_left/npc.wait_time_scale if npc.state==HutorResident.State.WAITING else 0.0
             await leave(id)
             check(travel.request_transition(id),"same-room revisit accepted");await wait_transition()
-            check(npc.get_instance_id()==saved_id and npc.step_index==saved_step and npc.position.distance_to(saved_pos)<25,"short visit preserves current activity/progress")
+            # Fade transitions keep NPC physics running. Allow real elapsed motion
+            # plus one navigation-cell diagonal when the actor is materialized.
+            var elapsed:float=(Engine.get_physics_frames()-saved_frame)*saved_delta
+            var motion_budget:float=0.0 if saved_wait>elapsed else saved_speed*elapsed
+            var snap_budget:float=Vector2.ONE.length()*population.navigation.data.cell_size+2.0
+            var distance:=npc.position.distance_to(saved_pos)
+            check(npc.get_instance_id()==saved_id and npc.step_index==saved_step and distance<=motion_budget+snap_budget,"short visit preserves current activity/progress: "+String(id)+" distance="+str(distance)+" budget="+str(motion_budget+snap_budget))
         await leave(id)
     await visit(&"herbalist",1215)
     var brother:HutorResident=life.states[&"herbalist_brother"].actor
