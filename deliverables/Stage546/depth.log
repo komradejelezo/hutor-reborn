@@ -1,0 +1,14 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: innkeeper behind/house: 792 opaque pixels, 0 wrong
+PASS: innkeeper front/house: 790 opaque pixels, 0 wrong
+PASS: innkeeper behind/pine: 724 opaque pixels, 0 wrong
+PASS: innkeeper front/pine: 803 opaque pixels, 0 wrong
+PASS: innkeeper behind/fence: 43 opaque pixels, 0 wrong
+PASS: innkeeper front/fence: 271 opaque pixels, 0 wrong
+PASS: innkeeper behind/Hans: 426 opaque pixels, 0 wrong
+PASS: innkeeper front/Hans: 496 opaque pixels, 0 wrong
+RESULT: 8 innkeeper depth checks passed, 0 failed

@@ -44,6 +44,11 @@
 [ext_resource type="Script" path="res://scripts/components/interactable.gd" id="32_7sn62"]
 [ext_resource type="Texture2D" path="res://assets/interiors/stage45/linen_line.png" id="33_dvgrq"]
 
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper546/game/mug_empty.png" id="546_mug_empty"]
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper546/game/pitcher.png" id="546_pitcher"]
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper546/game/cloth.png" id="546_cloth"]
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper546/game/crock.png" id="546_crock"]
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cj2jb"]
 texture = ExtResource("5_o4jei")
 texture_region_size = Vector2i(32, 32)
@@ -414,7 +419,7 @@ resource_local_to_scene = true
 size = Vector2(32, 18)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f0sxq"]
-size = Vector2(226, 30)
+size = Vector2(226, 14)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k6drk"]
 resource_local_to_scene = true
@@ -670,7 +675,7 @@ centered = false
 collision_mask = 6
 
 [node name="Feet" parent="Actors/Props/Counter/Solid" index="0"]
-position = Vector2(0, -13)
+position = Vector2(0, -7)
 shape = SubResource("RectangleShape2D_f0sxq")
 
 [node name="ContactShadow" type="Polygon2D" parent="Actors/Props/Counter" unique_id=2086786725]
@@ -1505,6 +1510,36 @@ position = Vector2(735, 183)
 script = ExtResource("32_7sn62")
 title = "Подсобная дверь"
 description = "За дверью — припасы. Пока туда не войти."
+
+[node name="CookingCrock546" type="Sprite2D" parent="Actors/Props/Fireplace"]
+texture_filter = 1
+position = Vector2(-14, 1)
+texture = ExtResource("546_crock")
+offset = Vector2(0, -4)
+
+[node name="MugWipe546" type="Sprite2D" parent="Actors/Props/Counter"]
+texture_filter = 1
+position = Vector2(1, -28)
+texture = ExtResource("546_mug_empty")
+offset = Vector2(0, -3)
+
+[node name="MugService546" type="Sprite2D" parent="Actors/Props/Counter"]
+texture_filter = 1
+position = Vector2(65, -28)
+texture = ExtResource("546_mug_empty")
+offset = Vector2(0, -3)
+
+[node name="Pitcher546" type="Sprite2D" parent="Actors/Props/Counter"]
+texture_filter = 1
+position = Vector2(48, -28)
+texture = ExtResource("546_pitcher")
+offset = Vector2(0, -3)
+
+[node name="Cloth546" type="Sprite2D" parent="Actors/Props/Counter"]
+texture_filter = 1
+position = Vector2(-17, -29)
+texture = ExtResource("546_cloth")
+offset = Vector2(0, -3)
 
 [editable path="FloorDetails/HallRug"]
 [editable path="FloorDetails/ThresholdWear"]

@@ -1,0 +1,138 @@
+{
+  "Comparison-before-after.png": {
+    "bytes": 62971,
+    "sha256": "cf70ecc5ef0eb00ae3a7fd6cf8312d5d50b132aaac62693041fd50a39f2c95d1"
+  },
+  "Comparison-game.png": {
+    "bytes": 472340,
+    "sha256": "4def214cbe6a122e9c62847aa800d299dda384789c8a16759dc7982f6952ff99"
+  },
+  "Counter-wipe.png": {
+    "bytes": 480824,
+    "sha256": "a6e1b162060a6f33c5c0695ed128044beda0cc0a05b315a1d6ac80a32d86fd1a"
+  },
+  "Evening.png": {
+    "bytes": 471538,
+    "sha256": "37b5c89b6b678f2877c31aeffc9a2e436175b4b86ed185acd106ddde237ac674"
+  },
+  "Hearth-cook.png": {
+    "bytes": 473928,
+    "sha256": "7c2498490799e0e6670ed033aeb8f67a376f1aecbbd6e5f4b4ef5fe76982a7a1"
+  },
+  "Mug-polish.png": {
+    "bytes": 480916,
+    "sha256": "d7029d908f6128d05d9d4fc169a87117c0cc26b11fff6b871965a75112c64636"
+  },
+  "Native-poses.png": {
+    "bytes": 205251,
+    "sha256": "c01b3a915e76da24625e17aa6dd2692326a60445b67fd03cfcc0e77034e00b4a"
+  },
+  "Night.png": {
+    "bytes": 471948,
+    "sha256": "0706e5d4556a7aa27be1e8143e8cc18594239f090c45703b86283aa51511fa0c"
+  },
+  "Serve-drink.png": {
+    "bytes": 482114,
+    "sha256": "6e2b9f610d12b078e01a97d192f210bc6d5de66aa649e49893967e81aa7fef41"
+  },
+  "Walking-four-directions.mp4": {
+    "bytes": 248780,
+    "sha256": "74babcbc82c885cf5722a16bf6e69eec54024eebe18cffcfa9472637a589ebce"
+  },
+  "Walking-time-sequence.png": {
+    "bytes": 380082,
+    "sha256": "3f400681144207c84c7e9d1cbf8463413a540aade16daf7e8efcdaf393ccd887"
+  },
+  "Workstations.mp4": {
+    "bytes": 497924,
+    "sha256": "4153fc571794f2f8591ac80b340246ebbbdadeed162ec28a9d9189d93237a3e0"
+  },
+  "counter.json": {
+    "bytes": 111,
+    "sha256": "671891c90078104e9f691715a0e8fba156be00b3f6de4fd4ed1df00c9befd627"
+  },
+  "counter.log": {
+    "bytes": 808,
+    "sha256": "56343b9acb21587e7a164ea1e3a0e8643d886e96efe7d3ce2a84ac2bc7639c44"
+  },
+  "depth.json": {
+    "bytes": 921,
+    "sha256": "4ffbf30ecb3048a290fc3c5a8d73fdfc8b840cb91a01df759458746fed7b5d62"
+  },
+  "depth.log": {
+    "bytes": 865,
+    "sha256": "072ec8f705aa05f62c61fe82366f0ce99c78faf742ce2d349949415cc839f480"
+  },
+  "graphical-review.log": {
+    "bytes": 1616,
+    "sha256": "c660808cbe9d8153512f5a12b3ec6ddc7b9e728757c14b7eed81038ddda54133"
+  },
+  "hearth.log": {
+    "bytes": 535,
+    "sha256": "07cbd038527964e8810b24677b10145c435ea6502ad484d1d056bff5002b4485"
+  },
+  "import.log": {
+    "bytes": 1059,
+    "sha256": "ae6541e7bcab3f37c7482fbffcb9009078c7498f0cec0538f805a743ebf6d3b1"
+  },
+  "native-counter-dialogue.png": {
+    "bytes": 403286,
+    "sha256": "3f5e448bbf31ff2539889be15369a4372a5082807ef8d507e0c8d5c33bf80b9d"
+  },
+  "native-game.log": {
+    "bytes": 367,
+    "sha256": "36e36669428facd74332657f763307565fdcc6c6a86f05c8c8ed999dffced574"
+  },
+  "native-hearth-dialogue.png": {
+    "bytes": 365742,
+    "sha256": "257a8668bb1f51a9b5aa6d336923ea4f036f75428c6dc0e70c00d5258bff9f04"
+  },
+  "native-inn-return.png": {
+    "bytes": 996692,
+    "sha256": "818167a715ac11016fa172d52530a68cd69611d2e09527a0d1f39a5faa8897c5"
+  },
+  "native-native-actions.jsonl": {
+    "bytes": 43695,
+    "sha256": "67af0ecd43cb6838a309799dc905ff1952758ddef23bb982dd448fe5bf519e75"
+  },
+  "native-result.json": {
+    "bytes": 14995,
+    "sha256": "0fa4d1adc929e1eddd2c4df53da11f62a140871ae653cf802146fd2012136b05"
+  },
+  "sources.log": {
+    "bytes": 416,
+    "sha256": "6217ff0080ea01f2f2f617b3a42fb5e5d46430debc0d1429868d07f2b5ea6452"
+  },
+  "validation.json": {
+    "bytes": 1066,
+    "sha256": "6ea86dd16b222ac910b8103a6239f880d8805f67c3b7e8da54b48521f79f34b2"
+  },
+  "verify_daily_cycle.log": {
+    "bytes": 2965,
+    "sha256": "cc55960c14285b919c86b4c175ffcc5244210e6a8ee3ab1d3df11f927c8a0d61"
+  },
+  "verify_dialogue.log": {
+    "bytes": 3248,
+    "sha256": "31d22cb45754a57179b9f3ded944e50b035293e6bade6195d672557118c0e261"
+  },
+  "verify_door_transitions.log": {
+    "bytes": 15165,
+    "sha256": "82ae93229e7961f2655eb53b71c11835f314554e03de56b0071ec055d3fb343b"
+  },
+  "verify_innkeeper_work_546.log": {
+    "bytes": 2897,
+    "sha256": "3ec4d6541a1940c0eba08524703612dde5d90d8542401041c934617a7acbaaf7"
+  },
+  "verify_residents_546.log": {
+    "bytes": 15532,
+    "sha256": "a6deaa0c6bfeb60f8f1e8fc40fcdba1a2bf20ac953e7fcb90993994d0daef0e8"
+  },
+  "verify_worker_speed.log": {
+    "bytes": 914,
+    "sha256": "e7e7654387fbdaac6bc07e58f166a44d8868912994a5f682beea9d56b3d7d502"
+  },
+  "workstations.log": {
+    "bytes": 670,
+    "sha256": "4e54f1c6e4fa9cafe0acefe0f07fd72a31f47ffe91110d171ec761ce14157b23"
+  }
+}

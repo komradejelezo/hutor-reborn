@@ -21,10 +21,10 @@
     "turn_seconds": 0.1,
     "work_fps": 6,
     "portraits": {
-      "neutral": "res://assets/npc/stage54/game/innkeeper/portraits/neutral.png",
-      "joy": "res://assets/npc/stage54/game/innkeeper/portraits/joy.png",
-      "displeased": "res://assets/npc/stage54/game/innkeeper/portraits/displeased.png",
-      "anxious": "res://assets/npc/stage54/game/innkeeper/portraits/anxious.png"
+      "neutral": "res://assets/npc/innkeeper546/game/portraits/neutral.png",
+      "joy": "res://assets/npc/innkeeper546/game/portraits/joy.png",
+      "displeased": "res://assets/npc/innkeeper546/game/portraits/displeased.png",
+      "anxious": "res://assets/npc/innkeeper546/game/portraits/anxious.png"
     }
   },
   "innkeeper_wife": {

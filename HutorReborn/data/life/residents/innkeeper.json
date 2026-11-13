@@ -30,7 +30,7 @@
             424,
             216
           ],
-          "minutes": 10,
+          "minutes": 6,
           "clip": "work_wipe",
           "facing": "down",
           "talk_offset": [
@@ -44,9 +44,33 @@
             600,
             232
           ],
-          "minutes": 8,
+          "minutes": 5,
           "clip": "",
           "facing": "down"
+        },
+        {
+          "id": "check_hearth",
+          "point": [
+            696,
+            280
+          ],
+          "minutes": 3,
+          "clip": "work_cook",
+          "facing": "right"
+        },
+        {
+          "id": "pause_counter",
+          "point": [
+            488,
+            216
+          ],
+          "minutes": 4,
+          "clip": "",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
         }
       ]
     },
@@ -61,7 +85,7 @@
             424,
             216
           ],
-          "minutes": 12,
+          "minutes": 7,
           "clip": "work_wipe",
           "facing": "down",
           "talk_offset": [
@@ -75,7 +99,31 @@
             488,
             216
           ],
-          "minutes": 8,
+          "minutes": 5,
+          "clip": "",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
+        },
+        {
+          "id": "check_hearth",
+          "point": [
+            696,
+            280
+          ],
+          "minutes": 3,
+          "clip": "work_cook",
+          "facing": "right"
+        },
+        {
+          "id": "pause_counter",
+          "point": [
+            488,
+            216
+          ],
+          "minutes": 5,
           "clip": "",
           "facing": "down",
           "talk_offset": [
@@ -96,7 +144,7 @@
             424,
             216
           ],
-          "minutes": 12,
+          "minutes": 7,
           "clip": "work_wipe",
           "facing": "down",
           "talk_offset": [
@@ -110,9 +158,33 @@
             584,
             424
           ],
-          "minutes": 7,
+          "minutes": 5,
           "clip": "",
           "facing": "down"
+        },
+        {
+          "id": "check_hearth",
+          "point": [
+            696,
+            280
+          ],
+          "minutes": 3,
+          "clip": "work_cook",
+          "facing": "right"
+        },
+        {
+          "id": "pause_counter",
+          "point": [
+            488,
+            216
+          ],
+          "minutes": 4,
+          "clip": "",
+          "facing": "down",
+          "talk_offset": [
+            0,
+            70
+          ]
         }
       ]
     },

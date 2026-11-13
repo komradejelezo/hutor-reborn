@@ -1,0 +1,16 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: Hans enters inn before workers first appear
+PASS: transition completes within deadline
+PASS: virtual worker starts evening return while Hans is indoors
+PASS: Hans returns outside while workers cross boundary
+PASS: transition completes within deadline
+PASS: woodcutter visible runtime definition is independent of immutable original
+PASS: woodcutter source speed survives F7 acceleration/reset
+PASS: woodcutter runtime speed actually returns to x1
+SPEED woodcutter baseline=36.0 original=36.0 runtime=36.0
+PASS: herbalist_brother visible runtime definition is independent of immutable original
+PASS: herbalist_brother source speed survives F7 acceleration/reset
+PASS: herbalist_brother runtime speed actually returns to x1
+SPEED herbalist_brother baseline=37.0 original=37.0 runtime=37.0
+RESULT: 11 worker-speed checks passed, 0 failed
