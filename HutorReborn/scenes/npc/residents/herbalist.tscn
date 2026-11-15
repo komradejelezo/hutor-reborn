@@ -2,5 +2,12 @@
 [ext_resource type="PackedScene" path="res://scenes/npc/resident.tscn" id="1"]
 [ext_resource type="Resource" path="res://assets/npc/stage43/herbalist/definition.tres" id="2"]
 
+[ext_resource type="Script" path="res://scripts/npc/rework/herbalist_actor_5410.gd" id="4"]
+[ext_resource type="Material" path="res://assets/npc/herbalist5410/game/palette.tres" id="3"]
+
 [node name="Herbalist" instance=ExtResource("1")]
 definition = ExtResource("2")
+script = ExtResource("4")
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+material = ExtResource("3")

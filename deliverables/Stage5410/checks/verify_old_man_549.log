@@ -1,0 +1,49 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: original E reachable smoke_pipe
+PASS: smoking stops immediately on talk smoke_pipe
+PASS: existing dialogue opens smoke_pipe
+PASS: feet stay fixed during rise/conversation smoke_pipe
+PASS: pipe lowered and rise finishes before directed talk smoke_pipe
+PASS: left talk uses independent left art smoke_pipe
+PASS: same scheduled action resumes smoke_pipe
+PASS: sitting on the existing activity bench
+PASS: original E reachable sit_smoke
+PASS: smoking stops immediately on talk sit_smoke
+PASS: existing dialogue opens sit_smoke
+PASS: feet stay fixed during rise/conversation sit_smoke
+PASS: pipe lowered and rise finishes before directed talk sit_smoke
+PASS: left talk uses independent left art sit_smoke
+PASS: same scheduled action resumes sit_smoke
+PASS: real authored action smoke_pipe
+PASS: real authored action sit_down
+PASS: real authored action sit_idle
+PASS: real authored action sit_smoke
+PASS: real authored action stand_up
+PASS: real authored action think
+PASS: real motion/smoke/pivot invariants:
+PASS: actual exhalations occur
+PASS: independent direction left
+PASS: independent direction right
+PASS: independent direction down
+PASS: independent direction up
+PASS: left gait is not the right gait mirrored
+PASS: original slow speed, real route on foot
+PASS: transition completes within deadline
+PASS: existing home hearth activity uses standing pipe cycle
+PASS: existing effects toggle disables pipe smoke
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: same old man across original scene transitions
+PASS: all original actors retained elder
+PASS: all original actors retained innkeeper
+PASS: all original actors retained innkeeper_wife
+PASS: all original actors retained woodcutter
+PASS: all original actors retained woodcutter_wife
+PASS: all original actors retained woodcutter_son
+PASS: all original actors retained herbalist
+PASS: all original actors retained herbalist_brother
+PASS: all original actors retained old_man
+PASS: schedule data unchanged
+OBSERVED { &"idle_right": true, &"smoke_pipe": true, &"idle_left": true, &"walk_right": true, &"walk_down": true, &"sit_down": true, &"sit_idle": true, &"sit_smoke": true, &"stand_up": true, &"walk_up": true, &"idle_down": true, &"think": true } PHASES { &"idle_right": { 0: true }, &"smoke_pipe": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"idle_left": { 0: true, 1: true }, &"walk_right": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true }, &"walk_down": { 4: true, 5: true, 0: true, 1: true, 2: true, 3: true }, &"sit_down": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"sit_idle": { 0: true, 1: true }, &"sit_smoke": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"stand_up": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"walk_up": { 3: true, 4: true, 5: true, 0: true, 1: true, 2: true }, &"idle_down": { 0: true }, &"think": { 0: true } }
+RESULT: 45 old-man checks passed, 0 failed

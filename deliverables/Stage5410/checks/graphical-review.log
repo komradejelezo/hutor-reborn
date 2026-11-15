@@ -1,0 +1,30 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: free existing village floor for comparison
+HERBALIST5410_REVIEW_READY
+PASS: physical walk right
+PASS: physical walk up
+PASS: physical walk left
+PASS: physical walk down
+PASS: original E reachable gather_herbs
+PASS: existing conversation gather_herbs
+PASS: rise/put tool away before dialogue gather_herbs
+PASS: same activity resumes gather_herbs
+PASS: full frames 0-7 reviewed [&"gather_herbs"]
+PASS: full frames 0-7 reviewed [&"gather_herbs"]
+PASS: transition completes within deadline
+PASS: original E reachable grind_herbs
+PASS: existing conversation grind_herbs
+PASS: rise/put tool away before dialogue grind_herbs
+PASS: same activity resumes grind_herbs
+PASS: full frames 0-7 reviewed [&"sort_herbs", &"grind_herbs", &"read_herbal"]
+PASS: original E reachable brew_infusion
+PASS: existing conversation brew_infusion
+PASS: rise/put tool away before dialogue brew_infusion
+PASS: same activity resumes brew_infusion
+PASS: full frames 0-7 reviewed [&"brew_infusion"]
+PASS: ground pivot and native ratio unchanged
+RESULT: 23 graphical herbalist checks passed, 0 failed
