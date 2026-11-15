@@ -5,8 +5,10 @@ static func aligned_point(world:Node2D, id:StringName, action:String, original:V
     if world==null:return original
     var path:="";var offset:=Vector2.ZERO
     if world.get("building_id")==&"inn" and id==&"innkeeper_wife":
-        if action=="clean_tables":path="Actors/Props/TableA";offset=Vector2(0,-42)
-        elif action=="kitchen":path="Actors/Props/TableC";offset=Vector2(0,-40)
+        # Wife-only working sides. The husband's counter/hearth stay untouched.
+        if action=="kitchen":path="Actors/Props/Fireplace";offset=Vector2(40,14)
+        elif action in ["cut_food","take_tray","polish_dishes"]:path="Actors/Props/TableC";offset=Vector2(-38,-12)
+        elif action in ["serve_food","clean_tables"]:path="Actors/Props/TableA";offset=Vector2(-36,-18)
     elif world.get("building_id")==&"herbalist" and id==&"herbalist" and action in ["sort_herbs","brew"]:
         path="Actors/Props/Table";offset=Vector2(0,30)
     elif world.get("building_id")==&"woodcutter" and id==&"woodcutter_wife" and action=="cook":

@@ -1,0 +1,58 @@
+[
+  {
+    "front": false,
+    "overlap": 534,
+    "resident": "innkeeper_wife",
+    "target": "house",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 531,
+    "resident": "innkeeper_wife",
+    "target": "house",
+    "wrong": 0
+  },
+  {
+    "front": false,
+    "overlap": 477,
+    "resident": "innkeeper_wife",
+    "target": "pine",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 534,
+    "resident": "innkeeper_wife",
+    "target": "pine",
+    "wrong": 0
+  },
+  {
+    "front": false,
+    "overlap": 35,
+    "resident": "innkeeper_wife",
+    "target": "fence",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 206,
+    "resident": "innkeeper_wife",
+    "target": "fence",
+    "wrong": 0
+  },
+  {
+    "front": false,
+    "overlap": 388,
+    "resident": "innkeeper_wife",
+    "target": "Hans",
+    "wrong": 0
+  },
+  {
+    "front": true,
+    "overlap": 367,
+    "resident": "innkeeper_wife",
+    "target": "Hans",
+    "wrong": 0
+  }
+]

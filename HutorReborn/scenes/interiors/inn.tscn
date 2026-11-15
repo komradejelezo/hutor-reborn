@@ -49,6 +49,10 @@
 [ext_resource type="Texture2D" path="res://assets/npc/innkeeper546/game/cloth.png" id="546_cloth"]
 [ext_resource type="Texture2D" path="res://assets/npc/innkeeper546/game/crock.png" id="546_crock"]
 
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper_wife547/game/board.png" id="547_board"]
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper_wife547/game/tray.png" id="547_tray"]
+[ext_resource type="Texture2D" path="res://assets/npc/innkeeper_wife547/game/mug_cloth.png" id="547_mug"]
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cj2jb"]
 texture = ExtResource("5_o4jei")
 texture_region_size = Vector2i(32, 32)
@@ -1580,3 +1584,32 @@ offset = Vector2(0, -3)
 [editable path="Actors/Props/TavernCloth"]
 [editable path="Actors/Props/ExtraKeg"]
 [editable path="Actors/Props/MugShelf"]
+
+[node name="WifeCrock547" type="Sprite2D" parent="Actors/Props/Fireplace"]
+texture_filter = 1
+position = Vector2(29, 1)
+texture = ExtResource("546_crock")
+offset = Vector2(0, -4)
+
+[node name="Board547" type="Sprite2D" parent="Actors/Props/TableC"]
+texture_filter = 1
+position = Vector2(-26, -32)
+texture = ExtResource("547_board")
+
+[node name="Tray547" type="Sprite2D" parent="Actors/Props/TableC"]
+visible = false
+texture_filter = 1
+position = Vector2(-26, -32)
+texture = ExtResource("547_tray")
+
+[node name="Dishes547" type="Sprite2D" parent="Actors/Props/TableC"]
+visible = false
+texture_filter = 1
+position = Vector2(-26, -32)
+texture = ExtResource("547_mug")
+
+[node name="Served547" type="Sprite2D" parent="Actors/Props/TableA"]
+visible = false
+texture_filter = 1
+position = Vector2(-22, -42)
+texture = ExtResource("547_tray")
