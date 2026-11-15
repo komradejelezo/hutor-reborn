@@ -1,0 +1,2 @@
+PASS: 2447 files byte-identical to the appropriate parent; both sets of art, NPC logic, schedules, dialogue, scenes, and transitions retained
+PASS: five shared scripts equal the explicit combined changes; both profiles/catalogues retained; two tests only gain the other six-phase model; no markers or duplicate functions

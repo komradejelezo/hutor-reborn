@@ -1,0 +1,29 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: existing family house loads
+PASS: transition completes within deadline
+PASS: return route uses direction: down
+PASS: carry reflected only once: down
+PASS: talk holds load on planted feet: down
+PASS: return route uses direction: up
+PASS: carry reflected only once: up
+PASS: talk holds load on planted feet: up
+PASS: return route uses direction: left
+PASS: carry reflected only once: left
+PASS: talk holds load on planted feet: left
+PASS: return route uses direction: right
+PASS: carry reflected only once: right
+PASS: talk holds load on planted feet: right
+PASS: direction change preserves six-frame gait phase
+PASS: rest remains settled
+PASS: waiting for indoor navigation does not count as completed delivery
+PASS: arrival starts authored placement, not empty-hand pop
+PASS: conversation does not abandon lifted load mid-release
+PASS: completed release returns presentation ownership
+PASS: same released bundle stays at feet
+PASS: completed delivery does not restart each rest cycle
+PASS: scene parking retains completed return token
+PASS: following evening is a new visible return
+PASS: offscreen completed home arrival is not replayed
+PASS: next morning cannot replay an unseen evening delivery
+RESULT: 26 delivery/animation checks passed, 0 failed

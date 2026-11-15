@@ -27,16 +27,22 @@
         {
           "id": "read_documents",
           "point": [
-            504,
-            264
+            456,
+            296
           ],
-          "minutes": 16,
-          "clip": "gesture_read",
-          "facing": "right",
-          "talk_offset": [
-            0,
-            76
-          ]
+          "minutes": 10,
+          "clip": "work_read",
+          "facing": "right"
+        },
+        {
+          "id": "write_journal",
+          "point": [
+            456,
+            296
+          ],
+          "minutes": 6,
+          "clip": "work_write",
+          "facing": "right"
         },
         {
           "id": "ponder",
@@ -45,7 +51,7 @@
             248
           ],
           "minutes": 8,
-          "clip": "gesture_think",
+          "clip": "work_think",
           "facing": "down"
         }
       ]
@@ -62,7 +68,7 @@
             1442
           ],
           "minutes": 10,
-          "clip": "gesture_think",
+          "clip": "work_inspect",
           "facing": "down"
         },
         {
@@ -72,7 +78,7 @@
             1580
           ],
           "minutes": 10,
-          "clip": "",
+          "clip": "work_inspect",
           "facing": "down"
         },
         {
@@ -82,7 +88,7 @@
             1220
           ],
           "minutes": 8,
-          "clip": "gesture_read",
+          "clip": "work_inspect",
           "facing": "right"
         },
         {
@@ -92,7 +98,7 @@
             1370
           ],
           "minutes": 10,
-          "clip": "",
+          "clip": "work_inspect",
           "facing": "down"
         }
       ]
@@ -105,16 +111,22 @@
         {
           "id": "read_documents",
           "point": [
-            504,
-            264
+            456,
+            296
           ],
-          "minutes": 16,
-          "clip": "gesture_read",
-          "facing": "right",
-          "talk_offset": [
-            0,
-            76
-          ]
+          "minutes": 10,
+          "clip": "work_read",
+          "facing": "right"
+        },
+        {
+          "id": "write_journal",
+          "point": [
+            456,
+            296
+          ],
+          "minutes": 6,
+          "clip": "work_write",
+          "facing": "right"
         },
         {
           "id": "ponder",
@@ -123,7 +135,7 @@
             248
           ],
           "minutes": 10,
-          "clip": "gesture_think",
+          "clip": "work_think",
           "facing": "down"
         }
       ]
