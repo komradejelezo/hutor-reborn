@@ -27,21 +27,61 @@
         {
           "id": "kitchen",
           "point": [
-            728,
-            344
+            776,
+            280
           ],
-          "minutes": 12,
+          "minutes": 7,
           "clip": "work_cook",
           "facing": "left"
         },
         {
-          "id": "prepare_supplies",
+          "id": "cut_food",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 4,
+          "clip": "work_cut",
+          "facing": "right"
+        },
+        {
+          "id": "take_tray",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 1.6,
+          "clip": "work_pickup",
+          "facing": "right"
+        },
+        {
+          "id": "serve_food",
+          "point": [
+            264,
+            360
+          ],
+          "minutes": 2,
+          "clip": "work_place",
+          "facing": "right"
+        },
+        {
+          "id": "polish_dishes",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 3.4,
+          "clip": "work_dishes",
+          "facing": "down"
+        },
+        {
+          "id": "pause_kitchen",
           "point": [
             712,
-            408
+            344
           ],
-          "minutes": 8,
-          "clip": "work_sweep",
+          "minutes": 2,
+          "clip": "work_rest",
           "facing": "down"
         }
       ]
@@ -52,24 +92,64 @@
       "label": "",
       "activities": [
         {
-          "id": "clean_tables",
-          "point": [
-            424,
-            376
-          ],
-          "minutes": 10,
-          "clip": "",
-          "facing": "up"
-        },
-        {
           "id": "kitchen",
           "point": [
-            728,
-            344
+            776,
+            280
           ],
-          "minutes": 12,
+          "minutes": 6,
           "clip": "work_cook",
           "facing": "left"
+        },
+        {
+          "id": "cut_food",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 4,
+          "clip": "work_cut",
+          "facing": "right"
+        },
+        {
+          "id": "take_tray",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 1.6,
+          "clip": "work_pickup",
+          "facing": "right"
+        },
+        {
+          "id": "serve_food",
+          "point": [
+            264,
+            360
+          ],
+          "minutes": 2,
+          "clip": "work_place",
+          "facing": "right"
+        },
+        {
+          "id": "clean_tables",
+          "point": [
+            264,
+            360
+          ],
+          "minutes": 5,
+          "clip": "work_wipe",
+          "facing": "down"
+        },
+        {
+          "id": "polish_dishes",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 4,
+          "clip": "work_dishes",
+          "facing": "down"
         },
         {
           "id": "sweep_floor",
@@ -77,8 +157,18 @@
             600,
             344
           ],
-          "minutes": 8,
+          "minutes": 5,
           "clip": "work_sweep",
+          "facing": "right"
+        },
+        {
+          "id": "pause_kitchen",
+          "point": [
+            712,
+            344
+          ],
+          "minutes": 2.4,
+          "clip": "work_rest",
           "facing": "down"
         }
       ]
@@ -91,22 +181,72 @@
         {
           "id": "clean_tables",
           "point": [
-            424,
-            376
+            264,
+            360
           ],
-          "minutes": 10,
-          "clip": "",
-          "facing": "up"
+          "minutes": 5,
+          "clip": "work_wipe",
+          "facing": "down"
         },
         {
           "id": "kitchen",
           "point": [
-            728,
-            344
+            776,
+            280
           ],
-          "minutes": 12,
+          "minutes": 6,
           "clip": "work_cook",
           "facing": "left"
+        },
+        {
+          "id": "cut_food",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 3,
+          "clip": "work_cut",
+          "facing": "right"
+        },
+        {
+          "id": "take_tray",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 1.6,
+          "clip": "work_pickup",
+          "facing": "right"
+        },
+        {
+          "id": "serve_food",
+          "point": [
+            264,
+            360
+          ],
+          "minutes": 2,
+          "clip": "work_place",
+          "facing": "right"
+        },
+        {
+          "id": "polish_dishes",
+          "point": [
+            632,
+            376
+          ],
+          "minutes": 2.4,
+          "clip": "work_dishes",
+          "facing": "down"
+        },
+        {
+          "id": "pause_kitchen",
+          "point": [
+            712,
+            344
+          ],
+          "minutes": 2,
+          "clip": "work_rest",
+          "facing": "down"
         }
       ]
     },

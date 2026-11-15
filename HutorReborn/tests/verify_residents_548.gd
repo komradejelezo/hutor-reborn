@@ -24,12 +24,12 @@ func run() -> void:
         check(f.resource_path==catalogue[id].frames,"correct animation resource for original identity: "+id)
         check(int(f.get_meta("rework_version",0))==54,"approved Stage54 resource: "+id)
         for direction in ["down","up","left","right"]:
-            check(f.get_frame_count("walk_"+direction)==(6 if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder"] else 8),"real walking phase count: "+id+"/"+direction)
+            check(f.get_frame_count("walk_"+direction)==(6 if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder","innkeeper_wife"] else 8),"real walking phase count: "+id+"/"+direction)
             check(f.has_animation("idle_"+direction) and f.has_animation("turn_"+direction),"directional fallback exists: "+id+"/"+direction)
             npc.animator.apply("walk",StringName(direction),&"",false)
-            check(sprite.flip_h==(id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder"] and direction=="left"),"direction reflected exactly once: "+id+"/"+direction)
+            check(sprite.flip_h==(id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder","innkeeper_wife"] and direction=="left"),"direction reflected exactly once: "+id+"/"+direction)
         check(f.get_frame_count("talk")==(3 if id in ["woodcutter","woodcutter_wife","woodcutter_son"] else 4),"real talk drawings: "+id)
-        check(f.get_frame_count("idle_up")==(2 if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder"] else 1),"directional idle count: "+id)
+        check(f.get_frame_count("idle_up")==(2 if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder","innkeeper_wife"] else 1),"directional idle count: "+id)
         npc.animator.prefer_run=false
         # Directly tick an isolated renderer with the real body; the NPC's state
         # and timers are frozen for measurement, not rewritten by the renderer.
@@ -64,7 +64,7 @@ func run() -> void:
             var manager:Node=root.get_node("DialogueManager")
             check(manager.is_active() and npc.state==HutorResident.State.TALKING,"work stops through existing dialogue: "+id)
             if manager.is_active():
-                if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder"]:
+                if id in ["woodcutter","woodcutter_wife","woodcutter_son","innkeeper","elder","innkeeper_wife"]:
                     check(manager.window.portrait.size==Vector2(128,192),"native portrait rectangle preserved: "+id)
                 var line:Dictionary=manager.data.nodes[manager.current_line]
                 for emotion in ["neutral","joy","displeased","anxious"]:
