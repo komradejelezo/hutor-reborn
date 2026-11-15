@@ -1,0 +1,106 @@
+[
+  {
+    "test": "verify_residents_549",
+    "exit_code": 0,
+    "seconds": 6.6,
+    "result": [
+      "RESULT: 332 pilot and unchanged-resident checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_old_man_549",
+    "exit_code": 0,
+    "seconds": 7.0,
+    "result": [
+      "RESULT: 45 old-man checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_elder_work_548",
+    "exit_code": 0,
+    "seconds": 15.4,
+    "result": [
+      "RESULT: 48 elder work and residency checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_innkeeper_wife_work_547",
+    "exit_code": 0,
+    "seconds": 8.3,
+    "result": [
+      "RESULT: 83 wife work checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_innkeeper_work_546",
+    "exit_code": 0,
+    "seconds": 6.6,
+    "result": [
+      "RESULT: 51 innkeeper work checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_woodcutter_delivery",
+    "exit_code": 0,
+    "seconds": 4.8,
+    "result": [
+      "RESULT: 26 delivery/animation checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_woodcutter_return",
+    "exit_code": 0,
+    "seconds": 5.8,
+    "result": [
+      "RESULT: 11 real return checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_wife_orientation_544",
+    "exit_code": 0,
+    "seconds": 6.0,
+    "result": [
+      "RESULT: 16 wife work-orientation checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_son_games_545",
+    "exit_code": 0,
+    "seconds": 7.6,
+    "result": [
+      "RESULT: 31 son live-game checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_daily_lifecycle",
+    "exit_code": 0,
+    "seconds": 9.5,
+    "result": [
+      "RESULT: 163 daily-lifecycle checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_daily_cycle",
+    "exit_code": 0,
+    "seconds": 7.7,
+    "result": [
+      "RESULT: 33 daily-cycle checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_door_transitions",
+    "exit_code": 0,
+    "seconds": 8.5,
+    "result": [
+      "RESULT: 335 door transition checks passed, 0 failed"
+    ]
+  },
+  {
+    "test": "verify_dialogue",
+    "exit_code": 0,
+    "seconds": 6.9,
+    "result": [
+      "RESULT: 65 dialogue checks passed, 0 failed"
+    ]
+  }
+]
