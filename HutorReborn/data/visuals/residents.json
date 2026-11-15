@@ -119,10 +119,10 @@
     "turn_seconds": 0.22,
     "work_fps": 3.5,
     "portraits": {
-      "neutral": "res://assets/npc/stage54/game/old_man/portraits/neutral.png",
-      "joy": "res://assets/npc/stage54/game/old_man/portraits/joy.png",
-      "displeased": "res://assets/npc/stage54/game/old_man/portraits/displeased.png",
-      "anxious": "res://assets/npc/stage54/game/old_man/portraits/anxious.png"
+      "neutral": "res://assets/npc/old_man549/game/portraits/neutral.png",
+      "joy": "res://assets/npc/old_man549/game/portraits/joy.png",
+      "displeased": "res://assets/npc/old_man549/game/portraits/displeased.png",
+      "anxious": "res://assets/npc/old_man549/game/portraits/anxious.png"
     }
   }
 }
