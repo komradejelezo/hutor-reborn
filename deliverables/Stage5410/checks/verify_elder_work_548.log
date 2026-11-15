@@ -1,0 +1,51 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: transition completes within deadline
+PASS: reachable original E work_read
+PASS: existing conversation work_read
+PASS: dialogue locks real body work_read
+PASS: authored put-down settles into talk work_read
+PASS: no held document/quill duplicates after settling work_read
+PASS: same occupation resumes work_read
+PASS: reachable original E work_write
+PASS: existing conversation work_write
+PASS: dialogue locks real body work_write
+PASS: authored put-down settles into talk work_write
+PASS: no held document/quill duplicates after settling work_write
+PASS: same occupation resumes work_write
+PASS: reachable original E work_think
+PASS: existing conversation work_think
+PASS: dialogue locks real body work_think
+PASS: authored put-down settles into talk work_think
+PASS: no held document/quill duplicates after settling work_think
+PASS: same occupation resumes work_think
+PASS: real occupation work_read
+PASS: real occupation work_write
+PASS: real occupation work_think
+PASS: jobs include natural pauses
+PASS: physical work invariant
+PASS: original speed and reachable desk
+PASS: elder physically reaches home exit at day boundary
+PASS: transition completes within deadline
+PASS: same elder materializes on existing village route
+PASS: actual village inspection after physical exit
+PASS: short directed gesture toward an actual nearby resident (arranged fixture)
+PASS: reachable original E point to resident
+PASS: existing conversation point to resident
+PASS: dialogue locks real body point to resident
+PASS: authored put-down settles into talk point to resident
+PASS: same occupation resumes point to resident
+PASS: evening routine physically reaches existing home door
+PASS: existing hero door transition after elder returns
+PASS: transition completes within deadline
+PASS: elder enters once Hans clears the shared doorway
+PASS: original actor preserved elder
+PASS: original actor preserved innkeeper
+PASS: original actor preserved innkeeper_wife
+PASS: original actor preserved woodcutter
+PASS: original actor preserved woodcutter_wife
+PASS: original actor preserved woodcutter_son
+PASS: original actor preserved herbalist
+PASS: original actor preserved herbalist_brother
+PASS: original actor preserved old_man
+RESULT: 48 elder work and residency checks passed, 0 failed

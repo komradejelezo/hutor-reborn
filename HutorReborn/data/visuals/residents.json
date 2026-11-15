@@ -91,10 +91,10 @@
     "turn_seconds": 0.1,
     "work_fps": 5,
     "portraits": {
-      "neutral": "res://assets/npc/stage54/game/herbalist/portraits/neutral.png",
-      "joy": "res://assets/npc/stage54/game/herbalist/portraits/joy.png",
-      "displeased": "res://assets/npc/stage54/game/herbalist/portraits/displeased.png",
-      "anxious": "res://assets/npc/stage54/game/herbalist/portraits/anxious.png"
+      "neutral": "res://assets/npc/herbalist5410/game/portraits/neutral.png",
+      "joy": "res://assets/npc/herbalist5410/game/portraits/joy.png",
+      "displeased": "res://assets/npc/herbalist5410/game/portraits/displeased.png",
+      "anxious": "res://assets/npc/herbalist5410/game/portraits/anxious.png"
     }
   },
   "herbalist_brother": {

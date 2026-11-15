@@ -39,6 +39,11 @@
 [ext_resource type="Script" path="res://scripts/components/warm_light.gd" id="30_ba2ny"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="31_kttqv"]
 
+[ext_resource type="Texture2D" path="res://assets/npc/herbalist5410/game/mortar.png" id="H5410_mortar"]
+[ext_resource type="Texture2D" path="res://assets/npc/herbalist5410/game/pestle.png" id="H5410_pestle"]
+[ext_resource type="Texture2D" path="res://assets/npc/herbalist5410/game/herbs_mat.png" id="H5410_herbs_mat"]
+[ext_resource type="Texture2D" path="res://assets/npc/herbalist5410/game/book_closed.png" id="H5410_book_closed"]
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uhoc0"]
 texture = ExtResource("5_ksqkb")
 texture_region_size = Vector2i(32, 32)
@@ -1062,6 +1067,26 @@ shape = SubResource("RectangleShape2D_l5bf1")
 [node name="ContactShadow" type="Polygon2D" parent="Actors/Props/BedsideChest" unique_id=1639274701]
 color = Color(0.025, 0.018, 0.012, 0.25)
 polygon = PackedVector2Array(18.4, -7, 15.934868, -1.1799998, 9.2, 3.080536, 1.126675e-15, 4.6400003, -9.2, 3.080536, -15.934868, -1.1799998, -18.4, -7, -15.934868, -12.82, -9.2, -17.080536, -3.3800253e-15, -18.64, 9.2, -17.080536, 15.934868, -12.82)
+
+[node name="mortar5410" type="Sprite2D" parent="Actors/Props/Table"]
+texture_filter = 1
+position = Vector2(-15, -32)
+texture = ExtResource("H5410_mortar")
+
+[node name="pestle5410" type="Sprite2D" parent="Actors/Props/Table"]
+texture_filter = 1
+position = Vector2(-12, -36)
+texture = ExtResource("H5410_pestle")
+
+[node name="herbs_mat5410" type="Sprite2D" parent="Actors/Props/Table"]
+texture_filter = 1
+position = Vector2(-2, -36)
+texture = ExtResource("H5410_herbs_mat")
+
+[node name="book_closed5410" type="Sprite2D" parent="Actors/Props/Table"]
+texture_filter = 1
+position = Vector2(12, -32)
+texture = ExtResource("H5410_book_closed")
 
 [node name="Residents" type="Node2D" parent="Actors" unique_id=150027530]
 y_sort_enabled = true

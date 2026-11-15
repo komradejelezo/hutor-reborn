@@ -1,0 +1,14 @@
+NATIVE herbalist-garden-approach [1856.43664550781, 1708.04821777344]
+NATIVE herbalist-talk-approach [1885.23913574219, 1679.24572753906]
+NATIVE screenshot herbalist-dialogue.png
+NATIVE herbalist-native-conversation
+NATIVE observe-herbalist [1859.76000976562, 1704.72485351562]
+NATIVE screenshot herbalist-gathering.png
+NATIVE approach-herbalist [1718.85375976562, 1651.55102539062]
+NATIVE screenshot herbalist-door.png
+NATIVE screenshot herbalist-inside.png
+NATIVE inside-walk-herbalist [465.107788085938, 378.736450195312]
+NATIVE inside-exit-herbalist [464.0, 397.56884765625]
+NATIVE screenshot herbalist-return.png
+NATIVE door-roundtrip
+NATIVE herbalist-native-success

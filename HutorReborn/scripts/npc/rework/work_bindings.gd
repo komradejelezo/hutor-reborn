@@ -12,7 +12,8 @@ static func aligned_point(world:Node2D, id:StringName, action:String, original:V
     elif world.get("building_id")==&"elder" and id==&"elder" and action in ["read_documents","write_journal"]:
         path="Actors/Props/Desk";offset=Vector2(-40,-16)
     elif world.get("building_id")==&"herbalist" and id==&"herbalist" and action in ["sort_herbs","brew"]:
-        path="Actors/Props/Table";offset=Vector2(0,30)
+        if action=="sort_herbs":path="Actors/Props/Table";offset=Vector2(-29,-9)
+        else:path="Actors/Props/Cauldron";offset=Vector2(-26,-4)
     elif world.get("building_id")==&"woodcutter" and id==&"woodcutter_wife" and action=="cook":
         path="Actors/Props/KitchenPot";offset=Vector2(-26,2)
     var object:Node2D=world.get_node_or_null(path) if not path.is_empty() else null

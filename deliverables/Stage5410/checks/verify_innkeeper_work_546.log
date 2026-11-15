@@ -1,0 +1,55 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: existing inn entry
+PASS: transition completes within deadline
+PASS: held mug is not duplicated on the tabletop
+PASS: reachable existing E target: work_mug
+PASS: existing dialogue opens: work_mug
+PASS: body stays locked throughout conversation: work_mug
+PASS: only set-down completes; work stops during conversation: work_mug
+PASS: same occupation resumes after dialogue: work_mug
+PASS: held serving vessels are not duplicated on the tabletop
+PASS: reachable existing E target: work_serve
+PASS: existing dialogue opens: work_serve
+PASS: body stays locked throughout conversation: work_serve
+PASS: only set-down completes; work stops during conversation: work_serve
+PASS: same occupation resumes after dialogue: work_serve
+PASS: reachable existing E target: work_cook
+PASS: existing dialogue opens: work_cook
+PASS: body stays locked throughout conversation: work_cook
+PASS: only set-down completes; work stops during conversation: work_cook
+PASS: same occupation resumes after dialogue: work_cook
+PASS: real route reaches: wipe_mug
+PASS: real route reaches: arrange_dishes
+PASS: real route reaches: check_hearth
+PASS: real route reaches: pause_counter
+PASS: actual multi-frame action: work_mug
+PASS: actual multi-frame action: work_serve
+PASS: actual multi-frame action: work_cook
+PASS: spoon work is bound to an existing visible crock at the hearth
+PASS: work includes quiet pauses
+PASS: physical furniture/foot registration invariant:
+PASS: source speed remains 28 and work points are reached on foot
+PASS: morning preparation actually wipes the counter
+PASS: reachable existing E target: counter-wipe
+PASS: existing dialogue opens: counter-wipe
+PASS: body stays locked throughout conversation: counter-wipe
+PASS: only set-down completes; work stops during conversation: counter-wipe
+PASS: same occupation resumes after dialogue: counter-wipe
+PASS: existing inn exit
+PASS: transition completes within deadline
+PASS: repeat existing entry
+PASS: transition completes within deadline
+PASS: same innkeeper after repeat scene change
+PASS: restored counter work physically approaches the correct rear edge
+PASS: unchanged original resident: elder
+PASS: unchanged original resident: innkeeper
+PASS: unchanged original resident: innkeeper_wife
+PASS: unchanged original resident: woodcutter
+PASS: unchanged original resident: woodcutter_wife
+PASS: unchanged original resident: woodcutter_son
+PASS: unchanged original resident: herbalist
+PASS: unchanged original resident: herbalist_brother
+PASS: unchanged original resident: old_man
+CLIPS { &"work_mug": true, &"work_serve": true, &"work_cook": true } ACTIONS { "wipe_mug": true, "arrange_dishes": true, "check_hearth": true, "pause_counter": true } CONVERSATIONS { &"work_mug": true, &"work_serve": true, &"work_cook": true }
+RESULT: 51 innkeeper work checks passed, 0 failed
