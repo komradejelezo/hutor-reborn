@@ -1,0 +1,74 @@
+{
+  "sources": {
+    "background": {
+      "sha256": "a11861340d5ca40e98f694e10d64f952763c6125975440ad44e0d287f21be498",
+      "file": "background.png"
+    },
+    "fighters": {
+      "sha256": "975f9ae44b1a35e29a32f329e755eaa2161fe9ed178ad5530a312cc6b3bcd052",
+      "file": "fighters.png"
+    }
+  },
+  "poses": [
+    {
+      "kind": "wolf",
+      "source_box": [
+        49,
+        347,
+        496,
+        657
+      ],
+      "height": 30,
+      "uniform_scale": 0.0967741935483871,
+      "pivot": [
+        48,
+        82
+      ]
+    },
+    {
+      "kind": "beast",
+      "source_box": [
+        597,
+        97,
+        1045,
+        674
+      ],
+      "height": 56,
+      "uniform_scale": 0.09705372616984402,
+      "pivot": [
+        48,
+        82
+      ]
+    },
+    {
+      "kind": "spirit",
+      "source_box": [
+        1211,
+        41,
+        1514,
+        677
+      ],
+      "height": 58,
+      "uniform_scale": 0.09119496855345911,
+      "pivot": [
+        48,
+        82
+      ]
+    },
+    {
+      "kind": "mercenary",
+      "source_box": [
+        1737,
+        83,
+        2021,
+        677
+      ],
+      "height": 49,
+      "uniform_scale": 0.08249158249158249,
+      "pivot": [
+        48,
+        82
+      ]
+    }
+  ]
+}

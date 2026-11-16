@@ -1,0 +1,7 @@
+PASS: every pre-existing file identical to base except exact startup scene line
+PASS: no test observer override or Python cache left in project
+PASS: battle/menu never mutate world singletons, saves or existing resources
+PASS: original Nearest filtering retained
+PASS: generated sources intact; poses have binary alpha, clean transparent RGB and common foot anchor
+PASS: six scenario definitions, original approved model references and Python syntax
+RESULT: 6 source integrity/isolation checks passed

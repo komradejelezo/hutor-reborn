@@ -1,0 +1,51 @@
+{
+  "ambush": {
+    "max": 10,
+    "median_round": 8,
+    "min": 6,
+    "outcomes": {
+      "victory": 50
+    }
+  },
+  "betrayal": {
+    "max": 13,
+    "median_round": 7,
+    "min": 4,
+    "outcomes": {
+      "defeat": 2,
+      "victory": 48
+    }
+  },
+  "companions": {
+    "max": 6,
+    "median_round": 4,
+    "min": 3,
+    "outcomes": {
+      "victory": 50
+    }
+  },
+  "duel": {
+    "max": 5,
+    "median_round": 3,
+    "min": 3,
+    "outcomes": {
+      "victory": 50
+    }
+  },
+  "forest": {
+    "max": 11,
+    "median_round": 8,
+    "min": 6,
+    "outcomes": {
+      "victory": 50
+    }
+  },
+  "tincture": {
+    "max": 6,
+    "median_round": 5,
+    "min": 3,
+    "outcomes": {
+      "victory": 50
+    }
+  }
+}
