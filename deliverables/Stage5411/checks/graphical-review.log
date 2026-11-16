@@ -1,0 +1,25 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: free existing village floor for comparison
+BROTHER5411_REVIEW_READY
+PASS: physical walk right
+PASS: physical walk up
+PASS: physical walk left
+PASS: physical walk down
+PASS: transition completes within deadline
+PASS: original E reachable chop_wood
+PASS: existing conversation chop_wood
+PASS: rise/put tool away before dialogue chop_wood
+PASS: same activity resumes chop_wood
+PASS: full authored cycles reviewed [&"chop_wood", &"split_logs"]
+PASS: full authored cycles reviewed [&"think"]
+PASS: full authored cycles reviewed [&"tired_idle"]
+PASS: native grounded pivot
+PASS: transition completes within deadline
+PASS: real departure, no body/new map at offsite logging
+PASS: both physical map boundary directions captured
+PASS: original route returns worker to shared home
+RESULT: 18 graphical brother checks passed, 0 failed

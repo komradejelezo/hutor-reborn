@@ -1,0 +1,36 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: transition completes within deadline
+PASS: visible workblock has actual collision
+PASS: original working point remains free
+PASS: original E accessible raised axe
+PASS: original brother dialogue raised axe
+PASS: fixed feet while stroke finishes raised axe
+PASS: finish putting axe back before directed talk raised axe
+PASS: same activity resumes raised axe
+PASS: all drawn work phases chop_wood
+PASS: all drawn work phases split_logs
+PASS: existing prepare_work uses complete think action
+PASS: work only at block, no simultaneous axe on block and in hand
+PASS: motion invariant:
+PASS: standing tired rest at existing home_rest point
+PASS: tool remains on block after work
+PASS: independent gait down
+PASS: independent gait up
+PASS: independent gait left
+PASS: independent gait right
+PASS: original speed37 preserved
+PASS: no fake unsupported carry/run
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: same resident across house transitions elder
+PASS: same resident across house transitions innkeeper
+PASS: same resident across house transitions innkeeper_wife
+PASS: same resident across house transitions woodcutter
+PASS: same resident across house transitions woodcutter_wife
+PASS: same resident across house transitions woodcutter_son
+PASS: same resident across house transitions herbalist
+PASS: same resident across house transitions herbalist_brother
+PASS: same resident across house transitions old_man
+PHASES { &"idle_right": { 0: true, 1: true }, &"chop_wood": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"split_logs": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"idle_left": { 0: true }, &"walk_right": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true }, &"idle_down": { 0: true }, &"think": { 0: true, 1: true, 2: true, 3: true }, &"tired_idle": { 0: true, 1: true, 2: true, 3: true } }
+RESULT: 32 brother checks passed, 0 failed

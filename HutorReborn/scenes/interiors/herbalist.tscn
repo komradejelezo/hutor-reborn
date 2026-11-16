@@ -44,6 +44,13 @@
 [ext_resource type="Texture2D" path="res://assets/npc/herbalist5410/game/herbs_mat.png" id="H5410_herbs_mat"]
 [ext_resource type="Texture2D" path="res://assets/npc/herbalist5410/game/book_closed.png" id="H5410_book_closed"]
 
+[ext_resource type="Texture2D" path="res://assets/environment/krivaya_sosna/objects/stump.png" id="B5411_stump"]
+[ext_resource type="Texture2D" path="res://assets/interiors/stage45/axe.png" id="B5411_axe"]
+[ext_resource type="Texture2D" path="res://assets/npc/herbalist_brother5411/game/billet.png" id="B5411_log"]
+
+[sub_resource type="RectangleShape2D" id="B5411_feet"]
+size = Vector2(12, 8)
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uhoc0"]
 texture = ExtResource("5_ksqkb")
 texture_region_size = Vector2i(32, 32)
@@ -1087,6 +1094,36 @@ texture = ExtResource("H5410_herbs_mat")
 texture_filter = 1
 position = Vector2(12, -32)
 texture = ExtResource("H5410_book_closed")
+
+[node name="BrotherWorkBlock5411" type="Node2D" parent="Actors/Props"]
+position = Vector2(426, 344)
+
+[node name="Art" type="Sprite2D" parent="Actors/Props/BrotherWorkBlock5411"]
+texture_filter = 1
+scale = Vector2(0.32, 0.32)
+texture = ExtResource("B5411_stump")
+centered = false
+offset = Vector2(-23.5, -44)
+
+[node name="Log" type="Sprite2D" parent="Actors/Props/BrotherWorkBlock5411"]
+texture_filter = 1
+position = Vector2(3, -15)
+texture = ExtResource("B5411_log")
+
+[node name="Axe" type="Sprite2D" parent="Actors/Props/BrotherWorkBlock5411"]
+texture_filter = 1
+position = Vector2(-10, -21)
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("B5411_axe")
+centered = false
+flip_h = true
+
+[node name="Solid" type="StaticBody2D" parent="Actors/Props/BrotherWorkBlock5411"]
+collision_mask = 6
+
+[node name="Feet" type="CollisionShape2D" parent="Actors/Props/BrotherWorkBlock5411/Solid"]
+position = Vector2(0, -3)
+shape = SubResource("B5411_feet")
 
 [node name="Residents" type="Node2D" parent="Actors" unique_id=150027530]
 y_sort_enabled = true

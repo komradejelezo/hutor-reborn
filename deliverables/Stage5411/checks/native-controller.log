@@ -1,0 +1,9 @@
+NATIVE shared-home-approach [1720.83312988281, 1655.65368652344]
+NATIVE screenshot shared-home-door.png
+NATIVE screenshot shared-home-inside.png
+NATIVE brother-conversation-approach [445.167602539062, 383.167602539062]
+NATIVE screenshot brother-dialogue.png
+NATIVE brother-native-conversation
+NATIVE shared-home-exit [464.0, 423.664642333984]
+NATIVE screenshot shared-home-return.png
+NATIVE brother-native-success
