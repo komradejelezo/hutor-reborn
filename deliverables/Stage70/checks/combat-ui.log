@@ -1,0 +1,58 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: main entry is actual menu
+PASS: menu does not start world progression
+PASS: menu opens scenario picker
+PASS: all scenario descriptions wrap inside their own columns
+PASS: playable player turn duel
+PASS: correct distinct views and party size duel
+PASS: health/status layout stays within fighter cards duel
+PASS: attack action accessible duel
+PASS: legal target clickable duel
+PASS: double click cannot repeat action duel
+PASS: playable player turn ambush
+PASS: correct distinct views and party size ambush
+PASS: health/status layout stays within fighter cards ambush
+PASS: attack action accessible ambush
+PASS: legal target clickable ambush
+PASS: double click cannot repeat action ambush
+PASS: playable player turn companions
+PASS: correct distinct views and party size companions
+PASS: health/status layout stays within fighter cards companions
+PASS: attack action accessible companions
+PASS: legal target clickable companions
+PASS: inaccessible rear target visibly explained
+PASS: double click cannot repeat action companions
+PASS: playable player turn tincture
+PASS: correct distinct views and party size tincture
+PASS: health/status layout stays within fighter cards tincture
+PASS: attack action accessible tincture
+PASS: legal target clickable tincture
+PASS: double click cannot repeat action tincture
+PASS: playable player turn betrayal
+PASS: correct distinct views and party size betrayal
+PASS: health/status layout stays within fighter cards betrayal
+PASS: attack action accessible betrayal
+PASS: legal target clickable betrayal
+PASS: double click cannot repeat action betrayal
+PASS: playable player turn forest
+PASS: correct distinct views and party size forest
+PASS: health/status layout stays within fighter cards forest
+PASS: attack action accessible forest
+PASS: legal target clickable forest
+PASS: double click cannot repeat action forest
+PASS: no available melee targets explained without wasting a turn
+PASS: non-attack actions remain available with blocked attack
+PASS: victory screen shown after lethal hit
+PASS: restart restores health and supplies
+PASS: retreat result screen
+PASS: defeat screen after ally dies
+PASS: restart during pending AI cannot mutate replacement fight
+PASS: scenario picker cancels pending action and clears views
+PASS: all six battles isolated from NPCs/time
+PASS: menu return during AI safely completes
+PASS: arena re-entry has fresh resources
+PASS: ordinary village still starts with nine original residents
+PASS: Hans controls and animations unchanged
+PASS: existing door system bound after combat
+RESULT: 55 combat UI/menu checks passed, 0 failed

@@ -1,0 +1,6 @@
+PASS: only five existing integration files changed; nothing deleted
+PASS: approved models, village, six rooms, schedules, legacy dialogue and combat arena unchanged
+PASS: no observer override, Python cache, conflict markers or duplicate chapter functions
+PASS: both complete editable locations reference existing assets, original Hans and valid resource paths
+PASS: separate save namespaces, integrity checksum and object-free deserialization
+RESULT: 5 chapter source/integrity groups passed

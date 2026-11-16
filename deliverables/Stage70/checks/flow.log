@@ -1,0 +1,225 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: new chapter starts on southern road at evening
+PASS: existing woodcutter greets without cloning residents
+PASS: live world object available: sign
+PASS: sensor can select actual reachable story object: sign
+PASS: existing dialogue open for sign
+PASS: conditioned answer present: sign
+PASS: existing dialogue open for greeted
+PASS: conditioned answer present: greeted
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for inn_work
+PASS: conditioned answer present: inn_work
+PASS: live world object available: take_dishes
+PASS: sensor can select actual reachable story object: take_dishes
+PASS: existing dialogue open for take_dishes
+PASS: conditioned answer present: take_dishes
+PASS: live world object available: deliver_dishes
+PASS: sensor can select actual reachable story object: deliver_dishes
+PASS: existing dialogue open for deliver_dishes
+PASS: conditioned answer present: deliver_dishes
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for work_paid
+PASS: conditioned answer present: work_paid
+PASS: lodging earned by two actual world interactions
+PASS: live world object available: sleep
+PASS: sensor can select actual reachable story object: sleep
+PASS: existing dialogue open for sleep
+PASS: conditioned answer present: sleep
+PASS: three-strike night advances to investigation
+PASS: same original resident present: woodcutter_son
+PASS: existing dialogue open for w_woodcutter_son
+PASS: conditioned answer present: w_woodcutter_son
+PASS: same original resident present: woodcutter_wife
+PASS: existing dialogue open for w_woodcutter_wife
+PASS: conditioned answer present: w_woodcutter_wife
+PASS: same original resident present: herbalist_brother
+PASS: existing dialogue open for w_herbalist_brother
+PASS: conditioned answer present: w_herbalist_brother
+PASS: same original resident present: woodcutter
+PASS: existing dialogue open for w_woodcutter
+PASS: conditioned answer present: w_woodcutter
+PASS: live world object available: tracks
+PASS: sensor can select actual reachable story object: tracks
+PASS: existing dialogue open for tracks
+PASS: conditioned answer present: tracks
+PASS: live world object available: axe_found
+PASS: sensor can select actual reachable story object: axe_found
+PASS: existing dialogue open for axe_found
+PASS: conditioned answer present: axe_found
+PASS: live world object available: tools
+PASS: sensor can select actual reachable story object: tools
+PASS: existing dialogue open for tools
+PASS: conditioned answer present: tools
+PASS: inventory shows story items
+PASS: existing dialogue open for axe_keep
+PASS: conditioned answer present: axe_keep
+PASS: all investigation evidence and keep-axe branch connected
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for herbs_started
+PASS: conditioned answer present: herbs_started
+PASS: live world object available: poison
+PASS: sensor can select actual reachable story object: poison
+PASS: existing dialogue open for poison
+PASS: conditioned answer present: poison
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for discard_poison
+PASS: conditioned answer present: discard_poison
+PASS: live world object available: thyme
+PASS: sensor can select actual reachable story object: thyme
+PASS: existing dialogue open for thyme
+PASS: conditioned answer present: thyme
+PASS: live world object available: valerian
+PASS: sensor can select actual reachable story object: valerian
+PASS: existing dialogue open for valerian
+PASS: conditioned answer present: valerian
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for herbs_done
+PASS: conditioned answer present: herbs_done
+PASS: wrong herb corrected and actual harvest delivered
+PASS: same original resident present: old_man
+PASS: existing dialogue open for warning
+PASS: conditioned answer present: warning
+PASS: live world object available: pine_symbol
+PASS: sensor can select actual reachable story object: pine_symbol
+PASS: existing dialogue open for pine_symbol
+PASS: conditioned answer present: pine_symbol
+PASS: old man and pine unlock forest route
+PASS: live world object available: north
+PASS: sensor can select actual reachable story object: north
+PASS: existing dialogue open for go_camp
+PASS: conditioned answer present: go_camp
+PASS: real separate logging scene entered with same Hans
+PASS: physical western route bypasses wolves without combat
+PASS: live world object available: vanishing
+PASS: sensor can select actual reachable story object: vanishing
+PASS: existing dialogue open for vanishing
+PASS: conditioned answer present: vanishing
+PASS: live world object available: handle
+PASS: sensor can select actual reachable story object: handle
+PASS: existing dialogue open for handle
+PASS: conditioned answer present: handle
+PASS: live world object available: cloth
+PASS: sensor can select actual reachable story object: cloth
+PASS: existing dialogue open for cloth
+PASS: conditioned answer present: cloth
+PASS: live world object available: struggle
+PASS: sensor can select actual reachable story object: struggle
+PASS: existing dialogue open for struggle
+PASS: conditioned answer present: struggle
+PASS: all four physical camp findings collected
+PASS: live world object available: camp_exit
+PASS: sensor can select actual reachable story object: camp_exit
+PASS: existing dialogue open for exit_location
+PASS: conditioned answer present: exit_location
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for approach_herbalist
+PASS: conditioned answer present: approach_herbalist
+PASS: live world object available: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: abandoned house opens by story at night
+PASS: same herbalist body really accompanies Hans inside
+PASS: companion follows using body collisions and original animation
+PASS: live world object available: family
+PASS: sensor can select actual reachable story object: family
+PASS: existing dialogue open for family
+PASS: conditioned answer present: family
+PASS: live world object available: house_symbol
+PASS: sensor can select actual reachable story object: house_symbol
+PASS: existing dialogue open for house_symbol
+PASS: conditioned answer present: house_symbol
+PASS: live world object available: floor_cache
+PASS: sensor can select actual reachable story object: floor_cache
+PASS: existing dialogue open for floor_cache
+PASS: conditioned answer present: floor_cache
+PASS: live world object available: cabinet
+PASS: sensor can select actual reachable story object: cabinet
+PASS: existing dialogue open for cabinet
+PASS: conditioned answer present: cabinet
+PASS: actual key/cache/cabinet reveal diary
+PASS: manual save in abandoned house succeeds
+PASS: test save loads a fresh session
+PASS: all flags, inventory, decisions, time and exact location restored
+PASS: nine identities and one companion after load
+PASS: live world object available: house_exit
+PASS: sensor can select actual reachable story object: house_exit
+PASS: existing dialogue open for exit_location
+PASS: conditioned answer present: exit_location
+PASS: live world object available: finale
+PASS: sensor can select actual reachable story object: finale
+PASS: existing dialogue open for finale
+PASS: conditioned answer present: finale
+PASS: one-shot final cinematic ends in chapter completion screen
+PASS: free exploration restored after finale
+PASS: completed chapter can be saved and loaded
+PASS: loaded completed chapter never repeats final event
+PASS: checkpoint before finale loads
+PASS: checkpoint can replay finale without losing diary
+PASS: test flow never writes a normal save
+PASS: same original resident present: woodcutter_son
+PASS: existing dialogue open for toy_started
+PASS: conditioned answer present: toy_started
+PASS: live world object available: wheel
+PASS: sensor can select actual reachable story object: wheel
+PASS: existing dialogue open for wheel
+PASS: conditioned answer present: wheel
+PASS: live world object available: repair
+PASS: sensor can select actual reachable story object: repair
+PASS: existing dialogue open for repair
+PASS: conditioned answer present: repair
+PASS: same original resident present: woodcutter_son
+PASS: existing dialogue open for toy_done
+PASS: conditioned answer present: toy_done
+PASS: same original resident present: woodcutter_wife
+PASS: existing dialogue open for wood_started
+PASS: conditioned answer present: wood_started
+PASS: live world object available: collect_logs
+PASS: sensor can select actual reachable story object: collect_logs
+PASS: existing dialogue open for collect_logs
+PASS: conditioned answer present: collect_logs
+PASS: live world object available: deliver_logs
+PASS: sensor can select actual reachable story object: deliver_logs
+PASS: existing dialogue open for deliver_logs
+PASS: conditioned answer present: deliver_logs
+PASS: same original resident present: woodcutter_wife
+PASS: existing dialogue open for wood_done
+PASS: conditioned answer present: wood_done
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for mug_started
+PASS: conditioned answer present: mug_started
+PASS: live world object available: take_mug
+PASS: sensor can select actual reachable story object: take_mug
+PASS: existing dialogue open for take_mug
+PASS: conditioned answer present: take_mug
+PASS: same original resident present: herbalist_brother
+PASS: existing dialogue open for mug_owner
+PASS: conditioned answer present: mug_owner
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for mug_done
+PASS: conditioned answer present: mug_done
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for dry_started
+PASS: conditioned answer present: dry_started
+PASS: live world object available: dry_take
+PASS: sensor can select actual reachable story object: dry_take
+PASS: existing dialogue open for dry_take
+PASS: conditioned answer present: dry_take
+PASS: live world object available: dry_sort
+PASS: sensor can select actual reachable story object: dry_sort
+PASS: existing dialogue open for dry_sort
+PASS: conditioned answer present: dry_sort
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for dry_done
+PASS: conditioned answer present: dry_done
+PASS: all four optional quest chains complete through world objects
+PASS: live world object available: north
+PASS: sensor can select actual reachable story object: north
+PASS: existing dialogue open for go_camp
+PASS: conditioned answer present: go_camp
+PASS: unchanged battle engine reaches terminal result in story adapter
+PASS: combat returns to same cached world without losing NPCs
+PASS: chapter cleanly returns to menu
+RESULT: 222 chapter integration checks passed, 0 failed

@@ -11,6 +11,7 @@ DialogueManager="*res://scripts/dialogue/dialogue_controller.gd"
 InteriorTravel="*res://scripts/interiors/interior_travel.gd"
 VillageLife="*res://scripts/life/village_life.gd"
 AmbientDirector="*res://scripts/ambient/ambient_director.gd"
+ChapterI="*res://scripts/chapter/chapter_director.gd"
 [display]
 window/size/viewport_width=960
 window/size/viewport_height=540

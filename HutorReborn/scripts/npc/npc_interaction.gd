@@ -14,6 +14,8 @@ func _ready() -> void:
     manager.dialogue_finished.connect(_finished)
 
 func interact() -> Dictionary:
+    var chapter:Node=get_node_or_null("/root/ChapterI")
+    if chapter and chapter.active:return {"chapter_npc":String(npc.definition.id)}
     _pending = true
     call_deferred("_clear_pending")
     return super.interact()
