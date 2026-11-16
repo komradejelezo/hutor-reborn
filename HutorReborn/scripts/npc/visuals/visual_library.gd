@@ -16,6 +16,7 @@ static func frames_for(id: StringName, fallback: SpriteFrames) -> SpriteFrames:
         if id==&"innkeeper":path="res://assets/npc/innkeeper546/game/frames.tres"
         if id==&"innkeeper_wife":path="res://assets/npc/innkeeper_wife547/game/frames.tres"
         if id==&"elder":path="res://assets/npc/elder548/game/frames.tres"
+        if id==&"herbalist_brother":path="res://assets/npc/herbalist_brother5411/game/frames.tres"
         if id==&"herbalist":path="res://assets/npc/herbalist5410/game/frames.tres"
         if id==&"old_man":path="res://assets/npc/old_man549/game/frames.tres"
         if not ResourceLoader.exists(path):path="res://assets/npc/stage54/game/"+String(id)+"/frames.tres"

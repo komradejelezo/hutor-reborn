@@ -1,0 +1,65 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: actual first outdoor gathering
+PASS: gather beside real living plants
+PASS: original plant art without invisible obstacle
+PASS: complete crouch/pick/put away/rise
+PASS: next crouch cycle before interruption
+PASS: original E accessible gather
+PASS: original dialogue gather
+PASS: no position change during finishing action gather
+PASS: put away tool/rise then face Hans gather
+PASS: resume original activity gather
+PASS: second existing field reached on foot
+PASS: second original outdoor point
+PASS: only two persistent living patches
+PASS: transition completes within deadline
+PASS: real furniture stays visible sort_herbs
+PASS: physical swept working approach sort_herbs
+PASS: upper-body table overlap without raised feet
+PASS: original E accessible table
+PASS: original dialogue table
+PASS: no position change during finishing action table
+PASS: put away tool/rise then face Hans table
+PASS: resume original activity table
+PASS: real furniture stays visible grind_herbs
+PASS: physical swept working approach grind_herbs
+PASS: upper-body table overlap without raised feet
+PASS: real mortar and one held pestle
+PASS: real furniture stays visible read_herbal
+PASS: physical swept working approach read_herbal
+PASS: upper-body table overlap without raised feet
+PASS: held book not duplicated on table
+PASS: all three table chores used in unchanged sort interval
+PASS: all eight drawn phases sort_herbs
+PASS: all eight drawn phases grind_herbs
+PASS: all eight drawn phases read_herbal
+PASS: brew at actual existing cauldron
+PASS: cauldron contact, original pot visible
+PASS: complete brewing cycle and spoon lowering
+PASS: next brew before interruption
+PASS: original E accessible brew
+PASS: original dialogue brew
+PASS: no position change during finishing action brew
+PASS: put away tool/rise then face Hans brew
+PASS: resume original activity brew
+PASS: physical motion invariants:
+PASS: independent direction left
+PASS: independent direction right
+PASS: independent direction up
+PASS: independent direction down
+PASS: original slow walking speed
+PASS: original brother retained
+PASS: transition completes within deadline
+PASS: transition completes within deadline
+PASS: same original body across scenes elder
+PASS: same original body across scenes innkeeper
+PASS: same original body across scenes innkeeper_wife
+PASS: same original body across scenes woodcutter
+PASS: same original body across scenes woodcutter_wife
+PASS: same original body across scenes woodcutter_son
+PASS: same original body across scenes herbalist
+PASS: same original body across scenes herbalist_brother
+PASS: same original body across scenes old_man
+PHASES { &"idle_right": { 0: true, 1: true }, &"gather_herbs": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"idle_left": { 0: true }, &"idle_down": { 0: true, 1: true }, &"walk_right": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true }, &"walk_down": { 1: true, 2: true, 3: true, 4: true, 5: true, 0: true }, &"walk_up": { 1: true, 2: true, 3: true, 4: true, 0: true, 5: true }, &"sort_herbs": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"grind_herbs": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"read_herbal": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true }, &"walk_left": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true }, &"brew_infusion": { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true } }
+RESULT: 61 herbalist checks passed, 0 failed
