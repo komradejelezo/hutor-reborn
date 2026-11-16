@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "checks": [
+    "ordinary-new-game",
+    "real-WASD",
+    "real-E-sign-dialogue",
+    "journal-and-inventory",
+    "manual-save-and-load",
+    "quest-five-test-jump",
+    "normal-save-isolated"
+  ],
+  "final": {
+    "active": false,
+    "busy": false,
+    "buttons": [
+      {
+        "center": [
+          249.0,
+          304.0
+        ],
+        "disabled": false,
+        "text": "Начать путь"
+      },
+      {
+        "center": [
+          249.0,
+          364.0
+        ],
+        "disabled": false,
+        "text": "Испытание боем"
+      },
+      {
+        "center": [
+          249.0,
+          420.0
+        ],
+        "disabled": false,
+        "text": "Выйти из игры"
+      },
+      {
+        "center": [
+          645.0,
+          304.0
+        ],
+        "disabled": false,
+        "text": "Продолжить главу"
+      },
+      {
+        "center": [
+          645.0,
+          364.0
+        ],
+        "disabled": true,
+        "text": "Контрольное сохранение"
+      },
+      {
+        "center": [
+          645.0,
+          420.0
+        ],
+        "disabled": false,
+        "text": "Тест главы I"
+      }
+    ],
+    "dialogue": false,
+    "flags": {
+      "axe_decided": true,
+      "axe_found": true,
+      "ban_known": true,
+      "dishes_delivered": true,
+      "dishes_taken": true,
+      "herbs_done": true,
+      "herbs_started": true,
+      "inn_work": true,
+      "investigation": true,
+      "lodging": true,
+      "night": true,
+      "old_met": true,
+      "pine_symbol": true,
+      "tools": true,
+      "tracks": true,
+      "w_herbalist_brother": true,
+      "w_woodcutter": true,
+      "w_woodcutter_son": true,
+      "w_woodcutter_wife": true,
+      "warning": true
+    },
+    "hero_id": 0,
+    "line": "reply_0",
+    "locked": false,
+    "normal_digest": "208230bed508d812f40dbeba88d0707d55ad36bfe354a970918ecdc9ad9c8876",
+    "overlay": false,
+    "phase": 0,
+    "position": [
+      0,
+      0
+    ],
+    "scene": "res://scenes/menu/MainMenu.tscn",
+    "stage": 4,
+    "target": "",
+    "test": true,
+    "tick": 229,
+    "typing": false,
+    "world": ""
+  }
+}

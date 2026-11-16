@@ -39,6 +39,14 @@ func _unhandled_input(event: InputEvent) -> void:
         hud.show_effects(atmosphere.effects_enabled)
 
 func _show_description(payload: Dictionary) -> void:
+    var chapter:Node=get_node_or_null("/root/ChapterI")
+    if chapter and chapter.active:
+        if payload.has("chapter_action"):
+            chapter.interact(String(payload.chapter_action))
+            return
+        if payload.has("chapter_npc"):
+            chapter.speak(String(payload.chapter_npc))
+            return
     if payload.has("building_id"):
         get_node("/root/InteriorTravel").request_transition(payload.building_id, payload.get("exit_to_village", false))
         return

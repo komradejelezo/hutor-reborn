@@ -200,6 +200,7 @@ func _tick(_minute: float) -> void:
     if not initialized or switching or travel.busy:return
     for record:HutorDailyResidentState in states.values():
         if not is_instance_valid(record.actor):continue
+        if record.actor.has_meta("chapter_reserved"):continue
         _choose(record)
         if _active(record) and record.actor.state==HutorResident.State.TALKING:
             record.updated=clock.absolute_minutes
@@ -468,6 +469,7 @@ func _physics_process(delta: float) -> void:
     _update_widget()
     for record:HutorDailyResidentState in states.values():
         if not _active(record):continue
+        if record.actor.has_meta("chapter_reserved"):continue
         var actor:HutorResident=record.actor
         if actor.state==HutorResident.State.TALKING:continue
         if record.mode==&"boundary_out" and not _is_virtual(record.desired_scene):

@@ -1,0 +1,32 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: new forest fog follows existing effects switch
+PASS: new forest fog restores cleanly
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for approach_herbalist
+PASS: conditioned answer present: approach_herbalist
+PASS: live world object available: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: live world object available: floor_cache
+PASS: sensor can select actual reachable story object: floor_cache
+PASS: existing dialogue open for floor_cache
+PASS: conditioned answer present: floor_cache
+PASS: live world object available: cabinet
+PASS: sensor can select actual reachable story object: cabinet
+PASS: existing dialogue open for cabinet
+PASS: conditioned answer present: cabinet
+PASS: live world object available: house_exit
+PASS: sensor can select actual reachable story object: house_exit
+PASS: existing dialogue open for exit_location
+PASS: conditioned answer present: exit_location
+PASS: live world object available: finale
+PASS: sensor can select actual reachable story object: finale
+PASS: existing dialogue open for finale
+PASS: conditioned answer present: finale
+PASS: final graphical chapter event completed
+RESULT: 26 visual fixture checks passed, 0 failed

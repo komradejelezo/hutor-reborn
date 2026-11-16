@@ -1,0 +1,15 @@
+NATIVE screenshot menu.png
+NATIVE click
+NATIVE screenshot arrival.png
+NATIVE screenshot sign-dialogue.png
+NATIVE click
+NATIVE screenshot journal.png
+NATIVE click
+NATIVE screenshot inventory.png
+NATIVE click
+NATIVE click
+NATIVE click
+NATIVE click
+NATIVE screenshot test-chapter.png
+NATIVE click
+NATIVE chapter-native-success
