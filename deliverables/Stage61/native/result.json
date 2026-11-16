@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "final": {
+    "buttons": [
+      {
+        "center": [
+          249.0,
+          304.0
+        ],
+        "disabled": false,
+        "text": "Начать путь",
+        "unit": ""
+      },
+      {
+        "center": [
+          249.0,
+          364.0
+        ],
+        "disabled": false,
+        "text": "Испытание боем",
+        "unit": ""
+      },
+      {
+        "center": [
+          249.0,
+          420.0
+        ],
+        "disabled": false,
+        "text": "Выйти из игры",
+        "unit": ""
+      }
+    ],
+    "clock": 420.0,
+    "clock_running": false,
+    "npc_count": 0,
+    "scene": "res://scenes/menu/MainMenu.tscn",
+    "tick": 2248
+  }
+}

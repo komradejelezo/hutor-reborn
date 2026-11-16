@@ -1,0 +1,280 @@
+{
+  "units": {
+    "hans": {
+      "name": "Ганс",
+      "health": 108,
+      "damage": 28,
+      "armor": 4,
+      "initiative": 12,
+      "accuracy": 90,
+      "reach": "melee",
+      "frames": "res://assets/characters/hans_frames.tres",
+      "visual": "hans"
+    },
+    "woodcutter": {
+      "name": "Дровосек",
+      "health": 112,
+      "damage": 33,
+      "armor": 5,
+      "initiative": 9,
+      "accuracy": 84,
+      "reach": "melee",
+      "frames": "res://assets/npc/woodcutter542/game/frames.tres",
+      "visual": "woodcutter"
+    },
+    "herbalist": {
+      "name": "Травница",
+      "health": 76,
+      "damage": 10,
+      "armor": 2,
+      "initiative": 10,
+      "accuracy": 90,
+      "reach": "ranged",
+      "frames": "res://assets/npc/herbalist5410/game/frames.tres",
+      "visual": "herbalist",
+      "heal": 32,
+      "heal_charges": 2
+    },
+    "mercenary": {
+      "name": "Наёмник",
+      "health": 36,
+      "damage": 21,
+      "armor": 3,
+      "initiative": 11,
+      "accuracy": 86,
+      "reach": "melee",
+      "image": "res://assets/combat/stage61/mercenary.png",
+      "visual": "mercenary"
+    },
+    "wolf": {
+      "name": "Волк",
+      "health": 64,
+      "damage": 14,
+      "armor": 2,
+      "initiative": 18,
+      "accuracy": 83,
+      "reach": "melee",
+      "image": "res://assets/combat/stage61/wolf.png",
+      "visual": "wolf"
+    },
+    "beast": {
+      "name": "Лесная тварь",
+      "health": 92,
+      "damage": 25,
+      "armor": 5,
+      "initiative": 7,
+      "accuracy": 80,
+      "reach": "melee",
+      "image": "res://assets/combat/stage61/beast.png",
+      "visual": "beast"
+    },
+    "spirit": {
+      "name": "Лесной дух",
+      "health": 40,
+      "damage": 11,
+      "armor": 2,
+      "initiative": 14,
+      "accuracy": 88,
+      "reach": "ranged",
+      "image": "res://assets/combat/stage61/spirit.png",
+      "visual": "spirit"
+    }
+  },
+  "scenarios": [
+    {
+      "id": "duel",
+      "name": "Один на один",
+      "description": "Ганс против волка. Удар, защита, инициатива.",
+      "potions": 2,
+      "retreat": 60,
+      "units": [
+        {
+          "kind": "hans",
+          "id": "hans",
+          "team": 0,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "wolf",
+          "id": "wolf_a",
+          "team": 1,
+          "row": "front",
+          "lane": 0
+        }
+      ]
+    },
+    {
+      "id": "ambush",
+      "name": "Лесная засада",
+      "description": "Два волка. Несколько целей и риск отступления.",
+      "potions": 2,
+      "retreat": 40,
+      "units": [
+        {
+          "kind": "hans",
+          "id": "hans",
+          "team": 0,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "wolf",
+          "id": "wolf_a",
+          "team": 1,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "wolf",
+          "id": "wolf_b",
+          "team": 1,
+          "row": "front",
+          "lane": 1
+        }
+      ]
+    },
+    {
+      "id": "companions",
+      "name": "Плечом к плечу",
+      "description": "Ганс и дровосек против твари и лесного духа. Два ряда.",
+      "potions": 2,
+      "retreat": 55,
+      "units": [
+        {
+          "kind": "hans",
+          "id": "hans",
+          "team": 0,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "woodcutter",
+          "id": "woodcutter",
+          "team": 0,
+          "row": "front",
+          "lane": 1
+        },
+        {
+          "kind": "beast",
+          "id": "beast",
+          "team": 1,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "spirit",
+          "id": "spirit",
+          "team": 1,
+          "row": "back",
+          "lane": 0
+        }
+      ]
+    },
+    {
+      "id": "tincture",
+      "name": "Последняя настойка",
+      "description": "Ганс и травница. Один общий настой и два лечения.",
+      "potions": 1,
+      "retreat": 55,
+      "specials": [
+        "heal"
+      ],
+      "units": [
+        {
+          "kind": "hans",
+          "id": "hans",
+          "team": 0,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "herbalist",
+          "id": "herbalist",
+          "team": 0,
+          "row": "back",
+          "lane": 0
+        },
+        {
+          "kind": "beast",
+          "id": "beast",
+          "team": 1,
+          "row": "front",
+          "lane": 0
+        }
+      ]
+    },
+    {
+      "id": "betrayal",
+      "name": "Цена предательства",
+      "description": "Наёмник сменит сторону в начале третьего раунда.",
+      "potions": 2,
+      "retreat": 50,
+      "betray_round": 3,
+      "units": [
+        {
+          "kind": "hans",
+          "id": "hans",
+          "team": 0,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "mercenary",
+          "id": "mercenary",
+          "team": 0,
+          "row": "front",
+          "lane": 1
+        },
+        {
+          "kind": "wolf",
+          "id": "wolf_a",
+          "team": 1,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "spirit",
+          "id": "spirit",
+          "team": 1,
+          "row": "back",
+          "lane": 0
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "Шёпот леса",
+      "description": "Ганс против твари. Однократная помощь корней и ворона.",
+      "potions": 2,
+      "retreat": 55,
+      "specials": [
+        "roots",
+        "raven"
+      ],
+      "units": [
+        {
+          "kind": "hans",
+          "id": "hans",
+          "team": 0,
+          "row": "front",
+          "lane": 0
+        },
+        {
+          "kind": "beast",
+          "id": "beast",
+          "team": 1,
+          "row": "front",
+          "lane": 0
+        }
+      ]
+    }
+  ],
+  "potion_heal": 30,
+  "guard_multiplier": 0.5,
+  "damage_variation": 0.15,
+  "spirit_weaken": 5,
+  "spirit_duration": 2,
+  "raven_penalty": 25,
+  "raven_attacks": 2
+}

@@ -1,0 +1,97 @@
+NATIVE screenshot main-menu.png
+NATIVE mouse
+NATIVE screenshot scenarios.png
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot duel.png
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot victory.png
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot rows.png
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot support.png
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot forest-help.png
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE restart
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot betrayal.png
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot defeat.png
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE mouse
+NATIVE screenshot retreat-outcome.png
+NATIVE mouse
+NATIVE screenshot menu-return.png
+NATIVE native-combat-success
