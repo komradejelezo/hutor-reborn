@@ -1,0 +1,69 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: no Miron confession or reward before identifying cup
+PASS: no question about unheard night strikes on arrival
+PASS: brother does not quote an interview that has not happened
+PASS: workbench explains missing wheel without inventing ingredients
+PASS: missing-wheel inspection has no inventory side effects
+PASS: in-progress v1 save: wheel
+PASS: disk restore keeps exact stage/items: wheel
+PASS: workbench remains inspectable after repair/load
+PASS: cup visibility restored after load
+PASS: in-progress v1 save: repair
+PASS: disk restore keeps exact stage/items: repair
+PASS: workbench remains inspectable after repair/load
+PASS: cup visibility restored after load
+PASS: in-progress v1 save: collect_logs
+PASS: disk restore keeps exact stage/items: collect_logs
+PASS: workbench remains inspectable after repair/load
+PASS: cup visibility restored after load
+PASS: in-progress v1 save: take_dishes
+PASS: disk restore keeps exact stage/items: take_dishes
+PASS: workbench remains inspectable after repair/load
+PASS: cup visibility restored after load
+PASS: in-progress v1 save: take_mug
+PASS: disk restore keeps exact stage/items: take_mug
+PASS: workbench remains inspectable after repair/load
+PASS: cup visibility restored after load
+PASS: in-progress v1 save: dry_take
+PASS: disk restore keeps exact stage/items: dry_take
+PASS: workbench remains inspectable after repair/load
+PASS: cup visibility restored after load
+PASS: taken table objects stay hidden after restoring save: take_dishes
+PASS: taken table objects stay hidden after restoring save: take_mug
+PASS: confession reward waits for conversation end, line 1
+PASS: confession reward waits for conversation end, line 2
+PASS: confession reward waits for conversation end, line 3
+PASS: three linked confession lines finish with exactly one reward
+PASS: pre-fix mattress-position v1 save loads
+PASS: only obstructed old position moves beside bed; progress unchanged
+PASS: entrance-connected interaction: inn/sleep
+PASS: entrance-connected interaction: inn/wait
+PASS: entrance-connected interaction: /sign
+PASS: entrance-connected interaction: /leave
+PASS: entrance-connected interaction: /axe_found
+PASS: entrance-connected interaction: /tools
+PASS: entrance-connected interaction: /tracks
+PASS: entrance-connected interaction: /wheel
+PASS: entrance-connected interaction: /collect_logs
+PASS: entrance-connected interaction: /valerian
+PASS: entrance-connected interaction: /thyme
+PASS: entrance-connected interaction: /poison
+PASS: entrance-connected interaction: /abandoned
+PASS: entrance-connected interaction: /pine_symbol
+PASS: entrance-connected interaction: /north
+PASS: entrance-connected interaction: /finale
+PASS: entrance-connected interaction: logging_camp/camp_exit
+PASS: entrance-connected interaction: logging_camp/wolves
+PASS: entrance-connected interaction: logging_camp/struggle
+PASS: entrance-connected interaction: logging_camp/handle
+PASS: entrance-connected interaction: logging_camp/cloth
+PASS: entrance-connected interaction: logging_camp/vanishing
+PASS: entrance-connected interaction: abandoned/house_exit
+PASS: entrance-connected interaction: abandoned/family
+PASS: entrance-connected interaction: abandoned/house_symbol
+PASS: entrance-connected interaction: abandoned/floor_cache
+PASS: entrance-connected interaction: abandoned/cabinet
+PASS: entrance-connected interaction: elder/archive
+PASS: entrance-connected interaction: elder/official_copy
+RESULT: 66 chapter regression checks passed, 0 failed

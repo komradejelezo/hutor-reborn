@@ -1,0 +1,5 @@
+NATIVE click
+NATIVE screenshot arrival.png
+NATIVE walk-inn-entrance [1681.80529785156, 2286.91528320312]
+NATIVE screenshot door.png
+NATIVE screenshot inn-entry.png

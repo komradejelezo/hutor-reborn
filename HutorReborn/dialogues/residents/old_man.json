@@ -13,7 +13,7 @@
         "displeased": "res://assets/npc/old_man549/game/portraits/displeased.png",
         "anxious": "res://assets/npc/old_man549/game/portraits/anxious.png"
       },
-      "text": "Сосна скрипит, а люди всё спешат. Присядешь словом, путник?",
+      "text": "Сосна скрипит, а люди всё спешат. Присядь, путник. Есть о чём потолковать",
       "choices": [
         {
           "id": "answer_1",

@@ -39,9 +39,24 @@ func point(action:String,choice:String="") -> void:
     if not is_instance_valid(marker):return
     var hero:CharacterBody2D=c.travel.active_world.player
     var shape:=CircleShape2D.new();shape.radius=8
-    for offset in [Vector2.ZERO,Vector2(0,24),Vector2(24,0),Vector2(-24,0),Vector2(0,-24),Vector2(0,40)]:
+    var offsets:Array[Vector2]=[]
+    for y in range(-48,49,8):
+        for x in range(-48,49,8):
+            if Vector2(x,y).length()<marker.reach-2:offsets.append(Vector2(x,y))
+    offsets.sort_custom(func(a:Vector2,b:Vector2):return a.length_squared()<b.length_squared())
+    var selected:=false
+    for offset in offsets:
         var query:=PhysicsShapeQueryParameters2D.new();query.shape=shape;query.collision_mask=1;query.transform=Transform2D(0,marker.global_position+offset+Vector2(0,-3))
-        if hero.get_world_2d().direct_space_state.intersect_shape(query,1).is_empty():hero.global_position=marker.global_position+offset;break
+        if not hero.get_world_2d().direct_space_state.intersect_shape(query,1).is_empty():continue
+        var ray:=PhysicsRayQueryParameters2D.create(marker.global_position+offset+Vector2(0,-5),marker.global_position+Vector2(0,-5),1);ray.exclude=[hero.get_rid()]
+        if not hero.get_world_2d().direct_space_state.intersect_ray(ray).is_empty():continue
+        hero.global_position=marker.global_position+offset
+        for i in 3:await physics_frame
+        # The southern boundary intentionally opens its departure dialogue on approach.
+        if action=="leave" and c.dialogue.is_active():selected=true;break
+        if hero.sensor.target==marker:selected=true;break
+    check(selected,"fixture finds a collision-free position with actual sensor focus: "+action)
+    if not selected:return
     for i in 6:await physics_frame
     if not c.dialogue.is_active():
         check(hero.sensor.target==marker,"sensor can select actual reachable story object: "+action)
