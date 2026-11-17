@@ -1,0 +1,158 @@
+{
+  "canvas": [
+    512,
+    512
+  ],
+  "foot_origin": [
+    256,
+    480
+  ],
+  "dodge_uniform_scale": 1.24,
+  "method": "Anchor the robust lower-boot band (alpha >180, >=12 pixels per row); ignore stray top line. Preserve all original source pixels.",
+  "frames": {
+    "idle_01": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "idle_02": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "idle_03": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "idle_04": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "idle_05": {
+      "anchor": [
+        241,
+        434
+      ]
+    },
+    "idle_06": {
+      "anchor": [
+        241,
+        434
+      ]
+    },
+    "idle_07": {
+      "anchor": [
+        241,
+        434
+      ]
+    },
+    "idle_08": {
+      "anchor": [
+        241,
+        434
+      ]
+    },
+    "idle_09": {
+      "anchor": [
+        241,
+        434
+      ]
+    },
+    "idle_10": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "idle_11": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "idle_12": {
+      "anchor": [
+        240,
+        434
+      ]
+    },
+    "dodge_01": {
+      "anchor": [
+        206,
+        351
+      ]
+    },
+    "dodge_02": {
+      "anchor": [
+        208,
+        351
+      ]
+    },
+    "dodge_03": {
+      "anchor": [
+        209,
+        352
+      ]
+    },
+    "dodge_04": {
+      "anchor": [
+        211,
+        352
+      ]
+    },
+    "dodge_05": {
+      "anchor": [
+        211,
+        351
+      ]
+    },
+    "dodge_06": {
+      "anchor": [
+        210,
+        351
+      ]
+    },
+    "dodge_07": {
+      "anchor": [
+        212,
+        351
+      ]
+    },
+    "dodge_08": {
+      "anchor": [
+        212,
+        351
+      ]
+    },
+    "dodge_09": {
+      "anchor": [
+        211,
+        351
+      ]
+    },
+    "dodge_10": {
+      "anchor": [
+        208,
+        351
+      ]
+    },
+    "dodge_11": {
+      "anchor": [
+        207,
+        351
+      ]
+    },
+    "dodge_12": {
+      "anchor": [
+        206,
+        351
+      ]
+    }
+  }
+}

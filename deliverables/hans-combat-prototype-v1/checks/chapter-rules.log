@@ -1,0 +1,135 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: new chapter has no future stages
+PASS: lodging paid once
+PASS: first night unlocks investigation
+PASS: all witness orders and axe decision: keep
+PASS: axe decision cannot be rewritten
+PASS: wrong plant cannot complete collection
+PASS: plant mistake recoverable and reward unique
+PASS: old man and pine open logging
+PASS: camp findings open final investigation, not door automatically
+PASS: cabinet really requires key
+PASS: single diary for branch alone
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch herbalist
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch elder
+PASS: finale terminal and one-shot
+PASS: new chapter has no future stages
+PASS: lodging paid once
+PASS: first night unlocks investigation
+PASS: all witness orders and axe decision: keep
+PASS: axe decision cannot be rewritten
+PASS: wrong plant cannot complete collection
+PASS: plant mistake recoverable and reward unique
+PASS: old man and pine open logging
+PASS: camp findings open final investigation, not door automatically
+PASS: cabinet really requires key
+PASS: single diary for branch alone
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch herbalist
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch elder
+PASS: finale terminal and one-shot
+PASS: new chapter has no future stages
+PASS: lodging paid once
+PASS: first night unlocks investigation
+PASS: all witness orders and axe decision: elder
+PASS: axe decision cannot be rewritten
+PASS: wrong plant cannot complete collection
+PASS: plant mistake recoverable and reward unique
+PASS: old man and pine open logging
+PASS: camp findings open final investigation, not door automatically
+PASS: cabinet really requires key
+PASS: single diary for branch alone
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch herbalist
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch elder
+PASS: finale terminal and one-shot
+PASS: new chapter has no future stages
+PASS: lodging paid once
+PASS: first night unlocks investigation
+PASS: all witness orders and axe decision: elder
+PASS: axe decision cannot be rewritten
+PASS: wrong plant cannot complete collection
+PASS: plant mistake recoverable and reward unique
+PASS: old man and pine open logging
+PASS: camp findings open final investigation, not door automatically
+PASS: cabinet really requires key
+PASS: single diary for branch alone
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch herbalist
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch elder
+PASS: finale terminal and one-shot
+PASS: new chapter has no future stages
+PASS: lodging paid once
+PASS: first night unlocks investigation
+PASS: all witness orders and axe decision: brother
+PASS: axe decision cannot be rewritten
+PASS: wrong plant cannot complete collection
+PASS: plant mistake recoverable and reward unique
+PASS: old man and pine open logging
+PASS: camp findings open final investigation, not door automatically
+PASS: cabinet really requires key
+PASS: single diary for branch alone
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch herbalist
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch elder
+PASS: finale terminal and one-shot
+PASS: new chapter has no future stages
+PASS: lodging paid once
+PASS: first night unlocks investigation
+PASS: all witness orders and axe decision: brother
+PASS: axe decision cannot be rewritten
+PASS: wrong plant cannot complete collection
+PASS: plant mistake recoverable and reward unique
+PASS: old man and pine open logging
+PASS: camp findings open final investigation, not door automatically
+PASS: cabinet really requires key
+PASS: single diary for branch alone
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch herbalist
+PASS: finale terminal and one-shot
+PASS: cabinet really requires key
+PASS: single diary for branch elder
+PASS: finale terminal and one-shot
+PASS: physical inn errand replaces payment
+PASS: four side quests independent, no duplicate money or items
+PASS: story consumable has actual health consequence
+PASS: chapter state roundtrip retains every flag/item/relation
+PASS: invalid state does not overwrite progress
+PASS: item icon exists: copy
+PASS: item icon exists: dishes
+PASS: item icon exists: axe
+PASS: item icon exists: root
+PASS: item icon exists: cloth
+PASS: item icon exists: handle
+PASS: item icon exists: diary
+PASS: item icon exists: tincture
+PASS: item icon exists: valerian
+PASS: item icon exists: thyme
+PASS: item icon exists: poison
+PASS: item icon exists: toy
+PASS: item icon exists: wheel
+PASS: item icon exists: fixed_toy
+PASS: item icon exists: logs
+PASS: item icon exists: mug
+PASS: item icon exists: dry
+PASS: item icon exists: bait
+PASS: item icon exists: key
+RESULT: 132 chapter rule checks passed, 0 failed

@@ -1,0 +1,269 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: 22 ping-pong steps: idle
+PASS: loop only idle: idle
+PASS: manifest timing: idle
+PASS: end indices are not doubled: idle
+PASS: strip is horizontal, never a grid: idle
+PASS: exact manifest source: combat_idle/0
+PASS: foot origin in padded canvas: idle_01
+PASS: exact manifest source: combat_idle/1
+PASS: foot origin in padded canvas: idle_02
+PASS: exact manifest source: combat_idle/2
+PASS: foot origin in padded canvas: idle_03
+PASS: exact manifest source: combat_idle/3
+PASS: foot origin in padded canvas: idle_04
+PASS: exact manifest source: combat_idle/4
+PASS: foot origin in padded canvas: idle_05
+PASS: exact manifest source: combat_idle/5
+PASS: foot origin in padded canvas: idle_06
+PASS: exact manifest source: combat_idle/6
+PASS: foot origin in padded canvas: idle_07
+PASS: exact manifest source: combat_idle/7
+PASS: foot origin in padded canvas: idle_08
+PASS: exact manifest source: combat_idle/8
+PASS: foot origin in padded canvas: idle_09
+PASS: exact manifest source: combat_idle/9
+PASS: foot origin in padded canvas: idle_10
+PASS: exact manifest source: combat_idle/10
+PASS: foot origin in padded canvas: idle_11
+PASS: exact manifest source: combat_idle/11
+PASS: foot origin in padded canvas: idle_12
+PASS: exact manifest source: combat_idle/12
+PASS: foot origin in padded canvas: idle_11
+PASS: exact manifest source: combat_idle/13
+PASS: foot origin in padded canvas: idle_10
+PASS: exact manifest source: combat_idle/14
+PASS: foot origin in padded canvas: idle_09
+PASS: exact manifest source: combat_idle/15
+PASS: foot origin in padded canvas: idle_08
+PASS: exact manifest source: combat_idle/16
+PASS: foot origin in padded canvas: idle_07
+PASS: exact manifest source: combat_idle/17
+PASS: foot origin in padded canvas: idle_06
+PASS: exact manifest source: combat_idle/18
+PASS: foot origin in padded canvas: idle_05
+PASS: exact manifest source: combat_idle/19
+PASS: foot origin in padded canvas: idle_04
+PASS: exact manifest source: combat_idle/20
+PASS: foot origin in padded canvas: idle_03
+PASS: exact manifest source: combat_idle/21
+PASS: foot origin in padded canvas: idle_02
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_01.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_01.png
+PASS: import preserves every RGBA pixel: idle_01.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_02.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_02.png
+PASS: import preserves every RGBA pixel: idle_02.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_03.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_03.png
+PASS: import preserves every RGBA pixel: idle_03.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_04.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_04.png
+PASS: import preserves every RGBA pixel: idle_04.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_05.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_05.png
+PASS: import preserves every RGBA pixel: idle_05.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_06.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_06.png
+PASS: import preserves every RGBA pixel: idle_06.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_07.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_07.png
+PASS: import preserves every RGBA pixel: idle_07.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_08.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_08.png
+PASS: import preserves every RGBA pixel: idle_08.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_09.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_09.png
+PASS: import preserves every RGBA pixel: idle_09.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_10.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_10.png
+PASS: import preserves every RGBA pixel: idle_10.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_11.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_11.png
+PASS: import preserves every RGBA pixel: idle_11.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/idle/idle_12.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: idle_12.png
+PASS: import preserves every RGBA pixel: idle_12.png
+PASS: 22 ping-pong steps: dodge
+PASS: loop only idle: dodge
+PASS: manifest timing: dodge
+PASS: end indices are not doubled: dodge
+PASS: strip is horizontal, never a grid: dodge
+PASS: exact manifest source: dodge/0
+PASS: foot origin in padded canvas: dodge_01
+PASS: exact manifest source: dodge/1
+PASS: foot origin in padded canvas: dodge_02
+PASS: exact manifest source: dodge/2
+PASS: foot origin in padded canvas: dodge_03
+PASS: exact manifest source: dodge/3
+PASS: foot origin in padded canvas: dodge_04
+PASS: exact manifest source: dodge/4
+PASS: foot origin in padded canvas: dodge_05
+PASS: exact manifest source: dodge/5
+PASS: foot origin in padded canvas: dodge_06
+PASS: exact manifest source: dodge/6
+PASS: foot origin in padded canvas: dodge_07
+PASS: exact manifest source: dodge/7
+PASS: foot origin in padded canvas: dodge_08
+PASS: exact manifest source: dodge/8
+PASS: foot origin in padded canvas: dodge_09
+PASS: exact manifest source: dodge/9
+PASS: foot origin in padded canvas: dodge_10
+PASS: exact manifest source: dodge/10
+PASS: foot origin in padded canvas: dodge_11
+PASS: exact manifest source: dodge/11
+PASS: foot origin in padded canvas: dodge_12
+PASS: exact manifest source: dodge/12
+PASS: foot origin in padded canvas: dodge_11
+PASS: exact manifest source: dodge/13
+PASS: foot origin in padded canvas: dodge_10
+PASS: exact manifest source: dodge/14
+PASS: foot origin in padded canvas: dodge_09
+PASS: exact manifest source: dodge/15
+PASS: foot origin in padded canvas: dodge_08
+PASS: exact manifest source: dodge/16
+PASS: foot origin in padded canvas: dodge_07
+PASS: exact manifest source: dodge/17
+PASS: foot origin in padded canvas: dodge_06
+PASS: exact manifest source: dodge/18
+PASS: foot origin in padded canvas: dodge_05
+PASS: exact manifest source: dodge/19
+PASS: foot origin in padded canvas: dodge_04
+PASS: exact manifest source: dodge/20
+PASS: foot origin in padded canvas: dodge_03
+PASS: exact manifest source: dodge/21
+PASS: foot origin in padded canvas: dodge_02
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_01.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_01.png
+PASS: import preserves every RGBA pixel: dodge_01.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_02.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_02.png
+PASS: import preserves every RGBA pixel: dodge_02.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_03.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_03.png
+PASS: import preserves every RGBA pixel: dodge_03.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_04.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_04.png
+PASS: import preserves every RGBA pixel: dodge_04.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_05.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_05.png
+PASS: import preserves every RGBA pixel: dodge_05.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_06.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_06.png
+PASS: import preserves every RGBA pixel: dodge_06.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_07.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_07.png
+PASS: import preserves every RGBA pixel: dodge_07.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_08.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_08.png
+PASS: import preserves every RGBA pixel: dodge_08.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_09.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_09.png
+PASS: import preserves every RGBA pixel: dodge_09.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_10.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_10.png
+PASS: import preserves every RGBA pixel: dodge_10.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_11.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_11.png
+PASS: import preserves every RGBA pixel: dodge_11.png
+WARNING: Loaded resource as image file, this will not work on export: 'res://assets/characters/hans_combat_prototype_v1/dodge/dodge_12.png'. Instead, import the image file as an Image resource and load it normally as a resource.
+     at: load_from_file (core/io/image.cpp:2766)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/verify_hans_combat_prototype.gd:40)
+PASS: PNG dimensions: dodge_12.png
+PASS: import preserves every RGBA pixel: dodge_12.png
+PASS: continuous idle starts automatically
+PASS: nearest on both fixed-scale rigs
+PASS: inspector timing is isolated per instance
+PASS: dodge is one-shot with repeated-trigger protection
+PASS: 22 × 52 ms dodge duration: 1148 ms
+PASS: full dodge returns to idle frame zero without overlapping sprites
+PASS: pause holds exact dodge frame
+PASS: Idle button cancels dodge safely
+PASS: F6 viewer initializes existing autoload input bindings
+PASS: light background reveals source transparency
+PASS: viewer controls tune actual animation
+PASS: opt-in arena replaces only Hans presentation
+PASS: battle engine produces a real resolved miss
+PASS: resolved battle miss invokes dodge
+PASS: arena ×3 presentation speed is respected
+PASS: animation returns to idle and never changes HP
+PASS: visible Dodge never grants invulnerability to an actual hit
+PASS: original scenario works with visual adapter: ambush
+PASS: original scenario works with visual adapter: companions
+PASS: original scenario works with visual adapter: tincture
+PASS: original scenario works with visual adapter: betrayal
+PASS: original scenario works with visual adapter: forest
+PASS: restart during dodge discards only old visual
+PASS: viewer and prototype battles do not start quests, time or NPCs
+RESULT: 170 Hans combat prototype checks passed, 0 failed

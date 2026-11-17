@@ -1,0 +1,6 @@
+PASS: all pre-existing files match main 66cb79f; only additive prototype files
+PASS: 30 packaged files retain original SHA256, including README/manifest/previews
+PASS: 24 original RGBA frames, correct dimensions/order, lossless import, no alpha cleanup
+KNOWN SOURCE LIMIT: 12 Idle files contain only 7 unique images; retained exactly as supplied
+PASS: no conflict markers, duplicate functions, observer overrides or Python caches
+RESULT: 4 source/integrity groups passed
