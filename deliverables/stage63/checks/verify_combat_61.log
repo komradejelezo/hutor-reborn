@@ -41,7 +41,7 @@ PASS: fresh independent restart companions
 PASS: fresh independent restart tincture
 PASS: fresh independent restart betrayal
 PASS: fresh independent restart forest
-PASS: all 300 seeded battles terminate through legal AI/player actions: 
+PASS: all 300 seeded battles terminate through legal AI/player actions:
 PASS: runtime fights leave source configuration untouched
 BALANCE { "duel": { "outcomes": { "victory": 50 }, "median_round": 3, "min": 3, "max": 5 }, "ambush": { "outcomes": { "victory": 50 }, "median_round": 8, "min": 6, "max": 10 }, "companions": { "outcomes": { "victory": 50 }, "median_round": 4, "min": 3, "max": 6 }, "tincture": { "outcomes": { "victory": 50 }, "median_round": 5, "min": 3, "max": 6 }, "betrayal": { "outcomes": { "victory": 48, "defeat": 2 }, "median_round": 7, "min": 4, "max": 13 }, "forest": { "outcomes": { "victory": 50 }, "median_round": 8, "min": 6, "max": 11 } }
 RESULT: 43 combat rules checks passed, 0 failed
