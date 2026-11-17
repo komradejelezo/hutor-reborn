@@ -126,4 +126,4 @@
 
 Все художественные ресурсы переиспользованы: `stage45/chair.png`, `stage44/bed_old.png`, `innkeeper_wife547/game/tray.png`, `innkeeper546/game/mug_empty.png`; колесо показано AtlasTexture-фрагментом старой телеги, а не картинкой корзины. Исходные PNG не изменялись и не удалялись. Новых временных художественных ассетов, требующих замены, нет.
 
-Ветка: `codex/stage63-chapter-playtest-fixes`. PR публикуется в `main`; ссылка будет добавлена после создания. Автоматическое объединение не выполняется.
+Ветка: `codex/stage63-chapter-playtest-fixes`. PR в `main`: [#36](https://github.com/komradejelezo/hutor-reborn/pull/36). Автоматическое объединение не выполняется.
