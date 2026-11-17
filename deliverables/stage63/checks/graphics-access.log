@@ -1,0 +1,75 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+ACCESS storehouse/repair marker=(435.0, 437.0) path_cells=9
+PASS: connected floor and unobstructed E selection: repair
+PASS: WASD approach selects repair
+PASS: existing dialogue open for repair
+PASS: conditioned answer present: repair
+ACCESS storehouse/dry_take marker=(350.0, 240.0) path_cells=42
+PASS: connected floor and unobstructed E selection: dry_take
+PASS: WASD approach selects dry_take
+PASS: existing dialogue open for dry_take
+PASS: conditioned answer present: dry_take
+ACCESS inn/take_dishes marker=(300.0, 390.0) path_cells=29
+PASS: connected floor and unobstructed E selection: take_dishes
+PASS: WASD approach selects take_dishes
+PASS: existing dialogue open for take_dishes
+PASS: conditioned answer present: take_dishes
+ACCESS inn/deliver_dishes marker=(430.0, 270.0) path_cells=32
+PASS: connected floor and unobstructed E selection: deliver_dishes
+PASS: WASD approach selects deliver_dishes
+PASS: existing dialogue open for deliver_dishes
+PASS: conditioned answer present: deliver_dishes
+ACCESS inn/take_mug marker=(510.0, 420.0) path_cells=30
+PASS: connected floor and unobstructed E selection: take_mug
+PASS: WASD approach selects take_mug
+PASS: existing dialogue open for take_mug
+PASS: conditioned answer present: take_mug
+PASS: floor repair consumes exactly toy + wheel
+PASS: two distinct tables and reachable counter update actual inventory
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for work_paid
+PASS: conditioned answer present: work_paid
+PASS: connected floor route to bed
+PASS: full-size bed can be selected from floor
+ACCESS /collect_logs marker=(1805.0, 800.0) path_cells=24
+PASS: connected floor and unobstructed E selection: collect_logs
+PASS: WASD approach selects collect_logs
+PASS: existing dialogue open for collect_logs
+PASS: conditioned answer present: collect_logs
+PASS: visible woodpile gives exactly two bundles
+ACCESS woodcutter/deliver_logs marker=(619.0, 282.0) path_cells=35
+PASS: connected floor and unobstructed E selection: deliver_logs
+PASS: WASD approach selects deliver_logs
+PASS: existing dialogue open for deliver_logs
+PASS: conditioned answer present: deliver_logs
+PASS: both bundles delivered to real stove from entrance
+ACCESS herbalist/dry_sort marker=(501.0, 357.0) path_cells=10
+PASS: connected floor and unobstructed E selection: dry_sort
+PASS: WASD approach selects dry_sort
+PASS: existing dialogue open for dry_sort
+PASS: conditioned answer present: dry_sort
+PASS: herbalist sorting table physically reachable
+PASS: same original resident present: woodcutter_son
+PASS: existing dialogue open for toy_done
+PASS: conditioned answer present: toy_done
+PASS: same original resident present: woodcutter_wife
+PASS: existing dialogue open for wood_done
+PASS: conditioned answer present: wood_done
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for dry_done
+PASS: conditioned answer present: dry_done
+PASS: same original resident present: herbalist_brother
+PASS: existing dialogue open for mug_owner
+PASS: conditioned answer present: mug_owner
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for mug_done
+PASS: conditioned answer present: mug_done
+PASS: four errands finished through existing scene/dialogue connections
+PASS: repeat attempts cannot duplicate inventory, journal, relationships or rewards
+PASS: completed errands save/load through unchanged v1 format
+PASS: all four quest states and rewards survive actual disk roundtrip
+RESULT: 61 access checks passed, 0 failed; baseline=false

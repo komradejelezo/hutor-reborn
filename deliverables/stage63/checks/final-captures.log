@@ -1,0 +1,18 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+ACCESS storehouse/repair marker=(435.0, 437.0) path_cells=9
+PASS: connected floor and unobstructed E selection: repair
+ACCESS storehouse/dry_take marker=(350.0, 240.0) path_cells=40
+PASS: connected floor and unobstructed E selection: dry_take
+ACCESS inn/take_dishes marker=(300.0, 390.0) path_cells=29
+PASS: connected floor and unobstructed E selection: take_dishes
+ACCESS inn/deliver_dishes marker=(430.0, 270.0) path_cells=28
+PASS: connected floor and unobstructed E selection: deliver_dishes
+ACCESS inn/take_mug marker=(510.0, 420.0) path_cells=5
+PASS: connected floor and unobstructed E selection: take_mug
+ACCESS /collect_logs marker=(1805.0, 800.0) path_cells=24
+PASS: connected floor and unobstructed E selection: collect_logs
+RESULT: 6 access checks passed, 0 failed; baseline=true

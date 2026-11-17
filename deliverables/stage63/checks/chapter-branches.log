@@ -1,0 +1,153 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: real elder visit interrupts wife at evening, using original actor
+PASS: elder walks to exit and resumes daily simulation
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for pay
+PASS: conditioned answer present: pay
+PASS: paid lodging branch uses real original innkeeper
+PASS: live world object available: leave
+PASS: fixture finds a collision-free position with actual sensor focus: leave
+PASS: existing dialogue open for leave_end
+PASS: conditioned answer present: leave_end
+PASS: southern road has real independent departure ending
+PASS: departure checkpoint can restore decision
+PASS: departure ending does not contaminate checkpoint
+PASS: same original resident present: elder
+PASS: existing dialogue open for axe_elder
+PASS: conditioned answer present: axe_elder
+PASS: alternate axe dialogue preserves next quest: elder
+PASS: same original resident present: herbalist_brother
+PASS: existing dialogue open for axe_brother
+PASS: conditioned answer present: axe_brother
+PASS: alternate axe dialogue preserves next quest: herbalist_brother
+PASS: original old man stays by pine for evening story meeting
+PASS: existing dialogue open for warning
+PASS: conditioned answer present: warning
+PASS: old man really walks home after story, no visible teleport
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for approach_alone
+PASS: conditioned answer present: approach_alone
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: correct physical companion branch: alone
+PASS: live world object available: floor_cache
+PASS: fixture finds a collision-free position with actual sensor focus: floor_cache
+PASS: sensor can select actual reachable story object: floor_cache
+PASS: existing dialogue open for floor_cache
+PASS: conditioned answer present: floor_cache
+PASS: live world object available: cabinet
+PASS: fixture finds a collision-free position with actual sensor focus: cabinet
+PASS: sensor can select actual reachable story object: cabinet
+PASS: existing dialogue open for cabinet
+PASS: conditioned answer present: cabinet
+PASS: every house approach reaches diary: alone
+PASS: live world object available: house_exit
+PASS: fixture finds a collision-free position with actual sensor focus: house_exit
+PASS: sensor can select actual reachable story object: house_exit
+PASS: existing dialogue open for exit_location
+PASS: conditioned answer present: exit_location
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: re-entry never repeats relationship consequence: alone
+PASS: same original resident present: elder
+PASS: existing dialogue open for approach_elder
+PASS: conditioned answer present: approach_elder
+PASS: live world object available: official_copy
+PASS: fixture finds a collision-free position with actual sensor focus: official_copy
+PASS: sensor can select actual reachable story object: official_copy
+PASS: existing dialogue open for official_copy
+PASS: conditioned answer present: official_copy
+PASS: reporting to elder opens actual archive document route
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: correct physical companion branch: elder
+PASS: live world object available: floor_cache
+PASS: fixture finds a collision-free position with actual sensor focus: floor_cache
+PASS: sensor can select actual reachable story object: floor_cache
+PASS: existing dialogue open for floor_cache
+PASS: conditioned answer present: floor_cache
+PASS: live world object available: cabinet
+PASS: fixture finds a collision-free position with actual sensor focus: cabinet
+PASS: sensor can select actual reachable story object: cabinet
+PASS: existing dialogue open for cabinet
+PASS: conditioned answer present: cabinet
+PASS: every house approach reaches diary: elder
+PASS: live world object available: house_exit
+PASS: fixture finds a collision-free position with actual sensor focus: house_exit
+PASS: sensor can select actual reachable story object: house_exit
+PASS: existing dialogue open for exit_location
+PASS: conditioned answer present: exit_location
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: re-entry never repeats relationship consequence: elder
+PASS: same original resident present: herbalist
+PASS: existing dialogue open for approach_herbalist
+PASS: conditioned answer present: approach_herbalist
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: correct physical companion branch: herbalist
+PASS: live world object available: floor_cache
+PASS: fixture finds a collision-free position with actual sensor focus: floor_cache
+PASS: sensor can select actual reachable story object: floor_cache
+PASS: existing dialogue open for floor_cache
+PASS: conditioned answer present: floor_cache
+PASS: live world object available: cabinet
+PASS: fixture finds a collision-free position with actual sensor focus: cabinet
+PASS: sensor can select actual reachable story object: cabinet
+PASS: existing dialogue open for cabinet
+PASS: conditioned answer present: cabinet
+PASS: every house approach reaches diary: herbalist
+PASS: live world object available: house_exit
+PASS: fixture finds a collision-free position with actual sensor focus: house_exit
+PASS: sensor can select actual reachable story object: house_exit
+PASS: existing dialogue open for exit_location
+PASS: conditioned answer present: exit_location
+PASS: live world object available: abandoned
+PASS: fixture finds a collision-free position with actual sensor focus: abandoned
+PASS: sensor can select actual reachable story object: abandoned
+PASS: existing dialogue open for go_house
+PASS: conditioned answer present: go_house
+PASS: re-entry never repeats relationship consequence: herbalist
+PASS: same original resident present: innkeeper
+PASS: existing dialogue open for bait_received
+PASS: conditioned answer present: bait_received
+PASS: live world object available: north
+PASS: fixture finds a collision-free position with actual sensor focus: north
+PASS: sensor can select actual reachable story object: north
+PASS: existing dialogue open for go_camp
+PASS: conditioned answer present: go_camp
+PASS: live world object available: wolves
+PASS: fixture finds a collision-free position with actual sensor focus: wolves
+PASS: sensor can select actual reachable story object: wolves
+PASS: existing dialogue open for bait
+PASS: conditioned answer present: bait
+PASS: actual bait item distracts physical guard
+PASS: same Hans and NPC session after combat adapter: victory
+PASS: story battle consequence: victory
+PASS: same Hans and NPC session after combat adapter: defeat
+PASS: story battle consequence: defeat
+PASS: same Hans and NPC session after combat adapter: retreated
+PASS: story battle consequence: retreated
+PASS: truncated save rejected
+PASS: corrupt load keeps live session intact
+PASS: payload checksum rejects accidental byte corruption
+PASS: branch fixtures never modify normal saves
+RESULT: 150 chapter branch/save checks passed, 0 failed

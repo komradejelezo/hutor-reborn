@@ -1,0 +1,18 @@
+NATIVE wait-near-innkeeper [434.164276123047, 211.42414855957]
+NATIVE click 
+NATIVE screenshot work-offered.png
+NATIVE dishes-approach [295.848541259766, 404.759979248047]
+NATIVE screenshot dishes-focus.png
+NATIVE click 
+NATIVE counter-approach [432.310913085938, 282.397735595703]
+NATIVE click 
+NATIVE screenshot dishes-delivered.png
+NATIVE return-innkeeper [443.625183105469, 220.078353881836]
+NATIVE click 
+NATIVE mug-approach [513.121765136719, 430.915466308594]
+NATIVE screenshot mug-focus.png
+NATIVE click 
+NATIVE screenshot journal.png
+NATIVE click 
+NATIVE screenshot save-restored.png
+NATIVE native-63-success 

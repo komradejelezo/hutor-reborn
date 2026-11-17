@@ -1,0 +1,47 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+PASS: valid separate configuration
+PASS: six scenarios / seven unit types
+PASS: initiative starts with fast wolf
+PASS: next initiative turn belongs to Hans
+PASS: invalid target consumes neither damage nor turn
+PASS: duplicate action rejected before advance
+PASS: front row shields enemy back
+PASS: back row exposed when front dies
+PASS: melee actor blocked behind own front row
+PASS: rear melee can fight after own front dies
+PASS: guard halves actual damage with same random roll
+PASS: guard activates
+PASS: guard persists during enemy turn
+PASS: guard expires at next own turn
+PASS: item heals up to max and consumes party charge
+PASS: empty supplies do not consume turn
+PASS: scenario-specific herbalist support
+PASS: healing cannot revive dead allies
+PASS: failed retreat spends turn but combat continues
+PASS: enemy gets initiative after failed retreat
+PASS: successful retreat freezes battle
+PASS: roots can target actual enemy
+PASS: roots skip exactly one enemy turn
+PASS: roots are single use
+PASS: raven reduces first incoming accuracy by25
+PASS: raven expires after two attempts
+PASS: spirit has distinct weakening action
+PASS: weakness reaches victim's next action
+PASS: weakness lasts two actions
+PASS: traitor changes side once and retains damage
+PASS: betrayal never duplicates a scheduled turn
+PASS: dead mercenary never resurrects or betrays
+PASS: enemy death produces terminal victory
+PASS: ally death produces terminal defeat
+PASS: battle-local seed reproduces complete fight
+PASS: fresh independent restart duel
+PASS: fresh independent restart ambush
+PASS: fresh independent restart companions
+PASS: fresh independent restart tincture
+PASS: fresh independent restart betrayal
+PASS: fresh independent restart forest
+PASS: all 300 seeded battles terminate through legal AI/player actions: 
+PASS: runtime fights leave source configuration untouched
+BALANCE { "duel": { "outcomes": { "victory": 50 }, "median_round": 3, "min": 3, "max": 5 }, "ambush": { "outcomes": { "victory": 50 }, "median_round": 8, "min": 6, "max": 10 }, "companions": { "outcomes": { "victory": 50 }, "median_round": 4, "min": 3, "max": 6 }, "tincture": { "outcomes": { "victory": 50 }, "median_round": 5, "min": 3, "max": 6 }, "betrayal": { "outcomes": { "victory": 48, "defeat": 2 }, "median_round": 7, "min": 4, "max": 13 }, "forest": { "outcomes": { "victory": 50 }, "median_round": 8, "min": 6, "max": 11 } }
+RESULT: 43 combat rules checks passed, 0 failed

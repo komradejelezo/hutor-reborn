@@ -92,7 +92,7 @@ func available(a:String) -> bool:
         "pine_symbol":return state.has("herbs_done") and not state.has(a)
         "finale":return state.has("diary_found") and not state.has("finale")
         "wheel":return state.has("toy_started") and not state.has("wheel_found")
-        "repair":return state.count("toy")>0 and state.count("wheel")>0
+        "repair":return state.has("toy_started") and not state.has("toy_done")
         "collect_logs":return state.has("wood_started") and not state.has("logs_taken")
         "deliver_logs":return state.count("logs")>=2
         "take_mug":return state.has("mug_started") and not state.has("mug_taken")
@@ -112,13 +112,20 @@ func interact(a:String) -> void:
         "sign":message="Кривая Сосна — 1 верста. Ниже, на коре: «Не ходи за деревьями после заката». Надпись свежая, а последняя буква дрожит.";options=[["sign","Запомнить предупреждение.","Трактир должен быть рядом. Надо спросить дорогу."]]
         "leave":message="Южная дорога свободна. Можно уйти, пока свет ещё держится в небе.";options=[["leave_end","Уйти из Кривой Сосны.","Ты выбираешь дорогу, а не чужую тайну."],["stay","Вернуться в деревню.","Сначала — ночлег. Утром решу."]]
         "sleep":
-            message="Тюфяк за печью. "+("Ночлег оплачен трудом или монетой." if state.has("lodging") else "Сначала нужно договориться с трактирщиком.")
+            message="Тюфяк у нижней стены, рядом с корзиной. "+("Ночлег оплачен трудом или монетой." if state.has("lodging") else "Сначала нужно договориться с трактирщиком.")
             if state.has("lodging"):options=[["sleep","Отдохнуть до утра.","Ганс закрывает глаза. За стеной шуршит лес."]]
         "wait":message="У печи тепло. Можно дождаться нужного времени.";options=[["wait_evening","Подождать до 17:30.","Вечер подходит к деревне."],["wait_night","Подождать до 22:15.","За окнами темнеет."]]
         "axe_found":message="На лезвии засохла чёрная смола. У обуха — три зарубки. Рукоять ещё пахнет дымом.";options=[[a,"Обернуть топор тканью и взять.","Находка убрана в сумку. Решить её судьбу можно через осмотр в инвентаре или разговор со старостой/братом травницы."]]
         "valerian","thyme","poison":
             message={"valerian":"Белые соцветия и резкий запах светлого корня. Совпадает с описанием травницы.","thyme":"Куст низкий, листья мелкие, пахнут дымом и мёдом. Похоже на чабрец.","poison":"Белый зонтик похож на валериану, но на стебле тёмные пятна. Травница предупреждала о таком растении."}[a]
             options=[[a,"Собрать растение.","Ганс осторожно срезает растение и кладёт отдельно от пищи."]]
+        "repair":
+            if state.count("fixed_toy")>0:message="Лошадка уже починена. Пора вернуть её мальчику."
+            elif state.count("toy")==0:message="Для ремонта нужна сломанная лошадка. Поговори с сыном дровосека."
+            elif state.count("wheel")==0:message="Не хватает колеса. Оно укатилось к колодцу; больше ничего приносить не нужно."
+            else:
+                message="Лошадка и колесо на месте. На верстаке есть деревянный штифт — других материалов не нужно."
+                options=[[a,"Закрепить колесо деревянным штифтом.","Колесо держится и свободно крутится. Теперь можно вернуть лошадку мальчику."]]
         "north":message="За северной тропой лежит овраг и старые лесозаготовки.";options=[["go_camp","Продолжить по тропе.","Под ногами становятся видны глубокие следы телеги."]]
         "camp_exit":message="Дорога обратно в деревню ещё видна.";options=[["exit_location","Вернуться в хутор.","Ганс оставляет за спиной тихую вырубку."]]
         "house_exit":message="Дверь ведёт во двор.";options=[["exit_location","Выйти.","Ночной воздух кажется теплее, чем воздух в доме."]]
@@ -168,7 +175,13 @@ func talk(speaker:String,text:String,options:Array,id:String="") -> void:
     var choices:Array=[];var nodes:Array=[]
     for i in options.size():
         var o:Array=options[i];choices.append({"id":o[0],"text":o[1],"next":"reply_"+str(i)})
-        nodes.append({"id":"reply_"+str(i),"speaker":speaker,"text":o[2],"portrait":portrait,"portraits":portraits,"emotion":"anxious" if id!="" else "neutral","end":true})
+        var replies:Array=o[2] if o[2] is Array else [o[2]]
+        for j in replies.size():
+            var key:String="reply_"+str(i)+( "_"+str(j) if j>0 else "")
+            var node:Dictionary={"id":key,"speaker":speaker,"text":replies[j],"portrait":portrait,"portraits":portraits,"emotion":"anxious" if id!="" else "neutral"}
+            if j==replies.size()-1:node["end"]=true
+            else:node["next"]="reply_"+str(i)+"_"+str(j+1)
+            nodes.append(node)
     choices.append({"id":"close","text":"На этом всё.","end":true})
     nodes.push_front({"id":"start","speaker":speaker,"text":text,"portrait":portrait,"portraits":portraits,"emotion":"neutral","choices":choices})
     var data:=HutorDialogueData.from_dictionary({"id":"chapter_i","start":"start","nodes":nodes})
@@ -278,7 +291,7 @@ func load_game(test:bool=false,slot:String="manual") -> bool:
     if value.location!="":
         _go(StringName(value.location))
         while travel.busy:await get_tree().process_frame
-    travel.active_world.player.position=value.position;travel.active_world.player.facing=value.facing
+    travel.active_world.player.position=travel.active_world.get_node("ChapterWorld").saved_floor_position(value.position);travel.active_world.player.facing=value.facing
     travel.active_world.player.get_node("Camera2D").reset_smoothing();busy=false;life.clock.running=true;state.changed.emit();ui.notice("Сохранение загружено.");return true
 func start_encounter() -> void:
     busy=true;release_all();life.before_scene_change();_battle_world=travel.active_world;_battle_clock=life.clock.running;life.clock.running=false

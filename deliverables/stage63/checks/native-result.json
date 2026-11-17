@@ -1,0 +1,223 @@
+{
+  "success": true,
+  "checks": [
+    "normal-new-game",
+    "WASD-village-to-inn",
+    "real-door",
+    "real-innkeeper-work-offer",
+    "dishes-pickup-and-counter-E",
+    "cup-task-and-pickup-E",
+    "journal",
+    "F5-F9-progress"
+  ],
+  "final": {
+    "active": true,
+    "busy": false,
+    "buttons": [],
+    "clock": 1259.30093919996,
+    "dialogue": false,
+    "doors": {},
+    "entry": [
+      480.0,
+      434.0
+    ],
+    "flags": {
+      "dishes_delivered": true,
+      "dishes_taken": true,
+      "inn_work": true,
+      "mug_started": true,
+      "mug_taken": true
+    },
+    "hero_id": 1500940087280.0,
+    "items": {
+      "mug": 1
+    },
+    "line": "reply_0",
+    "locked": false,
+    "normal_digest": "6f00119623b4a619fd4e47fe65924593b961451fe22c6d062892103d9f941cc4",
+    "overlay": false,
+    "phase": 0.0,
+    "position": [
+      513.121765136719,
+      430.915466308594
+    ],
+    "residents": {
+      "elder": {
+        "position": [
+          1288.0,
+          1224.0
+        ],
+        "present": false,
+        "scene": "elder"
+      },
+      "herbalist": {
+        "position": [
+          1720.0,
+          1656.0
+        ],
+        "present": false,
+        "scene": "herbalist"
+      },
+      "herbalist_brother": {
+        "position": [
+          1768.0,
+          1672.0
+        ],
+        "present": false,
+        "scene": "herbalist"
+      },
+      "innkeeper": {
+        "position": [
+          424.0,
+          223.13346862793
+        ],
+        "present": true,
+        "scene": "inn"
+      },
+      "innkeeper_wife": {
+        "position": [
+          632.0,
+          376.0
+        ],
+        "present": true,
+        "scene": "inn"
+      },
+      "old_man": {
+        "position": [
+          632.0,
+          1032.0
+        ],
+        "present": false,
+        "scene": "old_man"
+      },
+      "woodcutter": {
+        "position": [
+          1416.0,
+          2408.0
+        ],
+        "present": false,
+        "scene": "woodcutter"
+      },
+      "woodcutter_son": {
+        "position": [
+          1688.0,
+          888.0
+        ],
+        "present": false,
+        "scene": "woodcutter"
+      },
+      "woodcutter_wife": {
+        "position": [
+          1736.0,
+          888.0
+        ],
+        "present": false,
+        "scene": "woodcutter"
+      }
+    },
+    "route": {
+      "points": [
+        [
+          443.625183105469,
+          220.078353881836
+        ],
+        [
+          456.0,
+          232.0
+        ],
+        [
+          472.0,
+          232.0
+        ],
+        [
+          488.0,
+          232.0
+        ],
+        [
+          504.0,
+          232.0
+        ],
+        [
+          520.0,
+          232.0
+        ],
+        [
+          536.0,
+          232.0
+        ],
+        [
+          552.0,
+          232.0
+        ],
+        [
+          552.0,
+          248.0
+        ],
+        [
+          552.0,
+          264.0
+        ],
+        [
+          552.0,
+          280.0
+        ],
+        [
+          552.0,
+          296.0
+        ],
+        [
+          552.0,
+          312.0
+        ],
+        [
+          552.0,
+          328.0
+        ],
+        [
+          552.0,
+          344.0
+        ],
+        [
+          552.0,
+          360.0
+        ],
+        [
+          552.0,
+          376.0
+        ],
+        [
+          552.0,
+          392.0
+        ],
+        [
+          552.0,
+          408.0
+        ],
+        [
+          552.0,
+          424.0
+        ],
+        [
+          536.0,
+          424.0
+        ],
+        [
+          520.0,
+          424.0
+        ],
+        [
+          510.0,
+          436.0
+        ]
+      ],
+      "sequence": 1794920401150
+    },
+    "scene": "res://scenes/interiors/inn.tscn",
+    "stage": 0.0,
+    "target": "Выйти на улицу",
+    "test": false,
+    "tick": 6240.0,
+    "typing": false,
+    "world": "inn"
+  }
+}

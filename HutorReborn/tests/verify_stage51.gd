@@ -44,6 +44,8 @@ func run() -> void:
                     reachable(room,value,id+" schedule "+resident_id+"/"+action.id)
         var shadow_count:=0
         for item in room.get_node("Actors/Props").get_children():
+            # Later NPC work props are Sprite2D children, not furniture scenes.
+            if not item.has_node("Art") or not item.has_node("Solid/Feet"):continue
             var sprite: Sprite2D=item.get_node("Art")
             check(is_equal_approx(sprite.scale.x,sprite.scale.y),id+" proportional "+String(item.name))
             var feet: CollisionShape2D=item.get_node("Solid/Feet")

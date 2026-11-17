@@ -1,0 +1,4 @@
+PASS: only the six required production files and two regression fixtures changed; no deletions
+PASS: original graphics, Hans, all NPCs/schedules, five rooms, village, travel, dialogue engine and combat preserved
+PASS: no fixture override, caches, conflict markers, duplicate functions or missing inn resources
+RESULT: 3 source/integrity groups passed

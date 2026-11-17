@@ -25,10 +25,10 @@ static func apply(s:RefCounted,a:String) -> Dictionary:
                 s.choose("lodging","work");s.mark("lodging");s.relate("innkeeper",1)
             "take_dishes":
                 if not s.has("inn_work"):return {"ok":false}
-                s.reward("dishes_taken","dishes")
+                if s.reward("dishes_taken","dishes"):s.journal.append("Грязная посуда собрана. Отнести её к кухонной стойке, затем поговорить с трактирщиком.")
             "deliver_dishes":
                 if not s.has("dishes_taken") or not s.take("dishes"):return {"ok":false}
-                s.mark("dishes_delivered")
+                s.mark("dishes_delivered","Посуда отнесена к стойке. Трактирщик обещал ночлег за работу.")
             "axe_found":
                 if s.reward(a,"axe"):s.clue("resin","Чёрная смола на топоре Мирона. На обухе три зарубки.")
             "herbs_started":
@@ -61,10 +61,11 @@ static func apply(s:RefCounted,a:String) -> Dictionary:
             "toy_started":
                 if s.reward(a,"toy"):s.relate("woodcutter_son",1)
             "wheel":
-                if s.has("toy_started"):s.reward("wheel_found","wheel")
+                if s.has("toy_started") and s.reward("wheel_found","wheel"):s.journal.append("Колесо найдено у колодца. На складе можно починить лошадку: иных материалов не нужно.")
             "repair":
                 if s.count("toy")>0 and s.count("wheel")>0:
                     s.take("toy");s.take("wheel");s.give("fixed_toy")
+                    s.journal.append("Лошадка починена. Осталось вернуть её сыну дровосека.")
                 else:return {"ok":false}
             "toy_done":
                 if s.count("fixed_toy")==0 or s.has(a):return {"ok":false}
@@ -72,15 +73,15 @@ static func apply(s:RefCounted,a:String) -> Dictionary:
                 s.clue("boy_night","Мальчик видел Мирона лицом к стене пустого дома.")
             "collect_logs":
                 if not s.has("wood_started"):return {"ok":false}
-                s.reward("logs_taken","logs",2)
+                if s.reward("logs_taken","logs",2):s.journal.append("Из дворовой поленницы взяты две связки дров. Отнести их к печи в доме дровосека.")
             "deliver_logs":
                 if s.count("logs")<2:return {"ok":false}
-                s.take("logs",2);s.mark("wood_delivered")
+                s.take("logs",2);s.mark("wood_delivered","Обе связки сложены у печи. Нужно сообщить жене дровосека.")
             "wood_done":
                 if not s.has("wood_delivered") or not s.reward(a,"",1,"woodcutter_wife"):return {"ok":false}
                 s.money+=2;s.clue("husband","Дровосек по ночам ждёт кого-то у северной тропы.")
             "take_mug":
-                if s.has("mug_started"):s.reward("mug_taken","mug")
+                if s.has("mug_started") and s.reward("mug_taken","mug"):s.journal.append("На забытой кружке вырезана буква М. Показать её брату травницы.")
             "mug_owner":
                 if s.count("mug")==0:return {"ok":false}
                 s.mark(a);s.clue(a,"Кружка принадлежала Мирону: он не собирался уезжать.")
