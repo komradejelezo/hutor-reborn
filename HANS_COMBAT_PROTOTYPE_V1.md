@@ -130,4 +130,4 @@ python3 -B HutorReborn/tests/verify_hans_combat_sources.py --archive /path/Hans_
 - `tests/verify_hans_combat_prototype.gd`, `tests/verify_hans_combat_sources.py` и Godot UID-файлы.
 - Этот отчёт и `deliverables/hans-combat-prototype-v1/`.
 
-Существующие игровые файлы не изменены и не удалены. PR будет создан в `main`, ссылка добавляется после публикации. Автоматическое объединение не выполняется.
+Существующие игровые файлы не изменены и не удалены. PR в `main`: [#37](https://github.com/komradejelezo/hutor-reborn/pull/37). Автоматическое объединение не выполняется.
