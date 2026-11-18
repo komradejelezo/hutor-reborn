@@ -1,0 +1,291 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: configure existing actor hans
+PASS: nearest hans
+PASS: curated frame order hans/idle
+PASS: one shot except idle hans/idle
+PASS: timing hans/idle
+PASS: visible source fits combat stage: attack_11.png
+PASS: visible source fits combat stage: attack_12.png
+PASS: visible source fits combat stage: attack_01.png
+PASS: curated frame order hans/attack
+PASS: one shot except idle hans/attack
+PASS: timing hans/attack
+PASS: visible source fits combat stage: attack_01.png
+PASS: visible source fits combat stage: attack_02.png
+PASS: visible source fits combat stage: attack_03.png
+PASS: visible source fits combat stage: attack_04.png
+PASS: visible source fits combat stage: attack_05.png
+PASS: visible source fits combat stage: attack_06.png
+PASS: visible source fits combat stage: attack_07.png
+PASS: visible source fits combat stage: attack_08.png
+PASS: visible source fits combat stage: attack_09.png
+PASS: visible source fits combat stage: attack_10.png
+PASS: visible source fits combat stage: attack_11.png
+PASS: visible source fits combat stage: attack_12.png
+PASS: curated frame order hans/hit
+PASS: one shot except idle hans/hit
+PASS: timing hans/hit
+PASS: visible source fits combat stage: hit_01.png
+PASS: visible source fits combat stage: hit_02.png
+PASS: visible source fits combat stage: hit_03.png
+PASS: visible source fits combat stage: hit_04.png
+PASS: visible source fits combat stage: hit_05.png
+PASS: visible source fits combat stage: hit_06.png
+PASS: visible source fits combat stage: hit_07.png
+PASS: visible source fits combat stage: hit_08.png
+PASS: curated frame order hans/victory
+PASS: one shot except idle hans/victory
+PASS: timing hans/victory
+PASS: visible source fits combat stage: victory_01.png
+PASS: visible source fits combat stage: victory_02.png
+PASS: visible source fits combat stage: victory_03.png
+PASS: visible source fits combat stage: victory_04.png
+PASS: visible source fits combat stage: victory_05.png
+PASS: visible source fits combat stage: victory_06.png
+PASS: visible source fits combat stage: victory_07.png
+PASS: visible source fits combat stage: victory_08.png
+PASS: visible source fits combat stage: victory_11.png
+PASS: visible source fits combat stage: victory_12.png
+PASS: curated frame order hans/death
+PASS: one shot except idle hans/death
+PASS: timing hans/death
+PASS: visible source fits combat stage: death_01.png
+PASS: visible source fits combat stage: death_02.png
+PASS: visible source fits combat stage: death_03.png
+PASS: visible source fits combat stage: death_04.png
+PASS: visible source fits combat stage: death_05.png
+PASS: visible source fits combat stage: death_06.png
+PASS: visible source fits combat stage: death_07.png
+PASS: visible source fits combat stage: death_08.png
+PASS: visible source fits combat stage: death_09.png
+PASS: visible source fits combat stage: death_10.png
+PASS: visible source fits combat stage: death_11.png
+PASS: visible source fits combat stage: death_12.png
+PASS: visible source fits combat stage: death_13.png
+PASS: visible source fits combat stage: death_14.png
+PASS: visible source fits combat stage: death_15.png
+PASS: visible source fits combat stage: death_16.png
+PASS: curated frame order hans/use_invoke
+PASS: one shot except idle hans/use_invoke
+PASS: timing hans/use_invoke
+PASS: visible source fits combat stage: use_01.png
+PASS: visible source fits combat stage: use_02.png
+PASS: visible source fits combat stage: use_03.png
+PASS: visible source fits combat stage: use_04.png
+PASS: visible source fits combat stage: use_05.png
+PASS: visible source fits combat stage: use_06.png
+PASS: visible source fits combat stage: use_07.png
+PASS: visible source fits combat stage: use_08.png
+PASS: visible source fits combat stage: use_09.png
+PASS: visible source fits combat stage: use_10.png
+PASS: visible source fits combat stage: use_11.png
+PASS: visible source fits combat stage: use_12.png
+PASS: visible source fits combat stage: use_13.png
+PASS: visible source fits combat stage: use_14.png
+PASS: visible source fits combat stage: use_15.png
+PASS: visible source fits combat stage: use_16.png
+PASS: curated frame order hans/dodge
+PASS: one shot except idle hans/dodge
+PASS: timing hans/dodge
+PASS: visible source fits combat stage: dodge_01.png
+PASS: visible source fits combat stage: dodge_02.png
+PASS: visible source fits combat stage: dodge_03.png
+PASS: visible source fits combat stage: dodge_04.png
+PASS: visible source fits combat stage: dodge_05.png
+PASS: visible source fits combat stage: dodge_06.png
+PASS: visible source fits combat stage: dodge_07.png
+PASS: visible source fits combat stage: dodge_08.png
+PASS: visible source fits combat stage: dodge_09.png
+PASS: visible source fits combat stage: dodge_10.png
+PASS: visible source fits combat stage: dodge_11.png
+PASS: visible source fits combat stage: dodge_12.png
+PASS: uniform fixed calibration hans/attack
+PASS: action returns to idle hans/attack
+PASS: uniform fixed calibration hans/hit
+PASS: action returns to idle hans/hit
+PASS: uniform fixed calibration hans/dodge
+PASS: action returns to idle hans/dodge
+PASS: uniform fixed calibration hans/victory
+PASS: action returns to idle hans/victory
+PASS: uniform fixed calibration hans/use_invoke
+PASS: action returns to idle hans/use_invoke
+PASS: death holds final frame hans
+PASS: refresh cannot resurrect or repeat death hans
+PASS: configure existing actor wolf
+PASS: nearest wolf
+PASS: curated frame order wolf/idle
+PASS: one shot except idle wolf/idle
+PASS: timing wolf/idle
+PASS: visible source fits combat stage: wolf_idle_01.png
+PASS: visible source fits combat stage: wolf_idle_02.png
+PASS: visible source fits combat stage: wolf_idle_03.png
+PASS: visible source fits combat stage: wolf_idle_04.png
+PASS: visible source fits combat stage: wolf_idle_05.png
+PASS: visible source fits combat stage: wolf_idle_06.png
+PASS: visible source fits combat stage: wolf_idle_07.png
+PASS: visible source fits combat stage: wolf_idle_08.png
+PASS: visible source fits combat stage: wolf_idle_09.png
+PASS: visible source fits combat stage: wolf_idle_10.png
+PASS: visible source fits combat stage: wolf_idle_11.png
+PASS: visible source fits combat stage: wolf_idle_12.png
+PASS: visible source fits combat stage: wolf_idle_13.png
+PASS: visible source fits combat stage: wolf_idle_14.png
+PASS: visible source fits combat stage: wolf_idle_15.png
+PASS: visible source fits combat stage: wolf_idle_16.png
+PASS: visible source fits combat stage: wolf_idle_17.png
+PASS: visible source fits combat stage: wolf_idle_18.png
+PASS: visible source fits combat stage: wolf_idle_19.png
+PASS: visible source fits combat stage: wolf_idle_20.png
+PASS: visible source fits combat stage: wolf_idle_21.png
+PASS: visible source fits combat stage: wolf_idle_22.png
+PASS: visible source fits combat stage: wolf_idle_23.png
+PASS: visible source fits combat stage: wolf_idle_24.png
+PASS: curated frame order wolf/attack
+PASS: one shot except idle wolf/attack
+PASS: timing wolf/attack
+PASS: visible source fits combat stage: wolf_attack_01.png
+PASS: visible source fits combat stage: wolf_attack_02.png
+PASS: visible source fits combat stage: wolf_attack_03.png
+PASS: visible source fits combat stage: wolf_attack_04.png
+PASS: visible source fits combat stage: wolf_attack_05.png
+PASS: visible source fits combat stage: wolf_attack_06.png
+PASS: visible source fits combat stage: wolf_attack_07.png
+PASS: visible source fits combat stage: wolf_attack_08.png
+PASS: visible source fits combat stage: wolf_attack_09.png
+PASS: visible source fits combat stage: wolf_attack_10.png
+PASS: visible source fits combat stage: wolf_attack_22.png
+PASS: visible source fits combat stage: wolf_attack_23.png
+PASS: visible source fits combat stage: wolf_attack_24.png
+PASS: curated frame order wolf/death
+PASS: one shot except idle wolf/death
+PASS: timing wolf/death
+PASS: visible source fits combat stage: wolf_death_01.png
+PASS: visible source fits combat stage: wolf_death_02.png
+PASS: visible source fits combat stage: wolf_death_03.png
+PASS: visible source fits combat stage: wolf_death_04.png
+PASS: visible source fits combat stage: wolf_death_05.png
+PASS: visible source fits combat stage: wolf_death_06.png
+PASS: visible source fits combat stage: wolf_death_07.png
+PASS: visible source fits combat stage: wolf_death_08.png
+PASS: visible source fits combat stage: wolf_death_09.png
+PASS: visible source fits combat stage: wolf_death_10.png
+PASS: visible source fits combat stage: wolf_death_11.png
+PASS: visible source fits combat stage: wolf_death_12.png
+PASS: visible source fits combat stage: wolf_death_13.png
+PASS: visible source fits combat stage: wolf_death_14.png
+PASS: visible source fits combat stage: wolf_death_15.png
+PASS: visible source fits combat stage: wolf_death_16.png
+PASS: visible source fits combat stage: wolf_death_17.png
+PASS: visible source fits combat stage: wolf_death_18.png
+PASS: visible source fits combat stage: wolf_death_19.png
+PASS: visible source fits combat stage: wolf_death_20.png
+PASS: visible source fits combat stage: wolf_death_21.png
+PASS: visible source fits combat stage: wolf_death_22.png
+PASS: visible source fits combat stage: wolf_death_23.png
+PASS: visible source fits combat stage: wolf_death_24.png
+PASS: uniform fixed calibration wolf/attack
+PASS: action returns to idle wolf/attack
+PASS: missing optional clip safe fallback wolf/hit
+PASS: missing optional clip safe fallback wolf/dodge
+PASS: missing optional clip safe fallback wolf/victory
+PASS: missing optional clip safe fallback wolf/use_invoke
+PASS: death holds final frame wolf
+PASS: refresh cannot resurrect or repeat death wolf
+PASS: configure existing actor beast
+PASS: nearest beast
+PASS: curated frame order leshy/idle
+PASS: one shot except idle leshy/idle
+PASS: timing leshy/idle
+PASS: visible source fits combat stage: leshy_attack_01.png
+PASS: visible source fits combat stage: leshy_attack_02.png
+PASS: visible source fits combat stage: leshy_attack_03.png
+PASS: visible source fits combat stage: leshy_attack_04.png
+PASS: visible source fits combat stage: leshy_attack_05.png
+PASS: visible source fits combat stage: leshy_attack_06.png
+PASS: curated frame order leshy/attack
+PASS: one shot except idle leshy/attack
+PASS: timing leshy/attack
+PASS: visible source fits combat stage: leshy_attack_01.png
+PASS: visible source fits combat stage: leshy_attack_02.png
+PASS: visible source fits combat stage: leshy_attack_03.png
+PASS: visible source fits combat stage: leshy_attack_04.png
+PASS: visible source fits combat stage: leshy_attack_05.png
+PASS: visible source fits combat stage: leshy_attack_06.png
+PASS: visible source fits combat stage: leshy_attack_07.png
+PASS: visible source fits combat stage: leshy_attack_08.png
+PASS: visible source fits combat stage: leshy_attack_09.png
+PASS: visible source fits combat stage: leshy_attack_10.png
+PASS: visible source fits combat stage: leshy_attack_11.png
+PASS: visible source fits combat stage: leshy_attack_12.png
+PASS: visible source fits combat stage: leshy_attack_13.png
+PASS: visible source fits combat stage: leshy_attack_14.png
+PASS: visible source fits combat stage: leshy_attack_15.png
+PASS: visible source fits combat stage: leshy_attack_16.png
+PASS: visible source fits combat stage: leshy_attack_17.png
+PASS: visible source fits combat stage: leshy_attack_18.png
+PASS: visible source fits combat stage: leshy_attack_19.png
+PASS: visible source fits combat stage: leshy_attack_20.png
+PASS: visible source fits combat stage: leshy_attack_21.png
+PASS: visible source fits combat stage: leshy_attack_22.png
+PASS: visible source fits combat stage: leshy_attack_23.png
+PASS: visible source fits combat stage: leshy_attack_24.png
+PASS: curated frame order leshy/death
+PASS: one shot except idle leshy/death
+PASS: timing leshy/death
+PASS: visible source fits combat stage: leshy_death_01.png
+PASS: visible source fits combat stage: leshy_death_02.png
+PASS: visible source fits combat stage: leshy_death_03.png
+PASS: visible source fits combat stage: leshy_death_04.png
+PASS: visible source fits combat stage: leshy_death_05.png
+PASS: visible source fits combat stage: leshy_death_06.png
+PASS: visible source fits combat stage: leshy_death_07.png
+PASS: visible source fits combat stage: leshy_death_08.png
+PASS: visible source fits combat stage: leshy_death_09.png
+PASS: visible source fits combat stage: leshy_death_10.png
+PASS: visible source fits combat stage: leshy_death_11.png
+PASS: visible source fits combat stage: leshy_death_12.png
+PASS: visible source fits combat stage: leshy_death_13.png
+PASS: visible source fits combat stage: leshy_death_14.png
+PASS: visible source fits combat stage: leshy_death_15.png
+PASS: visible source fits combat stage: leshy_death_16.png
+PASS: visible source fits combat stage: leshy_death_17.png
+PASS: visible source fits combat stage: leshy_death_18.png
+PASS: visible source fits combat stage: leshy_death_19.png
+PASS: visible source fits combat stage: leshy_death_20.png
+PASS: visible source fits combat stage: leshy_death_21.png
+PASS: visible source fits combat stage: leshy_death_22.png
+PASS: visible source fits combat stage: leshy_death_23.png
+PASS: visible source fits combat stage: leshy_death_24.png
+PASS: uniform fixed calibration leshy/attack
+PASS: action returns to idle leshy/attack
+PASS: missing optional clip safe fallback leshy/hit
+PASS: missing optional clip safe fallback leshy/dodge
+PASS: missing optional clip safe fallback leshy/victory
+PASS: missing optional clip safe fallback leshy/use_invoke
+PASS: death holds final frame leshy
+PASS: refresh cannot resurrect or repeat death leshy
+PASS: missing resource preserves original sprite fallback
+PASS: ordinary arena uses new actors
+PASS: unchanged immediate math; HP display deferred to key frame
+PASS: next phase locked before impact
+PASS: damage popup/HP/death start together
+PASS: Hans impact aligns with sword key frame
+PASS: wait for death/recovery before result
+PASS: death final pose persists through result
+PASS: Victory plays once before result
+PASS: canonical leshy uses existing beast ID and stats
+PASS: restart cancels old key frame without mutating new fight
+PASS: actual enemy turn reaches one impact: wolf_a
+PASS: enemy impact aligns with bite/magic frame: wolf_a
+PASS: enemy HP presentation synchronized: wolf_a
+PASS: green VFX belongs only to leshy: wolf_a
+PASS: actual enemy turn reaches one impact: beast
+PASS: enemy impact aligns with bite/magic frame: beast
+PASS: enemy HP presentation synchronized: beast
+PASS: green VFX belongs only to leshy: beast
+PASS: item uses generic Invoke and defers HP until key frame
+PASS: item emits one presentation key frame
+PASS: healing synchronized with Invoke key frame
+PASS: F6 review contains exactly three existing actor models
+RESULT: 288 animation pack checks passed, 0 failed

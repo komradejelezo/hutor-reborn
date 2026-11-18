@@ -7,7 +7,9 @@ const STYLE=preload("res://scripts/combat/ui/style.gd")
 const EFFECTS=preload("res://scripts/combat/ui/combat_effects.gd")
 const VIEW=preload("res://scenes/combat/CombatantView.tscn")
 const MENU="res://scenes/menu/MainMenu.tscn"
+signal animation_keyframe(event:Dictionary)
 signal delay_finished
+var _impact_audio:AudioStreamPlayer
 var _timer:Timer
 var catalog:RefCounted
 var battle:RefCounted
@@ -29,6 +31,7 @@ var events_log:Array[String]=[]
 func _ready() -> void:
     preload("res://scripts/input_setup.gd").ensure_actions()
     _timer=Timer.new();_timer.one_shot=true;add_child(_timer);_timer.timeout.connect(func():delay_finished.emit())
+    _impact_audio=AudioStreamPlayer.new();_impact_audio.volume_db=-26;add_child(_impact_audio)
     theme=STYLE.theme();STYLE.background(self);catalog=CATALOG.new()
     STYLE.label(self,"Испытание боем",Vector2(22,12),Vector2(380,35),25,true)
     round_label=STYLE.label(self,"",Vector2(416,18),Vector2(170,28),13)
@@ -156,7 +159,12 @@ func _perform(action:String,target:String) -> void:
     if _valid(token):_drive(token)
 func _drive(token:int) -> void:
     while _valid(token):
-        if battle.result!="":busy=false;_render();_result();return
+        if battle.result!="":
+            if battle.result=="victory" and views.has("hans") and battle.units.hans.alive() and views.hans.animation:
+                var victory_time:float=views.hans.animation.play("victory",_speed())
+                if victory_time>0:await _wait(victory_time)
+                if not _valid(token):return
+            busy=false;_render();_result();return
         busy=true
         var events:Array=battle.advance()
         await _play(events,token)
@@ -174,28 +182,62 @@ func _drive(token:int) -> void:
 func _play(events:Array,token:int) -> void:
     for e in events:
         if not _valid(token):return
-        _append(e.text)
-        var duration:=.32/_speed();var target:Button=views.get(e.get("target",""))
+        var rate:=_speed();var duration:=.32/rate
+        var target:Button=views.get(e.get("target",""))
+        if target and e.type in ["attack","heal"]:target.health_staged=true
         if e.type=="attack":
             var attacker:Button=views.get(e.actor)
-            if attacker:EFFECTS.strike(attacker,1 if attacker.unit.team==0 else -1,duration)
-            await _wait(duration)
+            var whole:=duration*2.2;var key:=duration
+            if attacker and attacker.animation:
+                whole=attacker.animation.play("attack",rate)
+                key=attacker.animation.key_time("attack",rate)
+            if whole<=0:whole=duration*2.2;key=duration
+            if attacker and not attacker.animation:EFFECTS.strike(attacker,1 if attacker.unit.team==0 else -1,duration)
+            if key>0:await _wait(key)
             if not _valid(token):return
-            _render()
+            _append(e.text)
+            var reaction:=0.0
             if target:
+                target.reveal_health()
                 EFFECTS.popup(target,("−"+str(e.damage)) if e.hit else "Промах",Color("e69270") if e.hit else Color("b9d6d5"),duration*2)
-                if e.hit:EFFECTS.hit(target,e.killed,duration)
-            await _wait(duration*1.2)
+                if target.animation:
+                    reaction=target.animation.play("death" if e.killed else "hit" if e.hit else "dodge",rate)
+                if e.hit and reaction<=0:EFFECTS.hit(target,e.killed,duration)
+            if attacker and attacker.animation and attacker.animation.kind=="leshy" and target:
+                var bolt:=preload("res://scripts/combat/animation/combat_magic.gd").new()
+                bolt.source=attacker.animation.socket()-global_position
+                bolt.destination=target.body.global_position-global_position+Vector2(0,-26)
+                bolt.lifetime=.22/rate;bolt.remaining=bolt.lifetime;bolt.set_meta("combat_transient",true);add_child(bolt)
+            _sound("leaves_1" if attacker and attacker.unit.kind in ["beast","wolf"] else "axe_1")
+            animation_keyframe.emit(e)
+            _render()
+            var tail:float=maxf(maxf(0,whole-key),reaction)
+            if tail>0:await _wait(minf(tail,4.0))
         elif e.type=="betray" and target:
-            EFFECTS.popup(target,"Предательство",Color("e5a76a"),duration*2)
+            _append(e.text);EFFECTS.popup(target,"Предательство",Color("e5a76a"),duration*2)
             var t:=create_tween();t.tween_property(target,"position",_slot(target.unit),duration*2.5).set_trans(Tween.TRANS_CUBIC)
             await _wait(duration*2.5)
         elif e.type in ["heal","guard","roots","raven","whisper"] and target:
+            var performer:Button=views.get(e.get("actor",battle.active))
+            var whole:=duration*1.5;var key:=0.0
+            if performer and performer.animation and e.type in ["heal","roots","raven"]:
+                whole=performer.animation.play("use_invoke",rate)
+                key=performer.animation.key_time("use_invoke",rate)
+            if key>0:await _wait(key)
+            if not _valid(token):return
+            _append(e.text);target.reveal_health()
             var word:String={"heal":"+"+str(e.get("amount",0)),"guard":"Защита","roots":"Корни","raven":"Ворон","whisper":"Ослаблен"}[e.type]
             EFFECTS.popup(target,word,Color("c5dca5"),duration*2)
             if e.type=="roots":EFFECTS.roots(target,duration*2)
-            _render();await _wait(duration*1.5)
+            if e.type in ["heal","roots","raven"]:_sound("leaves_2")
+            animation_keyframe.emit(e);_render()
+            if whole-key>0:await _wait(minf(whole-key,4.0))
+        else:_append(e.text)
         if not _valid(token):return
+func _sound(id:String) -> void:
+    var path:="res://assets/audio/ambient/"+id+".ogg"
+    if is_instance_valid(_impact_audio) and ResourceLoader.exists(path):
+        _impact_audio.stream=load(path);_impact_audio.play()
 func _result() -> void:
     var names:Dictionary={"victory":"Победа","defeat":"Поражение","retreated":"Удалось отступить","error":"Испытание остановлено"}
     hint_label.text="Сражение завершено. Можно начать заново или выбрать другое испытание."
@@ -219,6 +261,9 @@ func _wait(seconds:float) -> void:
     await delay_finished
 func _cancel() -> void:
     epoch+=1
+    if is_instance_valid(_impact_audio):_impact_audio.stop()
+    for child in get_children():
+        if child.has_meta("combat_transient"):child.queue_free()
     if is_instance_valid(_timer):_timer.stop()
     delay_finished.emit()
 func _exit_tree() -> void:_cancel()

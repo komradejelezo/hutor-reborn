@@ -1,0 +1,13 @@
+Hans/Idle ref-height 302 scale 1.0 first foot [233.5, 446] used 3
+Hans/Attack ref-height 300 scale 1.007 first foot [242.0, 446] used 12
+Hans/Hit ref-height 391 scale 0.772 first foot [272.0, 446] used 8
+Hans/Victory ref-height 304 scale 0.993 first foot [141.0, 399] used 10
+Hans/Death ref-height 281 scale 1.075 first foot [234.0, 365] used 16
+Wolf/Idle ref-height 148 scale 1.0 first foot [246.5, 189] used 24
+Wolf/Attack ref-height 159 scale 0.931 first foot [168.5, 165] used 13
+Wolf/Death ref-height 156 scale 0.949 first foot [223.5, 207] used 24
+Leshy/Idle ref-height 173 scale 1.0 first foot [200.5, 214] used 6
+Leshy/Attack ref-height 173 scale 1.0 first foot [200.5, 214] used 24
+Leshy/Death ref-height 171 scale 1.012 first foot [187.0, 227] used 24
+Hans/Use_Invoke ref-height 300 scale 1.007 first foot [160.5, 344] used 16
+Hans/Dodge ref-height 352 scale 0.858 first foot [172.5, 351] used 12

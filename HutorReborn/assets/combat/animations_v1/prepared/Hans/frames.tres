@@ -1,0 +1,595 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_11.png" id="frame_1"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_12.png" id="frame_2"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_01.png" id="frame_3"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_01.png" id="frame_4"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_02.png" id="frame_5"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_03.png" id="frame_6"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_04.png" id="frame_7"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_05.png" id="frame_8"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_06.png" id="frame_9"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_07.png" id="frame_10"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_08.png" id="frame_11"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_09.png" id="frame_12"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_10.png" id="frame_13"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_11.png" id="frame_14"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Attack/attack_12.png" id="frame_15"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_01.png" id="frame_16"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_02.png" id="frame_17"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_03.png" id="frame_18"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_04.png" id="frame_19"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_05.png" id="frame_20"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_06.png" id="frame_21"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_07.png" id="frame_22"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Hit/hit_08.png" id="frame_23"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_01.png" id="frame_24"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_02.png" id="frame_25"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_03.png" id="frame_26"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_04.png" id="frame_27"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_05.png" id="frame_28"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_06.png" id="frame_29"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_07.png" id="frame_30"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_08.png" id="frame_31"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_11.png" id="frame_32"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Victory/victory_12.png" id="frame_33"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_01.png" id="frame_34"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_02.png" id="frame_35"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_03.png" id="frame_36"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_04.png" id="frame_37"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_05.png" id="frame_38"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_06.png" id="frame_39"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_07.png" id="frame_40"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_08.png" id="frame_41"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_09.png" id="frame_42"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_10.png" id="frame_43"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_11.png" id="frame_44"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_12.png" id="frame_45"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_13.png" id="frame_46"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_14.png" id="frame_47"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_15.png" id="frame_48"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Death/death_16.png" id="frame_49"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_01.png" id="frame_50"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_02.png" id="frame_51"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_03.png" id="frame_52"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_04.png" id="frame_53"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_05.png" id="frame_54"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_06.png" id="frame_55"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_07.png" id="frame_56"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_08.png" id="frame_57"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_09.png" id="frame_58"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_10.png" id="frame_59"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_11.png" id="frame_60"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_12.png" id="frame_61"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_13.png" id="frame_62"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_14.png" id="frame_63"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_15.png" id="frame_64"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Use_Invoke/use_16.png" id="frame_65"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_01.png" id="frame_66"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_02.png" id="frame_67"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_03.png" id="frame_68"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_04.png" id="frame_69"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_05.png" id="frame_70"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_06.png" id="frame_71"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_07.png" id="frame_72"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_08.png" id="frame_73"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_09.png" id="frame_74"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_10.png" id="frame_75"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_11.png" id="frame_76"]
+[ext_resource type="Texture2D" path="res://assets/combat/animations_v1/prepared/Hans/Dodge/dodge_12.png" id="frame_77"]
+
+[sub_resource type="AtlasTexture" id="frame_1"]
+atlas = ExtResource("frame_1")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(366.5, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_2"]
+atlas = ExtResource("frame_2")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(366.5, 205, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_3"]
+atlas = ExtResource("frame_3")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(366.5, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_4"]
+atlas = ExtResource("frame_4")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_5"]
+atlas = ExtResource("frame_5")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_6"]
+atlas = ExtResource("frame_6")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_7"]
+atlas = ExtResource("frame_7")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_8"]
+atlas = ExtResource("frame_8")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_9"]
+atlas = ExtResource("frame_9")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_10"]
+atlas = ExtResource("frame_10")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_11"]
+atlas = ExtResource("frame_11")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_12"]
+atlas = ExtResource("frame_12")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_13"]
+atlas = ExtResource("frame_13")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_14"]
+atlas = ExtResource("frame_14")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 204, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_15"]
+atlas = ExtResource("frame_15")
+region = Rect2(0, 0, 440, 480)
+margin = Rect2(358.0, 205, 760, 320)
+
+[sub_resource type="AtlasTexture" id="frame_16"]
+atlas = ExtResource("frame_16")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 204, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_17"]
+atlas = ExtResource("frame_17")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 203, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_18"]
+atlas = ExtResource("frame_18")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 204, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_19"]
+atlas = ExtResource("frame_19")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 204, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_20"]
+atlas = ExtResource("frame_20")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 204, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_21"]
+atlas = ExtResource("frame_21")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 204, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_22"]
+atlas = ExtResource("frame_22")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 204, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_23"]
+atlas = ExtResource("frame_23")
+region = Rect2(0, 0, 520, 480)
+margin = Rect2(328.0, 203, 680, 320)
+
+[sub_resource type="AtlasTexture" id="frame_24"]
+atlas = ExtResource("frame_24")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 251, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_25"]
+atlas = ExtResource("frame_25")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 251, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_26"]
+atlas = ExtResource("frame_26")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 251, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_27"]
+atlas = ExtResource("frame_27")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 251, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_28"]
+atlas = ExtResource("frame_28")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 251, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_29"]
+atlas = ExtResource("frame_29")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 250, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_30"]
+atlas = ExtResource("frame_30")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 250, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_31"]
+atlas = ExtResource("frame_31")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 251, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_32"]
+atlas = ExtResource("frame_32")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 279, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_33"]
+atlas = ExtResource("frame_33")
+region = Rect2(0, 0, 224, 444)
+margin = Rect2(459.0, 279, 976, 356)
+
+[sub_resource type="AtlasTexture" id="frame_34"]
+atlas = ExtResource("frame_34")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_35"]
+atlas = ExtResource("frame_35")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_36"]
+atlas = ExtResource("frame_36")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_37"]
+atlas = ExtResource("frame_37")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_38"]
+atlas = ExtResource("frame_38")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_39"]
+atlas = ExtResource("frame_39")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_40"]
+atlas = ExtResource("frame_40")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_41"]
+atlas = ExtResource("frame_41")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 285, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_42"]
+atlas = ExtResource("frame_42")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 319, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_43"]
+atlas = ExtResource("frame_43")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 319, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_44"]
+atlas = ExtResource("frame_44")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 319, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_45"]
+atlas = ExtResource("frame_45")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 320, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_46"]
+atlas = ExtResource("frame_46")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 323, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_47"]
+atlas = ExtResource("frame_47")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 323, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_48"]
+atlas = ExtResource("frame_48")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 323, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_49"]
+atlas = ExtResource("frame_49")
+region = Rect2(0, 0, 420, 410)
+margin = Rect2(366.0, 323, 780, 390)
+
+[sub_resource type="AtlasTexture" id="frame_50"]
+atlas = ExtResource("frame_50")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_51"]
+atlas = ExtResource("frame_51")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_52"]
+atlas = ExtResource("frame_52")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_53"]
+atlas = ExtResource("frame_53")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_54"]
+atlas = ExtResource("frame_54")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_55"]
+atlas = ExtResource("frame_55")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_56"]
+atlas = ExtResource("frame_56")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_57"]
+atlas = ExtResource("frame_57")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 306, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_58"]
+atlas = ExtResource("frame_58")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 310, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_59"]
+atlas = ExtResource("frame_59")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 310, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_60"]
+atlas = ExtResource("frame_60")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 310, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_61"]
+atlas = ExtResource("frame_61")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 309, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_62"]
+atlas = ExtResource("frame_62")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 309, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_63"]
+atlas = ExtResource("frame_63")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 309, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_64"]
+atlas = ExtResource("frame_64")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 309, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_65"]
+atlas = ExtResource("frame_65")
+region = Rect2(0, 0, 320, 400)
+margin = Rect2(439.5, 309, 880, 400)
+
+[sub_resource type="AtlasTexture" id="frame_66"]
+atlas = ExtResource("frame_66")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_67"]
+atlas = ExtResource("frame_67")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 298, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_68"]
+atlas = ExtResource("frame_68")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 298, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_69"]
+atlas = ExtResource("frame_69")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 298, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_70"]
+atlas = ExtResource("frame_70")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_71"]
+atlas = ExtResource("frame_71")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_72"]
+atlas = ExtResource("frame_72")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_73"]
+atlas = ExtResource("frame_73")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_74"]
+atlas = ExtResource("frame_74")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_75"]
+atlas = ExtResource("frame_75")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_76"]
+atlas = ExtResource("frame_76")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[sub_resource type="AtlasTexture" id="frame_77"]
+atlas = ExtResource("frame_77")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(427.5, 299, 843, 442)
+
+[resource]
+animations = [
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_1")},
+{"duration": 1.0, "texture": SubResource("frame_2")},
+{"duration": 1.0, "texture": SubResource("frame_3")},
+{"duration": 1.0, "texture": SubResource("frame_2")}
+],
+"loop": true,
+"name": &"idle",
+"speed": 2.6315789473684212
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_4")},
+{"duration": 1.0, "texture": SubResource("frame_5")},
+{"duration": 1.0, "texture": SubResource("frame_6")},
+{"duration": 1.0, "texture": SubResource("frame_7")},
+{"duration": 1.0, "texture": SubResource("frame_8")},
+{"duration": 1.0, "texture": SubResource("frame_9")},
+{"duration": 1.0, "texture": SubResource("frame_10")},
+{"duration": 1.0, "texture": SubResource("frame_11")},
+{"duration": 1.0, "texture": SubResource("frame_12")},
+{"duration": 1.0, "texture": SubResource("frame_13")},
+{"duration": 1.0, "texture": SubResource("frame_14")},
+{"duration": 1.0, "texture": SubResource("frame_15")}
+],
+"loop": false,
+"name": &"attack",
+"speed": 14.285714285714286
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_16")},
+{"duration": 1.0, "texture": SubResource("frame_17")},
+{"duration": 1.0, "texture": SubResource("frame_18")},
+{"duration": 1.0, "texture": SubResource("frame_19")},
+{"duration": 1.0, "texture": SubResource("frame_20")},
+{"duration": 1.0, "texture": SubResource("frame_21")},
+{"duration": 1.0, "texture": SubResource("frame_22")},
+{"duration": 1.0, "texture": SubResource("frame_23")}
+],
+"loop": false,
+"name": &"hit",
+"speed": 15.384615384615385
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_24")},
+{"duration": 1.0, "texture": SubResource("frame_25")},
+{"duration": 1.0, "texture": SubResource("frame_26")},
+{"duration": 1.0, "texture": SubResource("frame_27")},
+{"duration": 1.0, "texture": SubResource("frame_28")},
+{"duration": 1.0, "texture": SubResource("frame_29")},
+{"duration": 1.0, "texture": SubResource("frame_30")},
+{"duration": 1.0, "texture": SubResource("frame_31")},
+{"duration": 1.0, "texture": SubResource("frame_32")},
+{"duration": 1.0, "texture": SubResource("frame_33")}
+],
+"loop": false,
+"name": &"victory",
+"speed": 11.764705882352942
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_34")},
+{"duration": 1.0, "texture": SubResource("frame_35")},
+{"duration": 1.0, "texture": SubResource("frame_36")},
+{"duration": 1.0, "texture": SubResource("frame_37")},
+{"duration": 1.0, "texture": SubResource("frame_38")},
+{"duration": 1.0, "texture": SubResource("frame_39")},
+{"duration": 1.0, "texture": SubResource("frame_40")},
+{"duration": 1.0, "texture": SubResource("frame_41")},
+{"duration": 1.0, "texture": SubResource("frame_42")},
+{"duration": 1.0, "texture": SubResource("frame_43")},
+{"duration": 1.0, "texture": SubResource("frame_44")},
+{"duration": 1.0, "texture": SubResource("frame_45")},
+{"duration": 1.0, "texture": SubResource("frame_46")},
+{"duration": 1.0, "texture": SubResource("frame_47")},
+{"duration": 1.0, "texture": SubResource("frame_48")},
+{"duration": 1.0, "texture": SubResource("frame_49")}
+],
+"loop": false,
+"name": &"death",
+"speed": 13.333333333333334
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_50")},
+{"duration": 1.0, "texture": SubResource("frame_51")},
+{"duration": 1.0, "texture": SubResource("frame_52")},
+{"duration": 1.0, "texture": SubResource("frame_53")},
+{"duration": 1.0, "texture": SubResource("frame_54")},
+{"duration": 1.0, "texture": SubResource("frame_55")},
+{"duration": 1.0, "texture": SubResource("frame_56")},
+{"duration": 1.0, "texture": SubResource("frame_57")},
+{"duration": 1.0, "texture": SubResource("frame_58")},
+{"duration": 1.0, "texture": SubResource("frame_59")},
+{"duration": 1.0, "texture": SubResource("frame_60")},
+{"duration": 1.0, "texture": SubResource("frame_61")},
+{"duration": 1.0, "texture": SubResource("frame_62")},
+{"duration": 1.0, "texture": SubResource("frame_63")},
+{"duration": 1.0, "texture": SubResource("frame_64")},
+{"duration": 1.0, "texture": SubResource("frame_65")}
+],
+"loop": false,
+"name": &"use_invoke",
+"speed": 14.285714285714286
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("frame_66")},
+{"duration": 1.0, "texture": SubResource("frame_67")},
+{"duration": 1.0, "texture": SubResource("frame_68")},
+{"duration": 1.0, "texture": SubResource("frame_69")},
+{"duration": 1.0, "texture": SubResource("frame_70")},
+{"duration": 1.0, "texture": SubResource("frame_71")},
+{"duration": 1.0, "texture": SubResource("frame_72")},
+{"duration": 1.0, "texture": SubResource("frame_73")},
+{"duration": 1.0, "texture": SubResource("frame_74")},
+{"duration": 1.0, "texture": SubResource("frame_75")},
+{"duration": 1.0, "texture": SubResource("frame_76")},
+{"duration": 1.0, "texture": SubResource("frame_77")}
+],
+"loop": false,
+"name": &"dodge",
+"speed": 19.23076923076923
+}
+]
