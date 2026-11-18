@@ -1,0 +1,17 @@
+{
+  "input": "real X11 mouse",
+  "recording_exit": 0,
+  "resolutions": [
+    "960x540",
+    "1280x720"
+  ],
+  "scenes": [
+    "CombatAnimationReview",
+    "CombatTestArena"
+  ],
+  "clips_requested": [
+    "Hans Idle Attack Hit Victory Death Use_Invoke Dodge",
+    "Wolf Idle Attack Death",
+    "Leshy Idle Attack Death"
+  ]
+}

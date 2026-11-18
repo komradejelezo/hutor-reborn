@@ -1,0 +1,5 @@
+PASS: only presentation and canonical beast label change; battle math, IDs/stats, world, saves, quests and NPCs preserved
+PASS: 252 source files match ZIP byte-for-byte
+PASS: strip excluded, unsafe phases curated, only idle may loop/ping-pong; full-resolution source RGB retained
+PASS: no duplicate functions, conflict markers or observer overrides
+RESULT: 4 source/integrity groups passed

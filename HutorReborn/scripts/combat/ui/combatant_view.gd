@@ -2,6 +2,7 @@ extends Button
 ## Experimental presentation only: no world scripts, physics or NPC definitions.
 signal chosen(id:String)
 const STYLE=preload("res://scripts/combat/ui/style.gd")
+const ANIMATION=preload("res://scripts/combat/animation/combat_animation.gd")
 var unit:RefCounted
 var body:Node2D
 var sprite:AnimatedSprite2D
@@ -14,6 +15,9 @@ var selectable:=false
 var hovered:=false
 var pulse:=0.0
 var _frame:StyleBoxFlat
+var animation:Node
+var presented_hp:=0
+var health_staged:=false
 func _ready() -> void:
     size=Vector2(118,142);flat=true;mouse_default_cursor_shape=Control.CURSOR_POINTING_HAND
     _frame=STYLE.box(Color(.045,.065,.052,.9))
@@ -30,6 +34,7 @@ func _ready() -> void:
     mouse_entered.connect(func():hovered=true);mouse_exited.connect(func():hovered=false)
 func setup(value:RefCounted) -> void:
     unit=value
+    presented_hp=unit.hp
     if unit.data.has("frames"):
         sprite.sprite_frames=load(unit.data.frames);sprite.offset=Vector2(-480,-1280) if unit.kind=="hans" else Vector2(-48,-82)
         sprite.scale=Vector2.ONE*(1.55/21.0 if unit.kind=="hans" else 1.55*(1.08 if unit.kind=="woodcutter" else 1.0))
@@ -38,21 +43,31 @@ func setup(value:RefCounted) -> void:
     else:
         var f:=SpriteFrames.new();f.add_frame("default",load(unit.data.image));sprite.sprite_frames=f
         sprite.offset=Vector2(-48,-82);sprite.scale=Vector2.ONE*1.5
+    var driver:=ANIMATION.new();add_child(driver)
+    if driver.configure(sprite,unit.kind,unit.team):animation=driver
+    else:driver.queue_free()
+    name_label.z_index=2
     refresh(false,false,"")
+func reveal_health() -> void:
+    presented_hp=unit.hp;health_staged=false
 func refresh(is_active:bool,can_target:bool,reason:String) -> void:
+    if not health_staged:presented_hp=unit.hp
     active=is_active;selectable=can_target;disabled=not can_target
     name_label.text=("› " if active else "")+unit.name
-    bar.max_value=unit.max_hp;bar.value=unit.hp;hp_label.text=str(unit.hp)+" / "+str(unit.max_hp)+" HP"
+    bar.max_value=unit.max_hp;bar.value=presented_hp;hp_label.text=str(presented_hp)+" / "+str(unit.max_hp)+" HP"
     status_label.text=unit.status_text()
     tooltip_text=unit.name+"\nУрон "+str(unit.damage)+" · Защита "+str(unit.armor)+"\nИнициатива "+str(unit.initiative)+" · Точность "+str(unit.accuracy)+"%\n"+("Дальний удар" if unit.reach=="ranged" else "Ближний бой")+"\n"+reason
-    if unit.data.has("frames"):
+    if animation:
+        # Refresh never restarts actions or resurrects the final death pose.
+        pass
+    elif unit.data.has("frames"):
         var clip:="idle_right" if unit.team==0 else "idle_left"
         sprite.play(clip)
         var native:PackedStringArray=sprite.sprite_frames.get_meta("native_left_clips",PackedStringArray())
         sprite.flip_h=unit.team==1 and not clip in native
     else:sprite.flip_h=(unit.team==1) if unit.kind=="mercenary" else unit.team==0
-    sprite.modulate=Color.WHITE if unit.alive() else Color(.45,.48,.45,.25)
-    modulate.a=1.0 if active or can_target else .78 if unit.alive() else .45
+    sprite.modulate=Color.WHITE if animation or presented_hp>0 else Color(.45,.48,.45,.25)
+    modulate.a=1.0 if active or can_target else .78 if presented_hp>0 else .65
     queue_redraw()
 func _process(delta:float) -> void:
     pulse+=delta
