@@ -1,0 +1,13 @@
+{
+  "input": "real X11 mouse",
+  "actions": [
+    "Idle dark",
+    "Dodge dark",
+    "light background",
+    "Dodge light -> Idle",
+    "slow playback and pause/resume",
+    "open inherited arena",
+    "start duel"
+  ],
+  "recording_exit": 0
+}

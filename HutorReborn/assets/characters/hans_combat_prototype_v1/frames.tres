@@ -1,0 +1,293 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_01.png" id="idle_01"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_02.png" id="idle_02"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_03.png" id="idle_03"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_04.png" id="idle_04"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_05.png" id="idle_05"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_06.png" id="idle_06"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_07.png" id="idle_07"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_08.png" id="idle_08"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_09.png" id="idle_09"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_10.png" id="idle_10"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_11.png" id="idle_11"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/idle/idle_12.png" id="idle_12"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_01.png" id="dodge_01"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_02.png" id="dodge_02"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_03.png" id="dodge_03"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_04.png" id="dodge_04"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_05.png" id="dodge_05"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_06.png" id="dodge_06"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_07.png" id="dodge_07"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_08.png" id="dodge_08"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_09.png" id="dodge_09"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_10.png" id="dodge_10"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_11.png" id="dodge_11"]
+[ext_resource type="Texture2D" path="res://assets/characters/hans_combat_prototype_v1/dodge/dodge_12.png" id="dodge_12"]
+
+[sub_resource type="AtlasTexture" id="idle_01"]
+atlas = ExtResource("idle_01")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_02"]
+atlas = ExtResource("idle_02")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_03"]
+atlas = ExtResource("idle_03")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_04"]
+atlas = ExtResource("idle_04")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_05"]
+atlas = ExtResource("idle_05")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(15, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_06"]
+atlas = ExtResource("idle_06")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(15, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_07"]
+atlas = ExtResource("idle_07")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(15, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_08"]
+atlas = ExtResource("idle_08")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(15, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_09"]
+atlas = ExtResource("idle_09")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(15, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_10"]
+atlas = ExtResource("idle_10")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_11"]
+atlas = ExtResource("idle_11")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="idle_12"]
+atlas = ExtResource("idle_12")
+region = Rect2(0, 0, 444, 444)
+margin = Rect2(16, 46, 68, 68)
+
+[sub_resource type="AtlasTexture" id="dodge_01"]
+atlas = ExtResource("dodge_01")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(50, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_02"]
+atlas = ExtResource("dodge_02")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(48, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_03"]
+atlas = ExtResource("dodge_03")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(47, 128, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_04"]
+atlas = ExtResource("dodge_04")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(45, 128, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_05"]
+atlas = ExtResource("dodge_05")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(45, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_06"]
+atlas = ExtResource("dodge_06")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(46, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_07"]
+atlas = ExtResource("dodge_07")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(44, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_08"]
+atlas = ExtResource("dodge_08")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(44, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_09"]
+atlas = ExtResource("dodge_09")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(45, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_10"]
+atlas = ExtResource("dodge_10")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(48, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_11"]
+atlas = ExtResource("dodge_11")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(49, 129, 155, 154)
+
+[sub_resource type="AtlasTexture" id="dodge_12"]
+atlas = ExtResource("dodge_12")
+region = Rect2(0, 0, 357, 358)
+margin = Rect2(50, 129, 155, 154)
+
+[resource]
+animations = [{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("idle_01")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_02")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_03")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_04")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_05")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_06")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_07")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_08")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_09")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_10")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_11")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_12")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_11")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_10")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_09")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_08")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_07")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_06")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_05")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_04")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_03")},
+{
+"duration": 1.0,
+"texture": SubResource("idle_02")}
+],
+"loop": true,
+"name": &"combat_idle",
+"speed": 8.695652173913
+}, {
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("dodge_01")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_02")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_03")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_04")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_05")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_06")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_07")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_08")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_09")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_10")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_11")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_12")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_11")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_10")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_09")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_08")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_07")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_06")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_05")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_04")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_03")},
+{
+"duration": 1.0,
+"texture": SubResource("dodge_02")}
+],
+"loop": false,
+"name": &"dodge",
+"speed": 19.230769230769
+}]

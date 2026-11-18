@@ -1,0 +1,410 @@
+[
+  {
+    "file": "idle_01.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      55,
+      5,
+      343,
+      437
+    ],
+    "transparent": 140111,
+    "partial": 16452,
+    "opaque": 40573
+  },
+  {
+    "file": "idle_02.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      55,
+      5,
+      343,
+      437
+    ],
+    "transparent": 137979,
+    "partial": 17378,
+    "opaque": 41779
+  },
+  {
+    "file": "idle_03.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      6,
+      343,
+      437
+    ],
+    "transparent": 138110,
+    "partial": 16581,
+    "opaque": 42445
+  },
+  {
+    "file": "idle_04.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      6,
+      343,
+      437
+    ],
+    "transparent": 140295,
+    "partial": 16048,
+    "opaque": 40793
+  },
+  {
+    "file": "idle_05.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      53,
+      5,
+      343,
+      437
+    ],
+    "transparent": 137536,
+    "partial": 18129,
+    "opaque": 41471
+  },
+  {
+    "file": "idle_06.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      53,
+      5,
+      343,
+      437
+    ],
+    "transparent": 137442,
+    "partial": 17313,
+    "opaque": 42381
+  },
+  {
+    "file": "idle_07.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      53,
+      4,
+      343,
+      437
+    ],
+    "transparent": 139405,
+    "partial": 16625,
+    "opaque": 41106
+  },
+  {
+    "file": "idle_08.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      53,
+      5,
+      343,
+      437
+    ],
+    "transparent": 137442,
+    "partial": 17313,
+    "opaque": 42381
+  },
+  {
+    "file": "idle_09.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      53,
+      5,
+      343,
+      437
+    ],
+    "transparent": 137536,
+    "partial": 18129,
+    "opaque": 41471
+  },
+  {
+    "file": "idle_10.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      6,
+      343,
+      437
+    ],
+    "transparent": 140295,
+    "partial": 16048,
+    "opaque": 40793
+  },
+  {
+    "file": "idle_11.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      6,
+      343,
+      437
+    ],
+    "transparent": 138110,
+    "partial": 16581,
+    "opaque": 42445
+  },
+  {
+    "file": "idle_12.png",
+    "size": [
+      444,
+      444
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      55,
+      5,
+      343,
+      437
+    ],
+    "transparent": 137979,
+    "partial": 17378,
+    "opaque": 41779
+  },
+  {
+    "file": "dodge_01.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      0,
+      357,
+      352
+    ],
+    "transparent": 90742,
+    "partial": 9764,
+    "opaque": 27300
+  },
+  {
+    "file": "dodge_02.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      0,
+      357,
+      352
+    ],
+    "transparent": 88971,
+    "partial": 11137,
+    "opaque": 27698
+  },
+  {
+    "file": "dodge_03.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      0,
+      357,
+      352
+    ],
+    "transparent": 90780,
+    "partial": 11006,
+    "opaque": 26020
+  },
+  {
+    "file": "dodge_04.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      0,
+      357,
+      352
+    ],
+    "transparent": 91386,
+    "partial": 11726,
+    "opaque": 24694
+  },
+  {
+    "file": "dodge_05.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      7,
+      34,
+      314,
+      351
+    ],
+    "transparent": 89918,
+    "partial": 10879,
+    "opaque": 27009
+  },
+  {
+    "file": "dodge_06.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      51,
+      346,
+      358
+    ],
+    "transparent": 91236,
+    "partial": 10412,
+    "opaque": 26158
+  },
+  {
+    "file": "dodge_07.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      61,
+      322,
+      358
+    ],
+    "transparent": 92431,
+    "partial": 10025,
+    "opaque": 25350
+  },
+  {
+    "file": "dodge_08.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      1,
+      63,
+      319,
+      358
+    ],
+    "transparent": 91380,
+    "partial": 9987,
+    "opaque": 26439
+  },
+  {
+    "file": "dodge_09.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      38,
+      318,
+      358
+    ],
+    "transparent": 90777,
+    "partial": 10552,
+    "opaque": 26477
+  },
+  {
+    "file": "dodge_10.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      7,
+      18,
+      304,
+      358
+    ],
+    "transparent": 89630,
+    "partial": 10371,
+    "opaque": 27805
+  },
+  {
+    "file": "dodge_11.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      0,
+      4,
+      289,
+      358
+    ],
+    "transparent": 87951,
+    "partial": 10306,
+    "opaque": 29549
+  },
+  {
+    "file": "dodge_12.png",
+    "size": [
+      357,
+      358
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      10,
+      2,
+      353,
+      358
+    ],
+    "transparent": 89367,
+    "partial": 10187,
+    "opaque": 28252
+  }
+]
