@@ -19,6 +19,7 @@ var scenario_id:=""
 var busy:=true
 var epoch:=0
 var fast:CheckButton
+var atmosphere:CheckButton
 var round_label:Label
 var turn_label:Label
 var queue_label:Label
@@ -32,7 +33,7 @@ func _ready() -> void:
     preload("res://scripts/input_setup.gd").ensure_actions()
     _timer=Timer.new();_timer.one_shot=true;add_child(_timer);_timer.timeout.connect(func():delay_finished.emit())
     _impact_audio=AudioStreamPlayer.new();_impact_audio.volume_db=-26;add_child(_impact_audio)
-    theme=STYLE.theme();STYLE.background(self);catalog=CATALOG.new()
+    theme=STYLE.theme();STYLE.background(self);STYLE.hud_backdrop(self,114,464);catalog=CATALOG.new()
     STYLE.label(self,"Испытание боем",Vector2(22,12),Vector2(380,35),25,true)
     round_label=STYLE.label(self,"",Vector2(416,18),Vector2(170,28),13)
     STYLE.button(self,"Сценарии",Vector2(610,14),Vector2(104,30),_open_picker)
@@ -48,7 +49,7 @@ func _ready() -> void:
     STYLE.label(inside,"Ход сражения",Vector2.ZERO,Vector2(192,26),17,true)
     log_label=RichTextLabel.new();log_label.position=Vector2(0,32);log_label.size=Vector2(192,238);log_label.scroll_following=true
     log_label.add_theme_font_size_override("normal_font_size",11);log_label.mouse_filter=Control.MOUSE_FILTER_STOP;inside.add_child(log_label)
-    hint_label=STYLE.label(self,"",Vector2(22,430),Vector2(916,18),11)
+    hint_label=STYLE.label(self,"",Vector2(22,466),Vector2(916,18),11)
     var buttons:Array=[
         ["attack","Атака",22,98,"Выбрать доступного противника. Ближняя атака не проходит через живой передний ряд."],
         ["defend","Защита",128,108,"Уменьшить урон вдвое до начала своего следующего хода. Ход будет потрачен."],
@@ -57,12 +58,14 @@ func _ready() -> void:
         ["heal","Лечение",484,120,"Травница восстанавливает до 32 HP. Два применения в «Последней настойке»."],
         ["roots","Корни",484,112,"Однократно: лес удержит выбранного противника на один его ход."],
         ["raven","Ворон",604,112,"Однократно: следующие две атаки по Гансу получают −25 к точности."]]
-    for item in buttons:actions[item[0]]=STYLE.button(self,item[1],Vector2(item[2],453),Vector2(item[3],38),_select_action.bind(String(item[0])),item[4])
-    fast=CheckButton.new();fast.text="Анимации ×3";fast.position=Vector2(764,455);fast.size=Vector2(176,34);fast.tooltip_text="Быстрее показывать действия";add_child(fast)
-    STYLE.label(self,"Наведите курсор на бойца или действие, чтобы узнать подробности",Vector2(22,503),Vector2(906,24),11)
+    for item in buttons:actions[item[0]]=STYLE.button(self,item[1],Vector2(item[2],488),Vector2(item[3],38),_select_action.bind(String(item[0])),item[4])
+    fast=CheckButton.new();fast.text="Анимации ×3";fast.position=Vector2(764,490);fast.size=Vector2(176,34);fast.tooltip_text="Быстрее показывать действия";add_child(fast)
+    atmosphere=CheckButton.new();atmosphere.text="Окружение";atmosphere.position=Vector2(745,425);atmosphere.size=Vector2(188,30);atmosphere.button_pressed=true;add_child(atmosphere)
+    atmosphere.toggled.connect(func(enabled:bool):get_node("ForestStage").atmosphere_enabled=enabled)
+    STYLE.label(self,"Наведите курсор на бойца или действие, чтобы узнать подробности",Vector2(22,528),Vector2(906,12),9)
     _open_picker()
 func _slot(u:RefCounted) -> Vector2:
-    return Vector2((170 if u.row=="front" else 22) if u.team==0 else (425 if u.row=="front" else 573),138+146*u.lane)
+    return Vector2((180 if u.row=="front" else 25) if u.team==0 else (440 if u.row=="front" else 590),185+126*u.lane)
 func _clear_board() -> void:
     for view in views.values():remove_child(view);view.queue_free()
     views.clear()
@@ -101,7 +104,7 @@ func _start_scenario(id:String) -> void:
     _cancel();var token:=epoch;busy=true;_clear_modal();_clear_board();events_log.clear();log_label.clear()
     scenario_id=id;battle=BATTLE.new(catalog,id);selected_action="attack"
     for u in battle.units.values():
-        var v:Button=VIEW.instantiate();add_child(v);v.setup(u);v.position=_slot(u);v.chosen.connect(_target);views[u.id]=v
+        var v:Button=VIEW.instantiate();add_child(v);v.setup(u);v.position=_slot(u);v.z_index=2+u.lane;v.chosen.connect(_target);views[u.id]=v
     restart_button.disabled=false;_render();_drive(token)
 func _valid(token:int) -> bool:return is_inside_tree() and token==epoch
 func _speed() -> float:return 3.0 if fast.button_pressed else 1.0

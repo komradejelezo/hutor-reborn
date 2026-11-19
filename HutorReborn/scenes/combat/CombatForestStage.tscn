@@ -1,0 +1,44 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/forest_stage.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/backgrounds/Forest_Clearing/forest_clearing_master.png" id="2"]
+[ext_resource type="Script" path="res://scripts/combat/forest_atmosphere.gd" id="3"]
+[ext_resource type="Shader" path="res://shaders/combat_distant_mist.gdshader" id="4"]
+
+[sub_resource type="ShaderMaterial" id="Mist"]
+resource_local_to_scene = true
+shader = ExtResource("4")
+
+[node name="ForestStage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Master" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture_filter = 1
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Atmosphere" type="Node2D" parent="."]
+script = ExtResource("3")
+
+[node name="DistantMist" type="ColorRect" parent="Atmosphere"]
+material = SubResource("Mist")
+offset_left = 260.0
+offset_top = 164.0
+offset_right = 782.0
+offset_bottom = 237.0
+mouse_filter = 2

@@ -1,0 +1,336 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: all 259 supplied source files retained
+PASS: source bytes LEGACY_CODEX_TASK_RU.txt
+PASS: source bytes manifest.json
+PASS: source bytes README_RU.txt
+PASS: source bytes LEGACY_README_RU.txt
+PASS: source bytes CODEX_TASK_RU.txt
+PASS: source bytes LEGACY_manifest.json
+PASS: source bytes assets/Hans/Dodge/dodge_07.png
+PASS: source bytes assets/Hans/Dodge/dodge_12.png
+PASS: source bytes assets/Hans/Dodge/dodge_10.png
+PASS: source bytes assets/Hans/Dodge/dodge_05.png
+PASS: source bytes assets/Hans/Dodge/dodge_09.png
+PASS: source bytes assets/Hans/Dodge/dodge_02.png
+PASS: source bytes assets/Hans/Dodge/dodge_06.png
+PASS: source bytes assets/Hans/Dodge/dodge_strip.png
+PASS: source bytes assets/Hans/Dodge/dodge_01.png
+PASS: source bytes assets/Hans/Dodge/dodge_04.png
+PASS: source bytes assets/Hans/Dodge/dodge_08.png
+PASS: source bytes assets/Hans/Dodge/dodge_03.png
+PASS: source bytes assets/Hans/Dodge/dodge_11.png
+PASS: source bytes assets/Hans/Death/death_16.png
+PASS: source bytes assets/Hans/Death/death_14.png
+PASS: source bytes assets/Hans/Death/death_13.png
+PASS: source bytes assets/Hans/Death/death_09.png
+PASS: source bytes assets/Hans/Death/death_08.png
+PASS: source bytes assets/Hans/Death/death_01.png
+PASS: source bytes assets/Hans/Death/death_11.png
+PASS: source bytes assets/Hans/Death/death_06.png
+PASS: source bytes assets/Hans/Death/death_05.png
+PASS: source bytes assets/Hans/Death/death_07.png
+PASS: source bytes assets/Hans/Death/death_10.png
+PASS: source bytes assets/Hans/Death/death_04.png
+PASS: source bytes assets/Hans/Death/death_12.png
+PASS: source bytes assets/Hans/Death/death_02.png
+PASS: source bytes assets/Hans/Death/death_15.png
+PASS: source bytes assets/Hans/Death/death_03.png
+PASS: source bytes assets/Hans/Attack/attack_08.png
+PASS: source bytes assets/Hans/Attack/attack_03.png
+PASS: source bytes assets/Hans/Attack/attack_11.png
+PASS: source bytes assets/Hans/Attack/attack_02.png
+PASS: source bytes assets/Hans/Attack/attack_06.png
+PASS: source bytes assets/Hans/Attack/attack_04.png
+PASS: source bytes assets/Hans/Attack/attack_07.png
+PASS: source bytes assets/Hans/Attack/attack_01.png
+PASS: source bytes assets/Hans/Attack/attack_12.png
+PASS: source bytes assets/Hans/Attack/attack_10.png
+PASS: source bytes assets/Hans/Attack/attack_05.png
+PASS: source bytes assets/Hans/Attack/attack_09.png
+PASS: source bytes assets/Hans/Idle/hans_idle_08.png
+PASS: source bytes assets/Hans/Idle/hans_idle_05.png
+PASS: source bytes assets/Hans/Idle/hans_idle_24.png
+PASS: source bytes assets/Hans/Idle/hans_idle_12.png
+PASS: source bytes assets/Hans/Idle/hans_idle_01.png
+PASS: source bytes assets/Hans/Idle/hans_idle_18.png
+PASS: source bytes assets/Hans/Idle/hans_idle_17.png
+PASS: source bytes assets/Hans/Idle/hans_idle_09.png
+PASS: source bytes assets/Hans/Idle/hans_idle_23.png
+PASS: source bytes assets/Hans/Idle/hans_idle_15.png
+PASS: source bytes assets/Hans/Idle/hans_idle_11.png
+PASS: source bytes assets/Hans/Idle/hans_idle_06.png
+PASS: source bytes assets/Hans/Idle/hans_idle_03.png
+PASS: source bytes assets/Hans/Idle/hans_idle_02.png
+PASS: source bytes assets/Hans/Idle/hans_idle_16.png
+PASS: source bytes assets/Hans/Idle/hans_idle_07.png
+PASS: source bytes assets/Hans/Idle/hans_idle_stabilized_preview.gif
+PASS: source bytes assets/Hans/Idle/hans_idle_10.png
+PASS: source bytes assets/Hans/Idle/hans_idle_04.png
+PASS: source bytes assets/Hans/Idle/hans_idle_13.png
+PASS: source bytes assets/Hans/Idle/hans_idle_21.png
+PASS: source bytes assets/Hans/Idle/hans_idle_14.png
+PASS: source bytes assets/Hans/Idle/hans_idle_20.png
+PASS: source bytes assets/Hans/Idle/hans_idle_19.png
+PASS: source bytes assets/Hans/Idle/hans_idle_22.png
+PASS: source bytes assets/Hans/Hit/hit_05.png
+PASS: source bytes assets/Hans/Hit/hit_01.png
+PASS: source bytes assets/Hans/Hit/hit_06.png
+PASS: source bytes assets/Hans/Hit/hit_07.png
+PASS: source bytes assets/Hans/Hit/hit_03.png
+PASS: source bytes assets/Hans/Hit/hit_08.png
+PASS: source bytes assets/Hans/Hit/hit_02.png
+PASS: source bytes assets/Hans/Hit/hit_04.png
+PASS: source bytes assets/Hans/Use_Invoke/use_16.png
+PASS: source bytes assets/Hans/Use_Invoke/use_12.png
+PASS: source bytes assets/Hans/Use_Invoke/use_05.png
+PASS: source bytes assets/Hans/Use_Invoke/use_04.png
+PASS: source bytes assets/Hans/Use_Invoke/use_08.png
+PASS: source bytes assets/Hans/Use_Invoke/use_01.png
+PASS: source bytes assets/Hans/Use_Invoke/use_14.png
+PASS: source bytes assets/Hans/Use_Invoke/use_13.png
+PASS: source bytes assets/Hans/Use_Invoke/use_03.png
+PASS: source bytes assets/Hans/Use_Invoke/use_06.png
+PASS: source bytes assets/Hans/Use_Invoke/use_15.png
+PASS: source bytes assets/Hans/Use_Invoke/use_07.png
+PASS: source bytes assets/Hans/Use_Invoke/use_10.png
+PASS: source bytes assets/Hans/Use_Invoke/use_09.png
+PASS: source bytes assets/Hans/Use_Invoke/use_11.png
+PASS: source bytes assets/Hans/Use_Invoke/use_02.png
+PASS: source bytes assets/Hans/Victory/victory_07.png
+PASS: source bytes assets/Hans/Victory/victory_04.png
+PASS: source bytes assets/Hans/Victory/victory_11.png
+PASS: source bytes assets/Hans/Victory/victory_08.png
+PASS: source bytes assets/Hans/Victory/victory_06.png
+PASS: source bytes assets/Hans/Victory/victory_02.png
+PASS: source bytes assets/Hans/Victory/victory_12.png
+PASS: source bytes assets/Hans/Victory/victory_09.png
+PASS: source bytes assets/Hans/Victory/victory_05.png
+PASS: source bytes assets/Hans/Victory/victory_15.png
+PASS: source bytes assets/Hans/Victory/victory_16.png
+PASS: source bytes assets/Hans/Victory/victory_03.png
+PASS: source bytes assets/Hans/Victory/victory_13.png
+PASS: source bytes assets/Hans/Victory/victory_14.png
+PASS: source bytes assets/Hans/Victory/victory_01.png
+PASS: source bytes assets/Hans/Victory/victory_10.png
+PASS: source bytes assets/Leshy/Death/leshy_death_09.png
+PASS: source bytes assets/Leshy/Death/leshy_death_22.png
+PASS: source bytes assets/Leshy/Death/leshy_death_11.png
+PASS: source bytes assets/Leshy/Death/leshy_death_19.png
+PASS: source bytes assets/Leshy/Death/leshy_death_08.png
+PASS: source bytes assets/Leshy/Death/leshy_death_17.png
+PASS: source bytes assets/Leshy/Death/leshy_death_13.png
+PASS: source bytes assets/Leshy/Death/leshy_death_06.png
+PASS: source bytes assets/Leshy/Death/leshy_death_21.png
+PASS: source bytes assets/Leshy/Death/leshy_death_01.png
+PASS: source bytes assets/Leshy/Death/leshy_death_05.png
+PASS: source bytes assets/Leshy/Death/leshy_death_24.png
+PASS: source bytes assets/Leshy/Death/leshy_death_18.png
+PASS: source bytes assets/Leshy/Death/leshy_death_04.png
+PASS: source bytes assets/Leshy/Death/leshy_death_14.png
+PASS: source bytes assets/Leshy/Death/leshy_death_03.png
+PASS: source bytes assets/Leshy/Death/leshy_death_12.png
+PASS: source bytes assets/Leshy/Death/leshy_death_10.png
+PASS: source bytes assets/Leshy/Death/leshy_death_15.png
+PASS: source bytes assets/Leshy/Death/leshy_death_23.png
+PASS: source bytes assets/Leshy/Death/leshy_death_07.png
+PASS: source bytes assets/Leshy/Death/leshy_death_20.png
+PASS: source bytes assets/Leshy/Death/leshy_death_16.png
+PASS: source bytes assets/Leshy/Death/leshy_death_02.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_17.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_01.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_24.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_18.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_12.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_16.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_13.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_11.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_07.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_14.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_09.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_22.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_08.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_21.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_15.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_02.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_10.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_05.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_23.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_03.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_20.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_06.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_04.png
+PASS: source bytes assets/Leshy/Attack/leshy_attack_19.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_03.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_20.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_08.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_23.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_24.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_05.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_10.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_04.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_11.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_18.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_02.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_19.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_16.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_14.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_13.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_07.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_15.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_06.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_21.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_09.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_17.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_22.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_01.png
+PASS: source bytes assets/Leshy/Idle/leshy_idle_12.png
+PASS: source bytes assets/Wolf/Death/wolf_death_14.png
+PASS: source bytes assets/Wolf/Death/wolf_death_17.png
+PASS: source bytes assets/Wolf/Death/wolf_death_22.png
+PASS: source bytes assets/Wolf/Death/wolf_death_02.png
+PASS: source bytes assets/Wolf/Death/wolf_death_08.png
+PASS: source bytes assets/Wolf/Death/wolf_death_03.png
+PASS: source bytes assets/Wolf/Death/wolf_death_19.png
+PASS: source bytes assets/Wolf/Death/wolf_death_05.png
+PASS: source bytes assets/Wolf/Death/wolf_death_01.png
+PASS: source bytes assets/Wolf/Death/wolf_death_21.png
+PASS: source bytes assets/Wolf/Death/wolf_death_12.png
+PASS: source bytes assets/Wolf/Death/wolf_death_07.png
+PASS: source bytes assets/Wolf/Death/wolf_death_11.png
+PASS: source bytes assets/Wolf/Death/wolf_death_18.png
+PASS: source bytes assets/Wolf/Death/wolf_death_23.png
+PASS: source bytes assets/Wolf/Death/wolf_death_24.png
+PASS: source bytes assets/Wolf/Death/wolf_death_13.png
+PASS: source bytes assets/Wolf/Death/wolf_death_06.png
+PASS: source bytes assets/Wolf/Death/wolf_death_15.png
+PASS: source bytes assets/Wolf/Death/wolf_death_04.png
+PASS: source bytes assets/Wolf/Death/wolf_death_09.png
+PASS: source bytes assets/Wolf/Death/wolf_death_16.png
+PASS: source bytes assets/Wolf/Death/wolf_death_10.png
+PASS: source bytes assets/Wolf/Death/wolf_death_20.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_07.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_16.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_04.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_18.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_11.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_24.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_13.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_09.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_06.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_10.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_03.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_20.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_22.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_preview.gif
+PASS: source bytes assets/Wolf/Attack/wolf_attack_02.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_19.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_14.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_01.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_08.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_21.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_12.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_23.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_17.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_15.png
+PASS: source bytes assets/Wolf/Attack/wolf_attack_05.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_13.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_02.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_15.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_06.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_03.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_16.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_18.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_24.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_07.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_20.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_08.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_10.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_21.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_04.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_14.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_12.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_preview.gif
+PASS: source bytes assets/Wolf/Idle/wolf_idle_09.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_22.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_11.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_19.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_17.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_05.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_01.png
+PASS: source bytes assets/Wolf/Idle/wolf_idle_23.png
+PASS: source bytes backgrounds/Forest_Clearing/forest_clearing_master.png
+PASS: approved supplied Idle retained hans
+PASS: approved supplied Idle retained wolf
+PASS: approved supplied Idle retained leshy
+PASS: local paw repair recorded
+PASS: new wolf bite uses all v3 poses with jaw-close impact
+PASS: supplied RGB master and Nearest
+PASS: master not warped; aspect ratio preserved
+PASS: master/ground stays static while atmosphere advances
+PASS: atmosphere switch disables overlay and CPU update
+PASS: atmosphere switch restores separate layers
+PASS: intensity also controls separate mist shader
+PASS: common grounded formation duel/hans
+PASS: HUD below feet, not covering model hans
+PASS: formation footer clears action panel hans
+PASS: common grounded formation duel/wolf_a
+PASS: HUD below feet, not covering model wolf_a
+PASS: formation footer clears action panel wolf_a
+PASS: actions clear combat field duel
+PASS: common grounded formation ambush/hans
+PASS: HUD below feet, not covering model hans
+PASS: formation footer clears action panel hans
+PASS: common grounded formation ambush/wolf_a
+PASS: HUD below feet, not covering model wolf_a
+PASS: formation footer clears action panel wolf_a
+PASS: common grounded formation ambush/wolf_b
+PASS: HUD below feet, not covering model wolf_b
+PASS: formation footer clears action panel wolf_b
+PASS: actions clear combat field ambush
+PASS: common grounded formation companions/hans
+PASS: HUD below feet, not covering model hans
+PASS: formation footer clears action panel hans
+PASS: common grounded formation companions/woodcutter
+PASS: HUD below feet, not covering model woodcutter
+PASS: formation footer clears action panel woodcutter
+PASS: common grounded formation companions/beast
+PASS: HUD below feet, not covering model beast
+PASS: formation footer clears action panel beast
+PASS: common grounded formation companions/spirit
+PASS: HUD below feet, not covering model spirit
+PASS: formation footer clears action panel spirit
+PASS: actions clear combat field companions
+PASS: common grounded formation tincture/hans
+PASS: HUD below feet, not covering model hans
+PASS: formation footer clears action panel hans
+PASS: common grounded formation tincture/herbalist
+PASS: HUD below feet, not covering model herbalist
+PASS: formation footer clears action panel herbalist
+PASS: common grounded formation tincture/beast
+PASS: HUD below feet, not covering model beast
+PASS: formation footer clears action panel beast
+PASS: actions clear combat field tincture
+PASS: common grounded formation betrayal/hans
+PASS: HUD below feet, not covering model hans
+PASS: formation footer clears action panel hans
+PASS: common grounded formation betrayal/mercenary
+PASS: HUD below feet, not covering model mercenary
+PASS: formation footer clears action panel mercenary
+PASS: common grounded formation betrayal/wolf_a
+PASS: HUD below feet, not covering model wolf_a
+PASS: formation footer clears action panel wolf_a
+PASS: common grounded formation betrayal/spirit
+PASS: HUD below feet, not covering model spirit
+PASS: formation footer clears action panel spirit
+PASS: actions clear combat field betrayal
+PASS: common grounded formation forest/hans
+PASS: HUD below feet, not covering model hans
+PASS: formation footer clears action panel hans
+PASS: common grounded formation forest/beast
+PASS: HUD below feet, not covering model beast
+PASS: formation footer clears action panel beast
+PASS: actions clear combat field forest
+PASS: Hans, wolf and leshy share one grounded scene
+LIMITATION: display/fullscreen/captures require graphical invocation
+RESULT: 332 forest v2 checks passed, 0 failed

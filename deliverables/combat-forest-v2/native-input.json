@@ -1,0 +1,13 @@
+{
+  "input": "real X11 mouse; no game-state fixtures",
+  "recording_exit": 0,
+  "scenes": [
+    "CombatAnimationReview",
+    "CombatTestArena"
+  ],
+  "scenarios": [
+    "duel",
+    "forest"
+  ],
+  "clips": "all supplied actions; Death held; repeated battles; atmosphere off/on"
+}

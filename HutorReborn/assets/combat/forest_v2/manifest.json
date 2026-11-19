@@ -1,0 +1,16 @@
+{
+  "project": "Hutor Reborn / Кривая Сосна",
+  "engine": "Godot 4.6.2",
+  "background": "backgrounds/Forest_Clearing/forest_clearing_master.png",
+  "background_size": [
+    1672,
+    941
+  ],
+  "status": {
+    "Hans_Idle": "APPROVED stabilized",
+    "Wolf_Idle": "PROVISIONAL one leg twitch needs fix",
+    "Wolf_Attack": "PROVISIONAL v3, inspect bite",
+    "Leshy": "APPROVED previous animations"
+  },
+  "notes": "Do not use LEGACY_manifest.json as source of truth. Newest approved assets overwrite previous pack."
+}

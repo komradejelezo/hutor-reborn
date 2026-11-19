@@ -1,0 +1,80 @@
+[
+  {
+    "animation": "Hans/Idle",
+    "frames": 24,
+    "playback": "loop_pingpong",
+    "notes": "slow; no whole-body scaling"
+  },
+  {
+    "animation": "Hans/Attack",
+    "frames": 12,
+    "playback": "once",
+    "notes": "full sword always visible"
+  },
+  {
+    "animation": "Hans/Hit",
+    "frames": 8,
+    "playback": "once",
+    "notes": "short hit reaction"
+  },
+  {
+    "animation": "Hans/Victory",
+    "frames": 16,
+    "playback": "once",
+    "notes": "fix upward jump and sword disappearing"
+  },
+  {
+    "animation": "Hans/Death",
+    "frames": 16,
+    "playback": "once_hold_last",
+    "notes": "no clipping or numbers"
+  },
+  {
+    "animation": "Wolf/Idle",
+    "frames": 24,
+    "playback": "loop",
+    "notes": "smoother with anchored paws"
+  },
+  {
+    "animation": "Wolf/Attack",
+    "frames": 24,
+    "playback": "once",
+    "notes": "bite without jump"
+  },
+  {
+    "animation": "Wolf/Death",
+    "frames": 24,
+    "playback": "once_hold_last",
+    "notes": "grounded death"
+  },
+  {
+    "animation": "Leshy/Idle",
+    "frames": 24,
+    "playback": "loop_pingpong",
+    "notes": "slower and smoother"
+  },
+  {
+    "animation": "Leshy/Attack",
+    "frames": 24,
+    "playback": "once",
+    "notes": "green eye and mouth magic, staff stationary"
+  },
+  {
+    "animation": "Leshy/Death",
+    "frames": 24,
+    "playback": "once_hold_last",
+    "notes": "glow fades"
+  },
+  {
+    "animation": "Hans/Use_Invoke",
+    "frames": 16,
+    "playback": "once",
+    "notes": "generic action; improve naturalness"
+  },
+  {
+    "animation": "Hans/Dodge",
+    "frames": 13,
+    "playback": "once",
+    "notes": "evasive animation; review"
+  }
+]

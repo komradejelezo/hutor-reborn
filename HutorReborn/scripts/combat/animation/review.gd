@@ -3,22 +3,33 @@ const DRIVER=preload("res://scripts/combat/animation/combat_animation.gd")
 const STYLE=preload("res://scripts/combat/ui/style.gd")
 var drivers:Array=[]
 var panels:Array[ColorRect]=[]
+var lines:Array[Line2D]=[]
 var rate:=1.0
 func _ready() -> void:
     preload("res://scripts/input_setup.gd").ensure_actions();theme=STYLE.theme()
     var bg:=ColorRect.new();bg.color=Color("101419");bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT);add_child(bg)
+    var forest:Control=preload("res://scenes/combat/CombatForestStage.tscn").instantiate();add_child(forest)
+    STYLE.hud_backdrop(self,154,474)
     STYLE.label(self,"Ганс · Волк · Леший — боевые анимации",Vector2(20,12),Vector2(640,35),22,true)
-    STYLE.label(self,"Предварительные кадры: дефекты alpha и фактуры описаны в отчёте. Death удерживает последний кадр; для повтора — Сброс.",Vector2(20,55),Vector2(925,30),11)
+    STYLE.label(self,"Предварительные кадры: ограничения — в отчёте. Death держит последний кадр; повтор — Сброс.",Vector2(20,55),Vector2(660,30),11)
     var backgrounds:=OptionButton.new();backgrounds.position=Vector2(700,14);backgrounds.size=Vector2(230,32)
-    backgrounds.add_item("Тёмный фон");backgrounds.add_item("Светлый фон");add_child(backgrounds)
+    backgrounds.add_item("Тёмный фон");backgrounds.add_item("Светлый фон");backgrounds.add_item("Лесная поляна");backgrounds.select(2);add_child(backgrounds)
     backgrounds.item_selected.connect(func(index:int):
-        for panel in panels:panel.color=Color("171c23") if index==0 else Color("e5e0d6"))
+        forest.visible=index==2
+        for panel in panels:panel.color=Color(0,0,0,0) if index==2 else Color("171c23") if index==0 else Color("e5e0d6")
+        for line in lines:line.visible=index!=2)
+    var atmosphere:=CheckButton.new();atmosphere.text="Окружение";atmosphere.position=Vector2(730,52);atmosphere.button_pressed=true;add_child(atmosphere)
+    atmosphere.toggled.connect(func(enabled:bool):forest.atmosphere_enabled=enabled)
     for i in 3:
         var unit:String=["hans","wolf","beast"][i];var x:=20+i*310
         STYLE.label(self,["Ганс","Волк","Леший (beast)"][i],Vector2(x,88),Vector2(280,24),17,true)
-        var panel:=ColorRect.new();panel.position=Vector2(x,158);panel.size=Vector2(290,290);panel.color=Color("171c23");add_child(panel);panels.append(panel)
-        var line:=Line2D.new();line.points=PackedVector2Array([Vector2(x+10,425),Vector2(x+280,425)]);line.width=1;line.default_color=Color("777d71");add_child(line)
+        var panel:=ColorRect.new();panel.position=Vector2(x,158);panel.size=Vector2(290,290);panel.color=Color(0,0,0,0);add_child(panel);panels.append(panel)
+        var line:=Line2D.new();line.points=PackedVector2Array([Vector2(x+10,425),Vector2(x+280,425)]);line.width=1;line.default_color=Color("777d71");line.visible=false;add_child(line);lines.append(line)
         var rig:=Node2D.new();rig.position=Vector2(x+145,425);rig.scale=Vector2.ONE*1.4;add_child(rig)
+        var shadow:=Polygon2D.new();shadow.color=Color(.06,.035,.025,.18)
+        var points:=PackedVector2Array()
+        for j in 24:points.append(Vector2(cos(TAU*j/24.0)*(27 if i>0 else 17),1+sin(TAU*j/24.0)*3))
+        shadow.polygon=points;rig.add_child(shadow)
         var sprite:=AnimatedSprite2D.new();rig.add_child(sprite)
         var driver:=DRIVER.new();rig.add_child(driver)
         if not driver.configure(sprite,unit,0):

@@ -19,17 +19,19 @@ var animation:Node
 var presented_hp:=0
 var health_staged:=false
 func _ready() -> void:
-    size=Vector2(118,142);flat=true;mouse_default_cursor_shape=Control.CURSOR_POINTING_HAND
-    _frame=STYLE.box(Color(.045,.065,.052,.9))
-    name_label=STYLE.label(self,"",Vector2(4,2),Vector2(110,20),12);name_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+    size=Vector2(118,155);flat=true;mouse_default_cursor_shape=Control.CURSOR_POINTING_HAND
+    _frame=STYLE.box(Color(0,0,0,0))
+    name_label=STYLE.label(self,"",Vector2(4,107),Vector2(110,14),11);name_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
     body=Node2D.new();body.name="Body";body.position=Vector2(59,103);add_child(body)
     sprite=AnimatedSprite2D.new();sprite.centered=false;sprite.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST;body.add_child(sprite)
-    bar=ProgressBar.new();bar.show_percentage=false;bar.position=Vector2(8,106)
+    bar=ProgressBar.new();bar.show_percentage=false;bar.position=Vector2(8,123)
     bar.mouse_filter=Control.MOUSE_FILTER_IGNORE;var bg:=StyleBoxFlat.new();bg.bg_color=Color("0c120f");bg.border_color=Color("3a4034");bg.set_border_width_all(1)
     bar.add_theme_stylebox_override("background",bg)
-    var fill:=StyleBoxFlat.new();fill.bg_color=Color("7f9c66");bar.add_theme_stylebox_override("fill",fill);bar.size=Vector2(102,8);add_child(bar)
-    hp_label=STYLE.label(self,"",Vector2(4,114),Vector2(110,14),10);hp_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
-    status_label=STYLE.label(self,"",Vector2(2,128),Vector2(114,14),9);status_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+    var fill:=StyleBoxFlat.new();fill.bg_color=Color("7f9c66");bar.add_theme_stylebox_override("fill",fill);bar.size=Vector2(102,4);add_child(bar)
+    hp_label=STYLE.label(self,"",Vector2(4,128),Vector2(110,12),10);hp_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+    status_label=STYLE.label(self,"",Vector2(2,141),Vector2(114,14),9);status_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+    for label in [name_label,hp_label,status_label]:
+        label.add_theme_color_override("font_shadow_color",Color(0,0,0,.95));label.add_theme_constant_override("shadow_offset_x",1);label.add_theme_constant_override("shadow_offset_y",1)
     pressed.connect(func():chosen.emit(unit.id))
     mouse_entered.connect(func():hovered=true);mouse_exited.connect(func():hovered=false)
 func setup(value:RefCounted) -> void:
@@ -74,10 +76,16 @@ func _process(delta:float) -> void:
     if active or (selectable and hovered):queue_redraw()
 func _draw() -> void:
     if not _frame:return
-    _frame.border_color=Color("b4c784") if selectable else Color("756340") if active else Color("465043")
-    _frame.set_border_width_all(2 if selectable or active else 1)
-    draw_style_box(_frame,Rect2(Vector2.ZERO,Vector2(118,142)))
+    var radius:float=28 if unit and unit.kind=="beast" else 24 if unit and unit.kind=="wolf" else 17
+    if animation and animation.dead:radius*=1.6
+    for ring in 3:
+        var points:=PackedVector2Array();var k:=1.0-float(ring)*.2
+        for i in 24:
+            var a:=TAU*float(i)/24;points.append(Vector2(59+cos(a)*radius*k,104+sin(a)*3*k))
+        draw_colored_polygon(points,Color(.055,.035,.025,.07))
     if active:
         var c:=Color("dfc285");c.a=.55+.3*sin(pulse*3)
-        draw_line(Vector2(7,23),Vector2(111,23),c,2)
-    if selectable and hovered:draw_rect(Rect2(3,3,112,136),Color(.75,.85,.6,.08+.04*sin(pulse*6)),true)
+        draw_line(Vector2(21,105),Vector2(97,105),c,1)
+    if selectable:
+        var c:=Color("c6d5a1");c.a=.8 if hovered else .4
+        draw_line(Vector2(12,102),Vector2(12,93),c,1);draw_line(Vector2(106,102),Vector2(106,93),c,1)
