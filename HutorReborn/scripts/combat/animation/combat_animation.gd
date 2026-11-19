@@ -2,6 +2,7 @@ extends Node
 ## One presentation controller drives the existing combat AnimatedSprite2D.
 ## Resolved battle state is never changed here.
 const ROOT="res://assets/combat/forest_v2/"
+const MATERIAL=preload("res://scripts/combat/animation/combat_material.gd")
 static var library:Dictionary={}
 var sprite:AnimatedSprite2D
 var kind:=""
@@ -30,8 +31,8 @@ func configure(target:AnimatedSprite2D,unit_kind:String,unit_team:int,asset_root
     sprite.centered=false;sprite.flip_h=team==1;sprite.material=null
     sprite.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
     var bbox:Array=clips.idle.frames[0].bbox
-    ground_scale=float({"hans":88,"wolf":50,"leshy":94}[kind])/float(bbox[3]-bbox[1])
-    if kind=="leshy":sprite.material=load("res://shaders/combat_leshy_green.tres")
+    ground_scale=MATERIAL.height(kind)/float(bbox[3]-bbox[1])
+    sprite.material=MATERIAL.make(kind)
     sprite.animation_finished.connect(_finished)
     play("idle")
     return true

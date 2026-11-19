@@ -38,7 +38,7 @@ func run() -> void:
         arena._start_scenario(id);await ready_turn(arena)
         for view in arena.views.values():
             var foot:Vector2=view.position+view.body.position
-            check(is_equal_approx(foot.y,288+126*view.unit.lane),"common grounded formation "+id+"/"+view.unit.id)
+            check(is_equal_approx(foot.y,378),"common grounded formation "+id+"/"+view.unit.id)
             check(view.name_label.position.y>view.body.position.y and view.bar.position.y>view.body.position.y,"HUD below feet, not covering model "+view.unit.id)
             check(view.position.y+view.size.y<=466,"formation footer clears action panel "+view.unit.id)
         check(arena.actions.attack.position.y>=488 and arena.hint_label.position.y>=466,"actions clear combat field "+id)

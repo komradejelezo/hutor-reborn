@@ -1,0 +1,2454 @@
+[
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_01.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_02.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_03.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_04.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_05.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_06.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_07.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_08.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_09.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_10.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_11.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Attack/attack_12.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_01.png",
+    "restored_pixels": 6766,
+    "core_pixels": 18907,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_02.png",
+    "restored_pixels": 2676,
+    "core_pixels": 13894,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_03.png",
+    "restored_pixels": 6823,
+    "core_pixels": 18661,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_04.png",
+    "restored_pixels": 2179,
+    "core_pixels": 12955,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_05.png",
+    "restored_pixels": 1888,
+    "core_pixels": 11498,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_06.png",
+    "restored_pixels": 2041,
+    "core_pixels": 11312,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_07.png",
+    "restored_pixels": 2472,
+    "core_pixels": 10237,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_08.png",
+    "restored_pixels": 1574,
+    "core_pixels": 9398,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_09.png",
+    "restored_pixels": 1861,
+    "core_pixels": 9362,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_10.png",
+    "restored_pixels": 1898,
+    "core_pixels": 9423,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_11.png",
+    "restored_pixels": 1402,
+    "core_pixels": 8995,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_12.png",
+    "restored_pixels": 2183,
+    "core_pixels": 9639,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_13.png",
+    "restored_pixels": 2237,
+    "core_pixels": 9537,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_14.png",
+    "restored_pixels": 4979,
+    "core_pixels": 12827,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_15.png",
+    "restored_pixels": 1651,
+    "core_pixels": 8712,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Death/death_16.png",
+    "restored_pixels": 1468,
+    "core_pixels": 8612,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      420,
+      410
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_01.png",
+    "restored_pixels": 15325,
+    "core_pixels": 43670,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_02.png",
+    "restored_pixels": 19438,
+    "core_pixels": 48541,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_03.png",
+    "restored_pixels": 16174,
+    "core_pixels": 42991,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_04.png",
+    "restored_pixels": 18761,
+    "core_pixels": 44255,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_05.png",
+    "restored_pixels": 19776,
+    "core_pixels": 47962,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_06.png",
+    "restored_pixels": 14497,
+    "core_pixels": 41825,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_07.png",
+    "restored_pixels": 15076,
+    "core_pixels": 41300,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_08.png",
+    "restored_pixels": 17374,
+    "core_pixels": 44791,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_09.png",
+    "restored_pixels": 19025,
+    "core_pixels": 46541,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_10.png",
+    "restored_pixels": 17611,
+    "core_pixels": 46725,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_11.png",
+    "restored_pixels": 17604,
+    "core_pixels": 48340,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_12.png",
+    "restored_pixels": 15934,
+    "core_pixels": 45493,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      357,
+      358
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_01.png",
+    "restored_pixels": 23722,
+    "core_pixels": 61266,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_02.png",
+    "restored_pixels": 25854,
+    "core_pixels": 61285,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_03.png",
+    "restored_pixels": 25982,
+    "core_pixels": 63655,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_04.png",
+    "restored_pixels": 26191,
+    "core_pixels": 61743,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_05.png",
+    "restored_pixels": 26998,
+    "core_pixels": 60196,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_06.png",
+    "restored_pixels": 26310,
+    "core_pixels": 57838,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_07.png",
+    "restored_pixels": 27612,
+    "core_pixels": 59230,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_08.png",
+    "restored_pixels": 25294,
+    "core_pixels": 60250,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      520,
+      480
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_01.png",
+    "restored_pixels": 4770,
+    "core_pixels": 11931,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_02.png",
+    "restored_pixels": 4966,
+    "core_pixels": 12080,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_03.png",
+    "restored_pixels": 5165,
+    "core_pixels": 12646,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_04.png",
+    "restored_pixels": 5411,
+    "core_pixels": 12749,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_05.png",
+    "restored_pixels": 5484,
+    "core_pixels": 12797,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_06.png",
+    "restored_pixels": 6394,
+    "core_pixels": 13677,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_07.png",
+    "restored_pixels": 6782,
+    "core_pixels": 14021,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_08.png",
+    "restored_pixels": 6621,
+    "core_pixels": 14095,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_09.png",
+    "restored_pixels": 6558,
+    "core_pixels": 14076,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_10.png",
+    "restored_pixels": 5968,
+    "core_pixels": 13976,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_11.png",
+    "restored_pixels": 6175,
+    "core_pixels": 14036,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_12.png",
+    "restored_pixels": 5852,
+    "core_pixels": 13635,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_13.png",
+    "restored_pixels": 5540,
+    "core_pixels": 13461,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_14.png",
+    "restored_pixels": 5542,
+    "core_pixels": 13079,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_15.png",
+    "restored_pixels": 5103,
+    "core_pixels": 12494,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_16.png",
+    "restored_pixels": 5087,
+    "core_pixels": 12128,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_17.png",
+    "restored_pixels": 5077,
+    "core_pixels": 11975,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_18.png",
+    "restored_pixels": 5613,
+    "core_pixels": 12539,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_19.png",
+    "restored_pixels": 5307,
+    "core_pixels": 12477,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_20.png",
+    "restored_pixels": 5359,
+    "core_pixels": 12483,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_21.png",
+    "restored_pixels": 5050,
+    "core_pixels": 12484,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_22.png",
+    "restored_pixels": 4932,
+    "core_pixels": 12304,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_23.png",
+    "restored_pixels": 5208,
+    "core_pixels": 12489,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_24.png",
+    "restored_pixels": 5194,
+    "core_pixels": 12420,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      422,
+      211
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_01.png",
+    "restored_pixels": 7100,
+    "core_pixels": 22156,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_02.png",
+    "restored_pixels": 10303,
+    "core_pixels": 24326,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_03.png",
+    "restored_pixels": 8690,
+    "core_pixels": 22329,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_04.png",
+    "restored_pixels": 8153,
+    "core_pixels": 21422,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_05.png",
+    "restored_pixels": 8891,
+    "core_pixels": 24000,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_06.png",
+    "restored_pixels": 8934,
+    "core_pixels": 24494,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_07.png",
+    "restored_pixels": 8623,
+    "core_pixels": 24381,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_08.png",
+    "restored_pixels": 9223,
+    "core_pixels": 24758,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_09.png",
+    "restored_pixels": 8965,
+    "core_pixels": 27010,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_10.png",
+    "restored_pixels": 6737,
+    "core_pixels": 27191,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_11.png",
+    "restored_pixels": 8510,
+    "core_pixels": 26765,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_12.png",
+    "restored_pixels": 11037,
+    "core_pixels": 26087,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_13.png",
+    "restored_pixels": 9196,
+    "core_pixels": 23998,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_14.png",
+    "restored_pixels": 11154,
+    "core_pixels": 24946,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_15.png",
+    "restored_pixels": 10285,
+    "core_pixels": 24404,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Use_Invoke/use_16.png",
+    "restored_pixels": 8572,
+    "core_pixels": 23839,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      320,
+      400
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_01.png",
+    "restored_pixels": 12464,
+    "core_pixels": 29509,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_02.png",
+    "restored_pixels": 12412,
+    "core_pixels": 29343,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_03.png",
+    "restored_pixels": 10256,
+    "core_pixels": 26286,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_04.png",
+    "restored_pixels": 12695,
+    "core_pixels": 28951,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_05.png",
+    "restored_pixels": 10905,
+    "core_pixels": 26960,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_06.png",
+    "restored_pixels": 12669,
+    "core_pixels": 29103,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_07.png",
+    "restored_pixels": 12669,
+    "core_pixels": 29103,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_08.png",
+    "restored_pixels": 14529,
+    "core_pixels": 31662,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_09.png",
+    "restored_pixels": 14764,
+    "core_pixels": 31764,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_10.png",
+    "restored_pixels": 13793,
+    "core_pixels": 30265,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_11.png",
+    "restored_pixels": 13137,
+    "core_pixels": 29453,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_12.png",
+    "restored_pixels": 11171,
+    "core_pixels": 27103,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_13.png",
+    "restored_pixels": 12054,
+    "core_pixels": 28288,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_14.png",
+    "restored_pixels": 11418,
+    "core_pixels": 27813,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_15.png",
+    "restored_pixels": 11797,
+    "core_pixels": 28334,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Hans/Victory/victory_16.png",
+    "restored_pixels": 12446,
+    "core_pixels": 29157,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      224,
+      444
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_01.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_02.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_03.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_04.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_05.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_06.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_07.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_08.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_09.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_10.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_11.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_12.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_13.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_14.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_15.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_16.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_17.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_18.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_19.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_20.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_21.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_22.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_23.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_24.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_01.png",
+    "restored_pixels": 7975,
+    "core_pixels": 16694,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_02.png",
+    "restored_pixels": 7436,
+    "core_pixels": 16517,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_03.png",
+    "restored_pixels": 7653,
+    "core_pixels": 16883,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_04.png",
+    "restored_pixels": 7001,
+    "core_pixels": 15535,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_05.png",
+    "restored_pixels": 6819,
+    "core_pixels": 15252,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_06.png",
+    "restored_pixels": 6556,
+    "core_pixels": 14917,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_07.png",
+    "restored_pixels": 8488,
+    "core_pixels": 16378,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_08.png",
+    "restored_pixels": 7745,
+    "core_pixels": 17316,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_09.png",
+    "restored_pixels": 8179,
+    "core_pixels": 17726,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_10.png",
+    "restored_pixels": 6342,
+    "core_pixels": 15270,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_11.png",
+    "restored_pixels": 5775,
+    "core_pixels": 14465,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_12.png",
+    "restored_pixels": 5718,
+    "core_pixels": 13890,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_13.png",
+    "restored_pixels": 5953,
+    "core_pixels": 14418,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_14.png",
+    "restored_pixels": 6712,
+    "core_pixels": 15223,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_15.png",
+    "restored_pixels": 7487,
+    "core_pixels": 16252,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_16.png",
+    "restored_pixels": 8438,
+    "core_pixels": 17295,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_17.png",
+    "restored_pixels": 8333,
+    "core_pixels": 17127,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_18.png",
+    "restored_pixels": 7513,
+    "core_pixels": 15860,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_19.png",
+    "restored_pixels": 7353,
+    "core_pixels": 15079,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_20.png",
+    "restored_pixels": 7468,
+    "core_pixels": 14839,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_21.png",
+    "restored_pixels": 7257,
+    "core_pixels": 14609,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_22.png",
+    "restored_pixels": 7046,
+    "core_pixels": 13601,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_23.png",
+    "restored_pixels": 6474,
+    "core_pixels": 12078,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_24.png",
+    "restored_pixels": 4757,
+    "core_pixels": 9337,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      260
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_01.png",
+    "restored_pixels": 8222,
+    "core_pixels": 17053,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_02.png",
+    "restored_pixels": 7027,
+    "core_pixels": 16039,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_03.png",
+    "restored_pixels": 7929,
+    "core_pixels": 17095,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_04.png",
+    "restored_pixels": 7932,
+    "core_pixels": 17178,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_05.png",
+    "restored_pixels": 6777,
+    "core_pixels": 16156,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_06.png",
+    "restored_pixels": 6570,
+    "core_pixels": 16092,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_07.png",
+    "restored_pixels": 7502,
+    "core_pixels": 16646,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_08.png",
+    "restored_pixels": 7294,
+    "core_pixels": 16726,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_09.png",
+    "restored_pixels": 7129,
+    "core_pixels": 16621,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_10.png",
+    "restored_pixels": 8093,
+    "core_pixels": 17609,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_11.png",
+    "restored_pixels": 7040,
+    "core_pixels": 16805,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_12.png",
+    "restored_pixels": 8033,
+    "core_pixels": 17981,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_13.png",
+    "restored_pixels": 6473,
+    "core_pixels": 16124,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_14.png",
+    "restored_pixels": 6752,
+    "core_pixels": 16486,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_15.png",
+    "restored_pixels": 7131,
+    "core_pixels": 16951,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_16.png",
+    "restored_pixels": 6353,
+    "core_pixels": 15951,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_17.png",
+    "restored_pixels": 6121,
+    "core_pixels": 15767,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_18.png",
+    "restored_pixels": 7324,
+    "core_pixels": 16956,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_19.png",
+    "restored_pixels": 6666,
+    "core_pixels": 16225,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_20.png",
+    "restored_pixels": 6403,
+    "core_pixels": 16216,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_21.png",
+    "restored_pixels": 6413,
+    "core_pixels": 16212,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_22.png",
+    "restored_pixels": 7411,
+    "core_pixels": 17014,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_23.png",
+    "restored_pixels": 7340,
+    "core_pixels": 17059,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_24.png",
+    "restored_pixels": 6562,
+    "core_pixels": 16228,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      460,
+      250
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_01.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_02.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_03.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_04.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_05.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_06.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_07.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_08.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_09.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_10.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_11.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_12.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_13.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_14.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_15.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_16.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_17.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_18.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_19.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_20.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_21.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_22.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_23.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Attack/wolf_attack_24.png",
+    "restored_pixels": 0,
+    "rgb_changed": false,
+    "reason": "RGB attack already has an opaque body; preserve motion trail/magic alpha"
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_01.png",
+    "restored_pixels": 8284,
+    "core_pixels": 22224,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_02.png",
+    "restored_pixels": 8967,
+    "core_pixels": 22628,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_03.png",
+    "restored_pixels": 7359,
+    "core_pixels": 20935,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_04.png",
+    "restored_pixels": 5908,
+    "core_pixels": 18848,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_05.png",
+    "restored_pixels": 8822,
+    "core_pixels": 21442,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_06.png",
+    "restored_pixels": 4787,
+    "core_pixels": 17073,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_07.png",
+    "restored_pixels": 6744,
+    "core_pixels": 19667,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_08.png",
+    "restored_pixels": 6590,
+    "core_pixels": 19396,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_09.png",
+    "restored_pixels": 6570,
+    "core_pixels": 19702,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_10.png",
+    "restored_pixels": 5572,
+    "core_pixels": 19486,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_11.png",
+    "restored_pixels": 4315,
+    "core_pixels": 18015,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_12.png",
+    "restored_pixels": 3881,
+    "core_pixels": 16834,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_13.png",
+    "restored_pixels": 3561,
+    "core_pixels": 16262,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_14.png",
+    "restored_pixels": 3577,
+    "core_pixels": 16189,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_15.png",
+    "restored_pixels": 3766,
+    "core_pixels": 16700,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_16.png",
+    "restored_pixels": 4350,
+    "core_pixels": 16972,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_17.png",
+    "restored_pixels": 3225,
+    "core_pixels": 15534,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_18.png",
+    "restored_pixels": 3596,
+    "core_pixels": 15251,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_19.png",
+    "restored_pixels": 3890,
+    "core_pixels": 15323,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_20.png",
+    "restored_pixels": 3491,
+    "core_pixels": 15158,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_21.png",
+    "restored_pixels": 3426,
+    "core_pixels": 14995,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_22.png",
+    "restored_pixels": 3646,
+    "core_pixels": 14568,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_23.png",
+    "restored_pixels": 4116,
+    "core_pixels": 14956,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Death/wolf_death_24.png",
+    "restored_pixels": 5992,
+    "core_pixels": 16762,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      440,
+      240
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_01.png",
+    "restored_pixels": 7597,
+    "core_pixels": 16488,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_02.png",
+    "restored_pixels": 7579,
+    "core_pixels": 16267,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_03.png",
+    "restored_pixels": 8445,
+    "core_pixels": 17484,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_04.png",
+    "restored_pixels": 8232,
+    "core_pixels": 17682,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_05.png",
+    "restored_pixels": 6940,
+    "core_pixels": 16693,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_06.png",
+    "restored_pixels": 6777,
+    "core_pixels": 17082,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_07.png",
+    "restored_pixels": 6879,
+    "core_pixels": 16581,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_08.png",
+    "restored_pixels": 7962,
+    "core_pixels": 17559,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_09.png",
+    "restored_pixels": 7992,
+    "core_pixels": 17728,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_10.png",
+    "restored_pixels": 6583,
+    "core_pixels": 16750,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_11.png",
+    "restored_pixels": 7354,
+    "core_pixels": 17705,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_12.png",
+    "restored_pixels": 6565,
+    "core_pixels": 17216,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_13.png",
+    "restored_pixels": 6956,
+    "core_pixels": 16928,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_14.png",
+    "restored_pixels": 7583,
+    "core_pixels": 17937,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_15.png",
+    "restored_pixels": 7395,
+    "core_pixels": 17676,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_16.png",
+    "restored_pixels": 7428,
+    "core_pixels": 17534,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_17.png",
+    "restored_pixels": 6401,
+    "core_pixels": 16810,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_18.png",
+    "restored_pixels": 6346,
+    "core_pixels": 16808,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_19.png",
+    "restored_pixels": 6835,
+    "core_pixels": 16990,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_20.png",
+    "restored_pixels": 6738,
+    "core_pixels": 16994,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_21.png",
+    "restored_pixels": 7317,
+    "core_pixels": 17855,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_22.png",
+    "restored_pixels": 6415,
+    "core_pixels": 16939,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_23.png",
+    "restored_pixels": 7200,
+    "core_pixels": 17779,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/forest_v2/prepared/Wolf/Idle/wolf_idle_24.png",
+    "restored_pixels": 7167,
+    "core_pixels": 17915,
+    "core_nonopaque": 0,
+    "rgb_changed": false,
+    "size": [
+      390,
+      205
+    ]
+  },
+  {
+    "path": "assets/combat/readability/herbalist_atlas.png",
+    "original": "assets/npc/herbalist5410/game/atlas.png",
+    "original_sha256": "4d5be850d0919f07404f49745d9272acfeaf529c8716a9bab983f12166a3428f",
+    "restored_pixels": 336334,
+    "rgb_changed": false,
+    "size": [
+      2304,
+      2880
+    ],
+    "source_sampling_factor": 3
+  },
+  {
+    "path": "assets/combat/readability/woodcutter_atlas.png",
+    "original": "assets/npc/woodcutter542/game/atlas.png",
+    "original_sha256": "d851cdf0dd7556ab37294389771cce9a66911be0916826278e54e57bad03de1e",
+    "restored_pixels": 644,
+    "rgb_changed": false,
+    "size": [
+      768,
+      864
+    ],
+    "source_sampling_factor": 1
+  }
+]

@@ -1,13 +1,17 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=8 format=3]
 
 [ext_resource type="Script" path="res://scripts/combat/forest_stage.gd" id="1"]
 [ext_resource type="Texture2D" path="res://assets/combat/forest_v2/backgrounds/Forest_Clearing/forest_clearing_master.png" id="2"]
 [ext_resource type="Script" path="res://scripts/combat/forest_atmosphere.gd" id="3"]
 [ext_resource type="Shader" path="res://shaders/combat_distant_mist.gdshader" id="4"]
+[ext_resource type="Shader" path="res://shaders/combat_field_shade.gdshader" id="5"]
 
 [sub_resource type="ShaderMaterial" id="Mist"]
 resource_local_to_scene = true
 shader = ExtResource("4")
+
+[sub_resource type="ShaderMaterial" id="FieldShade"]
+shader = ExtResource("5")
 
 [node name="ForestStage" type="Control"]
 layout_mode = 3
@@ -31,6 +35,13 @@ texture_filter = 1
 texture = ExtResource("2")
 expand_mode = 1
 stretch_mode = 6
+
+[node name="FieldShade" type="ColorRect" parent="."]
+material = SubResource("FieldShade")
+offset_top = 140.0
+offset_right = 960.0
+offset_bottom = 466.0
+mouse_filter = 2
 
 [node name="Atmosphere" type="Node2D" parent="."]
 script = ExtResource("3")

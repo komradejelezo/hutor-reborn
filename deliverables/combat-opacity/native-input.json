@@ -1,0 +1,9 @@
+{
+  "input": "X11 mouse, no game-state fixture",
+  "scenarios": [
+    "tincture",
+    "duel"
+  ],
+  "recording_exit": 0,
+  "journal_toggle": true
+}
