@@ -6,13 +6,12 @@ static func popup(view:Control,text:String,color:Color,duration:float) -> void:
     view.add_child(l);var t:=view.create_tween();t.tween_property(l,"position:y",16,duration);t.parallel().tween_property(l,"modulate:a",0.0,duration)
     t.tween_callback(l.queue_free)
 static func strike(view:Control,direction:float,duration:float) -> void:
-    var t:=view.create_tween();t.tween_property(view.body,"position:x",59+18*direction,duration*.5).set_trans(Tween.TRANS_QUAD)
-    t.tween_property(view.body,"position:x",59.0,duration*.5)
+    # A unit without authored attack poses must not slide its idle feet.
+    var t:=view.create_tween()
+    t.tween_property(view.sprite,"self_modulate",Color.WHITE,duration).from(Color(1.12,1.07,1.0,1))
 static func hit(view:Control,dead:bool,duration:float) -> void:
-    var t:=view.create_tween();view.sprite.modulate=Color(1.8,.4,.3)
-    t.tween_property(view.body,"position:x",55.0,duration*.2);t.tween_property(view.body,"position:x",63.0,duration*.2)
-    t.tween_property(view.body,"position:x",59.0,duration*.2)
-    t.parallel().tween_property(view.sprite,"modulate",Color(.4,.45,.4,.25) if dead else Color.WHITE,duration)
+    var t:=view.create_tween()
+    t.tween_property(view.sprite,"self_modulate",Color(.7,.67,.62,1) if dead else Color.WHITE,duration).from(Color(1.16,.72,.65,1))
 static func roots(view:Control,duration:float) -> void:
     var vines:=Node2D.new();view.add_child(vines)
     for i in 4:

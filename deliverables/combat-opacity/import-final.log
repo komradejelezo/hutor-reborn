@@ -1,0 +1,279 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] _update_scan_actions | Started Scanning actions... (250 steps)
+[   0% ] _update_scan_actions | attack_01.png
+[   0% ] _update_scan_actions | attack_02.png
+[   0% ] _update_scan_actions | attack_03.png
+[   1% ] _update_scan_actions | attack_04.png
+[   1% ] _update_scan_actions | attack_05.png
+[   1% ] _update_scan_actions | attack_06.png
+[   2% ] _update_scan_actions | attack_07.png
+[   2% ] _update_scan_actions | attack_08.png
+[   3% ] _update_scan_actions | attack_09.png
+[   3% ] _update_scan_actions | attack_10.png
+[   3% ] _update_scan_actions | attack_11.png
+[   4% ] _update_scan_actions | attack_12.png
+[   4% ] _update_scan_actions | death_01.png
+[   5% ] _update_scan_actions | death_02.png
+[   5% ] _update_scan_actions | death_03.png
+[   5% ] _update_scan_actions | death_04.png
+[   6% ] _update_scan_actions | death_05.png
+[   6% ] _update_scan_actions | death_06.png
+[   7% ] _update_scan_actions | death_07.png
+[   7% ] _update_scan_actions | death_08.png
+[   7% ] _update_scan_actions | death_09.png
+[   8% ] _update_scan_actions | death_10.png
+[   8% ] _update_scan_actions | death_11.png
+[   9% ] _update_scan_actions | death_12.png
+[   9% ] _update_scan_actions | death_13.png
+[   9% ] _update_scan_actions | death_14.png
+[  10% ] _update_scan_actions | death_15.png
+[  10% ] _update_scan_actions | death_16.png
+[  11% ] _update_scan_actions | dodge_01.png
+[  11% ] _update_scan_actions | dodge_02.png
+[  11% ] _update_scan_actions | dodge_03.png
+[  12% ] _update_scan_actions | dodge_04.png
+[  12% ] _update_scan_actions | dodge_05.png
+[  13% ] _update_scan_actions | dodge_06.png
+[  13% ] _update_scan_actions | dodge_07.png
+[  13% ] _update_scan_actions | dodge_08.png
+[  14% ] _update_scan_actions | dodge_09.png
+[  14% ] _update_scan_actions | dodge_10.png
+[  15% ] _update_scan_actions | dodge_11.png
+[  15% ] _update_scan_actions | dodge_12.png
+[  15% ] _update_scan_actions | hit_01.png
+[  16% ] _update_scan_actions | hit_02.png
+[  16% ] _update_scan_actions | hit_03.png
+[  17% ] _update_scan_actions | hit_04.png
+[  17% ] _update_scan_actions | hit_05.png
+[  17% ] _update_scan_actions | hit_06.png
+[  18% ] _update_scan_actions | hit_07.png
+[  18% ] _update_scan_actions | hit_08.png
+[  19% ] _update_scan_actions | hans_idle_01.png
+[  19% ] _update_scan_actions | hans_idle_02.png
+[  19% ] _update_scan_actions | hans_idle_03.png
+[  20% ] _update_scan_actions | hans_idle_04.png
+[  20% ] _update_scan_actions | hans_idle_05.png
+[  21% ] _update_scan_actions | hans_idle_06.png
+[  21% ] _update_scan_actions | hans_idle_07.png
+[  21% ] _update_scan_actions | hans_idle_08.png
+[  22% ] _update_scan_actions | hans_idle_09.png
+[  22% ] _update_scan_actions | hans_idle_10.png
+[  23% ] _update_scan_actions | hans_idle_11.png
+[  23% ] _update_scan_actions | hans_idle_12.png
+[  23% ] _update_scan_actions | hans_idle_13.png
+[  24% ] _update_scan_actions | hans_idle_14.png
+[  24% ] _update_scan_actions | hans_idle_15.png
+[  25% ] _update_scan_actions | hans_idle_16.png
+[  25% ] _update_scan_actions | hans_idle_17.png
+[  25% ] _update_scan_actions | hans_idle_18.png
+[  26% ] _update_scan_actions | hans_idle_19.png
+[  26% ] _update_scan_actions | hans_idle_20.png
+[  27% ] _update_scan_actions | hans_idle_21.png
+[  27% ] _update_scan_actions | hans_idle_22.png
+[  27% ] _update_scan_actions | hans_idle_23.png
+[  28% ] _update_scan_actions | hans_idle_24.png
+[  28% ] _update_scan_actions | use_01.png
+[  29% ] _update_scan_actions | use_02.png
+[  29% ] _update_scan_actions | use_03.png
+[  29% ] _update_scan_actions | use_04.png
+[  30% ] _update_scan_actions | use_05.png
+[  30% ] _update_scan_actions | use_06.png
+[  31% ] _update_scan_actions | use_07.png
+[  31% ] _update_scan_actions | use_08.png
+[  31% ] _update_scan_actions | use_09.png
+[  32% ] _update_scan_actions | use_10.png
+[  32% ] _update_scan_actions | use_11.png
+[  33% ] _update_scan_actions | use_12.png
+[  33% ] _update_scan_actions | use_13.png
+[  33% ] _update_scan_actions | use_14.png
+[  34% ] _update_scan_actions | use_15.png
+[  34% ] _update_scan_actions | use_16.png
+[  35% ] _update_scan_actions | victory_01.png
+[  35% ] _update_scan_actions | victory_02.png
+[  35% ] _update_scan_actions | victory_03.png
+[  36% ] _update_scan_actions | victory_04.png
+[  36% ] _update_scan_actions | victory_05.png
+[  37% ] _update_scan_actions | victory_06.png
+[  37% ] _update_scan_actions | victory_07.png
+[  37% ] _update_scan_actions | victory_08.png
+[  38% ] _update_scan_actions | victory_09.png
+[  38% ] _update_scan_actions | victory_10.png
+[  39% ] _update_scan_actions | victory_11.png
+[  39% ] _update_scan_actions | victory_12.png
+[  39% ] _update_scan_actions | victory_13.png
+[  40% ] _update_scan_actions | victory_14.png
+[  40% ] _update_scan_actions | victory_15.png
+[  41% ] _update_scan_actions | victory_16.png
+[  41% ] _update_scan_actions | leshy_attack_01.png
+[  41% ] _update_scan_actions | leshy_attack_02.png
+[  42% ] _update_scan_actions | leshy_attack_03.png
+[  42% ] _update_scan_actions | leshy_attack_04.png
+[  43% ] _update_scan_actions | leshy_attack_05.png
+[  43% ] _update_scan_actions | leshy_attack_06.png
+[  43% ] _update_scan_actions | leshy_attack_07.png
+[  44% ] _update_scan_actions | leshy_attack_08.png
+[  44% ] _update_scan_actions | leshy_attack_09.png
+[  45% ] _update_scan_actions | leshy_attack_10.png
+[  45% ] _update_scan_actions | leshy_attack_11.png
+[  45% ] _update_scan_actions | leshy_attack_12.png
+[  46% ] _update_scan_actions | leshy_attack_13.png
+[  46% ] _update_scan_actions | leshy_attack_14.png
+[  47% ] _update_scan_actions | leshy_attack_15.png
+[  47% ] _update_scan_actions | leshy_attack_16.png
+[  47% ] _update_scan_actions | leshy_attack_17.png
+[  48% ] _update_scan_actions | leshy_attack_18.png
+[  48% ] _update_scan_actions | leshy_attack_19.png
+[  49% ] _update_scan_actions | leshy_attack_20.png
+[  49% ] _update_scan_actions | leshy_attack_21.png
+[  49% ] _update_scan_actions | leshy_attack_22.png
+[  50% ] _update_scan_actions | leshy_attack_23.png
+[  50% ] _update_scan_actions | leshy_attack_24.png
+[  50% ] _update_scan_actions | leshy_death_01.png
+[  51% ] _update_scan_actions | leshy_death_02.png
+[  51% ] _update_scan_actions | leshy_death_03.png
+[  52% ] _update_scan_actions | leshy_death_04.png
+[  52% ] _update_scan_actions | leshy_death_05.png
+[  52% ] _update_scan_actions | leshy_death_06.png
+[  53% ] _update_scan_actions | leshy_death_07.png
+[  53% ] _update_scan_actions | leshy_death_08.png
+[  54% ] _update_scan_actions | leshy_death_09.png
+[  54% ] _update_scan_actions | leshy_death_10.png
+[  54% ] _update_scan_actions | leshy_death_11.png
+[  55% ] _update_scan_actions | leshy_death_12.png
+[  55% ] _update_scan_actions | leshy_death_13.png
+[  56% ] _update_scan_actions | leshy_death_14.png
+[  56% ] _update_scan_actions | leshy_death_15.png
+[  56% ] _update_scan_actions | leshy_death_16.png
+[  57% ] _update_scan_actions | leshy_death_17.png
+[  57% ] _update_scan_actions | leshy_death_18.png
+[  58% ] _update_scan_actions | leshy_death_19.png
+[  58% ] _update_scan_actions | leshy_death_20.png
+[  58% ] _update_scan_actions | leshy_death_21.png
+[  59% ] _update_scan_actions | leshy_death_22.png
+[  59% ] _update_scan_actions | leshy_death_23.png
+[  60% ] _update_scan_actions | leshy_death_24.png
+[  60% ] _update_scan_actions | leshy_idle_01.png
+[  60% ] _update_scan_actions | leshy_idle_02.png
+[  61% ] _update_scan_actions | leshy_idle_03.png
+[  61% ] _update_scan_actions | leshy_idle_04.png
+[  62% ] _update_scan_actions | leshy_idle_05.png
+[  62% ] _update_scan_actions | leshy_idle_06.png
+[  62% ] _update_scan_actions | leshy_idle_07.png
+[  63% ] _update_scan_actions | leshy_idle_08.png
+[  63% ] _update_scan_actions | leshy_idle_09.png
+[  64% ] _update_scan_actions | leshy_idle_10.png
+[  64% ] _update_scan_actions | leshy_idle_11.png
+[  64% ] _update_scan_actions | leshy_idle_12.png
+[  65% ] _update_scan_actions | leshy_idle_13.png
+[  65% ] _update_scan_actions | leshy_idle_14.png
+[  66% ] _update_scan_actions | leshy_idle_15.png
+[  66% ] _update_scan_actions | leshy_idle_16.png
+[  66% ] _update_scan_actions | leshy_idle_17.png
+[  67% ] _update_scan_actions | leshy_idle_18.png
+[  67% ] _update_scan_actions | leshy_idle_19.png
+[  68% ] _update_scan_actions | leshy_idle_20.png
+[  68% ] _update_scan_actions | leshy_idle_21.png
+[  68% ] _update_scan_actions | leshy_idle_22.png
+[  69% ] _update_scan_actions | leshy_idle_23.png
+[  69% ] _update_scan_actions | leshy_idle_24.png
+[  70% ] _update_scan_actions | wolf_attack_01.png
+[  70% ] _update_scan_actions | wolf_attack_02.png
+[  70% ] _update_scan_actions | wolf_attack_03.png
+[  71% ] _update_scan_actions | wolf_attack_04.png
+[  71% ] _update_scan_actions | wolf_attack_05.png
+[  72% ] _update_scan_actions | wolf_attack_06.png
+[  72% ] _update_scan_actions | wolf_attack_07.png
+[  72% ] _update_scan_actions | wolf_attack_08.png
+[  73% ] _update_scan_actions | wolf_attack_09.png
+[  73% ] _update_scan_actions | wolf_attack_10.png
+[  74% ] _update_scan_actions | wolf_attack_11.png
+[  74% ] _update_scan_actions | wolf_attack_12.png
+[  74% ] _update_scan_actions | wolf_attack_13.png
+[  75% ] _update_scan_actions | wolf_attack_14.png
+[  75% ] _update_scan_actions | wolf_attack_15.png
+[  76% ] _update_scan_actions | wolf_attack_16.png
+[  76% ] _update_scan_actions | wolf_attack_17.png
+[  76% ] _update_scan_actions | wolf_attack_18.png
+[  77% ] _update_scan_actions | wolf_attack_19.png
+[  77% ] _update_scan_actions | wolf_attack_20.png
+[  78% ] _update_scan_actions | wolf_attack_21.png
+[  78% ] _update_scan_actions | wolf_attack_22.png
+[  78% ] _update_scan_actions | wolf_attack_23.png
+[  79% ] _update_scan_actions | wolf_attack_24.png
+[  79% ] _update_scan_actions | wolf_death_01.png
+[  80% ] _update_scan_actions | wolf_death_02.png
+[  80% ] _update_scan_actions | wolf_death_03.png
+[  80% ] _update_scan_actions | wolf_death_04.png
+[  81% ] _update_scan_actions | wolf_death_05.png
+[  81% ] _update_scan_actions | wolf_death_06.png
+[  82% ] _update_scan_actions | wolf_death_07.png
+[  82% ] _update_scan_actions | wolf_death_08.png
+[  82% ] _update_scan_actions | wolf_death_09.png
+[  83% ] _update_scan_actions | wolf_death_10.png
+[  83% ] _update_scan_actions | wolf_death_11.png
+[  84% ] _update_scan_actions | wolf_death_12.png
+[  84% ] _update_scan_actions | wolf_death_13.png
+[  84% ] _update_scan_actions | wolf_death_14.png
+[  85% ] _update_scan_actions | wolf_death_15.png
+[  85% ] _update_scan_actions | wolf_death_16.png
+[  86% ] _update_scan_actions | wolf_death_17.png
+[  86% ] _update_scan_actions | wolf_death_18.png
+[  86% ] _update_scan_actions | wolf_death_19.png
+[  87% ] _update_scan_actions | wolf_death_20.png
+[  87% ] _update_scan_actions | wolf_death_21.png
+[  88% ] _update_scan_actions | wolf_death_22.png
+[  88% ] _update_scan_actions | wolf_death_23.png
+[  88% ] _update_scan_actions | wolf_death_24.png
+[  89% ] _update_scan_actions | wolf_idle_01.png
+[  89% ] _update_scan_actions | wolf_idle_02.png
+[  90% ] _update_scan_actions | wolf_idle_03.png
+[  90% ] _update_scan_actions | wolf_idle_04.png
+[  90% ] _update_scan_actions | wolf_idle_05.png
+[  91% ] _update_scan_actions | wolf_idle_06.png
+[  91% ] _update_scan_actions | wolf_idle_07.png
+[  92% ] _update_scan_actions | wolf_idle_08.png
+[  92% ] _update_scan_actions | wolf_idle_09.png
+[  92% ] _update_scan_actions | wolf_idle_10.png
+[  93% ] _update_scan_actions | wolf_idle_11.png
+[  93% ] _update_scan_actions | wolf_idle_12.png
+[  94% ] _update_scan_actions | wolf_idle_13.png
+[  94% ] _update_scan_actions | wolf_idle_14.png
+[  94% ] _update_scan_actions | wolf_idle_15.png
+[  95% ] _update_scan_actions | wolf_idle_16.png
+[  95% ] _update_scan_actions | wolf_idle_17.png
+[  96% ] _update_scan_actions | wolf_idle_18.png
+[  96% ] _update_scan_actions | wolf_idle_19.png
+[  96% ] _update_scan_actions | wolf_idle_20.png
+[  97% ] _update_scan_actions | wolf_idle_21.png
+[  97% ] _update_scan_actions | wolf_idle_22.png
+[  98% ] _update_scan_actions | wolf_idle_23.png
+[  98% ] _update_scan_actions | wolf_idle_24.png
+[  98% ] _update_scan_actions | herbalist_atlas.png
+[  99% ] _update_scan_actions | woodcutter_atlas.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (1 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | herbalist_atlas.png
+[  50% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (1 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout

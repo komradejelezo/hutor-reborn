@@ -23,7 +23,7 @@ func run() -> void:
                 var lo:Vector2=Vector2(b[0]-o[0],b[1]-o[1])*scale_value
                 var hi:Vector2=Vector2(b[2]-o[0],b[3]-o[1])*scale_value
                 # Actual alpha bounds, not the transparent atlas padding.
-                var center:=Vector2(239,288) if kind=="hans" else Vector2(499,288)
+                var center:=Vector2(389,378) if kind=="hans" else Vector2(609,378)
                 if kind!="hans":var swap:=lo.x;lo.x=-hi.x;hi.x=-swap
                 check((center+lo).x>=0 and (center+hi).x<720 and (center+lo).y>100 and (center+hi).y<430,"visible source fits combat stage: "+frame.path.get_file())
         for clip in ["attack","hit","dodge","victory","use_invoke"]:

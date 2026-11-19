@@ -25,6 +25,8 @@ var turn_label:Label
 var queue_label:Label
 var hint_label:Label
 var log_label:RichTextLabel
+var journal:PanelContainer
+var journal_toggle:Button
 var restart_button:Button
 var actions:Dictionary={}
 var modal:Control
@@ -39,16 +41,16 @@ func _ready() -> void:
     STYLE.button(self,"Сценарии",Vector2(610,14),Vector2(104,30),_open_picker)
     restart_button=STYLE.button(self,"Заново",Vector2(722,14),Vector2(98,30),_restart)
     STYLE.button(self,"В меню",Vector2(828,14),Vector2(110,30),_menu)
-    queue_label=STYLE.label(self,"",Vector2(22,55),Vector2(912,24),12)
+    queue_label=STYLE.label(self,"",Vector2(22,55),Vector2(780,24),12)
+    queue_label.clip_text=true;queue_label.text_overrun_behavior=TextServer.OVERRUN_TRIM_ELLIPSIS
     turn_label=STYLE.label(self,"",Vector2(22,86),Vector2(688,28),16,true)
-    for entry in [[22,"ТЫЛ"],[170,"ПЕРЕДНИЙ РЯД"],[425,"ПЕРЕДНИЙ РЯД"],[573,"ТЫЛ"]]:
+    for entry in [[22,"СОЮЗНИКИ"],[490,"ПРОТИВНИКИ"]]:
         var l:=STYLE.label(self,entry[1],Vector2(entry[0],119),Vector2(118,16),10);l.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
-    STYLE.label(self,"ПРОТИВ",Vector2(308,119),Vector2(100,18),10)
-    var journal:=PanelContainer.new();journal.position=Vector2(720,118);journal.size=Vector2(218,298);add_child(journal)
-    var inside:=Control.new();inside.custom_minimum_size=Vector2(192,270);journal.add_child(inside)
-    STYLE.label(inside,"Ход сражения",Vector2.ZERO,Vector2(192,26),17,true)
-    log_label=RichTextLabel.new();log_label.position=Vector2(0,32);log_label.size=Vector2(192,238);log_label.scroll_following=true
+    journal=PanelContainer.new();journal.position=Vector2(22,52);journal.size=Vector2(792,60);journal.hide();add_child(journal)
+    var inside:=Control.new();inside.custom_minimum_size=Vector2(766,40);journal.add_child(inside)
+    log_label=RichTextLabel.new();log_label.position=Vector2.ZERO;log_label.size=Vector2(766,40);log_label.scroll_following=true
     log_label.add_theme_font_size_override("normal_font_size",11);log_label.mouse_filter=Control.MOUSE_FILTER_STOP;inside.add_child(log_label)
+    journal_toggle=STYLE.button(self,"Журнал ▾",Vector2(828,52),Vector2(110,30),_toggle_journal,"Полная история боя; прокрутка колёсиком. Поле не перекрывается.")
     hint_label=STYLE.label(self,"",Vector2(22,466),Vector2(916,18),11)
     var buttons:Array=[
         ["attack","Атака",22,98,"Выбрать доступного противника. Ближняя атака не проходит через живой передний ряд."],
@@ -65,7 +67,14 @@ func _ready() -> void:
     STYLE.label(self,"Наведите курсор на бойца или действие, чтобы узнать подробности",Vector2(22,528),Vector2(906,12),9)
     _open_picker()
 func _slot(u:RefCounted) -> Vector2:
-    return Vector2((180 if u.row=="front" else 25) if u.team==0 else (440 if u.row=="front" else 590),185+126*u.lane)
+    var x:float
+    if u.team==0:x=(330-120*u.lane) if u.row=="front" else (100-80*u.lane)
+    else:x=(550+120*u.lane) if u.row=="front" else (790+80*u.lane)
+    return Vector2(x,275)
+func _toggle_journal() -> void:
+    journal.visible=not journal.visible
+    queue_label.visible=not journal.visible;turn_label.visible=not journal.visible
+    journal_toggle.text="Журнал ▴" if journal.visible else "Журнал ▾"
 func _clear_board() -> void:
     for view in views.values():remove_child(view);view.queue_free()
     views.clear()
@@ -122,8 +131,10 @@ func _render(reposition:bool=true) -> void:
         var fighter:RefCounted=battle.units[battle.order[i]]
         if fighter.alive():names.append(("›" if fighter==u else "·" if i<battle.cursor else "")+fighter.name+" "+str(fighter.initiative))
     queue_label.text="ИНИЦИАТИВА   "+"   /   ".join(names)
+    queue_label.tooltip_text=queue_label.text
     for id in views:
         var view:Button=views[id]
+        view.z_index=2+view.unit.lane
         if reposition:view.position=_slot(view.unit)
         var reason:String=battle.target_reason(selected_action,id)
         if player_turn and reason=="" and selected_action=="attack":reason="Доступная цель · попадание "+str(battle.hit_chance(u,view.unit))+"%"
