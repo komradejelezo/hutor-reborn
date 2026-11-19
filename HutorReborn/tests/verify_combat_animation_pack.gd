@@ -1,6 +1,6 @@
 extends "res://tests/verify_combat_ui_61.gd"
 const DRIVER=preload("res://scripts/combat/animation/combat_animation.gd")
-const ROOT="res://assets/combat/animations_v1/"
+const ROOT=DRIVER.ROOT
 func run() -> void:
     var data:Dictionary=JSON.parse_string(FileAccess.get_file_as_string(ROOT+"library.json"))
     for kind in ["hans","wolf","beast"]:
@@ -23,7 +23,7 @@ func run() -> void:
                 var lo:Vector2=Vector2(b[0]-o[0],b[1]-o[1])*scale_value
                 var hi:Vector2=Vector2(b[2]-o[0],b[3]-o[1])*scale_value
                 # Actual alpha bounds, not the transparent atlas padding.
-                var center:=Vector2(229,241) if kind=="hans" else Vector2(484,241)
+                var center:=Vector2(239,288) if kind=="hans" else Vector2(499,288)
                 if kind!="hans":var swap:=lo.x;lo.x=-hi.x;hi.x=-swap
                 check((center+lo).x>=0 and (center+hi).x<720 and (center+lo).y>100 and (center+hi).y<430,"visible source fits combat stage: "+frame.path.get_file())
         for clip in ["attack","hit","dodge","victory","use_invoke"]:
@@ -67,7 +67,7 @@ func run() -> void:
     arena.battle.units.beast.hp=1;arena.views.beast.reveal_health();arena.battle.units.hans.accuracy=100
     arena._target("beast");arena._start_scenario("duel");await ready_turn(arena)
     check(arena.battle.units.wolf_a.hp==64 and arena.views.wolf_a.presented_hp==64,"restart cancels old key frame without mutating new fight")
-    for fixture in [["duel","wolf_a",7],["forest","beast",12]]:
+    for fixture in [["duel","wolf_a",13],["forest","beast",12]]:
         arena._start_scenario(fixture[0]);await ready_turn(arena)
         var impacts:=[]
         var observer:=func(e:Dictionary):

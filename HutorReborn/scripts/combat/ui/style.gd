@@ -8,6 +8,8 @@ static func box(color:Color=Color("141c19"),border:Color=Color("665d42")) -> Sty
 static func theme() -> Theme:
     var t:=Theme.new();t.default_font=SANS;t.default_font_size=13
     t.set_color("font_color","Label",Color("e1d7bd"));t.set_color("font_color","Button",Color("e1d7bd"))
+    t.set_color("font_shadow_color","Label",Color(0,0,0,.95))
+    t.set_constant("shadow_offset_x","Label",1);t.set_constant("shadow_offset_y","Label",1)
     t.set_stylebox("normal","Button",box());t.set_stylebox("hover","Button",box(Color("28332a"),Color("c2a96c")))
     t.set_stylebox("pressed","Button",box(Color("394133"),Color("d9bf7b")))
     t.set_stylebox("focus","Button",box(Color(0,0,0,0),Color("b7c7a1")))
@@ -27,8 +29,8 @@ static func label(parent:Node,text:String,pos:Vector2,size:Vector2,font_size:int
 static func button(parent:Node,text:String,pos:Vector2,size:Vector2,callback:Callable,tip:String="") -> Button:
     var n:=Button.new();n.text=text;n.position=pos;n.size=size;n.tooltip_text=tip;n.pressed.connect(callback);parent.add_child(n);return n
 static func background(parent:Control) -> void:
-    var image:=TextureRect.new();image.texture=load("res://assets/combat/stage61/clearing.png");image.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
-    image.expand_mode=TextureRect.EXPAND_IGNORE_SIZE;image.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_COVERED
-    image.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT);image.mouse_filter=Control.MOUSE_FILTER_IGNORE;parent.add_child(image)
-    var shade:=ColorRect.new();shade.color=Color(0.015,.025,.02,.35);shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-    shade.mouse_filter=Control.MOUSE_FILTER_IGNORE;parent.add_child(shade)
+    parent.add_child(preload("res://scenes/combat/CombatForestStage.tscn").instantiate())
+static func hud_backdrop(parent:Control,top:float,bottom:float) -> void:
+    for rect in [Rect2(0,0,960,top),Rect2(0,bottom,960,540-bottom)]:
+        var shade:=ColorRect.new();shade.color=Color(.035,.025,.025,.72)
+        shade.position=rect.position;shade.size=rect.size;shade.mouse_filter=Control.MOUSE_FILTER_IGNORE;parent.add_child(shade)

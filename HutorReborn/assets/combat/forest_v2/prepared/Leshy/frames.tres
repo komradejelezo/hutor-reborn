@@ -1,0 +1,553 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_01.png" id="f1"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_02.png" id="f2"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_03.png" id="f3"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_04.png" id="f4"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_05.png" id="f5"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_06.png" id="f6"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_07.png" id="f7"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_08.png" id="f8"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_09.png" id="f9"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_10.png" id="f10"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_11.png" id="f11"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_12.png" id="f12"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_13.png" id="f13"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_14.png" id="f14"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_15.png" id="f15"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_16.png" id="f16"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_17.png" id="f17"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_18.png" id="f18"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_19.png" id="f19"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_20.png" id="f20"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_21.png" id="f21"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_22.png" id="f22"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_23.png" id="f23"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Idle/leshy_idle_24.png" id="f24"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_01.png" id="f25"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_02.png" id="f26"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_03.png" id="f27"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_04.png" id="f28"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_05.png" id="f29"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_06.png" id="f30"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_07.png" id="f31"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_08.png" id="f32"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_09.png" id="f33"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_10.png" id="f34"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_11.png" id="f35"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_12.png" id="f36"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_13.png" id="f37"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_14.png" id="f38"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_15.png" id="f39"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_16.png" id="f40"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_17.png" id="f41"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_18.png" id="f42"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_19.png" id="f43"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_20.png" id="f44"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_21.png" id="f45"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_22.png" id="f46"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_23.png" id="f47"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Attack/leshy_attack_24.png" id="f48"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_01.png" id="f49"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_02.png" id="f50"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_03.png" id="f51"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_04.png" id="f52"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_05.png" id="f53"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_06.png" id="f54"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_07.png" id="f55"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_08.png" id="f56"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_09.png" id="f57"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_10.png" id="f58"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_11.png" id="f59"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_12.png" id="f60"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_13.png" id="f61"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_14.png" id="f62"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_15.png" id="f63"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_16.png" id="f64"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_17.png" id="f65"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_18.png" id="f66"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_19.png" id="f67"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_20.png" id="f68"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_21.png" id="f69"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_22.png" id="f70"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_23.png" id="f71"]
+[ext_resource type="Texture2D" path="res://assets/combat/forest_v2/prepared/Leshy/Death/leshy_death_24.png" id="f72"]
+
+[sub_resource type="AtlasTexture" id="f1"]
+atlas = ExtResource("f1")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 415, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f2"]
+atlas = ExtResource("f2")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 415, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f3"]
+atlas = ExtResource("f3")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 415, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f4"]
+atlas = ExtResource("f4")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 415, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f5"]
+atlas = ExtResource("f5")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 415, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f6"]
+atlas = ExtResource("f6")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 415, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f7"]
+atlas = ExtResource("f7")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(399.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f8"]
+atlas = ExtResource("f8")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f9"]
+atlas = ExtResource("f9")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(399.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f10"]
+atlas = ExtResource("f10")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f11"]
+atlas = ExtResource("f11")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f12"]
+atlas = ExtResource("f12")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f13"]
+atlas = ExtResource("f13")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f14"]
+atlas = ExtResource("f14")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f15"]
+atlas = ExtResource("f15")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f16"]
+atlas = ExtResource("f16")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f17"]
+atlas = ExtResource("f17")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f18"]
+atlas = ExtResource("f18")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(401.0, 417, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f19"]
+atlas = ExtResource("f19")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f20"]
+atlas = ExtResource("f20")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f21"]
+atlas = ExtResource("f21")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f22"]
+atlas = ExtResource("f22")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f23"]
+atlas = ExtResource("f23")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f24"]
+atlas = ExtResource("f24")
+region = Rect2(0, 0, 460, 250)
+margin = Rect2(400.0, 418, 740, 550)
+
+[sub_resource type="AtlasTexture" id="f25"]
+atlas = ExtResource("f25")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 436, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f26"]
+atlas = ExtResource("f26")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 436, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f27"]
+atlas = ExtResource("f27")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 436, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f28"]
+atlas = ExtResource("f28")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f29"]
+atlas = ExtResource("f29")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 436, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f30"]
+atlas = ExtResource("f30")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 436, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f31"]
+atlas = ExtResource("f31")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f32"]
+atlas = ExtResource("f32")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f33"]
+atlas = ExtResource("f33")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f34"]
+atlas = ExtResource("f34")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f35"]
+atlas = ExtResource("f35")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f36"]
+atlas = ExtResource("f36")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f37"]
+atlas = ExtResource("f37")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 438, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f38"]
+atlas = ExtResource("f38")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 438, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f39"]
+atlas = ExtResource("f39")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 439, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f40"]
+atlas = ExtResource("f40")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 439, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f41"]
+atlas = ExtResource("f41")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 439, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f42"]
+atlas = ExtResource("f42")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 439, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f43"]
+atlas = ExtResource("f43")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f44"]
+atlas = ExtResource("f44")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f45"]
+atlas = ExtResource("f45")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f46"]
+atlas = ExtResource("f46")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f47"]
+atlas = ExtResource("f47")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f48"]
+atlas = ExtResource("f48")
+region = Rect2(0, 0, 462, 261)
+margin = Rect2(399.5, 437, 738, 539)
+
+[sub_resource type="AtlasTexture" id="f49"]
+atlas = ExtResource("f49")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 423, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f50"]
+atlas = ExtResource("f50")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 423, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f51"]
+atlas = ExtResource("f51")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 423, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f52"]
+atlas = ExtResource("f52")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 424, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f53"]
+atlas = ExtResource("f53")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 424, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f54"]
+atlas = ExtResource("f54")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 423, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f55"]
+atlas = ExtResource("f55")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 426, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f56"]
+atlas = ExtResource("f56")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 426, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f57"]
+atlas = ExtResource("f57")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 426, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f58"]
+atlas = ExtResource("f58")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 426, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f59"]
+atlas = ExtResource("f59")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 428, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f60"]
+atlas = ExtResource("f60")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 431, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f61"]
+atlas = ExtResource("f61")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 431, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f62"]
+atlas = ExtResource("f62")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 434, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f63"]
+atlas = ExtResource("f63")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f64"]
+atlas = ExtResource("f64")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 434, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f65"]
+atlas = ExtResource("f65")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f66"]
+atlas = ExtResource("f66")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 434, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f67"]
+atlas = ExtResource("f67")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f68"]
+atlas = ExtResource("f68")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f69"]
+atlas = ExtResource("f69")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 432, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f70"]
+atlas = ExtResource("f70")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f71"]
+atlas = ExtResource("f71")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[sub_resource type="AtlasTexture" id="f72"]
+atlas = ExtResource("f72")
+region = Rect2(0, 0, 440, 260)
+margin = Rect2(413.0, 433, 760, 540)
+
+[resource]
+animations = [
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("f1")},
+{"duration": 1.0, "texture": SubResource("f2")},
+{"duration": 1.0, "texture": SubResource("f3")},
+{"duration": 1.0, "texture": SubResource("f4")},
+{"duration": 1.0, "texture": SubResource("f5")},
+{"duration": 1.0, "texture": SubResource("f6")},
+{"duration": 1.0, "texture": SubResource("f7")},
+{"duration": 1.0, "texture": SubResource("f8")},
+{"duration": 1.0, "texture": SubResource("f9")},
+{"duration": 1.0, "texture": SubResource("f10")},
+{"duration": 1.0, "texture": SubResource("f11")},
+{"duration": 1.0, "texture": SubResource("f12")},
+{"duration": 1.0, "texture": SubResource("f13")},
+{"duration": 1.0, "texture": SubResource("f14")},
+{"duration": 1.0, "texture": SubResource("f15")},
+{"duration": 1.0, "texture": SubResource("f16")},
+{"duration": 1.0, "texture": SubResource("f17")},
+{"duration": 1.0, "texture": SubResource("f18")},
+{"duration": 1.0, "texture": SubResource("f19")},
+{"duration": 1.0, "texture": SubResource("f20")},
+{"duration": 1.0, "texture": SubResource("f21")},
+{"duration": 1.0, "texture": SubResource("f22")},
+{"duration": 1.0, "texture": SubResource("f23")},
+{"duration": 1.0, "texture": SubResource("f24")},
+{"duration": 1.0, "texture": SubResource("f23")},
+{"duration": 1.0, "texture": SubResource("f22")},
+{"duration": 1.0, "texture": SubResource("f21")},
+{"duration": 1.0, "texture": SubResource("f20")},
+{"duration": 1.0, "texture": SubResource("f19")},
+{"duration": 1.0, "texture": SubResource("f18")},
+{"duration": 1.0, "texture": SubResource("f17")},
+{"duration": 1.0, "texture": SubResource("f16")},
+{"duration": 1.0, "texture": SubResource("f15")},
+{"duration": 1.0, "texture": SubResource("f14")},
+{"duration": 1.0, "texture": SubResource("f13")},
+{"duration": 1.0, "texture": SubResource("f12")},
+{"duration": 1.0, "texture": SubResource("f11")},
+{"duration": 1.0, "texture": SubResource("f10")},
+{"duration": 1.0, "texture": SubResource("f9")},
+{"duration": 1.0, "texture": SubResource("f8")},
+{"duration": 1.0, "texture": SubResource("f7")},
+{"duration": 1.0, "texture": SubResource("f6")},
+{"duration": 1.0, "texture": SubResource("f5")},
+{"duration": 1.0, "texture": SubResource("f4")},
+{"duration": 1.0, "texture": SubResource("f3")},
+{"duration": 1.0, "texture": SubResource("f2")}
+],
+"loop": true,
+"name": &"idle",
+"speed": 5.714285714285714
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("f25")},
+{"duration": 1.0, "texture": SubResource("f26")},
+{"duration": 1.0, "texture": SubResource("f27")},
+{"duration": 1.0, "texture": SubResource("f28")},
+{"duration": 1.0, "texture": SubResource("f29")},
+{"duration": 1.0, "texture": SubResource("f30")},
+{"duration": 1.0, "texture": SubResource("f31")},
+{"duration": 1.0, "texture": SubResource("f32")},
+{"duration": 1.0, "texture": SubResource("f33")},
+{"duration": 1.0, "texture": SubResource("f34")},
+{"duration": 1.0, "texture": SubResource("f35")},
+{"duration": 1.0, "texture": SubResource("f36")},
+{"duration": 1.0, "texture": SubResource("f37")},
+{"duration": 1.0, "texture": SubResource("f38")},
+{"duration": 1.0, "texture": SubResource("f39")},
+{"duration": 1.0, "texture": SubResource("f40")},
+{"duration": 1.0, "texture": SubResource("f41")},
+{"duration": 1.0, "texture": SubResource("f42")},
+{"duration": 1.0, "texture": SubResource("f43")},
+{"duration": 1.0, "texture": SubResource("f44")},
+{"duration": 1.0, "texture": SubResource("f45")},
+{"duration": 1.0, "texture": SubResource("f46")},
+{"duration": 1.0, "texture": SubResource("f47")},
+{"duration": 1.0, "texture": SubResource("f48")}
+],
+"loop": false,
+"name": &"attack",
+"speed": 15.384615384615385
+},
+{
+"frames": [
+{"duration": 1.0, "texture": SubResource("f49")},
+{"duration": 1.0, "texture": SubResource("f50")},
+{"duration": 1.0, "texture": SubResource("f51")},
+{"duration": 1.0, "texture": SubResource("f52")},
+{"duration": 1.0, "texture": SubResource("f53")},
+{"duration": 1.0, "texture": SubResource("f54")},
+{"duration": 1.0, "texture": SubResource("f55")},
+{"duration": 1.0, "texture": SubResource("f56")},
+{"duration": 1.0, "texture": SubResource("f57")},
+{"duration": 1.0, "texture": SubResource("f58")},
+{"duration": 1.0, "texture": SubResource("f59")},
+{"duration": 1.0, "texture": SubResource("f60")},
+{"duration": 1.0, "texture": SubResource("f61")},
+{"duration": 1.0, "texture": SubResource("f62")},
+{"duration": 1.0, "texture": SubResource("f63")},
+{"duration": 1.0, "texture": SubResource("f64")},
+{"duration": 1.0, "texture": SubResource("f65")},
+{"duration": 1.0, "texture": SubResource("f66")},
+{"duration": 1.0, "texture": SubResource("f67")},
+{"duration": 1.0, "texture": SubResource("f68")},
+{"duration": 1.0, "texture": SubResource("f69")},
+{"duration": 1.0, "texture": SubResource("f70")},
+{"duration": 1.0, "texture": SubResource("f71")},
+{"duration": 1.0, "texture": SubResource("f72")}
+],
+"loop": false,
+"name": &"death",
+"speed": 13.333333333333334
+}
+]
