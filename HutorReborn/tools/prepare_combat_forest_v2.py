@@ -52,8 +52,11 @@ def close_pinholes(im):
     return Image.fromarray(a),count
 
 def main():
-    # Legacy manifest describes the pose folders only; v2 task decides playback.
-    entries=json.loads((ROOT/'LEGACY_manifest.json').read_text());library={};audit=[]
+    # Approved v2 task supplies the clip list; LEGACY_* is reference material only.
+    kinds=("Hans/Idle Hans/Attack Hans/Hit Hans/Victory Hans/Death "
+           "Wolf/Idle Wolf/Attack Wolf/Death Leshy/Idle Leshy/Attack Leshy/Death "
+           "Hans/Use_Invoke Hans/Dodge").split()
+    entries=[{'animation':kind} for kind in kinds];library={};audit=[]
     for entry in entries:
         kind=entry['animation'];unit,clip=kind.split('/')
         paths=sorted(p for p in (ROOT/'assets'/kind).glob('*.png') if not p.stem.endswith('strip'))
