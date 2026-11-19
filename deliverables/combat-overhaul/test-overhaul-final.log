@@ -1,0 +1,556 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: all seven existing battle kinds in lab
+PASS: before/after actors hans
+PASS: nonempty clip hans/attack
+PASS: manual frame step/pause hans/attack
+PASS: frame clamp hans/attack
+PASS: play/pause uniform scale hans/attack
+PASS: resume preserves paused position hans/attack
+PASS: nonempty clip hans/death
+PASS: manual frame step/pause hans/death
+PASS: frame clamp hans/death
+PASS: play/pause uniform scale hans/death
+PASS: resume preserves paused position hans/death
+PASS: nonempty clip hans/dodge
+PASS: manual frame step/pause hans/dodge
+PASS: frame clamp hans/dodge
+PASS: play/pause uniform scale hans/dodge
+PASS: resume preserves paused position hans/dodge
+PASS: nonempty clip hans/hit
+PASS: manual frame step/pause hans/hit
+PASS: frame clamp hans/hit
+PASS: play/pause uniform scale hans/hit
+PASS: resume preserves paused position hans/hit
+PASS: nonempty clip hans/idle
+PASS: manual frame step/pause hans/idle
+PASS: frame clamp hans/idle
+PASS: play/pause uniform scale hans/idle
+PASS: resume preserves paused position hans/idle
+PASS: nonempty clip hans/use_invoke
+PASS: manual frame step/pause hans/use_invoke
+PASS: frame clamp hans/use_invoke
+PASS: play/pause uniform scale hans/use_invoke
+PASS: resume preserves paused position hans/use_invoke
+PASS: nonempty clip hans/victory
+PASS: manual frame step/pause hans/victory
+PASS: frame clamp hans/victory
+PASS: play/pause uniform scale hans/victory
+PASS: resume preserves paused position hans/victory
+PASS: before/after actors woodcutter
+PASS: nonempty clip woodcutter/carry_down
+PASS: manual frame step/pause woodcutter/carry_down
+PASS: frame clamp woodcutter/carry_down
+PASS: play/pause uniform scale woodcutter/carry_down
+PASS: resume preserves paused position woodcutter/carry_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_idle_down
+PASS: manual frame step/pause woodcutter/carry_idle_down
+PASS: frame clamp woodcutter/carry_idle_down
+PASS: play/pause uniform scale woodcutter/carry_idle_down
+PASS: resume preserves paused position woodcutter/carry_idle_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_idle_left
+PASS: manual frame step/pause woodcutter/carry_idle_left
+PASS: frame clamp woodcutter/carry_idle_left
+PASS: play/pause uniform scale woodcutter/carry_idle_left
+PASS: resume preserves paused position woodcutter/carry_idle_left
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_idle_right
+PASS: manual frame step/pause woodcutter/carry_idle_right
+PASS: frame clamp woodcutter/carry_idle_right
+PASS: play/pause uniform scale woodcutter/carry_idle_right
+PASS: resume preserves paused position woodcutter/carry_idle_right
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_idle_up
+PASS: manual frame step/pause woodcutter/carry_idle_up
+PASS: frame clamp woodcutter/carry_idle_up
+PASS: play/pause uniform scale woodcutter/carry_idle_up
+PASS: resume preserves paused position woodcutter/carry_idle_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_left
+PASS: manual frame step/pause woodcutter/carry_left
+PASS: frame clamp woodcutter/carry_left
+PASS: play/pause uniform scale woodcutter/carry_left
+PASS: resume preserves paused position woodcutter/carry_left
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_logs
+PASS: manual frame step/pause woodcutter/carry_logs
+PASS: frame clamp woodcutter/carry_logs
+PASS: play/pause uniform scale woodcutter/carry_logs
+PASS: resume preserves paused position woodcutter/carry_logs
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_right
+PASS: manual frame step/pause woodcutter/carry_right
+PASS: frame clamp woodcutter/carry_right
+PASS: play/pause uniform scale woodcutter/carry_right
+PASS: resume preserves paused position woodcutter/carry_right
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/carry_up
+PASS: manual frame step/pause woodcutter/carry_up
+PASS: frame clamp woodcutter/carry_up
+PASS: play/pause uniform scale woodcutter/carry_up
+PASS: resume preserves paused position woodcutter/carry_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/chop_wood
+PASS: manual frame step/pause woodcutter/chop_wood
+PASS: frame clamp woodcutter/chop_wood
+PASS: play/pause uniform scale woodcutter/chop_wood
+PASS: resume preserves paused position woodcutter/chop_wood
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/idle_down
+PASS: manual frame step/pause woodcutter/idle_down
+PASS: frame clamp woodcutter/idle_down
+PASS: play/pause uniform scale woodcutter/idle_down
+PASS: resume preserves paused position woodcutter/idle_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/idle_left
+PASS: manual frame step/pause woodcutter/idle_left
+PASS: frame clamp woodcutter/idle_left
+PASS: play/pause uniform scale woodcutter/idle_left
+PASS: resume preserves paused position woodcutter/idle_left
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/idle_right
+PASS: manual frame step/pause woodcutter/idle_right
+PASS: frame clamp woodcutter/idle_right
+PASS: play/pause uniform scale woodcutter/idle_right
+PASS: resume preserves paused position woodcutter/idle_right
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/idle_up
+PASS: manual frame step/pause woodcutter/idle_up
+PASS: frame clamp woodcutter/idle_up
+PASS: play/pause uniform scale woodcutter/idle_up
+PASS: resume preserves paused position woodcutter/idle_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/pick_up_log
+PASS: manual frame step/pause woodcutter/pick_up_log
+PASS: frame clamp woodcutter/pick_up_log
+PASS: play/pause uniform scale woodcutter/pick_up_log
+PASS: resume preserves paused position woodcutter/pick_up_log
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/put_down_log
+PASS: manual frame step/pause woodcutter/put_down_log
+PASS: frame clamp woodcutter/put_down_log
+PASS: play/pause uniform scale woodcutter/put_down_log
+PASS: resume preserves paused position woodcutter/put_down_log
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/rest
+PASS: manual frame step/pause woodcutter/rest
+PASS: frame clamp woodcutter/rest
+PASS: play/pause uniform scale woodcutter/rest
+PASS: resume preserves paused position woodcutter/rest
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/talk
+PASS: manual frame step/pause woodcutter/talk
+PASS: frame clamp woodcutter/talk
+PASS: play/pause uniform scale woodcutter/talk
+PASS: resume preserves paused position woodcutter/talk
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/talk_down
+PASS: manual frame step/pause woodcutter/talk_down
+PASS: frame clamp woodcutter/talk_down
+PASS: play/pause uniform scale woodcutter/talk_down
+PASS: resume preserves paused position woodcutter/talk_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/talk_left
+PASS: manual frame step/pause woodcutter/talk_left
+PASS: frame clamp woodcutter/talk_left
+PASS: play/pause uniform scale woodcutter/talk_left
+PASS: resume preserves paused position woodcutter/talk_left
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/talk_right
+PASS: manual frame step/pause woodcutter/talk_right
+PASS: frame clamp woodcutter/talk_right
+PASS: play/pause uniform scale woodcutter/talk_right
+PASS: resume preserves paused position woodcutter/talk_right
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/talk_up
+PASS: manual frame step/pause woodcutter/talk_up
+PASS: frame clamp woodcutter/talk_up
+PASS: play/pause uniform scale woodcutter/talk_up
+PASS: resume preserves paused position woodcutter/talk_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/turn_down
+PASS: manual frame step/pause woodcutter/turn_down
+PASS: frame clamp woodcutter/turn_down
+PASS: play/pause uniform scale woodcutter/turn_down
+PASS: resume preserves paused position woodcutter/turn_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/turn_left
+PASS: manual frame step/pause woodcutter/turn_left
+PASS: frame clamp woodcutter/turn_left
+PASS: play/pause uniform scale woodcutter/turn_left
+PASS: resume preserves paused position woodcutter/turn_left
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/turn_right
+PASS: manual frame step/pause woodcutter/turn_right
+PASS: frame clamp woodcutter/turn_right
+PASS: play/pause uniform scale woodcutter/turn_right
+PASS: resume preserves paused position woodcutter/turn_right
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/turn_up
+PASS: manual frame step/pause woodcutter/turn_up
+PASS: frame clamp woodcutter/turn_up
+PASS: play/pause uniform scale woodcutter/turn_up
+PASS: resume preserves paused position woodcutter/turn_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/walk_down
+PASS: manual frame step/pause woodcutter/walk_down
+PASS: frame clamp woodcutter/walk_down
+PASS: play/pause uniform scale woodcutter/walk_down
+PASS: resume preserves paused position woodcutter/walk_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/walk_left
+PASS: manual frame step/pause woodcutter/walk_left
+PASS: frame clamp woodcutter/walk_left
+PASS: play/pause uniform scale woodcutter/walk_left
+PASS: resume preserves paused position woodcutter/walk_left
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/walk_right
+PASS: manual frame step/pause woodcutter/walk_right
+PASS: frame clamp woodcutter/walk_right
+PASS: play/pause uniform scale woodcutter/walk_right
+PASS: resume preserves paused position woodcutter/walk_right
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/walk_up
+PASS: manual frame step/pause woodcutter/walk_up
+PASS: frame clamp woodcutter/walk_up
+PASS: play/pause uniform scale woodcutter/walk_up
+PASS: resume preserves paused position woodcutter/walk_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/work_carry
+PASS: manual frame step/pause woodcutter/work_carry
+PASS: frame clamp woodcutter/work_carry
+PASS: play/pause uniform scale woodcutter/work_carry
+PASS: resume preserves paused position woodcutter/work_carry
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/work_chop
+PASS: manual frame step/pause woodcutter/work_chop
+PASS: frame clamp woodcutter/work_chop
+PASS: play/pause uniform scale woodcutter/work_chop
+PASS: resume preserves paused position woodcutter/work_chop
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/work_inspect
+PASS: manual frame step/pause woodcutter/work_inspect
+PASS: frame clamp woodcutter/work_inspect
+PASS: play/pause uniform scale woodcutter/work_inspect
+PASS: resume preserves paused position woodcutter/work_inspect
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/work_pick_up
+PASS: manual frame step/pause woodcutter/work_pick_up
+PASS: frame clamp woodcutter/work_pick_up
+PASS: play/pause uniform scale woodcutter/work_pick_up
+PASS: resume preserves paused position woodcutter/work_pick_up
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/work_put_down
+PASS: manual frame step/pause woodcutter/work_put_down
+PASS: frame clamp woodcutter/work_put_down
+PASS: play/pause uniform scale woodcutter/work_put_down
+PASS: resume preserves paused position woodcutter/work_put_down
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: nonempty clip woodcutter/work_rest
+PASS: manual frame step/pause woodcutter/work_rest
+PASS: frame clamp woodcutter/work_rest
+PASS: play/pause uniform scale woodcutter/work_rest
+PASS: resume preserves paused position woodcutter/work_rest
+PASS: approved wood palette shader default is preserved
+PASS: battle-local atlas woodcutter
+PASS: capture lab-woodcutter
+PASS: before/after actors herbalist
+PASS: nonempty clip herbalist/brew_infusion
+PASS: manual frame step/pause herbalist/brew_infusion
+PASS: frame clamp herbalist/brew_infusion
+PASS: play/pause uniform scale herbalist/brew_infusion
+PASS: resume preserves paused position herbalist/brew_infusion
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/gather_herbs
+PASS: manual frame step/pause herbalist/gather_herbs
+PASS: frame clamp herbalist/gather_herbs
+PASS: play/pause uniform scale herbalist/gather_herbs
+PASS: resume preserves paused position herbalist/gather_herbs
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/grind_herbs
+PASS: manual frame step/pause herbalist/grind_herbs
+PASS: frame clamp herbalist/grind_herbs
+PASS: play/pause uniform scale herbalist/grind_herbs
+PASS: resume preserves paused position herbalist/grind_herbs
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/idle_down
+PASS: manual frame step/pause herbalist/idle_down
+PASS: frame clamp herbalist/idle_down
+PASS: play/pause uniform scale herbalist/idle_down
+PASS: resume preserves paused position herbalist/idle_down
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/idle_left
+PASS: manual frame step/pause herbalist/idle_left
+PASS: frame clamp herbalist/idle_left
+PASS: play/pause uniform scale herbalist/idle_left
+PASS: resume preserves paused position herbalist/idle_left
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/idle_right
+PASS: manual frame step/pause herbalist/idle_right
+PASS: frame clamp herbalist/idle_right
+PASS: play/pause uniform scale herbalist/idle_right
+PASS: resume preserves paused position herbalist/idle_right
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/idle_up
+PASS: manual frame step/pause herbalist/idle_up
+PASS: frame clamp herbalist/idle_up
+PASS: play/pause uniform scale herbalist/idle_up
+PASS: resume preserves paused position herbalist/idle_up
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/read_herbal
+PASS: manual frame step/pause herbalist/read_herbal
+PASS: frame clamp herbalist/read_herbal
+PASS: play/pause uniform scale herbalist/read_herbal
+PASS: resume preserves paused position herbalist/read_herbal
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/sort_herbs
+PASS: manual frame step/pause herbalist/sort_herbs
+PASS: frame clamp herbalist/sort_herbs
+PASS: play/pause uniform scale herbalist/sort_herbs
+PASS: resume preserves paused position herbalist/sort_herbs
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/talk
+PASS: manual frame step/pause herbalist/talk
+PASS: frame clamp herbalist/talk
+PASS: play/pause uniform scale herbalist/talk
+PASS: resume preserves paused position herbalist/talk
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/talk_down
+PASS: manual frame step/pause herbalist/talk_down
+PASS: frame clamp herbalist/talk_down
+PASS: play/pause uniform scale herbalist/talk_down
+PASS: resume preserves paused position herbalist/talk_down
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/talk_left
+PASS: manual frame step/pause herbalist/talk_left
+PASS: frame clamp herbalist/talk_left
+PASS: play/pause uniform scale herbalist/talk_left
+PASS: resume preserves paused position herbalist/talk_left
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/talk_right
+PASS: manual frame step/pause herbalist/talk_right
+PASS: frame clamp herbalist/talk_right
+PASS: play/pause uniform scale herbalist/talk_right
+PASS: resume preserves paused position herbalist/talk_right
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/talk_up
+PASS: manual frame step/pause herbalist/talk_up
+PASS: frame clamp herbalist/talk_up
+PASS: play/pause uniform scale herbalist/talk_up
+PASS: resume preserves paused position herbalist/talk_up
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/turn_down
+PASS: manual frame step/pause herbalist/turn_down
+PASS: frame clamp herbalist/turn_down
+PASS: play/pause uniform scale herbalist/turn_down
+PASS: resume preserves paused position herbalist/turn_down
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/turn_left
+PASS: manual frame step/pause herbalist/turn_left
+PASS: frame clamp herbalist/turn_left
+PASS: play/pause uniform scale herbalist/turn_left
+PASS: resume preserves paused position herbalist/turn_left
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/turn_right
+PASS: manual frame step/pause herbalist/turn_right
+PASS: frame clamp herbalist/turn_right
+PASS: play/pause uniform scale herbalist/turn_right
+PASS: resume preserves paused position herbalist/turn_right
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/turn_up
+PASS: manual frame step/pause herbalist/turn_up
+PASS: frame clamp herbalist/turn_up
+PASS: play/pause uniform scale herbalist/turn_up
+PASS: resume preserves paused position herbalist/turn_up
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/walk_down
+PASS: manual frame step/pause herbalist/walk_down
+PASS: frame clamp herbalist/walk_down
+PASS: play/pause uniform scale herbalist/walk_down
+PASS: resume preserves paused position herbalist/walk_down
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/walk_left
+PASS: manual frame step/pause herbalist/walk_left
+PASS: frame clamp herbalist/walk_left
+PASS: play/pause uniform scale herbalist/walk_left
+PASS: resume preserves paused position herbalist/walk_left
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/walk_right
+PASS: manual frame step/pause herbalist/walk_right
+PASS: frame clamp herbalist/walk_right
+PASS: play/pause uniform scale herbalist/walk_right
+PASS: resume preserves paused position herbalist/walk_right
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/walk_up
+PASS: manual frame step/pause herbalist/walk_up
+PASS: frame clamp herbalist/walk_up
+PASS: play/pause uniform scale herbalist/walk_up
+PASS: resume preserves paused position herbalist/walk_up
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/work_gather
+PASS: manual frame step/pause herbalist/work_gather
+PASS: frame clamp herbalist/work_gather
+PASS: play/pause uniform scale herbalist/work_gather
+PASS: resume preserves paused position herbalist/work_gather
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/work_grind
+PASS: manual frame step/pause herbalist/work_grind
+PASS: frame clamp herbalist/work_grind
+PASS: play/pause uniform scale herbalist/work_grind
+PASS: resume preserves paused position herbalist/work_grind
+PASS: battle-local atlas herbalist
+PASS: nonempty clip herbalist/work_table
+PASS: manual frame step/pause herbalist/work_table
+PASS: frame clamp herbalist/work_table
+PASS: play/pause uniform scale herbalist/work_table
+PASS: resume preserves paused position herbalist/work_table
+PASS: battle-local atlas herbalist
+PASS: capture lab-herbalist
+PASS: before/after actors mercenary
+PASS: nonempty clip mercenary/default
+PASS: manual frame step/pause mercenary/default
+PASS: frame clamp mercenary/default
+PASS: play/pause uniform scale mercenary/default
+PASS: resume preserves paused position mercenary/default
+PASS: capture lab-mercenary
+PASS: before/after actors wolf
+PASS: nonempty clip wolf/attack
+PASS: manual frame step/pause wolf/attack
+PASS: frame clamp wolf/attack
+PASS: play/pause uniform scale wolf/attack
+PASS: resume preserves paused position wolf/attack
+PASS: nonempty clip wolf/death
+PASS: manual frame step/pause wolf/death
+PASS: frame clamp wolf/death
+PASS: play/pause uniform scale wolf/death
+PASS: resume preserves paused position wolf/death
+PASS: nonempty clip wolf/idle
+PASS: manual frame step/pause wolf/idle
+PASS: frame clamp wolf/idle
+PASS: play/pause uniform scale wolf/idle
+PASS: resume preserves paused position wolf/idle
+PASS: before/after actors beast
+PASS: nonempty clip beast/attack
+PASS: manual frame step/pause beast/attack
+PASS: frame clamp beast/attack
+PASS: play/pause uniform scale beast/attack
+PASS: resume preserves paused position beast/attack
+PASS: nonempty clip beast/death
+PASS: manual frame step/pause beast/death
+PASS: frame clamp beast/death
+PASS: play/pause uniform scale beast/death
+PASS: resume preserves paused position beast/death
+PASS: nonempty clip beast/idle
+PASS: manual frame step/pause beast/idle
+PASS: frame clamp beast/idle
+PASS: play/pause uniform scale beast/idle
+PASS: resume preserves paused position beast/idle
+PASS: before/after actors spirit
+PASS: nonempty clip spirit/default
+PASS: manual frame step/pause spirit/default
+PASS: frame clamp spirit/default
+PASS: play/pause uniform scale spirit/default
+PASS: resume preserves paused position spirit/default
+PASS: capture lab-spirit
+PASS: diagnostic background 0
+PASS: diagnostic background 1
+PASS: diagnostic background 2
+PASS: diagnostic background 3
+PASS: effect off wind
+PASS: effect off fog
+PASS: effect off leaves
+PASS: effect off lighting
+PASS: effect off smoke
+PASS: three separate distant mist layers
+PASS: Off stops environment CPU processing
+PASS: Low reduces mist layers
+PASS: capture environment-standard
+PASS: environment-only; master stays fixed
+PASS: no opacity fade hans
+PASS: common ground hans
+PASS: no opacity fade wolf
+PASS: common ground wolf
+PASS: capture duel-after
+PASS: no opacity fade hans
+PASS: common ground hans
+PASS: no opacity fade herbalist
+PASS: common ground herbalist
+PASS: no opacity fade beast
+PASS: common ground beast
+PASS: capture tincture-after
+PASS: no opacity fade hans
+PASS: common ground hans
+PASS: no opacity fade beast
+PASS: common ground beast
+PASS: capture forest-after
+PASS: no opacity fade hans
+PASS: common ground hans
+PASS: no opacity fade woodcutter
+PASS: common ground woodcutter
+PASS: no opacity fade beast
+PASS: common ground beast
+PASS: no opacity fade spirit
+PASS: common ground spirit
+PASS: capture companions-after
+PASS: capture companions-before
+PASS: no opacity fade hans
+PASS: common ground hans
+PASS: no opacity fade mercenary
+PASS: common ground mercenary
+PASS: no opacity fade wolf
+PASS: common ground wolf
+PASS: no opacity fade spirit
+PASS: common ground spirit
+PASS: capture betrayal-after
+PASS: bounded keyframe contact VFX self-frees
+PASS: native window (960, 540)
+PASS: capture window-960x540
+PASS: native window (1280, 720)
+PASS: capture window-1280x720
+PASS: native window (1280, 800)
+PASS: capture window-1280x800
+PASS: native window (1920, 1080)
+PASS: capture window-1920x1080
+PASS: capture fullscreen
+PASS: native fullscreen
+RESULT: 550 overhaul checks passed, 0 failed

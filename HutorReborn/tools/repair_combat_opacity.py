@@ -60,11 +60,25 @@ def main():
         domain=None
         if path.parent.name=='Use_Invoke' and spec:
             dy=round(spec['origin'][1]-first['origin'][1]);domain=ndimage.shift(body,(dy,0),order=0,mode='constant')
-        fixed,info=restore(original,domain);fixed.save(path)
+        fixed,info=restore(original,domain)
+        if path.parent.name=='Dodge' and spec:
+            # The supplied alpha discarded some RGB that is still retained.
+            # Recover only the eroded main RGB component; do not infer missing
+            # anatomy, fill open black regions or include the detached guides.
+            raw=np.array(Image.open(PROJECT/'assets/combat/forest_v2'/spec['source']).convert('RGBA'))
+            labels,n=ndimage.label(raw[:,:,:3].max(axis=2)>3)
+            if n:
+                sizes=np.bincount(labels.ravel());sizes[0]=0
+                core=ndimage.binary_erosion(labels==int(sizes.argmax()),structure=STRUCT)
+                a=np.array(fixed);before=a[:,:,3].copy();a[core,3]=255
+                fixed=Image.fromarray(a)
+                info['retained_rgb_recovered_pixels']=int((before!=a[:,:,3]).sum())
+                info['restored_pixels']+=info['retained_rgb_recovered_pixels']
+        fixed.save(path)
         audit.append({'path':str(path.relative_to(PROJECT)),**info})
     for kind,folder in [('herbalist','herbalist5410'),('woodcutter','woodcutter542')]:
         source=PROJECT/'assets/npc'/folder/'game/atlas.png'
-        im=Image.open(source).convert('RGBA');pixels=0;factor=3 if kind=='herbalist' else 1
+        im=Image.open(source).convert('RGBA');pixels=0;factor=3
         if factor>1:
             # Same approved source crops/pose order/pivots, sampled directly at
             # combat resolution instead of enlarging the 48px world character.
@@ -88,6 +102,21 @@ def main():
         (OUT/(kind+'_frames.tres')).write_text(frames)
         audit.append({'path':str(dest.relative_to(PROJECT)),'original':str(source.relative_to(PROJECT)),
             'original_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'restored_pixels':pixels,'rgb_changed':False,'size':list(result.size),'source_sampling_factor':factor})
+    # Original stage61 preparation rejected all alpha<200 pixels and green moss.
+    # Recover the two still-used static fighters from the approved source panels.
+    legacy=PROJECT/'assets/combat/stage61'
+    poses=json.loads((legacy/'manifest.json').read_text())['poses']
+    sheet=Image.open(legacy/'source/fighters.png').convert('RGBA')
+    for spec in poses:
+        if spec['kind'] not in ['spirit','mercenary']:continue
+        raw=sheet.crop(spec['source_box']);raw=native_body(raw)
+        box=raw.getbbox();body=raw.crop(box);ratio=174/body.height
+        scaled=body.resize((round(body.width*ratio),174),Image.Resampling.NEAREST)
+        cell=Image.new('RGBA',(288,288));cell.paste(scaled,(144-scaled.width//2,246-174))
+        # Source contour is authoritative here: preserve natural tendril gaps.
+        a=np.array(cell);foreground=a[:,:,3]>40;inside=ndimage.binary_erosion(foreground,structure=STRUCT)
+        a[inside,3]=255;Image.fromarray(a).save(OUT/(spec['kind']+'.png'))
+        audit.append({'path':'assets/combat/readability/'+spec['kind']+'.png','original':'assets/combat/stage61/source/fighters.png','source_box':spec['source_box'],'uniform_scale':ratio,'natural_gaps_preserved':True,'rgb_changed':False,'size':[288,288]})
     (OUT/'opacity_audit.json').write_text(json.dumps(audit,indent=2)+'\n')
     print('Opacity repaired:',len(audit),'combat textures; source RGB and world atlases unchanged')
 

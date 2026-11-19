@@ -19,7 +19,7 @@ var scenario_id:=""
 var busy:=true
 var epoch:=0
 var fast:CheckButton
-var atmosphere:CheckButton
+var atmosphere:OptionButton
 var round_label:Label
 var turn_label:Label
 var queue_label:Label
@@ -62,8 +62,10 @@ func _ready() -> void:
         ["raven","Ворон",604,112,"Однократно: следующие две атаки по Гансу получают −25 к точности."]]
     for item in buttons:actions[item[0]]=STYLE.button(self,item[1],Vector2(item[2],488),Vector2(item[3],38),_select_action.bind(String(item[0])),item[4])
     fast=CheckButton.new();fast.text="Анимации ×3";fast.position=Vector2(764,490);fast.size=Vector2(176,34);fast.tooltip_text="Быстрее показывать действия";add_child(fast)
-    atmosphere=CheckButton.new();atmosphere.text="Окружение";atmosphere.position=Vector2(745,425);atmosphere.size=Vector2(188,30);atmosphere.button_pressed=true;add_child(atmosphere)
-    atmosphere.toggled.connect(func(enabled:bool):get_node("ForestStage").atmosphere_enabled=enabled)
+    atmosphere=OptionButton.new();atmosphere.position=Vector2(745,434);atmosphere.size=Vector2(194,28)
+    for text in ["Окружение: выкл.","Окружение: низкое","Окружение: стандарт"]:atmosphere.add_item(text)
+    atmosphere.select(2);add_child(atmosphere)
+    atmosphere.item_selected.connect(func(index:int):get_node("ForestStage").quality=index)
     STYLE.label(self,"Наведите курсор на бойца или действие, чтобы узнать подробности",Vector2(22,528),Vector2(906,12),9)
     _open_picker()
 func _slot(u:RefCounted) -> Vector2:
@@ -203,11 +205,11 @@ func _play(events:Array,token:int) -> void:
             var attacker:Button=views.get(e.actor)
             var whole:=duration*2.2;var key:=duration
             if attacker and attacker.animation:
-                whole=attacker.animation.play("attack",rate)
+                whole=attacker.animation.play("attack",rate,true)
                 key=attacker.animation.key_time("attack",rate)
             if whole<=0:whole=duration*2.2;key=duration
             if attacker and not attacker.animation:EFFECTS.strike(attacker,1 if attacker.unit.team==0 else -1,duration)
-            if key>0:await _wait(key)
+            await _animation_key(attacker,key,token)
             if not _valid(token):return
             _append(e.text)
             var reaction:=0.0
@@ -217,6 +219,12 @@ func _play(events:Array,token:int) -> void:
                 if target.animation:
                     reaction=target.animation.play("death" if e.killed else "hit" if e.hit else "dodge",rate)
                 if e.hit and reaction<=0:EFFECTS.hit(target,e.killed,duration)
+                if e.hit:
+                    var contact:=preload("res://scripts/combat/animation/combat_contact.gd").new()
+                    contact.position=target.body.global_position-global_position+Vector2(0,-27)
+                    contact.green=attacker!=null and attacker.unit.kind=="beast"
+                    contact.lifetime=.24/rate;contact.remaining=contact.lifetime
+                    contact.set_meta("combat_transient",true);add_child(contact)
             if attacker and attacker.animation and attacker.animation.kind=="leshy" and target:
                 var bolt:=preload("res://scripts/combat/animation/combat_magic.gd").new()
                 bolt.source=attacker.animation.socket()-global_position
@@ -225,6 +233,10 @@ func _play(events:Array,token:int) -> void:
             _sound("leaves_1" if attacker and attacker.unit.kind in ["beast","wolf"] else "axe_1")
             animation_keyframe.emit(e)
             _render()
+            if attacker and attacker.animation and attacker.animation.key_latched:
+                await _wait(.04/rate)
+                if not _valid(token):return
+                attacker.animation.release_key()
             var tail:float=maxf(maxf(0,whole-key),reaction)
             if tail>0:await _wait(minf(tail,4.0))
         elif e.type=="betray" and target:
@@ -235,9 +247,9 @@ func _play(events:Array,token:int) -> void:
             var performer:Button=views.get(e.get("actor",battle.active))
             var whole:=duration*1.5;var key:=0.0
             if performer and performer.animation and e.type in ["heal","roots","raven"]:
-                whole=performer.animation.play("use_invoke",rate)
+                whole=performer.animation.play("use_invoke",rate,true)
                 key=performer.animation.key_time("use_invoke",rate)
-            if key>0:await _wait(key)
+            await _animation_key(performer,key,token)
             if not _valid(token):return
             _append(e.text);target.reveal_health()
             var word:String={"heal":"+"+str(e.get("amount",0)),"guard":"Защита","roots":"Корни","raven":"Ворон","whisper":"Ослаблен"}[e.type]
@@ -245,9 +257,21 @@ func _play(events:Array,token:int) -> void:
             if e.type=="roots":EFFECTS.roots(target,duration*2)
             if e.type in ["heal","roots","raven"]:_sound("leaves_2")
             animation_keyframe.emit(e);_render()
+            if performer and performer.animation and performer.animation.key_latched:
+                await _wait(.04/rate)
+                if not _valid(token):return
+                performer.animation.release_key()
             if whole-key>0:await _wait(minf(whole-key,4.0))
         else:_append(e.text)
         if not _valid(token):return
+func _animation_key(view:Button,seconds:float,token:int) -> void:
+    if seconds>0:await _wait(seconds)
+    if not _valid(token) or not is_instance_valid(view) or not view.animation:return
+    # Normally latched by now. A bounded frame-driven wait handles slow/late
+    # rendering without hanging on missing assets or an interrupted scene.
+    var deadline:=Time.get_ticks_msec()+1500
+    while _valid(token) and is_instance_valid(view) and view.animation.key_pending and Time.get_ticks_msec()<deadline:
+        await _wait(.016)
 func _sound(id:String) -> void:
     var path:="res://assets/audio/ambient/"+id+".ogg"
     if is_instance_valid(_impact_audio) and ResourceLoader.exists(path):

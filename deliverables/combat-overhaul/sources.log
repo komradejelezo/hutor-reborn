@@ -1,0 +1,6 @@
+PASS: existing rules, IDs/stats, quests/saves, NPCs, world, interiors, old assets and project settings unchanged; no deletions
+PASS: all 259 source files match original ZIP byte-for-byte
+PASS: 248 full-size RGBA poses; uniform clip canvases; transparent corners; RGB unchanged outside one local paw rectangle
+PASS: registered frame-12 far-paw two-neighbour alpha change 30.849 -> 7.681; remaining RGB pixels untouched
+PASS: approved v2/v3 Idle retained; bite uses all 24 new poses; idle-only ping-pong; lossless/no-mipmap/no-alpha-border import
+RESULT: 5 source/integrity groups passed

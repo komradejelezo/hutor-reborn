@@ -1,0 +1,19 @@
+{
+  "frames_seconds": [
+    0,
+    5
+  ],
+  "changed_pixels": {
+    "left_bough": 134,
+    "right_bough": 496,
+    "distant_fog": 2811,
+    "ground_patch": 0
+  },
+  "note": "Actual Godot snapshots 5 seconds apart. The master PNG is static; overlay leaves/grass can change their local pixels on the ground.",
+  "ground_patch_rect": [
+    480,
+    340,
+    35,
+    35
+  ]
+}

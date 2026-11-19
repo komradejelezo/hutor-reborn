@@ -1,0 +1,233 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: journal collapsed by default
+PASS: journal opens in header, never over battlefield
+PASS: initiative and turn return after collapsing journal
+PASS: opaque modulation duel/hans/CombatantView
+PASS: opaque modulation duel/hans/Body
+PASS: opaque modulation duel/hans/@AnimatedSprite2D@58
+PASS: single straight-alpha combat material duel/hans
+PASS: one ground line hans
+PASS: opaque modulation inactive hans/CombatantView
+PASS: opaque modulation inactive hans/Body
+PASS: opaque modulation inactive hans/@AnimatedSprite2D@58
+PASS: single straight-alpha combat material inactive hans
+PASS: opaque modulation duel/wolf_a/@Button@63
+PASS: opaque modulation duel/wolf_a/Body
+PASS: opaque modulation duel/wolf_a/@AnimatedSprite2D@65
+PASS: single straight-alpha combat material duel/wolf_a
+PASS: one ground line wolf_a
+PASS: opaque modulation inactive wolf_a/@Button@63
+PASS: opaque modulation inactive wolf_a/Body
+PASS: opaque modulation inactive wolf_a/@AnimatedSprite2D@65
+PASS: single straight-alpha combat material inactive wolf_a
+PASS: opaque modulation tincture/hans/CombatantView
+PASS: opaque modulation tincture/hans/Body
+PASS: opaque modulation tincture/hans/@AnimatedSprite2D@76
+PASS: single straight-alpha combat material tincture/hans
+PASS: one ground line hans
+PASS: opaque modulation inactive hans/CombatantView
+PASS: opaque modulation inactive hans/Body
+PASS: opaque modulation inactive hans/@AnimatedSprite2D@76
+PASS: single straight-alpha combat material inactive hans
+PASS: opaque modulation tincture/herbalist/@Button@81
+PASS: opaque modulation tincture/herbalist/Body
+PASS: opaque modulation tincture/herbalist/@AnimatedSprite2D@83
+PASS: single straight-alpha combat material tincture/herbalist
+PASS: one ground line herbalist
+PASS: opaque modulation inactive herbalist/@Button@81
+PASS: opaque modulation inactive herbalist/Body
+PASS: opaque modulation inactive herbalist/@AnimatedSprite2D@83
+PASS: single straight-alpha combat material inactive herbalist
+PASS: opaque modulation tincture/beast/@Button@88
+PASS: opaque modulation tincture/beast/Body
+PASS: opaque modulation tincture/beast/@AnimatedSprite2D@90
+PASS: single straight-alpha combat material tincture/beast
+PASS: one ground line beast
+PASS: opaque modulation inactive beast/@Button@88
+PASS: opaque modulation inactive beast/Body
+PASS: opaque modulation inactive beast/@AnimatedSprite2D@90
+PASS: single straight-alpha combat material inactive beast
+PASS: opaque modulation forest/hans/CombatantView
+PASS: opaque modulation forest/hans/Body
+PASS: opaque modulation forest/hans/@AnimatedSprite2D@96
+PASS: single straight-alpha combat material forest/hans
+PASS: one ground line hans
+PASS: opaque modulation inactive hans/CombatantView
+PASS: opaque modulation inactive hans/Body
+PASS: opaque modulation inactive hans/@AnimatedSprite2D@96
+PASS: single straight-alpha combat material inactive hans
+PASS: opaque modulation forest/beast/@Button@101
+PASS: opaque modulation forest/beast/Body
+PASS: opaque modulation forest/beast/@AnimatedSprite2D@103
+PASS: single straight-alpha combat material forest/beast
+PASS: one ground line beast
+PASS: opaque modulation inactive beast/@Button@101
+PASS: opaque modulation inactive beast/Body
+PASS: opaque modulation inactive beast/@AnimatedSprite2D@103
+PASS: single straight-alpha combat material inactive beast
+PASS: opaque modulation companions/hans/CombatantView
+PASS: opaque modulation companions/hans/Body
+PASS: opaque modulation companions/hans/@AnimatedSprite2D@109
+PASS: single straight-alpha combat material companions/hans
+PASS: one ground line hans
+PASS: opaque modulation inactive hans/CombatantView
+PASS: opaque modulation inactive hans/Body
+PASS: opaque modulation inactive hans/@AnimatedSprite2D@109
+PASS: single straight-alpha combat material inactive hans
+PASS: opaque modulation companions/woodcutter/@Button@114
+PASS: opaque modulation companions/woodcutter/Body
+PASS: opaque modulation companions/woodcutter/@AnimatedSprite2D@116
+PASS: single straight-alpha combat material companions/woodcutter
+PASS: one ground line woodcutter
+PASS: opaque modulation inactive woodcutter/@Button@114
+PASS: opaque modulation inactive woodcutter/Body
+PASS: opaque modulation inactive woodcutter/@AnimatedSprite2D@116
+PASS: single straight-alpha combat material inactive woodcutter
+PASS: opaque modulation companions/beast/@Button@121
+PASS: opaque modulation companions/beast/Body
+PASS: opaque modulation companions/beast/@AnimatedSprite2D@123
+PASS: single straight-alpha combat material companions/beast
+PASS: one ground line beast
+PASS: opaque modulation inactive beast/@Button@121
+PASS: opaque modulation inactive beast/Body
+PASS: opaque modulation inactive beast/@AnimatedSprite2D@123
+PASS: single straight-alpha combat material inactive beast
+PASS: opaque modulation companions/spirit/@Button@128
+PASS: opaque modulation companions/spirit/Body
+PASS: opaque modulation companions/spirit/@AnimatedSprite2D@130
+PASS: single straight-alpha combat material companions/spirit
+PASS: one ground line spirit
+PASS: opaque modulation inactive spirit/@Button@128
+PASS: opaque modulation inactive spirit/Body
+PASS: opaque modulation inactive spirit/@AnimatedSprite2D@130
+PASS: single straight-alpha combat material inactive spirit
+PASS: opaque modulation betrayal/hans/CombatantView
+PASS: opaque modulation betrayal/hans/Body
+PASS: opaque modulation betrayal/hans/@AnimatedSprite2D@140
+PASS: single straight-alpha combat material betrayal/hans
+PASS: one ground line hans
+PASS: opaque modulation inactive hans/CombatantView
+PASS: opaque modulation inactive hans/Body
+PASS: opaque modulation inactive hans/@AnimatedSprite2D@140
+PASS: single straight-alpha combat material inactive hans
+PASS: opaque modulation betrayal/mercenary/@Button@145
+PASS: opaque modulation betrayal/mercenary/Body
+PASS: opaque modulation betrayal/mercenary/@AnimatedSprite2D@147
+PASS: single straight-alpha combat material betrayal/mercenary
+PASS: one ground line mercenary
+PASS: opaque modulation inactive mercenary/@Button@145
+PASS: opaque modulation inactive mercenary/Body
+PASS: opaque modulation inactive mercenary/@AnimatedSprite2D@147
+PASS: single straight-alpha combat material inactive mercenary
+PASS: opaque modulation betrayal/wolf_a/@Button@152
+PASS: opaque modulation betrayal/wolf_a/Body
+PASS: opaque modulation betrayal/wolf_a/@AnimatedSprite2D@154
+PASS: single straight-alpha combat material betrayal/wolf_a
+PASS: one ground line wolf_a
+PASS: opaque modulation inactive wolf_a/@Button@152
+PASS: opaque modulation inactive wolf_a/Body
+PASS: opaque modulation inactive wolf_a/@AnimatedSprite2D@154
+PASS: single straight-alpha combat material inactive wolf_a
+PASS: opaque modulation betrayal/spirit/@Button@159
+PASS: opaque modulation betrayal/spirit/Body
+PASS: opaque modulation betrayal/spirit/@AnimatedSprite2D@161
+PASS: single straight-alpha combat material betrayal/spirit
+PASS: one ground line spirit
+PASS: opaque modulation inactive spirit/@Button@159
+PASS: opaque modulation inactive spirit/Body
+PASS: opaque modulation inactive spirit/@AnimatedSprite2D@161
+PASS: single straight-alpha combat material inactive spirit
+PASS: opaque modulation hans/idle/CombatantView
+PASS: opaque modulation hans/idle/Body
+PASS: opaque modulation hans/idle/@AnimatedSprite2D@172
+PASS: single straight-alpha combat material hans/idle
+PASS: feet stay anchored hans/idle
+PASS: opaque modulation hans/attack/CombatantView
+PASS: opaque modulation hans/attack/Body
+PASS: opaque modulation hans/attack/@AnimatedSprite2D@172
+PASS: single straight-alpha combat material hans/attack
+PASS: feet stay anchored hans/attack
+PASS: opaque modulation hans/hit/CombatantView
+PASS: opaque modulation hans/hit/Body
+PASS: opaque modulation hans/hit/@AnimatedSprite2D@172
+PASS: single straight-alpha combat material hans/hit
+PASS: feet stay anchored hans/hit
+PASS: opaque modulation hans/death/CombatantView
+PASS: opaque modulation hans/death/Body
+PASS: opaque modulation hans/death/@AnimatedSprite2D@172
+PASS: single straight-alpha combat material hans/death
+PASS: feet stay anchored hans/death
+PASS: death remains terminal and visible hans
+PASS: opaque modulation wolf_a/idle/@Button@194
+PASS: opaque modulation wolf_a/idle/Body
+PASS: opaque modulation wolf_a/idle/@AnimatedSprite2D@196
+PASS: single straight-alpha combat material wolf_a/idle
+PASS: feet stay anchored wolf_a/idle
+PASS: opaque modulation wolf_a/attack/@Button@194
+PASS: opaque modulation wolf_a/attack/Body
+PASS: opaque modulation wolf_a/attack/@AnimatedSprite2D@196
+PASS: single straight-alpha combat material wolf_a/attack
+PASS: feet stay anchored wolf_a/attack
+PASS: fallback does not slide idle feet wolf_a/hit
+PASS: opaque modulation wolf_a/hit/@Button@194
+PASS: opaque modulation wolf_a/hit/Body
+PASS: opaque modulation wolf_a/hit/@AnimatedSprite2D@196
+PASS: single straight-alpha combat material wolf_a/hit
+PASS: feet stay anchored wolf_a/hit
+PASS: opaque modulation wolf_a/death/@Button@194
+PASS: opaque modulation wolf_a/death/Body
+PASS: opaque modulation wolf_a/death/@AnimatedSprite2D@196
+PASS: single straight-alpha combat material wolf_a/death
+PASS: feet stay anchored wolf_a/death
+PASS: death remains terminal and visible wolf_a
+PASS: fallback does not slide idle feet herbalist/idle
+PASS: opaque modulation herbalist/idle/@Button@212
+PASS: opaque modulation herbalist/idle/Body
+PASS: opaque modulation herbalist/idle/@AnimatedSprite2D@214
+PASS: single straight-alpha combat material herbalist/idle
+PASS: feet stay anchored herbalist/idle
+PASS: fallback does not slide idle feet herbalist/attack
+PASS: opaque modulation herbalist/attack/@Button@212
+PASS: opaque modulation herbalist/attack/Body
+PASS: opaque modulation herbalist/attack/@AnimatedSprite2D@214
+PASS: single straight-alpha combat material herbalist/attack
+PASS: feet stay anchored herbalist/attack
+PASS: fallback does not slide idle feet herbalist/hit
+PASS: opaque modulation herbalist/hit/@Button@212
+PASS: opaque modulation herbalist/hit/Body
+PASS: opaque modulation herbalist/hit/@AnimatedSprite2D@214
+PASS: single straight-alpha combat material herbalist/hit
+PASS: feet stay anchored herbalist/hit
+PASS: fallback does not slide idle feet herbalist/death
+PASS: opaque modulation herbalist/death/@Button@212
+PASS: opaque modulation herbalist/death/Body
+PASS: opaque modulation herbalist/death/@AnimatedSprite2D@214
+PASS: single straight-alpha combat material herbalist/death
+PASS: feet stay anchored herbalist/death
+PASS: opaque modulation beast/idle/@Button@235
+PASS: opaque modulation beast/idle/Body
+PASS: opaque modulation beast/idle/@AnimatedSprite2D@237
+PASS: single straight-alpha combat material beast/idle
+PASS: feet stay anchored beast/idle
+PASS: opaque modulation beast/attack/@Button@235
+PASS: opaque modulation beast/attack/Body
+PASS: opaque modulation beast/attack/@AnimatedSprite2D@237
+PASS: single straight-alpha combat material beast/attack
+PASS: feet stay anchored beast/attack
+PASS: fallback does not slide idle feet beast/hit
+PASS: opaque modulation beast/hit/@Button@235
+PASS: opaque modulation beast/hit/Body
+PASS: opaque modulation beast/hit/@AnimatedSprite2D@237
+PASS: single straight-alpha combat material beast/hit
+PASS: feet stay anchored beast/hit
+PASS: opaque modulation beast/death/@Button@235
+PASS: opaque modulation beast/death/Body
+PASS: opaque modulation beast/death/@AnimatedSprite2D@237
+PASS: single straight-alpha combat material beast/death
+PASS: feet stay anchored beast/death
+PASS: death remains terminal and visible beast
+PASS: herbalist retains approved frames and uses presentation fallback
+PASS: herbalist enlarged proportionally from approved high-resolution source
+PASS: approved frontal herbalist Idle selected for combat readability
+RESULT: 230 combat readability checks passed, 0 failed

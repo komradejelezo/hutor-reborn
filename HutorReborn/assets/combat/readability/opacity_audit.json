@@ -249,135 +249,147 @@
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_01.png",
-    "restored_pixels": 15325,
+    "restored_pixels": 16321,
     "core_pixels": 43670,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 996
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_02.png",
-    "restored_pixels": 19438,
+    "restored_pixels": 20290,
     "core_pixels": 48541,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 852
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_03.png",
-    "restored_pixels": 16174,
+    "restored_pixels": 18513,
     "core_pixels": 42991,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 2339
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_04.png",
-    "restored_pixels": 18761,
+    "restored_pixels": 21099,
     "core_pixels": 44255,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 2338
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_05.png",
-    "restored_pixels": 19776,
+    "restored_pixels": 20656,
     "core_pixels": 47962,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 880
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_06.png",
-    "restored_pixels": 14497,
+    "restored_pixels": 16677,
     "core_pixels": 41825,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 2180
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_07.png",
-    "restored_pixels": 15076,
+    "restored_pixels": 17458,
     "core_pixels": 41300,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 2382
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_08.png",
-    "restored_pixels": 17374,
+    "restored_pixels": 18472,
     "core_pixels": 44791,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 1098
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_09.png",
-    "restored_pixels": 19025,
+    "restored_pixels": 20605,
     "core_pixels": 46541,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 1580
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_10.png",
-    "restored_pixels": 17611,
+    "restored_pixels": 19031,
     "core_pixels": 46725,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 1420
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_11.png",
-    "restored_pixels": 17604,
+    "restored_pixels": 18893,
     "core_pixels": 48340,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 1289
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Dodge/dodge_12.png",
-    "restored_pixels": 15934,
+    "restored_pixels": 17368,
     "core_pixels": 45493,
     "core_nonopaque": 0,
     "rgb_changed": false,
     "size": [
       357,
       358
-    ]
+    ],
+    "retained_rgb_recovered_pixels": 1434
   },
   {
     "path": "assets/combat/forest_v2/prepared/Hans/Hit/hit_01.png",
@@ -2443,12 +2455,46 @@
     "path": "assets/combat/readability/woodcutter_atlas.png",
     "original": "assets/npc/woodcutter542/game/atlas.png",
     "original_sha256": "d851cdf0dd7556ab37294389771cce9a66911be0916826278e54e57bad03de1e",
-    "restored_pixels": 644,
+    "restored_pixels": 361212,
     "rgb_changed": false,
     "size": [
-      768,
-      864
+      2304,
+      2592
     ],
-    "source_sampling_factor": 1
+    "source_sampling_factor": 3
+  },
+  {
+    "path": "assets/combat/readability/spirit.png",
+    "original": "assets/combat/stage61/source/fighters.png",
+    "source_box": [
+      1211,
+      41,
+      1514,
+      677
+    ],
+    "uniform_scale": 0.27358490566037735,
+    "natural_gaps_preserved": true,
+    "rgb_changed": false,
+    "size": [
+      288,
+      288
+    ]
+  },
+  {
+    "path": "assets/combat/readability/mercenary.png",
+    "original": "assets/combat/stage61/source/fighters.png",
+    "source_box": [
+      1737,
+      83,
+      2021,
+      677
+    ],
+    "uniform_scale": 0.29292929292929293,
+    "natural_gaps_preserved": true,
+    "rgb_changed": false,
+    "size": [
+      288,
+      288
+    ]
   }
 ]

@@ -33,6 +33,15 @@ func run() -> void:
                 await create_timer(duration+.07).timeout
                 check(driver.motion=="idle","action returns to idle "+key+"/"+clip)
             else:check(duration==0,"missing optional clip safe fallback "+key+"/"+clip)
+        for action in ["attack","use_invoke"]:
+            if not driver.has(action):continue
+            var total:float=driver.play(action,3,true)
+            var key_time:float=driver.key_time(action,3)
+            await create_timer(key_time+.15).timeout
+            check(driver.key_latched and sprite.frame==int(driver.clips[action].impact) and not sprite.is_playing(),"exact contact pose waits for presentation even under delayed consumption "+key+"/"+action)
+            driver.release_key()
+            await create_timer(maxf(0,total-key_time)+.1).timeout
+            check(driver.motion=="idle" and not driver.key_latched,"release of key pose returns to idle "+key+"/"+action)
         var death_time:float=driver.play("death",3);await create_timer(death_time+.06).timeout
         check(driver.dead and sprite.frame==sprite.sprite_frames.get_frame_count("death")-1 and not sprite.is_playing(),"death holds final frame "+key)
         check(driver.play("idle")==0 and driver.play("death")==0,"refresh cannot resurrect or repeat death "+key)
@@ -57,7 +66,7 @@ func run() -> void:
         if key_seen.size()>0:break
         await physics_frame
     check(key_seen.size()==1 and key_seen[0].hp==0 and key_seen[0].dead,"damage popup/HP/death start together")
-    check(abs(key_seen[0].frame-6)<=1,"Hans impact aligns with sword key frame")
+    check(key_seen[0].frame==6,"Hans impact aligns with sword key frame")
     check(arena.busy and not is_instance_valid(arena.modal),"wait for death/recovery before result")
     await ready_turn(arena)
     check(arena.views.wolf_a.animation.dead and arena.views.wolf_a.sprite.frame==23,"death final pose persists through result")
@@ -74,13 +83,13 @@ func run() -> void:
             if e.type=="attack" and e.actor==fixture[1]:
                 var bolts:=0
                 for child in arena.get_children():
-                    if child.has_meta("combat_transient"):bolts+=1
+                    if child.get_script()==preload("res://scripts/combat/animation/combat_magic.gd"):bolts+=1
                 impacts.append({"frame":arena.views[e.actor].sprite.frame,"hp":arena.views.hans.presented_hp,"resolved":arena.battle.units.hans.hp,"bolts":bolts})
         arena.animation_keyframe.connect(observer)
         arena._select_action("defend");await ready_turn(arena)
         check(impacts.size()==1,"actual enemy turn reaches one impact: "+fixture[1])
         if impacts.size()==1:
-            check(abs(impacts[0].frame-fixture[2])<=1,"enemy impact aligns with bite/magic frame: "+fixture[1])
+            check(impacts[0].frame==fixture[2],"enemy impact aligns with bite/magic frame: "+fixture[1])
             check(impacts[0].hp==impacts[0].resolved,"enemy HP presentation synchronized: "+fixture[1])
             check(impacts[0].bolts==(1 if fixture[1]=="beast" else 0),"green VFX belongs only to leshy: "+fixture[1])
         arena.animation_keyframe.disconnect(observer)
