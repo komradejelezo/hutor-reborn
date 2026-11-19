@@ -111,4 +111,8 @@ def main():
     (ROOT/'source_audit.json').write_text(json.dumps(audit,indent=2)+'\n')
     print('Prepared',len(audit),'sequences; originals unchanged; local Wolf Idle frame-12 paw correction recorded')
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    # Keep the documented v2 CLI from accidentally restoring the old ghost masks.
+    # The repair imports main() above as its deterministic baseline, so no recursion.
+    from repair_combat_opacity import main as prepare_readable
+    prepare_readable()
