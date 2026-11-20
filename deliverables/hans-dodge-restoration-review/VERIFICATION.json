@@ -1,0 +1,25 @@
+{
+  "merged_main": "6ef9994e066bda3ab5a65135da26593e5be805e1",
+  "game_files_unchanged": true,
+  "runtime_frames": 12,
+  "mask_size": [
+    357,
+    358
+  ],
+  "all_36_nearest_crops_exact": true,
+  "previous_pr42_pixels": 1614,
+  "confirmed_remaining_pixels_in_selected_cores": 782,
+  "godot_checks": 105,
+  "godot_failed": 0,
+  "motion_conditions": 4,
+  "full_cycles_per_condition": 2,
+  "video": {
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "size": [
+      960,
+      540
+    ],
+    "duration_seconds": 18.8
+  }
+}
