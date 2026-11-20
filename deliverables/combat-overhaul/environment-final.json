@@ -1,0 +1,7 @@
+{
+  "capture": "X11 XGetImage via PIL; actual native window, no modified playback",
+  "frames": 144,
+  "fps": 12,
+  "elapsed": 12.045427651995851,
+  "encoder_exit": 0
+}

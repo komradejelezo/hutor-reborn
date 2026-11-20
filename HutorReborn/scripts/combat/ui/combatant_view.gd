@@ -11,6 +11,7 @@ var name_label:Label
 var hp_label:Label
 var status_label:Label
 var bar:ProgressBar
+var shadow_enabled:=true
 var active:=false
 var selectable:=false
 var hovered:=false
@@ -43,7 +44,8 @@ func setup(value:RefCounted) -> void:
         sprite.sprite_frames=load(path);sprite.offset=Vector2(-480,-1280) if unit.kind=="hans" else Vector2(-48,-82)
         sprite.scale=Vector2.ONE*(1.55/21.0 if unit.kind=="hans" else 1.55*(1.08 if unit.kind=="woodcutter" else 1.0))
     else:
-        var f:=SpriteFrames.new();f.add_frame("default",load(unit.data.image));sprite.sprite_frames=f
+        var image:String="res://assets/combat/readability/"+unit.kind+".png" if unit.kind in ["spirit","mercenary"] else String(unit.data.image)
+        var f:=SpriteFrames.new();f.add_frame("default",load(image));sprite.sprite_frames=f
         sprite.offset=Vector2(-48,-82);sprite.scale=Vector2.ONE*1.5
     var driver:=ANIMATION.new();add_child(driver)
     if driver.configure(sprite,unit.kind,unit.team):animation=driver
@@ -67,7 +69,7 @@ func reveal_health() -> void:
 func native_idle() -> String:
     # Existing approved front/three-quarter pose reads better than the very thin
     # side profile at combat distance. The world NPC keeps its own directions.
-    if unit.kind=="herbalist":return "idle_down"
+    if unit.kind in ["herbalist","woodcutter"]:return "idle_down"
     return "idle_right" if unit.team==0 else "idle_left"
 func refresh(is_active:bool,can_target:bool,reason:String) -> void:
     if not health_staged:presented_hp=unit.hp
@@ -97,7 +99,7 @@ func _draw() -> void:
     if not _frame:return
     var radius:float=40 if unit and unit.kind=="beast" else 36 if unit and unit.kind=="wolf" else 26
     if animation and animation.dead:radius*=1.6
-    for ring in 3:
+    for ring in (3 if shadow_enabled else 0):
         var points:=PackedVector2Array();var k:=1.0-float(ring)*.2
         for i in 24:
             var a:=TAU*float(i)/24;points.append(Vector2(59+cos(a)*radius*k,104+sin(a)*4*k))

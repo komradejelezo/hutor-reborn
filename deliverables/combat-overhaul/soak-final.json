@@ -1,0 +1,263 @@
+{
+  "completed_battles": 35,
+  "display": "X11",
+  "elapsed_seconds": 181.102,
+  "engine": "4.6.2-stable (official)",
+  "failed": 0,
+  "keyframes": 335,
+  "limitation": "Linux software renderer; bounded nodes/observed memory over this interval do not prove absence of all leaks or Windows GPU performance.",
+  "node_range": [
+    84,
+    100
+  ],
+  "observed_contact_effects": 250,
+  "passed": 5,
+  "player_actions": 199,
+  "samples": [
+    {
+      "fps": 14.0,
+      "nodes": 84,
+      "process_ms": 997.43,
+      "seconds": 5.005,
+      "static_memory": 41851140
+    },
+    {
+      "fps": 29.0,
+      "nodes": 98,
+      "process_ms": 447.251,
+      "seconds": 10.015,
+      "static_memory": 42159384
+    },
+    {
+      "fps": 35.0,
+      "nodes": 84,
+      "process_ms": 65.059,
+      "seconds": 15.359,
+      "static_memory": 41877384
+    },
+    {
+      "fps": 25.0,
+      "nodes": 85,
+      "process_ms": 562.765,
+      "seconds": 20.366,
+      "static_memory": 41905776
+    },
+    {
+      "fps": 38.0,
+      "nodes": 99,
+      "process_ms": 539.636,
+      "seconds": 25.393,
+      "static_memory": 42192076
+    },
+    {
+      "fps": 50.0,
+      "nodes": 98,
+      "process_ms": 36.891,
+      "seconds": 30.406,
+      "static_memory": 42275760
+    },
+    {
+      "fps": 31.0,
+      "nodes": 84,
+      "process_ms": 467.863,
+      "seconds": 35.412,
+      "static_memory": 41930287
+    },
+    {
+      "fps": 45.0,
+      "nodes": 84,
+      "process_ms": 111.752,
+      "seconds": 40.43,
+      "static_memory": 41961292
+    },
+    {
+      "fps": 50.0,
+      "nodes": 98,
+      "process_ms": 39.312,
+      "seconds": 45.44,
+      "static_memory": 42280243
+    },
+    {
+      "fps": 58.0,
+      "nodes": 86,
+      "process_ms": 57.264,
+      "seconds": 50.447,
+      "static_memory": 42024449
+    },
+    {
+      "fps": 51.0,
+      "nodes": 84,
+      "process_ms": 42.54,
+      "seconds": 55.45,
+      "static_memory": 41994191
+    },
+    {
+      "fps": 50.0,
+      "nodes": 98,
+      "process_ms": 60.483,
+      "seconds": 60.451,
+      "static_memory": 42277971
+    },
+    {
+      "fps": 54.0,
+      "nodes": 84,
+      "process_ms": 41.333,
+      "seconds": 65.465,
+      "static_memory": 41899852
+    },
+    {
+      "fps": 51.0,
+      "nodes": 85,
+      "process_ms": 46.802,
+      "seconds": 70.471,
+      "static_memory": 41939240
+    },
+    {
+      "fps": 51.0,
+      "nodes": 98,
+      "process_ms": 36.444,
+      "seconds": 75.491,
+      "static_memory": 42220676
+    },
+    {
+      "fps": 51.0,
+      "nodes": 84,
+      "process_ms": 38.944,
+      "seconds": 80.497,
+      "static_memory": 41956211
+    },
+    {
+      "fps": 52.0,
+      "nodes": 85,
+      "process_ms": 47.017,
+      "seconds": 85.51,
+      "static_memory": 41921468
+    },
+    {
+      "fps": 46.0,
+      "nodes": 99,
+      "process_ms": 43.528,
+      "seconds": 90.522,
+      "static_memory": 42230140
+    },
+    {
+      "fps": 36.0,
+      "nodes": 85,
+      "process_ms": 30.278,
+      "seconds": 95.524,
+      "static_memory": 41911456
+    },
+    {
+      "fps": 38.0,
+      "nodes": 84,
+      "process_ms": 98.659,
+      "seconds": 100.536,
+      "static_memory": 41934316
+    },
+    {
+      "fps": 19.0,
+      "nodes": 98,
+      "process_ms": 487.719,
+      "seconds": 105.558,
+      "static_memory": 42236683
+    },
+    {
+      "fps": 28.0,
+      "nodes": 84,
+      "process_ms": 586.819,
+      "seconds": 110.98,
+      "static_memory": 41897156
+    },
+    {
+      "fps": 34.0,
+      "nodes": 85,
+      "process_ms": 70.031,
+      "seconds": 116.003,
+      "static_memory": 41984843
+    },
+    {
+      "fps": 26.0,
+      "nodes": 98,
+      "process_ms": 77.957,
+      "seconds": 121.022,
+      "static_memory": 42230308
+    },
+    {
+      "fps": 50.0,
+      "nodes": 85,
+      "process_ms": 58.784,
+      "seconds": 126.053,
+      "static_memory": 41934832
+    },
+    {
+      "fps": 52.0,
+      "nodes": 84,
+      "process_ms": 42.313,
+      "seconds": 131.071,
+      "static_memory": 41949284
+    },
+    {
+      "fps": 49.0,
+      "nodes": 100,
+      "process_ms": 77.585,
+      "seconds": 136.09,
+      "static_memory": 42274904
+    },
+    {
+      "fps": 56.0,
+      "nodes": 84,
+      "process_ms": 38.169,
+      "seconds": 141.092,
+      "static_memory": 41986695
+    },
+    {
+      "fps": 55.0,
+      "nodes": 85,
+      "process_ms": 38.851,
+      "seconds": 146.11,
+      "static_memory": 41989368
+    },
+    {
+      "fps": 46.0,
+      "nodes": 98,
+      "process_ms": 63.234,
+      "seconds": 151.119,
+      "static_memory": 42234516
+    },
+    {
+      "fps": 56.0,
+      "nodes": 84,
+      "process_ms": 36.22,
+      "seconds": 156.477,
+      "static_memory": 41948563
+    },
+    {
+      "fps": 55.0,
+      "nodes": 84,
+      "process_ms": 35.982,
+      "seconds": 161.496,
+      "static_memory": 41980616
+    },
+    {
+      "fps": 48.0,
+      "nodes": 98,
+      "process_ms": 35.248,
+      "seconds": 166.511,
+      "static_memory": 42268616
+    },
+    {
+      "fps": 54.0,
+      "nodes": 85,
+      "process_ms": 57.255,
+      "seconds": 171.543,
+      "static_memory": 41966540
+    },
+    {
+      "fps": 43.0,
+      "nodes": 85,
+      "process_ms": 124.475,
+      "seconds": 176.64,
+      "static_memory": 41973372
+    }
+  ]
+}

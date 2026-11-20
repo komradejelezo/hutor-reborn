@@ -1,0 +1,83 @@
+[
+  {
+    "name": "verify_combat_61",
+    "exit": 0,
+    "summary": [
+      "PASS: failed retreat spends turn but combat continues",
+      "PASS: enemy gets initiative after failed retreat",
+      "RESULT: 43 combat rules checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "verify_combat_animation_pack",
+    "exit": 0,
+    "summary": [
+      "RESULT: 346 animation pack checks passed, 0 failed"
+    ],
+    "first_attempt": {
+      "exit": 1,
+      "summary": [
+        "ERROR: FAIL: green VFX belongs only to leshy: beast",
+        "RESULT: 337 animation pack checks passed, 1 failed"
+      ]
+    }
+  },
+  {
+    "name": "verify_combat_ui_61",
+    "exit": 0,
+    "summary": [
+      "RESULT: 55 combat UI/menu checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "verify_combat_forest_v2",
+    "exit": 0,
+    "summary": [
+      "RESULT: 332 forest v2 checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "verify_combat_readability",
+    "exit": 0,
+    "summary": [
+      "RESULT: 230 combat readability checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "verify_combat_overhaul",
+    "exit": 0,
+    "summary": [
+      "RESULT: 550 overhaul checks passed, 0 failed"
+    ],
+    "display": "X11"
+  },
+  {
+    "name": "verify_chapter_flow_70",
+    "exit": 0,
+    "summary": [
+      "RESULT: 254 chapter integration checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "verify_chapter_branches_70",
+    "exit": 0,
+    "summary": [
+      "RESULT: 150 chapter branch/save checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "verify_door_transitions",
+    "exit": 0,
+    "summary": [
+      "PASS: failed load reveals current scene and records contract error",
+      "RESULT: 335 door transition checks passed, 0 failed"
+    ]
+  },
+  {
+    "name": "final_dodge_graphical",
+    "exit": 0,
+    "summary": [
+      "RESULT: 3 final Dodge checks passed, 0 failed"
+    ]
+  }
+]

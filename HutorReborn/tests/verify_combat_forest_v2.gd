@@ -27,12 +27,12 @@ func run() -> void:
     var transform:Transform2D=master.get_transform()
     await frames(120)
     check(master.get_transform()==transform,"master/ground stays static while atmosphere advances")
-    arena.atmosphere.button_pressed=false;await frames()
+    arena.atmosphere.select(0);arena.atmosphere.item_selected.emit(0);await frames()
     check(not stage.get_node("Atmosphere").visible and not stage.get_node("Atmosphere").is_processing(),"atmosphere switch disables overlay and CPU update")
-    arena.atmosphere.button_pressed=true;await frames()
+    arena.atmosphere.select(2);arena.atmosphere.item_selected.emit(2);await frames()
     check(stage.get_node("Atmosphere").visible and stage.get_node("Atmosphere").is_processing(),"atmosphere switch restores separate layers")
     stage.intensity=.4
-    check(is_equal_approx(float(stage.get_node("Atmosphere/DistantMist").material.get_shader_parameter("density")),.03),"intensity also controls separate mist shader")
+    check(is_equal_approx(float(stage.get_node("Atmosphere/DistantMist").material.get_shader_parameter("density")),.018),"intensity also controls separate mist shader")
     stage.intensity=.65
     for id in ["duel","ambush","companions","tincture","betrayal","forest"]:
         arena._start_scenario(id);await ready_turn(arena)

@@ -1,0 +1,12 @@
+{
+  "input": "X11 OS mouse events; no battle state fixtures",
+  "scenarios": [
+    "duel",
+    "forest",
+    "companions"
+  ],
+  "fast_speed_toggle": true,
+  "journal_toggle": true,
+  "scenario_picker": "Opened through actual result modal",
+  "note": "Result screenshots inspected individually; initial replay failed to leave modal and was corrected."
+}
