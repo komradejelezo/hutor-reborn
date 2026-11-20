@@ -1,0 +1,1114 @@
+{
+  "recipe_version": 1,
+  "frames": [
+    {
+      "path": "prepared/Hans/Dodge/dodge_01.png",
+      "source": "assets/Hans/Dodge/dodge_01.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_01.png",
+      "changed_pixels": 104,
+      "donor_rgb_pixels": 53,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "25dcafec5e9c5a16ac6c96c2ddfd64cff63ff635137d341e6ad9c7e204fe5e10",
+      "recovered_source_sha256": "b0dfccc1cef1e1f66ef223c97b4eb612c9f0ea2023cbb9523d28d1b517df3c09",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 51,
+          "own_source_alpha_pixels": 389,
+          "donor_rgb_pixels": 53,
+          "donor_source": "assets/Hans/Dodge/dodge_02.png",
+          "donor_offset": [
+            3,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 368,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_02.png",
+          "donor_offset": [
+            -2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_04.png",
+      "source": "assets/Hans/Dodge/dodge_04.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_04.png",
+      "changed_pixels": 56,
+      "donor_rgb_pixels": 19,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "58858b3133da6637810cb1d43c7c6d40bdc14c0ecd633c641a0b7b45c9deb449",
+      "recovered_source_sha256": "9157f639d3f42d20a11438b1585f70270c9fab97c1d639979521ea4a2e730350",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 585,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 37,
+          "own_source_alpha_pixels": 785,
+          "donor_rgb_pixels": 9,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            3,
+            2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 10,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            -1,
+            -9
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 281,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            -3,
+            2
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -7,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_05.png",
+      "source": "assets/Hans/Dodge/dodge_05.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_05.png",
+      "changed_pixels": 43,
+      "donor_rgb_pixels": 17,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "1039170e5c6c8c1aa5280925c1546044fbcd6e0251628d05180ed7d701e76bc1",
+      "recovered_source_sha256": "e21f9cbafee912d5f5472492714bc1a8ba7f2faba352ad416519eab3cad92f78",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 544,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 26,
+          "own_source_alpha_pixels": 757,
+          "donor_rgb_pixels": 5,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            -2,
+            -2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 12,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            -4,
+            -11
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 268,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -4,
+            8
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            2,
+            -2
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_06.png",
+      "source": "assets/Hans/Dodge/dodge_06.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_06.png",
+      "changed_pixels": 530,
+      "donor_rgb_pixels": 279,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "f94748ddcae1956ffe500b48a009d9ea6c14bf2fef5c80535028cd6eab1c92a4",
+      "recovered_source_sha256": "0114165c84b7498019c0b4618038e26c99e881676a9ca8889e33d51310a1432d",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 518,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            -1,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 223,
+          "own_source_alpha_pixels": 735,
+          "donor_rgb_pixels": 143,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            12
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 53,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 28,
+          "own_source_alpha_pixels": 317,
+          "donor_rgb_pixels": 24,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            4,
+            -6
+          ]
+        },
+        {
+          "region": "jerkin_additional_1",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 59,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            5,
+            -12
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_07.png",
+      "source": "assets/Hans/Dodge/dodge_07.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_07.png",
+      "changed_pixels": 268,
+      "donor_rgb_pixels": 146,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "75b23e4afe934c09edf34ea5fecf8928c1afe0bcae1ca1b6c530edac7d64a4aa",
+      "recovered_source_sha256": "2e923925056c3b05ad4afee1f8aed674661b66757d6ad0d1d5e2179180721b79",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 107,
+          "own_source_alpha_pixels": 524,
+          "donor_rgb_pixels": 53,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 31,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 684,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            -1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -1,
+            -11
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 15,
+          "own_source_alpha_pixels": 325,
+          "donor_rgb_pixels": 15,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 7,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            -4
+          ]
+        },
+        {
+          "region": "right_thigh_additional_2",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 16,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            2,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_additional_3",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 10,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            0,
+            1
+          ]
+        },
+        {
+          "region": "waist_additional_4",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 14,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            6,
+            -10
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_08.png",
+      "source": "assets/Hans/Dodge/dodge_08.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_08.png",
+      "changed_pixels": 121,
+      "donor_rgb_pixels": 34,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "28b2c1d7dc963e7a2b5259a3df73450124a1cbceceac15881cc283bbb2f99bb5",
+      "recovered_source_sha256": "941fa0cee745255bbd7d5d5d58eb154c31c2e8a1c970d693c3598fb4b61e6707",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 80,
+          "own_source_alpha_pixels": 553,
+          "donor_rgb_pixels": 6,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 24,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 617,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            0,
+            -12
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 7,
+          "own_source_alpha_pixels": 348,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 4,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            4,
+            -12
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_10.png",
+      "source": "assets/Hans/Dodge/dodge_10.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_10.png",
+      "changed_pixels": 155,
+      "donor_rgb_pixels": 69,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "d97e5b8d8d601b5936a625ca93c0e831f2ebaa31b93d07f3d039927a3a5c1669",
+      "recovered_source_sha256": "498b6dd9b9ba694a1a3b2142242dd2eb2f83a377c10885500f15ca45fd7056bb",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 86,
+          "own_source_alpha_pixels": 465,
+          "donor_rgb_pixels": 22,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            3,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 32,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            -4,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 426,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            0,
+            -12
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            1,
+            -12
+          ]
+        },
+        {
+          "region": "right_thigh_additional_5",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 4,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_additional_6",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 11,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            1,
+            -2
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_11.png",
+      "source": "assets/Hans/Dodge/dodge_11.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_11.png",
+      "changed_pixels": 227,
+      "donor_rgb_pixels": 105,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "b627cebeddf097f423bca253bbc61c10c4b6bfd50869a814729a801a647082b3",
+      "recovered_source_sha256": "a1e4e1dc1444e2d04eed157ca2c626dfbd56840b52b5dac5954c8e35c177e4bb",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 122,
+          "own_source_alpha_pixels": 397,
+          "donor_rgb_pixels": 54,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 21,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            2,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 304,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            0,
+            -2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -1,
+            11
+          ]
+        },
+        {
+          "region": "right_thigh_additional_7",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 30,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            4,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Dodge/dodge_12.png",
+      "source": "assets/Hans/Dodge/dodge_12.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Dodge/dodge_12.png",
+      "changed_pixels": 110,
+      "donor_rgb_pixels": 50,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "595ada75133554a91d9e48dfff5de2dc2dc073cd1672c22d39c6c42623eeb7e9",
+      "recovered_source_sha256": "044edeeeff39f0107461f3bdff3e14e3d758e16e10f7c86ac5a94b4f72055a97",
+      "trace": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 60,
+          "own_source_alpha_pixels": 385,
+          "donor_rgb_pixels": 44,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 6,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            4,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 337,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            0,
+            2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -1,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Hit/hit_02.png",
+      "source": "assets/Hans/Hit/hit_02.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Hit/hit_02.png",
+      "changed_pixels": 132,
+      "donor_rgb_pixels": 96,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "a3e3e40d2337564c8391155e7e2184c61bccde2a91d7229c373bdf9c6531f26d",
+      "recovered_source_sha256": "57a40a30a26e2559b44538e112a71bc72ad30846a07f6f4a003c3ffc7d4c9ede",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 36,
+          "own_source_alpha_pixels": 214,
+          "donor_rgb_pixels": 96,
+          "donor_source": "assets/Hans/Hit/hit_03.png",
+          "donor_offset": [
+            9,
+            -2
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Hit/hit_03.png",
+      "source": "assets/Hans/Hit/hit_03.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Hit/hit_03.png",
+      "changed_pixels": 106,
+      "donor_rgb_pixels": 75,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "4f4d54cf9b3f6537c2e9f9a3fe334de0329ec92b4bdcc42386ce4c2b4f4c4c37",
+      "recovered_source_sha256": "7430c970de905932cb3c3422370f13b2d9d68c8868fff265444c48457edcc28c",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 31,
+          "own_source_alpha_pixels": 222,
+          "donor_rgb_pixels": 50,
+          "donor_source": "assets/Hans/Hit/hit_02.png",
+          "donor_offset": [
+            -9,
+            2
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 16,
+          "donor_source": "assets/Hans/Hit/hit_05.png",
+          "donor_offset": [
+            12,
+            -2
+          ]
+        },
+        {
+          "region": "right_knee_additional_8",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 9,
+          "donor_source": "assets/Hans/Hit/hit_01.png",
+          "donor_offset": [
+            -4,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_9",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Hit/hit_04.png",
+          "donor_offset": [
+            12,
+            -3
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Hit/hit_04.png",
+      "source": "assets/Hans/Hit/hit_04.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Hit/hit_04.png",
+      "changed_pixels": 60,
+      "donor_rgb_pixels": 30,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "5f32d262277faa737048986b5b2332d946812b7a8edc8f2ac4600728a72f7696",
+      "recovered_source_sha256": "3245af7abbe7b39be159e9158a1f6c3daa6b50db2c0d197b8fb9d59504c3788c",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 30,
+          "own_source_alpha_pixels": 216,
+          "donor_rgb_pixels": 24,
+          "donor_source": "assets/Hans/Hit/hit_06.png",
+          "donor_offset": [
+            -4,
+            2
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 1,
+          "donor_source": "assets/Hans/Hit/hit_05.png",
+          "donor_offset": [
+            -1,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_10",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 5,
+          "donor_source": "assets/Hans/Hit/hit_03.png",
+          "donor_offset": [
+            -12,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Hit/hit_05.png",
+      "source": "assets/Hans/Hit/hit_05.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Hit/hit_05.png",
+      "changed_pixels": 131,
+      "donor_rgb_pixels": 71,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "f11351c44c782dc89786b1e1e6c95cd0022bdcf2675736296e8a8df1ea90aca1",
+      "recovered_source_sha256": "be42a5bb37ba496b3dbc45e311315c542f986afbcf274038c1345a7832a724d7",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 60,
+          "own_source_alpha_pixels": 243,
+          "donor_rgb_pixels": 29,
+          "donor_source": "assets/Hans/Hit/hit_03.png",
+          "donor_offset": [
+            -12,
+            2
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 22,
+          "donor_source": "assets/Hans/Hit/hit_06.png",
+          "donor_offset": [
+            -3,
+            2
+          ]
+        },
+        {
+          "region": "right_knee_additional_11",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 11,
+          "donor_source": "assets/Hans/Hit/hit_04.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_12",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 9,
+          "donor_source": "assets/Hans/Hit/hit_07.png",
+          "donor_offset": [
+            -8,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Hit/hit_06.png",
+      "source": "assets/Hans/Hit/hit_06.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Hit/hit_06.png",
+      "changed_pixels": 182,
+      "donor_rgb_pixels": 118,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "b1fcfd9162bec86371a4e1264390e7894af32526fd02269666a842023b20540b",
+      "recovered_source_sha256": "8152fdeb1d8f1549d6c08dcdd10a32937f98cf5ff12fd4af65c353d0f2682597",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 64,
+          "own_source_alpha_pixels": 202,
+          "donor_rgb_pixels": 32,
+          "donor_source": "assets/Hans/Hit/hit_07.png",
+          "donor_offset": [
+            -4,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 11,
+          "donor_source": "assets/Hans/Hit/hit_04.png",
+          "donor_offset": [
+            4,
+            -2
+          ]
+        },
+        {
+          "region": "right_knee_additional_13",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 74,
+          "donor_source": "assets/Hans/Hit/hit_08.png",
+          "donor_offset": [
+            -11,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_14",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 1,
+          "donor_source": "assets/Hans/Hit/hit_05.png",
+          "donor_offset": [
+            3,
+            -2
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Hit/hit_07.png",
+      "source": "assets/Hans/Hit/hit_07.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Hit/hit_07.png",
+      "changed_pixels": 59,
+      "donor_rgb_pixels": 34,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "ead7d408a9d3ba02009ead5a3718a686e3ba88d6cd874220045a1b0026fdb3a5",
+      "recovered_source_sha256": "2a4e19efa7f8bdd84fc45acef1d28153ecd9d266f3382fad98a1676c1f617ab7",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 25,
+          "own_source_alpha_pixels": 170,
+          "donor_rgb_pixels": 29,
+          "donor_source": "assets/Hans/Hit/hit_06.png",
+          "donor_offset": [
+            4,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 5,
+          "donor_source": "assets/Hans/Hit/hit_08.png",
+          "donor_offset": [
+            -7,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Attack/attack_05.png",
+      "source": "assets/Hans/Attack/attack_05.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Attack/attack_05.png",
+      "changed_pixels": 206,
+      "donor_rgb_pixels": 13,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "d33a2b54aad00121e0d56e3ee994c00e338a8400110655cd1e84958883ba0622",
+      "recovered_source_sha256": "1c4047ffabdbf0f776420c7c17385b0507ce40784c12f6c6772412a0b13b806c",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 193,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Attack/attack_04.png",
+          "donor_offset": [
+            -4,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 9,
+          "donor_source": "assets/Hans/Attack/attack_03.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_15",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 2,
+          "donor_source": "assets/Hans/Attack/attack_06.png",
+          "donor_offset": [
+            -3,
+            1
+          ]
+        },
+        {
+          "region": "right_knee_additional_16",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 2,
+          "donor_source": "assets/Hans/Attack/attack_07.png",
+          "donor_offset": [
+            -8,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Attack/attack_06.png",
+      "source": "assets/Hans/Attack/attack_06.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Attack/attack_06.png",
+      "changed_pixels": 156,
+      "donor_rgb_pixels": 22,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "a1b2bd535766c07e30ed007415cab628c3766cef89c4e031b92cbc799845733d",
+      "recovered_source_sha256": "079b9e725fdcaf780bcd12c801915cc9c488c7645f987fbbe19034a472f13006",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 134,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 1,
+          "donor_source": "assets/Hans/Attack/attack_05.png",
+          "donor_offset": [
+            3,
+            -1
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 1,
+          "donor_source": "assets/Hans/Attack/attack_04.png",
+          "donor_offset": [
+            -2,
+            -1
+          ]
+        },
+        {
+          "region": "right_knee_additional_17",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 20,
+          "donor_source": "assets/Hans/Attack/attack_07.png",
+          "donor_offset": [
+            -8,
+            -3
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Attack/attack_07.png",
+      "source": "assets/Hans/Attack/attack_07.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Attack/attack_07.png",
+      "changed_pixels": 147,
+      "donor_rgb_pixels": 29,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "c222a496c8d864753e582bae1d883c12a19728a4c1790e1eb52c3dadd12a0d55",
+      "recovered_source_sha256": "8acaaf4e0f4cf961462bea48807519b19e39dab479c0a0b08675ee240605f2b6",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 118,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 26,
+          "donor_source": "assets/Hans/Attack/attack_09.png",
+          "donor_offset": [
+            -2,
+            1
+          ]
+        },
+        {
+          "region": "right_knee_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 3,
+          "donor_source": "assets/Hans/Attack/attack_06.png",
+          "donor_offset": [
+            8,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Victory/victory_05.png",
+      "source": "assets/Hans/Victory/victory_05.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Victory/victory_05.png",
+      "changed_pixels": 146,
+      "donor_rgb_pixels": 91,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "932d1ebbe8448af677ed5d88c9ba1853484f7ee809c3710ae0e54e30f00873d3",
+      "recovered_source_sha256": "129686d4c994f9850d3d38f3adc3446194c9e87f6b5e7f7c528598ce4df85c92",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 55,
+          "own_source_alpha_pixels": 196,
+          "donor_rgb_pixels": 27,
+          "donor_source": "assets/Hans/Victory/victory_06.png",
+          "donor_offset": [
+            -1,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_18",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 38,
+          "donor_source": "assets/Hans/Victory/victory_04.png",
+          "donor_offset": [
+            6,
+            0
+          ]
+        },
+        {
+          "region": "right_knee_additional_19",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 26,
+          "donor_source": "assets/Hans/Victory/victory_03.png",
+          "donor_offset": [
+            7,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "prepared/Hans/Victory/victory_12.png",
+      "source": "assets/Hans/Victory/victory_12.png",
+      "recovered_source": "assets/combat/restoration/hans/recovered_source/Victory/victory_12.png",
+      "changed_pixels": 14,
+      "donor_rgb_pixels": 7,
+      "new_opaque_black_pixels": 0,
+      "prepared_sha256": "3d26bf84b3ea205c50df3c944fbde8aeb1b6971bdbd774192fd79dca52ede316",
+      "recovered_source_sha256": "fdaa6364745f11f98baf738c9212c43546cca2a0d69bea1a37a4b430cd1156d7",
+      "trace": [
+        {
+          "region": "right_knee",
+          "own_runtime_alpha_pixels": 7,
+          "own_source_alpha_pixels": 173,
+          "donor_rgb_pixels": 7,
+          "donor_source": "assets/Hans/Victory/victory_11.png",
+          "donor_offset": [
+            2,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "clip": "attack",
+    "evaluated_pixels": 312,
+    "before_mean_step": 111.06973509355025,
+    "after_mean_step": 81.38442022150213,
+    "before_largest_step": 192.3002166748047,
+    "after_largest_step": 153.00961303710938,
+    "pair_steps_before": [
+      104.07691955566406,
+      129.56089782714844,
+      153.00961303710938,
+      192.3002166748047,
+      109.93269348144531,
+      111.34188079833984,
+      115.0438003540039,
+      91.51174926757812,
+      66.88247680664062,
+      84.27350616455078,
+      63.83333206176758
+    ],
+    "pair_steps_after": [
+      104.07691955566406,
+      129.56089782714844,
+      153.00961303710938,
+      34.79914474487305,
+      36.12286376953125,
+      33.214744567871094,
+      97.94337463378906,
+      91.51174926757812,
+      66.88247680664062,
+      84.27350616455078,
+      63.83333206176758
+    ],
+    "note": "White-composited original-size frames registered by unchanged origin. Measures edited ROI only; not a semantic guarantee of perfect anatomy or full-clip smoothness."
+  },
+  {
+    "clip": "hit",
+    "evaluated_pixels": 384,
+    "before_mean_step": 84.13178852626255,
+    "after_mean_step": 39.7669860294887,
+    "before_largest_step": 136.93646240234375,
+    "after_largest_step": 59.54253387451172,
+    "pair_steps_before": [
+      64.73046875,
+      105.83901977539062,
+      64.4757080078125,
+      45.73929977416992,
+      106.28134155273438,
+      136.93646240234375,
+      64.92021942138672
+    ],
+    "pair_steps_after": [
+      42.79594802856445,
+      23.64236068725586,
+      59.54253387451172,
+      29.21614646911621,
+      54.12990188598633,
+      32.02920913696289,
+      37.01280212402344
+    ],
+    "note": "White-composited original-size frames registered by unchanged origin. Measures edited ROI only; not a semantic guarantee of perfect anatomy or full-clip smoothness."
+  },
+  {
+    "clip": "dodge",
+    "evaluated_pixels": 1202,
+    "before_mean_step": 63.238400892777875,
+    "after_mean_step": 27.68038090792569,
+    "before_largest_step": 171.66566467285156,
+    "after_largest_step": 40.49251174926758,
+    "pair_steps_before": [
+      58.13474655151367,
+      29.293123245239258,
+      38.22340393066406,
+      21.110158920288086,
+      104.22892761230469,
+      171.66566467285156,
+      42.0129508972168,
+      49.38092041015625,
+      65.54367065429688,
+      59.324703216552734,
+      56.704139709472656
+    ],
+    "pair_steps_after": [
+      40.49251174926758,
+      29.293123245239258,
+      28.426511764526367,
+      19.960065841674805,
+      17.74847412109375,
+      25.727676391601562,
+      16.864946365356445,
+      26.049917221069336,
+      37.08236312866211,
+      36.70160675048828,
+      26.136993408203125
+    ],
+    "note": "White-composited original-size frames registered by unchanged origin. Measures edited ROI only; not a semantic guarantee of perfect anatomy or full-clip smoothness."
+  },
+  {
+    "clip": "victory",
+    "evaluated_pixels": 160,
+    "before_mean_step": 75.90437004301283,
+    "after_mean_step": 33.90425305896335,
+    "before_largest_step": 219.5301971435547,
+    "after_largest_step": 117.75263977050781,
+    "pair_steps_before": [
+      9.339583396911621,
+      64.36415100097656,
+      49.475955963134766,
+      197.21820068359375,
+      219.5301971435547,
+      0.0,
+      15.34325122833252,
+      6.510416507720947,
+      121.35757446289062
+    ],
+    "pair_steps_after": [
+      9.339583396911621,
+      64.36415100097656,
+      49.475955963134766,
+      25.094444274902344,
+      17.257835388183594,
+      0.0,
+      15.34325122833252,
+      6.510416507720947,
+      117.75263977050781
+    ],
+    "note": "White-composited original-size frames registered by unchanged origin. Measures edited ROI only; not a semantic guarantee of perfect anatomy or full-clip smoothness."
+  }
+]

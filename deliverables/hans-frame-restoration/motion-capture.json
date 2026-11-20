@@ -1,0 +1,8 @@
+{
+  "capture": "actual X11 window; old prepared ImageTextures left / restored textures right; baseline pixel-equivalence asserted in Godot",
+  "engine_playback_speed": 0.5,
+  "capture_fps": 15,
+  "frames": 465,
+  "elapsed": 31.068144393000694,
+  "encoder_exit": 0
+}

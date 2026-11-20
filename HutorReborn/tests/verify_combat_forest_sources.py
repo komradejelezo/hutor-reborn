@@ -29,6 +29,8 @@ def main():
         with ZipFile(args.archive) as z:
             assert hashes=={i.filename:hashlib.sha256(z.read(i)).hexdigest() for i in z.infolist() if not i.is_dir()}
     print('PASS: all 259 source files match original ZIP byte-for-byte')
+    from restore_hans_combat_frames import expected_outputs
+    reviewed=expected_outputs()
     audit=json.loads((PACK/'source_audit.json').read_text());lib=json.loads((PACK/'library.json').read_text());count=0
     for c in audit:
         sizes=set()
@@ -39,11 +41,15 @@ def main():
             rgb=np.any(a[:,:,:3]!=b[:,:,:3],axis=2)
             if c['animation']=='Wolf/Idle' and i==11:
                 x0,y0,x1,y1=c['correction']['rect'];rgb[y0:y1,x0:x1]=False
+            if f['path'] in reviewed:
+                expected=reviewed[f['path']]
+                assert np.array_equal(b,expected['prepared']),f['path']
+                rgb[expected['rgb_mask']]=False
             assert not rgb.any(),f['path']
             assert b[0,0,3]==0 and b[-1,-1,3]==0,f['path']
         assert len(sizes)==1,c['animation']
     assert count==248
-    print('PASS: 248 full-size RGBA poses; uniform clip canvases; transparent corners; RGB unchanged outside one local paw rectangle')
+    print('PASS: 248 full-size RGBA poses; uniform clip canvases; transparent corners; RGB unchanged outside one local paw rectangle and per-pixel reviewed Hans donor masks')
     spec=lib['wolf']['idle'];before=[];after=[]
     for f in spec['frames']:
         a,_=close_pinholes(Image.open(PACK/f['source']).convert('RGBA'))

@@ -1,0 +1,6 @@
+PASS: 20 runtime PNGs; all 1358 new RGB pixels trace to exact adjacent source coordinates
+PASS: source-size/pivot/ground protection; no interpolation, visible-pixel recolour or new opaque black fill
+PASS: all 259 package originals, approved Idles, other fighters, animation definitions, arena/effects, mechanics/world/NPC/quests/settings unchanged
+PASS: wrong registration/source hash, off-mask corruption and black fill rejected
+PASS: read-only reconstruction is deterministic; saved prepared files equal reviewed results
+RESULT: 5 frame-restoration verification groups passed
