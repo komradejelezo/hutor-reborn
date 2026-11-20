@@ -1,0 +1,6 @@
+PASS: all twelve actual SpriteFrames entries; unchanged FPS/loop; all game files match merged main
+PASS: source/current/before hashes, precise origin registration, 12 native-size categorical masks
+PASS: fair prepared-before/current panels, exact PR42 deltas and all 36 Nearest 4x crops
+PASS: all four motion conditions, two complete cycles/Idle returns each; Godot 105/0; downloadable standard MP4
+PASS: report links and lossless atlases readable; no temporary resources under game project
+RESULT: 5 diagnostic verification groups passed

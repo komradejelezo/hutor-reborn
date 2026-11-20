@@ -1,0 +1,4795 @@
+{
+  "title": "Ганс: атлас уклонения перед художественной реставрацией",
+  "main_commit": "6ef9994e066bda3ab5a65135da26593e5be805e1",
+  "before_pr42_commit": "ce7e70600d10f2d534ea539090da2c8bf68d46b6",
+  "coordinates": "Исходный PNG 357×358; (0,0) сверху слева; x вправо, y вниз; bbox [x0,y0,x1,y1), правая/нижняя границы исключены. Origin из library.json, без переноса изображения.",
+  "diagnostic_alpha_threshold": 128,
+  "mask_palette": {
+    "1": {
+      "rgb": [
+        220,
+        35,
+        55
+      ],
+      "meaning": "Подтверждённый остаток"
+    },
+    "2": {
+      "rgb": [
+        235,
+        140,
+        0
+      ],
+      "meaning": "Подозрение: нужна оценка"
+    },
+    "3": {
+      "rgb": [
+        0,
+        145,
+        200
+      ],
+      "meaning": "Естественный просвет"
+    },
+    "4": {
+      "rgb": [
+        100,
+        155,
+        55
+      ],
+      "meaning": "Рваная кромка плаща"
+    }
+  },
+  "mask_warning": "Это аннотированные окна осмотра, не утверждённая новая геометрия тела. Подозрительные маски нельзя использовать для автоматического заполнения. Нулевой RGB сам по себе не доказывает потерю ткани.",
+  "animation": {
+    "ms": 52,
+    "scale": 0.5028409090909091,
+    "loop": false,
+    "pingpong": false,
+    "hold": false,
+    "impact": 0,
+    "used_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "source_count": 12,
+    "derived_from": "Hans/Dodge",
+    "correction": null
+  },
+  "frames": [
+    {
+      "source_frame": 1,
+      "runtime_frame": 1,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_01.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_01.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_01.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "47c0e0e6b0aa94a057335280952028216f3c7485931b27e50430a34174f6ed0f",
+      "before_sha256": "83649e5d4f298904ac9f224348308e1d1fcce0836eaa62c04c53df8cbf788f82",
+      "current_sha256": "25dcafec5e9c5a16ac6c96c2ddfd64cff63ff635137d341e6ad9c7e204fe5e10",
+      "previously_repaired_pixels": 104,
+      "previous_donor_rgb_pixels": 53,
+      "previous_alpha_only_pixels": 51,
+      "remaining_confirmed_mask_pixels": 87,
+      "suspected_mask_pixels": 544,
+      "regions": [
+        {
+          "id": "К",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            229,
+            232,
+            242,
+            245
+          ],
+          "low_alpha_pixels": 87,
+          "raw_zero_rgb_pixels": 87,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            124,
+            238,
+            166,
+            260
+          ],
+          "bbox_of_nonzero_mask": [
+            124,
+            248,
+            166,
+            260
+          ],
+          "low_alpha_pixels": 115,
+          "raw_zero_rgb_pixels": 81,
+          "raw_retained_rgb_pixels": 34,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            112,
+            169,
+            141,
+            222
+          ],
+          "bbox_of_nonzero_mask": [
+            116,
+            183,
+            138,
+            222
+          ],
+          "low_alpha_pixels": 429,
+          "raw_zero_rgb_pixels": 328,
+          "raw_retained_rgb_pixels": 101,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            215,
+            125,
+            248,
+            174
+          ],
+          "bbox_of_nonzero_mask": [
+            215,
+            125,
+            248,
+            174
+          ],
+          "low_alpha_pixels": 754,
+          "raw_zero_rgb_pixels": 568,
+          "raw_retained_rgb_pixels": 186,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 468,
+          "raw_zero_rgb_pixels": 408,
+          "raw_retained_rgb_pixels": 60,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            40,
+            265,
+            91,
+            302
+          ],
+          "bbox_of_nonzero_mask": [
+            40,
+            265,
+            91,
+            302
+          ],
+          "low_alpha_pixels": 652,
+          "raw_zero_rgb_pixels": 589,
+          "raw_retained_rgb_pixels": 63,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_01.png",
+      "damage_page": "ATLAS_DAMAGE.png",
+      "before_after_page": "ATLAS_BEFORE_AFTER.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 51,
+          "own_source_alpha_pixels": 389,
+          "donor_rgb_pixels": 53,
+          "donor_source": "assets/Hans/Dodge/dodge_02.png",
+          "donor_offset": [
+            3,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 368,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_02.png",
+          "donor_offset": [
+            -2,
+            6
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 236,
+            "positions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              24,
+              26,
+              28,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              40,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              165,
+              237,
+              238,
+              239,
+              240,
+              241,
+              242,
+              243,
+              244,
+              245,
+              246,
+              247,
+              248,
+              249,
+              250,
+              251,
+              252,
+              253,
+              254,
+              255,
+              256,
+              257,
+              258,
+              259,
+              260,
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273,
+              274,
+              275,
+              276,
+              277,
+              278,
+              279,
+              280,
+              281,
+              282,
+              283,
+              284,
+              285,
+              286,
+              287,
+              288,
+              289,
+              290,
+              291,
+              292,
+              293,
+              294,
+              295,
+              296,
+              297,
+              298,
+              299,
+              300,
+              301,
+              302,
+              303,
+              304,
+              305,
+              306,
+              307,
+              308,
+              309,
+              310,
+              311,
+              312,
+              313,
+              314,
+              315,
+              316,
+              317,
+              318,
+              322,
+              350,
+              351,
+              352,
+              353,
+              354,
+              355,
+              356
+            ]
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 1,
+            "positions": [
+              0
+            ]
+          },
+          "право": {
+            "count": 1,
+            "positions": [
+              0
+            ]
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 2,
+      "runtime_frame": 2,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_02.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_02.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_02.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        352
+      ],
+      "source_sha256": "5d844cedb6b9e768997e6cf953e35a16b6a9272596797273c4a7b1cc7afa33fe",
+      "before_sha256": "fa9a181aa11f224934b060cc5218f2efaa3cd1b6e5a5d42c0bd1474e9ab60d0d",
+      "current_sha256": "fa9a181aa11f224934b060cc5218f2efaa3cd1b6e5a5d42c0bd1474e9ab60d0d",
+      "previously_repaired_pixels": 0,
+      "previous_donor_rgb_pixels": 0,
+      "previous_alpha_only_pixels": 0,
+      "remaining_confirmed_mask_pixels": 0,
+      "suspected_mask_pixels": 0,
+      "regions": [
+        {
+          "id": "К",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            120,
+            235,
+            164,
+            258
+          ],
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            113,
+            174,
+            143,
+            222
+          ],
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            215,
+            132,
+            253,
+            180
+          ],
+          "bbox_of_nonzero_mask": [
+            215,
+            132,
+            253,
+            180
+          ],
+          "low_alpha_pixels": 914,
+          "raw_zero_rgb_pixels": 662,
+          "raw_retained_rgb_pixels": 252,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 536,
+          "raw_zero_rgb_pixels": 470,
+          "raw_retained_rgb_pixels": 66,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            32,
+            262,
+            83,
+            302
+          ],
+          "bbox_of_nonzero_mask": [
+            32,
+            262,
+            83,
+            302
+          ],
+          "low_alpha_pixels": 621,
+          "raw_zero_rgb_pixels": 558,
+          "raw_retained_rgb_pixels": 63,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_02.png",
+      "damage_page": "ATLAS_DAMAGE.png",
+      "before_after_page": "ATLAS_BEFORE_AFTER.png",
+      "previous_repairs": [],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 193,
+            "positions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              8,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              82,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              92,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              108,
+              124,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              247,
+              248,
+              257,
+              258,
+              259,
+              260,
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273,
+              275,
+              276,
+              277,
+              281,
+              282,
+              283,
+              284,
+              285,
+              286,
+              289,
+              291,
+              292,
+              293,
+              294,
+              295,
+              296,
+              297,
+              298,
+              299,
+              301,
+              313,
+              315,
+              316,
+              317,
+              318,
+              319,
+              321,
+              322,
+              323,
+              324,
+              325,
+              327,
+              328,
+              329,
+              330,
+              331,
+              332,
+              333,
+              334,
+              335,
+              336,
+              337,
+              338,
+              339,
+              340,
+              341,
+              342,
+              343,
+              344,
+              345,
+              346,
+              347,
+              348,
+              349,
+              350,
+              351,
+              352,
+              353,
+              354,
+              355,
+              356
+            ]
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 1,
+            "positions": [
+              0
+            ]
+          },
+          "право": {
+            "count": 1,
+            "positions": [
+              0
+            ]
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 3,
+      "runtime_frame": 3,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_03.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_03.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_03.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        352
+      ],
+      "source_sha256": "5cedb09d8d9ea8090ca2d3f15a2036a1194dfe97ef12d5f249f2bf39f013deec",
+      "before_sha256": "536761b74f4d37ccfae58968a7f016e422c61f847fc425ed8a0ab180ca9e4d55",
+      "current_sha256": "536761b74f4d37ccfae58968a7f016e422c61f847fc425ed8a0ab180ca9e4d55",
+      "previously_repaired_pixels": 0,
+      "previous_donor_rgb_pixels": 0,
+      "previous_alpha_only_pixels": 0,
+      "remaining_confirmed_mask_pixels": 0,
+      "suspected_mask_pixels": 1660,
+      "regions": [
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            117,
+            232,
+            170,
+            259
+          ],
+          "bbox_of_nonzero_mask": [
+            117,
+            233,
+            170,
+            259
+          ],
+          "low_alpha_pixels": 410,
+          "raw_zero_rgb_pixels": 300,
+          "raw_retained_rgb_pixels": 110,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            105,
+            162,
+            145,
+            224
+          ],
+          "bbox_of_nonzero_mask": [
+            105,
+            162,
+            145,
+            224
+          ],
+          "low_alpha_pixels": 1250,
+          "raw_zero_rgb_pixels": 938,
+          "raw_retained_rgb_pixels": 312,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            223,
+            140,
+            266,
+            194
+          ],
+          "bbox_of_nonzero_mask": [
+            223,
+            140,
+            266,
+            194
+          ],
+          "low_alpha_pixels": 1196,
+          "raw_zero_rgb_pixels": 951,
+          "raw_retained_rgb_pixels": 245,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 654,
+          "raw_zero_rgb_pixels": 601,
+          "raw_retained_rgb_pixels": 53,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            14,
+            246,
+            74,
+            293
+          ],
+          "bbox_of_nonzero_mask": [
+            14,
+            246,
+            74,
+            293
+          ],
+          "low_alpha_pixels": 1431,
+          "raw_zero_rgb_pixels": 1239,
+          "raw_retained_rgb_pixels": 192,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_03.png",
+      "damage_page": "ATLAS_DAMAGE.png",
+      "before_after_page": "ATLAS_BEFORE_AFTER.png",
+      "previous_repairs": [],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 146,
+            "positions": [
+              1,
+              2,
+              3,
+              4,
+              16,
+              20,
+              24,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              80,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              183,
+              184,
+              253,
+              257,
+              258,
+              259,
+              260,
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              295,
+              296,
+              297,
+              298,
+              299,
+              301,
+              302,
+              303,
+              304,
+              305,
+              306,
+              307,
+              308,
+              309,
+              310,
+              325,
+              329,
+              331,
+              332,
+              333,
+              337,
+              338,
+              339,
+              340,
+              349,
+              351,
+              352,
+              353,
+              354,
+              355,
+              356
+            ]
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 1,
+            "positions": [
+              0
+            ]
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 4,
+      "runtime_frame": 4,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_04.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_04.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_04.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        352
+      ],
+      "source_sha256": "d555ac52571814d0ae57689981814a44ee7d53db6ac5eea99f255a429942d5f6",
+      "before_sha256": "c84bc6730a8b8c30e8f054d06bd51f064f2f249852d5cde3438ec6d1e4d2e249",
+      "current_sha256": "58858b3133da6637810cb1d43c7c6d40bdc14c0ecd633c641a0b7b45c9deb449",
+      "previously_repaired_pixels": 56,
+      "previous_donor_rgb_pixels": 19,
+      "previous_alpha_only_pixels": 37,
+      "remaining_confirmed_mask_pixels": 30,
+      "suspected_mask_pixels": 1118,
+      "regions": [
+        {
+          "id": "К",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Ж",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            207,
+            168,
+            215,
+            182
+          ],
+          "low_alpha_pixels": 30,
+          "raw_zero_rgb_pixels": 30,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "П",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            111,
+            230,
+            171,
+            258
+          ],
+          "bbox_of_nonzero_mask": [
+            118,
+            230,
+            120,
+            231
+          ],
+          "low_alpha_pixels": 2,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 2,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            104,
+            163,
+            151,
+            228
+          ],
+          "bbox_of_nonzero_mask": [
+            104,
+            163,
+            140,
+            228
+          ],
+          "low_alpha_pixels": 1116,
+          "raw_zero_rgb_pixels": 873,
+          "raw_retained_rgb_pixels": 243,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            227,
+            151,
+            278,
+            211
+          ],
+          "bbox_of_nonzero_mask": [
+            227,
+            151,
+            278,
+            211
+          ],
+          "low_alpha_pixels": 1440,
+          "raw_zero_rgb_pixels": 1148,
+          "raw_retained_rgb_pixels": 292,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 690,
+          "raw_zero_rgb_pixels": 626,
+          "raw_retained_rgb_pixels": 64,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            8,
+            249,
+            65,
+            291
+          ],
+          "bbox_of_nonzero_mask": [
+            8,
+            249,
+            65,
+            291
+          ],
+          "low_alpha_pixels": 1382,
+          "raw_zero_rgb_pixels": 1277,
+          "raw_retained_rgb_pixels": 105,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_04.png",
+      "damage_page": "ATLAS_DAMAGE.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_02.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 585,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 37,
+          "own_source_alpha_pixels": 785,
+          "donor_rgb_pixels": 9,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            3,
+            2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 10,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            -1,
+            -9
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 281,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            -3,
+            2
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -7,
+            10
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 235,
+            "positions": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              59,
+              64,
+              65,
+              69,
+              70,
+              71,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              208,
+              209,
+              210,
+              233,
+              235,
+              236,
+              237,
+              243,
+              244,
+              245,
+              246,
+              247,
+              248,
+              249,
+              250,
+              251,
+              252,
+              253,
+              254,
+              255,
+              256,
+              257,
+              258,
+              259,
+              260,
+              261,
+              262,
+              263,
+              264,
+              265,
+              266,
+              267,
+              268,
+              269,
+              270,
+              271,
+              272,
+              273,
+              274,
+              275,
+              276,
+              278,
+              279,
+              280,
+              281,
+              282,
+              283,
+              284,
+              285,
+              286,
+              287,
+              288,
+              289,
+              290,
+              291,
+              292,
+              293,
+              294,
+              295,
+              296,
+              297,
+              298,
+              299,
+              300,
+              301,
+              302,
+              303,
+              304,
+              305,
+              306,
+              307,
+              308,
+              309,
+              310,
+              311,
+              312,
+              313,
+              314,
+              316,
+              317,
+              318,
+              329,
+              330,
+              332,
+              333,
+              334,
+              335,
+              336,
+              337,
+              338,
+              339,
+              340,
+              341,
+              342,
+              343,
+              344,
+              345,
+              346,
+              347,
+              348,
+              349,
+              350,
+              351,
+              352,
+              353,
+              354,
+              355,
+              356
+            ]
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 1,
+            "positions": [
+              0
+            ]
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 5,
+      "runtime_frame": 5,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_05.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_05.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_05.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+      "before_sha256": "a1dc2aec317cc0ecfd1cc5b76f6433f8a9bff74e0a396d057105616db1fd75cc",
+      "current_sha256": "1039170e5c6c8c1aa5280925c1546044fbcd6e0251628d05180ed7d701e76bc1",
+      "previously_repaired_pixels": 43,
+      "previous_donor_rgb_pixels": 17,
+      "previous_alpha_only_pixels": 26,
+      "remaining_confirmed_mask_pixels": 16,
+      "suspected_mask_pixels": 295,
+      "regions": [
+        {
+          "id": "К",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Ж",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            211,
+            175,
+            215,
+            181
+          ],
+          "low_alpha_pixels": 16,
+          "raw_zero_rgb_pixels": 16,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "П",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            111,
+            228,
+            173,
+            257
+          ],
+          "bbox_of_nonzero_mask": [
+            114,
+            228,
+            173,
+            257
+          ],
+          "low_alpha_pixels": 239,
+          "raw_zero_rgb_pixels": 166,
+          "raw_retained_rgb_pixels": 73,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            103,
+            173,
+            147,
+            230
+          ],
+          "bbox_of_nonzero_mask": [
+            133,
+            217,
+            143,
+            228
+          ],
+          "low_alpha_pixels": 56,
+          "raw_zero_rgb_pixels": 37,
+          "raw_retained_rgb_pixels": 19,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            216,
+            145,
+            275,
+            207
+          ],
+          "bbox_of_nonzero_mask": [
+            216,
+            145,
+            275,
+            207
+          ],
+          "low_alpha_pixels": 1620,
+          "raw_zero_rgb_pixels": 1314,
+          "raw_retained_rgb_pixels": 306,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 856,
+          "raw_zero_rgb_pixels": 636,
+          "raw_retained_rgb_pixels": 220,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            8,
+            252,
+            65,
+            292
+          ],
+          "bbox_of_nonzero_mask": [
+            8,
+            252,
+            65,
+            292
+          ],
+          "low_alpha_pixels": 1137,
+          "raw_zero_rgb_pixels": 1074,
+          "raw_retained_rgb_pixels": 63,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_05.png",
+      "damage_page": "pages/ATLAS_DAMAGE_02.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_02.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 544,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 26,
+          "own_source_alpha_pixels": 757,
+          "donor_rgb_pixels": 5,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            -2,
+            -2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 12,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            -4,
+            -11
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 268,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -4,
+            8
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            2,
+            -2
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 6,
+      "runtime_frame": 6,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_06.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_06.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_06.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+      "before_sha256": "90ab3a9f8a4f8fd166501e663ea74f59d2d624dbb4dbafd2bade77905c1dc811",
+      "current_sha256": "f94748ddcae1956ffe500b48a009d9ea6c14bf2fef5c80535028cd6eab1c92a4",
+      "previously_repaired_pixels": 530,
+      "previous_donor_rgb_pixels": 279,
+      "previous_alpha_only_pixels": 251,
+      "remaining_confirmed_mask_pixels": 96,
+      "suspected_mask_pixels": 1126,
+      "regions": [
+        {
+          "id": "К",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Ж",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            167,
+            160,
+            209,
+            185
+          ],
+          "low_alpha_pixels": 78,
+          "raw_zero_rgb_pixels": 78,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "П",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            168,
+            193,
+            177,
+            198
+          ],
+          "low_alpha_pixels": 18,
+          "raw_zero_rgb_pixels": 18,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            104,
+            231,
+            169,
+            258
+          ],
+          "bbox_of_nonzero_mask": [
+            104,
+            231,
+            169,
+            258
+          ],
+          "low_alpha_pixels": 430,
+          "raw_zero_rgb_pixels": 294,
+          "raw_retained_rgb_pixels": 136,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            133,
+            150,
+            174,
+            197
+          ],
+          "bbox_of_nonzero_mask": [
+            145,
+            154,
+            174,
+            197
+          ],
+          "low_alpha_pixels": 696,
+          "raw_zero_rgb_pixels": 597,
+          "raw_retained_rgb_pixels": 99,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            217,
+            150,
+            292,
+            220
+          ],
+          "bbox_of_nonzero_mask": [
+            217,
+            150,
+            292,
+            220
+          ],
+          "low_alpha_pixels": 2085,
+          "raw_zero_rgb_pixels": 1730,
+          "raw_retained_rgb_pixels": 355,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 768,
+          "raw_zero_rgb_pixels": 679,
+          "raw_retained_rgb_pixels": 89,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            8,
+            246,
+            74,
+            292
+          ],
+          "bbox_of_nonzero_mask": [
+            8,
+            246,
+            74,
+            292
+          ],
+          "low_alpha_pixels": 1874,
+          "raw_zero_rgb_pixels": 1716,
+          "raw_retained_rgb_pixels": 158,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_06.png",
+      "damage_page": "pages/ATLAS_DAMAGE_02.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_02.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 518,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            -1,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 223,
+          "own_source_alpha_pixels": 735,
+          "donor_rgb_pixels": 143,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            12
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 53,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            1,
+            11
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 28,
+          "own_source_alpha_pixels": 317,
+          "donor_rgb_pixels": 24,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            4,
+            -6
+          ]
+        },
+        {
+          "region": "jerkin_additional_1",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 59,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            5,
+            -12
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 3,
+            "positions": [
+              241,
+              242,
+              243
+            ]
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 3,
+            "positions": [
+              241,
+              242,
+              243
+            ]
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 7,
+      "runtime_frame": 7,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_07.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_07.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_07.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+      "before_sha256": "2440b25cd1aefd5162f7effd1f790624675387253d452b350350a097a537a4e4",
+      "current_sha256": "75b23e4afe934c09edf34ea5fecf8928c1afe0bcae1ca1b6c530edac7d64a4aa",
+      "previously_repaired_pixels": 268,
+      "previous_donor_rgb_pixels": 146,
+      "previous_alpha_only_pixels": 122,
+      "remaining_confirmed_mask_pixels": 99,
+      "suspected_mask_pixels": 517,
+      "regions": [
+        {
+          "id": "К",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            232,
+            226,
+            247,
+            248
+          ],
+          "low_alpha_pixels": 99,
+          "raw_zero_rgb_pixels": 99,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "П",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            103,
+            230,
+            171,
+            258
+          ],
+          "bbox_of_nonzero_mask": [
+            103,
+            230,
+            144,
+            258
+          ],
+          "low_alpha_pixels": 198,
+          "raw_zero_rgb_pixels": 143,
+          "raw_retained_rgb_pixels": 55,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            104,
+            170,
+            133,
+            218
+          ],
+          "bbox_of_nonzero_mask": [
+            104,
+            180,
+            123,
+            218
+          ],
+          "low_alpha_pixels": 319,
+          "raw_zero_rgb_pixels": 225,
+          "raw_retained_rgb_pixels": 94,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            232,
+            157,
+            302,
+            223
+          ],
+          "bbox_of_nonzero_mask": [
+            239,
+            157,
+            302,
+            223
+          ],
+          "low_alpha_pixels": 1918,
+          "raw_zero_rgb_pixels": 1668,
+          "raw_retained_rgb_pixels": 250,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 1072,
+          "raw_zero_rgb_pixels": 933,
+          "raw_retained_rgb_pixels": 139,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            16,
+            247,
+            80,
+            293
+          ],
+          "bbox_of_nonzero_mask": [
+            16,
+            247,
+            80,
+            293
+          ],
+          "low_alpha_pixels": 1410,
+          "raw_zero_rgb_pixels": 1244,
+          "raw_retained_rgb_pixels": 166,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_07.png",
+      "damage_page": "pages/ATLAS_DAMAGE_02.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_03.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 107,
+          "own_source_alpha_pixels": 524,
+          "donor_rgb_pixels": 53,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 31,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 684,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            -1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -1,
+            -11
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 15,
+          "own_source_alpha_pixels": 325,
+          "donor_rgb_pixels": 15,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 7,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            -4
+          ]
+        },
+        {
+          "region": "right_thigh_additional_2",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 16,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            2,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_additional_3",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 10,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            0,
+            1
+          ]
+        },
+        {
+          "region": "waist_additional_4",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 14,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            6,
+            -10
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 2,
+            "positions": [
+              234,
+              235
+            ]
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 2,
+            "positions": [
+              234,
+              235
+            ]
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 8,
+      "runtime_frame": 8,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_08.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_08.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_08.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+      "before_sha256": "867894fe843986e081d5ba73afc5f127f3f831a7156c772f4103502d277cc6f2",
+      "current_sha256": "28b2c1d7dc963e7a2b5259a3df73450124a1cbceceac15881cc283bbb2f99bb5",
+      "previously_repaired_pixels": 121,
+      "previous_donor_rgb_pixels": 34,
+      "previous_alpha_only_pixels": 87,
+      "remaining_confirmed_mask_pixels": 85,
+      "suspected_mask_pixels": 330,
+      "regions": [
+        {
+          "id": "К",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            232,
+            225,
+            251,
+            247
+          ],
+          "low_alpha_pixels": 85,
+          "raw_zero_rgb_pixels": 85,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "П",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            104,
+            230,
+            170,
+            258
+          ],
+          "bbox_of_nonzero_mask": [
+            104,
+            230,
+            168,
+            258
+          ],
+          "low_alpha_pixels": 165,
+          "raw_zero_rgb_pixels": 107,
+          "raw_retained_rgb_pixels": 58,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            111,
+            190,
+            135,
+            229
+          ],
+          "bbox_of_nonzero_mask": [
+            111,
+            194,
+            122,
+            229
+          ],
+          "low_alpha_pixels": 165,
+          "raw_zero_rgb_pixels": 122,
+          "raw_retained_rgb_pixels": 43,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            230,
+            162,
+            306,
+            222
+          ],
+          "bbox_of_nonzero_mask": [
+            238,
+            162,
+            306,
+            222
+          ],
+          "low_alpha_pixels": 1876,
+          "raw_zero_rgb_pixels": 1643,
+          "raw_retained_rgb_pixels": 233,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 931,
+          "raw_zero_rgb_pixels": 859,
+          "raw_retained_rgb_pixels": 72,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            10,
+            250,
+            74,
+            293
+          ],
+          "bbox_of_nonzero_mask": [
+            10,
+            250,
+            74,
+            293
+          ],
+          "low_alpha_pixels": 1010,
+          "raw_zero_rgb_pixels": 903,
+          "raw_retained_rgb_pixels": 107,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_08.png",
+      "damage_page": "pages/ATLAS_DAMAGE_02.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_03.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 80,
+          "own_source_alpha_pixels": 553,
+          "donor_rgb_pixels": 6,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 24,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 617,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            0,
+            -12
+          ]
+        },
+        {
+          "region": "waist",
+          "own_runtime_alpha_pixels": 7,
+          "own_source_alpha_pixels": 348,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "region": "waist_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 4,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            4,
+            -12
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 9,
+      "runtime_frame": 9,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_09.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_09.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_09.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "7e5ef53bd300dc44d7ac165bd4c6a799e1e418a335bf7820021eb25816d4e8e0",
+      "before_sha256": "d9fbbea5f50d518afb43868ff612f6d8a5a1d583984f3f8188805318de749a26",
+      "current_sha256": "d9fbbea5f50d518afb43868ff612f6d8a5a1d583984f3f8188805318de749a26",
+      "previously_repaired_pixels": 0,
+      "previous_donor_rgb_pixels": 0,
+      "previous_alpha_only_pixels": 0,
+      "remaining_confirmed_mask_pixels": 0,
+      "suspected_mask_pixels": 633,
+      "regions": [
+        {
+          "id": "К",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            107,
+            230,
+            170,
+            258
+          ],
+          "bbox_of_nonzero_mask": [
+            109,
+            230,
+            170,
+            258
+          ],
+          "low_alpha_pixels": 490,
+          "raw_zero_rgb_pixels": 357,
+          "raw_retained_rgb_pixels": 133,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            110,
+            188,
+            135,
+            231
+          ],
+          "bbox_of_nonzero_mask": [
+            117,
+            212,
+            135,
+            230
+          ],
+          "low_alpha_pixels": 143,
+          "raw_zero_rgb_pixels": 97,
+          "raw_retained_rgb_pixels": 46,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            231,
+            153,
+            301,
+            216
+          ],
+          "bbox_of_nonzero_mask": [
+            235,
+            153,
+            301,
+            216
+          ],
+          "low_alpha_pixels": 1944,
+          "raw_zero_rgb_pixels": 1715,
+          "raw_retained_rgb_pixels": 229,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 761,
+          "raw_zero_rgb_pixels": 715,
+          "raw_retained_rgb_pixels": 46,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            10,
+            252,
+            74,
+            294
+          ],
+          "bbox_of_nonzero_mask": [
+            10,
+            252,
+            74,
+            294
+          ],
+          "low_alpha_pixels": 1708,
+          "raw_zero_rgb_pixels": 1630,
+          "raw_retained_rgb_pixels": 78,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_09.png",
+      "damage_page": "pages/ATLAS_DAMAGE_03.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_03.png",
+      "previous_repairs": [],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 10,
+      "runtime_frame": 10,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_10.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_10.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_10.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+      "before_sha256": "ba55b20c32707ae053b5efd0c3bd5e8c7967d848980c7083f48f2539464524fe",
+      "current_sha256": "d97e5b8d8d601b5936a625ca93c0e831f2ebaa31b93d07f3d039927a3a5c1669",
+      "previously_repaired_pixels": 155,
+      "previous_donor_rgb_pixels": 69,
+      "previous_alpha_only_pixels": 86,
+      "remaining_confirmed_mask_pixels": 115,
+      "suspected_mask_pixels": 586,
+      "regions": [
+        {
+          "id": "К",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            232,
+            232,
+            253,
+            249
+          ],
+          "low_alpha_pixels": 115,
+          "raw_zero_rgb_pixels": 115,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            111,
+            237,
+            171,
+            260
+          ],
+          "bbox_of_nonzero_mask": [
+            111,
+            237,
+            171,
+            260
+          ],
+          "low_alpha_pixels": 340,
+          "raw_zero_rgb_pixels": 234,
+          "raw_retained_rgb_pixels": 106,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            112,
+            199,
+            143,
+            240
+          ],
+          "bbox_of_nonzero_mask": [
+            120,
+            206,
+            143,
+            237
+          ],
+          "low_alpha_pixels": 246,
+          "raw_zero_rgb_pixels": 179,
+          "raw_retained_rgb_pixels": 67,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            221,
+            128,
+            277,
+            199
+          ],
+          "bbox_of_nonzero_mask": [
+            224,
+            128,
+            277,
+            199
+          ],
+          "low_alpha_pixels": 1730,
+          "raw_zero_rgb_pixels": 1464,
+          "raw_retained_rgb_pixels": 266,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 737,
+          "raw_zero_rgb_pixels": 694,
+          "raw_retained_rgb_pixels": 43,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            10,
+            250,
+            74,
+            295
+          ],
+          "bbox_of_nonzero_mask": [
+            10,
+            250,
+            74,
+            295
+          ],
+          "low_alpha_pixels": 1711,
+          "raw_zero_rgb_pixels": 1626,
+          "raw_retained_rgb_pixels": 85,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_10.png",
+      "damage_page": "pages/ATLAS_DAMAGE_03.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_04.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 86,
+          "own_source_alpha_pixels": 465,
+          "donor_rgb_pixels": 22,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            3,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 32,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            -4,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 426,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            0,
+            -12
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            1,
+            -12
+          ]
+        },
+        {
+          "region": "right_thigh_additional_5",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 4,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_additional_6",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 11,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            1,
+            -2
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 11,
+      "runtime_frame": 11,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_11.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_11.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_11.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "422d3fca8f01858734fd619e256155a3cb7d48094be707b4f6b8747aaeae43e1",
+      "before_sha256": "ec46e3dd8d80cb7876152f1b6c6b5e8bf60dfcedcf5217c2d85f0034e201a270",
+      "current_sha256": "b627cebeddf097f423bca253bbc61c10c4b6bfd50869a814729a801a647082b3",
+      "previously_repaired_pixels": 227,
+      "previous_donor_rgb_pixels": 105,
+      "previous_alpha_only_pixels": 122,
+      "remaining_confirmed_mask_pixels": 148,
+      "suspected_mask_pixels": 126,
+      "regions": [
+        {
+          "id": "К",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            232,
+            233,
+            257,
+            254
+          ],
+          "low_alpha_pixels": 148,
+          "raw_zero_rgb_pixels": 148,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            116,
+            240,
+            172,
+            268
+          ],
+          "bbox_of_nonzero_mask": [
+            159,
+            251,
+            172,
+            268
+          ],
+          "low_alpha_pixels": 126,
+          "raw_zero_rgb_pixels": 91,
+          "raw_retained_rgb_pixels": 35,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            113,
+            190,
+            140,
+            239
+          ],
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            214,
+            119,
+            267,
+            181
+          ],
+          "bbox_of_nonzero_mask": [
+            216,
+            119,
+            267,
+            181
+          ],
+          "low_alpha_pixels": 1146,
+          "raw_zero_rgb_pixels": 882,
+          "raw_retained_rgb_pixels": 264,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 639,
+          "raw_zero_rgb_pixels": 584,
+          "raw_retained_rgb_pixels": 55,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            24,
+            258,
+            87,
+            302
+          ],
+          "bbox_of_nonzero_mask": [
+            24,
+            258,
+            87,
+            302
+          ],
+          "low_alpha_pixels": 1333,
+          "raw_zero_rgb_pixels": 1206,
+          "raw_retained_rgb_pixels": 127,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_11.png",
+      "damage_page": "pages/ATLAS_DAMAGE_03.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_04.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 122,
+          "own_source_alpha_pixels": 397,
+          "donor_rgb_pixels": 54,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            -2,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 21,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            2,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 304,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            0,
+            -2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -1,
+            11
+          ]
+        },
+        {
+          "region": "right_thigh_additional_7",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 30,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            4,
+            0
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    },
+    {
+      "source_frame": 12,
+      "runtime_frame": 12,
+      "source_png": "HutorReborn/assets/combat/forest_v2/assets/Hans/Dodge/dodge_12.png",
+      "before_png_git": "ce7e70600d10f2d534ea539090da2c8bf68d46b6:HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_12.png",
+      "current_png": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_12.png",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "source_sha256": "a826dad58c9380a6862c4e80c6eaebaa0d3ea8d51baf74e5c16c09b58019ff5f",
+      "before_sha256": "07a7dc3e794b82007e02c1b85336432b5253a7b743ddcbac0ebc64217cbd24eb",
+      "current_sha256": "595ada75133554a91d9e48dfff5de2dc2dc073cd1672c22d39c6c42623eeb7e9",
+      "previously_repaired_pixels": 110,
+      "previous_donor_rgb_pixels": 50,
+      "previous_alpha_only_pixels": 60,
+      "remaining_confirmed_mask_pixels": 106,
+      "suspected_mask_pixels": 666,
+      "regions": [
+        {
+          "id": "К",
+          "category": "подтверждённый остаток",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": [
+            229,
+            233,
+            249,
+            244
+          ],
+          "low_alpha_pixels": 106,
+          "raw_zero_rgb_pixels": 106,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Надёжного полного донора для остатка в PR №42 не найдено; повторное совмещение не выполнялось.",
+          "artist_required": true
+        },
+        {
+          "id": "Ж",
+          "category": "внутри прежней маски остаток не обнаружен",
+          "confidence": "высокая для выбранного ядра; граница новой ткани не утверждена",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "erosion_pixels": 3,
+          "bbox_of_nonzero_mask": null,
+          "low_alpha_pixels": 0,
+          "raw_zero_rgb_pixels": 0,
+          "raw_retained_rgb_pixels": 0,
+          "neighbour_recovery": "Остаточного участка в этом ядре нет.",
+          "artist_required": false
+        },
+        {
+          "id": "Б",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "средняя",
+          "inspection_box": [
+            122,
+            241,
+            177,
+            267
+          ],
+          "bbox_of_nonzero_mask": [
+            157,
+            253,
+            177,
+            267
+          ],
+          "low_alpha_pixels": 183,
+          "raw_zero_rgb_pixels": 138,
+          "raw_retained_rgb_pixels": 45,
+          "interpretation": "Разрыв над верхом дальней голени/бедра: ткань, край полы и воздух накладываются. Нужна оценка художника; весь прямоугольник тканью не считать.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "Л",
+          "category": "Подозрение: нужна оценка",
+          "confidence": "низкая/средняя",
+          "inspection_box": [
+            110,
+            188,
+            144,
+            238
+          ],
+          "bbox_of_nonzero_mask": [
+            110,
+            188,
+            136,
+            234
+          ],
+          "low_alpha_pixels": 483,
+          "raw_zero_rgb_pixels": 349,
+          "raw_retained_rgb_pixels": 134,
+          "interpretation": "Просвет со стороны руки с мечом. Возможно естественное отделение согнутой руки или полы; не заполнять автоматически.",
+          "neighbour_recovery": "До утверждения контура перенос из соседней позы не разрешён.",
+          "artist_required": "сначала подтвердить диагноз"
+        },
+        {
+          "id": "В",
+          "category": "Естественный просвет",
+          "confidence": "средняя",
+          "inspection_box": [
+            221,
+            113,
+            278,
+            185
+          ],
+          "bbox_of_nonzero_mask": [
+            221,
+            113,
+            278,
+            185
+          ],
+          "low_alpha_pixels": 1980,
+          "raw_zero_rgb_pixels": 1666,
+          "raw_retained_rgb_pixels": 314,
+          "interpretation": "Воздух между свободной рукой и корпусом преимущественно естественный. Отдельные края ткани внутри окна остаются спорными.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Н",
+          "category": "Естественный просвет",
+          "confidence": "высокая для центральной части",
+          "inspection_box": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "bbox_of_nonzero_mask": [
+            174,
+            282,
+            215,
+            309
+          ],
+          "low_alpha_pixels": 590,
+          "raw_zero_rgb_pixels": 537,
+          "raw_retained_rgb_pixels": 53,
+          "interpretation": "Центральный воздух между разнесёнными ногами; не продолжать в него ткань.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        },
+        {
+          "id": "Р",
+          "category": "Рваная кромка плаща",
+          "confidence": "средняя",
+          "inspection_box": [
+            28,
+            260,
+            91,
+            305
+          ],
+          "bbox_of_nonzero_mask": [
+            28,
+            266,
+            91,
+            305
+          ],
+          "low_alpha_pixels": 1449,
+          "raw_zero_rgb_pixels": 1352,
+          "raw_retained_rgb_pixels": 97,
+          "interpretation": "Пример художественно рваной нижней кромки плаща; не выпрямлять край и не закрашивать фон.",
+          "neighbour_recovery": "Не восстанавливать: контекст для защиты естественных просветов/края.",
+          "artist_required": false
+        }
+      ],
+      "mask_png": "masks/dodge_12.png",
+      "damage_page": "pages/ATLAS_DAMAGE_03.png",
+      "before_after_page": "pages/ATLAS_BEFORE_AFTER_04.png",
+      "previous_repairs": [
+        {
+          "region": "right_thigh",
+          "own_runtime_alpha_pixels": 60,
+          "own_source_alpha_pixels": 385,
+          "donor_rgb_pixels": 44,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            1,
+            0
+          ]
+        },
+        {
+          "region": "right_thigh_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 6,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            4,
+            0
+          ]
+        },
+        {
+          "region": "jerkin",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 337,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            0,
+            2
+          ]
+        },
+        {
+          "region": "jerkin_secondary",
+          "own_runtime_alpha_pixels": 0,
+          "own_source_alpha_pixels": 0,
+          "donor_rgb_pixels": 0,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -1,
+            12
+          ]
+        }
+      ],
+      "border_audit": {
+        "source_top_row_black_matte_pixels": 0,
+        "source_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "current_edges": {
+          "верх": {
+            "count": 0,
+            "positions": []
+          },
+          "низ": {
+            "count": 0,
+            "positions": []
+          },
+          "лево": {
+            "count": 0,
+            "positions": []
+          },
+          "право": {
+            "count": 0,
+            "positions": []
+          }
+        },
+        "edge_pixels_unchanged_by_pr42": true,
+        "diagnosis": "Контакт с краем — повод осмотра, не доказательство обрезанной конечности. Чёрная горизонтальная подложка RAW не является тканью; часть удалена прежней подготовкой до PR №42."
+      }
+    }
+  ]
+}
