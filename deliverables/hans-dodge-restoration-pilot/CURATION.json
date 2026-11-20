@@ -1,0 +1,418 @@
+{
+  "base": "391a5b5e22c58063b4f39e980ee66f626ad2818f",
+  "method": "Localized image-editor restoration candidate. Frozen accepted texture pixels only; original RGBA copied exactly everywhere else. No whole-frame repaint used.",
+  "frames": [
+    {
+      "frame": 6,
+      "source": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_06.png",
+      "source_sha256": "f94748ddcae1956ffe500b48a009d9ea6c14bf2fef5c80535028cd6eab1c92a4",
+      "candidate_id": "exec-07fc0b81-6a9e-429a-b4e0-3a0c31d48d6c.png",
+      "candidate_sha256": "2aeed97f7305df0f0784f28ec297cc32a85dd29308e8b004c16a0a4f77cb0583",
+      "candidate_size": [
+        1254,
+        1254
+      ],
+      "normalized_canvas": [
+        1024,
+        1024
+      ],
+      "sample_formula": "x=72+4*(source_x-90+dx)+2; y=192+4*(source_y-130+dy)+2; candidate normalized using Nearest",
+      "candidate_offset": [
+        0,
+        0
+      ],
+      "polygons": [
+        [
+          [
+            171,
+            155
+          ],
+          [
+            188,
+            154
+          ],
+          [
+            212,
+            165
+          ],
+          [
+            218,
+            181
+          ],
+          [
+            213,
+            200
+          ],
+          [
+            207,
+            215
+          ],
+          [
+            177,
+            215
+          ],
+          [
+            168,
+            205
+          ],
+          [
+            163,
+            195
+          ],
+          [
+            169,
+            183
+          ],
+          [
+            167,
+            174
+          ]
+        ],
+        [
+          [
+            164,
+            190
+          ],
+          [
+            192,
+            190
+          ],
+          [
+            211,
+            204
+          ],
+          [
+            202,
+            218
+          ],
+          [
+            170,
+            211
+          ]
+        ]
+      ],
+      "edited_pixels": 244,
+      "coverage_repaired": 119,
+      "protected_review_categories_unchanged": true,
+      "unique_new_rgb": 197,
+      "unresolved_low_alpha_in_polygons": 143,
+      "restored_sha256": "47f2937e12070512516b0bfdd672989cbd2206962e096140e32f3b6d93e1bafa",
+      "changed_bbox": [
+        164,
+        155,
+        217,
+        218
+      ],
+      "prior_confirmed_before": 96,
+      "prior_confirmed_remaining": 30,
+      "existing_black_coverage_retextured": 125,
+      "damaged_partial_coverage_retextured": 0,
+      "patch_sha256": "1b58995f7bdb937e0e9bcf8014f4edfb8f9fbf8092bc66e49524605096fd0799",
+      "edge_texels": [
+        {
+          "target": [
+            176,
+            184
+          ],
+          "candidate_source_coordinate": [
+            180,
+            182
+          ],
+          "rgb": [
+            48,
+            28,
+            21
+          ],
+          "reason": "Один краевой тексель той же складки, чтобы остаток старого разрыва не дробился на маленькие островки."
+        },
+        {
+          "target": [
+            177,
+            184
+          ],
+          "candidate_source_coordinate": [
+            181,
+            182
+          ],
+          "rgb": [
+            39,
+            23,
+            16
+          ],
+          "reason": "Один краевой тексель той же складки, чтобы остаток старого разрыва не дробился на маленькие островки."
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "source": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_07.png",
+      "source_sha256": "75b23e4afe934c09edf34ea5fecf8928c1afe0bcae1ca1b6c530edac7d64a4aa",
+      "candidate_id": "exec-c411957c-8e1f-480f-be9d-8d91d24b49c0.png",
+      "candidate_sha256": "cd3e69f527657a3b6b4be3d8ee686fc0a1021098ac154f6a54637b03460294a0",
+      "candidate_size": [
+        1254,
+        1254
+      ],
+      "normalized_canvas": [
+        1024,
+        1024
+      ],
+      "sample_formula": "x=72+4*(source_x-90+dx)+2; y=192+4*(source_y-130+dy)+2; candidate normalized using Nearest",
+      "candidate_offset": [
+        0,
+        0
+      ],
+      "polygons": [
+        [
+          [
+            231,
+            219
+          ],
+          [
+            251,
+            218
+          ],
+          [
+            264,
+            230
+          ],
+          [
+            263,
+            245
+          ],
+          [
+            254,
+            258
+          ],
+          [
+            239,
+            254
+          ],
+          [
+            226,
+            240
+          ]
+        ]
+      ],
+      "edited_pixels": 68,
+      "coverage_repaired": 58,
+      "protected_review_categories_unchanged": true,
+      "unique_new_rgb": 49,
+      "unresolved_low_alpha_in_polygons": 45,
+      "restored_sha256": "033b31657eb31f50d9fa1a5539bb60484ab06110b38796cee262ab060b734305",
+      "changed_bbox": [
+        231,
+        220,
+        259,
+        250
+      ],
+      "prior_confirmed_before": 99,
+      "prior_confirmed_remaining": 42,
+      "existing_black_coverage_retextured": 10,
+      "damaged_partial_coverage_retextured": 0,
+      "edge_texels": [
+        {
+          "target": [
+            242,
+            233
+          ],
+          "candidate_source_coordinate": [
+            246,
+            233
+          ],
+          "rgb": [
+            10,
+            5,
+            3
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        },
+        {
+          "target": [
+            243,
+            233
+          ],
+          "candidate_source_coordinate": [
+            247,
+            233
+          ],
+          "rgb": [
+            12,
+            6,
+            4
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        },
+        {
+          "target": [
+            242,
+            234
+          ],
+          "candidate_source_coordinate": [
+            246,
+            234
+          ],
+          "rgb": [
+            14,
+            8,
+            5
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        },
+        {
+          "target": [
+            240,
+            235
+          ],
+          "candidate_source_coordinate": [
+            244,
+            235
+          ],
+          "rgb": [
+            16,
+            9,
+            6
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        },
+        {
+          "target": [
+            241,
+            235
+          ],
+          "candidate_source_coordinate": [
+            245,
+            235
+          ],
+          "rgb": [
+            19,
+            12,
+            9
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        },
+        {
+          "target": [
+            240,
+            246
+          ],
+          "candidate_source_coordinate": [
+            246,
+            244
+          ],
+          "rgb": [
+            27,
+            18,
+            13
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        },
+        {
+          "target": [
+            241,
+            246
+          ],
+          "candidate_source_coordinate": [
+            247,
+            244
+          ],
+          "rgb": [
+            20,
+            13,
+            9
+          ],
+          "reason": "Локальная кромка той же складки; принят отдельный тексель редакторской фактуры, чтобы частичный патч не разбивал старый провал на мелкие островки."
+        }
+      ],
+      "patch_sha256": "a74a70f9ad47bca7459fef811327db88ce9fe66128a0c6ee9b16bf74e4b3e544"
+    },
+    {
+      "frame": 8,
+      "source": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_08.png",
+      "source_sha256": "28b2c1d7dc963e7a2b5259a3df73450124a1cbceceac15881cc283bbb2f99bb5",
+      "candidate_id": "exec-54777147-59b1-4e7d-889b-0d7fac4055cd.png",
+      "candidate_sha256": "b92d778e4cf219be8ad49250d4002a5689c100f7cb4d56a7971ec41e3b807b9d",
+      "candidate_size": [
+        1254,
+        1254
+      ],
+      "normalized_canvas": [
+        1024,
+        1024
+      ],
+      "sample_formula": "x=72+4*(source_x-90+dx)+2; y=192+4*(source_y-130+dy)+2; candidate normalized using Nearest",
+      "candidate_offset": [
+        0,
+        -4
+      ],
+      "polygons": [
+        [
+          [
+            231,
+            219
+          ],
+          [
+            251,
+            218
+          ],
+          [
+            264,
+            230
+          ],
+          [
+            263,
+            245
+          ],
+          [
+            254,
+            258
+          ],
+          [
+            239,
+            254
+          ],
+          [
+            226,
+            240
+          ]
+        ]
+      ],
+      "edited_pixels": 98,
+      "coverage_repaired": 58,
+      "protected_review_categories_unchanged": true,
+      "unique_new_rgb": 81,
+      "unresolved_low_alpha_in_polygons": 38,
+      "restored_sha256": "a17b590cc82c5aa04ee26f741f152fca8dfea234d58ffeab639173499c65844c",
+      "changed_bbox": [
+        228,
+        219,
+        263,
+        255
+      ],
+      "prior_confirmed_before": 85,
+      "prior_confirmed_remaining": 32,
+      "existing_black_coverage_retextured": 40,
+      "damaged_partial_coverage_retextured": 0,
+      "patch_sha256": "769a7b603705fdf62728a771d518fe44f7d6512906629678315dd2186f06b8ea",
+      "edge_texels": [
+        {
+          "target": [
+            239,
+            245
+          ],
+          "candidate_source_coordinate": [
+            244,
+            244
+          ],
+          "rgb": [
+            20,
+            13,
+            9
+          ],
+          "reason": "Один краевой тексель той же складки, чтобы остаток старого разрыва не дробился на маленькие островки."
+        }
+      ]
+    }
+  ],
+  "unresolved_count_note": "unresolved_low_alpha_in_polygons includes protected/pending regions and is not a count of confirmed defects. prior_confirmed_remaining is restricted to the old eroded PR43 interior masks."
+}

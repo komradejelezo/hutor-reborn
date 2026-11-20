@@ -1,0 +1,85 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: diagnostic paths supplied
+PILOT_INPUT_6: 47f2937e12070512516b0bfdd672989cbd2206962e096140e32f3b6d93e1bafa
+PASS: pilot canvas unchanged 6
+PASS: registration preserved 6
+PILOT_INPUT_7: 033b31657eb31f50d9fa1a5539bb60484ab06110b38796cee262ab060b734305
+PASS: pilot canvas unchanged 7
+PASS: registration preserved 7
+PILOT_INPUT_8: a17b590cc82c5aa04ee26f741f152fca8dfea234d58ffeab639173499c65844c
+PASS: pilot canvas unchanged 8
+PASS: registration preserved 8
+PASS: FPS/order untouched
+PASS: exact frame 5 bg 2
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 6 bg 2
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 7 bg 2
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 8 bg 2
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 9 bg 2
+PASS: same scale
+PASS: same local foot anchor
+PASS: save actual contrast/forest pair
+PASS: exact frame 5 bg 3
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 6 bg 3
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 7 bg 3
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 8 bg 3
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 9 bg 3
+PASS: same scale
+PASS: same local foot anchor
+PASS: save actual contrast/forest pair
+PASS: exact frame 5 bg 0
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 6 bg 0
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 7 bg 0
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 8 bg 0
+PASS: same scale
+PASS: same local foot anchor
+PASS: exact frame 9 bg 0
+PASS: same scale
+PASS: same local foot anchor
+PASS: save actual contrast/forest pair
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: all frames observed, including 05-09
+PASS: both normal Idle returns
+PASS: actual forest battle capture arena-06-after.png
+PASS: actual forest battle capture arena-07-before.png
+PASS: actual forest battle capture arena-07-after.png
+PASS: actual forest battle capture arena-08-after.png
+RESULT: 76 pilot display checks passed; 0 failed

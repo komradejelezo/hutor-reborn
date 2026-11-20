@@ -1,0 +1,67 @@
+{
+  "base": "391a5b5e22c58063b4f39e980ee66f626ad2818f",
+  "game_files_unchanged": true,
+  "artist_approval": false,
+  "full_restoration_complete": false,
+  "frames": [
+    {
+      "frame": 6,
+      "size": [
+        357,
+        358
+      ],
+      "edited_pixels": 244,
+      "new_colour_variants": 197,
+      "new_transparent_pixels": 0,
+      "new_enclosed_gap_pixels": 0,
+      "enclosed_components_before": 30,
+      "enclosed_components_after": 24,
+      "fragmented_old_gaps": 0,
+      "protected_pixels_changed": 0,
+      "healthy_visible_rgb_changed": 0,
+      "new_opaque_black_pixels": 0,
+      "before_confirmed_remaining": 96,
+      "after_confirmed_remaining": 30
+    },
+    {
+      "frame": 7,
+      "size": [
+        357,
+        358
+      ],
+      "edited_pixels": 68,
+      "new_colour_variants": 49,
+      "new_transparent_pixels": 0,
+      "new_enclosed_gap_pixels": 0,
+      "enclosed_components_before": 21,
+      "enclosed_components_after": 21,
+      "fragmented_old_gaps": 0,
+      "protected_pixels_changed": 0,
+      "healthy_visible_rgb_changed": 0,
+      "new_opaque_black_pixels": 0,
+      "before_confirmed_remaining": 99,
+      "after_confirmed_remaining": 42
+    },
+    {
+      "frame": 8,
+      "size": [
+        357,
+        358
+      ],
+      "edited_pixels": 98,
+      "new_colour_variants": 81,
+      "new_transparent_pixels": 0,
+      "new_enclosed_gap_pixels": 0,
+      "enclosed_components_before": 13,
+      "enclosed_components_after": 9,
+      "fragmented_old_gaps": 0,
+      "protected_pixels_changed": 0,
+      "healthy_visible_rgb_changed": 0,
+      "new_opaque_black_pixels": 0,
+      "before_confirmed_remaining": 85,
+      "after_confirmed_remaining": 32
+    }
+  ],
+  "godot_passed": 76,
+  "godot_failed": 0
+}

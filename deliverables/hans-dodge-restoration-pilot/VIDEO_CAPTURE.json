@@ -1,0 +1,12 @@
+{
+  "capture": "Реальный X11-захват существующей CombatGraphicsLab; текущая main слева, отдельные пилотные PNG справа; без вставки промежуточных кадров",
+  "fps": 30,
+  "frames": 474,
+  "elapsed_seconds": 16.03632866499902,
+  "late_frames_over_25ms": 474,
+  "encoder_exit": 0,
+  "window_size": [
+    960,
+    540
+  ]
+}
