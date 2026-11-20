@@ -16,6 +16,9 @@ def main():
         assert not git('diff',BASE,'--','HutorReborn/'+path),path
     assert not git('diff','--name-only','--diff-filter=D',BASE).strip()
     print('PASS: approved originals/world/NPCs/portraits, rules, IDs/stats, quests, saves and project settings unchanged')
+    sys.path.insert(0,str(P/'tools'))
+    from restore_hans_combat_frames import expected_outputs
+    reviewed=expected_outputs()
     audit=json.loads((P/'assets/combat/readability/opacity_audit.json').read_text());restored=0;count=0
     for row in audit:
         path=P/row['path'];original=row.get('original',row['path'])
@@ -39,17 +42,21 @@ def main():
                 rebuilt.paste(cell,(i%8*96*factor,i//8*96*factor))
             a=np.array(rebuilt)
         assert a.shape==b.shape,path
-        assert np.array_equal(a[:,:,:3],b[:,:,:3]),path
+        key=str(path.relative_to(P/'assets/combat/forest_v2')) if path.is_relative_to(P/'assets/combat/forest_v2') else ''
+        if key in reviewed:
+            assert np.array_equal(b,reviewed[key]['prepared']),path
+            assert np.array_equal(a[:,:,:3][~reviewed[key]['rgb_mask']],b[:,:,:3][~reviewed[key]['rgb_mask']]),path
+        else:assert np.array_equal(a[:,:,:3],b[:,:,:3]),path
         if row.get('source_sampling_factor',1)==1:
             assert np.all(b[:,:,3]>=a[:,:,3]),path
         else:
             # Direction captions/faint sheet backdrop are not body coverage.
             assert not b[250:288,:,3].any(),"source direction caption must not enter the first combat frame"
         assert row.get('core_nonopaque',0)==0
-        if row.get('reason'):assert np.array_equal(a,b),path
+        if row.get('reason') and key not in reviewed:assert np.array_equal(a,b),path
         restored+=int((a[:,:,3]!=b[:,:,3]).sum());count+=1
     assert count==252 and restored>0
-    print('PASS:',count,'textures; RGB traceable to approved sources; body coverage restored; herbalist sheet captions/backdrop removed;',restored,'alpha pixels corrected')
+    print('PASS:',count,'textures; RGB traceable to approved sources and reviewed Hans donor coordinates; body coverage restored; sheet captions/backdrop removed;',restored,'alpha pixels corrected')
     for name in ['herbalist','woodcutter']:
         text=(P/'assets/combat/readability'/f'{name}_frames.tres').read_text()
         folder='herbalist5410' if name=='herbalist' else 'woodcutter542'

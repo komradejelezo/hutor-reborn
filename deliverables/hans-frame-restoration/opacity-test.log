@@ -1,0 +1,5 @@
+PASS: approved originals/world/NPCs/portraits, rules, IDs/stats, quests, saves and project settings unchanged
+PASS: 252 textures; RGB traceable to approved sources and reviewed Hans donor coordinates; body coverage restored; sheet captions/backdrop removed; 2475548 alpha pixels corrected
+PASS: approved frame selection/order, timing, pivots, source ratios and local wolf paw correction preserved
+PASS: straight-alpha import/mix, no forced rectangular alpha or animated background distortion
+RESULT: 4 opacity/source groups passed

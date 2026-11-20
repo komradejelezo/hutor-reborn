@@ -1,0 +1,4268 @@
+{
+  "version": 1,
+  "baseline_commit": "ce7e706",
+  "library_sha256": "9e69c9859b267b7c861c3e8e43c66e8e9008d710a50a48a1a92bb94028a0e763",
+  "scope": "Reviewed interior garment patches only; originals immutable; integer donor translations; no inference of absent anatomy",
+  "frames": [
+    {
+      "clip": "dodge",
+      "runtime_frame": 1,
+      "source_frame": 1,
+      "path": "prepared/Hans/Dodge/dodge_01.png",
+      "source": "assets/Hans/Dodge/dodge_01.png",
+      "source_sha256": "47c0e0e6b0aa94a057335280952028216f3c7485931b27e50430a34174f6ed0f",
+      "baseline_file_sha256": "83649e5d4f298904ac9f224348308e1d1fcce0836eaa62c04c53df8cbf788f82",
+      "baseline_pixels_sha256": "d1564bff456f31cce153415ee220be1e18c6dd018cc2f2682629ad94363caa76",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 16.849,
+          "context_coverage": 0.814,
+          "donor_source": "assets/Hans/Dodge/dodge_02.png",
+          "donor_offset": [
+            3,
+            0
+          ],
+          "donor_sha256": "5d844cedb6b9e768997e6cf953e35a16b6a9272596797273c4a7b1cc7afa33fe",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 13.493,
+          "context_coverage": 0.799,
+          "donor_source": "assets/Hans/Dodge/dodge_02.png",
+          "donor_offset": [
+            -2,
+            6
+          ],
+          "donor_sha256": "5d844cedb6b9e768997e6cf953e35a16b6a9272596797273c4a7b1cc7afa33fe",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 2,
+      "source_frame": 2,
+      "path": "prepared/Hans/Dodge/dodge_02.png",
+      "source": "assets/Hans/Dodge/dodge_02.png",
+      "source_sha256": "5d844cedb6b9e768997e6cf953e35a16b6a9272596797273c4a7b1cc7afa33fe",
+      "baseline_file_sha256": "fa9a181aa11f224934b060cc5218f2efaa3cd1b6e5a5d42c0bd1474e9ab60d0d",
+      "baseline_pixels_sha256": "10e3de00ae16c8cb40c8a4a8326c4c496150854859db3e7921401cd53cf3d93d",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        352
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 17.017,
+          "context_coverage": 0.828,
+          "donor_source": "assets/Hans/Dodge/dodge_01.png",
+          "donor_offset": [
+            -3,
+            0
+          ],
+          "donor_sha256": "47c0e0e6b0aa94a057335280952028216f3c7485931b27e50430a34174f6ed0f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 17.765,
+          "context_coverage": 0.807,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            4,
+            0
+          ],
+          "donor_sha256": "5cedb09d8d9ea8090ca2d3f15a2036a1194dfe97ef12d5f249f2bf39f013deec",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 13.338,
+          "context_coverage": 0.876,
+          "donor_source": "assets/Hans/Dodge/dodge_01.png",
+          "donor_offset": [
+            2,
+            -6
+          ],
+          "donor_sha256": "47c0e0e6b0aa94a057335280952028216f3c7485931b27e50430a34174f6ed0f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 3,
+      "source_frame": 3,
+      "path": "prepared/Hans/Dodge/dodge_03.png",
+      "source": "assets/Hans/Dodge/dodge_03.png",
+      "source_sha256": "5cedb09d8d9ea8090ca2d3f15a2036a1194dfe97ef12d5f249f2bf39f013deec",
+      "baseline_file_sha256": "536761b74f4d37ccfae58968a7f016e422c61f847fc425ed8a0ab180ca9e4d55",
+      "baseline_pixels_sha256": "d171ebeb49c702659a10af82f9a7e8334eb7da34341e32d45a1ebdfb67fca8f2",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        352
+      ],
+      "patches": [
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.968,
+          "context_coverage": 0.768,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            4,
+            11
+          ],
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 9.58,
+          "context_coverage": 0.73,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            1,
+            9
+          ],
+          "donor_sha256": "d555ac52571814d0ae57689981814a44ee7d53db6ac5eea99f255a429942d5f6",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 4,
+      "source_frame": 4,
+      "path": "prepared/Hans/Dodge/dodge_04.png",
+      "source": "assets/Hans/Dodge/dodge_04.png",
+      "source_sha256": "d555ac52571814d0ae57689981814a44ee7d53db6ac5eea99f255a429942d5f6",
+      "baseline_file_sha256": "c84bc6730a8b8c30e8f054d06bd51f064f2f249852d5cde3438ec6d1e4d2e249",
+      "baseline_pixels_sha256": "f1a12e6589c27193af1d83b45c8b719ec1150322db74182e3ca934245eee93f4",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        352
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 17.492,
+          "context_coverage": 0.788,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            0,
+            0
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.335,
+          "context_coverage": 0.885,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            3,
+            2
+          ],
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.558,
+          "context_coverage": 0.899,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            -1,
+            -9
+          ],
+          "donor_sha256": "5cedb09d8d9ea8090ca2d3f15a2036a1194dfe97ef12d5f249f2bf39f013deec",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 15.55,
+          "context_coverage": 0.884,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            -3,
+            2
+          ],
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist_secondary",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 15.65,
+          "context_coverage": 0.799,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -7,
+            10
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 5,
+      "source_frame": 5,
+      "path": "prepared/Hans/Dodge/dodge_05.png",
+      "source": "assets/Hans/Dodge/dodge_05.png",
+      "source_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+      "baseline_file_sha256": "a1dc2aec317cc0ecfd1cc5b76f6433f8a9bff74e0a396d057105616db1fd75cc",
+      "baseline_pixels_sha256": "191830d5ca38539ad6dbcb5a898ef557e6958d75a7715d42bc767b9e2a462795",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.67,
+          "context_coverage": 0.779,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            -2,
+            0
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.819,
+          "context_coverage": 0.771,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            -2,
+            -2
+          ],
+          "donor_sha256": "d555ac52571814d0ae57689981814a44ee7d53db6ac5eea99f255a429942d5f6",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 9.247,
+          "context_coverage": 0.815,
+          "donor_source": "assets/Hans/Dodge/dodge_03.png",
+          "donor_offset": [
+            -4,
+            -11
+          ],
+          "donor_sha256": "5cedb09d8d9ea8090ca2d3f15a2036a1194dfe97ef12d5f249f2bf39f013deec",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 13.809,
+          "context_coverage": 0.761,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -4,
+            8
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist_secondary",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 15.922,
+          "context_coverage": 0.744,
+          "donor_source": "assets/Hans/Dodge/dodge_04.png",
+          "donor_offset": [
+            2,
+            -2
+          ],
+          "donor_sha256": "d555ac52571814d0ae57689981814a44ee7d53db6ac5eea99f255a429942d5f6",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 6,
+      "source_frame": 6,
+      "path": "prepared/Hans/Dodge/dodge_06.png",
+      "source": "assets/Hans/Dodge/dodge_06.png",
+      "source_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+      "baseline_file_sha256": "90ab3a9f8a4f8fd166501e663ea74f59d2d624dbb4dbafd2bade77905c1dc811",
+      "baseline_pixels_sha256": "6a6a48d570abb27c87c7d8f68316b138b1443921e7b810465163f0bfb8ac5ed8",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 13.472,
+          "context_coverage": 0.789,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            -1,
+            0
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.098,
+          "context_coverage": 0.784,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            -2,
+            0
+          ],
+          "donor_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 7.258,
+          "context_coverage": 0.782,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            12
+          ],
+          "donor_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 7.52,
+          "context_coverage": 0.795,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            1,
+            11
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 12.732,
+          "context_coverage": 0.839,
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            4,
+            -6
+          ],
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            5,
+            -12
+          ],
+          "context_mae": 13.32,
+          "context_coverage": 0.766,
+          "region": "jerkin_additional_1",
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 7,
+      "source_frame": 7,
+      "path": "prepared/Hans/Dodge/dodge_07.png",
+      "source": "assets/Hans/Dodge/dodge_07.png",
+      "source_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+      "baseline_file_sha256": "2440b25cd1aefd5162f7effd1f790624675387253d452b350350a097a537a4e4",
+      "baseline_pixels_sha256": "88aa6816a224a24d8b4dc5025a4b626df05d681ea96baf6b8e094c1f4fd3bbbb",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 12.528,
+          "context_coverage": 0.864,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            0
+          ],
+          "donor_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 13.583,
+          "context_coverage": 0.854,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            0
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.255,
+          "context_coverage": 0.83,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            -1,
+            0
+          ],
+          "donor_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.815,
+          "context_coverage": 0.829,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            -1,
+            -11
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 7.216,
+          "context_coverage": 0.798,
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            0,
+            0
+          ],
+          "donor_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist_secondary",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 10.365,
+          "context_coverage": 0.725,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            -4
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            2,
+            0
+          ],
+          "context_mae": 14.927,
+          "context_coverage": 0.84,
+          "region": "right_thigh_additional_2",
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            0,
+            1
+          ],
+          "context_mae": 17.773,
+          "context_coverage": 0.799,
+          "region": "right_thigh_additional_3",
+          "donor_sha256": "7e5ef53bd300dc44d7ac165bd4c6a799e1e418a335bf7820021eb25816d4e8e0",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_05.png",
+          "donor_offset": [
+            6,
+            -10
+          ],
+          "context_mae": 13.437,
+          "context_coverage": 0.771,
+          "region": "waist_additional_4",
+          "donor_sha256": "b2d692c9589bc7cc43561ef4936952cbce7c2534b0261280b6718119a9a4321b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 8,
+      "source_frame": 8,
+      "path": "prepared/Hans/Dodge/dodge_08.png",
+      "source": "assets/Hans/Dodge/dodge_08.png",
+      "source_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+      "baseline_file_sha256": "867894fe843986e081d5ba73afc5f127f3f831a7156c772f4103502d277cc6f2",
+      "baseline_pixels_sha256": "b6594c1c027c096f039c750c134fe27da025c399c6bb6741093ba63350bc2714",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 12.528,
+          "context_coverage": 0.839,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            0
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.669,
+          "context_coverage": 0.827,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            1,
+            0
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.115,
+          "context_coverage": 0.872,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            1,
+            0
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 8.579,
+          "context_coverage": 0.864,
+          "donor_source": "assets/Hans/Dodge/dodge_06.png",
+          "donor_offset": [
+            0,
+            -12
+          ],
+          "donor_sha256": "21bc2424420523ec23d92b013a5aa696bf129010e247629ba994053d6a1e5999",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 7.216,
+          "context_coverage": 0.818,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            0
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "waist_secondary",
+          "polygon": [
+            [
+              164,
+              190
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              211,
+              204
+            ],
+            [
+              202,
+              218
+            ],
+            [
+              170,
+              211
+            ]
+          ],
+          "context": [
+            160,
+            180,
+            210,
+            215
+          ],
+          "context_mae": 14.796,
+          "context_coverage": 0.746,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            4,
+            -12
+          ],
+          "donor_sha256": "7e5ef53bd300dc44d7ac165bd4c6a799e1e418a335bf7820021eb25816d4e8e0",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 9,
+      "source_frame": 9,
+      "path": "prepared/Hans/Dodge/dodge_09.png",
+      "source": "assets/Hans/Dodge/dodge_09.png",
+      "source_sha256": "7e5ef53bd300dc44d7ac165bd4c6a799e1e418a335bf7820021eb25816d4e8e0",
+      "baseline_file_sha256": "d9fbbea5f50d518afb43868ff612f6d8a5a1d583984f3f8188805318de749a26",
+      "baseline_pixels_sha256": "3bea9476f26c26cd151c6c1a259129a46e1af71f1eabaefcf95a44d9ec663528",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.087,
+          "context_coverage": 0.788,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -3,
+            0
+          ],
+          "donor_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 17.878,
+          "context_coverage": 0.804,
+          "donor_source": "assets/Hans/Dodge/dodge_07.png",
+          "donor_offset": [
+            0,
+            -1
+          ],
+          "donor_sha256": "8cf58360622c94e2a150d2ba2023f82079e589281574a3c8b8e2fffaa1cc7a82",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 10,
+      "source_frame": 10,
+      "path": "prepared/Hans/Dodge/dodge_10.png",
+      "source": "assets/Hans/Dodge/dodge_10.png",
+      "source_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+      "baseline_file_sha256": "ba55b20c32707ae053b5efd0c3bd5e8c7967d848980c7083f48f2539464524fe",
+      "baseline_pixels_sha256": "508e559d2de1f00e1d5bac7da506af81ca51bfdc95f08837ca1b020436078ef6",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.598,
+          "context_coverage": 0.826,
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            3,
+            0
+          ],
+          "donor_sha256": "7e5ef53bd300dc44d7ac165bd4c6a799e1e418a335bf7820021eb25816d4e8e0",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.962,
+          "context_coverage": 0.828,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            -4,
+            0
+          ],
+          "donor_sha256": "a826dad58c9380a6862c4e80c6eaebaa0d3ea8d51baf74e5c16c09b58019ff5f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 14.621,
+          "context_coverage": 0.851,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            0,
+            -12
+          ],
+          "donor_sha256": "422d3fca8f01858734fd619e256155a3cb7d48094be707b4f6b8747aaeae43e1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 15.599,
+          "context_coverage": 0.85,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            1,
+            -12
+          ],
+          "donor_sha256": "a826dad58c9380a6862c4e80c6eaebaa0d3ea8d51baf74e5c16c09b58019ff5f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            -2,
+            0
+          ],
+          "context_mae": 15.109,
+          "context_coverage": 0.821,
+          "region": "right_thigh_additional_5",
+          "donor_sha256": "422d3fca8f01858734fd619e256155a3cb7d48094be707b4f6b8747aaeae43e1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_08.png",
+          "donor_offset": [
+            1,
+            -2
+          ],
+          "context_mae": 17.023,
+          "context_coverage": 0.738,
+          "region": "right_thigh_additional_6",
+          "donor_sha256": "b3982674e11234b0870098dcb3bdf6f9737901b23e0057e8072f2c94e93e85a1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 11,
+      "source_frame": 11,
+      "path": "prepared/Hans/Dodge/dodge_11.png",
+      "source": "assets/Hans/Dodge/dodge_11.png",
+      "source_sha256": "422d3fca8f01858734fd619e256155a3cb7d48094be707b4f6b8747aaeae43e1",
+      "baseline_file_sha256": "ec46e3dd8d80cb7876152f1b6c6b5e8bf60dfcedcf5217c2d85f0034e201a270",
+      "baseline_pixels_sha256": "c82b4174f5a7d11fbfb4139036e4a582a0b8b21b5a00db9ff4c6ece6dc4c5f3b",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 10.461,
+          "context_coverage": 0.872,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            -2,
+            0
+          ],
+          "donor_sha256": "a826dad58c9380a6862c4e80c6eaebaa0d3ea8d51baf74e5c16c09b58019ff5f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.897,
+          "context_coverage": 0.82,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            2,
+            0
+          ],
+          "donor_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 11.353,
+          "context_coverage": 0.902,
+          "donor_source": "assets/Hans/Dodge/dodge_12.png",
+          "donor_offset": [
+            0,
+            -2
+          ],
+          "donor_sha256": "a826dad58c9380a6862c4e80c6eaebaa0d3ea8d51baf74e5c16c09b58019ff5f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 13.766,
+          "context_coverage": 0.76,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -1,
+            11
+          ],
+          "donor_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "donor_source": "assets/Hans/Dodge/dodge_09.png",
+          "donor_offset": [
+            4,
+            0
+          ],
+          "context_mae": 15.179,
+          "context_coverage": 0.759,
+          "region": "right_thigh_additional_7",
+          "donor_sha256": "7e5ef53bd300dc44d7ac165bd4c6a799e1e418a335bf7820021eb25816d4e8e0",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "dodge",
+      "runtime_frame": 12,
+      "source_frame": 12,
+      "path": "prepared/Hans/Dodge/dodge_12.png",
+      "source": "assets/Hans/Dodge/dodge_12.png",
+      "source_sha256": "a826dad58c9380a6862c4e80c6eaebaa0d3ea8d51baf74e5c16c09b58019ff5f",
+      "baseline_file_sha256": "07a7dc3e794b82007e02c1b85336432b5253a7b743ddcbac0ebc64217cbd24eb",
+      "baseline_pixels_sha256": "3c35b8c6b287458dec6bfc32906d46776c0be11f85549ce0a0ce156d1a16d8d7",
+      "size": [
+        357,
+        358
+      ],
+      "origin": [
+        172.5,
+        351
+      ],
+      "patches": [
+        {
+          "region": "right_thigh",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 10.44,
+          "context_coverage": 0.875,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            1,
+            0
+          ],
+          "donor_sha256": "422d3fca8f01858734fd619e256155a3cb7d48094be707b4f6b8747aaeae43e1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_thigh_secondary",
+          "polygon": [
+            [
+              231,
+              219
+            ],
+            [
+              251,
+              218
+            ],
+            [
+              264,
+              230
+            ],
+            [
+              263,
+              245
+            ],
+            [
+              254,
+              258
+            ],
+            [
+              239,
+              254
+            ],
+            [
+              226,
+              240
+            ]
+          ],
+          "context": [
+            210,
+            195,
+            288,
+            300
+          ],
+          "context_mae": 14.133,
+          "context_coverage": 0.826,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            4,
+            0
+          ],
+          "donor_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 11.739,
+          "context_coverage": 0.901,
+          "donor_source": "assets/Hans/Dodge/dodge_11.png",
+          "donor_offset": [
+            0,
+            2
+          ],
+          "donor_sha256": "422d3fca8f01858734fd619e256155a3cb7d48094be707b4f6b8747aaeae43e1",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "jerkin_secondary",
+          "polygon": [
+            [
+              164,
+              159
+            ],
+            [
+              187,
+              156
+            ],
+            [
+              211,
+              167
+            ],
+            [
+              218,
+              181
+            ],
+            [
+              205,
+              191
+            ],
+            [
+              179,
+              191
+            ],
+            [
+              164,
+              178
+            ]
+          ],
+          "context": [
+            165,
+            130,
+            220,
+            175
+          ],
+          "context_mae": 13.892,
+          "context_coverage": 0.764,
+          "donor_source": "assets/Hans/Dodge/dodge_10.png",
+          "donor_offset": [
+            -1,
+            12
+          ],
+          "donor_sha256": "610c9281b005e63d395ddb0c11f5d25fa8084a5a0364efc2eb18655c0459356f",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "hit",
+      "runtime_frame": 2,
+      "source_frame": 2,
+      "path": "prepared/Hans/Hit/hit_02.png",
+      "source": "assets/Hans/Hit/hit_02.png",
+      "source_sha256": "61f5dd6a27b9fbf5602e3627fb56bfa388da1d5b31d35eaa839f001b8195eac4",
+      "baseline_file_sha256": "7bc62f40c24fe2c59ef7b225bcf59ce92594559a53fe8c7a49029a8ff8fd2eb6",
+      "baseline_pixels_sha256": "f1451df7aa34c06cf08d9cd09b51a2ddb97285bed965843646aa895248d77ab5",
+      "size": [
+        520,
+        480
+      ],
+      "origin": [
+        272.0,
+        447
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 12.362,
+          "context_coverage": 0.957,
+          "donor_source": "assets/Hans/Hit/hit_03.png",
+          "donor_offset": [
+            9,
+            -2
+          ],
+          "donor_sha256": "979949eac4c5f50b00c117fa5964a7c987a49b3fc4fdfe6cd2356adc30b9d440",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "hit",
+      "runtime_frame": 3,
+      "source_frame": 3,
+      "path": "prepared/Hans/Hit/hit_03.png",
+      "source": "assets/Hans/Hit/hit_03.png",
+      "source_sha256": "979949eac4c5f50b00c117fa5964a7c987a49b3fc4fdfe6cd2356adc30b9d440",
+      "baseline_file_sha256": "2d77f62999223e00343f945b268fb208206de53edade1a08e1410513bb6d4240",
+      "baseline_pixels_sha256": "17eb74d87ebbf9831295716a936602e43dbcc3916ec84e9dda9151fc4df046f8",
+      "size": [
+        520,
+        480
+      ],
+      "origin": [
+        272.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 11.989,
+          "context_coverage": 0.803,
+          "donor_source": "assets/Hans/Hit/hit_02.png",
+          "donor_offset": [
+            -9,
+            2
+          ],
+          "donor_sha256": "61f5dd6a27b9fbf5602e3627fb56bfa388da1d5b31d35eaa839f001b8195eac4",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 13.636,
+          "context_coverage": 0.781,
+          "donor_source": "assets/Hans/Hit/hit_05.png",
+          "donor_offset": [
+            12,
+            -2
+          ],
+          "donor_sha256": "4eb7e93d2a5510ab2e4931d3ebc2dab3fe4886b52c36593ae0e694bd35c2c9b2",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_01.png",
+          "donor_offset": [
+            -4,
+            0
+          ],
+          "context_mae": 15.997,
+          "context_coverage": 0.855,
+          "region": "right_knee_additional_8",
+          "donor_sha256": "fa31e0fd0f64be7ec72d876f878ee78f1eafd9794978e7dec06a747d86be1252",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_04.png",
+          "donor_offset": [
+            12,
+            -3
+          ],
+          "context_mae": 16.084,
+          "context_coverage": 0.819,
+          "region": "right_knee_additional_9",
+          "donor_sha256": "8c3bd95148799604de5170b79a4288e1739ef5e1ee0bef256f2b29136ba39cbd",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "hit",
+      "runtime_frame": 4,
+      "source_frame": 4,
+      "path": "prepared/Hans/Hit/hit_04.png",
+      "source": "assets/Hans/Hit/hit_04.png",
+      "source_sha256": "8c3bd95148799604de5170b79a4288e1739ef5e1ee0bef256f2b29136ba39cbd",
+      "baseline_file_sha256": "9c963e9cf6f0491d3ebf9eb7503d567bfc91e3acdb1efa5b008e8a72ca05bd64",
+      "baseline_pixels_sha256": "bf5a491502db7defd37b8604a4bfaf64409dfbaaf9286ce6653a267bd354c46f",
+      "size": [
+        520,
+        480
+      ],
+      "origin": [
+        272.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 12.908,
+          "context_coverage": 0.911,
+          "donor_source": "assets/Hans/Hit/hit_06.png",
+          "donor_offset": [
+            -4,
+            2
+          ],
+          "donor_sha256": "79037e33c33a3675a63e3524348b0ad0f9770cce17a60db3269a3afd7cc82e15",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 15.367,
+          "context_coverage": 0.88,
+          "donor_source": "assets/Hans/Hit/hit_05.png",
+          "donor_offset": [
+            -1,
+            0
+          ],
+          "donor_sha256": "4eb7e93d2a5510ab2e4931d3ebc2dab3fe4886b52c36593ae0e694bd35c2c9b2",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_03.png",
+          "donor_offset": [
+            -12,
+            3
+          ],
+          "context_mae": 15.994,
+          "context_coverage": 0.895,
+          "region": "right_knee_additional_10",
+          "donor_sha256": "979949eac4c5f50b00c117fa5964a7c987a49b3fc4fdfe6cd2356adc30b9d440",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "hit",
+      "runtime_frame": 5,
+      "source_frame": 5,
+      "path": "prepared/Hans/Hit/hit_05.png",
+      "source": "assets/Hans/Hit/hit_05.png",
+      "source_sha256": "4eb7e93d2a5510ab2e4931d3ebc2dab3fe4886b52c36593ae0e694bd35c2c9b2",
+      "baseline_file_sha256": "d438d91034cba8f9d78ec6cb767138ba0d94780888151dd2fef38913304977ff",
+      "baseline_pixels_sha256": "94179471fcb91f4f797ec106a929595fe72fb9b6d2a080fcda86571cf37c36e4",
+      "size": [
+        520,
+        480
+      ],
+      "origin": [
+        272.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 13.552,
+          "context_coverage": 0.93,
+          "donor_source": "assets/Hans/Hit/hit_03.png",
+          "donor_offset": [
+            -12,
+            2
+          ],
+          "donor_sha256": "979949eac4c5f50b00c117fa5964a7c987a49b3fc4fdfe6cd2356adc30b9d440",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 14.043,
+          "context_coverage": 0.891,
+          "donor_source": "assets/Hans/Hit/hit_06.png",
+          "donor_offset": [
+            -3,
+            2
+          ],
+          "donor_sha256": "79037e33c33a3675a63e3524348b0ad0f9770cce17a60db3269a3afd7cc82e15",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_04.png",
+          "donor_offset": [
+            1,
+            0
+          ],
+          "context_mae": 15.367,
+          "context_coverage": 0.935,
+          "region": "right_knee_additional_11",
+          "donor_sha256": "8c3bd95148799604de5170b79a4288e1739ef5e1ee0bef256f2b29136ba39cbd",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_07.png",
+          "donor_offset": [
+            -8,
+            2
+          ],
+          "context_mae": 17.717,
+          "context_coverage": 0.898,
+          "region": "right_knee_additional_12",
+          "donor_sha256": "235a2c06ef651a593d741d34911879ce2bb306d3823fad98922ea4087196301b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "hit",
+      "runtime_frame": 6,
+      "source_frame": 6,
+      "path": "prepared/Hans/Hit/hit_06.png",
+      "source": "assets/Hans/Hit/hit_06.png",
+      "source_sha256": "79037e33c33a3675a63e3524348b0ad0f9770cce17a60db3269a3afd7cc82e15",
+      "baseline_file_sha256": "35882440b77ed3f1d43af9cdc6b6671216408eb975417c6d0944dd83859363f8",
+      "baseline_pixels_sha256": "94e7e496fae7345319212eea00fbe74cf7382a0e28f857ea5ec3d04519b8f6b1",
+      "size": [
+        520,
+        480
+      ],
+      "origin": [
+        272.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 12.207,
+          "context_coverage": 0.938,
+          "donor_source": "assets/Hans/Hit/hit_07.png",
+          "donor_offset": [
+            -4,
+            0
+          ],
+          "donor_sha256": "235a2c06ef651a593d741d34911879ce2bb306d3823fad98922ea4087196301b",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 12.946,
+          "context_coverage": 0.915,
+          "donor_source": "assets/Hans/Hit/hit_04.png",
+          "donor_offset": [
+            4,
+            -2
+          ],
+          "donor_sha256": "8c3bd95148799604de5170b79a4288e1739ef5e1ee0bef256f2b29136ba39cbd",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_08.png",
+          "donor_offset": [
+            -11,
+            0
+          ],
+          "context_mae": 13.859,
+          "context_coverage": 0.952,
+          "region": "right_knee_additional_13",
+          "donor_sha256": "87c227ff3b2fdd8c4326ce24cf4410176e4defbbdb515d540f5df0f527bad4ac",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "donor_source": "assets/Hans/Hit/hit_05.png",
+          "donor_offset": [
+            3,
+            -2
+          ],
+          "context_mae": 13.626,
+          "context_coverage": 0.836,
+          "region": "right_knee_additional_14",
+          "donor_sha256": "4eb7e93d2a5510ab2e4931d3ebc2dab3fe4886b52c36593ae0e694bd35c2c9b2",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "hit",
+      "runtime_frame": 7,
+      "source_frame": 7,
+      "path": "prepared/Hans/Hit/hit_07.png",
+      "source": "assets/Hans/Hit/hit_07.png",
+      "source_sha256": "235a2c06ef651a593d741d34911879ce2bb306d3823fad98922ea4087196301b",
+      "baseline_file_sha256": "e589de0f42a4236f627442e6d1064b3af0e1124d4017f9cb59d354d756fdb543",
+      "baseline_pixels_sha256": "052d6a337d9893da7022be02fd8afa4ed9a7f02b528a0603ae3193f9c6016870",
+      "size": [
+        520,
+        480
+      ],
+      "origin": [
+        272.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 12.207,
+          "context_coverage": 0.905,
+          "donor_source": "assets/Hans/Hit/hit_06.png",
+          "donor_offset": [
+            4,
+            0
+          ],
+          "donor_sha256": "79037e33c33a3675a63e3524348b0ad0f9770cce17a60db3269a3afd7cc82e15",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              364,
+              316
+            ],
+            [
+              382,
+              314
+            ],
+            [
+              390,
+              325
+            ],
+            [
+              381,
+              338
+            ],
+            [
+              363,
+              336
+            ]
+          ],
+          "context": [
+            345,
+            350,
+            405,
+            393
+          ],
+          "context_mae": 13.289,
+          "context_coverage": 0.923,
+          "donor_source": "assets/Hans/Hit/hit_08.png",
+          "donor_offset": [
+            -7,
+            1
+          ],
+          "donor_sha256": "87c227ff3b2fdd8c4326ce24cf4410176e4defbbdb515d540f5df0f527bad4ac",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "attack",
+      "runtime_frame": 5,
+      "source_frame": 5,
+      "path": "prepared/Hans/Attack/attack_05.png",
+      "source": "assets/Hans/Attack/attack_05.png",
+      "source_sha256": "b9fc410efc066767b1389ebb7029dc151d044233121c8b46b50530b7d6f49a91",
+      "baseline_file_sha256": "48f6be1093799ac0fe334f8beef4a3e01f5cdb076fc37ccfb2b8bcad7b562386",
+      "baseline_pixels_sha256": "c82b96b1ea0a670e5de1b6f03daafb7753a98a92ebf232b37b81773e60ecab44",
+      "size": [
+        440,
+        480
+      ],
+      "origin": [
+        242.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "context_mae": 12.381,
+          "context_coverage": 0.912,
+          "donor_source": "assets/Hans/Attack/attack_04.png",
+          "donor_offset": [
+            -4,
+            0
+          ],
+          "donor_sha256": "5fb39f816acbba3d2d572bcf93e7caf9c206b9b7ac096ca59b98233f161f802d",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "context_mae": 13.492,
+          "context_coverage": 0.927,
+          "donor_source": "assets/Hans/Attack/attack_03.png",
+          "donor_offset": [
+            0,
+            0
+          ],
+          "donor_sha256": "0cd50047de558e6918e19afc0319177648de09ce7afb963f761a5e84d72566ec",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "donor_source": "assets/Hans/Attack/attack_06.png",
+          "donor_offset": [
+            -3,
+            1
+          ],
+          "context_mae": 14.245,
+          "context_coverage": 0.94,
+          "region": "right_knee_additional_15",
+          "donor_sha256": "3e36d985674ab77b2650eb5a78d30512099ca4a40f5c0b6d06803e7135acb663",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "donor_source": "assets/Hans/Attack/attack_07.png",
+          "donor_offset": [
+            -8,
+            -1
+          ],
+          "context_mae": 19.135,
+          "context_coverage": 0.793,
+          "region": "right_knee_additional_16",
+          "donor_sha256": "35f8fd89b15b08237bfb3ecd5436eabd8a2077695cab9f330188685ee98a5da2",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "attack",
+      "runtime_frame": 6,
+      "source_frame": 6,
+      "path": "prepared/Hans/Attack/attack_06.png",
+      "source": "assets/Hans/Attack/attack_06.png",
+      "source_sha256": "3e36d985674ab77b2650eb5a78d30512099ca4a40f5c0b6d06803e7135acb663",
+      "baseline_file_sha256": "420d6bb3e7dd1684423734f955739293599923819f19384aee136897847f3094",
+      "baseline_pixels_sha256": "39443db8f0e1732ccf9234c4e81833705bba90a4797361000522ba479baa3b86",
+      "size": [
+        440,
+        480
+      ],
+      "origin": [
+        242.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "context_mae": 13.957,
+          "context_coverage": 0.891,
+          "donor_source": "assets/Hans/Attack/attack_05.png",
+          "donor_offset": [
+            3,
+            -1
+          ],
+          "donor_sha256": "b9fc410efc066767b1389ebb7029dc151d044233121c8b46b50530b7d6f49a91",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "context_mae": 15.298,
+          "context_coverage": 0.886,
+          "donor_source": "assets/Hans/Attack/attack_04.png",
+          "donor_offset": [
+            -2,
+            -1
+          ],
+          "donor_sha256": "5fb39f816acbba3d2d572bcf93e7caf9c206b9b7ac096ca59b98233f161f802d",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "donor_source": "assets/Hans/Attack/attack_07.png",
+          "donor_offset": [
+            -8,
+            -3
+          ],
+          "context_mae": 17.162,
+          "context_coverage": 0.828,
+          "region": "right_knee_additional_17",
+          "donor_sha256": "35f8fd89b15b08237bfb3ecd5436eabd8a2077695cab9f330188685ee98a5da2",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "attack",
+      "runtime_frame": 7,
+      "source_frame": 7,
+      "path": "prepared/Hans/Attack/attack_07.png",
+      "source": "assets/Hans/Attack/attack_07.png",
+      "source_sha256": "35f8fd89b15b08237bfb3ecd5436eabd8a2077695cab9f330188685ee98a5da2",
+      "baseline_file_sha256": "62f62e2662a0232531b05c869d9c2b5e69083864f478ed0cdac50972913ae32c",
+      "baseline_pixels_sha256": "74e8d8223623171bf22d0781afe89f3e407bdf15b9dba32e18119c06f27c2cbb",
+      "size": [
+        440,
+        480
+      ],
+      "origin": [
+        242.0,
+        446
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "context_mae": 16.433,
+          "context_coverage": 0.876,
+          "donor_source": "assets/Hans/Attack/attack_09.png",
+          "donor_offset": [
+            -2,
+            1
+          ],
+          "donor_sha256": "d62037689382245fb470274bd312feb30bc2d714d808f9e41817a38416ffd395",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "region": "right_knee_secondary",
+          "polygon": [
+            [
+              289,
+              349
+            ],
+            [
+              307,
+              350
+            ],
+            [
+              313,
+              362
+            ],
+            [
+              308,
+              371
+            ],
+            [
+              287,
+              368
+            ]
+          ],
+          "context": [
+            278,
+            375,
+            330,
+            427
+          ],
+          "context_mae": 17.509,
+          "context_coverage": 0.892,
+          "donor_source": "assets/Hans/Attack/attack_06.png",
+          "donor_offset": [
+            8,
+            2
+          ],
+          "donor_sha256": "3e36d985674ab77b2650eb5a78d30512099ca4a40f5c0b6d06803e7135acb663",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "victory",
+      "runtime_frame": 5,
+      "source_frame": 5,
+      "path": "prepared/Hans/Victory/victory_05.png",
+      "source": "assets/Hans/Victory/victory_05.png",
+      "source_sha256": "0bc14d6d712b18d2673baabab0fc513f9f2a1bf2942bd31de08f9e3f951fc1fa",
+      "baseline_file_sha256": "3adf964b7ca49093a632e516edc8aa643880314cedb520d8a96ce77ba320d33a",
+      "baseline_pixels_sha256": "53d95a440fabf3a367cfb7ce5fa85aea549170554d3c6c4f4d3487baa169d76b",
+      "size": [
+        224,
+        444
+      ],
+      "origin": [
+        141.0,
+        399
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              154,
+              304
+            ],
+            [
+              172,
+              304
+            ],
+            [
+              177,
+              317
+            ],
+            [
+              170,
+              332
+            ],
+            [
+              152,
+              327
+            ]
+          ],
+          "context": [
+            150,
+            333,
+            184,
+            375
+          ],
+          "context_mae": 8.741,
+          "context_coverage": 0.903,
+          "donor_source": "assets/Hans/Victory/victory_06.png",
+          "donor_offset": [
+            -1,
+            0
+          ],
+          "donor_sha256": "aff4b9de4e3d358a8c0708abfaea33cc3c6410cfbd935722ad9f36373c1e3ec6",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              154,
+              304
+            ],
+            [
+              172,
+              304
+            ],
+            [
+              177,
+              317
+            ],
+            [
+              170,
+              332
+            ],
+            [
+              152,
+              327
+            ]
+          ],
+          "context": [
+            150,
+            333,
+            184,
+            375
+          ],
+          "donor_source": "assets/Hans/Victory/victory_04.png",
+          "donor_offset": [
+            6,
+            0
+          ],
+          "context_mae": 12.69,
+          "context_coverage": 0.876,
+          "region": "right_knee_additional_18",
+          "donor_sha256": "fab1448961bdd5dadd9d62a6dacfb266650cb1099909cab34d075688d7ff573d",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        },
+        {
+          "polygon": [
+            [
+              154,
+              304
+            ],
+            [
+              172,
+              304
+            ],
+            [
+              177,
+              317
+            ],
+            [
+              170,
+              332
+            ],
+            [
+              152,
+              327
+            ]
+          ],
+          "context": [
+            150,
+            333,
+            184,
+            375
+          ],
+          "donor_source": "assets/Hans/Victory/victory_03.png",
+          "donor_offset": [
+            7,
+            0
+          ],
+          "context_mae": 12.912,
+          "context_coverage": 0.855,
+          "region": "right_knee_additional_19",
+          "donor_sha256": "63f3799b9f2a235a0b90d3a069aaa8d070f799b3f935dd078a1ba1b53a93e937",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    },
+    {
+      "clip": "victory",
+      "runtime_frame": 10,
+      "source_frame": 12,
+      "path": "prepared/Hans/Victory/victory_12.png",
+      "source": "assets/Hans/Victory/victory_12.png",
+      "source_sha256": "a5a7d18b8418f60c24fa9cdf07dd3ac088485cb8b388d17385e52f62d050cf4b",
+      "baseline_file_sha256": "3fadd637bc9f030c92eceed88ce3331430edbb5776bbdc66d848facf12ef2750",
+      "baseline_pixels_sha256": "6be80647037130c07b4a60ddf8a29299500225058cc817bc510eab576abee55a",
+      "size": [
+        224,
+        444
+      ],
+      "origin": [
+        141.0,
+        371
+      ],
+      "patches": [
+        {
+          "region": "right_knee",
+          "polygon": [
+            [
+              154,
+              304
+            ],
+            [
+              172,
+              304
+            ],
+            [
+              177,
+              317
+            ],
+            [
+              170,
+              332
+            ],
+            [
+              152,
+              327
+            ]
+          ],
+          "context": [
+            150,
+            333,
+            184,
+            375
+          ],
+          "context_mae": 9.321,
+          "context_coverage": 0.922,
+          "donor_source": "assets/Hans/Victory/victory_11.png",
+          "donor_offset": [
+            2,
+            0
+          ],
+          "donor_sha256": "a643699c78dbe2e2274d6ab6e3146098c076f686dd8b67fcf36eaa4ad054999a",
+          "donor_policy": "only_original_rgb_zero_and_baseline_alpha_below_128; do_not_replace_existing_shadow"
+        }
+      ]
+    }
+  ]
+}

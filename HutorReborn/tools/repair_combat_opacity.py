@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore opaque coverage inside supplied contours, without painting RGB.
+"""Restore coverage and apply reviewed donor repairs; archive originals stay intact.
 
 Only combat derivatives are written. Originals, poses, canvases and pivots stay.
 One-pixel exterior antialiasing and open gaps between limbs/staff are retained.
@@ -117,7 +117,16 @@ def main():
         a=np.array(cell);foreground=a[:,:,3]>40;inside=ndimage.binary_erosion(foreground,structure=STRUCT)
         a[inside,3]=255;Image.fromarray(a).save(OUT/(spec['kind']+'.png'))
         audit.append({'path':'assets/combat/readability/'+spec['kind']+'.png','original':'assets/combat/stage61/source/fighters.png','source_box':spec['source_box'],'uniform_scale':ratio,'natural_gaps_preserved':True,'rgb_changed':False,'size':[288,288]})
+    # Frozen, reviewed local repairs. Originals and all animation definitions stay.
+    from restore_hans_combat_frames import apply_reviewed
+    repairs={row['path']:row for row in apply_reviewed()}
+    for row in audit:
+        relative=str(Path(row['path']).relative_to('assets/combat/forest_v2')) if row['path'].startswith('assets/combat/forest_v2/') else ''
+        if relative in repairs:
+            row['reviewed_frame_repair']=repairs[relative]
+            row['rgb_changed']=repairs[relative]['donor_rgb_pixels']>0
+            if row.get('reason'):row['reason']='Base matte retained; reviewed interior garment repair applied with per-pixel provenance'
     (OUT/'opacity_audit.json').write_text(json.dumps(audit,indent=2)+'\n')
-    print('Opacity repaired:',len(audit),'combat textures; source RGB and world atlases unchanged')
+    print('Opacity prepared:',len(audit),'textures;',len(repairs),'reviewed frame repairs; original files and world atlases unchanged')
 
 if __name__=='__main__':main()

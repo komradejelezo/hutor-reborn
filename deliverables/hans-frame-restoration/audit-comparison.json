@@ -1,0 +1,50 @@
+{
+  "before": {
+    "error": 0,
+    "review": 230
+  },
+  "after": {
+    "error": 0,
+    "review": 236
+  },
+  "added_review_flags": [
+    [
+      "hans",
+      "attack",
+      5,
+      "interior_gap"
+    ],
+    [
+      "hans",
+      "attack",
+      6,
+      "interior_gap"
+    ],
+    [
+      "hans",
+      "attack",
+      7,
+      "interior_gap"
+    ],
+    [
+      "hans",
+      "hit",
+      5,
+      "interior_gap"
+    ],
+    [
+      "hans",
+      "hit",
+      6,
+      "interior_gap"
+    ],
+    [
+      "hans",
+      "victory",
+      5,
+      "interior_gap"
+    ]
+  ],
+  "removed_review_flags": [],
+  "interpretation": "Six new interior-gap candidates arise as restored pixels enclose remaining unsupported gaps. This is not six new proven defects or a zero-defect certificate; see frame inventory."
+}
