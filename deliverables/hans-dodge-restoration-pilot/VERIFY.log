@@ -1,0 +1,6 @@
+PASS: all game files match main after PR43; no new game resources
+PASS: all three 357x358 RGBA PNGs and saved baselines; exact frozen texture patches only
+PASS: all valid body/gear pixels, feet, source bounds, natural gaps and ragged cloak edges unchanged
+PASS: no alpha loss, new enclosed gaps, newly transparent pixels or flat black fill
+PASS: original 52ms/FPS/registration; Godot 76/0; all 05-09 transitions visited at both speeds/backgrounds
+RESULT: 5 pilot verification groups passed; full artistic restoration remains incomplete

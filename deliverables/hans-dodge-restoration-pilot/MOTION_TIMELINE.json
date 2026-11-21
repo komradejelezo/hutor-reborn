@@ -1,0 +1,170 @@
+[
+  {
+    "background": 2,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 1407,
+    "repeat": 1,
+    "speed": 0.5,
+    "start_ms": 0
+  },
+  {
+    "background": 2,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 3587,
+    "repeat": 2,
+    "speed": 0.5,
+    "start_ms": 2210
+  },
+  {
+    "background": 2,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 5204,
+    "repeat": 1,
+    "speed": 1.0,
+    "start_ms": 4451
+  },
+  {
+    "background": 2,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 6767,
+    "repeat": 2,
+    "speed": 1.0,
+    "start_ms": 6015
+  },
+  {
+    "background": 3,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 8972,
+    "repeat": 1,
+    "speed": 0.5,
+    "start_ms": 7606
+  },
+  {
+    "background": 3,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 11167,
+    "repeat": 2,
+    "speed": 0.5,
+    "start_ms": 9765
+  },
+  {
+    "background": 3,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 12707,
+    "repeat": 1,
+    "speed": 1.0,
+    "start_ms": 11963
+  },
+  {
+    "background": 3,
+    "frames_observed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "idle_ms": 14291,
+    "repeat": 2,
+    "speed": 1.0,
+    "start_ms": 13522
+  }
+]
