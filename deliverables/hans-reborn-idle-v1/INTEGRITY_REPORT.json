@@ -1,0 +1,373 @@
+{
+  "base": "ae6ac1101b8c60b21d5bf59156a07e6916e25b0e",
+  "game_files_unchanged": true,
+  "matte_uses_rgb": false,
+  "source_zero_alpha_filled": false,
+  "source_black_texels_kept": 727,
+  "source_native_resolution_preserved": true,
+  "artistic_approval": "requires human review; numerical checks do not certify anatomy/identity or natural movement",
+  "frames": [
+    {
+      "frame": 1,
+      "file": "frames/idle_01.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "9f53437afe124c8248f38459900ae719a7ac1858ef2eb817381066a3a01713a3"
+    },
+    {
+      "frame": 2,
+      "file": "frames/idle_02.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "828dbd3e0d242b1bedb4da347a9f42d85409cca7b5c39966d21b76ac90a044db"
+    },
+    {
+      "frame": 3,
+      "file": "frames/idle_03.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "89d1d62fcc2ceef5a72bc14bad49a16c2fddf36207946cc91435d2a3a2bf0101"
+    },
+    {
+      "frame": 4,
+      "file": "frames/idle_04.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "a870b5bf9668e856d290a810a71e4495f601031e7e2aa38bfc2e09262613f19d"
+    },
+    {
+      "frame": 5,
+      "file": "frames/idle_05.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "e09b1a76c2ee6bbfbc30c6f0a538adaac2da010190d5eb87aff0306e1febe5eb"
+    },
+    {
+      "frame": 6,
+      "file": "frames/idle_06.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "c4fc233e232cd315fdea25ada51d60b0abe10409051ba91cf935b9abc0999cc9"
+    },
+    {
+      "frame": 7,
+      "file": "frames/idle_07.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "f28716e5a34fe6dbee41d73dd5741fab17c7b1f81d24110bd1afd8c27bf365ba"
+    },
+    {
+      "frame": 8,
+      "file": "frames/idle_08.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "93055d639de836138adc4d2d4e6f5ffcbe27d8018f4d2b563bd14a3b714afdd3"
+    },
+    {
+      "frame": 9,
+      "file": "frames/idle_09.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "85c85eb16f90621098793667f22b3864eb7b855d35acbb40bcc8187a985c35c7"
+    },
+    {
+      "frame": 10,
+      "file": "frames/idle_10.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "cc0f0481fae2e95d3503f5ab9790fde6c4861335ca0bcf7955e6ec134521d547"
+    },
+    {
+      "frame": 11,
+      "file": "frames/idle_11.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "bde94d59255daa9097192567a7564481a6f04ab3aade28c2f847fc7306034853"
+    },
+    {
+      "frame": 12,
+      "file": "frames/idle_12.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "anchor": [
+        706,
+        1185
+      ],
+      "connected_components": 1,
+      "enclosed_transparent_pixels": 0,
+      "partially_transparent_pixels": 0,
+      "background_alpha_zero": true,
+      "head_boots_and_pinned_gear_unchanged": true,
+      "bbox": [
+        215,
+        108,
+        999,
+        1185
+      ],
+      "sha256": "3b833f0217b85eae8e1cacb912c7dbe61cf4cb225284d5b7586dd85011fa45a0"
+    }
+  ],
+  "cyclic_steps": [
+    {
+      "from": 1,
+      "to": 2,
+      "changed_pixels": 51925,
+      "white_composite_mean_rgb_step": 0.245836181640625
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "changed_pixels": 29994,
+      "white_composite_mean_rgb_step": 0.09493082682291666
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "changed_pixels": 38310,
+      "white_composite_mean_rgb_step": 0.14516072591145834
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "changed_pixels": 47715,
+      "white_composite_mean_rgb_step": 0.23706827799479166
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "changed_pixels": 51634,
+      "white_composite_mean_rgb_step": 0.28158203125
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "changed_pixels": 60889,
+      "white_composite_mean_rgb_step": 0.3005084228515625
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "changed_pixels": 52308,
+      "white_composite_mean_rgb_step": 0.24645243326822916
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "changed_pixels": 30196,
+      "white_composite_mean_rgb_step": 0.09491536458333333
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "changed_pixels": 38822,
+      "white_composite_mean_rgb_step": 0.14476460774739583
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "changed_pixels": 48073,
+      "white_composite_mean_rgb_step": 0.23770975748697917
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "changed_pixels": 51681,
+      "white_composite_mean_rgb_step": 0.2805718994140625
+    },
+    {
+      "from": 12,
+      "to": 1,
+      "changed_pixels": 60503,
+      "white_composite_mean_rgb_step": 0.3005194091796875
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "new_art_source": "image_gen, one master only",
+  "generated_file": "exec-98af6a05-8c51-43a6-9dc0-b5eb1e600407.png",
+  "source_sha256": "f7f001f7685579cf3f150218c374a50e53f1b4525197a35b65584b6a53314310",
+  "raw_tool_output_requires_coverage_mask": true,
+  "references": [
+    {
+      "path": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_01.png",
+      "sha256": "3e2b2a9fa5a49754694029528908f395cc9446eca2a55484cc12cb159d669fb0"
+    },
+    {
+      "path": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Idle/hans_idle_12.png",
+      "sha256": "42915cdaced566c9443b47eb7fe42a1ae1c9c0638295a53bb39b6c08ca5cbda1"
+    },
+    {
+      "path": "HutorReborn/assets/combat/forest_v2/prepared/Hans/Dodge/dodge_05.png",
+      "sha256": "1039170e5c6c8c1aa5280925c1546044fbcd6e0251628d05180ed7d701e76bc1"
+    }
+  ],
+  "new_master_not_a_relabelled_old_frame": true,
+  "independent_frame_generation": false,
+  "colour_keying": false,
+  "matte": "provided alpha>=128; separate stored geometry mask; no zero-alpha source pixels filled",
+  "authoring": "one reference-based RGBA drawing; local controlled 2D texture rig; all dark RGB retained in native resolution; geometry locks for head/gear/feet",
+  "artistic_identity_and_motion_approval": "human approval required before gameplay integration"
+}

@@ -1,0 +1,88 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+PASS: experimental path supplied
+PASS: frozen frame SHA 1.0
+PASS: native canvas 1.0
+PASS: frozen frame SHA 2.0
+PASS: native canvas 2.0
+PASS: frozen frame SHA 3.0
+PASS: native canvas 3.0
+PASS: frozen frame SHA 4.0
+PASS: native canvas 4.0
+PASS: frozen frame SHA 5.0
+PASS: native canvas 5.0
+PASS: frozen frame SHA 6.0
+PASS: native canvas 6.0
+PASS: frozen frame SHA 7.0
+PASS: native canvas 7.0
+PASS: frozen frame SHA 8.0
+PASS: native canvas 8.0
+PASS: frozen frame SHA 9.0
+PASS: native canvas 9.0
+PASS: frozen frame SHA 10.0
+PASS: native canvas 10.0
+PASS: frozen frame SHA 11.0
+PASS: native canvas 11.0
+PASS: frozen frame SHA 12.0
+PASS: native canvas 12.0
+PASS: exact frame/uniform scale/opacity 1 bg 0
+PASS: exact frame/uniform scale/opacity 2 bg 0
+PASS: exact frame/uniform scale/opacity 3 bg 0
+PASS: exact frame/uniform scale/opacity 4 bg 0
+PASS: exact frame/uniform scale/opacity 5 bg 0
+PASS: exact frame/uniform scale/opacity 6 bg 0
+PASS: exact frame/uniform scale/opacity 7 bg 0
+PASS: exact frame/uniform scale/opacity 8 bg 0
+PASS: exact frame/uniform scale/opacity 9 bg 0
+PASS: exact frame/uniform scale/opacity 10 bg 0
+PASS: exact frame/uniform scale/opacity 11 bg 0
+PASS: exact frame/uniform scale/opacity 12 bg 0
+PASS: save contrast atlas 0
+PASS: exact frame/uniform scale/opacity 1 bg 1
+PASS: exact frame/uniform scale/opacity 2 bg 1
+PASS: exact frame/uniform scale/opacity 3 bg 1
+PASS: exact frame/uniform scale/opacity 4 bg 1
+PASS: exact frame/uniform scale/opacity 5 bg 1
+PASS: exact frame/uniform scale/opacity 6 bg 1
+PASS: exact frame/uniform scale/opacity 7 bg 1
+PASS: exact frame/uniform scale/opacity 8 bg 1
+PASS: exact frame/uniform scale/opacity 9 bg 1
+PASS: exact frame/uniform scale/opacity 10 bg 1
+PASS: exact frame/uniform scale/opacity 11 bg 1
+PASS: exact frame/uniform scale/opacity 12 bg 1
+PASS: save contrast atlas 1
+PASS: exact frame/uniform scale/opacity 1 bg 2
+PASS: exact frame/uniform scale/opacity 2 bg 2
+PASS: exact frame/uniform scale/opacity 3 bg 2
+PASS: exact frame/uniform scale/opacity 4 bg 2
+PASS: exact frame/uniform scale/opacity 5 bg 2
+PASS: exact frame/uniform scale/opacity 6 bg 2
+PASS: exact frame/uniform scale/opacity 7 bg 2
+PASS: exact frame/uniform scale/opacity 8 bg 2
+PASS: exact frame/uniform scale/opacity 9 bg 2
+PASS: exact frame/uniform scale/opacity 10 bg 2
+PASS: exact frame/uniform scale/opacity 11 bg 2
+PASS: exact frame/uniform scale/opacity 12 bg 2
+PASS: save contrast atlas 2
+PASS: exact frame/uniform scale/opacity 1 bg 3
+PASS: exact frame/uniform scale/opacity 2 bg 3
+PASS: exact frame/uniform scale/opacity 3 bg 3
+PASS: exact frame/uniform scale/opacity 4 bg 3
+PASS: exact frame/uniform scale/opacity 5 bg 3
+PASS: exact frame/uniform scale/opacity 6 bg 3
+PASS: exact frame/uniform scale/opacity 7 bg 3
+PASS: exact frame/uniform scale/opacity 8 bg 3
+PASS: exact frame/uniform scale/opacity 9 bg 3
+PASS: exact frame/uniform scale/opacity 10 bg 3
+PASS: exact frame/uniform scale/opacity 11 bg 3
+PASS: exact frame/uniform scale/opacity 12 bg 3
+PASS: save contrast atlas 3
+PASS: all twelve phases visible in two loops bg 1
+PASS: all twelve phases visible in two loops bg 2
+PASS: all twelve phases visible in two loops bg 3
+PASS: all twelve phases visible in two loops bg 0
+PASS: existing forest arena anchor and opacity
+RESULT: 82 experimental Idle display checks passed; 0 failed
