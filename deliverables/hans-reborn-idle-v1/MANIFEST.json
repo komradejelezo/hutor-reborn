@@ -1,0 +1,138 @@
+{
+  "anchor": [
+    706.0,
+    1185.0
+  ],
+  "canvas": [
+    1280.0,
+    1280.0
+  ],
+  "frame_seconds": 0.25,
+  "frames": [
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_01.png",
+      "frame": 1,
+      "phase_radians": 0.0,
+      "sha256": "9f53437afe124c8248f38459900ae719a7ac1858ef2eb817381066a3a01713a3"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_02.png",
+      "frame": 2,
+      "phase_radians": 0.523598775598299,
+      "sha256": "828dbd3e0d242b1bedb4da347a9f42d85409cca7b5c39966d21b76ac90a044db"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_03.png",
+      "frame": 3,
+      "phase_radians": 1.0471975511966,
+      "sha256": "89d1d62fcc2ceef5a72bc14bad49a16c2fddf36207946cc91435d2a3a2bf0101"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_04.png",
+      "frame": 4,
+      "phase_radians": 1.5707963267949,
+      "sha256": "a870b5bf9668e856d290a810a71e4495f601031e7e2aa38bfc2e09262613f19d"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_05.png",
+      "frame": 5,
+      "phase_radians": 2.0943951023932,
+      "sha256": "e09b1a76c2ee6bbfbc30c6f0a538adaac2da010190d5eb87aff0306e1febe5eb"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_06.png",
+      "frame": 6,
+      "phase_radians": 2.61799387799149,
+      "sha256": "c4fc233e232cd315fdea25ada51d60b0abe10409051ba91cf935b9abc0999cc9"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_07.png",
+      "frame": 7,
+      "phase_radians": 3.14159265358979,
+      "sha256": "f28716e5a34fe6dbee41d73dd5741fab17c7b1f81d24110bd1afd8c27bf365ba"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_08.png",
+      "frame": 8,
+      "phase_radians": 3.66519142918809,
+      "sha256": "93055d639de836138adc4d2d4e6f5ffcbe27d8018f4d2b563bd14a3b714afdd3"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_09.png",
+      "frame": 9,
+      "phase_radians": 4.18879020478639,
+      "sha256": "85c85eb16f90621098793667f22b3864eb7b855d35acbb40bcc8187a985c35c7"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_10.png",
+      "frame": 10,
+      "phase_radians": 4.71238898038469,
+      "sha256": "cc0f0481fae2e95d3503f5ab9790fde6c4861335ca0bcf7955e6ec134521d547"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_11.png",
+      "frame": 11,
+      "phase_radians": 5.23598775598299,
+      "sha256": "bde94d59255daa9097192567a7564481a6f04ab3aade28c2f847fc7306034853"
+    },
+    {
+      "anchor": [
+        706.0,
+        1185.0
+      ],
+      "file": "frames/idle_12.png",
+      "frame": 12,
+      "phase_radians": 5.75958653158129,
+      "sha256": "3b833f0217b85eae8e1cacb912c7dbe61cf4cb225284d5b7586dd85011fa45a0"
+    }
+  ],
+  "matte_uses_rgb": false,
+  "source_black_rgb_pixels_preserved": 727,
+  "source_covered_pixels": 486406,
+  "source_sha256": "f7f001f7685579cf3f150218c374a50e53f1b4525197a35b65584b6a53314310",
+  "source_zero_alpha_filled": false
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "canvas": [
+    1280,
+    1280
+  ],
+  "anchor": [
+    706,
+    1185
+  ],
+  "frames": 12,
+  "frame_seconds": 0.25,
+  "source": "color_source.png",
+  "matte": {
+    "source": "original_alpha_only",
+    "threshold": 128,
+    "background_rgb_key": false,
+    "fill_internal_holes": false
+  },
+  "torso": {
+    "box": [
+      247,
+      159,
+      343,
+      232
+    ],
+    "amplitude_y": 1.15
+  },
+  "shoulder": {
+    "box": [
+      245,
+      150,
+      348,
+      193
+    ],
+    "amplitude_y": 0.65
+  },
+  "cape": {
+    "box": [
+      75,
+      225,
+      181,
+      434
+    ],
+    "amplitude_x": 2.8,
+    "amplitude_y": 0.65,
+    "phase": 0.7
+  },
+  "lock_head_above_y": 150,
+  "lock_ground_below_y": 435,
+  "lock_backpack": [
+    125,
+    75,
+    247,
+    218
+  ],
+  "lock_weapon_hand_sword": [
+    [
+      182,
+      204
+    ],
+    [
+      228,
+      202
+    ],
+    [
+      258,
+      284
+    ],
+    [
+      363,
+      350
+    ],
+    [
+      350,
+      370
+    ],
+    [
+      219,
+      306
+    ],
+    [
+      177,
+      278
+    ]
+  ],
+  "notes": "One new shared master. Local continuous deformation fields only; no whole-sprite scaling, RGB keying, redrawing independent frames, alpha flicker or synthesized in-between artwork.",
+  "control_canvas": [
+    512,
+    512
+  ],
+  "source_padding": 13,
+  "source_pixel_scale": 1
+}

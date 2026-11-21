@@ -1,0 +1,5 @@
+PASS: alpha-only separate matte; no RGB keying; 727 fully black source texels preserved; no source-alpha-zero filling
+PASS: 12 distinct new RGBA frames; one complete silhouette each; no holes/partial interiors/border damage
+PASS: head, hood, hands, sword, backpack, boots and contact anchor bit-identical across all phases
+PASS: analytic closed-cycle phases; no repeated frames; loop-boundary pixel step within ordinary transition range
+RESULT: 4 independent integrity groups passed

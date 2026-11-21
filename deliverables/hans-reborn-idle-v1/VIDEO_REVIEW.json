@@ -1,0 +1,54 @@
+{
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "duration_seconds": 32.6,
+  "source_phases_in_each_live_Godot_background": 12,
+  "decoded_samples": [
+    {
+      "seconds": 2,
+      "condition": "white",
+      "field_rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "seconds": 8,
+      "condition": "pink",
+      "field_rgb": [
+        254,
+        0,
+        253
+      ]
+    },
+    {
+      "seconds": 14,
+      "condition": "black",
+      "field_rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seconds": 21,
+      "condition": "forest_viewer",
+      "field_rgb": [
+        25,
+        15,
+        16
+      ]
+    },
+    {
+      "seconds": 29,
+      "condition": "forest_arena",
+      "field_rgb": [
+        24,
+        17,
+        20
+      ]
+    }
+  ],
+  "limitation": "Decoded samples verify complete recording conditions; source frame events verify phase playback. Neither certifies anatomy, natural breathing or exact face likeness. Lossy video is not a pixel-exact alpha test."
+}

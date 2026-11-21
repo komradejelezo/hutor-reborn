@@ -1,0 +1,22 @@
+{
+  "test": "Second complete native Godot renderer run from saved source and rig",
+  "completed": true,
+  "byte_identical": true,
+  "checked_files": {
+    "frames/idle_01.png": "9f53437afe124c8248f38459900ae719a7ac1858ef2eb817381066a3a01713a3",
+    "frames/idle_02.png": "828dbd3e0d242b1bedb4da347a9f42d85409cca7b5c39966d21b76ac90a044db",
+    "frames/idle_03.png": "89d1d62fcc2ceef5a72bc14bad49a16c2fddf36207946cc91435d2a3a2bf0101",
+    "frames/idle_04.png": "a870b5bf9668e856d290a810a71e4495f601031e7e2aa38bfc2e09262613f19d",
+    "frames/idle_05.png": "e09b1a76c2ee6bbfbc30c6f0a538adaac2da010190d5eb87aff0306e1febe5eb",
+    "frames/idle_06.png": "c4fc233e232cd315fdea25ada51d60b0abe10409051ba91cf935b9abc0999cc9",
+    "frames/idle_07.png": "f28716e5a34fe6dbee41d73dd5741fab17c7b1f81d24110bd1afd8c27bf365ba",
+    "frames/idle_08.png": "93055d639de836138adc4d2d4e6f5ffcbe27d8018f4d2b563bd14a3b714afdd3",
+    "frames/idle_09.png": "85c85eb16f90621098793667f22b3864eb7b855d35acbb40bcc8187a985c35c7",
+    "frames/idle_10.png": "cc0f0481fae2e95d3503f5ab9790fde6c4861335ca0bcf7955e6ec134521d547",
+    "frames/idle_11.png": "bde94d59255daa9097192567a7564481a6f04ab3aade28c2f847fc7306034853",
+    "frames/idle_12.png": "3b833f0217b85eae8e1cacb912c7dbe61cf4cb225284d5b7586dd85011fa45a0",
+    "working/master.png": "818e6dbc221bc0197b3ec6a31b4a02a7fab3e42a4453cdac643fabdbca9de6db",
+    "working/source_coverage.png": "37ce35badab9da1287dd2daa7024caff1028d754166cdefa61392326c37e3a25",
+    "MANIFEST.json": "6ec9b68718a45fea7cd33814fd1580520ff22a465cf604b31c73501719d86441"
+  }
+}
